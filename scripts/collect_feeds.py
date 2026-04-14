@@ -125,7 +125,7 @@ def fetch_feed(feed_info: dict, cutoff_hours: int = 48) -> list[dict]:
     return items
 
 
-def collect_all_feeds(cutoff_hours: int = 48) -> list[dict]:
+def collect_all_feeds(cutoff_hours: int = 24) -> list[dict]:
     """모든 피드 병렬 수집 + 중복 제거"""
     all_items = []
     seen_uids = set()

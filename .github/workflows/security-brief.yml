@@ -9,7 +9,7 @@ on:
       cutoff_hours:
         description: '수집 기간 (시간)'
         required: false
-        default: '48'
+        default: '24'
 
 permissions:
   contents: write  # output/ 커밋에 필요
