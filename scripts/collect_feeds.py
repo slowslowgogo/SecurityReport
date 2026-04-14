@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
 Security Feed Collector & AI Analyzer
-수집 → 분석 → HTML 브리핑 생성
+수집 → NVD/KEV 보강 → 분석 → HTML 브리핑 생성
 """
 
 import os
+import re
 import json
 import hashlib
 import feedparser
@@ -14,7 +15,6 @@ import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import Optional
 
 # ─── 팀 컨텍스트 (분류 기준) ───────────────────────────────────────────────
 TEAM_CONTEXT = """
@@ -51,38 +51,41 @@ TEAM_CONTEXT = """
 # ─── RSS 피드 목록 ──────────────────────────────────────────────────────────
 FEEDS = [
     # CISA / 미국 정부
-    {"url": "https://www.cisa.gov/feeds/alerts.xml",           "source": "CISA Alerts"},
-    {"url": "https://www.cisa.gov/feeds/kev.xml",              "source": "CISA KEV"},
+    {"url": "https://www.cisa.gov/feeds/alerts.xml",                         "source": "CISA Alerts"},
+    {"url": "https://www.cisa.gov/feeds/kev.xml",                            "source": "CISA KEV"},
     # NVD
-    {"url": "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss-analyzed.xml", "source": "NVD CVE"},
+    {"url": "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss-analyzed.xml",  "source": "NVD CVE"},
     # Android Security
-    {"url": "https://source.android.com/feed.xml",             "source": "Android Security"},
+    {"url": "https://source.android.com/feed.xml",                           "source": "Android Security"},
     # 주요 보안 미디어
-    {"url": "https://feeds.feedburner.com/TheHackersNews",     "source": "The Hacker News"},
-    {"url": "https://www.bleepingcomputer.com/feed/",          "source": "BleepingComputer"},
-    {"url": "https://krebsonsecurity.com/feed/",               "source": "KrebsOnSecurity"},
-    {"url": "https://www.darkreading.com/rss.xml",             "source": "Dark Reading"},
-    {"url": "https://threatpost.com/feed/",                    "source": "Threatpost"},
-    {"url": "https://www.securityweek.com/feed",               "source": "SecurityWeek"},
+    {"url": "https://feeds.feedburner.com/TheHackersNews",                   "source": "The Hacker News"},
+    {"url": "https://www.bleepingcomputer.com/feed/",                        "source": "BleepingComputer"},
+    {"url": "https://krebsonsecurity.com/feed/",                             "source": "KrebsOnSecurity"},
+    {"url": "https://www.darkreading.com/rss.xml",                           "source": "Dark Reading"},
+    {"url": "https://threatpost.com/feed/",                                  "source": "Threatpost"},
+    {"url": "https://www.securityweek.com/feed",                             "source": "SecurityWeek"},
     # 취약점 / 익스플로잇
-    {"url": "https://www.exploit-db.com/rss.xml",              "source": "Exploit-DB"},
-    {"url": "https://seclists.org/rss/fulldisclosure.rss",     "source": "Full Disclosure"},
+    {"url": "https://www.exploit-db.com/rss.xml",                            "source": "Exploit-DB"},
+    {"url": "https://seclists.org/rss/fulldisclosure.rss",                   "source": "Full Disclosure"},
     # 공급망 / OSS 보안
-    {"url": "https://openssf.org/feed/",                       "source": "OpenSSF"},
-    {"url": "https://socket.dev/rss.xml",                      "source": "Socket.dev"},
+    {"url": "https://openssf.org/feed/",                                     "source": "OpenSSF"},
+    {"url": "https://socket.dev/rss.xml",                                    "source": "Socket.dev"},
     # EU / 규제
-    {"url": "https://www.enisa.europa.eu/publications/rss",    "source": "ENISA"},
+    {"url": "https://www.enisa.europa.eu/publications/rss",                  "source": "ENISA"},
     # 위협 인텔리전스
-    {"url": "https://feeds.feedburner.com/rssfeed_mandiant",   "source": "Mandiant"},
-    {"url": "https://www.recordedfuture.com/feed",             "source": "Recorded Future"},
-    {"url": "https://unit42.paloaltonetworks.com/feed/",       "source": "Unit 42"},
+    {"url": "https://feeds.feedburner.com/rssfeed_mandiant",                 "source": "Mandiant"},
+    {"url": "https://www.recordedfuture.com/feed",                           "source": "Recorded Future"},
+    {"url": "https://unit42.paloaltonetworks.com/feed/",                     "source": "Unit 42"},
     # GitHub Security
-    {"url": "https://github.blog/category/security/feed/",     "source": "GitHub Security Blog"},
+    {"url": "https://github.blog/category/security/feed/",                   "source": "GitHub Security Blog"},
 ]
 
+# CVE ID 추출 정규식
+CVE_PATTERN = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
 
-# ─── 피드 수집 ──────────────────────────────────────────────────────────────
-def fetch_feed(feed_info: dict, cutoff_hours: int = 48) -> list[dict]:
+
+# ─── RSS 피드 수집 ──────────────────────────────────────────────────────────
+def fetch_feed(feed_info: dict, cutoff_hours: int = 24) -> list[dict]:
     """단일 RSS 피드 수집. cutoff_hours 이내 항목만 반환."""
     items = []
     cutoff = datetime.now(timezone.utc) - timedelta(hours=cutoff_hours)
@@ -93,7 +96,6 @@ def fetch_feed(feed_info: dict, cutoff_hours: int = 48) -> list[dict]:
             request_headers={"User-Agent": "SecurityBriefBot/1.0"}
         )
         for entry in parsed.entries:
-            # 날짜 파싱
             pub = None
             for attr in ("published_parsed", "updated_parsed", "created_parsed"):
                 t = getattr(entry, attr, None)
@@ -101,23 +103,32 @@ def fetch_feed(feed_info: dict, cutoff_hours: int = 48) -> list[dict]:
                     pub = datetime(*t[:6], tzinfo=timezone.utc)
                     break
             if pub and pub < cutoff:
-                continue  # 오래된 항목 스킵
+                continue
 
-            title = getattr(entry, "title", "").strip()
-            link  = getattr(entry, "link",  "").strip()
+            title   = getattr(entry, "title",   "").strip()
+            link    = getattr(entry, "link",    "").strip()
             summary = getattr(entry, "summary", getattr(entry, "description", ""))[:800]
 
             if not title or not link:
                 continue
 
+            # 제목+본문에서 CVE ID 미리 추출
+            cve_ids = list(set(
+                c.upper() for c in CVE_PATTERN.findall(title + " " + summary)
+            ))
+
             uid = hashlib.md5(link.encode()).hexdigest()
             items.append({
-                "uid":     uid,
-                "source":  feed_info["source"],
-                "title":   title,
-                "link":    link,
-                "summary": summary,
+                "uid":      uid,
+                "source":   feed_info["source"],
+                "title":    title,
+                "link":     link,
+                "summary":  summary,
                 "pub_date": pub.isoformat() if pub else None,
+                "cve_ids":  cve_ids,
+                "cvss":     None,
+                "kev":      False,   # CISA KEV 플래그
+                "nvd_data": None,    # NVD 보강 데이터
             })
     except Exception as e:
         print(f"  [WARN] {feed_info['source']}: {e}")
@@ -130,7 +141,7 @@ def collect_all_feeds(cutoff_hours: int = 24) -> list[dict]:
     all_items = []
     seen_uids = set()
 
-    print(f"[1/3] 피드 수집 중 ({len(FEEDS)}개 소스)...")
+    print(f"[1/4] RSS 피드 수집 중 ({len(FEEDS)}개 소스)...")
     with ThreadPoolExecutor(max_workers=10) as executor:
         futures = {executor.submit(fetch_feed, f, cutoff_hours): f for f in FEEDS}
         for future in as_completed(futures):
@@ -143,18 +154,156 @@ def collect_all_feeds(cutoff_hours: int = 24) -> list[dict]:
     return all_items
 
 
+# ─── NVD API ────────────────────────────────────────────────────────────────
+def fetch_nvd_recent(cutoff_hours: int = 24) -> dict[str, dict]:
+    """
+    NVD API v2로 최근 CVE 수집.
+    반환: {CVE-ID: {cvss, description, affected}} 딕셔너리
+    """
+    nvd_map: dict[str, dict] = {}
+    now   = datetime.now(timezone.utc)
+    start = (now - timedelta(hours=cutoff_hours)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    end   = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    url = (
+        "https://services.nvd.nist.gov/rest/json/cves/2.0"
+        f"?pubStartDate={start}&pubEndDate={end}&resultsPerPage=200"
+    )
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "SecurityBriefBot/1.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode())
+
+        for vuln in data.get("vulnerabilities", []):
+            cve    = vuln.get("cve", {})
+            cve_id = cve.get("id", "")
+            if not cve_id:
+                continue
+
+            # CVSS 점수 추출 (v3.1 → v3.0 → v2 순서)
+            cvss_score = None
+            metrics    = cve.get("metrics", {})
+            for key in ("cvssMetricV31", "cvssMetricV30", "cvssMetricV2"):
+                entries = metrics.get(key, [])
+                if entries:
+                    cvss_score = entries[0].get("cvssData", {}).get("baseScore")
+                    break
+
+            # 영문 설명
+            desc = ""
+            for d in cve.get("descriptions", []):
+                if d.get("lang") == "en":
+                    desc = d.get("value", "")[:300]
+                    break
+
+            # 영향 받는 제품 (CPE vendor)
+            affected = []
+            for cfg in cve.get("configurations", []):
+                for node in cfg.get("nodes", []):
+                    for match in node.get("cpeMatch", []):
+                        parts = match.get("criteria", "").split(":")
+                        if len(parts) > 3:
+                            affected.append(parts[3])
+            affected = list(set(affected))[:5]
+
+            nvd_map[cve_id.upper()] = {
+                "cvss":        cvss_score,
+                "description": desc,
+                "affected":    affected,
+            }
+
+        print(f"  → NVD: {len(nvd_map)}개 CVE 수집")
+    except Exception as e:
+        print(f"  [WARN] NVD API 호출 실패: {e}")
+
+    return nvd_map
+
+
+# ─── CISA KEV API ───────────────────────────────────────────────────────────
+def fetch_cisa_kev(cutoff_hours: int = 24) -> set[str]:
+    """
+    CISA KEV 카탈로그에서 최근 추가된 CVE ID 집합 반환.
+    """
+    kev_ids: set[str] = set()
+    cutoff  = datetime.now(timezone.utc) - timedelta(hours=cutoff_hours)
+    url     = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "SecurityBriefBot/1.0"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode())
+
+        for vuln in data.get("vulnerabilities", []):
+            date_added = vuln.get("dateAdded", "")
+            try:
+                added_dt = datetime.strptime(date_added, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                if added_dt >= cutoff:
+                    cve_id = vuln.get("cveID", "").upper()
+                    if cve_id:
+                        kev_ids.add(cve_id)
+            except ValueError:
+                pass
+
+        print(f"  → CISA KEV: {len(kev_ids)}개 신규 항목")
+    except Exception as e:
+        print(f"  [WARN] CISA KEV API 호출 실패: {e}")
+
+    return kev_ids
+
+
+# ─── NVD/KEV 보강 ───────────────────────────────────────────────────────────
+def enrich_with_nvd_kev(
+    items: list[dict],
+    nvd_map: dict[str, dict],
+    kev_ids: set[str],
+) -> list[dict]:
+    """
+    RSS 항목에 NVD CVSS, 영향 제품, CISA KEV 플래그를 주입.
+    CVE 없는 기사(공급망, 캠페인 등)는 그대로 통과.
+    """
+    enriched_count = 0
+    kev_count      = 0
+
+    for item in items:
+        cve_ids = item.get("cve_ids", [])
+
+        if any(c in kev_ids for c in cve_ids):
+            item["kev"] = True
+            kev_count  += 1
+
+        for cve_id in cve_ids:
+            if cve_id in nvd_map:
+                nvd = nvd_map[cve_id]
+                if nvd["cvss"] is not None:
+                    item["cvss"]     = nvd["cvss"]
+                    item["nvd_data"] = nvd
+                    enriched_count  += 1
+                break
+
+    print(f"  → NVD 보강: {enriched_count}건 / KEV 플래그: {kev_count}건")
+    return items
+
+
 # ─── AI 분류 ────────────────────────────────────────────────────────────────
 def analyze_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
     """Claude API로 배치 분류. 10건씩 묶어 처리."""
     BATCH_SIZE = 10
-    results = []
+    results    = []
+    total      = len(items)
 
-    print(f"[2/3] AI 분류 중 ({len(items)}건, {(len(items)-1)//BATCH_SIZE+1}배치)...")
+    print(f"[3/4] AI 분류 중 ({total}건, {(total-1)//BATCH_SIZE+1}배치)...")
 
-    for i in range(0, len(items), BATCH_SIZE):
-        batch = items[i:i + BATCH_SIZE]
+    for i in range(0, total, BATCH_SIZE):
+        batch      = items[i:i + BATCH_SIZE]
         batch_text = "\n\n".join(
-            f"[{j+1}] 제목: {it['title']}\n출처: {it['source']}\n내용: {it['summary'][:300]}"
+            (
+                f"[{j+1}] 제목: {it['title']}\n"
+                f"출처: {it['source']}\n"
+                f"내용: {it['summary'][:300]}\n"
+                + (f"CVE: {', '.join(it['cve_ids'])} / CVSS: {it['cvss']}\n" if it.get('cve_ids') else "")
+                + ("⚠️ CISA KEV 등재 (실제 악용 중)\n" if it.get('kev') else "")
+            )
             for j, it in enumerate(batch)
         )
 
@@ -174,6 +323,11 @@ def analyze_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
   "cvss": null
 }}
 
+규칙:
+- CISA KEV 등재 항목은 relevance를 반드시 high로 설정
+- CVSS 9.0 이상이면 relevance를 high로 설정
+- CVE 없어도 공급망 공격·캠페인·규제 이슈는 내용 기반으로 분류
+
 항목 목록:
 {batch_text}"""
 
@@ -185,7 +339,6 @@ def analyze_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
                 messages=[{"role": "user", "content": prompt}]
             )
             raw = response.content[0].text.strip()
-            # JSON 펜스 제거
             if raw.startswith("```"):
                 raw = raw.split("```")[1]
                 if raw.startswith("json"):
@@ -194,35 +347,40 @@ def analyze_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
             for result in parsed:
                 idx = result.get("idx", 1) - 1
                 if 0 <= idx < len(batch):
+                    # NVD 실제 CVSS 값 보존
+                    if batch[idx].get("cvss") is not None:
+                        result["cvss"] = batch[idx]["cvss"]
+                    # CVE ID 병합
+                    ai_cves  = result.get("cve_ids", [])
+                    existing = batch[idx].get("cve_ids", [])
+                    result["cve_ids"] = list(set(existing + ai_cves))
                     batch[idx].update(result)
                     results.append(batch[idx])
         except Exception as e:
             print(f"  [WARN] 배치 {i//BATCH_SIZE+1} 분석 실패: {e}")
             for item in batch:
-                item["relevance"] = "low"
-                item["category"] = "other"
-                item["summary_ko"] = item["title"][:50]
-                item["action_required"] = False
-                item["action_type"] = "none"
-                item["cve_ids"] = []
-                item["cvss"] = None
+                item.setdefault("relevance",       "low")
+                item.setdefault("category",        "other")
+                item.setdefault("summary_ko",      item["title"][:50])
+                item.setdefault("action_required", False)
+                item.setdefault("action_type",     "none")
                 results.append(item)
 
-        print(f"  → 배치 {i//BATCH_SIZE+1}/{(len(items)-1)//BATCH_SIZE+1} 완료")
+        print(f"  → 배치 {i//BATCH_SIZE+1}/{(total-1)//BATCH_SIZE+1} 완료")
 
     return results
 
 
 # ─── HTML 생성 ───────────────────────────────────────────────────────────────
-def generate_html(items: list[dict], output_path: Path) -> None:
+def generate_html(items: list[dict], output_path: Path, feed_count: int) -> None:
     """분석 결과를 보안 브리핑 HTML로 변환"""
 
     high   = [x for x in items if x.get("relevance") == "high"]
     medium = [x for x in items if x.get("relevance") == "medium"]
     low    = [x for x in items if x.get("relevance") == "low"]
     action = [x for x in items if x.get("action_required")]
+    kev    = [x for x in items if x.get("kev")]
 
-    # 카테고리 통계
     cat_counts: dict[str, int] = {}
     for item in items:
         c = item.get("category", "other")
@@ -233,34 +391,58 @@ def generate_html(items: list[dict], output_path: Path) -> None:
         "threat_intel": "위협 인텔", "tool": "도구·기술", "other": "기타"
     }
 
-    now_kst = datetime.now(timezone(timedelta(hours=9)))
+    now_kst  = datetime.now(timezone(timedelta(hours=9)))
     date_str = now_kst.strftime("%Y년 %m월 %d일 %H:%M KST")
 
+    def cvss_color(score) -> str:
+        if score is None:  return "var(--text3)"
+        if score >= 9.0:   return "var(--red)"
+        if score >= 7.0:   return "var(--orange)"
+        return "var(--blue)"
+
     def item_card(item: dict) -> str:
-        rel = item.get("relevance", "low")
+        rel       = item.get("relevance", "low")
         rel_class = {"high": "rel-high", "medium": "rel-medium", "low": "rel-low"}.get(rel, "rel-low")
         rel_label = {"high": "긴급", "medium": "모니터링", "low": "참고"}.get(rel, "참고")
-        cat = cat_labels.get(item.get("category", "other"), "기타")
-        cves = item.get("cve_ids", [])
-        cve_html = " ".join(f'<span class="cve-tag">{c}</span>' for c in cves) if cves else ""
-        cvss = item.get("cvss")
-        cvss_html = f'<span class="cvss-badge">CVSS {cvss}</span>' if cvss else ""
+        cat       = cat_labels.get(item.get("category", "other"), "기타")
+        cves      = item.get("cve_ids", [])
+        cvss      = item.get("cvss")
+        is_kev    = item.get("kev", False)
+        nvd       = item.get("nvd_data")
+
+        cve_html = " ".join(
+            f'<a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/{c}" target="_blank">{c}</a>'
+            for c in cves
+        ) if cves else ""
+
+        cvss_html   = (
+            f'<span class="cvss-badge" style="color:{cvss_color(cvss)}">CVSS {cvss}</span>'
+            if cvss else ""
+        )
+        kev_html    = '<span class="kev-badge">🔥 KEV</span>' if is_kev else ""
         action_html = '<span class="action-badge">⚡ 조치 필요</span>' if item.get("action_required") else ""
-        pub = item.get("pub_date", "")
+        pub         = item.get("pub_date", "")
         pub_display = pub[:10] if pub else ""
+
+        affected_html = ""
+        if nvd and nvd.get("affected"):
+            tags = " ".join(
+                f'<span class="affected-tag">{v}</span>' for v in nvd["affected"]
+            )
+            affected_html = f'<div class="affected-row">영향 제품: {tags}</div>'
 
         return f"""
         <div class="item-card {rel_class}">
           <div class="item-header">
             <span class="rel-badge">{rel_label}</span>
             <span class="cat-badge">{cat}</span>
-            {action_html}
-            {cvss_html}
+            {kev_html}{action_html}{cvss_html}
           </div>
           <div class="item-title">
             <a href="{item.get('link','#')}" target="_blank" rel="noopener">{item.get('title','')}</a>
           </div>
           <div class="item-summary">{item.get('summary_ko', '')}</div>
+          {affected_html}
           <div class="item-meta">
             <span class="source-tag">📡 {item.get('source','')}</span>
             {cve_html}
@@ -293,231 +475,138 @@ def generate_html(items: list[dict], output_path: Path) -> None:
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
   :root {{
-    --bg:        #0d1117;
-    --bg2:       #161b22;
-    --bg3:       #21262d;
-    --border:    #30363d;
-    --text:      #e6edf3;
-    --text2:     #8b949e;
-    --text3:     #6e7681;
-    --red:       #f85149;
-    --red-dim:   #3d1f1f;
-    --orange:    #e3b341;
-    --orange-dim:#3d2f0d;
-    --blue:      #58a6ff;
-    --blue-dim:  #0d2140;
-    --green:     #3fb950;
-    --green-dim: #122920;
-    --purple:    #bc8cff;
-    --teal:      #39d353;
-    --accent:    #1f6feb;
+    --bg:         #0d1117;
+    --bg2:        #161b22;
+    --bg3:        #21262d;
+    --border:     #30363d;
+    --text:       #e6edf3;
+    --text2:      #8b949e;
+    --text3:      #6e7681;
+    --red:        #f85149;
+    --red-dim:    #3d1f1f;
+    --orange:     #e3b341;
+    --orange-dim: #3d2f0d;
+    --blue:       #58a6ff;
+    --blue-dim:   #0d2140;
+    --green:      #3fb950;
+    --green-dim:  #122920;
+    --purple:     #bc8cff;
+    --purple-dim: #1f1340;
+    --accent:     #1f6feb;
   }}
 
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-
   body {{
     font-family: 'IBM Plex Sans KR', sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    font-size: 14px;
-    line-height: 1.6;
-    min-height: 100vh;
+    background: var(--bg); color: var(--text);
+    font-size: 14px; line-height: 1.6; min-height: 100vh;
   }}
 
-  /* ── 헤더 ── */
   .site-header {{
-    background: var(--bg2);
-    border-bottom: 1px solid var(--border);
-    padding: 24px 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    backdrop-filter: blur(8px);
+    background: var(--bg2); border-bottom: 1px solid var(--border);
+    padding: 24px 32px; display: flex; align-items: center;
+    justify-content: space-between; position: sticky; top: 0; z-index: 100;
   }}
-  .header-left {{ display: flex; align-items: center; gap: 14px; }}
+  .header-left  {{ display: flex; align-items: center; gap: 14px; }}
   .logo-mark {{
-    width: 36px; height: 36px;
-    background: var(--accent);
-    border-radius: 8px;
+    width: 36px; height: 36px; background: var(--accent); border-radius: 8px;
     display: flex; align-items: center; justify-content: center;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 500; font-size: 14px; color: #fff;
-    flex-shrink: 0;
+    font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 14px; color: #fff;
   }}
   .header-title {{ font-size: 16px; font-weight: 600; letter-spacing: -0.3px; }}
-  .header-date {{ font-size: 12px; color: var(--text2); font-family: 'IBM Plex Mono', monospace; }}
-  .header-right {{ display: flex; gap: 8px; align-items: center; }}
+  .header-date  {{ font-size: 12px; color: var(--text2); font-family: 'IBM Plex Mono', monospace; }}
 
-  /* ── 통계 바 ── */
   .stats-bar {{
-    background: var(--bg2);
-    border-bottom: 1px solid var(--border);
-    padding: 16px 32px;
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    overflow-x: auto;
+    background: var(--bg2); border-bottom: 1px solid var(--border);
+    padding: 16px 32px; display: flex; gap: 32px; align-items: center; overflow-x: auto;
   }}
-  .stats-group {{ display: flex; gap: 24px; align-items: center; }}
+  .stats-group   {{ display: flex; gap: 24px; align-items: center; }}
   .stats-divider {{ width: 1px; height: 32px; background: var(--border); flex-shrink: 0; }}
-
-  .big-stat {{ display: flex; flex-direction: column; align-items: center; }}
-  .big-stat .num {{
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 24px; font-weight: 500; line-height: 1;
-  }}
+  .big-stat      {{ display: flex; flex-direction: column; align-items: center; }}
+  .big-stat .num {{ font-family: 'IBM Plex Mono', monospace; font-size: 24px; font-weight: 500; line-height: 1; }}
   .big-stat .label {{ font-size: 11px; color: var(--text2); margin-top: 3px; }}
-  .num-red {{ color: var(--red); }}
+  .num-red    {{ color: var(--red); }}
   .num-orange {{ color: var(--orange); }}
-  .num-blue {{ color: var(--blue); }}
-  .num-white {{ color: var(--text); }}
-
-  .stat-item {{ display: flex; flex-direction: column; align-items: center; }}
-  .stat-num {{
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 18px; font-weight: 500; color: var(--text);
-  }}
+  .num-blue   {{ color: var(--blue); }}
+  .num-purple {{ color: var(--purple); }}
+  .num-white  {{ color: var(--text); }}
+  .stat-item  {{ display: flex; flex-direction: column; align-items: center; }}
+  .stat-num   {{ font-family: 'IBM Plex Mono', monospace; font-size: 18px; font-weight: 500; color: var(--text); }}
   .stat-label {{ font-size: 11px; color: var(--text3); margin-top: 2px; }}
 
-  /* ── 메인 레이아웃 ── */
   .main {{ padding: 32px; max-width: 1400px; margin: 0 auto; }}
 
-  /* ── 필터 바 ── */
-  .filter-bar {{
-    display: flex; gap: 8px; margin-bottom: 24px;
-    flex-wrap: wrap; align-items: center;
-  }}
-  .filter-btn {{
-    padding: 6px 14px;
-    border-radius: 20px;
-    border: 1px solid var(--border);
-    background: var(--bg2);
-    color: var(--text2);
-    font-size: 12px;
-    font-family: 'IBM Plex Sans KR', sans-serif;
-    cursor: pointer;
-    transition: all .15s;
-  }}
-  .filter-btn:hover, .filter-btn.active {{
-    background: var(--accent); border-color: var(--accent);
-    color: #fff;
-  }}
-
-  /* ── 섹션 ── */
   .brief-section {{ margin-bottom: 40px; }}
   .section-title {{
-    font-size: 15px; font-weight: 600;
-    display: flex; align-items: center; gap: 8px;
-    margin-bottom: 16px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--border);
+    font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 8px;
+    margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--border);
   }}
   .section-icon {{ font-size: 16px; }}
   .count-badge {{
-    margin-left: auto;
-    font-family: 'IBM Plex Mono', monospace;
+    margin-left: auto; font-family: 'IBM Plex Mono', monospace;
     font-size: 12px; font-weight: 500;
-    background: var(--bg3); color: var(--text2);
-    padding: 2px 8px; border-radius: 10px;
+    background: var(--bg3); color: var(--text2); padding: 2px 8px; border-radius: 10px;
   }}
 
-  /* ── 카드 그리드 ── */
   .items-grid {{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-    gap: 12px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 12px;
   }}
 
-  /* ── 아이템 카드 ── */
   .item-card {{
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 14px 16px;
-    transition: border-color .15s, transform .15s;
+    background: var(--bg2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 14px 16px; transition: border-color .15s, transform .15s;
     border-left: 3px solid transparent;
   }}
-  .item-card:hover {{
-    transform: translateY(-1px);
-    border-color: var(--accent);
-  }}
-  .rel-high  {{ border-left-color: var(--red); }}
-  .rel-medium{{ border-left-color: var(--orange); }}
-  .rel-low   {{ border-left-color: var(--border); }}
+  .item-card:hover {{ transform: translateY(-1px); border-color: var(--accent); }}
+  .rel-high   {{ border-left-color: var(--red); }}
+  .rel-medium {{ border-left-color: var(--orange); }}
+  .rel-low    {{ border-left-color: var(--border); }}
 
-  .item-header {{
-    display: flex; gap: 6px; margin-bottom: 8px;
-    flex-wrap: wrap; align-items: center;
-  }}
+  .item-header {{ display: flex; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; align-items: center; }}
 
   .rel-badge {{
     font-size: 10px; font-weight: 600; letter-spacing: .5px;
     padding: 2px 7px; border-radius: 4px; text-transform: uppercase;
     font-family: 'IBM Plex Mono', monospace;
   }}
-  .rel-high  .rel-badge {{ background: var(--red-dim);    color: var(--red); }}
+  .rel-high   .rel-badge {{ background: var(--red-dim);    color: var(--red); }}
   .rel-medium .rel-badge {{ background: var(--orange-dim); color: var(--orange); }}
-  .rel-low   .rel-badge {{ background: var(--bg3);         color: var(--text3); }}
+  .rel-low    .rel-badge {{ background: var(--bg3);        color: var(--text3); }}
 
-  .cat-badge {{
-    font-size: 10px; padding: 2px 7px; border-radius: 4px;
-    background: var(--blue-dim); color: var(--blue);
-  }}
-  .action-badge {{
-    font-size: 10px; padding: 2px 7px; border-radius: 4px;
-    background: #2d1f0d; color: var(--orange);
-    font-weight: 600;
-  }}
-  .cvss-badge {{
-    font-size: 10px; font-family: 'IBM Plex Mono', monospace;
-    padding: 2px 7px; border-radius: 4px;
-    background: var(--red-dim); color: var(--red);
-  }}
+  .cat-badge    {{ font-size: 10px; padding: 2px 7px; border-radius: 4px; background: var(--blue-dim);   color: var(--blue); }}
+  .kev-badge    {{ font-size: 10px; padding: 2px 7px; border-radius: 4px; background: #3d1a00;           color: #ff6b35; font-weight: 700; }}
+  .action-badge {{ font-size: 10px; padding: 2px 7px; border-radius: 4px; background: #2d1f0d;           color: var(--orange); font-weight: 600; }}
+  .cvss-badge   {{ font-size: 10px; font-family: 'IBM Plex Mono', monospace; padding: 2px 7px; border-radius: 4px; background: var(--bg3); }}
 
-  .item-title {{
-    font-size: 13px; font-weight: 500;
-    margin-bottom: 6px; line-height: 1.45;
-  }}
-  .item-title a {{
-    color: var(--text);
-    text-decoration: none;
-  }}
+  .item-title {{ font-size: 13px; font-weight: 500; margin-bottom: 6px; line-height: 1.45; }}
+  .item-title a {{ color: var(--text); text-decoration: none; }}
   .item-title a:hover {{ color: var(--blue); }}
+  .item-summary {{ font-size: 12px; color: var(--text2); line-height: 1.5; margin-bottom: 6px; }}
 
-  .item-summary {{
-    font-size: 12px; color: var(--text2);
-    line-height: 1.5; margin-bottom: 8px;
+  .affected-row {{ font-size: 11px; color: var(--text3); margin-bottom: 6px; }}
+  .affected-tag {{
+    display: inline-block; font-size: 10px; font-family: 'IBM Plex Mono', monospace;
+    padding: 1px 5px; border-radius: 3px;
+    background: var(--purple-dim); color: var(--purple); margin-right: 3px;
   }}
 
-  .item-meta {{
-    display: flex; gap: 6px; flex-wrap: wrap; align-items: center;
-  }}
-  .source-tag, .date-tag {{
-    font-size: 11px; color: var(--text3);
-    font-family: 'IBM Plex Mono', monospace;
-  }}
+  .item-meta {{ display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }}
+  .source-tag, .date-tag {{ font-size: 11px; color: var(--text3); font-family: 'IBM Plex Mono', monospace; }}
   .cve-tag {{
     font-size: 10px; font-family: 'IBM Plex Mono', monospace;
     padding: 1px 6px; border-radius: 3px;
-    background: var(--green-dim); color: var(--green);
+    background: var(--green-dim); color: var(--green); text-decoration: none;
   }}
+  .cve-tag:hover {{ background: var(--green); color: #000; }}
 
-  /* ── 빈 섹션 ── */
   .empty-note {{
-    padding: 32px; text-align: center;
-    color: var(--text3); font-size: 13px;
+    padding: 32px; text-align: center; color: var(--text3); font-size: 13px;
     border: 1px dashed var(--border); border-radius: 8px;
   }}
 
-  /* ── 푸터 ── */
   .site-footer {{
-    margin-top: 40px; padding: 24px 32px;
-    border-top: 1px solid var(--border);
-    color: var(--text3); font-size: 11px;
-    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 40px; padding: 24px 32px; border-top: 1px solid var(--border);
+    color: var(--text3); font-size: 11px; font-family: 'IBM Plex Mono', monospace;
     display: flex; justify-content: space-between;
   }}
 
@@ -546,11 +635,10 @@ def generate_html(items: list[dict], output_path: Path) -> None:
     <div class="big-stat"><span class="num num-red">{len(high)}</span><span class="label">긴급</span></div>
     <div class="big-stat"><span class="num num-orange">{len(medium)}</span><span class="label">모니터링</span></div>
     <div class="big-stat"><span class="num num-blue">{len(action)}</span><span class="label">조치 필요</span></div>
+    <div class="big-stat"><span class="num num-purple">{len(kev)}</span><span class="label">KEV 등재</span></div>
   </div>
   <div class="stats-divider"></div>
-  <div class="stats-group">
-    {cat_stats_html}
-  </div>
+  <div class="stats-group">{cat_stats_html}</div>
 </div>
 
 <main class="main">
@@ -562,8 +650,8 @@ def generate_html(items: list[dict], output_path: Path) -> None:
 </main>
 
 <footer class="site-footer">
-  <span>Security Briefing · AI-augmented threat monitoring</span>
-  <span>생성: {date_str} · 수집 소스: {len(FEEDS)}개 피드</span>
+  <span>Security Briefing · AI-augmented · RSS {feed_count}개 + NVD API + CISA KEV API</span>
+  <span>생성: {date_str}</span>
 </footer>
 
 </body>
@@ -579,31 +667,40 @@ def main():
     if not api_key:
         raise EnvironmentError("ANTHROPIC_API_KEY 환경 변수가 설정되지 않았습니다.")
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client       = anthropic.Anthropic(api_key=api_key)
+    cutoff_hours = int(os.environ.get("CUTOFF_HOURS", "24"))
 
-    # 1. 수집
-    items = collect_all_feeds(cutoff_hours=48)
+    # 1. RSS 수집
+    items = collect_all_feeds(cutoff_hours=cutoff_hours)
     if not items:
         print("[!] 수집된 항목 없음. 종료.")
         return
 
-    # 2. AI 분류
+    # 2. NVD + CISA KEV 병렬 호출
+    print("[2/4] NVD API + CISA KEV API 호출 중...")
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        f_nvd = executor.submit(fetch_nvd_recent, cutoff_hours)
+        f_kev = executor.submit(fetch_cisa_kev,   cutoff_hours)
+        nvd_map = f_nvd.result()
+        kev_ids = f_kev.result()
+
+    items = enrich_with_nvd_kev(items, nvd_map, kev_ids)
+
+    # 3. AI 분류
     analyzed = analyze_batch(items, client)
 
-    # 3. HTML 생성
-    print("[3/3] HTML 브리핑 생성 중...")
+    # 4. HTML 생성
+    print("[4/4] HTML 브리핑 생성 중...")
     output_dir = Path(os.environ.get("OUTPUT_DIR", "output"))
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    today = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
+    today     = datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")
     html_path = output_dir / f"brief_{today}.html"
-    generate_html(analyzed, html_path)
+    generate_html(analyzed, html_path, feed_count=len(FEEDS))
 
-    # 최신 파일도 덮어쓰기 (GitHub Pages index용)
     latest_path = output_dir / "index.html"
     latest_path.write_text(html_path.read_text(encoding="utf-8"), encoding="utf-8")
 
-    # JSON 저장 (아카이브)
     json_path = output_dir / f"brief_{today}.json"
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(analyzed, f, ensure_ascii=False, indent=2)
@@ -611,15 +708,15 @@ def main():
     high_count   = sum(1 for x in analyzed if x.get("relevance") == "high")
     medium_count = sum(1 for x in analyzed if x.get("relevance") == "medium")
     action_count = sum(1 for x in analyzed if x.get("action_required"))
+    kev_count    = sum(1 for x in analyzed if x.get("kev"))
 
     print(f"""
-╔══════════════════════════════════════╗
+╔════════════════════════════════════════════════╗
 ║  브리핑 생성 완료
-║  총 {len(analyzed):>3}건 | 긴급 {high_count:>2} | 모니터링 {medium_count:>2} | 조치필요 {action_count:>2}
+║  총 {len(analyzed):>3}건 | 긴급 {high_count:>2} | 모니터링 {medium_count:>2} | 조치필요 {action_count:>2} | KEV {kev_count:>2}
 ║  {html_path}
-╚══════════════════════════════════════╝""")
+╚════════════════════════════════════════════════╝""")
 
-    # GitHub Actions summary 출력
     summary_file = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary_file:
         with open(summary_file, "w", encoding="utf-8") as f:
@@ -631,6 +728,7 @@ def main():
 | 🔴 긴급 | {high_count} |
 | 🟡 모니터링 | {medium_count} |
 | ⚡ 조치 필요 | {action_count} |
+| 🔥 KEV 등재 | {kev_count} |
 
 📄 `output/brief_{today}.html` 에 저장되었습니다.
 """)

@@ -4,7 +4,7 @@ on:
   schedule:
     # 평일 오전 8시 KST (= UTC 23:00, 전날)
     - cron: '0 23 * * 0-4'
-  workflow_dispatch:  # 수동 실행 허용
+  workflow_dispatch:
     inputs:
       cutoff_hours:
         description: '수집 기간 (시간)'
@@ -12,7 +12,7 @@ on:
         default: '24'
 
 permissions:
-  contents: write  # output/ 커밋에 필요
+  contents: write
 
 jobs:
   brief:
@@ -37,6 +37,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OUTPUT_DIR: output
+          CUTOFF_HOURS: ${{ github.event.inputs.cutoff_hours || '24' }}
         run: python scripts/collect_feeds.py
 
       - name: Commit output to repo
