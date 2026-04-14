@@ -13,8 +13,6 @@ on:
 
 permissions:
   contents: write  # output/ 커밋에 필요
-  pages: write     # GitHub Pages 배포에 필요
-  id-token: write
 
 jobs:
   brief:
@@ -48,21 +46,3 @@ jobs:
           git add output/
           git diff --staged --quiet || git commit -m "brief: $(date +'%Y-%m-%d') 보안 브리핑"
           git push
-
-      # ── GitHub Pages 배포 (선택) ─────────────────────────────────────────
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: output/
-
-  deploy-pages:
-    name: Deploy to GitHub Pages
-    needs: brief
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
