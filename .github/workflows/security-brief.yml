@@ -1,0 +1,68 @@
+name: Security Briefing
+
+on:
+  schedule:
+    # 평일 오전 8시 KST (= UTC 23:00, 전날)
+    - cron: '0 23 * * 0-4'
+  workflow_dispatch:  # 수동 실행 허용
+    inputs:
+      cutoff_hours:
+        description: '수집 기간 (시간)'
+        required: false
+        default: '48'
+
+permissions:
+  contents: write  # output/ 커밋에 필요
+  pages: write     # GitHub Pages 배포에 필요
+  id-token: write
+
+jobs:
+  brief:
+    name: Collect & Analyze Feeds
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run security brief
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OUTPUT_DIR: output
+        run: python scripts/collect_feeds.py
+
+      - name: Commit output to repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git diff --staged --quiet || git commit -m "brief: $(date +'%Y-%m-%d') 보안 브리핑"
+          git push
+
+      # ── GitHub Pages 배포 (선택) ─────────────────────────────────────────
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output/
+
+  deploy-pages:
+    name: Deploy to GitHub Pages
+    needs: brief
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
