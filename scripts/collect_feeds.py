@@ -78,6 +78,13 @@ FEEDS = [
     {"url": "https://unit42.paloaltonetworks.com/feed/",                     "source": "Unit 42"},
     # GitHub Security
     {"url": "https://github.blog/category/security/feed/",                   "source": "GitHub Security Blog"},
+    # 추가 보안 미디어
+    {"url": "https://www.cybersecuritydive.com/feeds/news/",                 "source": "Cybersecurity Dive"},
+    {"url": "https://blog.google/threat-analysis-group/rss/",               "source": "Google Security Blog"},
+    {"url": "https://cyble.com/feed/",                                       "source": "Cyble"},
+    # 위협 인텔리전스 (추가)
+    {"url": "https://isc.sans.edu/rssfeed_full.xml",                        "source": "SANS ISC"},
+    {"url": "https://googleprojectzero.blogspot.com/feeds/posts/default",   "source": "Google Project Zero"},
 ]
 
 # CVE ID 추출 정규식
