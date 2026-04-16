@@ -295,7 +295,7 @@ def enrich_with_nvd_kev(
 # ─── AI 분류 ────────────────────────────────────────────────────────────────
 def analyze_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
     """Claude API로 배치 분류. 10건씩 묶어 처리."""
-    BATCH_SIZE = 10
+    BATCH_SIZE = 5
     results    = []
     total      = len(items)
 
@@ -341,7 +341,7 @@ def analyze_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
         try:
             response = client.messages.create(
                 model="claude-sonnet-4-20250514",
-                max_tokens=2000,
+                max_tokens=4000,
                 system=TEAM_CONTEXT,
                 messages=[{"role": "user", "content": prompt}]
             )
