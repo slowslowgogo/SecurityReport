@@ -661,6 +661,348 @@ def generate_html(items: list[dict], output_path: Path, feed_count: int) -> None
     print(f"  → HTML 저장: {output_path}")
 
 
+# ─── 아카이브 뷰어 생성 ─────────────────────────────────────────────────────
+def generate_archive(output_dir: Path) -> None:
+    """output/ 폴더의 JSON 파일들을 읽어 날짜별 아카이브 HTML 생성"""
+
+    # brief_YYYY-MM-DD.json 파일 목록 수집 (최신순)
+    json_files = sorted(output_dir.glob("brief_*.json"), reverse=True)
+    if not json_files:
+        return
+
+    entries = []
+    for jf in json_files:
+        date_str = jf.stem.replace("brief_", "")   # "2026-04-14"
+        try:
+            with open(jf, encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            continue
+
+        total  = len(data)
+        high   = sum(1 for x in data if x.get("relevance") == "high")
+        medium = sum(1 for x in data if x.get("relevance") == "medium")
+        action = sum(1 for x in data if x.get("action_required"))
+        kev    = sum(1 for x in data if x.get("kev"))
+
+        # 카테고리 분포
+        cat_counts: dict[str, int] = {}
+        for item in data:
+            c = item.get("category", "other")
+            cat_counts[c] = cat_counts.get(c, 0) + 1
+
+        entries.append({
+            "date":       date_str,
+            "html_file":  f"brief_{date_str}.html",
+            "total":      total,
+            "high":       high,
+            "medium":     medium,
+            "action":     action,
+            "kev":        kev,
+            "cat_counts": cat_counts,
+        })
+
+    if not entries:
+        return
+
+    cat_labels = {
+        "vuln": "취약점", "supply_chain": "공급망", "regulatory": "규제",
+        "threat_intel": "위협 인텔", "tool": "도구·기술", "other": "기타"
+    }
+
+    now_kst  = datetime.now(timezone(timedelta(hours=9)))
+    date_str_now = now_kst.strftime("%Y년 %m월 %d일 %H:%M KST")
+
+    def entry_row(e: dict) -> str:
+        # 날짜 포맷
+        try:
+            d    = datetime.strptime(e["date"], "%Y-%m-%d")
+            disp = d.strftime("%Y.%m.%d (%a)").replace(
+                "Mon","월").replace("Tue","화").replace("Wed","수").replace(
+                "Thu","목").replace("Fri","금").replace("Sat","토").replace("Sun","일")
+        except ValueError:
+            disp = e["date"]
+
+        kev_html    = f'<span class="kev-pill">{e["kev"]} KEV</span>' if e["kev"] > 0 else ""
+        action_html = f'<span class="action-pill">⚡ {e["action"]}</span>' if e["action"] > 0 else ""
+
+        # 카테고리 바
+        cat_html = "".join(
+            f'<span class="cat-dot" title="{cat_labels.get(k,k)}: {v}건" style="flex:{v}">'
+            f'</span>'
+            for k, v in sorted(e["cat_counts"].items(), key=lambda x: -x[1])
+        )
+
+        # high 건수에 따라 행 강조
+        row_cls = "row-high" if e["high"] >= 3 else ("row-mid" if e["high"] >= 1 else "")
+
+        return f"""
+        <tr class="entry-row {row_cls}" onclick="location.href='{e['html_file']}'">
+          <td class="td-date">{disp}</td>
+          <td class="td-total">{e['total']}</td>
+          <td class="td-high"><span class="num-high">{e['high']}</span></td>
+          <td class="td-medium"><span class="num-medium">{e['medium']}</span></td>
+          <td class="td-badges">{kev_html}{action_html}</td>
+          <td class="td-bar"><div class="cat-bar">{cat_html}</div></td>
+          <td class="td-link"><a href="{e['html_file']}" onclick="event.stopPropagation()">열기 →</a></td>
+        </tr>"""
+
+    rows_html = "\n".join(entry_row(e) for e in entries)
+
+    # 전체 누적 통계
+    total_days   = len(entries)
+    total_items  = sum(e["total"]  for e in entries)
+    total_high   = sum(e["high"]   for e in entries)
+    total_kev    = sum(e["kev"]    for e in entries)
+    total_action = sum(e["action"] for e in entries)
+
+    html = f"""<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Briefing — 아카이브</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  :root {{
+    --bg:         #0d1117;
+    --bg2:        #161b22;
+    --bg3:        #21262d;
+    --border:     #30363d;
+    --text:       #e6edf3;
+    --text2:      #8b949e;
+    --text3:      #6e7681;
+    --red:        #f85149;
+    --red-dim:    #3d1f1f;
+    --orange:     #e3b341;
+    --orange-dim: #3d2f0d;
+    --blue:       #58a6ff;
+    --blue-dim:   #0d2140;
+    --green:      #3fb950;
+    --green-dim:  #122920;
+    --purple:     #bc8cff;
+    --purple-dim: #1f1340;
+    --accent:     #1f6feb;
+  }}
+
+  * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+  body {{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    background: var(--bg); color: var(--text);
+    font-size: 14px; line-height: 1.6; min-height: 100vh;
+  }}
+
+  /* ── 헤더 ── */
+  .site-header {{
+    background: var(--bg2); border-bottom: 1px solid var(--border);
+    padding: 24px 32px; display: flex; align-items: center; gap: 14px;
+    position: sticky; top: 0; z-index: 100;
+  }}
+  .logo-mark {{
+    width: 36px; height: 36px; background: var(--accent); border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 14px; color: #fff;
+    flex-shrink: 0;
+  }}
+  .header-title {{ font-size: 16px; font-weight: 600; }}
+  .header-sub   {{ font-size: 12px; color: var(--text2); font-family: 'IBM Plex Mono', monospace; }}
+  .header-nav   {{ margin-left: auto; display: flex; gap: 12px; }}
+  .nav-link {{
+    font-size: 12px; color: var(--text2); text-decoration: none;
+    padding: 5px 12px; border: 1px solid var(--border); border-radius: 6px;
+    transition: all .15s;
+  }}
+  .nav-link:hover {{ color: var(--text); border-color: var(--accent); }}
+
+  /* ── 누적 통계 ── */
+  .summary-bar {{
+    background: var(--bg2); border-bottom: 1px solid var(--border);
+    padding: 20px 32px; display: flex; gap: 40px; align-items: center;
+  }}
+  .sum-item  {{ display: flex; flex-direction: column; align-items: center; }}
+  .sum-num   {{ font-family: 'IBM Plex Mono', monospace; font-size: 28px; font-weight: 500; line-height: 1; }}
+  .sum-label {{ font-size: 11px; color: var(--text2); margin-top: 4px; }}
+  .sum-divider {{ width: 1px; height: 40px; background: var(--border); }}
+
+  /* ── 메인 ── */
+  .main {{ padding: 32px; max-width: 1200px; margin: 0 auto; }}
+
+  .section-header {{
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--border);
+  }}
+  .section-title {{ font-size: 15px; font-weight: 600; }}
+
+  /* ── 테이블 ── */
+  .archive-table {{
+    width: 100%; border-collapse: collapse;
+    background: var(--bg2); border-radius: 8px; overflow: hidden;
+    border: 1px solid var(--border);
+  }}
+  .archive-table thead tr {{
+    background: var(--bg3); border-bottom: 1px solid var(--border);
+  }}
+  .archive-table th {{
+    padding: 10px 14px; font-size: 11px; font-weight: 600;
+    color: var(--text2); text-align: left; letter-spacing: .5px; text-transform: uppercase;
+    font-family: 'IBM Plex Mono', monospace;
+  }}
+  .entry-row {{
+    border-bottom: 1px solid var(--border);
+    cursor: pointer; transition: background .1s;
+  }}
+  .entry-row:last-child {{ border-bottom: none; }}
+  .entry-row:hover      {{ background: var(--bg3); }}
+  .row-high {{ border-left: 3px solid var(--red); }}
+  .row-mid  {{ border-left: 3px solid var(--orange); }}
+
+  .archive-table td {{ padding: 12px 14px; vertical-align: middle; }}
+
+  .td-date  {{ font-family: 'IBM Plex Mono', monospace; font-size: 13px; white-space: nowrap; }}
+  .td-total {{ font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--text2); text-align: center; }}
+  .num-high   {{ font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600; color: var(--red); }}
+  .num-medium {{ font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--orange); }}
+  .td-high, .td-medium {{ text-align: center; }}
+
+  .td-badges {{ white-space: nowrap; }}
+  .kev-pill {{
+    display: inline-block; font-size: 10px; font-weight: 700;
+    padding: 2px 7px; border-radius: 4px;
+    background: #3d1a00; color: #ff6b35; margin-right: 4px;
+  }}
+  .action-pill {{
+    display: inline-block; font-size: 10px;
+    padding: 2px 7px; border-radius: 4px;
+    background: var(--orange-dim); color: var(--orange);
+  }}
+
+  /* ── 카테고리 바 ── */
+  .cat-bar {{
+    display: flex; height: 6px; border-radius: 3px; overflow: hidden;
+    min-width: 120px; background: var(--bg3);
+  }}
+  .cat-dot:nth-child(1) {{ background: var(--red); }}
+  .cat-dot:nth-child(2) {{ background: var(--orange); }}
+  .cat-dot:nth-child(3) {{ background: var(--blue); }}
+  .cat-dot:nth-child(4) {{ background: var(--green); }}
+  .cat-dot:nth-child(5) {{ background: var(--purple); }}
+  .cat-dot:nth-child(6) {{ background: var(--text3); }}
+
+  .td-link a {{
+    font-size: 12px; color: var(--blue); text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+  }}
+  .td-link a:hover {{ text-decoration: underline; }}
+
+  /* ── 범례 ── */
+  .legend {{
+    display: flex; gap: 16px; margin-top: 12px; flex-wrap: wrap;
+  }}
+  .legend-item {{
+    display: flex; align-items: center; gap: 6px;
+    font-size: 11px; color: var(--text3);
+  }}
+  .legend-dot {{
+    width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0;
+  }}
+
+  /* ── 푸터 ── */
+  .site-footer {{
+    margin-top: 40px; padding: 24px 32px; border-top: 1px solid var(--border);
+    color: var(--text3); font-size: 11px; font-family: 'IBM Plex Mono', monospace;
+    display: flex; justify-content: space-between;
+  }}
+
+  @media (max-width: 768px) {{
+    .site-header, .summary-bar {{ padding: 14px 16px; gap: 16px; }}
+    .main {{ padding: 16px; }}
+    .td-bar, .td-badges {{ display: none; }}
+  }}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo-mark">SB</div>
+  <div>
+    <div class="header-title">Security Briefing</div>
+    <div class="header-sub">아카이브 — {date_str_now}</div>
+  </div>
+  <nav class="header-nav">
+    <a href="index.html" class="nav-link">최신 브리핑 →</a>
+  </nav>
+</header>
+
+<div class="summary-bar">
+  <div class="sum-item">
+    <span class="sum-num" style="color:var(--text)">{total_days}</span>
+    <span class="sum-label">수집일</span>
+  </div>
+  <div class="sum-divider"></div>
+  <div class="sum-item">
+    <span class="sum-num" style="color:var(--text2)">{total_items}</span>
+    <span class="sum-label">총 항목</span>
+  </div>
+  <div class="sum-item">
+    <span class="sum-num" style="color:var(--red)">{total_high}</span>
+    <span class="sum-label">긴급 누적</span>
+  </div>
+  <div class="sum-item">
+    <span class="sum-num" style="color:#ff6b35">{total_kev}</span>
+    <span class="sum-label">KEV 누적</span>
+  </div>
+  <div class="sum-item">
+    <span class="sum-num" style="color:var(--orange)">{total_action}</span>
+    <span class="sum-label">조치 필요 누적</span>
+  </div>
+</div>
+
+<main class="main">
+  <div class="section-header">
+    <span class="section-title">📅 날짜별 브리핑</span>
+  </div>
+
+  <table class="archive-table">
+    <thead>
+      <tr>
+        <th>날짜</th>
+        <th>총계</th>
+        <th>긴급</th>
+        <th>모니터링</th>
+        <th>배지</th>
+        <th>카테고리 분포</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {rows_html}
+    </tbody>
+  </table>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div>취약점</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--orange)"></div>공급망</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--blue)"></div>규제</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div>위협 인텔</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--purple)"></div>도구·기술</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--text3)"></div>기타</div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <span>Security Briefing · Archive</span>
+  <span>업데이트: {date_str_now}</span>
+</footer>
+
+</body>
+</html>"""
+
+    archive_path = output_dir / "archive.html"
+    archive_path.write_text(html, encoding="utf-8")
+    print(f"  → 아카이브 저장: {archive_path} ({total_days}일치)")
+
+
 # ─── 메인 ───────────────────────────────────────────────────────────────────
 def main():
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -702,8 +1044,12 @@ def main():
     latest_path.write_text(html_path.read_text(encoding="utf-8"), encoding="utf-8")
 
     json_path = output_dir / f"brief_{today}.json"
+
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(analyzed, f, ensure_ascii=False, indent=2)
+
+    # 아카이브 뷰어 갱신
+    generate_archive(output_dir)
 
     high_count   = sum(1 for x in analyzed if x.get("relevance") == "high")
     medium_count = sum(1 for x in analyzed if x.get("relevance") == "medium")
