@@ -340,7 +340,7 @@ def analyze_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
 
         try:
             response = client.messages.create(
-                model="claude-sonnet-4-20250514",
+                model="claude-sonnet-4-5",
                 max_tokens=4000,
                 system=TEAM_CONTEXT,
                 messages=[{"role": "user", "content": prompt}]
