@@ -35,7 +35,7 @@ jobs:
 
       - name: Run security brief
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OUTPUT_DIR: output
           CUTOFF_HOURS: ${{ github.event.inputs.cutoff_hours || '24' }}
         run: python scripts/collect_feeds.py

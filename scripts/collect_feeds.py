@@ -9,7 +9,7 @@ import re
 import json
 import hashlib
 import feedparser
-import anthropic
+import google.generativeai as genai
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, timedelta
@@ -293,7 +293,7 @@ def enrich_with_nvd_kev(
 
 
 # ─── AI 분류 ────────────────────────────────────────────────────────────────
-def analyze_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
+def analyze_batch(items: list[dict], client) -> list[dict]:
     """Claude API로 배치 분류. 10건씩 묶어 처리."""
     BATCH_SIZE = 5
     results    = []
@@ -339,13 +339,8 @@ def analyze_batch(items: list[dict], client: anthropic.Anthropic) -> list[dict]:
 {batch_text}"""
 
         try:
-            response = client.messages.create(
-                model="claude-sonnet-4-5",
-                max_tokens=4000,
-                system=TEAM_CONTEXT,
-                messages=[{"role": "user", "content": prompt}]
-            )
-            raw = response.content[0].text.strip()
+            response = client.generate_content(prompt)
+            raw = response.text.strip()
             if raw.startswith("```"):
                 raw = raw.split("```")[1]
                 if raw.startswith("json"):
@@ -1012,11 +1007,15 @@ def generate_archive(output_dir: Path) -> None:
 
 # ─── 메인 ───────────────────────────────────────────────────────────────────
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        raise EnvironmentError("ANTHROPIC_API_KEY 환경 변수가 설정되지 않았습니다.")
+        raise EnvironmentError("GEMINI_API_KEY 환경 변수가 설정되지 않았습니다.")
 
-    client       = anthropic.Anthropic(api_key=api_key)
+    genai.configure(api_key=api_key)
+    client = genai.GenerativeModel(
+        model_name="gemma-3-27b-it",
+        system_instruction=TEAM_CONTEXT
+    )
     cutoff_hours = int(os.environ.get("CUTOFF_HOURS", "24"))
 
     # 1. RSS 수집
