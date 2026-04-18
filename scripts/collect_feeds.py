@@ -339,7 +339,9 @@ def analyze_batch(items: list[dict], client) -> list[dict]:
 {batch_text}"""
 
         try:
-            response = client.generate_content(prompt)
+            response = client.generate_content(TEAM_CONTEXT + "
+
+" + prompt)
             raw = response.text.strip()
             if raw.startswith("```"):
                 raw = raw.split("```")[1]
@@ -1012,10 +1014,7 @@ def main():
         raise EnvironmentError("GEMINI_API_KEY 환경 변수가 설정되지 않았습니다.")
 
     genai.configure(api_key=api_key)
-    client = genai.GenerativeModel(
-        model_name="gemma-3-27b-it",
-        system_instruction=TEAM_CONTEXT
-    )
+    client = genai.GenerativeModel(model_name="gemini-2.0-flash")
     cutoff_hours = int(os.environ.get("CUTOFF_HOURS", "24"))
 
     # 1. RSS 수집
