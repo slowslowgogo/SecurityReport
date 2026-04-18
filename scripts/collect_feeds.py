@@ -1012,7 +1012,7 @@ def main():
         raise EnvironmentError("GEMINI_API_KEY 환경 변수가 설정되지 않았습니다.")
 
     genai.configure(api_key=api_key)
-    client = genai.GenerativeModel(model_name="gemma-3-27b-it")
+    client = genai.GenerativeModel(model_name="gemma-4-31b-it")
     cutoff_hours = int(os.environ.get("CUTOFF_HOURS", "24"))
 
     # 1. RSS 수집
