@@ -339,9 +339,7 @@ def analyze_batch(items: list[dict], client) -> list[dict]:
 {batch_text}"""
 
         try:
-            response = client.generate_content(TEAM_CONTEXT + "
-
-" + prompt)
+            response = client.generate_content(TEAM_CONTEXT + "\n\n" + prompt)
             raw = response.text.strip()
             if raw.startswith("```"):
                 raw = raw.split("```")[1]
