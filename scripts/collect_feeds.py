@@ -340,8 +340,8 @@ def analyze_batch(items: list[dict], client) -> list[dict]:
 {batch_text}"""
 
         try:
-            response = client.models.generate_content(
-                model="gemma-3-27b-it",
+            response = client.models.generate_content(                
+                model="gemma-4-26b-a4b-it",
                 contents=TEAM_CONTEXT + "\n\n" + prompt
             )
             raw = response.text.strip()
