@@ -57,25 +57,6 @@
     "summary_ko": "NAKIVO Backup & Replication v11.2 출시. 데이터 보호 기능 강화."
   },
   {
-    "uid": "7bb053af2b021510a8253b1a99024bb6",
-    "source": "SecurityWeek",
-    "title": "Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks",
-    "link": "https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/",
-    "summary": "<p>Threat actors are reusing Tycoon 2FA tools across other phishing kits following the platform’s disruption.</p>\n<p>The post <a href=\"https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/\">Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-    "pub_date": "2026-04-18T10:30:00+00:00",
-    "cve_ids": [],
-    "cvss": null,
-    "kev": false,
-    "nvd_data": null,
-    "idx": 4,
-    "relevance": "medium",
-    "category": "threat_intel",
-    "affected_component": "Supply_Chain",
-    "action_required": true,
-    "action_type": "monitor",
-    "summary_ko": "Tycoon 2FA 플랫폼 중단 후 공격자들이 다른 피싱 키트에서 도구 재사용 증가."
-  },
-  {
     "uid": "8e2e57bc370dfd187d05aafe4310e081",
     "source": "The Hacker News",
     "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
@@ -86,13 +67,13 @@
     "cvss": null,
     "kev": false,
     "nvd_data": null,
-    "idx": 5,
+    "idx": 4,
     "relevance": "medium",
     "category": "threat_intel",
-    "affected_component": "기타",
+    "affected_component": "Supply_Chain",
     "action_required": true,
     "action_type": "monitor",
-    "summary_ko": "클라우드 침해의 68%가 서비스 계정 및 API 키 관련. 관리 필요."
+    "summary_ko": "클라우드 침해의 68%가 서비스 계정 및 API 키 관련. 자격 증명 관리 강화 필요."
   },
   {
     "uid": "38d25dbd0e1487ba248719a39393b9ff",
@@ -105,13 +86,13 @@
     "cvss": null,
     "kev": false,
     "nvd_data": null,
-    "idx": 1,
+    "idx": 5,
     "relevance": "low",
-    "category": "threat_intel",
+    "category": "other",
     "affected_component": "기타",
     "action_required": false,
     "action_type": "none",
-    "summary_ko": "암호화폐 거래소 해킹 사건으로, 직접적인 스마트폰 보안 위협은 없음."
+    "summary_ko": "Grinex 암호화폐 거래소 해킹 발생. 서방 정보기관 연루 주장."
   },
   {
     "uid": "fe4ab19828f541ae2ec670b025216219",
@@ -126,12 +107,31 @@
     "cvss": null,
     "kev": false,
     "nvd_data": null,
+    "idx": 1,
+    "relevance": "medium",
+    "category": "threat_intel",
+    "affected_component": "Linux",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Mirai 변종 봇넷이 CVE-2024-3721 취약점을 악용하여 DVR 장치를 감염시킴."
+  },
+  {
+    "uid": "7bb053af2b021510a8253b1a99024bb6",
+    "source": "SecurityWeek",
+    "title": "Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks",
+    "link": "https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/",
+    "summary": "<p>Threat actors are reusing Tycoon 2FA tools across other phishing kits following the platform’s disruption.</p>\n<p>The post <a href=\"https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/\">Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-04-18T10:30:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
     "idx": 2,
     "relevance": "medium",
-    "category": "vuln",
-    "affected_component": "Linux",
+    "category": "supply_chain",
+    "affected_component": "Supply_Chain",
     "action_required": true,
     "action_type": "monitor",
-    "summary_ko": "Mirai 변종이 TBK DVR 및 TP-Link 라우터 취약점(CVE-2024-3721)을 악용하여 DDoS 봇넷 구축."
+    "summary_ko": "Tycoon 2FA 도구 유출 후 다른 피싱 키트에서 재사용되는 공격 증가."
   }
 ]
