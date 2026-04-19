@@ -52,42 +52,68 @@ TEAM_CONTEXT = """
 # ─── RSS 피드 목록 ──────────────────────────────────────────────────────────
 FEEDS = [
     # CISA / 미국 정부
-    {"url": "https://www.cisa.gov/feeds/alerts.xml",                         "source": "CISA Alerts"},
-    {"url": "https://www.cisa.gov/feeds/kev.xml",                            "source": "CISA KEV"},
-    # NVD
-    {"url": "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss-analyzed.xml",  "source": "NVD CVE"},
-    # Android Security
-    {"url": "https://source.android.com/feed.xml",                           "source": "Android Security"},
+    {"url": "https://www.cisa.gov/feeds/alerts.xml",                                      "source": "CISA Alerts"},
+    {"url": "https://www.cisa.gov/feeds/kev.xml",                                         "source": "CISA KEV"},
+    {"url": "https://www.cisa.gov/cybersecurity-advisories/cybersecurity-advisories.xml",  "source": "CISA Advisories"},
+    {"url": "https://www.cisa.gov/news.xml",                                              "source": "CISA News"},
+    # NVD / CVE
+    {"url": "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss-analyzed.xml",               "source": "NVD CVE"},
+    {"url": "https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml",                        "source": "NVD CVE (Full)"},
+    {"url": "https://cvefeed.io/rssfeed/latest.xml",                                      "source": "CVEfeed.io"},
+    # Android / Google
+    {"url": "https://source.android.com/feed.xml",                                        "source": "Android Security"},
+    {"url": "https://blog.google/threat-analysis-group/rss/",                             "source": "Google Security Blog"},
+    {"url": "https://googleprojectzero.blogspot.com/feeds/posts/default",                  "source": "Google Project Zero"},
     # 주요 보안 미디어
-    {"url": "https://feeds.feedburner.com/TheHackersNews",                   "source": "The Hacker News"},
-    {"url": "https://www.bleepingcomputer.com/feed/",                        "source": "BleepingComputer"},
-    {"url": "https://krebsonsecurity.com/feed/",                             "source": "KrebsOnSecurity"},
-    {"url": "https://www.darkreading.com/rss.xml",                           "source": "Dark Reading"},
-    {"url": "https://threatpost.com/feed/",                                  "source": "Threatpost"},
-    {"url": "https://www.securityweek.com/feed",                             "source": "SecurityWeek"},
+    {"url": "https://feeds.feedburner.com/TheHackersNews",                                "source": "The Hacker News"},
+    {"url": "https://www.bleepingcomputer.com/feed/",                                     "source": "BleepingComputer"},
+    {"url": "https://krebsonsecurity.com/feed/",                                          "source": "KrebsOnSecurity"},
+    {"url": "https://www.darkreading.com/rss.xml",                                        "source": "Dark Reading"},
+    {"url": "https://www.securityweek.com/feed",                                          "source": "SecurityWeek"},
+    {"url": "https://www.cybersecuritydive.com/feeds/news/",                              "source": "Cybersecurity Dive"},
+    {"url": "https://cyberscoop.com/feed",                                                "source": "CyberScoop"},
+    {"url": "https://www.helpnetsecurity.com/feed",                                       "source": "Help Net Security"},
+    {"url": "https://securityaffairs.com/feed",                                           "source": "Security Affairs"},
+    {"url": "https://www.infosecurity-magazine.com/rss/news",                             "source": "Infosecurity Magazine"},
+    # 보안 전문가 블로그
+    {"url": "https://www.schneier.com/feed/atom/",                                        "source": "Schneier on Security"},
+    {"url": "https://www.troyhunt.com/rss/",                                              "source": "Troy Hunt"},
+    {"url": "https://blog.cloudflare.com/tag/security/rss/",                              "source": "Cloudflare Security"},
+    {"url": "https://portswigger.net/research/rss",                                       "source": "PortSwigger Research"},
+    {"url": "https://github.blog/category/security/feed/",                                "source": "GitHub Security Blog"},
     # 취약점 / 익스플로잇
-    {"url": "https://www.exploit-db.com/rss.xml",                            "source": "Exploit-DB"},
-    {"url": "https://seclists.org/rss/fulldisclosure.rss",                   "source": "Full Disclosure"},
-    # 공급망 / OSS 보안
-    {"url": "https://openssf.org/feed/",                                     "source": "OpenSSF"},
-    {"url": "https://socket.dev/rss.xml",                                    "source": "Socket.dev"},
-    # EU / 규제
-    {"url": "https://www.enisa.europa.eu/publications/rss",                  "source": "ENISA"},
+    {"url": "https://www.exploit-db.com/rss.xml",                                         "source": "Exploit-DB"},
+    {"url": "https://rss.packetstormsecurity.com/",                                       "source": "Packet Storm"},
+    {"url": "https://isc.sans.edu/rssfeedfull.xml",                                       "source": "SANS ISC"},
+    {"url": "https://seclists.org/rss/fulldisclosure.rss",                                "source": "Full Disclosure"},
     # 위협 인텔리전스
-    {"url": "https://feeds.feedburner.com/rssfeed_mandiant",                 "source": "Mandiant"},
-    {"url": "https://www.recordedfuture.com/feed",                           "source": "Recorded Future"},
-    {"url": "https://unit42.paloaltonetworks.com/feed/",                     "source": "Unit 42"},
-    # GitHub Security
-    {"url": "https://github.blog/category/security/feed/",                   "source": "GitHub Security Blog"},
-    # 추가 보안 미디어
-    {"url": "https://www.cybersecuritydive.com/feeds/news/",                 "source": "Cybersecurity Dive"},
-    {"url": "https://blog.google/threat-analysis-group/rss/",               "source": "Google Security Blog"},
-    {"url": "https://cyble.com/feed/",                                       "source": "Cyble"},
-    # 위협 인텔리전스 (추가)
-    {"url": "https://isc.sans.edu/rssfeed_full.xml",                        "source": "SANS ISC"},
-    {"url": "https://googleprojectzero.blogspot.com/feeds/posts/default",   "source": "Google Project Zero"},
+    {"url": "https://unit42.paloaltonetworks.com/feed/",                                  "source": "Unit 42"},
+    {"url": "https://www.mandiant.com/resources/blog/rss.xml",                            "source": "Mandiant"},
+    {"url": "https://blog.talosintelligence.com/feeds/posts/default",                     "source": "Talos Intelligence"},
+    {"url": "https://research.checkpoint.com/feed/",                                      "source": "Check Point Research"},
+    {"url": "https://securelist.com/feed/",                                               "source": "Securelist (Kaspersky)"},
+    {"url": "https://www.crowdstrike.com/blog/feed/",                                     "source": "CrowdStrike"},
+    {"url": "https://www.sentinelone.com/feed/",                                          "source": "SentinelOne"},
+    {"url": "https://www.welivesecurity.com/en/rss/feed/",                                "source": "WeLiveSecurity"},
+    {"url": "https://news.sophos.com/en-us/category/threat-research/feed/",               "source": "Sophos"},
+    {"url": "https://redcanary.com/blog/feed/",                                           "source": "Red Canary"},
+    {"url": "https://blog.qualys.com/feed",                                               "source": "Qualys Blog"},
+    {"url": "https://cyble.com/feed/",                                                    "source": "Cyble"},
+    {"url": "https://www.recordedfuture.com/feed",                                        "source": "Recorded Future"},
+    # 공급망 / OSS 보안
+    {"url": "https://openssf.org/feed/",                                                  "source": "OpenSSF"},
+    {"url": "https://socket.dev/rss.xml",                                                 "source": "Socket.dev"},
+    {"url": "https://azu.github.io/github-advisory-database-rss/maven.rss",               "source": "GitHub Advisory (Maven)"},
+    # EU / 규제
+    {"url": "https://www.enisa.europa.eu/publications/rss",                               "source": "ENISA"},
+    {"url": "https://www.enisa.europa.eu/news/enisa-news/RSS",                            "source": "ENISA News"},
+    {"url": "https://www.nist.gov/news-events/news/rss.xml",                              "source": "NIST News"},
+    {"url": "https://digital-strategy.ec.europa.eu/en/rss.xml",                           "source": "EU Digital Strategy"},
+    # 기타
+    {"url": "https://www.technologyreview.com/feed/",                                     "source": "MIT Tech Review"},
+    {"url": "https://feeds.feedburner.com/rssfeed_mandiant",                              "source": "Mandiant (RSS)"},
+    {"url": "https://threatpost.com/feed/",                                               "source": "Threatpost"},
 ]
-
 # CVE ID 추출 정규식
 CVE_PATTERN = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
 
@@ -340,8 +366,8 @@ def analyze_batch(items: list[dict], client) -> list[dict]:
 {batch_text}"""
 
         try:
-            response = client.models.generate_content(                
-                model="gemma-4-26b-a4b-it",
+            response = client.models.generate_content(
+                model="gemma-3-27b-it",
                 contents=TEAM_CONTEXT + "\n\n" + prompt
             )
             raw = response.text.strip()
