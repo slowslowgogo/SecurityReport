@@ -12,11 +12,11 @@
     "nvd_data": null,
     "idx": 1,
     "relevance": "high",
-    "category": "vuln",
+    "category": "supply_chain",
     "affected_component": "Supply_Chain",
     "action_required": true,
     "action_type": "patch",
-    "summary_ko": "protobuf.js의 RCE 취약점 악용 코드 공개. 긴급 패치 필요."
+    "summary_ko": "protobuf.js 라이브러리 내 심각한 원격 코드 실행(RCE) 취약점 발견"
   },
   {
     "uid": "33be2cbe458a7f153af4b523e27b121a",
@@ -35,7 +35,7 @@
     "affected_component": "기타",
     "action_required": false,
     "action_type": "none",
-    "summary_ko": "MS Teams의 Edge 업데이트 버그로 인해 우클릭 붙여넣기 기능 오류 발생."
+    "summary_ko": "Edge 업데이트로 인한 Microsoft Teams 붙여넣기 기능 오류 발생"
   },
   {
     "uid": "d134451bcba12f147e6146d7aa824e82",
@@ -50,11 +50,11 @@
     "nvd_data": null,
     "idx": 3,
     "relevance": "low",
-    "category": "tool",
+    "category": "other",
     "affected_component": "기타",
     "action_required": false,
     "action_type": "none",
-    "summary_ko": "NAKIVO Backup & Replication v11.2 출시. 데이터 보호 기능 강화."
+    "summary_ko": "NAKIVO 백업 및 복구 솔루션 v11.2 신규 버전 출시"
   },
   {
     "uid": "8e2e57bc370dfd187d05aafe4310e081",
@@ -70,10 +70,10 @@
     "idx": 4,
     "relevance": "medium",
     "category": "threat_intel",
-    "affected_component": "Supply_Chain",
-    "action_required": true,
-    "action_type": "monitor",
-    "summary_ko": "클라우드 침해의 68%가 서비스 계정 및 API 키 관련. 자격 증명 관리 강화 필요."
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "클라우드 침해의 주요 원인인 비인간(Non-human) ID 관리 중요성"
   },
   {
     "uid": "38d25dbd0e1487ba248719a39393b9ff",
@@ -92,7 +92,7 @@
     "affected_component": "기타",
     "action_required": false,
     "action_type": "none",
-    "summary_ko": "Grinex 암호화폐 거래소 해킹 발생. 서방 정보기관 연루 주장."
+    "summary_ko": "가상자산 거래소 Grinex, 대규모 해킹 공격으로 운영 중단"
   },
   {
     "uid": "fe4ab19828f541ae2ec670b025216219",
@@ -109,11 +109,11 @@
     "nvd_data": null,
     "idx": 1,
     "relevance": "medium",
-    "category": "threat_intel",
+    "category": "vuln",
     "affected_component": "Linux",
-    "action_required": false,
+    "action_required": true,
     "action_type": "monitor",
-    "summary_ko": "Mirai 변종 봇넷이 CVE-2024-3721 취약점을 악용하여 DVR 장치를 감염시킴."
+    "summary_ko": "Mirai 변종이 CVE-2024-3721을 악용하여 DVR 및 공유기 공격"
   },
   {
     "uid": "7bb053af2b021510a8253b1a99024bb6",
@@ -127,11 +127,11 @@
     "kev": false,
     "nvd_data": null,
     "idx": 2,
-    "relevance": "medium",
-    "category": "supply_chain",
-    "affected_component": "Supply_Chain",
-    "action_required": true,
-    "action_type": "monitor",
-    "summary_ko": "Tycoon 2FA 도구 유출 후 다른 피싱 키트에서 재사용되는 공격 증가."
+    "relevance": "low",
+    "category": "threat_intel",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Tycoon 2FA 도구가 다른 피싱 키트로 재사용되며 공격 급증"
   }
 ]
