@@ -1,0 +1,975 @@
+[
+  {
+    "uid": "85d1d60613dc51697dfaa52b83b3ff1c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7002 - KLiK SocialMediaWebsite Private Message get_message_ajax.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7002",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7002\n  <br />\n  <strong>Published :</strong> April 25, 2026, 9:30 p.m. | 55 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in KLiK SocialMediaWebsite up to 1.0.1. This vulnerability affects unknown code of the file /includes/get_message_ajax.php of the component Private Message Handler. Executing a manipulation of the argument c_id can lead to sql injection. It is possible to launch the attack remotely.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T21:30:16+00:00",
+    "cve_ids": [
+      "CVE-2026-7002"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was determined in KLiK SocialMediaWebsite up to 1.0.1. This vulnerability affects unknown code of the file /includes/get_message_ajax.php of the component Private Message Handler. Executing a manipulation of the argument c_id can lead to sql injection. It is possible to launch the at",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "KLiK SocialMediaWebsite SQL Injection 취약점 (CVSS 7.3)"
+  },
+  {
+    "uid": "2da361625dceff9c2507ebba1abb527e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7000 - Datacom DM4100 VLAN Page cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7000",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7000\n  <br />\n  <strong>Published :</strong> April 25, 2026, 9:16 p.m. | 1 hour, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in Datacom DM4100 1.3.6.1.4.1.3709. Affected by this issue is some unknown functionality of the component VLAN Page. Such manipulation of the argument VLAN Name leads to cross site scripting. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T21:16:19+00:00",
+    "cve_ids": [
+      "CVE-2026-7000"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "A vulnerability has been found in Datacom DM4100 1.3.6.1.4.1.3709. Affected by this issue is some unknown functionality of the component VLAN Page. Such manipulation of the argument VLAN Name leads to cross site scripting. The attack may be performed from remote. The exploit has been disclosed to th",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Datacom DM4100 XSS 취약점 (CVSS 2.4)"
+  },
+  {
+    "uid": "08e3c8e849706f3b163394ee67cede70",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6999 - BIVOCOM TR321 Wireless Setting cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6999",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6999\n  <br />\n  <strong>Published :</strong> April 25, 2026, 9:16 p.m. | 1 hour, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in BIVOCOM TR321 21.1.1.50. Affected by this vulnerability is an unknown functionality of the component Wireless Setting. This manipulation of the argument Network Name SSID causes cross site scripting. The attack is possible to be carried out remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T21:16:19+00:00",
+    "cve_ids": [
+      "CVE-2026-6999"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "A flaw has been found in BIVOCOM TR321 21.1.1.50. Affected by this vulnerability is an unknown functionality of the component Wireless Setting. This manipulation of the argument Network Name SSID causes cross site scripting. The attack is possible to be carried out remotely. The exploit has been pub",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "BIVOCOM TR321 XSS 취약점 (CVSS 2.4)"
+  },
+  {
+    "uid": "64cf38214ed2c0b27a3f66932720435e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6998 - BDCOM P3310D New RMON Statistics cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6998",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6998\n  <br />\n  <strong>Published :</strong> April 25, 2026, 9:16 p.m. | 1 hour, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in BDCOM P3310D 0.4.2 10.1.0F Build 86345. Affected is an unknown function of the component New RMON Statistics Page. The manipulation of the argument Owner results in cross site scripting. The attack can be executed remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T21:16:18+00:00",
+    "cve_ids": [
+      "CVE-2026-6998"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "A vulnerability was detected in BDCOM P3310D 0.4.2 10.1.0F Build 86345. Affected is an unknown function of the component New RMON Statistics Page. The manipulation of the argument Owner results in cross site scripting. The attack can be executed remotely. The exploit is now public and may be used. T",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "BDCOM P3310D XSS 취약점 (CVSS 2.4)"
+  },
+  {
+    "uid": "e8be9be93809954b980adfa2ff8a0cb6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7001 - Datacom DM4100 Ethernet Configuration cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7001",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7001\n  <br />\n  <strong>Published :</strong> April 25, 2026, 9:15 p.m. | 1 hour, 10 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in Datacom DM4100 1.3.6.1.4.1.3709. This affects an unknown part of the component Ethernet Configuration Page. Performing a manipulation of the argument Name results in cross site scripting. It is possible to initiate the attack remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T21:15:13+00:00",
+    "cve_ids": [
+      "CVE-2026-7001"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "A vulnerability was found in Datacom DM4100 1.3.6.1.4.1.3709. This affects an unknown part of the component Ethernet Configuration Page. Performing a manipulation of the argument Name results in cross site scripting. It is possible to initiate the attack remotely. The exploit has been made public an",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Datacom DM4100 XSS 취약점 (CVSS 2.4)"
+  },
+  {
+    "uid": "65e3baa1b42403115c9af1eff194a23d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6997 - BDCOM P3310D New RMON History cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6997",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6997\n  <br />\n  <strong>Published :</strong> April 25, 2026, 8:16 p.m. | 2 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in BDCOM P3310D 0.4.2 10.1.0F Build 86345. This impacts an unknown function of the component New RMON History Page. The manipulation of the argument Owner leads to cross site scripting. Remote exploitation of the attack is possible. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T20:16:18+00:00",
+    "cve_ids": [
+      "CVE-2026-6997"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "A security vulnerability has been detected in BDCOM P3310D 0.4.2 10.1.0F Build 86345. This impacts an unknown function of the component New RMON History Page. The manipulation of the argument Owner leads to cross site scripting. Remote exploitation of the attack is possible. The exploit has been dis",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "BDCOM P3310D XSS 취약점 (CVSS 2.4)"
+  },
+  {
+    "uid": "6e82c53116f0e2f5cfa7e94e811e6be3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6996 - BDCOM P3310D rmon event Tab cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6996",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6996\n  <br />\n  <strong>Published :</strong> April 25, 2026, 8:16 p.m. | 2 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in BDCOM P3310D 0.4.2 10.1.0F Build 86345. This affects an unknown function of the component rmon event Tab. Executing a manipulation of the argument Description can lead to cross site scripting. The attack may be launched remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T20:16:18+00:00",
+    "cve_ids": [
+      "CVE-2026-6996"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "A weakness has been identified in BDCOM P3310D 0.4.2 10.1.0F Build 86345. This affects an unknown function of the component rmon event Tab. Executing a manipulation of the argument Description can lead to cross site scripting. The attack may be launched remotely. The exploit has been made available ",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "BDCOM P3310D XSS 취약점 (CVSS 2.4)"
+  },
+  {
+    "uid": "1b6bf56e007072d2faa909e1affac2b0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6995 - BDCOM P3310D New User index.asp cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6995",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6995\n  <br />\n  <strong>Published :</strong> April 25, 2026, 8:16 p.m. | 2 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in BDCOM P3310D 0.4.2 10.1.0F Build 86345. The impacted element is an unknown function of the file /index.asp of the component New User Page. Performing a manipulation of the argument User name results in cross site scripting. The attack may be initiated remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T20:16:18+00:00",
+    "cve_ids": [
+      "CVE-2026-6995"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "A security flaw has been discovered in BDCOM P3310D 0.4.2 10.1.0F Build 86345. The impacted element is an unknown function of the file /index.asp of the component New User Page. Performing a manipulation of the argument User name results in cross site scripting. The attack may be initiated remotely.",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "BDCOM P3310D XSS 취약점 (CVSS 2.4)"
+  },
+  {
+    "uid": "470139cfdefbb430ddcf845dceedc157",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6994 - Envoy Query Parameter header_mutation.cc params.add injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6994",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6994\n  <br />\n  <strong>Published :</strong> April 25, 2026, 7:16 p.m. | 3 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Envoy up to 1.33.0. Affected is the function params.add of the file source/extensions/filters/http/header_mutation/header_mutation.cc of the component Query Parameter Handler. This manipulation causes injection. Remote exploitation of the attack is possible. Patch name: f8f4f1e02fdc64ecd4acf2d903208dd7285ad3a4. It is suggested to install a patch to address this issue.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T19:16:00+00:00",
+    "cve_ids": [
+      "CVE-2026-6994"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A weakness has been identified in Envoy up to 1.33.0. Affected is the function params.add of the file source/extensions/filters/http/header_mutation/header_mutation.cc of the component Query Parameter Handler. This manipulation causes injection. Remote exploitation of the attack is possible. Patch n",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "Envoy params.add injection 취약점 (CVSS 6.3)"
+  },
+  {
+    "uid": "65099db304343ec167c1437b067559ef",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6993 - go-kratos http.DefaultServeMux Fallback server.go NewServer confused deputy",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6993",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6993\n  <br />\n  <strong>Published :</strong> April 25, 2026, 7:16 p.m. | 3 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in go-kratos kratos up to 2.9.2. This impacts the function NewServer of the file transport/http/server.go of the component http.DefaultServeMux Fallback Handler. The manipulation results in unintended intermediary. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks. The patch is identified as 0284a5bcf92b5a7ee015300ce3051baf7ae4718d. Applying a patch is advised to resolve this issue.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, an",
+    "pub_date": "2026-04-25T19:16:00+00:00",
+    "cve_ids": [
+      "CVE-2026-6993"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A security flaw has been discovered in go-kratos kratos up to 2.9.2. This impacts the function NewServer of the file transport/http/server.go of the component http.DefaultServeMux Fallback Handler. The manipulation results in unintended intermediary. The attack may be launched remotely. The exploit ",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "go-kratos NewServer confused deputy 취약점 (CVSS 5.3)"
+  },
+  {
+    "uid": "ef8ab27b0c377c9fd77def757c20f627",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6992 - Linksys MR9600 JNAP Action run_central2.sh BTRequestGetSmartConnectStatus os command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6992",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6992\n  <br />\n  <strong>Published :</strong> April 25, 2026, 6:16 p.m. | 4 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in Linksys MR9600 2.0.6.206937. This affects the function BTRequestGetSmartConnectStatus of the file /etc/init.d/run_central2.sh of the component JNAP Action Handler. The manipulation of the argument pin leads to os command injection. The attack may be initiated remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 8.3 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T18:16:19+00:00",
+    "cve_ids": [
+      "CVE-2026-6992"
+    ],
+    "cvss": 7.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.2,
+      "description": "A vulnerability was identified in Linksys MR9600 2.0.6.206937. This affects the function BTRequestGetSmartConnectStatus of the file /etc/init.d/run_central2.sh of the component JNAP Action Handler. The manipulation of the argument pin leads to os command injection. The attack may be initiated remote",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Linksys MR9600의 명령 삽입 취약점 발견 (CVSS 7.2)"
+  },
+  {
+    "uid": "6908147b2a700558f279e88c2cbc74c8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6991 - colinhacks Zod CUID Data Type regexes.ts sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6991",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6991\n  <br />\n  <strong>Published :</strong> April 25, 2026, 6:16 p.m. | 4 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in colinhacks Zod up to 4.3.6. The impacted element is an unknown function of the file packages/zod/src/v4/core/regexes.ts of the component CUID Data Type Handler. Executing a manipulation can lead to sql injection. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T18:16:19+00:00",
+    "cve_ids": [
+      "CVE-2026-6991"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was determined in colinhacks Zod up to 4.3.6. The impacted element is an unknown function of the file packages/zod/src/v4/core/regexes.ts of the component CUID Data Type Handler. Executing a manipulation can lead to sql injection. The attack can be launched remotely. The exploit has ",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Zod 라이브러리의 SQL 삽입 취약점 (CVSS 6.3)"
+  },
+  {
+    "uid": "377029473fe8502ddc6574ef4c31fa12",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6990 - projeto-siga novo cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6990",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6990\n  <br />\n  <strong>Published :</strong> April 25, 2026, 6:16 p.m. | 4 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in projeto-siga siga 11.0.3.18. The affected element is an unknown function of the file /sigawf/app/responsavel/novo. Performing a manipulation of the argument Nome/Descrição results in cross site scripting. The attack can be initiated remotely. The exploit has been made public and could be used. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 5.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T18:16:19+00:00",
+    "cve_ids": [
+      "CVE-2026-6990"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "A vulnerability was found in projeto-siga siga 11.0.3.18. The affected element is an unknown function of the file /sigawf/app/responsavel/novo. Performing a manipulation of the argument Nome/Descrição results in cross site scripting. The attack can be initiated remotely. The exploit has been made pu",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "projeto-siga의 XSS 취약점 발견 (CVSS 3.5)"
+  },
+  {
+    "uid": "a0c642984d6cee1130f53b577585f1de",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6989 - Tenda F453 Telnet Service telnet TendaTelnet command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6989",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6989\n  <br />\n  <strong>Published :</strong> April 25, 2026, 6:16 p.m. | 4 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in Tenda F453 up to 1.0.0.3. Impacted is the function TendaTelnet of the file /goform/telnet of the component Telnet Service. Such manipulation leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T18:16:18+00:00",
+    "cve_ids": [
+      "CVE-2026-6989"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in Tenda F453 up to 1.0.0.3. Impacted is the function TendaTelnet of the file /goform/telnet of the component Telnet Service. Such manipulation leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and ma",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Tenda F453의 명령 삽입 취약점 발견 (CVSS 6.3)"
+  },
+  {
+    "uid": "2e80697c6fc468e43c68adf5a05dea38",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6988 - Tenda HG10 Boa Service formRouting formRoute buffer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6988",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6988\n  <br />\n  <strong>Published :</strong> April 25, 2026, 6:16 p.m. | 4 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Tenda HG10 HG7_HG9_HG10re_300001138_en_xpon. This issue affects the function formRoute of the file /boaform/formRouting of the component Boa Service. This manipulation of the argument nextHop causes buffer overflow. It is possible to initiate the attack remotely. The exploit has been published and may be used.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T18:16:17+00:00",
+    "cve_ids": [
+      "CVE-2026-6988"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A flaw has been found in Tenda HG10 HG7_HG9_HG10re_300001138_en_xpon. This issue affects the function formRoute of the file /boaform/formRouting of the component Boa Service. This manipulation of the argument nextHop causes buffer overflow. It is possible to initiate the attack remotely. The exploit",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "high",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "patch",
+    "summary_ko": "Tenda HG10의 버퍼 오버플로우 취약점 발견 (CVSS 8.8)"
+  },
+  {
+    "uid": "d039ba91edb5f78e98652f7950213738",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6987 - PicoClaw Web Launcher Management Plane restart command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6987",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6987\n  <br />\n  <strong>Published :</strong> April 25, 2026, 5:16 p.m. | 5 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in PicoClaw up to 0.2.4. Impacted is an unknown function of the file /api/gateway/restart of the component Web Launcher Management Plane. Performing a manipulation results in command injection. It is possible to initiate the attack remotely. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T17:16:33+00:00",
+    "cve_ids": [
+      "CVE-2026-6987"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was detected in PicoClaw up to 0.2.4. Impacted is an unknown function of the file /api/gateway/restart of the component Web Launcher Management Plane. Performing a manipulation results in command injection. It is possible to initiate the attack remotely. The project was informed of t",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "PicoClaw 웹 런처 재시작 명령어 삽입 취약점 (CVSS 7.3)"
+  },
+  {
+    "uid": "a84200a849cdc20b74d5cab1c854991f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6986 - Cesanta Mongoose GCM Authentication Tag tls_aes128.c mg_aes_gcm_decrypt signature verification",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6986",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6986\n  <br />\n  <strong>Published :</strong> April 25, 2026, 5:16 p.m. | 5 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in Cesanta Mongoose up to 7.20. This issue affects the function mg_aes_gcm_decrypt of the file /src/tls_aes128.c of the component GCM Authentication Tag Handler. Such manipulation leads to improper verification of cryptographic signature. The attack may be performed from remote. A high complexity level is associated with this attack. The exploitability is assessed as difficult. The exploit has been disclosed publicly and may be used. Upgrading to version 7.21 is capable of addressing this issue. It is advisable to upgrade the affected component. VulDB has contacted the vendor ear",
+    "pub_date": "2026-04-25T17:16:33+00:00",
+    "cve_ids": [
+      "CVE-2026-6986"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "A security vulnerability has been detected in Cesanta Mongoose up to 7.20. This issue affects the function mg_aes_gcm_decrypt of the file /src/tls_aes128.c of the component GCM Authentication Tag Handler. Such manipulation leads to improper verification of cryptographic signature. The attack may be ",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Cesanta Mongoose GCM 인증 태그 검증 취약점 (CVSS 3.7)"
+  },
+  {
+    "uid": "42bf00475022b479fcb30a509b6b82ad",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6985 - Cesanta Mongoose TCP Option net_builtin.c handle_opt infinite loop",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6985",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6985\n  <br />\n  <strong>Published :</strong> April 25, 2026, 5:16 p.m. | 5 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Cesanta Mongoose up to 7.20. This vulnerability affects the function handle_opt of the file /src/net_builtin.c of the component TCP Option Handler. This manipulation of the argument optlen causes infinite loop. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be used for attacks. Upgrading to version 7.21 is able to resolve this issue. Upgrading the affected component is advised. VulDB has contacted the vendor early and they confirmed quickly, that this issue got fixed already.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM",
+    "pub_date": "2026-04-25T17:16:33+00:00",
+    "cve_ids": [
+      "CVE-2026-6985"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A weakness has been identified in Cesanta Mongoose up to 7.20. This vulnerability affects the function handle_opt of the file /src/net_builtin.c of the component TCP Option Handler. This manipulation of the argument optlen causes infinite loop. The attack is possible to be carried out remotely. The ",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Cesanta Mongoose TCP 옵션 무한 루프 취약점 (CVSS 5.3)"
+  },
+  {
+    "uid": "3593b03d6d0468b91f2d8b8dd0b722d7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6984 - AstrBotDevs AstrBot Dashboard API t2i.py create_template special elements used in a template engine",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6984",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6984\n  <br />\n  <strong>Published :</strong> April 25, 2026, 4:16 p.m. | 6 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in AstrBotDevs AstrBot up to 4.22.1. This affects the function create_template of the file astrbot/dashboard/routes/t2i.py of the component Dashboard API. The manipulation results in improper neutralization of special elements used in a template engine. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected produc",
+    "pub_date": "2026-04-25T16:16:17+00:00",
+    "cve_ids": [
+      "CVE-2026-6984"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "A security flaw has been discovered in AstrBotDevs AstrBot up to 4.22.1. This affects the function create_template of the file astrbot/dashboard/routes/t2i.py of the component Dashboard API. The manipulation results in improper neutralization of special elements used in a template engine. The attack",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "AstrBot Dashboard API 템플릿 엔진 취약점 (CVSS 4.7)"
+  },
+  {
+    "uid": "f7c72dcc6c7a47d47601ee1a084ef3d9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6983 - pagekit download server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6983",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6983\n  <br />\n  <strong>Published :</strong> April 25, 2026, 4:16 p.m. | 6 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in pagekit up to 1.0.18. Affected by this issue is some unknown functionality of the file /index.php/admin/system/update/download. The manipulation of the argument url leads to server-side request forgery. Remote exploitation of the attack is possible. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T16:16:16+00:00",
+    "cve_ids": [
+      "CVE-2026-6983"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "A vulnerability was identified in pagekit up to 1.0.18. Affected by this issue is some unknown functionality of the file /index.php/admin/system/update/download. The manipulation of the argument url leads to server-side request forgery. Remote exploitation of the attack is possible. The exploit is p",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "pagekit 서버 측 요청 위조 취약점 (CVSS 4.7)"
+  },
+  {
+    "uid": "43a4838ccf8d93cf32e4d2d77363d9dc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6982 - star7th ShowDoc API Page Sort Endpoint PageController.class.PHP sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6982",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6982\n  <br />\n  <strong>Published :</strong> April 25, 2026, 3:16 p.m. | 7 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in star7th ShowDoc up to 2.10.10/3.6.2/3.8.0. Affected by this vulnerability is an unknown functionality of the file server/Application/Api/Controller/PageController.class.PHP of the component API Page Sort Endpoint. Executing a manipulation of the argument pages can lead to sql injection. The attack may be launched remotely. Upgrading to version 3.8.1 addresses this issue. It is suggested to upgrade the affected component. According to the researcher, \"[t]he vendor explicitly stated they will not backport patches to the older affected versions.\"\n  <br />\n  <strong>Severity:</strong> 6.5 | M",
+    "pub_date": "2026-04-25T15:16:17+00:00",
+    "cve_ids": [
+      "CVE-2026-6982"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was determined in star7th ShowDoc up to 2.10.10/3.6.2/3.8.0. Affected by this vulnerability is an unknown functionality of the file server/Application/Api/Controller/PageController.class.PHP of the component API Page Sort Endpoint. Executing a manipulation of the argument pages can l",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "ShowDoc SQL Injection 취약점 (CVSS 6.3)"
+  },
+  {
+    "uid": "72abc2e59999d0309a1bde638a271f44",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6981 - IhateCreatingUserNames2 AiraHub2 Endpoint AiraHub.py sync_agents server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6981",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6981\n  <br />\n  <strong>Published :</strong> April 25, 2026, 3:16 p.m. | 7 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in IhateCreatingUserNames2 AiraHub2 up to 3e4b77fd7d48ed811ffe5b8d222068c17c76495e. Affected is the function connect_stream_endpoint/sync_agents of the file AiraHub.py of the component Endpoint. Performing a manipulation results in server-side request forgery. The attack may be initiated remotely. The exploit has been made public and could be used. This product uses a rolling release model to deliver continuous updates. As a result, specific version information for affected or updated releases is not available. Multiple endpoints are affected. The vendor was contacted early about this disclosure ",
+    "pub_date": "2026-04-25T15:16:17+00:00",
+    "cve_ids": [
+      "CVE-2026-6981"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was found in IhateCreatingUserNames2 AiraHub2 up to 3e4b77fd7d48ed811ffe5b8d222068c17c76495e. Affected is the function connect_stream_endpoint/sync_agents of the file AiraHub.py of the component Endpoint. Performing a manipulation results in server-side request forgery. The attack ma",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "AiraHub2 SSRF 취약점 (CVSS 6.3)"
+  },
+  {
+    "uid": "2d790e0d68cd2af79819190c39c695c4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6980 - Divyanshu-hash GitPilot-MCP main.py repo_path command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6980",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6980\n  <br />\n  <strong>Published :</strong> April 25, 2026, 2:16 p.m. | 8 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in Divyanshu-hash GitPilot-MCP up to 9ed9f153ba4158a2ad230ee4871b25130da29ffd. This impacts the function repo_path of the file main.py. Such manipulation of the argument command leads to command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more detail",
+    "pub_date": "2026-04-25T14:16:00+00:00",
+    "cve_ids": [
+      "CVE-2026-6980"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability has been found in Divyanshu-hash GitPilot-MCP up to 9ed9f153ba4158a2ad230ee4871b25130da29ffd. This impacts the function repo_path of the file main.py. Such manipulation of the argument command leads to command injection. The attack can be launched remotely. The exploit has been discl",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "patch",
+    "summary_ko": "GitPilot-MCP 명령어 삽입 취약점 (CVSS 7.3)"
+  },
+  {
+    "uid": "97239183c9ff30aba29a34a62da585d1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6979 - devlikeapro WAHA API Request media.controller.ts server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6979",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6979\n  <br />\n  <strong>Published :</strong> April 25, 2026, 12:15 p.m. | 10 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in devlikeapro WAHA up to 2026.3.4. This affects an unknown function of the file src/api/media.controller.ts of the component API Request Handler. This manipulation causes server-side request forgery. The attack can be initiated remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T12:15:59+00:00",
+    "cve_ids": [
+      "CVE-2026-6979"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A flaw has been found in devlikeapro WAHA up to 2026.3.4. This affects an unknown function of the file src/api/media.controller.ts of the component API Request Handler. This manipulation causes server-side request forgery. The attack can be initiated remotely. The exploit has been published and may ",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "WAHA SSRF 취약점 (CVSS 6.3)"
+  },
+  {
+    "uid": "9781dcb7ddc013817d7b964f64485342",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6978 - JiZhiCMS addcache.html htmlspecialchars_decode sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6978",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6978\n  <br />\n  <strong>Published :</strong> April 25, 2026, 12:15 p.m. | 10 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in JiZhiCMS up to 2.5.6. The impacted element is the function htmlspecialchars_decode of the file /index.php/admins/Sys/addcache.html. The manipulation of the argument sqls results in sql injection. It is possible to launch the attack remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-25T12:15:59+00:00",
+    "cve_ids": [
+      "CVE-2026-6978"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "A vulnerability was detected in JiZhiCMS up to 2.5.6. The impacted element is the function htmlspecialchars_decode of the file /index.php/admins/Sys/addcache.html. The manipulation of the argument sqls results in sql injection. It is possible to launch the attack remotely. The exploit is now public ",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "JiZhiCMS SQL Injection 취약점 (CVSS 4.7)"
+  },
+  {
+    "uid": "2aa1f8dc564fa47211db89b42e81309f",
+    "source": "BleepingComputer",
+    "title": "Microsoft rolls out revamped Windows Insider Program",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
+    "summary": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]",
+    "pub_date": "2026-04-25T17:07:13+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 1,
+    "relevance": "low",
+    "category": "other",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Windows Insider Program 개선 사항, 자사 제품과 무관."
+  },
+  {
+    "uid": "a777fd6c5b698a8bb86534128cf34eb0",
+    "source": "BleepingComputer",
+    "title": "Threat actor uses Microsoft Teams to deploy new “Snow” malware",
+    "link": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
+    "summary": "A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor. [...]",
+    "pub_date": "2026-04-25T15:07:44+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 2,
+    "relevance": "medium",
+    "category": "threat_intel",
+    "affected_component": "Supply_Chain",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "UNC6692 그룹, MS Teams 통해 'Snow' 악성코드 배포."
+  },
+  {
+    "uid": "a629960c8acc579fec8a668825376352",
+    "source": "The Hacker News",
+    "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
+    "link": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
+    "summary": "Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment centrifuges.\nAccording to a new report published by SentinelOne, the previously undocumented cyber sabotage framework dates back to 2005, primarily targeting high-precision calculation software to tamper",
+    "pub_date": "2026-04-25T09:26:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 3,
+    "relevance": "low",
+    "category": "other",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Stuxnet 이전의 'fast16' 악성코드 발견, 엔지니어링 소프트웨어 대상."
+  },
+  {
+    "uid": "9c595a9075a6a4fac4e3e41c89fa0ca9",
+    "source": "The Hacker News",
+    "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
+    "link": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe list of vulnerabilities is below -\n\nCVE-2024-57726 (CVSS score: 9.9) - A missing authorization vulnerability in",
+    "pub_date": "2026-04-25T05:08:00+00:00",
+    "cve_ids": [
+      "CVE-2024-57726"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 4,
+    "relevance": "high",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "patch",
+    "summary_ko": "CISA KEV에 4개 취약점 추가, 2026년 5월까지 패치 필요."
+  },
+  {
+    "uid": "4499951c67570ab1299918339a325d25",
+    "source": "SecurityWeek",
+    "title": "China-Linked APT GopherWhisper Abuses Legitimate Services in Government Attacks",
+    "link": "https://www.securityweek.com/china-linked-apt-gopherwhisper-abuses-legitimate-services-in-government-attacks/",
+    "summary": "<p>Dubbed GopherWhisper, the group relies on multiple Go-based backdoors alongside custom loaders and injectors.</p>\n<p>The post <a href=\"https://www.securityweek.com/china-linked-apt-gopherwhisper-abuses-legitimate-services-in-government-attacks/\">China-Linked APT GopherWhisper Abuses Legitimate Services in Government Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-04-25T10:50:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 5,
+    "relevance": "medium",
+    "category": "threat_intel",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "중국 APT GopherWhisper, 합법 서비스 악용하여 정부 공격."
+  },
+  {
+    "uid": "c3de5c1ecb9587d17771512ae45eab0a",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds SimpleHelp, Samsung, and D-Link flaws to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/191281/security/u-s-cisa-adds-simplehelp-samsung-and-d-link-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds SimpleHelp, Samsung, and D-Link flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added SimpleHelp, Samsung, and D-Link flaws to its Known Exploited Vulnerabilities (KEV) catalog. Below are the flaws added to the catalog: The vulnerability CVE-2024-7399 (CVSS score of 8.8) is [&#8230;]",
+    "pub_date": "2026-04-25T21:00:26+00:00",
+    "cve_ids": [
+      "CVE-2024-7399"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 1,
+    "relevance": "high",
+    "category": "vuln",
+    "affected_component": "Android",
+    "action_required": true,
+    "action_type": "patch",
+    "summary_ko": "CISA KEV에 삼성 취약점 추가, 즉시 패치 필요"
+  },
+  {
+    "uid": "41b5629a1aab3d5266f70f002c5123b0",
+    "source": "Security Affairs",
+    "title": "Over 400,000 sites at risk as hackers exploit Breeze Cache plugin flaw (CVE-2026-3844)",
+    "link": "https://securityaffairs.com/191267/uncategorized/over-400000-sites-at-risk-as-hackers-exploit-breeze-cache-plugin-flaw-cve-2026-3844.html",
+    "summary": "Attackers exploit a Breeze Cache flaw (CVE-2026-3844) to upload files without login. Wordfence researchers detected over 170 attacks. Threat actors are exploiting a critical flaw, tracked as CVE-2026-3844 (CVSS score of 9.8), in the Breeze Cache WordPress plugin, allowing them to upload files to a server without authentication. The vulnerability has already been used in [&#8230;]",
+    "pub_date": "2026-04-25T14:22:33+00:00",
+    "cve_ids": [
+      "CVE-2026-3844"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 2,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "Supply_Chain",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "워드프레스 Breeze Cache 플러그인 취약점 악용 급증"
+  },
+  {
+    "uid": "bcd1232b86704912f99bdf5d2c7b16c8",
+    "source": "Security Affairs",
+    "title": "CISA reports persistent FIRESTARTER backdoor on Cisco ASA device in federal network",
+    "link": "https://securityaffairs.com/191241/hacking/cisa-reports-persistent-firestarter-backdoor-on-cisco-asa-device-in-federal-network.html",
+    "summary": "CISA said a federal Cisco Firepower ASA device was infected with the FIRESTARTER backdoor in Sept 2025, and it survived security patches. CISA revealed that a U.S. federal civilian agency’s Cisco Firepower device running ASA software was compromised in September 2025 by the FIRESTARTER backdoor. The malware reportedly persisted even after security patches were applied, [&#8230;]",
+    "pub_date": "2026-04-25T00:00:52+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 3,
+    "relevance": "high",
+    "category": "threat_intel",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "Cisco ASA 장비에 지속적인 FIRESTARTER 백도어 감염"
+  },
+  {
+    "uid": "4d788acb906534fceef8801b4b2478d6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Real-Time Cloud Detection and Response to Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-real-time-cloud-detection-and-response-to-google-cloud/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 4,
+    "relevance": "low",
+    "category": "tool",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "CrowdStrike, Google Cloud 실시간 탐지 및 대응 기능 확장"
+  },
+  {
+    "uid": "6e80939fbb16e323d124c1e0c9853d07",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Cloud Security Delivered 264% ROI Through Unified Cloud Protection",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-cloud-security-delivers-264-percent-roi-through-unified-cloud-protection/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 5,
+    "relevance": "low",
+    "category": "tool",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "CrowdStrike Falcon Cloud Security 투자 수익률 264% 달성"
+  },
+  {
+    "uid": "30d0a11ef669bacbded479add81db59b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Platform Achieves 441% ROI in Three Years",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-achieves-441-percent-roi-in-three-years/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 1,
+    "relevance": "low",
+    "category": "other",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "CrowdStrike ROI 보고서. 보안 투자 효과 측정 자료."
+  },
+  {
+    "uid": "2db3b904ed48fc89b9286e290a836076",
+    "source": "CrowdStrike",
+    "title": "Introducing the CrowdStrike Shadow AI Visibility Service",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-shadow-AI-visibility-service/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 2,
+    "relevance": "medium",
+    "category": "AI_Security",
+    "affected_component": "AI_Security",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "CrowdStrike Shadow AI 서비스 출시. AI 기반 위협 가시성 확보."
+  },
+  {
+    "uid": "6a0f2931a69cbfc64710bb3bb9cc65cc",
+    "source": "CrowdStrike",
+    "title": "Frontier AI Is Collapsing the Exploit Window. Here&rsquo;s How Defenders Must Respond.",
+    "link": "https://www.crowdstrike.com/en-us/blog/frontier-ai-collapses-exploit-window-how-defenders-must-respond/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 3,
+    "relevance": "medium",
+    "category": "AI_Security",
+    "affected_component": "AI_Security",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "AI 발전으로 공격 시간 단축. 방어 전략 변화 필요."
+  },
+  {
+    "uid": "41886bb08157fc34ca0a2cb21bed3ea2",
+    "source": "CrowdStrike",
+    "title": "Frontier AI for Defenders: CrowdStrike and OpenAI TAC",
+    "link": "https://www.crowdstrike.com/en-us/blog/frontier-ai-for-defenders-crowdstrike-and-openai-tac/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 4,
+    "relevance": "medium",
+    "category": "AI_Security",
+    "affected_component": "AI_Security",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "CrowdStrike-OpenAI 협력. AI 기반 방어 기술 개발."
+  },
+  {
+    "uid": "1c24b7f7de655c6785f6454a5c62c144",
+    "source": "CrowdStrike",
+    "title": "April 2026 Patch Tuesday: Two Zero-Days and Eight Critical Vulnerabilities Among 164 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-april-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 5,
+    "relevance": "high",
+    "category": "vuln",
+    "affected_component": "Android",
+    "action_required": true,
+    "action_type": "patch",
+    "summary_ko": "제로데이 2개 포함, 총 164개 CVE 공개. 즉시 패치 필요."
+  },
+  {
+    "uid": "e1cc87bfd6184622cd28bb0ce53d021f",
+    "source": "CrowdStrike",
+    "title": "Anthropic Claude Mythos Preview: The More Capable AI Becomes, the More Security It Needs",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-founding-member-anthropic-mythos-frontier-model-to-secure-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 1,
+    "relevance": "medium",
+    "category": "AI_Security",
+    "affected_component": "AI_Security",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "AI 모델 성능 향상에 따른 보안 필요성 증가, 잠재적 위협 요소 파악 필요."
+  },
+  {
+    "uid": "21a4d418f96093dd01a90a4cf5d2b9a1",
+    "source": "CrowdStrike",
+    "title": "How CrowdStrike Is Accelerating Exposure Evaluation as Adversaries Gain Speed",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-crowdstrike-accelerates-exposure-evaluation-against-threats/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 2,
+    "relevance": "medium",
+    "category": "threat_intel",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "적대자의 공격 속도 증가에 따른 노출 평가 가속화 중요성 강조."
+  },
+  {
+    "uid": "0c47bcae136f243b220395491da6d15b",
+    "source": "CrowdStrike",
+    "title": "STARDUST CHOLLIMA Likely Compromises Axios npm Package",
+    "link": "https://www.crowdstrike.com/en-us/blog/stardust-chollima-likely-compromises-axios-npm-package/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 3,
+    "relevance": "high",
+    "category": "supply_chain",
+    "affected_component": "Supply_Chain",
+    "action_required": true,
+    "action_type": "patch",
+    "summary_ko": "STARDUST CHOLLIMA 그룹의 Axios npm 패키지 손상, 즉각적인 패치 및 검토 필요."
+  }
+]
