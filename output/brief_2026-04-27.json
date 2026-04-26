@@ -1,0 +1,952 @@
+[
+  {
+    "uid": "52023043c3c7fbd8e62512156c4ffd26",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7061 - Toowiredd chatgpt-mcp-server MCP/HTTP docker.service.ts os command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7061",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7061\n  <br />\n  <strong>Published :</strong> April 26, 2026, 10 p.m. | 28 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Toowiredd chatgpt-mcp-server up to 0.1.0. Affected by this issue is some unknown functionality of the file src/services/docker.service.ts of the component MCP/HTTP. This manipulation causes os command injection. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T22:00:17+00:00",
+    "cve_ids": [
+      "CVE-2026-7061"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A weakness has been identified in Toowiredd chatgpt-mcp-server up to 0.1.0. Affected by this issue is some unknown functionality of the file src/services/docker.service.ts of the component MCP/HTTP. This manipulation causes os command injection. Remote exploitation of the attack is possible. The exp",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "AI_Security",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "chatgpt-mcp-server의 OS 명령어 삽입 취약점 발견 (CVSS 7.3)"
+  },
+  {
+    "uid": "8f12f04a18356f50e2630368bee24b6e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7060 - liyupi yu-picture MyBatis-Plus PictureServiceImpl.java PageRequest sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7060",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7060\n  <br />\n  <strong>Published :</strong> April 26, 2026, 8:15 p.m. | 2 hours, 13 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in liyupi yu-picture up to a053632c41340152bf75b66b3c543d129123d8ec. This impacts the function PageRequest of the file yu-picture-backend/src/main/java/com/yupi/yupicturebackend/service/impl/PictureServiceImpl.java of the component MyBatis-Plus. Executing a manipulation of the argument sortField can lead to sql injection. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. Applying a patch is advised to resolve this issue. The pr",
+    "pub_date": "2026-04-26T20:15:18+00:00",
+    "cve_ids": [
+      "CVE-2026-7060"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was determined in liyupi yu-picture up to a053632c41340152bf75b66b3c543d129123d8ec. This impacts the function PageRequest of the file yu-picture-backend/src/main/java/com/yupi/yupicturebackend/service/impl/PictureServiceImpl.java of the component MyBatis-Plus. Executing a manipulatio",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "yu-picture의 SQL 삽입 취약점 발견 (CVSS 7.3)"
+  },
+  {
+    "uid": "09b985257639d244d352e0487dee92c8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7059 - 666ghj MiroFish Query Parameter simulation.py get_simulation_posts path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7059",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7059\n  <br />\n  <strong>Published :</strong> April 26, 2026, 8 p.m. | 2 hours, 28 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in 666ghj MiroFish up to 0.1.2. This affects the function get_simulation_posts of the file backend/app/api/simulation.py of the component Query Parameter Handler. Performing a manipulation of the argument Platform results in path traversal. The attack can be initiated remotely. The exploit has been made public and could be used.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T20:00:16+00:00",
+    "cve_ids": [
+      "CVE-2026-7059"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was found in 666ghj MiroFish up to 0.1.2. This affects the function get_simulation_posts of the file backend/app/api/simulation.py of the component Query Parameter Handler. Performing a manipulation of the argument Platform results in path traversal. The attack can be initiated remot",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "MiroFish의 경로 탐색 취약점 발견 (CVSS 5.3)"
+  },
+  {
+    "uid": "eed78ef4ae470a2e4358277108d113af",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6786 - Memory safety bugs fixed in Firefox ESR 140.10, Thunderbird ESR 140.10, Firefox 150 and Thunderbird 150",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6786",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6786\n  <br />\n  <strong>Published :</strong> April 26, 2026, 7:53 p.m. | 2 hours, 34 minutes ago\n  <br />\n  <strong>Description :</strong>Memory safety bugs present in Firefox ESR 140.9, Thunderbird ESR 140.9, Firefox 149 and Thunderbird 149. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 150, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.\n  <br />\n  <strong>Severity:</strong> 8.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T19:53:39+00:00",
+    "cve_ids": [
+      "CVE-2026-6786"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "Memory safety bugs present in Firefox ESR 140.9, Thunderbird ESR 140.9, Firefox 149 and Thunderbird 149. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firef",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "Firefox/Thunderbird 메모리 안전성 버그 수정 (CVSS 8.1)"
+  },
+  {
+    "uid": "cae8746d0b0c02fe0ce71ad42e3e3908",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6785 - Memory safety bugs fixed in Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird ESR 140.10, Firefox 150 and Thunderbird 150",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6785",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6785\n  <br />\n  <strong>Published :</strong> April 26, 2026, 7:53 p.m. | 2 hours, 34 minutes ago\n  <br />\n  <strong>Description :</strong>Memory safety bugs present in Firefox ESR 115.34, Firefox ESR 140.9, Thunderbird ESR 140.9, Firefox 149 and Thunderbird 149. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 150, Firefox ESR 115.35, Firefox ESR 140.10, Thunderbird 150, and Thunderbird 140.10.\n  <br />\n  <strong>Severity:</strong> 8.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T19:53:39+00:00",
+    "cve_ids": [
+      "CVE-2026-6785"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "Memory safety bugs present in Firefox ESR 115.34, Firefox ESR 140.9, Thunderbird ESR 140.9, Firefox 149 and Thunderbird 149. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerabilit",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "Firefox/Thunderbird 메모리 안전성 버그 수정 (CVSS 8.1)"
+  },
+  {
+    "uid": "0f8d779b5801411d70c084f09faab587",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7058 - 666ghj MiroFish Inter-Process Communication simulation_ipc.py SimulationIPCClient.send_command command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7058",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7058\n  <br />\n  <strong>Published :</strong> April 26, 2026, 7:45 p.m. | 2 hours, 43 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in 666ghj MiroFish up to 0.1.2. The impacted element is the function SimulationIPCClient.send_command of the file backend/app/services/simulation_ipc.py of the component Inter-Process Communication. Such manipulation leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and m",
+    "pub_date": "2026-04-26T19:45:13+00:00",
+    "cve_ids": [
+      "CVE-2026-7058"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability has been found in 666ghj MiroFish up to 0.1.2. The impacted element is the function SimulationIPCClient.send_command of the file backend/app/services/simulation_ipc.py of the component Inter-Process Communication. Such manipulation leads to command injection. It is possible to launch",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "Linux",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "MiroFish IPC 함수에서 명령 삽입 취약점 발견 (CVSS 7.3)"
+  },
+  {
+    "uid": "eb51cb751d0446efe275cee0a07cd246",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7057 - Tenda F456 httpd setcfm buffer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7057",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7057\n  <br />\n  <strong>Published :</strong> April 26, 2026, 6:45 p.m. | 3 hours, 43 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Tenda F456 1.0.0.5. The affected element is an unknown function of the file /goform/setcfm of the component httpd. This manipulation of the argument funcname/funcpara1 causes buffer overflow. It is possible to initiate the attack remotely. The exploit has been published and may be used.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T18:45:15+00:00",
+    "cve_ids": [
+      "CVE-2026-7057"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A flaw has been found in Tenda F456 1.0.0.5. The affected element is an unknown function of the file /goform/setcfm of the component httpd. This manipulation of the argument funcname/funcpara1 causes buffer overflow. It is possible to initiate the attack remotely. The exploit has been published and ",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "Linux",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Tenda F456 httpd setcfm 버퍼 오버플로우 취약점 (CVSS 8.8)"
+  },
+  {
+    "uid": "9f56839b06114f3957151d52ac688465",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7056 - Tenda F456 httpd SafeUrlFilter fromSafeUrlFilter buffer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7056",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7056\n  <br />\n  <strong>Published :</strong> April 26, 2026, 6:30 p.m. | 3 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in Tenda F456 1.0.0.5. Impacted is the function fromSafeUrlFilter of the file /goform/SafeUrlFilter of the component httpd. The manipulation of the argument page results in buffer overflow. The attack may be performed from remote. The exploit is now public and may be used.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T18:30:16+00:00",
+    "cve_ids": [
+      "CVE-2026-7056"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability was detected in Tenda F456 1.0.0.5. Impacted is the function fromSafeUrlFilter of the file /goform/SafeUrlFilter of the component httpd. The manipulation of the argument page results in buffer overflow. The attack may be performed from remote. The exploit is now public and may be use",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "Linux",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Tenda F456 httpd SafeUrlFilter 버퍼 오버플로우 취약점 (CVSS 8.8)"
+  },
+  {
+    "uid": "6dd1ab00691740dd5940b44cb92db9c1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7055 - Tenda F456 httpd VirtualSer fromVirtualSer buffer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7055",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7055\n  <br />\n  <strong>Published :</strong> April 26, 2026, 6 p.m. | 4 hours, 28 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in Tenda F456 1.0.0.5. This issue affects the function fromVirtualSer of the file /goform/VirtualSer of the component httpd. The manipulation of the argument menufacturer/Go leads to buffer overflow. The attack is possible to be carried out remotely. The exploit has been disclosed publicly and may be used.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T18:00:19+00:00",
+    "cve_ids": [
+      "CVE-2026-7055"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A security vulnerability has been detected in Tenda F456 1.0.0.5. This issue affects the function fromVirtualSer of the file /goform/VirtualSer of the component httpd. The manipulation of the argument menufacturer/Go leads to buffer overflow. The attack is possible to be carried out remotely. The ex",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "Linux",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Tenda F456 httpd VirtualSer 버퍼 오버플로우 취약점 (CVSS 8.8)"
+  },
+  {
+    "uid": "e2fc09a9ca767c36a896877712fe7454",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7054 - Tenda F456 httpd PPTPDClient fromPptpUserAdd buffer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7054",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7054\n  <br />\n  <strong>Published :</strong> April 26, 2026, 4:45 p.m. | 5 hours, 43 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Tenda F456 1.0.0.5. This vulnerability affects the function fromPptpUserAdd of the file /goform/PPTPDClient of the component httpd. Executing a manipulation of the argument opttype/usernamewith can lead to buffer overflow. The attack can be executed remotely. The exploit has been made available to the public and could be used for attacks.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T16:45:12+00:00",
+    "cve_ids": [
+      "CVE-2026-7054"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A weakness has been identified in Tenda F456 1.0.0.5. This vulnerability affects the function fromPptpUserAdd of the file /goform/PPTPDClient of the component httpd. Executing a manipulation of the argument opttype/usernamewith can lead to buffer overflow. The attack can be executed remotely. The ex",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "Linux",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Tenda F456 httpd PPTPDClient 버퍼 오버플로우 취약점 (CVSS 8.8)"
+  },
+  {
+    "uid": "7668a96caa69df8d637769d004ead232",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7053 - Tenda F456 httpd L7Prot frmL7ProtForm buffer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7053",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7053\n  <br />\n  <strong>Published :</strong> April 26, 2026, 4 p.m. | 6 hours, 28 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in Tenda F456 1.0.0.5. This affects the function frmL7ProtForm of the file /goform/L7Prot of the component httpd. Performing a manipulation of the argument page results in buffer overflow. Remote exploitation of the attack is possible. The exploit has been released to the public and may be used for attacks.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T16:00:20+00:00",
+    "cve_ids": [
+      "CVE-2026-7053"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A security flaw has been discovered in Tenda F456 1.0.0.5. This affects the function frmL7ProtForm of the file /goform/L7Prot of the component httpd. Performing a manipulation of the argument page results in buffer overflow. Remote exploitation of the attack is possible. The exploit has been release",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Tenda F456 라우터의 버퍼 오버플로우 취약점 발견 (CVSS 8.8)"
+  },
+  {
+    "uid": "95935df8531e8ee14bb6da6da682314b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7045 - baomidou dynamic-datasource StandardEvaluationContext/SpelExpressionParser DsSpelExpressionProcessor.java DsSpelExpressionProcessor#doDetermineDatasource injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7045",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7045\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:45 p.m. | 8 hours, 43 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in baomidou dynamic-datasource 2.5.0. Affected by this vulnerability is the function DsSpelExpressionProcessor#doDetermineDatasource of the file dynamic-datasource-spring/src/main/java/com/baomidou/dynamic/datasource/processor/DsSpelExpressionProcessor.java of the component StandardEvaluationContext/SpelExpressionParser. This manipulation causes injection. The attack may be initiated remotely. Patch name: 273fcedaee984c08197c0890f14190b86ab7e0b8. It is recommended to apply a patch to fix this issue.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, s",
+    "pub_date": "2026-04-26T13:45:15+00:00",
+    "cve_ids": [
+      "CVE-2026-7045"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was determined in baomidou dynamic-datasource 2.5.0. Affected by this vulnerability is the function DsSpelExpressionProcessor#doDetermineDatasource of the file dynamic-datasource-spring/src/main/java/com/baomidou/dynamic/datasource/processor/DsSpelExpressionProcessor.java of the comp",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "baomidou dynamic-datasource의 SpEL injection 취약점 (CVSS 6.3)"
+  },
+  {
+    "uid": "5903d02d5206e347cceee45ea9c4fc00",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7044 - GreenCMS index.php themeadd unrestricted upload",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7044",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7044\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:30 p.m. | 8 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in GreenCMS up to 2.3. Affected is the function themeadd of the file /index.php?m=admin&amp;c=custom&amp;a=themeadd. The manipulation results in unrestricted upload. The attack can be launched remotely. The exploit has been made public and could be used. This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:30:09+00:00",
+    "cve_ids": [
+      "CVE-2026-7044"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was found in GreenCMS up to 2.3. Affected is the function themeadd of the file /index.php?m=admin&c=custom&a=themeadd. The manipulation results in unrestricted upload. The attack can be launched remotely. The exploit has been made public and could be used. This vulnerability only aff",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "GreenCMS의 파일 업로드 제한 없음 취약점 (CVSS 6.3)"
+  },
+  {
+    "uid": "592bfa9d32c41be4c930a55ed7125059",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25297 - Wansview 1.0.2 Denial of Service via Buffer Overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25297",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25297\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>Wansview 1.0.2 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying oversized input strings. Attackers can inject 2000-byte payloads into the Camera name and DID number fields during camera addition to trigger application crashes.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:26+00:00",
+    "cve_ids": [
+      "CVE-2018-25297"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "Wansview 1.0.2 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying oversized input strings. Attackers can inject 2000-byte payloads into the Camera name and DID number fields during camera addition to trigger application crashes.",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Wansview의 버퍼 오버플로우 취약점 (CVSS 6.2)"
+  },
+  {
+    "uid": "da0cf83b570a6875cc940fbd608d83b5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25296 - P10 Central Management Software 1.4.13 Denial of Service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25296",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25296\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>P10 Central Management Software 1.4.13 contains a buffer overflow vulnerability in the login password field that allows local attackers to crash the application by submitting an oversized input string. Attackers can paste a 2000-byte payload into the password field and click login to trigger an application crash and denial of service.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:25+00:00",
+    "cve_ids": [
+      "CVE-2018-25296"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "P10 Central Management Software 1.4.13 contains a buffer overflow vulnerability in the login password field that allows local attackers to crash the application by submitting an oversized input string. Attackers can paste a 2000-byte payload into the password field and click login to trigger an appl",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "P10 Central Management Software의 DoS 취약점 (CVSS 5.5)"
+  },
+  {
+    "uid": "6e01b1ebd6a6e266494e5376c5f228f2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25295 - ObserverIP Scan Tool 1.4.0.1 Denial of Service via IP Field",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25295",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25295\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>ObserverIP Scan Tool 1.4.0.1 contains a denial of service vulnerability that allows local attackers to crash the application by submitting an excessively long string in the IP input field. Attackers can paste a 2000-byte buffer of repeated characters into the IP field and trigger a search operation to cause an application crash.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:24+00:00",
+    "cve_ids": [
+      "CVE-2018-25295"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "ObserverIP Scan Tool 1.4.0.1 contains a denial of service vulnerability that allows local attackers to crash the application by submitting an excessively long string in the IP input field. Attackers can paste a 2000-byte buffer of repeated characters into the IP field and trigger a search operation ",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "ObserverIP Scan Tool DoS 취약점 (CVSS 6.2)"
+  },
+  {
+    "uid": "2f595a94db5ab82a42e6c063be3854d9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25294 - CEWE Photoshow 6.3.4 Buffer Overflow Denial of Service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25294",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25294\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>CEWE Photoshow 6.3.4 contains a buffer overflow vulnerability in the login dialog that allows attackers to crash the application by submitting oversized input. Attackers can inject 4000 bytes of data into the email address and password fields to trigger a denial of service condition.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:23+00:00",
+    "cve_ids": [
+      "CVE-2018-25294"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "CEWE Photoshow 6.3.4 contains a buffer overflow vulnerability in the login dialog that allows attackers to crash the application by submitting oversized input. Attackers can inject 4000 bytes of data into the email address and password fields to trigger a denial of service condition.",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "CEWE Photoshow 버퍼 오버플로우 취약점 (CVSS 7.5)"
+  },
+  {
+    "uid": "bddec2fdb5fc7a512a6506abab8ae5d5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25293 - Prime95 29.4b7 Denial of Service via Proxy Password Field",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25293",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25293\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>Prime95 29.4b7 contains a buffer overflow vulnerability in the PrimeNet connection dialog that allows local attackers to crash the application by supplying an excessively long string in the optional proxy password field. Attackers can trigger a denial of service by entering a 6000-byte payload into the proxy password parameter, causing the application to crash when processing the connection settings.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:22+00:00",
+    "cve_ids": [
+      "CVE-2018-25293"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "Prime95 29.4b7 contains a buffer overflow vulnerability in the PrimeNet connection dialog that allows local attackers to crash the application by supplying an excessively long string in the optional proxy password field. Attackers can trigger a denial of service by entering a 6000-byte payload into ",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Prime95 DoS 취약점 (CVSS 6.2)"
+  },
+  {
+    "uid": "1433186bc576907a21a7fa2eb5a3b270",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25292 - Bome Restorator 1793 Denial of Service via Buffer Overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25292",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25292\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>Bome Restorator 1793 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an excessively long string in the Name field. Attackers can create a malicious payload exceeding 4000 bytes and paste it into the Name input field to trigger an application crash and denial of service.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:21+00:00",
+    "cve_ids": [
+      "CVE-2018-25292"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "Bome Restorator 1793 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an excessively long string in the Name field. Attackers can create a malicious payload exceeding 4000 bytes and paste it into the Name input field to trigger an application",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Bome Restorator 버퍼 오버플로우 취약점 (CVSS 6.2)"
+  },
+  {
+    "uid": "583ee3db1184bb42af777ed1c75f6be3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25291 - Project64 2.3.2 Denial of Service via Plugin Directory",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25291",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25291\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>Project64 2.3.2 contains a buffer overflow vulnerability in the Plugin Directory settings field that allows local attackers to crash the application by supplying an excessively long string. Attackers can input a 6000-byte payload into the Plugin Directory field through the Options > Settings > Directories interface to trigger an application crash when settings are reopened.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:20+00:00",
+    "cve_ids": [
+      "CVE-2018-25291"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "Project64 2.3.2 contains a buffer overflow vulnerability in the Plugin Directory settings field that allows local attackers to crash the application by supplying an excessively long string. Attackers can input a 6000-byte payload into the Plugin Directory field through the Options > Settings > Direc",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Project64 Plugin Directory 취약점 (CVSS 6.2)"
+  },
+  {
+    "uid": "8c216050fc018a0a362eba7c0a381ba0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25290 - Easyboot 6.6.0 Buffer Overflow Denial of Service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25290",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25290\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>Easyboot 6.6.0 contains a buffer overflow vulnerability in the Replace Text function that allows local attackers to crash the application by supplying an oversized string. Attackers can trigger the vulnerability by accessing File > Tools > Replace Text and pasting a 7000-byte payload into the text fields to cause a denial of service.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:20+00:00",
+    "cve_ids": [
+      "CVE-2018-25290"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "Easyboot 6.6.0 contains a buffer overflow vulnerability in the Replace Text function that allows local attackers to crash the application by supplying an oversized string. Attackers can trigger the vulnerability by accessing File > Tools > Replace Text and pasting a 7000-byte payload into the text f",
+      "affected": []
+    },
+    "idx": 1,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Easyboot 6.6.0 버퍼 오버플로우 취약점 (CVSS 6.2)"
+  },
+  {
+    "uid": "b962f33f5514ffdcdece9c35975b68a1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25289 - Softdisk 3.0.3 Buffer Overflow Denial of Service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25289",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25289\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>Softdisk 3.0.3 contains a buffer overflow vulnerability in the registration code dialog that allows local attackers to crash the application by supplying an oversized string. Attackers can trigger the vulnerability by entering a 6000-byte payload in the Registration Name field through the Help menu's Enter Registration Code dialog to cause a denial of service.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:19+00:00",
+    "cve_ids": [
+      "CVE-2018-25289"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "Softdisk 3.0.3 contains a buffer overflow vulnerability in the registration code dialog that allows local attackers to crash the application by supplying an oversized string. Attackers can trigger the vulnerability by entering a 6000-byte payload in the Registration Name field through the Help menu'",
+      "affected": []
+    },
+    "idx": 2,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Softdisk 3.0.3 버퍼 오버플로우 취약점 (CVSS 6.2)"
+  },
+  {
+    "uid": "e59d6ee21a164c0bd1da471d2bf82ca4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25288 - StyleWriter 1.0 Denial of Service via Pattern Input",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25288",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25288\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>StyleWriter 1.0 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an excessively long string. Attackers can paste a 6000-byte payload into the Pattern to Find or Advice Message fields in the Add Pattern dialog to trigger a denial of service condition.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:18+00:00",
+    "cve_ids": [
+      "CVE-2018-25288"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "StyleWriter 1.0 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an excessively long string. Attackers can paste a 6000-byte payload into the Pattern to Find or Advice Message fields in the Add Pattern dialog to trigger a denial of service co",
+      "affected": []
+    },
+    "idx": 3,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "StyleWriter 1.0 패턴 입력 DoS 취약점 (CVSS 6.2)"
+  },
+  {
+    "uid": "808dbd33d01339268e3ba682535ba717",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25287 - Drive Power Manager 1.10 Denial of Service via Name Field",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25287",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25287\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>Drive Power Manager 1.10 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an excessively long string in the Name field. Attackers can paste a 6000-byte payload into the Name field and click Register to trigger a denial of service condition.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:17+00:00",
+    "cve_ids": [
+      "CVE-2018-25287"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "Drive Power Manager 1.10 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an excessively long string in the Name field. Attackers can paste a 6000-byte payload into the Name field and click Register to trigger a denial of service condition.",
+      "affected": []
+    },
+    "idx": 4,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Drive Power Manager 1.10 DoS 취약점 (CVSS 5.5)"
+  },
+  {
+    "uid": "092bd8ac3c9796cf07edcf1beb310753",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25286 - Easy PhotoResQ 1.0 Buffer Overflow Denial of Service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25286",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25286\n  <br />\n  <strong>Published :</strong> April 26, 2026, 1:19 p.m. | 9 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>Easy PhotoResQ 1.0 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an excessively long string in the Folder/filename field. Attackers can input a 6000-byte payload through the File Options dialog to trigger a denial of service condition.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-04-26T13:19:17+00:00",
+    "cve_ids": [
+      "CVE-2018-25286"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "Easy PhotoResQ 1.0 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an excessively long string in the Folder/filename field. Attackers can input a 6000-byte payload through the File Options dialog to trigger a denial of service condition.",
+      "affected": []
+    },
+    "idx": 5,
+    "relevance": "low",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "Easy PhotoResQ 1.0 버퍼 오버플로우 취약점 (CVSS 6.2)"
+  },
+  {
+    "uid": "242d35ba6ce49759096ec4beca974ef4",
+    "source": "BleepingComputer",
+    "title": "American utility firm Itron discloses breach of internal IT network",
+    "link": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
+    "summary": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems. [...]",
+    "pub_date": "2026-04-26T14:22:34+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 1,
+    "relevance": "medium",
+    "category": "supply_chain",
+    "affected_component": "Supply_Chain",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Itron의 내부 IT 네트워크 침해 사고 발생, 공급망 보안 모니터링 필요."
+  },
+  {
+    "uid": "497351452cb33cb0895b50b4e29d25f7",
+    "source": "Security Affairs",
+    "title": "Critical bug in CrowdStrike LogScale let attackers access files",
+    "link": "https://securityaffairs.com/191343/hacking/critical-bug-in-crowdstrike-logscale-let-attackers-access-files.html",
+    "summary": "CrowdStrike fixed CVE-2026-40050 in LogScale self-hosted, a critical flaw allowing unauthenticated file access via path traversal. CrowdStrike recently disclosed a critical vulnerability, tracked as CVE-2026-40050, affecting its LogScale self-hosted product. The flaw enables unauthenticated path traversal, which could allow a remote attacker to read arbitrary files from the server filesystem. &#8220;CrowdStrike has released security updates [&#8230;]",
+    "pub_date": "2026-04-26T16:07:02+00:00",
+    "cve_ids": [
+      "CVE-2026-40050"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 2,
+    "relevance": "high",
+    "category": "vuln",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "patch",
+    "summary_ko": "CrowdStrike LogScale의 인증되지 않은 파일 접근 취약점(CVE-2026-40050) 발견 및 패치 필요."
+  },
+  {
+    "uid": "75648c728e1cd9acda9fc29880da3690",
+    "source": "Security Affairs",
+    "title": "GopherWhisper: new China-linked APT targets Mongolia with Go-based malware",
+    "link": "https://securityaffairs.com/191318/apt/gopherwhisper-new-china-linked-apt-targets-mongolia-with-go-based-malware.html",
+    "summary": "ESET found a new China-linked APT, tracked as GopherWhisper, targeting Mongolia using Go-based malware, loaders, and backdoors. ESET researchers uncovered a new China-aligned APT group called GopherWhisper, targeting government institutions in Mongolia. The group&#8217;s arsenal includes a range of tools mainly written in Go, such as loaders and injectors, which are used to deploy multiple [&#8230;]",
+    "pub_date": "2026-04-26T13:07:58+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 3,
+    "relevance": "high",
+    "category": "threat_intel",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "중국 연계 APT 'GopherWhisper'의 몽골 정부기관 공격 활동 확인, 위협 인텔리전스 모니터링 필요."
+  },
+  {
+    "uid": "95045fbe0a4533ca82ff7f298ed0817d",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 94",
+    "link": "https://securityaffairs.com/191312/malware/security-affairs-malware-newsletter-round-94.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Morpheus: A new Spyware linked to IPS Intelligence The iPhone — invincible no more: a look at DarkSword and Coruna&#160;&#160; Lotus Wiper: a new threat targeting the energy and utilities sector&#160; New NGate variant hides in [&#8230;]",
+    "pub_date": "2026-04-26T11:32:42+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 4,
+    "relevance": "medium",
+    "category": "threat_intel",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "다양한 악성코드 및 공격 캠페인 정보 포함, 최신 위협 동향 모니터링 필요."
+  },
+  {
+    "uid": "8c76e6abacd6b9fe23cd344563ed1c47",
+    "source": "Security Affairs",
+    "title": "Trigona ransomware adopts custom tool to steal data and evade detection",
+    "link": "https://securityaffairs.com/191294/cyber-crime/trigona-ransomware-adopts-custom-tool-to-steal-data-and-evade-detection.html",
+    "summary": "Trigona ransomware now uses a custom command-line tool to steal data faster and evade detection, replacing tools like Rclone and MegaSync. Symantec researchers report that recent Trigona ransomware attacks used a custom-built data exfiltration tool instead of common utilities like Rclone or MegaSync. This shift, seen in March 2026 incidents, gives attackers more control and [&#8230;]",
+    "pub_date": "2026-04-26T09:37:30+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 5,
+    "relevance": "medium",
+    "category": "threat_intel",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Trigona 랜섬웨어의 데이터 탈취 도구 변경, 랜섬웨어 공격 트렌드 모니터링 필요."
+  },
+  {
+    "uid": "7087d2484c67f0a989c1e8eb912bd17d",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 574 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/191305/breaking-news/security-affairs-newsletter-round-574-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. U.S. CISA adds SimpleHelp, Samsung, and D-Link flaws to its Known Exploited Vulnerabilities catalog Over 400,000 [&#8230;]",
+    "pub_date": "2026-04-26T08:41:06+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 1,
+    "relevance": "high",
+    "category": "threat_intel",
+    "affected_component": "기타",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "CISA KEV에 SimpleHelp, Samsung, D-Link 제품 추가. 즉시 모니터링 필요."
+  },
+  {
+    "uid": "4d788acb906534fceef8801b4b2478d6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Real-Time Cloud Detection and Response to Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-real-time-cloud-detection-and-response-to-google-cloud/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 2,
+    "relevance": "medium",
+    "category": "tool",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "CrowdStrike의 Google Cloud 실시간 탐지 및 대응 기능 확장."
+  },
+  {
+    "uid": "6e80939fbb16e323d124c1e0c9853d07",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Cloud Security Delivered 264% ROI Through Unified Cloud Protection",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-cloud-security-delivers-264-percent-roi-through-unified-cloud-protection/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 3,
+    "relevance": "low",
+    "category": "other",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "CrowdStrike Falcon Cloud Security의 투자 수익률(ROI) 264% 보고."
+  },
+  {
+    "uid": "30d0a11ef669bacbded479add81db59b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Platform Achieves 441% ROI in Three Years",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-achieves-441-percent-roi-in-three-years/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 4,
+    "relevance": "low",
+    "category": "other",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "CrowdStrike Falcon Platform의 3년 투자 수익률(ROI) 441% 보고."
+  },
+  {
+    "uid": "2db3b904ed48fc89b9286e290a836076",
+    "source": "CrowdStrike",
+    "title": "Introducing the CrowdStrike Shadow AI Visibility Service",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-shadow-AI-visibility-service/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 5,
+    "relevance": "medium",
+    "category": "AI_Security",
+    "affected_component": "AI_Security",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "CrowdStrike Shadow AI 가시성 서비스 출시. AI 보안 위협 모니터링 필요."
+  },
+  {
+    "uid": "6a0f2931a69cbfc64710bb3bb9cc65cc",
+    "source": "CrowdStrike",
+    "title": "Frontier AI Is Collapsing the Exploit Window. Here&rsquo;s How Defenders Must Respond.",
+    "link": "https://www.crowdstrike.com/en-us/blog/frontier-ai-collapses-exploit-window-how-defenders-must-respond/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 1,
+    "relevance": "medium",
+    "category": "AI_Security",
+    "affected_component": "AI_Security",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "AI 악용 시점 단축에 대한 방어 전략 변화 필요성 제시."
+  },
+  {
+    "uid": "41886bb08157fc34ca0a2cb21bed3ea2",
+    "source": "CrowdStrike",
+    "title": "Frontier AI for Defenders: CrowdStrike and OpenAI TAC",
+    "link": "https://www.crowdstrike.com/en-us/blog/frontier-ai-for-defenders-crowdstrike-and-openai-tac/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 2,
+    "relevance": "medium",
+    "category": "AI_Security",
+    "affected_component": "AI_Security",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "CrowdStrike와 OpenAI TAC 협력을 통한 AI 기반 보안 강화 논의."
+  },
+  {
+    "uid": "1c24b7f7de655c6785f6454a5c62c144",
+    "source": "CrowdStrike",
+    "title": "April 2026 Patch Tuesday: Two Zero-Days and Eight Critical Vulnerabilities Among 164 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-april-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 3,
+    "relevance": "medium",
+    "category": "vuln",
+    "affected_component": "Android",
+    "action_required": true,
+    "action_type": "patch",
+    "summary_ko": "164개 CVE 중 2개의 제로데이 및 8개의 중요 취약점 공개."
+  },
+  {
+    "uid": "e1cc87bfd6184622cd28bb0ce53d021f",
+    "source": "CrowdStrike",
+    "title": "Anthropic Claude Mythos Preview: The More Capable AI Becomes, the More Security It Needs",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-founding-member-anthropic-mythos-frontier-model-to-secure-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 4,
+    "relevance": "medium",
+    "category": "AI_Security",
+    "affected_component": "AI_Security",
+    "action_required": false,
+    "action_type": "monitor",
+    "summary_ko": "Anthropic Claude Mythos의 성능 향상에 따른 보안 중요성 강조."
+  },
+  {
+    "uid": "21a4d418f96093dd01a90a4cf5d2b9a1",
+    "source": "CrowdStrike",
+    "title": "How CrowdStrike Is Accelerating Exposure Evaluation as Adversaries Gain Speed",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-crowdstrike-accelerates-exposure-evaluation-against-threats/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 5,
+    "relevance": "medium",
+    "category": "tool",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "위협 노출 평가 가속화를 위한 CrowdStrike의 노력 소개."
+  },
+  {
+    "uid": "0c47bcae136f243b220395491da6d15b",
+    "source": "CrowdStrike",
+    "title": "STARDUST CHOLLIMA Likely Compromises Axios npm Package",
+    "link": "https://www.crowdstrike.com/en-us/blog/stardust-chollima-likely-compromises-axios-npm-package/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 1,
+    "relevance": "high",
+    "category": "supply_chain",
+    "affected_component": "Supply_Chain",
+    "action_required": true,
+    "action_type": "monitor",
+    "summary_ko": "Axios npm 패키지 STARDUST CHOLLIMA 해킹 시도, 공급망 공격 가능성 확인 및 모니터링 필요."
+  },
+  {
+    "uid": "ec3c95e48cfe5411c225046383d53a16",
+    "source": "Help Net Security",
+    "title": "Week in review: Claude Mythos finds 271 Firefox flaws, Vercel breach",
+    "link": "https://www.helpnetsecurity.com/2026/04/26/week-in-review-claude-mythos-finds-271-firefox-flaws-vercel-breach/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: SmokedMeat: Open-source tool shows what attackers do inside CI/CD pipelines Boost Security has released SmokedMeat, an open-source framework that runs attack chains against CI/CD infrastructure so engineering and security teams can see what an attacker would do in their specific environment. NGate NFC malware targets Android users through trojanized payment app NFC-based payment fraud is expanding geographically and operationally. A &#8230; <a href=\"https://www.helpnetsecurity.com/2026/04/26/week-in-review-claude-mythos-finds-271-firefox-flaws-vercel-breach/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/04/26/wee",
+    "pub_date": "2026-04-26T08:00:32+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "idx": 2,
+    "relevance": "medium",
+    "category": "tool",
+    "affected_component": "기타",
+    "action_required": false,
+    "action_type": "none",
+    "summary_ko": "CI/CD 파이프라인 공격 시뮬레이션 도구 SmokedMeat 출시, 보안 강화 방법론 참고."
+  }
+]
