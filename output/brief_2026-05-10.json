@@ -1,0 +1,869 @@
+[
+  {
+    "uid": "27e36f8da5501b37324a6591b28a9303",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8212 - OSGeo gdal SWapi.c SWSDfldsrch heap-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8212",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8212\n  <br />\n  <strong>Published :</strong> May 9, 2026, 10:30 p.m. | 34 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in OSGeo gdal up to 3.13.0dev-4. Affected by this vulnerability is the function SWSDfldsrch of the file frmts/hdf4/hdf-eos/SWapi.c. Executing a manipulation can lead to heap-based buffer overflow. The attack requires local access. The exploit has been published and may be used. Upgrading to version 3.13.0RC1 addresses this issue. This patch is called 3e04c0385630e4d42517046d9a4967dfccfeb7fd. The affected component should be upgraded.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T22:30:12+00:00",
+    "cve_ids": [
+      "CVE-2026-8212"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A flaw has been found in OSGeo gdal up to 3.13.0dev-4. Affected by this vulnerability is the function SWSDfldsrch of the file frmts/hdf4/hdf-eos/SWapi.c. Executing a manipulation can lead to heap-based buffer overflow. The attack requires local access. The exploit has been published and may be used.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8212 - OSGeo gdal SWapi.c SWSDfldsrch hea",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "68d7e68f4a77422e86f20a2153e4a514",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-45184 - Kdenlive Proxy Parameter Injection Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-45184",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-45184\n  <br />\n  <strong>Published :</strong> May 9, 2026, 10:25 p.m. | 39 minutes ago\n  <br />\n  <strong>Description :</strong>Kdenlive before 26.04.1 allows dangerous proxy parameters when an attacker-controlled project file is used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T22:25:05+00:00",
+    "cve_ids": [
+      "CVE-2026-45184"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Kdenlive before 26.04.1 allows dangerous proxy parameters when an attacker-controlled project file is used.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-45184 - Kdenlive Proxy Parameter Injectio",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "02b58b73bd27309d06914a85c6c9c00d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-45181 - Hex-Rays IDA Pro Unrestricted Plugin Directory Access Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-45181",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-45181\n  <br />\n  <strong>Published :</strong> May 9, 2026, 10:16 p.m. | 48 minutes ago\n  <br />\n  <strong>Description :</strong>Hex-Rays IDA Pro 9.2 and 9.3 before 9.3sp2 does not block Clang dependency-file generation (via argument injection), which allows attackers to place their code into a plugins directry if the victim uses an attacker-supplied .i64 file.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T22:16:08+00:00",
+    "cve_ids": [
+      "CVE-2026-45181"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Hex-Rays IDA Pro 9.2 and 9.3 before 9.3sp2 does not block Clang dependency-file generation (via argument injection), which allows attackers to place their code into a plugins directry if the victim uses an attacker-supplied .i64 file.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-45181 - Hex-Rays IDA Pro Unrestricted Plu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "53fe57733fd0f8a54540c2af2e257ba1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8211 - codelibs Fess JSP File AdminDesignAction.java update code injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8211",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8211\n  <br />\n  <strong>Published :</strong> May 9, 2026, 10:15 p.m. | 48 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in codelibs Fess up to 15.5.1. Affected by this issue is the function update of the file org/codelibs/fess/app/web/admin/design/AdminDesignAction.java of the component JSP File Handler. The manipulation of the argument content results in code injection. The attack may be performed from remote. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T22:15:38+00:00",
+    "cve_ids": [
+      "CVE-2026-8211"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "A vulnerability was detected in codelibs Fess up to 15.5.1. Affected by this issue is the function update of the file org/codelibs/fess/app/web/admin/design/AdminDesignAction.java of the component JSP File Handler. The manipulation of the argument content results in code injection. The attack may be",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8211 - codelibs Fess JSP File AdminDesign",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8bfee8872881818e87f6b41e95e5dd3a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-45182 - GrapheneOS Quic VPN IP Disclosure",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-45182",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-45182\n  <br />\n  <strong>Published :</strong> May 9, 2026, 10:07 p.m. | 56 minutes ago\n  <br />\n  <strong>Description :</strong>GrapheneOS before 2026050400 allows attackers to discover the real IP address of a VPN user as a consequence of a registerQuicConnectionClosePayload optimization, because an application can let system_server transmit UDP traffic on its behalf. This occurs when the \"Block connections without VPN\" and \"Always-on VPN\" settings are enabled.\n  <br />\n  <strong>Severity:</strong> 2.2 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T22:07:59+00:00",
+    "cve_ids": [
+      "CVE-2026-45182"
+    ],
+    "cvss": 2.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.2,
+      "description": "GrapheneOS before 2026050400 allows attackers to discover the real IP address of a VPN user as a consequence of a registerQuicConnectionClosePayload optimization, because an application can let system_server transmit UDP traffic on its behalf. This occurs when the \"Block connections without VPN\" and",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-45182 - GrapheneOS Quic VPN IP Disclosure",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3c57e94cc34a39770515301d3cd97d3a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8210 - aandrew-me tgpt Update helper.go helper.Update command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8210",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8210\n  <br />\n  <strong>Published :</strong> May 9, 2026, 9:16 p.m. | 1 hour, 48 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in aandrew-me tgpt up to 2.11.1 on Linux/macOS. Affected by this vulnerability is the function helper.Update of the file helper.go of the component Update Handler. The manipulation leads to command injection. Local access is required to approach this attack. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T21:16:26+00:00",
+    "cve_ids": [
+      "CVE-2026-8210"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A security vulnerability has been detected in aandrew-me tgpt up to 2.11.1 on Linux/macOS. Affected by this vulnerability is the function helper.Update of the file helper.go of the component Update Handler. The manipulation leads to command injection. Local access is required to approach this attack",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8210 - aandrew-me tgpt Update helper.go h",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6581846441b4f7e99768615631de2bc3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8196 - JeecgBoot mLogin Endpoint LoginController.java authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8196",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8196\n  <br />\n  <strong>Published :</strong> May 9, 2026, 9:16 p.m. | 1 hour, 48 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in JeecgBoot 3.9.1. The impacted element is an unknown function of the file jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/LoginController.java of the component mLogin Endpoint. This manipulation causes authorization bypass. The attack is possible to be carried out remotely. The attack is considered to have high complexity. The exploitability is regarded as difficult. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 3.7 | LOW\n  <br />\n  Visit t",
+    "pub_date": "2026-05-09T21:16:26+00:00",
+    "cve_ids": [
+      "CVE-2026-8196"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "A flaw has been found in JeecgBoot 3.9.1. The impacted element is an unknown function of the file jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/LoginController.java of the component mLogin Endpoint. This manipulation causes authorization bypass. The attack is",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8196 - JeecgBoot mLogin Endpoint LoginCon",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "16034fa02fc9a71993495d94d803bdc2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8195 - JeecgBoot SVG File CommonController.java cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8195",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8195\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in JeecgBoot up to 3.9.1. The affected element is an unknown function of the file jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/CommonController.java of the component SVG File Handler. The manipulation results in cross site scripting. The attack can be executed remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-8195"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was detected in JeecgBoot up to 3.9.1. The affected element is an unknown function of the file jeecg-module-system/jeecg-system-biz/src/main/java/org/jeecg/modules/system/controller/CommonController.java of the component SVG File Handler. The manipulation results in cross site script",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8195 - JeecgBoot SVG File CommonControlle",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "faefed8fa73f521faf098d3cb72255fc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8194 - osTicket Dispatcher class.dispatcher.php cross-site request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8194",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8194\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in osTicket up to 1.18.3. Impacted is an unknown function of the file include/class.dispatcher.php of the component Dispatcher. The manipulation of the argument _method leads to cross-site request forgery. Remote exploitation of the attack is possible. The exploit has been disclosed publicly and may be used. The project was informed of the problem early through a pull request but has not reacted yet.\n  <br />\n  <strong>Severity:</strong> 5.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-8194"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A security vulnerability has been detected in osTicket up to 1.18.3. Impacted is an unknown function of the file include/class.dispatcher.php of the component Dispatcher. The manipulation of the argument _method leads to cross-site request forgery. Remote exploitation of the attack is possible. The ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8194 - osTicket Dispatcher class.dispatch",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "28e9de21f796229e536801cb1da3dbc8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42606 - AzuraCast: Password Reset Poisoning via Untrusted X-Forwarded-Host Header Leads to Account Takeover and 2FA Bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42606",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42606\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>AzuraCast is a self-hosted, all-in-one web radio management suite. Prior to version 0.23.6, the ApplyXForwarded middleware unconditionally trusts the client-supplied X-Forwarded-Host HTTP header with no trusted proxy allowlist. An unauthenticated attacker can poison the password reset URL sent to any user by injecting this header when triggering the forgot-password flow. When the victim clicks the poisoned link, their reset token is exfiltrated to the attacker's server. The attacker then uses the token on the real instance to reset the victim's password and destroy their 2FA configuration, achieving full account takeover. ",
+    "pub_date": "2026-05-09T20:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-42606"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "AzuraCast is a self-hosted, all-in-one web radio management suite. Prior to version 0.23.6, the ApplyXForwarded middleware unconditionally trusts the client-supplied X-Forwarded-Host HTTP header with no trusted proxy allowlist. An unauthenticated attacker can poison the password reset URL sent to an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42606 - AzuraCast: Password Reset Poisoni",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "34dab320f889d332c442f142e2c7bb7b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42605 - AzuraCast: Path Traversal in `currentDirectory` Parameter Enables Remote Code Execution via Media Upload",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42605",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42605\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>AzuraCast is a self-hosted, all-in-one web radio management suite. Prior to version 0.23.6, the currentDirectory request parameter in the Flow.js media upload endpoint (POST /api/station/{station_id}/files/upload) is not sanitized for path traversal sequences. When combined with a local filesystem storage backend (the default), an authenticated user with media management permissions can write arbitrary files outside the station's media storage directory, achieving remote code execution by writing a PHP webshell to the web root. This issue has been patched in version 0.23.6.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n",
+    "pub_date": "2026-05-09T20:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-42605"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "AzuraCast is a self-hosted, all-in-one web radio management suite. Prior to version 0.23.6, the currentDirectory request parameter in the Flow.js media upload endpoint (POST /api/station/{station_id}/files/upload) is not sanitized for path traversal sequences. When combined with a local filesystem s",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42605 - AzuraCast: Path Traversal in `cur",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "248ad4dc0ab7ff31b1eaaf2124207fbf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42601 - ArchiveBox Vulnerable to RCE via unvalidated per-crawl config overrides in AddView",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42601",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42601\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>ArchiveBox is an open source self-hosted web archiving system. In versions 0.8.6rc0 and prior, the /add/ endpoint (AddView in core/views.py) accepts a config JSON field that gets merged into the crawl config without validation. This config is exported as environment variables when archive plugins run, allowing injection of arbitrary tool arguments to achieve RCE. At time of publication, there are no publicly available patches.\n  <br />\n  <strong>Severity:</strong> 9.3 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-42601"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42601 - ArchiveBox Vulnerable to RCE via ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c467418483901e1a2b087a4d41d663dc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42576 - apko `DiscoverKeys` has a panic on non-rsa jwks key that causes crash during key discovery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42576",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42576\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>apko allows users to build and publish OCI container images built from apk packages. Prior to version 1.2.7, DiscoverKeys in pkg/apk/apk/implementation.go unconditionally type-asserts JWKS keys as *rsa.PublicKey without checking the key type. If a repository JWKS endpoint returns a non-RSA key (e.g. EC), the unchecked assertion panics and crashes apko. This affects any workflow that initializes the APK database and fetches repository keys. This issue has been patched in version 1.2.7.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, time",
+    "pub_date": "2026-05-09T20:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-42576"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "apko allows users to build and publish OCI container images built from apk packages. Prior to version 1.2.7, DiscoverKeys in pkg/apk/apk/implementation.go unconditionally type-asserts JWKS keys as *rsa.PublicKey without checking the key type. If a repository JWKS endpoint returns a non-RSA key (e.g.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42576 - apko `DiscoverKeys` has a panic o",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7f64d38883c2240351d2d650d0c41e36",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42575 - apko doesn't verify downloaded apk packages against APKINDEX checksum (package substitution possible)",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42575",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42575\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>apko allows users to build and publish OCI container images built from apk packages. Prior to version 1.2.7, apko verifies the signature on APKINDEX.tar.gz but never compares individually downloaded .apk packages against the checksum recorded in the signed index. The checksum is parsed and available via ChecksumString(), and the downloaded package control hash is computed, but the two values are never compared in getPackageImpl(). Mismatched packages are silently accepted. An attacker who can substitute download responses (compromised mirror, HTTP repository, poisoned CDN cache) can install arbitrary packages into built im",
+    "pub_date": "2026-05-09T20:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-42575"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "apko allows users to build and publish OCI container images built from apk packages. Prior to version 1.2.7, apko verifies the signature on APKINDEX.tar.gz but never compares individually downloaded .apk packages against the checksum recorded in the signed index. The checksum is parsed and available",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42575 - apko doesn't verify downloaded ap",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "413da8ab8e4c39782c9c3f5371f1d485",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42574 - apko dirFS has a symlink-following path traversal that allows multiple entry points to escape the build root",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42574",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42574\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>apko allows users to build and publish OCI container images built from apk packages. From version 0.14.8 to before version 1.2.5, a crafted .apk could install a TypeSymlink tar entry whose target pointed outside the build root, and a subsequent directory-creation or file-write entry in the same or later archive could traverse that symlink to reach host paths the build user could write to. This issue has been patched in version 1.2.5.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-42574"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "apko allows users to build and publish OCI container images built from apk packages. From version 0.14.8 to before version 1.2.5, a crafted .apk could install a TypeSymlink tar entry whose target pointed outside the build root, and a subsequent directory-creation or file-write entry in the same or l",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42574 - apko dirFS has a symlink-followin",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5e98c1168414f267e28198c3ed1f460a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42571 - Privilege Escalation Attack affecting Pelican Web UI",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42571",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42571\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>Pelican is a platform for creating data federations. From versions 7.21.0 to before 7.21.5, 7.22.0 to before 7.22.3, 7.23.0 to before 7.23.3, and 7.24.0 to before 7.24.2, there is a a privilege escalation vulnerability affecting Pelican's Web User Interface (WebUI). This attack allows any user authenticated to the WebUI via OAuth to gain admin privileges under certain configurations. This issue has been patched in versions 7.21.5, 7.22.3, 7.23.3, and 7.24.2.\n  <br />\n  <strong>Severity:</strong> 9.0 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-42571"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42571 - Privilege Escalation Attack affec",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "500285124ab2775a73f0543f714b62b2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42569 - phpvms: /importer authorization bypass causing full database wipe",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42569",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42569\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>phpVMS is a PHP application to run and simulate an airline. Prior to version 7.0.6, a critical vulnerability in phpVMS allowed unauthenticated access to a legacy import feature. This issue has been patched in version 7.0.6.\n  <br />\n  <strong>Severity:</strong> 9.4 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-42569"
+    ],
+    "cvss": 9.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.4,
+      "description": "phpVMS is a PHP application to run and simulate an airline. Prior to version 7.0.6, a critical vulnerability in phpVMS allowed unauthenticated access to a legacy import feature. This issue has been patched in version 7.0.6.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42569 - phpvms: /importer authorization b",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "022a5d4c688b235c3461862a7a23e429",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42562 - Plainpad: Privilege Escalation via Writable Admin Field in Profile Update (Access Control)",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42562",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42562\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>Plainpad is a self hosted note taking app. Prior to version 1.1.1, Plainpad allows a low-privilege authenticated user to self-escalate to administrator by submitting admin=true in PUT /api.php/v1/users/{id}. The endpoint directly persists the admin attribute from user input, and the escalated account can immediately access admin-only routes. This issue has been patched in version 1.1.1.\n  <br />\n  <strong>Severity:</strong> 8.3 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-42562"
+    ],
+    "cvss": 8.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.3,
+      "description": "Plainpad is a self hosted note taking app. Prior to version 1.1.1, Plainpad allows a low-privilege authenticated user to self-escalate to administrator by submitting admin=true in PUT /api.php/v1/users/{id}. The endpoint directly persists the admin attribute from user input, and the escalated accoun",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42562 - Plainpad: Privilege Escalation vi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0276fe39b56db2fde36b3f89a4edb059",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42333 - quarkus-openapi-generator has overly broad path-parameter matching that sends authentication headers to unintended operations",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42333",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42333\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>Quarkus OpenAPI Generator is Quarkus' extensions for generation of Rest Clients and server stubs generation. Prior to versions 2.11.1-lts, 2.16.0-lts, and 2.17.0, the generated authentication filter matches OpenAPI path templates too broadly when deciding whether to attach credentials. A security scheme configured for one operation can therefore be applied to a different same-method operation whose path only partially resembles the protected template, causing bearer tokens, API keys, or basic credentials to be sent to unintended endpoints. This issue has been patched in versions 2.11.1-lts, 2.16.0-lts, and 2.17.0.\n  <br />",
+    "pub_date": "2026-05-09T20:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-42333"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42333 - quarkus-openapi-generator has ove",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c09c0e0e4d5b090b148f7992c0be03d6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42258 - net-imap: Command Injection via unvalidated Symbol inputs",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42258",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42258\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>Net::IMAP implements Internet Message Access Protocol (IMAP) client functionality in Ruby. Prior to versions 0.4.24, 0.5.14, and 0.6.4, symbol arguments to commands are vulnerable to a CRLF Injection / IMAP Command injection via Symbol arguments passed to IMAP commands. This issue has been patched in versions 0.4.24, 0.5.14, and 0.6.4.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-42258"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42258 - net-imap: Command Injection via u",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cf384d3106ef101585be28762d4b2964",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42257 - net-imap: Command Injection via \"raw\" arguments to multiple commands",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42257",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42257\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>Net::IMAP implements Internet Message Access Protocol (IMAP) client functionality in Ruby. Prior to versions 0.4.24, 0.5.14, and 0.6.4, several Net::IMAP commands accept a raw string argument that is sent to the server without validation or escaping. If this string is derived from user-controlled input, it may contain contain CRLF sequences, which an attacker can use to inject arbitrary IMAP commands. This issue has been patched in versions 0.4.24, 0.5.14, and 0.6.4.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-42257"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42257 - net-imap: Command Injection via \"",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b32e1b27ad6a2daee9e52b3f64ba9f33",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42256 - net-imap: Denial of service via high iteration count for `SCRAM-*` authentication",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42256",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42256\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>Net::IMAP implements Internet Message Access Protocol (IMAP) client functionality in Ruby. From versions 0.4.0 to before 0.4.24, 0.5.0 to before 0.5.14, and 0.6.0 to before 0.6.4, when authenticating a connection with SCRAM-SHA1 or SCRAM-SHA256, a hostile server can perform a computational denial-of-service attack on the client process by sending a big iteration count value. This issue has been patched in versions 0.4.24, 0.5.14, and 0.6.4.\n  <br />\n  <strong>Severity:</strong> 6.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-42256"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42256 - net-imap: Denial of service via h",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0579c539b4eb561a4790ca1302843550",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42246 - net-imap vulnerable to STARTTLS stripping via invalid response timing",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42246",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42246\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>Net::IMAP implements Internet Message Access Protocol (IMAP) client functionality in Ruby. Prior to versions 0.3.10, 0.4.24, 0.5.14, and 0.6.4, a man-in-the-middle attacker can cause Net::IMAP#starttls to return \"successfully\", without starting TLS. This issue has been patched in versions 0.3.10, 0.4.24, 0.5.14, and 0.6.4.\n  <br />\n  <strong>Severity:</strong> 7.6 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-42246"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42246 - net-imap vulnerable to STARTTLS s",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "21298412a54adb5ed4df99504b31cc39",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42245 - net-imap: Quadratic complexity when reading response literals",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42245",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42245\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>Net::IMAP implements Internet Message Access Protocol (IMAP) client functionality in Ruby. Prior to versions 0.4.24, 0.5.14, and 0.6.4, Net::IMAP::ResponseReader has quadratic time complexity when reading large responses containing many string literals. A hostile server can send responses which are crafted to exhaust the client's CPU for a denial of service attack. This issue has been patched in versions 0.4.24, 0.5.14, and 0.6.4.\n  <br />\n  <strong>Severity:</strong> 2.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-09T20:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-42245"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42245 - net-imap: Quadratic complexity wh",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "eda3007b6c97a704cf32b968c491d5e5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-41893 - Signal K Server's WebSocket Login Endpoint Lacks Rate Limiting (Credential Brute-Force)",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-41893",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-41893\n  <br />\n  <strong>Published :</strong> May 9, 2026, 8:16 p.m. | 2 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>Signal K Server is a server application that runs on a central hub in a boat. Prior to version 2.25.0, the HTTP login endpoints (POST /login and POST /signalk/v1/auth/login) are protected by express-rate-limit (default: 100 attempts per 10-minute window, configurable via HTTP_RATE_LIMITS). The WebSocket login path — sending {login: {username, password}} messages over an established WebSocket connection — calls app.securityStrategy.login() directly without any rate limiting. An attacker can bypass HTTP rate limiting entirely by opening a WebSocket connection and attempting unlimited password guesses at the speed bcrypt allo",
+    "pub_date": "2026-05-09T20:16:27+00:00",
+    "cve_ids": [
+      "CVE-2026-41893"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-41893 - Signal K Server's WebSocket Login",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cb24025d9fcfd497853b664863b2d0c1",
+    "source": "The Hacker News",
+    "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
+    "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
+    "summary": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service.\nThe list of vulnerabilities is as follows -\n\nCVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result",
+    "pub_date": "2026-05-09T07:16:00+00:00",
+    "cve_ids": [
+      "CVE-2026-29201"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "cPanel, WHM Release Fixes for Three New Vulnerabil",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b2d4ac66b1656fbcb69507582158a263",
+    "source": "BleepingComputer",
+    "title": "JDownloader site hacked to replace installers with Python RAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+    "summary": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based remote access trojan. [...]",
+    "pub_date": "2026-05-09T19:27:58+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "JDownloader site hacked to replace installers with",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4c60c8567b7ddc4f88e16b7779471ad0",
+    "source": "BleepingComputer",
+    "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
+    "summary": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]",
+    "pub_date": "2026-05-09T14:26:03+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Fake OpenAI repository on Hugging Face pushes info",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cd3adedb88d13221a7c46852506bd220",
+    "source": "Security Affairs",
+    "title": "Quasar Linux RAT (QLNX): A Fileless Linux Implant Built for Stealth and Persistence",
+    "link": "https://securityaffairs.com/191898/malware/quasar-linux-rat-qlnx-a-fileless-linux-implant-built-for-stealth-and-persistence.html",
+    "summary": "Researchers uncovered QLNX, a Linux RAT targeting developers to steal credentials, log keystrokes, monitor systems, and enable remote access. Security researchers discovered a previously undocumented Linux malware called Quasar Linux RAT (QLNX) that targets developers and DevOps environments. The malicious code can steal credentials, log keystrokes, manipulate files, monitor clipboard activity, and create network tunnels [&#8230;]",
+    "pub_date": "2026-05-09T13:11:08+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Quasar Linux RAT (QLNX): A Fileless Linux Implant ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "18ee023b431844f07212c4edf4f2ee4f",
+    "source": "Security Affairs",
+    "title": "Braintrust security incident raises concerns over AI supply chain risks",
+    "link": "https://securityaffairs.com/191888/data-breach/braintrust-security-incident-raises-concerns-over-ai-supply-chain-risks.html",
+    "summary": "Braintrust warned customers to rotate API keys after hackers breached an AWS account, exposing secrets tied to cloud-based AI models. AI observability startup Braintrust warned customers to rotate API keys after attackers gained unauthorized access to one of the company’s AWS accounts, potentially exposing secrets used to connect to cloud-based AI models. The company said [&#8230;]",
+    "pub_date": "2026-05-09T09:38:11+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Braintrust security incident raises concerns over ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5750234458e29a991e611b6b2218d3ea",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in the First-Ever Gartner&reg; Magic Quadrant&trade; for Cyberthreat Intelligence Technologies",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-gartner-magic-quadrant-cyberthreat-intelligence/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in the First-Ever Gartn",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "687069ba2b4e5de602dbf70e135581b1",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Launches Falcon OverWatch for Defender",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-launches-falcon-overwatch-for-defender/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Launches Falcon OverWatch for Defender",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d4daf49687a4f5c2e126acbe64fb8c89",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Technical Risk Assessments Reveal Common Exposure Patterns",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-technical-risk-assessments-reveal-common-exposure-patterns/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Technical Risk Assessments Reveal Comm",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "607ea5376c777075cecac6c3ce4833cb",
+    "source": "CrowdStrike",
+    "title": "Tune In: The Future of AI-Powered Vulnerability Discovery",
+    "link": "https://www.crowdstrike.com/en-us/blog/tune-in-future-of-ai-powered-vulnerability-discovery/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Tune In: The Future of AI-Powered Vulnerability Di",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9cf40bfb0229908d5bb74e5e1d6909f3",
+    "source": "CrowdStrike",
+    "title": "Defending Against CORDIAL SPIDER and SNARKY SPIDER with Falcon Shield",
+    "link": "https://www.crowdstrike.com/en-us/blog/defending-against-cordial-spider-and-snarky-spider-with-falcon-shield/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Defending Against CORDIAL SPIDER and SNARKY SPIDER",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1987d3658255e050c34909035f9359d0",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands ChatGPT Enterprise Integration with Enhanced Audit Logging and Activity Monitoring",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-chatgpt-enterprise-integration/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands ChatGPT Enterprise Integration",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6b376b5248e6594db8a32de3bda7e6d2",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in Frost &amp; Sullivan 2026 Radar for Cloud-Native Application Protection Platforms",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-frost-sullivan-radar-cnapp/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in Frost &amp; Sullivan",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d788acb906534fceef8801b4b2478d6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Real-Time Cloud Detection and Response to Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-real-time-cloud-detection-and-response-to-google-cloud/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Real-Time Cloud Detection and ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6e80939fbb16e323d124c1e0c9853d07",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Cloud Security Delivered 264% ROI Through Unified Cloud Protection",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-cloud-security-delivers-264-percent-roi-through-unified-cloud-protection/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Falcon Cloud Security Delivered 264% R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "30d0a11ef669bacbded479add81db59b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Platform Achieves 441% ROI in Three Years",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-achieves-441-percent-roi-in-three-years/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Falcon Platform Achieves 441% ROI in T",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "da1904c3d5d2bc5f091ca1f07bbbb1fa",
+    "source": "GitHub Advisory (Maven)",
+    "title": "[io.vertx:vertx-core] Vert.x has a DoS via unbounded server-side SNI SslContext cache growth",
+    "link": "https://github.com/advisories/GHSA-3g76-f9xq-8vp6",
+    "summary": "<p>Potential unbounded server-side SNI <code>SslContext</code> cache growth in Vert.x TLS handling, with possible resource-exhaustion / DoS impact.</p>\n<p>On affected versions, matching server-side SNI names are cached via <code>computeIfAbsent(serverName, ...)</code> in a serverName-keyed <code>SslContext</code> cache, and I could not find any bound, TTL, or eviction for that cache.</p>\n<p>The implementation differs slightly by branch, but the same sink appears to be present in released versions <code>4.3.4</code> through <code>5.0.8</code>:</p>\n<ul>\n<li><code>4.3.x</code>: <code>SSLHelper</code></li>\n<li><code>4.4.x</code> / <code>4.5.x</code>: <code>SslChannelProvider</code></li>\n<li><code>5.0.x</code> and current <code>master</code>: <code>SslContextProvider</code></li>\n</ul>\n<p>It app",
+    "pub_date": "2026-05-09T00:38:30+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[io.vertx:vertx-core] Vert.x has a DoS via unbound",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7f8f6fed8dd395dc416633aeab5b38ea",
+    "source": "GitHub Advisory (Maven)",
+    "title": "[com.oviva.telematik:epa4all-client] epa4all-client has a VAU Signature bypass",
+    "link": "https://github.com/advisories/GHSA-g8r3-5hwf-qp96",
+    "summary": "<h3 id=\"impact\">Impact</h3>\n<p>In SignedPublicKeysTrustValidatorImpl.isTrusted(), the ECDSA signature verification at line 45 discards the boolean return value of Signature.verify(). The method performs certificate chain validation, OCSP check, and signature algorithm setup, but never checks whether the signature actually matches. For any structurally valid signature, it returns true.</p>\n<h3 id=\"patches\">Patches</h3>\n<p>Patched in <a href=\"https://github.com/oviva-ag/epa4all-client/pull/34\">#34</a>.</p>\n<h3 id=\"workarounds\">Workarounds</h3>\n<p>None.</p>\n<h3 id=\"resources\">Resources</h3>\n<ul>\n<li><a href=\"https://www.machinespirits.com/advisory/d76aec/\">MS-OVIVA-EPA4ALL-d76aec</a></li>\n</ul>\n<h3 id=\"credits\">Credits</h3>\n<p><a href=\"https://machinespirits.com\">Machine Spirits</a> (<a href=",
+    "pub_date": "2026-05-08T23:47:12+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[com.oviva.telematik:epa4all-client] epa4all-clien",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7b358dafcb1a8fc3abdda808d7c9dec1",
+    "source": "Qualys Blog",
+    "title": "Dirty Frag: Using the Page Caches as an Attack Surface",
+    "link": "https://blog.qualys.com/category/vulnerabilities-threat-research",
+    "summary": "Dirty Frag is a Linux local privilege escalation (LPE) chain published on May 7, 2026. It combines two previously unknown kernel vulnerabilities can allow an unprivileged local user to escalate to root on many major Linux distributions. As of May 8, 2026, CVE-2026-43284 had been patched in mainline Linux, while public reporting indicated that CVE-2026-43500 [&#8230;]",
+    "pub_date": "2026-05-09T07:22:34+00:00",
+    "cve_ids": [
+      "CVE-2026-43284",
+      "CVE-2026-43500"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Dirty Frag: Using the Page Caches as an Attack Sur",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8e2b23460141d156564bb410a2639894",
+    "source": "MIT Tech Review",
+    "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
+    "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+    "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed that they’d promised to maintain&#8230;",
+    "pub_date": "2026-05-08T23:59:19+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Musk v. Altman week 2: OpenAI fires back, and Shiv",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
