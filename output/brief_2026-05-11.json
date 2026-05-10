@@ -1,0 +1,867 @@
+[
+  {
+    "uid": "2c245a52b3f8d864dc5922c6eb75d3b2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8177 - XML::LibXML versions through 2.0210 for Perl read out-of-bounds heap memory when parsing XML node names containing truncated UTF-8 byte sequences",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8177",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8177\n  <br />\n  <strong>Published :</strong> May 10, 2026, 9:16 p.m. | 50 minutes ago\n  <br />\n  <strong>Description :</strong>XML::LibXML versions through 2.0210 for Perl read out-of-bounds heap memory when parsing XML node names containing truncated UTF-8 byte sequences.\n\nA node name ending in the middle of a multi byte UTF-8 sequence causes the parser to read past the end of the input string into adjacent heap memory.\n\nAny Perl process that passes attacker controlled strings to XML::LibXML's DOM node-name methods can reach this path on the default API. The likely consequence is a crash, causing denial of service.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, ",
+    "pub_date": "2026-05-10T21:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-8177"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8177 - XML::LibXML versions through 2.021",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "89e1135babaf64bc949d3ca39c7d1bbf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-45191 - Net::CIDR::Lite versions before 0.24 for Perl does not properly consider extraneous zero characters in CIDR mask values, which may allow IP ACL bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-45191",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-45191\n  <br />\n  <strong>Published :</strong> May 10, 2026, 9:16 p.m. | 50 minutes ago\n  <br />\n  <strong>Description :</strong>Net::CIDR::Lite versions before 0.24 for Perl does not properly consider extraneous zero characters in CIDR mask values, which may allow IP ACL bypass.\n\nMask forms like \"/00\" and \"/01\" pass validation and parse to the same prefix as their unpadded value.\n\nSee also CVE-2026-45190.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T21:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-45190",
+      "CVE-2026-45191"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-45191 - Net::CIDR::Lite versions before 0",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cbbdbb5537bdf22641c6e7d2bdc40df5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-45190 - Net::CIDR::Lite versions before 0.24 for Perl does not properly validate IP address and CIDR mask inputs, which may allow IP ACL bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-45190",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-45190\n  <br />\n  <strong>Published :</strong> May 10, 2026, 9:16 p.m. | 50 minutes ago\n  <br />\n  <strong>Description :</strong>Net::CIDR::Lite versions before 0.24 for Perl does not properly validate IP address and CIDR mask inputs, which may allow IP ACL bypass.\n\nInputs containing a trailing newline or non-ASCII digit characters pass the validators but are then re-encoded by the parser to a different address than the input string spelled. find() and bin_find() can match or miss addresses as a result.\n\nExample:\n\n  my $cidr = Net::CIDR::Lite->new();\n  $cidr->add(\"::1\\n/128\");\n  $cidr->find(\"::1a\");  # incorrectly returns true\n\nSee also CVE-2026-45191.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS de",
+    "pub_date": "2026-05-10T21:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-45190",
+      "CVE-2026-45191"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-45190 - Net::CIDR::Lite versions before 0",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5c77f3a21edc36e799c21fc49922bc66",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-45180 - Catalyst::Plugin::Statsd versions through 0.10.0 for Perl may leak session ids",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-45180",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-45180\n  <br />\n  <strong>Published :</strong> May 10, 2026, 9:16 p.m. | 50 minutes ago\n  <br />\n  <strong>Description :</strong>Catalyst::Plugin::Statsd versions through 0.10.0 for Perl may leak session ids.\n\nIf the communication channel to the statsd daemon is not secured (for example, by sending UDP packets to a host on another network), then users' session ids may be leaked.  This may allow an attacker to use session ids as authentication tokens.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T21:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-45180"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-45180 - Catalyst::Plugin::Statsd versions",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "896fe4f562e4bc74f3e79bd78cb9776d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-45179 - Plack::Middleware::Statsd versions before 0.9.0 for Perl may leak user IP addresses",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-45179",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-45179\n  <br />\n  <strong>Published :</strong> May 10, 2026, 8:16 p.m. | 1 hour, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Plack::Middleware::Statsd versions before 0.9.0 for Perl may leak user IP addresses.\n\nIf the communication channel to the statsd daemon is not secured (for example, by sending UDP packets to a host on another network), then users' IP addresses may be leaked.\n\nSince version 0.9.0, the IP address is no longer logged to statsd unless configured. When configured, an HMAC signature of the IP address is logged instead.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T20:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-45179"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-45179 - Plack::Middleware::Statsd version",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "61e2086b4a89df26218beba7d860368f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50970 - WordPress Plugin AAWP 3.16 Reflected XSS via tab Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50970",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50970\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin AAWP 3.16 contains a reflected cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by manipulating the tab parameter. Attackers can craft URLs with XSS payloads in the tab parameter of the aawp-settings admin page to execute arbitrary JavaScript in the context of authenticated users.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:34+00:00",
+    "cve_ids": [
+      "CVE-2022-50970"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "WordPress Plugin AAWP 3.16 contains a reflected cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by manipulating the tab parameter. Attackers can craft URLs with XSS payloads in the tab parameter of the aawp-settings admin page to execute arbitrary J",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50970 - WordPress Plugin AAWP 3.16 Reflec",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0a4aaa0e931dbbcb75fa302f5f5b5f56",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50969 - uBidAuction 2.0.1 mailingLog manage Reflected XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50969",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50969\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the backend/mailingLog/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests that execute in victims' browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:34+00:00",
+    "cve_ids": [
+      "CVE-2022-50969"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the backend/mailingLog/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50969 - uBidAuction 2.0.1 mailingLog mana",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7c66107b511420ca2c44be1f62113b9d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50968 - uBidAuction 2.0.1 auctions manage Reflected XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50968",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50968\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the auctions/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests that execute in victims' browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:34+00:00",
+    "cve_ids": [
+      "CVE-2022-50968"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the auctions/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET reque",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50968 - uBidAuction 2.0.1 auctions manage",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "feea776aa7b00c8b1493d01ce4b777f3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50967 - uBidAuction 2.0.1 tickets manage Reflected XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50967",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50967\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the tickets/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests that execute in victims' browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:34+00:00",
+    "cve_ids": [
+      "CVE-2022-50967"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the tickets/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET reques",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50967 - uBidAuction 2.0.1 tickets manage ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3e6b196414c3f0013cce3c0a3ca3e1b6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50966 - uBidAuction 2.0.1 news manage Reflected XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50966",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50966\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the news/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests that execute in victims' browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:34+00:00",
+    "cve_ids": [
+      "CVE-2022-50966"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the news/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50966 - uBidAuction 2.0.1 news manage Ref",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dfdcb0371ca0c5527dc600e47ed24195",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50965 - uBidAuction 2.0.1 posts manage Reflected XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50965",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50965\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the posts/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests that execute in victims' browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:34+00:00",
+    "cve_ids": [
+      "CVE-2022-50965"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the posts/manage module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50965 - uBidAuction 2.0.1 posts manage Re",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b9bed35b688f069acdc44bd58ad356f2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50964 - uBidAuction 2.0.1 myAuctions loose Reflected XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50964",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50964\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the auctions/myAuctions/status/loose module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests that execute in victims' browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:34+00:00",
+    "cve_ids": [
+      "CVE-2022-50964"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the auctions/myAuctions/status/loose module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50964 - uBidAuction 2.0.1 myAuctions loos",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dcfd6b99c47c01f8f2380d11b121b004",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50963 - uBidAuction 2.0.1 myAuctions active Reflected XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50963",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50963\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the auctions/myAuctions/status/active module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests that execute in victims' browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:34+00:00",
+    "cve_ids": [
+      "CVE-2022-50963"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the auctions/myAuctions/status/active module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50963 - uBidAuction 2.0.1 myAuctions acti",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8e4f5c88b941aeecaf5858266da0a91b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50962 - uBidAuction 2.0.1 myOrders Reflected XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50962",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50962\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the orders/myOrders module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET requests that execute in victims' browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:33+00:00",
+    "cve_ids": [
+      "CVE-2022-50962"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "uBidAuction 2.0.1 contains a reflected cross-site scripting vulnerability in the orders/myOrders module. The date_created, date_from, date_to, and created_at parameters in the filter functionality are not properly sanitized, allowing remote attackers to inject malicious scripts via crafted GET reque",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50962 - uBidAuction 2.0.1 myOrders Reflec",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d1cbe045a259a3aa9516d0763ef984cd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50961 - WordPress Plugin IP2Location Country Blocker 2.26.7 Stored XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50961",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50961\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin IP2Location Country Blocker 2.26.7 contains a stored cross-site scripting vulnerability that allows authenticated users to inject arbitrary JavaScript code through the Frontend Settings interface. Attackers can inject malicious scripts in the URL field of the Display page settings that execute when administrators or other authenticated users visit the plugin settings page.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:33+00:00",
+    "cve_ids": [
+      "CVE-2022-50961"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "WordPress Plugin IP2Location Country Blocker 2.26.7 contains a stored cross-site scripting vulnerability that allows authenticated users to inject arbitrary JavaScript code through the Frontend Settings interface. Attackers can inject malicious scripts in the URL field of the Display page settings t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50961 - WordPress Plugin IP2Location Coun",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5ae2f3e828c03264eb647c94331496ad",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50960 - WordPress International Sms Contact Form 7 Integration 1.2 XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50960",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50960\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress International Sms For Contact Form 7 Integration version 1.2 contains a reflected cross-site scripting vulnerability in the page parameter of the admin settings interface. Attackers can inject malicious scripts through the page parameter in class-sms-log-display.php to execute arbitrary JavaScript in administrator browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:33+00:00",
+    "cve_ids": [
+      "CVE-2022-50960"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "WordPress International Sms For Contact Form 7 Integration version 1.2 contains a reflected cross-site scripting vulnerability in the page parameter of the admin settings interface. Attackers can inject malicious scripts through the page parameter in class-sms-log-display.php to execute arbitrary Ja",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50960 - WordPress International Sms Conta",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07ff4a88041447e1908de4a4eacc4e1c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50959 - WordPress Contact Form Builder 1.6.1 Cross-Site Scripting via code_generator.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50959",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50959\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Contact Form Builder 1.6.1 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts by exploiting the form_id parameter. Attackers can craft malicious URLs to code_generator.php with script payloads in the form_id parameter to execute arbitrary JavaScript in victim browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:33+00:00",
+    "cve_ids": [
+      "CVE-2022-50959"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "WordPress Contact Form Builder 1.6.1 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts by exploiting the form_id parameter. Attackers can craft malicious URLs to code_generator.php with script payloads in the form_id parameter t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50959 - WordPress Contact Form Builder 1.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3b4c2fff03b27389ac49ccedc0c977b9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50958 - WordPress Plugin Jetpack 9.1 Cross Site Scripting via grunion-form-view.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50958",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50958\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin Jetpack 9.1 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts by manipulating the post_id parameter. Attackers can craft URLs to the grunion-form-view.php endpoint with script payloads in the post_id parameter to execute arbitrary JavaScript in victim browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:33+00:00",
+    "cve_ids": [
+      "CVE-2022-50958"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "WordPress Plugin Jetpack 9.1 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts by manipulating the post_id parameter. Attackers can craft URLs to the grunion-form-view.php endpoint with script payloads in the post_id parameter t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50958 - WordPress Plugin Jetpack 9.1 Cros",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2bac3f912590909a6fdd778a6257e4a9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50957 - Drupal avatar_uploader 7.x-1.0-beta8 Reflected XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50957",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50957\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Drupal avatar_uploader 7.x-1.0-beta8 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts by manipulating the file parameter. Attackers can craft URLs with script payloads in the file parameter of avatar_uploader.pages.inc to execute arbitrary JavaScript in victim browsers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:33+00:00",
+    "cve_ids": [
+      "CVE-2022-50957"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "Drupal avatar_uploader 7.x-1.0-beta8 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts by manipulating the file parameter. Attackers can craft URLs with script payloads in the file parameter of avatar_uploader.pages.inc to execu",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50957 - Drupal avatar_uploader 7.x-1.0-be",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "71f06f07841647e8c13fe4c9e79abed6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50956 - WordPress Plugin amministrazione-aperta 3.7.3 Local File Read",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50956",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50956\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin amministrazione-aperta 3.7.3 contains a local file read vulnerability that allows unauthenticated attackers to read arbitrary files by exploiting insufficient input validation in the open parameter. Attackers can supply file paths through the open GET parameter in dispatcher.php to include and read sensitive files accessible to the web server.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:33+00:00",
+    "cve_ids": [
+      "CVE-2022-50956"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "WordPress Plugin amministrazione-aperta 3.7.3 contains a local file read vulnerability that allows unauthenticated attackers to read arbitrary files by exploiting insufficient input validation in the open parameter. Attackers can supply file paths through the open GET parameter in dispatcher.php to ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50956 - WordPress Plugin amministrazione-",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "28bfbd502677f990b701a9ec9a3c448f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50955 - WordPress Plugin Curtain 1.0.2 Cross-site Request Forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50955",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50955\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin Curtain 1.0.2 contains a cross-site request forgery vulnerability that allows attackers to activate or deactivate site maintenance mode by crafting malicious requests. Attackers can trick authenticated administrators into submitting forged requests to the options-general.php page with curtain parameters to toggle maintenance mode without valid nonce validation.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:33+00:00",
+    "cve_ids": [
+      "CVE-2022-50955"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "WordPress Plugin Curtain 1.0.2 contains a cross-site request forgery vulnerability that allows attackers to activate or deactivate site maintenance mode by crafting malicious requests. Attackers can trick authenticated administrators into submitting forged requests to the options-general.php page wi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50955 - WordPress Plugin Curtain 1.0.2 Cr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "349b6e5f3dba48ea29f58aae9fd73090",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50954 - WordPress Plugin cab-fare-calculator 1.0.3 Local File Inclusion",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50954",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50954\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin cab-fare-calculator 1.0.3 contains a local file inclusion vulnerability that allows unauthenticated attackers to read arbitrary files by manipulating the controller parameter in tblight.php. Attackers can supply path traversal sequences through the controller GET parameter to include and execute files outside the intended controllers directory.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:32+00:00",
+    "cve_ids": [
+      "CVE-2022-50954"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "WordPress Plugin cab-fare-calculator 1.0.3 contains a local file inclusion vulnerability that allows unauthenticated attackers to read arbitrary files by manipulating the controller parameter in tblight.php. Attackers can supply path traversal sequences through the controller GET parameter to includ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50954 - WordPress Plugin cab-fare-calcula",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "40c2bfde186adacdd2fa47d79797874e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50949 - WordPress Plugin Videos sync PDF 1.7.4 Stored XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50949",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50949\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin Videos sync PDF 1.7.4 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by exploiting unsanitized nom, pdf, mp4, webm, and ogg parameters. Attackers can inject payloads like autofocus onfocus event handlers through the plugin options panel to execute arbitrary JavaScript when administrators view or edit video settings.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:32+00:00",
+    "cve_ids": [
+      "CVE-2022-50949"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "WordPress Plugin Videos sync PDF 1.7.4 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by exploiting unsanitized nom, pdf, mp4, webm, and ogg parameters. Attackers can inject payloads like autofocus onfocus event handlers through t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50949 - WordPress Plugin Videos sync PDF ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fc9be9b983276384fe53e5fddd48a406",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50948 - Motopress Hotel Booking Lite 4.2.4 Stored Cross-Site Scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50948",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50948\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Motopress Hotel Booking Lite 4.2.4 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by submitting payloads in accommodation type fields. Attackers can inject script tags through the title and excerpt parameters when creating accommodation types, which execute in the browser when visitors access the accommodations page.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:32+00:00",
+    "cve_ids": [
+      "CVE-2022-50948"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "Motopress Hotel Booking Lite 4.2.4 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by submitting payloads in accommodation type fields. Attackers can inject script tags through the title and excerpt parameters when creating accommo",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50948 - Motopress Hotel Booking Lite 4.2.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b1a3bbce070586340fcfd06a96f3c9de",
+    "source": "CVEfeed.io",
+    "title": "CVE-2022-50947 - WordPress Plugin Testimonial Slider and Showcase 2.2.6 Stored XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2022-50947",
+    "summary": "<strong>CVE ID :</strong>CVE-2022-50947\n  <br />\n  <strong>Published :</strong> May 10, 2026, 1:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin Testimonial Slider and Showcase 2.2.6 contains a stored cross-site scripting vulnerability that allows authenticated editors to inject malicious scripts by failing to sanitize the post_title parameter. Attackers with editor privileges can inject JavaScript payloads through the testimonial title field that execute in the browsers of users viewing the draft post, enabling cookie theft and session hijacking.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-10T13:16:32+00:00",
+    "cve_ids": [
+      "CVE-2022-50947"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "WordPress Plugin Testimonial Slider and Showcase 2.2.6 contains a stored cross-site scripting vulnerability that allows authenticated editors to inject malicious scripts by failing to sanitize the post_title parameter. Attackers with editor privileges can inject JavaScript payloads through the testi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2022-50947 - WordPress Plugin Testimonial Slid",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1b7ffe155571c1b73c9f19cbf977eda3",
+    "source": "BleepingComputer",
+    "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+    "summary": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list claude.ai as the target website, but lead to instructions that install malware on their Mac. [...]",
+    "pub_date": "2026-05-10T17:52:15+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hackers abuse Google ads, Claude.ai chats to push ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1a75c2816f603ccee1ca17e7922a2288",
+    "source": "BleepingComputer",
+    "title": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
+    "link": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
+    "summary": "German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]",
+    "pub_date": "2026-05-10T14:16:47+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Police shut down reboot of Crimenetwork marketplac",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0799b1d0a43ca47e1d807e94dc15f727",
+    "source": "The Hacker News",
+    "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+    "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+    "summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory.\nThe out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed&nbsp;Bleeding Llama by Cyera.\nOllama is a",
+    "pub_date": "2026-05-10T12:41:00+00:00",
+    "cve_ids": [
+      "CVE-2026-7482"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Ollama Out-of-Bounds Read Vulnerability Allows Rem",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5750234458e29a991e611b6b2218d3ea",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in the First-Ever Gartner&reg; Magic Quadrant&trade; for Cyberthreat Intelligence Technologies",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-gartner-magic-quadrant-cyberthreat-intelligence/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in the First-Ever Gartn",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "687069ba2b4e5de602dbf70e135581b1",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Launches Falcon OverWatch for Defender",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-launches-falcon-overwatch-for-defender/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Launches Falcon OverWatch for Defender",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d4daf49687a4f5c2e126acbe64fb8c89",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Technical Risk Assessments Reveal Common Exposure Patterns",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-technical-risk-assessments-reveal-common-exposure-patterns/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Technical Risk Assessments Reveal Comm",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "607ea5376c777075cecac6c3ce4833cb",
+    "source": "CrowdStrike",
+    "title": "Tune In: The Future of AI-Powered Vulnerability Discovery",
+    "link": "https://www.crowdstrike.com/en-us/blog/tune-in-future-of-ai-powered-vulnerability-discovery/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Tune In: The Future of AI-Powered Vulnerability Di",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9cf40bfb0229908d5bb74e5e1d6909f3",
+    "source": "CrowdStrike",
+    "title": "Defending Against CORDIAL SPIDER and SNARKY SPIDER with Falcon Shield",
+    "link": "https://www.crowdstrike.com/en-us/blog/defending-against-cordial-spider-and-snarky-spider-with-falcon-shield/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Defending Against CORDIAL SPIDER and SNARKY SPIDER",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1987d3658255e050c34909035f9359d0",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands ChatGPT Enterprise Integration with Enhanced Audit Logging and Activity Monitoring",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-chatgpt-enterprise-integration/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands ChatGPT Enterprise Integration",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6b376b5248e6594db8a32de3bda7e6d2",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in Frost &amp; Sullivan 2026 Radar for Cloud-Native Application Protection Platforms",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-frost-sullivan-radar-cnapp/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in Frost &amp; Sullivan",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d788acb906534fceef8801b4b2478d6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Real-Time Cloud Detection and Response to Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-real-time-cloud-detection-and-response-to-google-cloud/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Real-Time Cloud Detection and ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6e80939fbb16e323d124c1e0c9853d07",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Cloud Security Delivered 264% ROI Through Unified Cloud Protection",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-cloud-security-delivers-264-percent-roi-through-unified-cloud-protection/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Falcon Cloud Security Delivered 264% R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "30d0a11ef669bacbded479add81db59b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Platform Achieves 441% ROI in Three Years",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-achieves-441-percent-roi-in-three-years/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Falcon Platform Achieves 441% ROI in T",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "61df7b7fe8c2c3e635d5a431cc7f5cc3",
+    "source": "Help Net Security",
+    "title": "Week in review: cPanel vulnerability actively exploited, DigiCert breach, LinkedIn job scams",
+    "link": "https://www.helpnetsecurity.com/2026/05/10/week-in-review-cpanel-vulnerability-actively-exploited-digicert-breach-linkedin-job-scams/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Your work apps are quietly handing 19 data points to someone Office work in 2026 relies on mobile apps used alongside personal tools like banking and messaging. Ten widely used workplace apps, including Gmail, Microsoft Teams, Zoom, Slack, and Notion, have over 12.5 billion Google Play downloads. Research from Incogni shows these apps collect an average of 19 data points &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/10/week-in-review-cpanel-vulnerability-actively-exploited-digicert-breach-linkedin-job-scams/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/10/week-in-review-cpanel-vulnerability-activel",
+    "pub_date": "2026-05-10T08:00:27+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: cPanel vulnerability actively expl",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bc1dd03a0e664c5a99c0891c820465ce",
+    "source": "Security Affairs",
+    "title": "New cPanel vulnerabilities could allow file access and remote code execution",
+    "link": "https://securityaffairs.com/191931/security/new-cpanel-vulnerabilities-could-allow-file-access-and-remote-code-execution.html",
+    "summary": "cPanel fixed three flaws that could allow file reads, code execution, and privilege escalation. No active exploitation has been reported yet. cPanel has released security updates to fix three vulnerabilities affecting cPanel &#38; WHM that could allow attackers to read files, execute code, or escalate privileges on vulnerable systems. Below are the descriptions for these [&#8230;]",
+    "pub_date": "2026-05-10T15:59:36+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New cPanel vulnerabilities could allow file access",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "aeabf8be0351edce05684d73ac8d2734",
+    "source": "Security Affairs",
+    "title": "Official JDownloader site served malware to Windows and Linux users between May 6 and May 7",
+    "link": "https://securityaffairs.com/191920/malware/official-jdownloader-site-served-malware-to-windows-and-linux-users.html",
+    "summary": "JDownloader website was hacked to distribute malicious Windows and Linux installers carrying a Python RAT between May 6–7, 2026. JDownloader official website was compromised in a supply chain attack that replaced legitimate Windows and Linux installers with malicious files between May 6 and May 7, 2026. JDownloader is a free, open-source download management application designed [&#8230;]",
+    "pub_date": "2026-05-10T12:33:57+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Official JDownloader site served malware to Window",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "da5cc6782340ffa1ee9bec21ae165dbd",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 96",
+    "link": "https://securityaffairs.com/191911/malware/security-affairs-malware-newsletter-round-96.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter CloudZ RAT potentially steals OTP messages using Pheno plugin&#160;&#160; Backdoored PyTorch Lightning package drops credential stealer A rigged game: ScarCruft compromises gaming platform in a supply-chain attack Muddying the Tracks: The State-Sponsored Shadow Behind [&#8230;]",
+    "pub_date": "2026-05-10T11:49:15+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 96",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d5181542e7d097012de9a517414440d1",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 576 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/191908/breaking-news/security-affairs-newsletter-round-576-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. Quasar Linux RAT (QLNX): A Fileless Linux Implant Built for Stealth and Persistence Braintrust security incident [&#8230;]",
+    "pub_date": "2026-05-10T08:20:42+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 576 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
