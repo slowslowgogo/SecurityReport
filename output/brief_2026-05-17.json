@@ -1,0 +1,902 @@
+[
+  {
+    "uid": "044746440bbc8c56764e94019b0ac484",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-46728 - Das U-Boot FIT Signature Verification Bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-46728",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-46728\n  <br />\n  <strong>Published :</strong> May 16, 2026, 9:26 p.m. | 1 hour ago\n  <br />\n  <strong>Description :</strong>Das U-Boot before 2026.04 allows FIT (Flat Image Tree) signature verification bypass because hashed-nodes is omitted from a hash.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T21:26:49+00:00",
+    "cve_ids": [
+      "CVE-2026-46728"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "Das U-Boot before 2026.04 allows FIT (Flat Image Tree) signature verification bypass because hashed-nodes is omitted from a hash.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-46728 - Das U-Boot FIT Signature Verifica",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "813e3b96b9e5b5077f8ece6378433a1b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47981 - Quick.CMS 6.7 Cross-Site Scripting via CSRF to Sliders Form",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47981",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47981\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Quick.CMS 6.7 contains a cross-site scripting vulnerability in the sliders form that allows authenticated attackers to inject malicious scripts by submitting XSS payloads through the sDescription parameter. Attackers can craft CSRF forms targeting the admin.php?p=sliders-form endpoint to execute arbitrary JavaScript in victim browsers when the form is submitted.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:23+00:00",
+    "cve_ids": [
+      "CVE-2021-47981"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "Quick.CMS 6.7 contains a cross-site scripting vulnerability in the sliders form that allows authenticated attackers to inject malicious scripts by submitting XSS payloads through the sDescription parameter. Attackers can craft CSRF forms targeting the admin.php?p=sliders-form endpoint to execute arb",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47981 - Quick.CMS 6.7 Cross-Site Scriptin",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2f4506dba3bb0d538ef46a9ac89b6b0a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47980 - Fuel CMS 1.4.13 Blind SQL Injection via col Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47980",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47980\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Fuel CMS 1.4.13 contains a blind SQL injection vulnerability that allows authenticated attackers to manipulate database queries by injecting SQL code through the 'col' parameter in the Activity Log interface. Attackers can send requests to the logs endpoint with malicious SQL payloads in the 'col' parameter to extract database information based on response time delays.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:23+00:00",
+    "cve_ids": [
+      "CVE-2021-47980"
+    ],
+    "cvss": 7.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.1,
+      "description": "Fuel CMS 1.4.13 contains a blind SQL injection vulnerability that allows authenticated attackers to manipulate database queries by injecting SQL code through the 'col' parameter in the Activity Log interface. Attackers can send requests to the logs endpoint with malicious SQL payloads in the 'col' p",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47980 - Fuel CMS 1.4.13 Blind SQL Injecti",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "29dea7b6ef934740d240749363750766",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47979 - WordPress Plugin Backup and Restore 1.0.3 Arbitrary File Deletion",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47979",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47979\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin Backup and Restore 1.0.3 contains an arbitrary file deletion vulnerability that allows authenticated attackers to delete files by manipulating parameters in AJAX requests. Attackers can send POST requests to admin-ajax.php with crafted file_name and folder_name parameters to delete arbitrary files from the WordPress installation directory.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:23+00:00",
+    "cve_ids": [
+      "CVE-2021-47979"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "WordPress Plugin Backup and Restore 1.0.3 contains an arbitrary file deletion vulnerability that allows authenticated attackers to delete files by manipulating parameters in AJAX requests. Attackers can send POST requests to admin-ajax.php with crafted file_name and folder_name parameters to delete ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47979 - WordPress Plugin Backup and Resto",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8ce449f872712be3ca37e8e2f0c02d23",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47978 - ProcessMaker 3.5.4 Local File Inclusion via Path Traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47978",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47978\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>ProcessMaker 3.5.4 contains a local file inclusion vulnerability that allows unauthenticated attackers to read arbitrary files by exploiting improper path traversal validation. Attackers can send requests with directory traversal sequences to access sensitive system files like /etc/passwd without authentication.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:23+00:00",
+    "cve_ids": [
+      "CVE-2021-47978"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "ProcessMaker 3.5.4 contains a local file inclusion vulnerability that allows unauthenticated attackers to read arbitrary files by exploiting improper path traversal validation. Attackers can send requests with directory traversal sequences to access sensitive system files like /etc/passwd without au",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47978 - ProcessMaker 3.5.4 Local File Inc",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9a07fdb3dafbbc8182c0dfd787fa0cf8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47977 - WordPress Anti-Malware Security Bruteforce Firewall 4.20.59 Directory Traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47977",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47977\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>WordPress Plugin Anti-Malware Security and Bruteforce Firewall 4.20.59 contains a directory traversal vulnerability that allows unauthenticated attackers to read arbitrary files by manipulating the file parameter. Attackers can send requests to the duplicator_download action via admin-ajax.php with path traversal sequences to access sensitive system files outside the intended directory.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:23+00:00",
+    "cve_ids": [
+      "CVE-2021-47977"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "WordPress Plugin Anti-Malware Security and Bruteforce Firewall 4.20.59 contains a directory traversal vulnerability that allows unauthenticated attackers to read arbitrary files by manipulating the file parameter. Attackers can send requests to the duplicator_download action via admin-ajax.php with ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47977 - WordPress Anti-Malware Security B",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fcc5a0eec6f79e0a245584be2981502f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47976 - TextPattern CMS 4.9.0-dev Authenticated Remote Code Execution via Plugin Upload",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47976",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47976\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>TextPattern CMS 4.9.0-dev contains a remote code execution vulnerability that allows authenticated attackers to upload arbitrary PHP files by exploiting the plugin upload functionality. Attackers can authenticate, retrieve a CSRF token from the plugin event page, and upload malicious PHP files to the textpattern/tmp/ directory for code execution.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:23+00:00",
+    "cve_ids": [
+      "CVE-2021-47976"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "TextPattern CMS 4.9.0-dev contains a remote code execution vulnerability that allows authenticated attackers to upload arbitrary PHP files by exploiting the plugin upload functionality. Attackers can authenticate, retrieve a CSRF token from the plugin event page, and upload malicious PHP files to th",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47976 - TextPattern CMS 4.9.0-dev Authent",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "808e9ff839b082c7ad6f1c099307953b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47975 - WordPress Plugin WP Learn Manager 1.1.2 Stored XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47975",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47975\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>WP Learn Manager 1.1.2 contains a stored cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts through the fieldtitle parameter. Attackers can submit POST requests to the jslm_fieldordering page with XSS payloads in the fieldtitle field to execute arbitrary JavaScript when administrators view the field ordering interface.\n  <br />\n  <strong>Severity:</strong> 7.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:22+00:00",
+    "cve_ids": [
+      "CVE-2021-47975"
+    ],
+    "cvss": 7.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.2,
+      "description": "WP Learn Manager 1.1.2 contains a stored cross-site scripting vulnerability that allows unauthenticated attackers to inject malicious scripts through the fieldtitle parameter. Attackers can submit POST requests to the jslm_fieldordering page with XSS payloads in the fieldtitle field to execute arbit",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47975 - WordPress Plugin WP Learn Manager",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "12b03c1da0cf268244818e04d524d643",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47974 - VX Search 13.5.28 Unquoted Service Path Privilege Escalation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47974",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47974\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>VX Search 13.5.28 contains an unquoted service path vulnerability in both VX Search Server and VX Search Enterprise services that allows local attackers to escalate privileges. Attackers can place malicious executables in unquoted path directories like C:\\Program Files\\VX Search to execute arbitrary code with LocalSystem privileges when services restart.\n  <br />\n  <strong>Severity:</strong> 8.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:22+00:00",
+    "cve_ids": [
+      "CVE-2021-47974"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "VX Search 13.5.28 contains an unquoted service path vulnerability in both VX Search Server and VX Search Enterprise services that allows local attackers to escalate privileges. Attackers can place malicious executables in unquoted path directories like C:\\Program Files\\VX Search to execute arbitrary",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47974 - VX Search 13.5.28 Unquoted Servic",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b33afa20f2265bfffbe1aa435e4998ea",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47973 - Sticky Notes Widget 3.0.6 Denial of Service via Buffer Overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47973",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47973\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Sticky Notes Widget 3.0.6 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character strings into note fields. Attackers can generate a payload containing 350000 repeated characters and paste it twice into a new note to trigger an application crash on iOS devices.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:22+00:00",
+    "cve_ids": [
+      "CVE-2021-47973"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Sticky Notes Widget 3.0.6 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character strings into note fields. Attackers can generate a payload containing 350000 repeated characters and paste it twice into a new note to trigger an ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47973 - Sticky Notes Widget 3.0.6 Denial ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b84145482205bf60ed229507de390b57",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47972 - Sticky Notes & Color Widgets 1.4.2 Denial of Service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47972",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47972\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Sticky Notes & Color Widgets 1.4.2 contains a denial of service vulnerability that allows attackers to crash the application by creating notes with excessively long character strings. Attackers can paste large payloads of repeated characters into note fields to trigger application crashes and make the application stop responding.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:22+00:00",
+    "cve_ids": [
+      "CVE-2021-47972"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Sticky Notes & Color Widgets 1.4.2 contains a denial of service vulnerability that allows attackers to crash the application by creating notes with excessively long character strings. Attackers can paste large payloads of repeated characters into note fields to trigger application crashes and make t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47972 - Sticky Notes & Color Widgets 1.4.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6be9f70b3c54205394f049fec6b6a69c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47971 - My Notes Safe 5.3 Denial of Service via Buffer Overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47971",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47971\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>My Notes Safe 5.3 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character strings into note fields. Attackers can generate a payload containing 350000 repeated characters and paste it twice into a new note to trigger an application crash.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:22+00:00",
+    "cve_ids": [
+      "CVE-2021-47971"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "My Notes Safe 5.3 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character strings into note fields. Attackers can generate a payload containing 350000 repeated characters and paste it twice into a new note to trigger an applicat",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47971 - My Notes Safe 5.3 Denial of Servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d26d6d27573fb9c2d443b73c8ec8d0fb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47970 - Macaron Notes 5.5 Denial of Service via Buffer Overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47970",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47970\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Macaron Notes 5.5 contains a denial of service vulnerability that allows attackers to crash the application by creating notes with excessively long character strings. Attackers can generate a payload containing 350000 repeated characters and paste it into a note field to trigger application crash and stop functionality.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:22+00:00",
+    "cve_ids": [
+      "CVE-2021-47970"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Macaron Notes 5.5 contains a denial of service vulnerability that allows attackers to crash the application by creating notes with excessively long character strings. Attackers can generate a payload containing 350000 repeated characters and paste it into a note field to trigger application crash an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47970 - Macaron Notes 5.5 Denial of Servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9fa75b7cb53674b9f2dc2f334514c178",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47969 - Color Notes 1.4 Denial of Service via Long Character String",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47969",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47969\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Color Notes 1.4 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character strings into note fields. Attackers can generate a payload containing 350,000 repeated characters and paste it twice into a new note to cause the application to stop responding.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:22+00:00",
+    "cve_ids": [
+      "CVE-2021-47969"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Color Notes 1.4 contains a denial of service vulnerability that allows attackers to crash the application by pasting excessively long character strings into note fields. Attackers can generate a payload containing 350,000 repeated characters and paste it twice into a new note to cause the applicatio",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47969 - Color Notes 1.4 Denial of Service",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "194b71fce7267197e1168e1828792a10",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47957 - WordPress Plugin Cookie Law Bar 1.2.1 Stored XSS via clb_bar_msg",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47957",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47957\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Cookie Law Bar 1.2.1 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by submitting unsanitized input to the Bar Message field. Attackers can inject script payloads through the plugin settings page that execute in the browsers of all WordPress users viewing the site, enabling cookie theft and sensitive data exfiltration.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:22+00:00",
+    "cve_ids": [
+      "CVE-2021-47957"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "Cookie Law Bar 1.2.1 contains a stored cross-site scripting vulnerability that allows authenticated attackers to inject malicious scripts by submitting unsanitized input to the Bar Message field. Attackers can inject script payloads through the plugin settings page that execute in the browsers of al",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47957 - WordPress Plugin Cookie Law Bar 1",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "492552f4381ac8581fc6fe473cf6774f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47956 - EgavilanMedia PHPCRUD 1.0 SQL Injection via firstname",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47956",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47956\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>EgavilanMedia PHPCRUD 1.0 contains an SQL injection vulnerability that allows unauthenticated attackers to manipulate database queries by injecting SQL code through the firstname parameter. Attackers can send POST requests to insert.php with malicious firstname values to extract sensitive database information.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:21+00:00",
+    "cve_ids": [
+      "CVE-2021-47956"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "EgavilanMedia PHPCRUD 1.0 contains an SQL injection vulnerability that allows unauthenticated attackers to manipulate database queries by injecting SQL code through the firstname parameter. Attackers can send POST requests to insert.php with malicious firstname values to extract sensitive database i",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47956 - EgavilanMedia PHPCRUD 1.0 SQL Inj",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "175f54dc62656372c0dd6f9300338fea",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47955 - CouchCMS 2.2.1 Cross-Site Scripting via SVG File Upload",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47955",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47955\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>CouchCMS 2.2.1 contains a cross-site scripting vulnerability that allows authenticated attackers to execute arbitrary JavaScript by uploading malicious SVG files through the file upload functionality. Attackers can upload SVG files containing embedded script tags to the browse.php endpoint, which are then executed in users' browsers when the files are accessed or previewed.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:21+00:00",
+    "cve_ids": [
+      "CVE-2021-47955"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "CouchCMS 2.2.1 contains a cross-site scripting vulnerability that allows authenticated attackers to execute arbitrary JavaScript by uploading malicious SVG files through the file upload functionality. Attackers can upload SVG files containing embedded script tags to the browse.php endpoint, which ar",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47955 - CouchCMS 2.2.1 Cross-Site Scripti",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1376e6f478e2067aed2f2b9920fa3feb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47954 - LayerBB 1.1.4 SQL Injection via search_query Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47954",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47954\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>LayerBB 1.1.4 contains an SQL injection vulnerability that allows unauthenticated attackers to manipulate database queries by injecting SQL code through the search_query parameter. Attackers can send POST requests to /search.php with malicious search_query values using CASE WHEN statements to extract sensitive database information.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:21+00:00",
+    "cve_ids": [
+      "CVE-2021-47954"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "LayerBB 1.1.4 contains an SQL injection vulnerability that allows unauthenticated attackers to manipulate database queries by injecting SQL code through the search_query parameter. Attackers can send POST requests to /search.php with malicious search_query values using CASE WHEN statements to extrac",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47954 - LayerBB 1.1.4 SQL Injection via s",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "53dfb48967196ccba5cf0ba21963a3bc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47952 - python jsonpickle 2.0.0 Remote Code Execution via py/repr",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47952",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47952\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>python jsonpickle 2.0.0 contains a remote code execution vulnerability that allows attackers to execute arbitrary Python commands by deserializing malicious JSON payloads containing py/repr objects. Attackers can craft JSON strings with py/repr directives that invoke the eval function during deserialization to execute system commands and arbitrary code.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:21+00:00",
+    "cve_ids": [
+      "CVE-2021-47952"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "python jsonpickle 2.0.0 contains a remote code execution vulnerability that allows attackers to execute arbitrary Python commands by deserializing malicious JSON payloads containing py/repr objects. Attackers can craft JSON strings with py/repr directives that invoke the eval function during deseria",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47952 - python jsonpickle 2.0.0 Remote Co",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8582b95154de1452c6a787e055db77aa",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47942 - Home Assistant Community Store 1.10.0 Path Traversal Account Takeover",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47942",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47942\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Home Assistant Community Store (HACS) 1.10.0 contains a path traversal vulnerability that allows unauthenticated attackers to read sensitive files by traversing directories via the /hacsfiles/ endpoint. Attackers can retrieve the .storage/auth file containing user credentials and refresh tokens, then craft valid JWT tokens to gain administrative access to Home Assistant instances.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:21+00:00",
+    "cve_ids": [
+      "CVE-2021-47942"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Home Assistant Community Store (HACS) 1.10.0 contains a path traversal vulnerability that allows unauthenticated attackers to read sensitive files by traversing directories via the /hacsfiles/ endpoint. Attackers can retrieve the .storage/auth file containing user credentials and refresh tokens, the",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47942 - Home Assistant Community Store 1.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "12c705260f143f708597fb7acd8724aa",
+    "source": "CVEfeed.io",
+    "title": "CVE-2021-47934 - MyBB Timeline Plugin 1.0 Cross-Site Scripting and CSRF",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2021-47934",
+    "summary": "<strong>CVE ID :</strong>CVE-2021-47934\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>MyBB Timeline Plugin 1.0 contains cross-site scripting vulnerabilities that allow attackers to inject malicious scripts through thread titles, post content, and user profile fields like Location and Bio. Attackers can also exploit a cross-site request forgery vulnerability in the timeline.php profile action to change a user's cover picture by crafting malicious forms that execute when victims visit affected profiles.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:21+00:00",
+    "cve_ids": [
+      "CVE-2021-47934"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "MyBB Timeline Plugin 1.0 contains cross-site scripting vulnerabilities that allow attackers to inject malicious scripts through thread titles, post content, and user profile fields like Location and Bio. Attackers can also exploit a cross-site request forgery vulnerability in the timeline.php profil",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2021-47934 - MyBB Timeline Plugin 1.0 Cross-Si",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a95cbf44a1dabeb4d27fa95c8fa36946",
+    "source": "CVEfeed.io",
+    "title": "CVE-2020-37247 - Kite 4.2.0.1 U1 Unquoted Service Path Privilege Escalation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2020-37247",
+    "summary": "<strong>CVE ID :</strong>CVE-2020-37247\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Kite 4.2.0.1 U1 contains an unquoted service path vulnerability in the KiteService Windows service that allows local attackers to escalate privileges by exploiting the service binary path. Attackers can place a malicious executable in the Program Files directory to be executed with LocalSystem privileges when the service starts.\n  <br />\n  <strong>Severity:</strong> 8.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:21+00:00",
+    "cve_ids": [
+      "CVE-2020-37247"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "Kite 4.2.0.1 U1 contains an unquoted service path vulnerability in the KiteService Windows service that allows local attackers to escalate privileges by exploiting the service binary path. Attackers can place a malicious executable in the Program Files directory to be executed with LocalSystem privi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2020-37247 - Kite 4.2.0.1 U1 Unquoted Service ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "27c05665a0919ccb968c0115a33fd9a3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2020-37246 - WordPress Plugin Supsystic Backup 2.3.9 Local File Inclusion",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2020-37246",
+    "summary": "<strong>CVE ID :</strong>CVE-2020-37246\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Supsystic Backup 2.3.9 contains a local file inclusion vulnerability that allows unauthenticated attackers to read and delete arbitrary files by manipulating the download path parameter. Attackers can modify the download parameter in admin.php requests with directory traversal sequences to access sensitive files like /etc/passwd or delete files via the removeAction parameter.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:20+00:00",
+    "cve_ids": [
+      "CVE-2020-37246"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "Supsystic Backup 2.3.9 contains a local file inclusion vulnerability that allows unauthenticated attackers to read and delete arbitrary files by manipulating the download path parameter. Attackers can modify the download parameter in admin.php requests with directory traversal sequences to access se",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2020-37246 - WordPress Plugin Supsystic Backup",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3d0d220ba9543f43b2c55fa0aeb531a9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2020-37245 - WordPress Plugin Supsystic Digital Publications 1.6.9 Path Traversal XSS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2020-37245",
+    "summary": "<strong>CVE ID :</strong>CVE-2020-37245\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Supsystic Digital Publications 1.6.9 contains a path traversal vulnerability in the Folder input field that allows attackers to access files outside the web root by injecting directory traversal sequences. Additionally, the plugin fails to sanitize input fields in publication settings, allowing stored cross-site scripting attacks through script injection in parameters like Area Width and Publication Width that execute when publications are viewed or edited.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:20+00:00",
+    "cve_ids": [
+      "CVE-2020-37245"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Supsystic Digital Publications 1.6.9 contains a path traversal vulnerability in the Folder input field that allows attackers to access files outside the web root by injecting directory traversal sequences. Additionally, the plugin fails to sanitize input fields in publication settings, allowing stor",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2020-37245 - WordPress Plugin Supsystic Digita",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3fe2763b63c320690acb4d4571f03bd6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2020-37244 - WordPress Plugin Supsystic Membership 1.4.7 SQL Injection via sidx",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2020-37244",
+    "summary": "<strong>CVE ID :</strong>CVE-2020-37244\n  <br />\n  <strong>Published :</strong> May 16, 2026, 4:16 p.m. | 6 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>Supsystic Membership 1.4.7 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the 'search' and 'sidx' parameters. Attackers can send GET requests to the badges module with crafted payloads to extract sensitive database information using time-based blind or UNION-based SQL injection techniques.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-16T16:16:20+00:00",
+    "cve_ids": [
+      "CVE-2020-37244"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "Supsystic Membership 1.4.7 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the 'search' and 'sidx' parameters. Attackers can send GET requests to the badges module with crafted payloads to extract sens",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2020-37244 - WordPress Plugin Supsystic Member",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9e788aff73d450e691d7feb3471a4f21",
+    "source": "BleepingComputer",
+    "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
+    "summary": "A security researcher claims Microsoft quietly fixed an Azure Backup for AKS vulnerability after rejecting his report, and without issuing a CVE. Microsoft disputes the claim, telling BleepingComputer the behavior was expected and that \"no product changes were made,\" despite the researcher documenting a silent fix. [...]",
+    "pub_date": "2026-05-16T20:55:44+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Microsoft rejects critical Azure vulnerability rep",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8295eb13b2dc4fce8f0405bc201fe5aa",
+    "source": "BleepingComputer",
+    "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
+    "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
+    "summary": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term persistence, stealth, and data collection. [...]",
+    "pub_date": "2026-05-16T14:15:37+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Russian hackers turn Kazuar backdoor into modular ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "466a56392d617a9ccc297fd31402b618",
+    "source": "The Hacker News",
+    "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
+    "link": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
+    "summary": "A critical security vulnerability impacting the\n  Funnel Builder\n  plugin for WordPress has come under active exploitation in the wild to\n  inject malicious JavaScript code\n  into WooCommerce checkout pages with the goal of stealing payment data.\n\n\n\n  Details of the activity were\n  published\n  by Sansec this week. The vulnerability currently does not have an official CVE identifier. It",
+    "pub_date": "2026-05-16T15:20:48+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Funnel Builder Flaw Under Active Exploitation Enab",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f80454780f80435154942b9f6510cd2e",
+    "source": "SecurityWeek",
+    "title": "PoC Code Published for Critical NGINX Vulnerability",
+    "link": "https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/",
+    "summary": "<p>Introduced in 2008, the critical-severity security defect was patched this week in NGINX Plus and NGINX open source.</p>\n<p>The post <a href=\"https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/\">PoC Code Published for Critical NGINX Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-05-16T10:02:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "PoC Code Published for Critical NGINX Vulnerabilit",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "edf83293fa24b9a4b1ed7ef1226bc753",
+    "source": "Schneier on Security",
+    "title": "Friday Squid Blogging: Bigfin Squid",
+    "link": "https://www.schneier.com/blog/archives/2026/05/friday-squid-blogging-bigfin-squid.html",
+    "summary": "<p><a href=\"https://www.sciencefocus.com/nature/bigfin-squid\">Article</a> about the bigfin squid.</p>\n<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>\n<p><a href=\"https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html\">Blog moderation policy.</a></p>",
+    "pub_date": "2026-05-16T01:03:31+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Friday Squid Blogging: Bigfin Squid",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3a20f82f0fe0cb0f7fffdc32e21a6d74",
+    "source": "Dark Reading",
+    "title": "The Boring Stuff is Dangerous Now",
+    "link": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt",
+    "summary": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt accordingly.",
+    "pub_date": "2026-05-18T13:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The Boring Stuff is Dangerous Now",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bb6a0316648f1407b516c356756c5cea",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds a flaw in Microsoft Exchange Server to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/192240/hacking/u-s-cisa-adds-a-flaw-in-microsoft-exchange-server-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in Microsoft Exchange Server to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a flaw in Microsoft Exchange Server, tracked as CVE-2026-42897 (CVSS score of 8.1), to its Known Exploited Vulnerabilities (KEV) catalog. This week, Microsoft warned that threat actors are [&#8230;]",
+    "pub_date": "2026-05-16T17:30:29+00:00",
+    "cve_ids": [
+      "CVE-2026-42897"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds a flaw in Microsoft Exchange Server",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bf47e2da1b1adc7b810893731800a14e",
+    "source": "Security Affairs",
+    "title": "Russian APT Turla builds long-term access tool with Kazuar Botnet evolution",
+    "link": "https://securityaffairs.com/192231/apt/russian-apt-turla-builds-long-term-access-tool-with-kazuar-botnet-evolution.html",
+    "summary": "Russia-linked APT group Turla turned its Kazuar malware into a stealthy P2P botnet for long-term access to compromised systems. Russia-linked APT group Turla upgraded its Kazuar backdoor into a modular peer-to-peer botnet designed for stealth and persistent access to infected systems. Microsoft researchers say the malware allows attackers to maintain long-term control while making detection [&#8230;]",
+    "pub_date": "2026-05-16T16:48:57+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Russian APT Turla builds long-term access tool wit",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4642a2276b9e56592a365809dc8b18dd",
+    "source": "Security Affairs",
+    "title": "OpenAI hit by supply chain attack linked to malicious TanStack packages",
+    "link": "https://securityaffairs.com/192222/hacking/openai-hit-by-supply-chain-attack-linked-to-malicious-tanstack-packages.html",
+    "summary": "OpenAI said the TanStack supply chain attack compromised two employee devices and exposed credentials from code repositories. OpenAI confirmed that the recent TanStack supply chain attack compromised two employee devices and exposed credential material stored in internal source code repositories. The incident began after the TeamPCP hacking group abused weaknesses in the package publishing process [&#8230;]",
+    "pub_date": "2026-05-16T09:31:49+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "OpenAI hit by supply chain attack linked to malici",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0d186b4394b3a39726ff655eedec0883",
+    "source": "CrowdStrike",
+    "title": "Now Live: The CrowdStrike 2026 Financial Services Threat Landscape Report",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-financial-services-threat-landscape-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Now Live: The CrowdStrike 2026 Financial Services ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2d539bfea4bf4116e8228e82c1e67c7d",
+    "source": "CrowdStrike",
+    "title": "Falcon AIDR Detects Threats at the Prompt Layer in Kubernetes AI Applications",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-aidr-detects-threats-at-prompt-layer-in-kubernetes-ai-apps/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon AIDR Detects Threats at the Prompt Layer in",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6b88ad708547db70bb1868957956cb72",
+    "source": "CrowdStrike",
+    "title": "May 2026 Patch Tuesday: 30 Critical Vulnerabilities Among 130 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-may-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "May 2026 Patch Tuesday: 30 Critical Vulnerabilitie",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bc23fbcd70152f75cefc91fd68391fe1",
+    "source": "CrowdStrike",
+    "title": "Inside CrowdStrike Automated Leads: A Transformative Approach to Threat Detections",
+    "link": "https://www.crowdstrike.com/en-us/blog/ai-threat-detection-with-automated-leads/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Inside CrowdStrike Automated Leads: A Transformati",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5750234458e29a991e611b6b2218d3ea",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in the First-Ever Gartner&reg; Magic Quadrant&trade; for Cyberthreat Intelligence Technologies",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-gartner-magic-quadrant-cyberthreat-intelligence/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in the First-Ever Gartn",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "687069ba2b4e5de602dbf70e135581b1",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Launches Falcon OverWatch for Defender",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-launches-falcon-overwatch-for-defender/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Launches Falcon OverWatch for Defender",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d4daf49687a4f5c2e126acbe64fb8c89",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Technical Risk Assessments Reveal Common Exposure Patterns",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-technical-risk-assessments-reveal-common-exposure-patterns/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Technical Risk Assessments Reveal Comm",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "607ea5376c777075cecac6c3ce4833cb",
+    "source": "CrowdStrike",
+    "title": "Tune In: The Future of AI-Powered Vulnerability Discovery",
+    "link": "https://www.crowdstrike.com/en-us/blog/tune-in-future-of-ai-powered-vulnerability-discovery/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Tune In: The Future of AI-Powered Vulnerability Di",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9cf40bfb0229908d5bb74e5e1d6909f3",
+    "source": "CrowdStrike",
+    "title": "Defending Against CORDIAL SPIDER and SNARKY SPIDER with Falcon Shield",
+    "link": "https://www.crowdstrike.com/en-us/blog/defending-against-cordial-spider-and-snarky-spider-with-falcon-shield/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Defending Against CORDIAL SPIDER and SNARKY SPIDER",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1987d3658255e050c34909035f9359d0",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands ChatGPT Enterprise Integration with Enhanced Audit Logging and Activity Monitoring",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-chatgpt-enterprise-integration/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands ChatGPT Enterprise Integration",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
