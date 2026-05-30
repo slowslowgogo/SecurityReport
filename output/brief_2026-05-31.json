@@ -1,0 +1,917 @@
+[
+  {
+    "uid": "0a275833e99d9da23a5c6579d8139aa8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10153 - westboy CicadasCMS AbstractCacheManager.java search cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10153",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10153\n  <br />\n  <strong>Published :</strong> May 30, 2026, 9 p.m. | 52 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in westboy CicadasCMS up to 2431154dac8d0735e04f1fd2a3c3556668fc8dab. Impacted is the function Search of the file org/springframework/cache/support/AbstractCacheManager.java. This manipulation of the argument s causes cross site scripting. Remote exploitation of the attack is possible. The exploit has been published and may be used. This product follows a rolling release approach for continuous delivery, so version details for affected or updated releases are not provided. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 0.0 | ",
+    "pub_date": "2026-05-30T21:00:20+00:00",
+    "cve_ids": [
+      "CVE-2026-10153"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A flaw has been found in westboy CicadasCMS up to 2431154dac8d0735e04f1fd2a3c3556668fc8dab. Impacted is the function Search of the file org/springframework/cache/support/AbstractCacheManager.java. This manipulation of the argument s causes cross site scripting. Remote exploitation of the attack is p",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10153 - westboy CicadasCMS AbstractCacheM",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "80ce72099449c4679ffb9c6b24c63f84",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10152 - TaleLin lin-cms-spring-boot book Endpoint BookController.java access control",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10152",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10152\n  <br />\n  <strong>Published :</strong> May 30, 2026, 8:16 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in TaleLin lin-cms-spring-boot up to 0.2.1. This issue affects some unknown processing of the file src/main/java/io/github/talelin/latticy/controller/v1/BookController.java of the component book Endpoint. The manipulation results in improper access controls. The attack may be launched remotely. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T20:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-10152"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was detected in TaleLin lin-cms-spring-boot up to 0.2.1. This issue affects some unknown processing of the file src/main/java/io/github/talelin/latticy/controller/v1/BookController.java of the component book Endpoint. The manipulation results in improper access controls. The attack m",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10152 - TaleLin lin-cms-spring-boot book ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "df55208408677ac039bb1c54b57748a4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10127 - Edimax BR-6478AC POST Request formStaDrvSetup command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10127",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10127\n  <br />\n  <strong>Published :</strong> May 30, 2026, 5:16 p.m. | 4 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Edimax BR-6478AC 1.23. This affects the function formStaDrvSetup of the file /goform/formStaDrvSetup of the component POST Request Handler. This manipulation of the argument rootAPmac causes command injection. The attack may be initiated remotely. The exploit has been made available to the public and could be used for attacks.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T17:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-10127"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A weakness has been identified in Edimax BR-6478AC 1.23. This affects the function formStaDrvSetup of the file /goform/formStaDrvSetup of the component POST Request Handler. This manipulation of the argument rootAPmac causes command injection. The attack may be initiated remotely. The exploit has be",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10127 - Edimax BR-6478AC POST Request for",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "458d1819afe0ef6a6d914cdf293900de",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10126 - Edimax BR-6478AC POST Request formQoS buffer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10126",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10126\n  <br />\n  <strong>Published :</strong> May 30, 2026, 5:16 p.m. | 4 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in Edimax BR-6478AC 1.23. Affected by this issue is the function formQoS of the file /goform/formQoS of the component POST Request Handler. The manipulation of the argument selSSID results in buffer overflow. The attack can be launched remotely. The exploit has been released to the public and may be used for attacks.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T17:16:21+00:00",
+    "cve_ids": [
+      "CVE-2026-10126"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A security flaw has been discovered in Edimax BR-6478AC 1.23. Affected by this issue is the function formQoS of the file /goform/formQoS of the component POST Request Handler. The manipulation of the argument selSSID results in buffer overflow. The attack can be launched remotely. The exploit has be",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10126 - Edimax BR-6478AC POST Request for",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e499257aa69dd08e0e3a28a7330ae880",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8594 - Text::LineFold versions through 2019.001 for Perl duplicate the output based on the number of special break characters",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8594",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8594\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>Text::LineFold versions through 2019.001 for Perl duplicate the output based on the number of special break characters.\n\nText::LineFold splits the input string by specific line break characters (such as VT, FF and others) into segments, but applies the break function to the entire string, not just the segment.\n\nA side effect of this is that the full input can be duplicated for each segment.  Besides being incorrect, this can lead to unexpected resource consumption and possible denial of service.\n\nNote that Text::LineFold is part of the Unicode-LineBreak distribution, which may have a higher version number than the module.\n",
+    "pub_date": "2026-05-30T16:17:05+00:00",
+    "cve_ids": [
+      "CVE-2026-8594"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8594 - Text::LineFold versions through 20",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6f50ea5a1e6dcccea285835ad44149e2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10125 - Edimax BR-6478AC POST Request formPPPoESetup stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10125",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10125\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in Edimax BR-6478AC 1.23. Affected by this vulnerability is the function formPPPoESetup of the file /goform/formPPPoESetup of the component POST Request Handler. The manipulation of the argument pppUserName leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit is publicly available and might be used.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-10125"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability was identified in Edimax BR-6478AC 1.23. Affected by this vulnerability is the function formPPPoESetup of the file /goform/formPPPoESetup of the component POST Request Handler. The manipulation of the argument pppUserName leads to stack-based buffer overflow. The attack can be initia",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10125 - Edimax BR-6478AC POST Request for",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4e4879d384fd013912146799f97017bb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10124 - Shibby Tomato Zserv ripd rip_zebra_read_ipv4 stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10124",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10124\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in Shibby Tomato up to 1.28. Affected is the function rip_zebra_read_ipv4 of the file /usr/sbin/ripd of the component Zserv Handler. Executing a manipulation can lead to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been publicly disclosed and may be utilized. This project is superseded by FreshTomato. This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-10124"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability was determined in Shibby Tomato up to 1.28. Affected is the function rip_zebra_read_ipv4 of the file /usr/sbin/ripd of the component Zserv Handler. Executing a manipulation can lead to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been pub",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10124 - Shibby Tomato Zserv ripd rip_zebr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9bff556ee2787ca86f802e3e4293bebc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10123 - TRENDnet TEW-432BRP formSetDomainFilter stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10123",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10123\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in TRENDnet TEW-432BRP 3.10B20. This impacts the function formSetDomainFilter of the file /goform/formSetDomainFilter. Performing a manipulation of the argument blocked_domain/permitted_domain/blocked_domain_list/permitted_domain_list results in stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been made public and could be used. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that ar",
+    "pub_date": "2026-05-30T16:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-10123"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability was found in TRENDnet TEW-432BRP 3.10B20. This impacts the function formSetDomainFilter of the file /goform/formSetDomainFilter. Performing a manipulation of the argument blocked_domain/permitted_domain/blocked_domain_list/permitted_domain_list results in stack-based buffer overflow.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10123 - TRENDnet TEW-432BRP formSetDomain",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5d3aa40f56402610040c00341cfdbd53",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10122 - TRENDnet TEW-432BRP formSetProtocolFilter stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10122",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10122\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in TRENDnet TEW-432BRP 3.10B20. This affects the function formSetProtocolFilter of the file /goform/formSetProtocolFilter. Such manipulation of the argument protocol_name leads to stack-based buffer overflow. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <stron",
+    "pub_date": "2026-05-30T16:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-10122"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability has been found in TRENDnet TEW-432BRP 3.10B20. This affects the function formSetProtocolFilter of the file /goform/formSetProtocolFilter. Such manipulation of the argument protocol_name leads to stack-based buffer overflow. The attack may be performed from remote. The exploit has bee",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10122 - TRENDnet TEW-432BRP formSetProtoc",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7dbe0ccc33f0f85f2482647d4a2029f4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10121 - TRENDnet TEW-432BRP formSetUrlFilter stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10121",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10121\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in TRENDnet TEW-432BRP 3.10B20. The impacted element is the function formSetUrlFilter of the file /goform/formSetUrlFilter. This manipulation of the argument keyword_list/keyword causes stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been published and may be used. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <strong>Sever",
+    "pub_date": "2026-05-30T16:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-10121"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A flaw has been found in TRENDnet TEW-432BRP 3.10B20. The impacted element is the function formSetUrlFilter of the file /goform/formSetUrlFilter. This manipulation of the argument keyword_list/keyword causes stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10121 - TRENDnet TEW-432BRP formSetUrlFil",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2e856dfd46cc8369bae760b280fbca63",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25426 - WinMTR 0.91 Denial of Service via Buffer Overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25426",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25426\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>WinMTR 0.91 contains a denial of service vulnerability that allows attackers to crash the application by sending a malformed payload file containing a large buffer of repeated characters. Attackers can create a specially crafted input file with 238 bytes of data to trigger a buffer overflow condition that causes the application to crash.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:03+00:00",
+    "cve_ids": [
+      "CVE-2018-25426"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "WinMTR 0.91 contains a denial of service vulnerability that allows attackers to crash the application by sending a malformed payload file containing a large buffer of repeated characters. Attackers can create a specially crafted input file with 238 bytes of data to trigger a buffer overflow conditio",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25426 - WinMTR 0.91 Denial of Service via",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d8198ebb641c5cb24a52b23a19b7fda1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25425 - Yot CMS 3.3.1 SQL Injection via aid and cid Parameters",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25425",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25425\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>Yot CMS 3.3.1 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the aid and cid parameters. Attackers can send GET requests to index.php with crafted SQL payloads in the aid or cid parameters to extract database information including table and column names.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:03+00:00",
+    "cve_ids": [
+      "CVE-2018-25425"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "Yot CMS 3.3.1 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the aid and cid parameters. Attackers can send GET requests to index.php with crafted SQL payloads in the aid or cid parameters to extract ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25425 - Yot CMS 3.3.1 SQL Injection via a",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5708bb223de202d21f86476e76a2735f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25424 - Gate Pass Management System 2.1 SQL Injection via login-exec.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25424",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25424\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>Gate Pass Management System 2.1 contains an SQL injection vulnerability that allows unauthenticated attackers to bypass authentication by injecting SQL code through the login and password parameters. Attackers can submit crafted POST requests to login-exec.php with SQL injection payloads in form parameters to authenticate without valid credentials and gain access to the application.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:03+00:00",
+    "cve_ids": [
+      "CVE-2018-25424"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "Gate Pass Management System 2.1 contains an SQL injection vulnerability that allows unauthenticated attackers to bypass authentication by injecting SQL code through the login and password parameters. Attackers can submit crafted POST requests to login-exec.php with SQL injection payloads in form par",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25424 - Gate Pass Management System 2.1 S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dc6c4bc5c0d3559dfab5c1f3dfcd1224",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25423 - Arm Whois 3.11 Denial of Service via Buffer Overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25423",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25423\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>Arm Whois 3.11 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an oversized input string. Attackers can paste a malicious buffer of 700 bytes into the IP address or domain input field to trigger a denial of service condition.\n  <br />\n  <strong>Severity:</strong> 6.2 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:03+00:00",
+    "cve_ids": [
+      "CVE-2018-25423"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "Arm Whois 3.11 contains a buffer overflow vulnerability that allows local attackers to crash the application by supplying an oversized input string. Attackers can paste a malicious buffer of 700 bytes into the IP address or domain input field to trigger a denial of service condition.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25423 - Arm Whois 3.11 Denial of Service ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "55c0e72383429941dd288d4b721f3657",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25422 - MOGG web simulator Script All Version SQL Injection via play.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25422",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25422\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>MOGG web simulator Script contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL commands by injecting malicious code through the id parameter. Attackers can send GET requests to play.php with crafted SQL payloads in the id parameter to extract sensitive database information including usernames and other data.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:03+00:00",
+    "cve_ids": [
+      "CVE-2018-25422"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "MOGG web simulator Script contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL commands by injecting malicious code through the id parameter. Attackers can send GET requests to play.php with crafted SQL payloads in the id parameter to extract sensiti",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25422 - MOGG web simulator Script All Ver",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "57c6cb2abb942b812c120c223491a5fd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25421 - Open STA Manager 2.3 Arbitrary File Download via Path Traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25421",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25421\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>Open STA Manager 2.3 contains a path traversal vulnerability that allows authenticated users to download arbitrary files by manipulating the file parameter. Attackers can send GET requests to modules/backup/actions.php with op=getfile and traverse directories using ../ sequences to access sensitive system files.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:03+00:00",
+    "cve_ids": [
+      "CVE-2018-25421"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Open STA Manager 2.3 contains a path traversal vulnerability that allows authenticated users to download arbitrary files by manipulating the file parameter. Attackers can send GET requests to modules/backup/actions.php with op=getfile and traverse directories using ../ sequences to access sensitive ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25421 - Open STA Manager 2.3 Arbitrary Fi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e27c6cb5bcd62734bec7b15e2bc40f24",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25420 - AiOPMSD Final 1.0.0 SQL Injection via watch.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25420",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25420\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the 'id' parameter. Attackers can send GET requests to watch.php with crafted SQL payloads to extract sensitive database information including usernames, database names, and version details.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:03+00:00",
+    "cve_ids": [
+      "CVE-2018-25420"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the 'id' parameter. Attackers can send GET requests to watch.php with crafted SQL payloads to extract sensitive database information ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25420 - AiOPMSD Final 1.0.0 SQL Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "995a4b2ff1d9795f95825936cadaa74f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25419 - AiOPMSD Final 1.0.0 SQL Injection via genre.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25419",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25419\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the genre parameter. Attackers can send GET requests to genre.php with crafted SQL payloads in the genre parameter to extract sensitive database information including usernames, database names, and version details.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:02+00:00",
+    "cve_ids": [
+      "CVE-2018-25419"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the genre parameter. Attackers can send GET requests to genre.php with crafted SQL payloads in the genre parameter to extract sensiti",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25419 - AiOPMSD Final 1.0.0 SQL Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3f5656b49b8d238f49e5e486e6a30686",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25418 - AiOPMSD Final 1.0.0 SQL Injection via year.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25418",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25418\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the year parameter. Attackers can send GET requests to year.php with crafted SQL payloads in the year parameter to extract sensitive database information including usernames, database names, and version details.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:02+00:00",
+    "cve_ids": [
+      "CVE-2018-25418"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the year parameter. Attackers can send GET requests to year.php with crafted SQL payloads in the year parameter to extract sensitive ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25418 - AiOPMSD Final 1.0.0 SQL Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e97b58a9b9171ab58eab2a94b3fecf31",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25417 - AiOPMSD Final 1.0.0 SQL Injection via quality.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25417",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25417\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the quality parameter. Attackers can send GET requests to quality.php with crafted SQL payloads in the quality parameter to extract sensitive database information including usernames, database names, and version details.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:02+00:00",
+    "cve_ids": [
+      "CVE-2018-25417"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the quality parameter. Attackers can send GET requests to quality.php with crafted SQL payloads in the quality parameter to extract s",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25417 - AiOPMSD Final 1.0.0 SQL Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a6c72969a531d66d82379692f1deef16",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25416 - AiOPMSD Final 1.0.0 SQL Injection via country.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25416",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25416\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the country parameter. Attackers can send GET requests to country.php with crafted SQL payloads in the country parameter to extract sensitive database information including usernames, database names, and version details.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:02+00:00",
+    "cve_ids": [
+      "CVE-2018-25416"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the country parameter. Attackers can send GET requests to country.php with crafted SQL payloads in the country parameter to extract s",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25416 - AiOPMSD Final 1.0.0 SQL Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ea6a29e02b8a0631c799a62b3852b4f5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25415 - AiOPMSD Final 1.0.0 SQL Injection via director Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25415",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25415\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the director parameter. Attackers can send GET requests to director.php with crafted SQL payloads in the director parameter to extract sensitive database information including usernames, database names, and version details.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:02+00:00",
+    "cve_ids": [
+      "CVE-2018-25415"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the director parameter. Attackers can send GET requests to director.php with crafted SQL payloads in the director parameter to extrac",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25415 - AiOPMSD Final 1.0.0 SQL Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0850b9144a1ac4d12748477e9f06a581",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25414 - AiOPMSD Final 1.0.0 SQL Injection via actor.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25414",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25414\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the actor parameter. Attackers can send GET requests to actor.php with crafted SQL payloads in the actor parameter to extract sensitive database information including usernames, database names, and version details.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:02+00:00",
+    "cve_ids": [
+      "CVE-2018-25414"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the actor parameter. Attackers can send GET requests to actor.php with crafted SQL payloads in the actor parameter to extract sensiti",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25414 - AiOPMSD Final 1.0.0 SQL Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "851d2be44462cbaf3fe496c17154e674",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25413 - AiOPMSD Final 1.0.0 SQL Injection via search.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25413",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25413\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the 'q' parameter. Attackers can send GET requests to search.php with crafted SQL payloads to extract sensitive database information including usernames, database names, and version details.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:02+00:00",
+    "cve_ids": [
+      "CVE-2018-25413"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "AiOPMSD Final 1.0.0 contains an SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL queries by injecting malicious code through the 'q' parameter. Attackers can send GET requests to search.php with crafted SQL payloads to extract sensitive database information ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25413 - AiOPMSD Final 1.0.0 SQL Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8e132f396599a73c150ab4c884cf1a09",
+    "source": "CVEfeed.io",
+    "title": "CVE-2018-25412 - Delta Sql 1.8.2 Arbitrary File Upload via docs_upload.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2018-25412",
+    "summary": "<strong>CVE ID :</strong>CVE-2018-25412\n  <br />\n  <strong>Published :</strong> May 30, 2026, 4:17 p.m. | 5 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>Delta Sql 1.8.2 contains an arbitrary file upload vulnerability that allows unauthenticated attackers to upload malicious files by sending POST requests to docs_upload.php with crafted multipart form data. Attackers can upload PHP files with arbitrary content to the upload directory and execute them on the server for remote code execution.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-30T16:17:01+00:00",
+    "cve_ids": [
+      "CVE-2018-25412"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "Delta Sql 1.8.2 contains an arbitrary file upload vulnerability that allows unauthenticated attackers to upload malicious files by sending POST requests to docs_upload.php with crafted multipart form data. Attackers can upload PHP files with arbitrary content to the upload directory and execute them",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2018-25412 - Delta Sql 1.8.2 Arbitrary File Up",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b5b09c68b9a2f32f3b89549684f4987b",
+    "source": "BleepingComputer",
+    "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
+    "summary": "Palo Alto Networks is warning that hackers are now exploiting a PAN-OS GlobalProtect authentication bypass flaw, tracked as CVE-2026-0257, in attacks attempting to breach corporate networks. [...]",
+    "pub_date": "2026-05-30T18:02:51+00:00",
+    "cve_ids": [
+      "CVE-2026-0257"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Palo Alto GlobalProtect VPN auth bypass flaw now e",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "15cfe7e98431e3cca724df8ff14d5ace",
+    "source": "BleepingComputer",
+    "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+    "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+    "summary": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key request mechanism, and gain root privileges. [...]",
+    "pub_date": "2026-05-30T14:16:08+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New CIFSwitch Linux flaw gives root on multiple di",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5420e05836399b582d9f84504d254736",
+    "source": "The Hacker News",
+    "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+    "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+    "summary": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited by bad actors to set up VPN connections.\n\n\"Authentication bypass vulnerabilities in the",
+    "pub_date": "2026-05-30T06:41:26+00:00",
+    "cve_ids": [
+      "CVE-2026-0257"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "PAN-OS GlobalProtect Authentication Bypass (CVE-20",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0ad3d884ede7caa4506b4db709d75158",
+    "source": "SecurityWeek",
+    "title": "Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say",
+    "link": "https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/",
+    "summary": "<p>Moscow’s agents are building fake companies, recruiting middlemen and deploying cyber spies and hackers who gather information that could be used to attack key infrastructure.</p>\n<p>The post <a href=\"https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/\">Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-05-30T16:00:49+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Russian Spies Are Aggressively Seeking Western Tec",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "02fa2512d626c580244ad6d94b354d48",
+    "source": "SecurityWeek",
+    "title": "Exploit Code Published for Critical Flowise RCE Vulnerability",
+    "link": "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/",
+    "summary": "<p>The one-click vulnerability allows attackers to execute arbitrary code on self-hosted Flowise servers by tricking users into importing a malicious chatflow.</p>\n<p>The post <a href=\"https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/\">Exploit Code Published for Critical Flowise RCE Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-05-30T15:55:59+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Exploit Code Published for Critical Flowise RCE Vu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b96d2bd8e6c23ea1155de234f9b2cd8c",
+    "source": "Dark Reading",
+    "title": "Name That Toon Contest",
+    "link": "https://www.darkreading.com/events/celebrate-20-years-of-dark-reading-name-that-toon-contest",
+    "summary": "",
+    "pub_date": "2026-06-26T11:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Name That Toon Contest",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "605b97993e4234ee0f34bbf337382862",
+    "source": "Dark Reading",
+    "title": "[An RX Global Event] Infosecurity Europe",
+    "link": "https://www.darkreading.com/events/infosecurity-europe",
+    "summary": "",
+    "pub_date": "2026-06-02T13:30:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[An RX Global Event] Infosecurity Europe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dec9b68c470cd0891cb82d38f736bb45",
+    "source": "Security Affairs",
+    "title": "ShinyHunters Leaks Charter Communications Data, Potentially Impacting 5 Million Customers",
+    "link": "https://securityaffairs.com/192907/uncategorized/shinyhunters-leaks-charter-communications-data-potentially-impacting-5-million-customers.html",
+    "summary": "Cybercrime group ShinyHunters leaked data allegedly stolen from Charter Communications, exposing millions of customer records after a failed extortion attempt. The ShinyHunters extortion group has published data allegedly stolen from Charter Communications after the company apparently refused to pay a ransom. Charter Communications is one of the largest telecommunications companies in the United States. It [&#8230;]",
+    "pub_date": "2026-05-30T16:33:14+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "ShinyHunters Leaks Charter Communications Data, Po",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1b6407550a5ba3bc9f3ba4d0e8af88c3",
+    "source": "Security Affairs",
+    "title": "Signal Phishing Campaign Targets Journalists and Activists to Steal Backup Recovery Keys",
+    "link": "https://securityaffairs.com/192899/security/signal-phishing-campaign-targets-journalists-and-activists-to-steal-backup-recovery-keys.html",
+    "summary": "Attackers are texting Signal users posing as Support, asking for backup recovery keys. Once obtained, they can decrypt the entire message history, not just future chats. A phishing campaign is currently targeting Signal users with text messages that impersonate Signal Support and ask them to hand over their backup recovery key. The message looks urgent, [&#8230;]",
+    "pub_date": "2026-05-30T09:25:45+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Signal Phishing Campaign Targets Journalists and A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c0ea157797dd51a14141d36f3e31c69d",
+    "source": "Security Affairs",
+    "title": "Botnet of 17 Million Devices Dismantled in the Netherlands",
+    "link": "https://securityaffairs.com/192890/malware/botnet-of-17-million-devices-dismantled-in-the-netherlands.html",
+    "summary": "Dutch authorities seized 200 servers running a 17-million-device botnet linked to proxy service Asocks. Dutch authorities have taken offline a massive botnet of at least 17 million devices and seized more than 200 servers at a local provider that supported the operation. Infected devices included computers, tablets, and smartphones. The action was carried out following [&#8230;]",
+    "pub_date": "2026-05-30T08:16:15+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Botnet of 17 Million Devices Dismantled in the Net",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "31c5c5632fd5a468f39d47cec14125a6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in 2026 Gartner&reg; Magic Quadrant&trade; for Endpoint Protection for Seventh Consecutive Time",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-in-2026-gartner-magic-quadrant-for-endpoint-protection/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in 2026 Gartner&reg; Ma",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "94f4d526a9071ede96a3df084ca39bcf",
+    "source": "CrowdStrike",
+    "title": "Shadow AI: The Hidden Risk Expanding Across the Enterprise",
+    "link": "https://www.crowdstrike.com/en-us/blog/shadow-ai-hidden-risk-expanding-across-the-enterprise/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Shadow AI: The Hidden Risk Expanding Across the En",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07a9e294ed0c79d66b9e555a869e420b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in Identity Threat Detection and Response",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-in-identity-threat-detection-and-response/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in Identity Threat Dete",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4af947859d9c2aed4540bd8ef56d3063",
+    "source": "CrowdStrike",
+    "title": "Disrupting Glassworm: Inside CrowdStrike&rsquo;s Takedown of a Developer-Targeting Botnet",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Disrupting Glassworm: Inside CrowdStrike&rsquo;s T",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d45b00f4110dca03b79564541f5d8d4d",
+    "source": "CrowdStrike",
+    "title": "Measuring AI-Enabled Success: 3 KPIs Leaders Should Track",
+    "link": "https://www.crowdstrike.com/en-us/blog/measuring-ai-enabled-success-three-kpis-cios-should-track/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Measuring AI-Enabled Success: 3 KPIs Leaders Shoul",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8f4161624e3ce45629ae9d01a520d380",
+    "source": "CrowdStrike",
+    "title": "New Claude Integration Brings Audit Data into the Falcon Platform",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-claude-integration-brings-audit-data-into-the-falcon-platform/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Claude Integration Brings Audit Data into the ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7e7c26c6119e311f414db3f4d3d78193",
+    "source": "CrowdStrike",
+    "title": "How to Protect Identities and Sessions from Infostealers",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-to-protect-identities-and-sessions-from-infostealers/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How to Protect Identities and Sessions from Infost",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0d186b4394b3a39726ff655eedec0883",
+    "source": "CrowdStrike",
+    "title": "Now Live: The CrowdStrike 2026 Financial Services Threat Landscape Report",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-financial-services-threat-landscape-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Now Live: The CrowdStrike 2026 Financial Services ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2d539bfea4bf4116e8228e82c1e67c7d",
+    "source": "CrowdStrike",
+    "title": "Falcon AIDR Detects Threats at the Prompt Layer in Kubernetes AI Applications",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-aidr-detects-threats-at-prompt-layer-in-kubernetes-ai-apps/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon AIDR Detects Threats at the Prompt Layer in",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6b88ad708547db70bb1868957956cb72",
+    "source": "CrowdStrike",
+    "title": "May 2026 Patch Tuesday: 30 Critical Vulnerabilities Among 130 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-may-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "May 2026 Patch Tuesday: 30 Critical Vulnerabilitie",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
