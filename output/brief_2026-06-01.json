@@ -1,0 +1,883 @@
+[
+  {
+    "uid": "ed40405a6c59ab8d5c9fc9bbc4cc67cc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10197 - Assimp TF File glTF2Importer.cpp ImportEmbeddedTextures null pointer dereference",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10197",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10197\n  <br />\n  <strong>Published :</strong> May 31, 2026, 10 p.m. | 19 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in Assimp up to 6.0.4. Affected is the function glTF2Importer::ImportEmbeddedTextures in the library code/AssetLib/glTF2/glTF2Importer.cpp of the component TF File Handler. The manipulation results in null pointer dereference. The attack is only possible with local access. The exploit is now public and may be used. It is advisable to implement a patch to correct this issue. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T22:00:12+00:00",
+    "cve_ids": [
+      "CVE-2026-10197"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "A vulnerability was detected in Assimp up to 6.0.4. Affected is the function glTF2Importer::ImportEmbeddedTextures in the library code/AssetLib/glTF2/glTF2Importer.cpp of the component TF File Handler. The manipulation results in null pointer dereference. The attack is only possible with local acces",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10197 - Assimp TF File glTF2Importer.cpp ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8519add633df09770a5601cc8fc2fc37",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-48210 - Possible information disclosure via External Interface",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-48210",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-48210\n  <br />\n  <strong>Published :</strong> May 31, 2026, 9:11 p.m. | 1 hour, 8 minutes ago\n  <br />\n  <strong>Description :</strong>An improper default configuration in OTRS 2026.3.1 causes ticket article forwarding actions to enforce the “Is visible for customer” flag by default and prevent users from disabling it via the UI. This leads to unintended exposure of internal ticket information to the External Frontend\n\nThis issue affects OTRS 2026.3.1\n  <br />\n  <strong>Severity:</strong> 5.7 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T21:11:25+00:00",
+    "cve_ids": [
+      "CVE-2026-48210"
+    ],
+    "cvss": 5.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.7,
+      "description": "An improper default configuration in OTRS 2026.3.1 causes ticket article forwarding actions to enforce the “Is visible for customer” flag by default and prevent users from disabling it via the UI. This leads to unintended exposure of internal ticket information to the External Frontend\n\nThis issue a",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-48210 - Possible information disclosure v",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b6f4948529a0a238a733df79518389c8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8796 - Sereal::Decoder versions before 5.005 for Perl allow heap out-of-bounds read via crafted input",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8796",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8796\n  <br />\n  <strong>Published :</strong> May 31, 2026, 8:16 p.m. | 2 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>Sereal::Decoder versions before 5.005 for Perl allow heap out-of-bounds read via crafted input.\n\nIn Perl/Decoder/srl_decoder.c, srl_read_object() and srl_read_hash() process a COPY tag, a back-reference whose target byte the decoder re-decodes as a fresh tag. When that target byte matches the SHORT_BINARY pattern (an inline string whose length is encoded in the low bits of the tag), the resulting read is not bounded to precede the COPY tag's own offset and can run past the end of the input buffer. An attacker controlled COPY offset can land inside a previously decoded value rather than on a tag boundary, planting a byte tha",
+    "pub_date": "2026-05-31T20:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-8796"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8796 - Sereal::Decoder versions before 5.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "917473cc9f3f4c0878df8973bb9c34d9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10194 - OFFIS DCMTK dcmqrscp dcmqrdbi.cc deleteOldestImages heap-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10194",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10194\n  <br />\n  <strong>Published :</strong> May 31, 2026, 5:16 p.m. | 5 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in OFFIS DCMTK 3.7.0. This affects the function DcmQueryRetrieveIndexDatabaseHandle::deleteOldestImages of the file dcmqrdb/libsrc/dcmqrdbi.cc of the component dcmqrscp. Executing a manipulation can lead to heap-based buffer overflow. The attack may be launched remotely. This patch is called 0f78a4ef6f645ea5530166e445e5436a5de58e75. A patch should be applied to remediate this issue.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T17:16:31+00:00",
+    "cve_ids": [
+      "CVE-2026-10194"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A weakness has been identified in OFFIS DCMTK 3.7.0. This affects the function DcmQueryRetrieveIndexDatabaseHandle::deleteOldestImages of the file dcmqrdb/libsrc/dcmqrdbi.cc of the component dcmqrscp. Executing a manipulation can lead to heap-based buffer overflow. The attack may be launched remotel",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10194 - OFFIS DCMTK dcmqrscp dcmqrdbi.cc ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f249a2a75ef25a7c0f9abd0745ee6922",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10193 - OFCMS ComnController ComnController.java query sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10193",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10193\n  <br />\n  <strong>Published :</strong> May 31, 2026, 5:16 p.m. | 5 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in OFCMS up to 1.1.3. The impacted element is the function Query of the file ofcms-admin\\src\\main\\java\\com\\ofsoft\\cms\\admin\\controller\\ComnController.java of the component ComnController. Performing a manipulation of the argument system.user.query results in sql injection. The attack may be initiated remotely. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS deta",
+    "pub_date": "2026-05-31T17:16:31+00:00",
+    "cve_ids": [
+      "CVE-2026-10193"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security flaw has been discovered in OFCMS up to 1.1.3. The impacted element is the function Query of the file ofcms-admin\\src\\main\\java\\com\\ofsoft\\cms\\admin\\controller\\ComnController.java of the component ComnController. Performing a manipulation of the argument system.user.query results in sql i",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10193 - OFCMS ComnController ComnControll",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "26fe8fe2042244ec21f7ce430d1d3f1c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10192 - Tenda W12 httpd set_local_time_0 stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10192",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10192\n  <br />\n  <strong>Published :</strong> May 31, 2026, 5:16 p.m. | 5 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in Tenda W12 3.0.0.7(4763). The affected element is the function set_local_time_0 of the file /bin/httpd. Such manipulation of the argument Time leads to stack-based buffer overflow. The attack can be launched remotely. The exploit is publicly available and might be used.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T17:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-10192"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability was identified in Tenda W12 3.0.0.7(4763). The affected element is the function set_local_time_0 of the file /bin/httpd. Such manipulation of the argument Time leads to stack-based buffer overflow. The attack can be launched remotely. The exploit is publicly available and might be us",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10192 - Tenda W12 httpd set_local_time_0 ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c3a992da6ba50c1c796aa1a7d903e89d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10191 - Tenda W12 httpd cgiWifiMacFilterSet stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10191",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10191\n  <br />\n  <strong>Published :</strong> May 31, 2026, 4:16 p.m. | 6 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in Tenda W12 3.0.0.7(4763). Impacted is the function cgiWifiMacFilterSet of the file /bin/httpd. This manipulation of the argument wifiMacFilterSet.macList.mac causes stack-based buffer overflow. The attack can be initiated remotely. The exploit has been publicly disclosed and may be utilized.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T16:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-10191"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability was determined in Tenda W12 3.0.0.7(4763). Impacted is the function cgiWifiMacFilterSet of the file /bin/httpd. This manipulation of the argument wifiMacFilterSet.macList.mac causes stack-based buffer overflow. The attack can be initiated remotely. The exploit has been publicly discl",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10191 - Tenda W12 httpd cgiWifiMacFilterS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a97f4d5b7806007ec11a1c37bcd7a9e0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10190 - Tenda W12 Web Management httpd cgiSysWebTimeoutSet denial of service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10190",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10190\n  <br />\n  <strong>Published :</strong> May 31, 2026, 4:16 p.m. | 6 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in Tenda W12 3.0.0.7(4763). This issue affects the function cgiSysWebTimeoutSet of the file /bin/httpd of the component Web Management Interface. The manipulation of the argument web_over_time results in denial of service. It is possible to launch the attack remotely. The exploit has been made public and could be used.\n  <br />\n  <strong>Severity:</strong> 6.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T16:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-10190"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "A vulnerability was found in Tenda W12 3.0.0.7(4763). This issue affects the function cgiSysWebTimeoutSet of the file /bin/httpd of the component Web Management Interface. The manipulation of the argument web_over_time results in denial of service. It is possible to launch the attack remotely. The e",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10190 - Tenda W12 Web Management httpd cg",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f5c682be67831861c9862e5a9e066037",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10189 - Tenda W12 httpd cgiSysTimeInfoSet stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10189",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10189\n  <br />\n  <strong>Published :</strong> May 31, 2026, 4:16 p.m. | 6 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in Tenda W12 3.0.0.7(4763). This vulnerability affects the function cgiSysTimeInfoSet of the file /bin/httpd. The manipulation of the argument sec leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T16:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-10189"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability has been found in Tenda W12 3.0.0.7(4763). This vulnerability affects the function cgiSysTimeInfoSet of the file /bin/httpd. The manipulation of the argument sec leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to th",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10189 - Tenda W12 httpd cgiSysTimeInfoSet",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "447aaed24ed3abcae03db538ae8fcf2d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10188 - Tenda W12 httpd cgistaKickOff stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10188",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10188\n  <br />\n  <strong>Published :</strong> May 31, 2026, 3:16 p.m. | 7 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Tenda W12 3.0.0.7(4763). This affects the function cgistaKickOff of the file /bin/httpd. Executing a manipulation of the argument staMac can lead to stack-based buffer overflow. The attack may be performed from remote. The exploit has been published and may be used.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T15:16:16+00:00",
+    "cve_ids": [
+      "CVE-2026-10188"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A flaw has been found in Tenda W12 3.0.0.7(4763). This affects the function cgistaKickOff of the file /bin/httpd. Executing a manipulation of the argument staMac can lead to stack-based buffer overflow. The attack may be performed from remote. The exploit has been published and may be used.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10188 - Tenda W12 httpd cgistaKickOff sta",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "87e6ff147e158f00a600a3cf8b4c3317",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10187 - Totolink N300RH Web Management wireless.so setWiFiBasicConfig stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10187",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10187\n  <br />\n  <strong>Published :</strong> May 31, 2026, 3:16 p.m. | 7 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in Totolink N300RH 6.1c.1353_B20190305. Affected by this issue is the function setWiFiBasicConfig of the file wireless.so of the component Web Management Interface. Performing a manipulation of the argument KeyStr results in stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit is now public and may be used.\n  <br />\n  <strong>Severity:</strong> 10.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T15:16:15+00:00",
+    "cve_ids": [
+      "CVE-2026-10187"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "A vulnerability was detected in Totolink N300RH 6.1c.1353_B20190305. Affected by this issue is the function setWiFiBasicConfig of the file wireless.so of the component Web Management Interface. Performing a manipulation of the argument KeyStr results in stack-based buffer overflow. The attack is pos",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10187 - Totolink N300RH Web Management wi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "86e6692f8023ef46b31ce73264fc8e5f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10186 - code-projects Online Hospital Management System patient.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10186",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10186\n  <br />\n  <strong>Published :</strong> May 31, 2026, 2:16 p.m. | 8 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in code-projects Online Hospital Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /patient.php. Such manipulation of the argument editid leads to sql injection. The attack can be executed remotely. The exploit has been disclosed publicly and may be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T14:16:52+00:00",
+    "cve_ids": [
+      "CVE-2026-10186"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A security vulnerability has been detected in code-projects Online Hospital Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /patient.php. Such manipulation of the argument editid leads to sql injection. The attack can be executed remotely. The exploit ha",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10186 - code-projects Online Hospital Man",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0c81af7cfa16514732305e0740886781",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10185 - SourceCodester Hospitals Patient Records Management System Users.php save sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10185",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10185\n  <br />\n  <strong>Published :</strong> May 31, 2026, 2:16 p.m. | 8 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in SourceCodester Hospitals Patient Records Management System 1.0. Affected is an unknown function of the file /classes/Users.php?f=save. This manipulation of the argument ID causes sql injection. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be used for attacks.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T14:16:51+00:00",
+    "cve_ids": [
+      "CVE-2026-10185"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A weakness has been identified in SourceCodester Hospitals Patient Records Management System 1.0. Affected is an unknown function of the file /classes/Users.php?f=save. This manipulation of the argument ID causes sql injection. Remote exploitation of the attack is possible. The exploit has been made",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10185 - SourceCodester Hospitals Patient ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5d3c9e6f9830b6ccde5ffd9533f9f5f6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10184 - SourceCodester Hospitals Patient Records Management System Users.php delete sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10184",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10184\n  <br />\n  <strong>Published :</strong> May 31, 2026, 2:16 p.m. | 8 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in SourceCodester Hospitals Patient Records Management System 1.0. This impacts an unknown function of the file /classes/Users.php?f=delete. The manipulation of the argument ID results in sql injection. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T14:16:51+00:00",
+    "cve_ids": [
+      "CVE-2026-10184"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A security flaw has been discovered in SourceCodester Hospitals Patient Records Management System 1.0. This impacts an unknown function of the file /classes/Users.php?f=delete. The manipulation of the argument ID results in sql injection. The attack may be launched remotely. The exploit has been rel",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10184 - SourceCodester Hospitals Patient ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "10b6200aeb17d52cd0499c3c25612284",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10183 - TRENDnet TEW-432BRP formWlanSetup stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10183",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10183\n  <br />\n  <strong>Published :</strong> May 31, 2026, 2:16 p.m. | 8 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in TRENDnet TEW-432BRP 3.10B20. This affects the function formWlanSetup of the file /goform/formWlanSetup. The manipulation of the argument enrollee leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit is publicly available and might be used. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <",
+    "pub_date": "2026-05-31T14:16:51+00:00",
+    "cve_ids": [
+      "CVE-2026-10183"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability was identified in TRENDnet TEW-432BRP 3.10B20. This affects the function formWlanSetup of the file /goform/formWlanSetup. The manipulation of the argument enrollee leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit is publicly available and might ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10183 - TRENDnet TEW-432BRP formWlanSetup",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c71fda37a6afa95bcb0dec7b2e61e309",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10182 - TRENDnet TEW-432BRP formWlanSetup command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10182",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10182\n  <br />\n  <strong>Published :</strong> May 31, 2026, 2:16 p.m. | 8 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in TRENDnet TEW-432BRP 3.10B20. The impacted element is the function formWlanSetup of the file /goform/formWlanSetup. Executing a manipulation of the argument enrollee can lead to command injection. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <strong>Severity:</str",
+    "pub_date": "2026-05-31T14:16:50+00:00",
+    "cve_ids": [
+      "CVE-2026-10182"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was determined in TRENDnet TEW-432BRP 3.10B20. The impacted element is the function formWlanSetup of the file /goform/formWlanSetup. Executing a manipulation of the argument enrollee can lead to command injection. The attack can be launched remotely. The exploit has been publicly dis",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10182 - TRENDnet TEW-432BRP formWlanSetup",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "26ddd9c2c7317757544eb828a5db5e18",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-49490 - OpenCATS - SQL Injection in DataGrid Filter Handling for Tags Column",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-49490",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-49490\n  <br />\n  <strong>Published :</strong> May 31, 2026, 1:16 p.m. | 9 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>OpenCATS from version 0.9.1a contains an SQL injection vulnerability in DataGrid filter handling that allows authenticated attackers to inject SQL through crafted filters targeting the non-filterable Tags column in the Candidates DataGrid. Attackers can bypass column filterable restrictions by manipulating filter requests to execute arbitrary SQL queries against the database.\n  <br />\n  <strong>Severity:</strong> 8.6 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T13:16:49+00:00",
+    "cve_ids": [
+      "CVE-2026-49490"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "OpenCATS from version 0.9.1a contains an SQL injection vulnerability in DataGrid filter handling that allows authenticated attackers to inject SQL through crafted filters targeting the non-filterable Tags column in the Candidates DataGrid. Attackers can bypass column filterable restrictions by manip",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-49490 - OpenCATS - SQL Injection in DataG",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c248e2d48a45ef84c23e6e500d894eeb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-49489 - OpenCATS - SQL Injection in DataGrid sortDirection Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-49489",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-49489\n  <br />\n  <strong>Published :</strong> May 31, 2026, 1:16 p.m. | 9 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>OpenCATS through 0.9.7.4 contains a sql injection vulnerability in the sortDirection parameter of the DataGrid component that allows authenticated users to extract database contents. Attackers can inject malicious SQL via the sortDirection parameter in ajax/getDataGridPager.php to perform time-based blind injection attacks and read sensitive data.\n  <br />\n  <strong>Severity:</strong> 8.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T13:16:49+00:00",
+    "cve_ids": [
+      "CVE-2026-49489"
+    ],
+    "cvss": 8.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.5,
+      "description": "OpenCATS through 0.9.7.4 contains a sql injection vulnerability in the sortDirection parameter of the DataGrid component that allows authenticated users to extract database contents. Attackers can inject malicious SQL via the sortDirection parameter in ajax/getDataGridPager.php to perform time-based",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-49489 - OpenCATS - SQL Injection in DataG",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f4c86f5d401f0a189adf86fe468d449d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10181 - TRENDnet TEW-432BRP formSysCmd stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10181",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10181\n  <br />\n  <strong>Published :</strong> May 31, 2026, 1:16 p.m. | 9 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in TRENDnet TEW-432BRP 3.10B20. The affected element is the function formSysCmd of the file /goform/formSysCmd. Performing a manipulation of the argument submit-url results in stack-based buffer overflow. The attack can be initiated remotely. The exploit has been made public and could be used. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <strong>Severity:</strong> 9.",
+    "pub_date": "2026-05-31T13:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-10181"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A vulnerability was found in TRENDnet TEW-432BRP 3.10B20. The affected element is the function formSysCmd of the file /goform/formSysCmd. Performing a manipulation of the argument submit-url results in stack-based buffer overflow. The attack can be initiated remotely. The exploit has been made publi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10181 - TRENDnet TEW-432BRP formSysCmd st",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d76276748ec01940174d5fd83b0612cd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10180 - TRENDnet TEW-432BRP formSysCmd command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10180",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10180\n  <br />\n  <strong>Published :</strong> May 31, 2026, 12:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in TRENDnet TEW-432BRP 3.10B20. Impacted is the function formSysCmd of the file /goform/formSysCmd. Such manipulation of the argument sysCmd leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n",
+    "pub_date": "2026-05-31T12:16:17+00:00",
+    "cve_ids": [
+      "CVE-2026-10180"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in TRENDnet TEW-432BRP 3.10B20. Impacted is the function formSysCmd of the file /goform/formSysCmd. Such manipulation of the argument sysCmd leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10180 - TRENDnet TEW-432BRP formSysCmd co",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c7402ba3687214a49f04f099e4f9306e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10179 - TRENDnet TEW-432BRP formSetWlanEncrypt stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10179",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10179\n  <br />\n  <strong>Published :</strong> May 31, 2026, 11:16 a.m. | 11 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in TRENDnet TEW-432BRP 3.10B20. This issue affects the function formSetWlanEncrypt of the file /goform/formSetWlanEncrypt. This manipulation of the argument webpage causes stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been published and may be used. The vendor explains: \"This product has been EOL for 15 years (since 2009). As the item has been EOL for such a long time, we are not able to replicate or fix any vulnerabilities.\" This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <strong>Severity:</strong> 9.",
+    "pub_date": "2026-05-31T11:16:47+00:00",
+    "cve_ids": [
+      "CVE-2026-10179"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A flaw has been found in TRENDnet TEW-432BRP 3.10B20. This issue affects the function formSetWlanEncrypt of the file /goform/formSetWlanEncrypt. This manipulation of the argument webpage causes stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been publishe",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10179 - TRENDnet TEW-432BRP formSetWlanEn",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b1256541656ff6f99eb275be5058e508",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10178 - code-projects Online Music Site AdminEditAlbum.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10178",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10178\n  <br />\n  <strong>Published :</strong> May 31, 2026, 11:16 a.m. | 11 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in code-projects Online Music Site 1.0. This vulnerability affects unknown code of the file /Administrator/PHP/AdminEditAlbum.php. The manipulation of the argument ID results in sql injection. The attack may be performed from remote. The exploit is now public and may be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T11:16:47+00:00",
+    "cve_ids": [
+      "CVE-2026-10178"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was detected in code-projects Online Music Site 1.0. This vulnerability affects unknown code of the file /Administrator/PHP/AdminEditAlbum.php. The manipulation of the argument ID results in sql injection. The attack may be performed from remote. The exploit is now public and may be ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10178 - code-projects Online Music Site A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f8381eaf0764fd47a502802b75c29e49",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10177 - Aider-AI Aider AWS EC2 Metadata Endpoint api_docs.py requests.get server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10177",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10177\n  <br />\n  <strong>Published :</strong> May 31, 2026, 11:16 a.m. | 11 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in Aider-AI Aider 0.86.3. This affects the function requests.get of the file api_docs.py of the component AWS EC2 Metadata Endpoint. The manipulation leads to server-side request forgery. The attack is possible to be carried out remotely. The exploit has been disclosed publicly and may be used. It is suggested to install a patch to address this issue. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T11:16:46+00:00",
+    "cve_ids": [
+      "CVE-2026-10177"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security vulnerability has been detected in Aider-AI Aider 0.86.3. This affects the function requests.get of the file api_docs.py of the component AWS EC2 Metadata Endpoint. The manipulation leads to server-side request forgery. The attack is possible to be carried out remotely. The exploit has be",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10177 - Aider-AI Aider AWS EC2 Metadata E",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b2063715c38cf536d99efd5aeb5e79d9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10176 - Aider-AI Aider Code Generation Workflow sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10176",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10176\n  <br />\n  <strong>Published :</strong> May 31, 2026, 10:16 a.m. | 12 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Aider-AI Aider 0.86.3. Affected by this issue is some unknown functionality of the component Code Generation Workflow. Executing a manipulation can lead to sql injection. The attack can be executed remotely. The exploit has been made available to the public and could be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T10:16:17+00:00",
+    "cve_ids": [
+      "CVE-2026-10176"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A weakness has been identified in Aider-AI Aider 0.86.3. Affected by this issue is some unknown functionality of the component Code Generation Workflow. Executing a manipulation can lead to sql injection. The attack can be executed remotely. The exploit has been made available to the public and coul",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10176 - Aider-AI Aider Code Generation Wo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d60747788cf72a8ad7212d310a0ddb1e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10175 - Aider-AI Aider Architect Mode auth.py editor_coder.run code injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10175",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10175\n  <br />\n  <strong>Published :</strong> May 31, 2026, 9:16 a.m. | 13 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in Aider-AI Aider 0.86.3. Affected by this vulnerability is the function editor_coder.run of the file auth.py of the component Architect Mode. Performing a manipulation results in code injection. Remote exploitation of the attack is possible. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-05-31T09:16:15+00:00",
+    "cve_ids": [
+      "CVE-2026-10175"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security flaw has been discovered in Aider-AI Aider 0.86.3. Affected by this vulnerability is the function editor_coder.run of the file auth.py of the component Architect Mode. Performing a manipulation results in code injection. Remote exploitation of the attack is possible. The exploit has been ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10175 - Aider-AI Aider Architect Mode aut",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e72aef427776311ec52f9efacca950fe",
+    "source": "BleepingComputer",
+    "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
+    "link": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
+    "summary": "Hackers are targeting WordPress websites running a vulnerable version of the WP Maps Pro plugin, which allows creating rogue administrator accounts without authentication. [...]",
+    "pub_date": "2026-05-31T14:06:42+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "WP Maps Pro bug exploited to create admin accounts",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ccbaea4196dbc082bb67891c52b61960",
+    "source": "The Hacker News",
+    "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
+    "link": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
+    "summary": "Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks.\n\nThe bot network, per the Dutch Politie and the National Cyber Security Center (NCSC), consisted of at least 17 million infected devices. More than 200 servers located in the Netherlands acted as the",
+    "pub_date": "2026-05-31T12:22:12+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Dutch Authorities Dismantle Botnet Linked to 17 Mi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b96d2bd8e6c23ea1155de234f9b2cd8c",
+    "source": "Dark Reading",
+    "title": "Name That Toon Contest",
+    "link": "https://www.darkreading.com/events/celebrate-20-years-of-dark-reading-name-that-toon-contest",
+    "summary": "",
+    "pub_date": "2026-06-26T11:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Name That Toon Contest",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "605b97993e4234ee0f34bbf337382862",
+    "source": "Dark Reading",
+    "title": "[An RX Global Event] Infosecurity Europe",
+    "link": "https://www.darkreading.com/events/infosecurity-europe",
+    "summary": "",
+    "pub_date": "2026-06-02T13:30:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[An RX Global Event] Infosecurity Europe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "781f375fa177b573cc1ba35a1dd5df01",
+    "source": "Help Net Security",
+    "title": "Week in review: Infostealer dropped via FortiClient EMS flaw, exploited Trend Micro Apex One flaw",
+    "link": "https://www.helpnetsecurity.com/2026/05/31/week-in-review-infostealer-dropped-via-forticlient-ems-flaw-exploited-trend-micro-apex-one-flaw/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Coinflow CISO on crypto payments security under AI pressure Crypto payment firms sit near the top of the target list for advanced persistent threat groups, and the workload on their security leaders keeps growing. Malcolm Portelli, CISO at Coinflow, runs the company’s security program from Malta. Coinflow is headquartered in the United States and operates across multiple jurisdictions. Portelli sat &#8230; <a href=\"https://www.helpnetsecurity.com/2026/05/31/week-in-review-infostealer-dropped-via-forticlient-ems-flaw-exploited-trend-micro-apex-one-flaw/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/05/31/week-in-r",
+    "pub_date": "2026-05-31T08:00:26+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: Infostealer dropped via FortiClien",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bac5f19f201e4eeb94b531a51dc42d39",
+    "source": "Security Affairs",
+    "title": "CVE-2026-0257: Rapid7 Caught Attackers Abusing Forged VPN Cookies Against Multiple Customers",
+    "link": "https://securityaffairs.com/192933/security/cve-2026-0257-rapid7-caught-attackers-abusing-forged-vpn-cookies-against-multiple-customers.html",
+    "summary": "CVE-2026-0257 lets attackers forge Palo Alto GlobalProtect auth cookies and bypass VPN login. Exploitation confirmed since May 17. Palo Alto Networks addressed the vulnerability CVE-2026-0257 on May 13. Two weeks later, cybersecurity firm Rapid7 confirmed active exploitation across multiple customer environments. The flaw impacts the GlobalProtect portal and gateway components of Palo Alto Networks PAN-OS [&#8230;]",
+    "pub_date": "2026-05-31T17:52:29+00:00",
+    "cve_ids": [
+      "CVE-2026-0257"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-0257: Rapid7 Caught Attackers Abusing For",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "59b4cd51f747556b90bdaa334a7c9870",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 99",
+    "link": "https://securityaffairs.com/192928/security/security-affairs-malware-newsletter-round-99.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Ghost CMS Mass Compromised via CVE-2026-26980, Now Fueling ClickFix Attacks&#160;&#160; TrapDoor Crypto Stealer Supply Chain Attack Hits 34 Packages and Hundreds of Versions Across npm, PyPI, and Crates.io&#160;&#160; RemotePE: The Lazarus RAT that lives [&#8230;]",
+    "pub_date": "2026-05-31T14:53:47+00:00",
+    "cve_ids": [
+      "CVE-2026-26980"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 99",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c34361735c5e1f308dffb666a306f292",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 579 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/192918/security/security-affairs-newsletter-round-579-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. ShinyHunters Leaks Charter Communications Data, Potentially Impacting 5 Million Customers Signal Phishing Campaign Targets Journalists and [&#8230;]",
+    "pub_date": "2026-05-31T14:32:14+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 579 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "31c5c5632fd5a468f39d47cec14125a6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in 2026 Gartner&reg; Magic Quadrant&trade; for Endpoint Protection for Seventh Consecutive Time",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-in-2026-gartner-magic-quadrant-for-endpoint-protection/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in 2026 Gartner&reg; Ma",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "94f4d526a9071ede96a3df084ca39bcf",
+    "source": "CrowdStrike",
+    "title": "Shadow AI: The Hidden Risk Expanding Across the Enterprise",
+    "link": "https://www.crowdstrike.com/en-us/blog/shadow-ai-hidden-risk-expanding-across-the-enterprise/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Shadow AI: The Hidden Risk Expanding Across the En",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07a9e294ed0c79d66b9e555a869e420b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in Identity Threat Detection and Response",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-in-identity-threat-detection-and-response/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in Identity Threat Dete",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4af947859d9c2aed4540bd8ef56d3063",
+    "source": "CrowdStrike",
+    "title": "Disrupting Glassworm: Inside CrowdStrike&rsquo;s Takedown of a Developer-Targeting Botnet",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Disrupting Glassworm: Inside CrowdStrike&rsquo;s T",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d45b00f4110dca03b79564541f5d8d4d",
+    "source": "CrowdStrike",
+    "title": "Measuring AI-Enabled Success: 3 KPIs Leaders Should Track",
+    "link": "https://www.crowdstrike.com/en-us/blog/measuring-ai-enabled-success-three-kpis-cios-should-track/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Measuring AI-Enabled Success: 3 KPIs Leaders Shoul",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8f4161624e3ce45629ae9d01a520d380",
+    "source": "CrowdStrike",
+    "title": "New Claude Integration Brings Audit Data into the Falcon Platform",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-claude-integration-brings-audit-data-into-the-falcon-platform/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Claude Integration Brings Audit Data into the ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7e7c26c6119e311f414db3f4d3d78193",
+    "source": "CrowdStrike",
+    "title": "How to Protect Identities and Sessions from Infostealers",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-to-protect-identities-and-sessions-from-infostealers/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How to Protect Identities and Sessions from Infost",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0d186b4394b3a39726ff655eedec0883",
+    "source": "CrowdStrike",
+    "title": "Now Live: The CrowdStrike 2026 Financial Services Threat Landscape Report",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-financial-services-threat-landscape-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Now Live: The CrowdStrike 2026 Financial Services ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2d539bfea4bf4116e8228e82c1e67c7d",
+    "source": "CrowdStrike",
+    "title": "Falcon AIDR Detects Threats at the Prompt Layer in Kubernetes AI Applications",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-aidr-detects-threats-at-prompt-layer-in-kubernetes-ai-apps/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon AIDR Detects Threats at the Prompt Layer in",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6b88ad708547db70bb1868957956cb72",
+    "source": "CrowdStrike",
+    "title": "May 2026 Patch Tuesday: 30 Critical Vulnerabilities Among 130 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-may-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "May 2026 Patch Tuesday: 30 Critical Vulnerabilitie",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
