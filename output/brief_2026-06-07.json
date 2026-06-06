@@ -1,0 +1,951 @@
+[
+  {
+    "uid": "1b0287da172422700f0690197456ff02",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-36229 - VMware Aria Operations For Logs Directory Traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-36229",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-36229\n  <br />\n  <strong>Published :</strong> June 6, 2026, 9:16 p.m. | 1 hour, 30 minutes ago\n  <br />\n  <strong>Description :</strong>Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T21:16:25+00:00",
+    "cve_ids": [
+      "CVE-2026-36229"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-36229 - VMware Aria Operations For Logs D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3bf42a30df4f1a926a7263d6dc260430",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11441 - theonedev Pull Request issues canAccessIssue improper authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11441",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11441\n  <br />\n  <strong>Published :</strong> June 6, 2026, 6:16 p.m. | 4 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in theonedev onedev up to 15.0.5. This vulnerability affects the function canAccessIssue of the file /issues/ of the component Pull Request Handler. Such manipulation of the argument issue leads to improper authorization. It is possible to launch the attack remotely. Upgrading to version 15.0.6 is able to resolve this issue. It is advisable to upgrade the affected component.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T18:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-11441"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was identified in theonedev onedev up to 15.0.5. This vulnerability affects the function canAccessIssue of the file /issues/ of the component Pull Request Handler. Such manipulation of the argument issue leads to improper authorization. It is possible to launch the attack remotely. U",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11441 - theonedev Pull Request issues can",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "72a73d2e2d74f68d37d92918d0b3d72b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11440 - theonedev REST API default-branch improper authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11440",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11440\n  <br />\n  <strong>Published :</strong> June 6, 2026, 6:16 p.m. | 4 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in theonedev onedev up to 15.0.5. This affects an unknown part of the file /repositories/{projectId}/default-branch of the component REST API. This manipulation of the argument project.defaultBranch causes improper authorization. It is possible to initiate the attack remotely. Upgrading to version 15.0.6 is able to mitigate this issue. Upgrading the affected component is advised.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T18:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-11440"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was determined in theonedev onedev up to 15.0.5. This affects an unknown part of the file /repositories/{projectId}/default-branch of the component REST API. This manipulation of the argument project.defaultBranch causes improper authorization. It is possible to initiate the attack r",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11440 - theonedev REST API default-branch",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b8026d86605072fe87cb6ccd456300db",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11439 - theonedev Parent Project projects improper authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11439",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11439\n  <br />\n  <strong>Published :</strong> June 6, 2026, 6:16 p.m. | 4 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in theonedev onedev up to 15.0.5. Affected by this issue is some unknown functionality of the file /projects/ of the component Parent Project Handler. The manipulation of the argument project.parentId results in improper authorization. The attack may be performed from remote. Upgrading to version 15.0.6 can resolve this issue. It is recommended to upgrade the affected component.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T18:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-11439"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was found in theonedev onedev up to 15.0.5. Affected by this issue is some unknown functionality of the file /projects/ of the component Parent Project Handler. The manipulation of the argument project.parentId results in improper authorization. The attack may be performed from remot",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11439 - theonedev Parent Project projects",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "721251e819142934c84aed238bdb1260",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11438 - theonedev projects improper authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11438",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11438\n  <br />\n  <strong>Published :</strong> June 6, 2026, 5:16 p.m. | 5 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in theonedev onedev up to 15.0.5. Affected by this vulnerability is an unknown functionality of the file /projects. The manipulation of the argument project.forkedFromId leads to improper authorization. The attack is possible to be carried out remotely. Upgrading to version 15.0.6 addresses this issue. Upgrading the affected component is recommended.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T17:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-11438"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in theonedev onedev up to 15.0.5. Affected by this vulnerability is an unknown functionality of the file /projects. The manipulation of the argument project.forkedFromId leads to improper authorization. The attack is possible to be carried out remotely. Upgrading to ve",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11438 - theonedev projects improper autho",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "751dbd91668d98872c71cc6b2023b640",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11437 - perfree go-fastdfs-web Installation Endpoint checkServer server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11437",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11437\n  <br />\n  <strong>Published :</strong> June 6, 2026, 5:16 p.m. | 5 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in perfree go-fastdfs-web up to 1.3.7. Affected is the function checkServer of the file /install/checkServer of the component Installation Endpoint. Executing a manipulation can lead to server-side request forgery. The attack can be executed remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T17:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-11437"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A flaw has been found in perfree go-fastdfs-web up to 1.3.7. Affected is the function checkServer of the file /install/checkServer of the component Installation Endpoint. Executing a manipulation can lead to server-side request forgery. The attack can be executed remotely. The exploit has been publi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11437 - perfree go-fastdfs-web Installati",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7dcdca473dccf3d59c131e3a4fa12f61",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11436 - Mage AI Sign-in Flow index.tsx useMutation cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11436",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11436\n  <br />\n  <strong>Published :</strong> June 6, 2026, 4:16 p.m. | 6 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in Mage AI up to 0.9.79. This impacts the function useMutation of the file mage_ai/frontend/components/Sessions/SignForm/index.tsx of the component Sign-in Flow. Performing a manipulation of the argument query.redirect_url results in cross site scripting. Remote exploitation of the attack is possible. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T16:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-11436"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was detected in Mage AI up to 0.9.79. This impacts the function useMutation of the file mage_ai/frontend/components/Sessions/SignForm/index.tsx of the component Sign-in Flow. Performing a manipulation of the argument query.redirect_url results in cross site scripting. Remote exploita",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11436 - Mage AI Sign-in Flow index.tsx us",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "82fe798d6c43c68b8480edbb4ab8c64d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11435 - Jinher OA nextselectplan.aspx sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11435",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11435\n  <br />\n  <strong>Published :</strong> June 6, 2026, 4:16 p.m. | 6 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in Jinher OA 1.0. This affects an unknown function of the file nextselectplan.aspx. Such manipulation of the argument httpOID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T16:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-11435"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A security vulnerability has been detected in Jinher OA 1.0. This affects an unknown function of the file nextselectplan.aspx. Such manipulation of the argument httpOID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. The vendor wa",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11435 - Jinher OA nextselectplan.aspx sql",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "da0ef022edc467ada7d7d2e7ef01fca8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11434 - FluentCMS Blocks Plugin blocks cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11434",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11434\n  <br />\n  <strong>Published :</strong> June 6, 2026, 3:16 p.m. | 7 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in FluentCMS 0.0.5. The impacted element is an unknown function of the file /admin/blocks of the component Blocks Plugin. This manipulation causes cross site scripting. The attack may be initiated remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 3.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T15:16:27+00:00",
+    "cve_ids": [
+      "CVE-2026-11434"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "A weakness has been identified in FluentCMS 0.0.5. The impacted element is an unknown function of the file /admin/blocks of the component Blocks Plugin. This manipulation causes cross site scripting. The attack may be initiated remotely. The exploit has been made available to the public and could be",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11434 - FluentCMS Blocks Plugin blocks cr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c2071b6977dc1f00e65c2f987c68aa59",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11413 - JingDong JD Cloud Box AX6600 jdcweb_rpc set_macfilter stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11413",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11413\n  <br />\n  <strong>Published :</strong> June 6, 2026, 2:16 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in JingDong JD Cloud Box AX6600 4.5.3.r4546. The impacted element is the function set_macfilter of the file /sbin/jdcweb_rpc. The manipulation leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T14:16:20+00:00",
+    "cve_ids": [
+      "CVE-2026-11413"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A security vulnerability has been detected in JingDong JD Cloud Box AX6600 4.5.3.r4546. The impacted element is the function set_macfilter of the file /sbin/jdcweb_rpc. The manipulation leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclos",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11413 - JingDong JD Cloud Box AX6600 jdcw",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6cbc3a00ef94f5efb64bfc037242599d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11412 - Jinher OA GetFormSn.aspx sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11412",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11412\n  <br />\n  <strong>Published :</strong> June 6, 2026, 11:16 a.m. | 11 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Jinher OA C6. The affected element is an unknown function of the file /C6/JHSoft.Web.ModuleCount/GetFormSn.aspx. Executing a manipulation of the argument queryID can lead to sql injection. The attack may be performed from remote. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T11:16:49+00:00",
+    "cve_ids": [
+      "CVE-2026-11412"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A weakness has been identified in Jinher OA C6. The affected element is an unknown function of the file /C6/JHSoft.Web.ModuleCount/GetFormSn.aspx. Executing a manipulation of the argument queryID can lead to sql injection. The attack may be performed from remote. The exploit has been made available ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11412 - Jinher OA GetFormSn.aspx sql inje",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "58f50d006c0a31ee4b43d7c0b799c818",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11411 - iAI Lab PDF AI App chatpdf.pro getExternalCacheDir path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11411",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11411\n  <br />\n  <strong>Published :</strong> June 6, 2026, 11:16 a.m. | 11 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in iAI Lab PDF AI App 4.21.0 on Android. Impacted is the function getExternalCacheDir of the component chatpdf.pro. Performing a manipulation of the argument _display_name results in path traversal. The attack requires a local approach. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T11:16:49+00:00",
+    "cve_ids": [
+      "CVE-2026-11411"
+    ],
+    "cvss": 4.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.4,
+      "description": "A security flaw has been discovered in iAI Lab PDF AI App 4.21.0 on Android. Impacted is the function getExternalCacheDir of the component chatpdf.pro. Performing a manipulation of the argument _display_name results in path traversal. The attack requires a local approach. The exploit has been releas",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11411 - iAI Lab PDF AI App chatpdf.pro ge",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "842ba972d1e2344b225b533ff0f7802a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11408 - vertex-app vertex Log Viewer Endpoint LogMod.js os command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11408",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11408\n  <br />\n  <strong>Published :</strong> June 6, 2026, 11:16 a.m. | 11 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in vertex-app vertex up to 2026.02.12. This issue affects some unknown processing of the file app/model/LogMod.js of the component Log Viewer Endpoint. Such manipulation of the argument req.query leads to os command injection. The attack can be executed remotely. The exploit is publicly available and might be used. The name of the patch is 805d82e7100d49b79b3beb1b9420e8e458987198. It is best practice to apply a patch to resolve this issue.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and mo",
+    "pub_date": "2026-06-06T11:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-11408"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was identified in vertex-app vertex up to 2026.02.12. This issue affects some unknown processing of the file app/model/LogMod.js of the component Log Viewer Endpoint. Such manipulation of the argument req.query leads to os command injection. The attack can be executed remotely. The e",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11408 - vertex-app vertex Log Viewer Endp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3423aeb740717dfc520c1cf2a56e3981",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11406 - GL.iNet MT3000 OpenVPN Client Import Workflow ovpnclient.sh command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11406",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11406\n  <br />\n  <strong>Published :</strong> June 6, 2026, 10:16 a.m. | 12 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in GL.iNet MT3000 up to 4.4.5. This vulnerability affects unknown code of the file ovpnclient.sh of the component OpenVPN Client Import Workflow. This manipulation causes command injection. Remote exploitation of the attack is possible. The exploit has been publicly disclosed and may be utilized. Upgrading to version 4.9.0_beta3-1012-0513-1778656146 is able to resolve this issue. You should upgrade the affected component. The vendor confirms: \"This issue has been addressed by implementing malicious checks on OpenVPN configuration files to prevent command injection attacks carried through m",
+    "pub_date": "2026-06-06T10:16:27+00:00",
+    "cve_ids": [
+      "CVE-2026-11406"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was determined in GL.iNet MT3000 up to 4.4.5. This vulnerability affects unknown code of the file ovpnclient.sh of the component OpenVPN Client Import Workflow. This manipulation causes command injection. Remote exploitation of the attack is possible. The exploit has been publicly di",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11406 - GL.iNet MT3000 OpenVPN Client Imp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b70a34b705800e8ba1ee2ca14416a4bd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10725 - Protocol::HTTP2 versions through 1.12 for Perl is vulnerable to a HTTP/2 Bomb",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10725",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10725\n  <br />\n  <strong>Published :</strong> June 6, 2026, 10:16 a.m. | 12 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>Protocol::HTTP2 versions through 1.12 for Perl is vulnerable to a HTTP/2 Bomb.\n\nProtocol::HTTP2's inbound HPACK path has no header-list size limit, so a small HTTP/2 request can expand into large server memory (the \"HTTP/2 bomb\").\n\nThe headers_decode method materialises a full key+value copy per indexed reference with no running size check, and the stream_header_block_add method appends (since version 1.12) every CONTINUATION frame to the per-stream buffer unbounded.\n\nMAX_HEADER_LIST_SIZE (default 65536) is advertised in SETTINGS but never consulted on decode.  It is absent from the decoder and from the :limits export t",
+    "pub_date": "2026-06-06T10:16:25+00:00",
+    "cve_ids": [
+      "CVE-2026-10725"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10725 - Protocol::HTTP2 versions through ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8fd04fd39fe5c026392df0e534111464",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9851 - Booking Package <= 1.7.16 - Authenticated (Editor+) Privilege Escalation via Account Takeover to updateUser AJAX Action",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9851",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9851\n  <br />\n  <strong>Published :</strong> June 6, 2026, 5:16 a.m. | 17 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>The Booking Package plugin for WordPress is vulnerable to Privilege Escalation via Account Takeover in versions up to, and including, 1.7.16. This is due to a missing capability check on the 'updateUser' branch of the package_app_action AJAX endpoint, where the handler only validates a nonce and the dispatcher invokes Schedule::updateUser() with the $administrator argument hard-coded to 1, bypassing the only owner-restriction check inside that function and allowing the target user to be determined solely by attacker-supplied input passed directly to wp_update_user(). This makes it possible for authenticated attackers, wit",
+    "pub_date": "2026-06-06T05:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-9851"
+    ],
+    "cvss": 7.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.2,
+      "description": "The Booking Package plugin for WordPress is vulnerable to Privilege Escalation via Account Takeover in versions up to, and including, 1.7.16. This is due to a missing capability check on the 'updateUser' branch of the package_app_action AJAX endpoint, where the handler only validates a nonce and the",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9851 - Booking Package <= 1.7.16 - Authen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f6dd9542d1ed9e8b615614a342203420",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9829 - Photo Gallery by 10Web <= 1.8.41 - Authenticated (Contributor+) SQL Injection via 'compact_album_order_by' Shortcode Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9829",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9829\n  <br />\n  <strong>Published :</strong> June 6, 2026, 5:16 a.m. | 17 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>The Photo Gallery by 10Web – Mobile-Friendly Image Gallery plugin for WordPress is vulnerable to time-based SQL Injection via 'compact_album_order_by' Shortcode Parameter in all versions up to, and including, 1.8.41 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. The malicious payload is stored via the 'shortcode_bwg' AJAX handl",
+    "pub_date": "2026-06-06T05:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-9829"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "The Photo Gallery by 10Web – Mobile-Friendly Image Gallery plugin for WordPress is vulnerable to time-based SQL Injection via 'compact_album_order_by' Shortcode Parameter in all versions up to, and including, 1.8.41 due to insufficient escaping on the user supplied parameter and lack of sufficient p",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9829 - Photo Gallery by 10Web <= 1.8.41 -",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "30adb499710e8a89e6d9a0ea779a6614",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9594 - WP Maps <= 4.9.4 - Authenticated (Admin+) Stored Cross-Site Scripting via 'location_messages' Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9594",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9594\n  <br />\n  <strong>Published :</strong> June 6, 2026, 5:16 a.m. | 17 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>The WP Maps – Google Maps,OpenStreetMap,Mapbox,Store Locator,Listing,Directory & Filters plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'location_messages' parameter in all versions up to, and including, 4.9.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Exploitation requires the attacker to hold the custom wpgmp_manage_location capability, which is granted to administrators by default b",
+    "pub_date": "2026-06-06T05:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-9594"
+    ],
+    "cvss": 4.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.4,
+      "description": "The WP Maps – Google Maps,OpenStreetMap,Mapbox,Store Locator,Listing,Directory & Filters plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'location_messages' parameter in all versions up to, and including, 4.9.4 due to insufficient input sanitization and output escaping. Thi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9594 - WP Maps <= 4.9.4 - Authenticated (",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a6d0fd175e50532b8d3d43bd866b9d45",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9016 - Debug Log Manager <= 2.5.0 - Unauthenticated Improper Output Neutralization for Logs via log_js_errors AJAX Action",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9016",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9016\n  <br />\n  <strong>Published :</strong> June 6, 2026, 5:16 a.m. | 17 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>The Debug Log Manager – Conveniently Monitor and Inspect Errors plugin for WordPress is vulnerable to Improper Output Neutralization for Logs in all versions up to, and including, 2.5.0. This is due to the `log_js_errors()` AJAX handler being registered for unauthenticated users via `wp_ajax_nopriv_log_js_errors` and gated only by a nonce that is publicly disclosed in every front-end page's HTML through `wp_localize_script()` whenever JavaScript error logging is enabled, providing no real authorization barrier. This makes it possible for unauthenticated attackers to inject arbitrary forged entries into the site's WordPres",
+    "pub_date": "2026-06-06T05:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-9016"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "The Debug Log Manager – Conveniently Monitor and Inspect Errors plugin for WordPress is vulnerable to Improper Output Neutralization for Logs in all versions up to, and including, 2.5.0. This is due to the `log_js_errors()` AJAX handler being registered for unauthenticated users via `wp_ajax_nopriv_",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9016 - Debug Log Manager <= 2.5.0 - Unaut",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d801084b92588846320a473bf72e6bc8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8839 - MapPress Maps for WordPress <= 2.96.6 - Unauthenticated Insecure Direct Object Reference via REST API Endpoints",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8839",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8839\n  <br />\n  <strong>Published :</strong> June 6, 2026, 5:16 a.m. | 17 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>The MapPress Maps for WordPress plugin for WordPress is vulnerable to Authorization Bypass Through User-Controlled Key in all versions up to, and including, 2.96.6. This is due to missing ownership verification in the REST API routes registered via `Mappress_Api::rest_api_init()`, where the GET `/wp-json/mapp/v1/maps/{mapid}` endpoint uses `'permission_callback' => '__return_true'` and the write endpoints (POST update, DELETE, PATCH mutate, POST clone, POST empty_trash) only check the generic `edit_posts` capability without confirming that the requester owns the targeted map — a gap that is not compensated at the model la",
+    "pub_date": "2026-06-06T05:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-8839"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "The MapPress Maps for WordPress plugin for WordPress is vulnerable to Authorization Bypass Through User-Controlled Key in all versions up to, and including, 2.96.6. This is due to missing ownership verification in the REST API routes registered via `Mappress_Api::rest_api_init()`, where the GET `/wp",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8839 - MapPress Maps for WordPress <= 2.9",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "55bd66093c3ba618047b5f9313ce5844",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8611 - Klamra Paycal for Aspaclaria <= 1.1.4 - Insecure Direct Object Reference to Authenticated (Subscriber+) Sensitive Information Exposure via 'invoice_id' Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8611",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8611\n  <br />\n  <strong>Published :</strong> June 6, 2026, 5:16 a.m. | 17 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>The Klamra Paycal for Aspaclaria plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.1.4 via the 'invoice_id' parameter due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with subscriber-level access and above, to download arbitrary customer invoices by enumerating sequential post IDs, exposing sensitive billing PII including full name, email address, phone number, order total, line items, and customer notes belonging to other customers.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the lin",
+    "pub_date": "2026-06-06T05:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-8611"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Klamra Paycal for Aspaclaria plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.1.4 via the 'invoice_id' parameter due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with subscriber-l",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8611 - Klamra Paycal for Aspaclaria <= 1.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e773aea81e1d5d6a0314014d2a7f4298",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7624 - SEO Plugin by Squirrly SEO <= 12.4.16 - Missing Authorization to Authenticated (Contributor+) Privileged Cloud API Operations",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7624",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7624\n  <br />\n  <strong>Published :</strong> June 6, 2026, 5:16 a.m. | 17 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>The SEO Plugin by Squirrly SEO plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 12.4.16. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authenticated attackers, with contributor-level access and above, to invoke privileged state-changing Squirrly cloud API operations, such as revoking the site's Google Search Console and Google Analytics integrations via `api/gsc/revoke` and `api/ga/revoke`, that are otherwise restricted to administrator-level users holding the `sq_manage_settings` capability.\n  <br",
+    "pub_date": "2026-06-06T05:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-7624"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The SEO Plugin by Squirrly SEO plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 12.4.16. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authenticated attackers, with contribut",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-7624 - SEO Plugin by Squirrly SEO <= 12.4",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c333c51d619a34a3876dcab83e7e2e62",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9280 - Ad Inserter <= 2.8.15 - Reflected Cross-Site Scripting via URL Parameters in iframe Mode",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9280",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9280\n  <br />\n  <strong>Published :</strong> June 6, 2026, 4:17 a.m. | 18 hours, 29 minutes ago\n  <br />\n  <strong>Description :</strong>The Ad Inserter – Ad Manager & AdSense Ads plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via URL Parameters in iframe Mode in all versions up to, and including, 2.8.15 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. Exploitation requires that iframe mode (AI_OPTION_IFRAME) is enabled on at least one ad block displayed on the targeted page, which is a non-default but supported configuration co",
+    "pub_date": "2026-06-06T04:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-9280"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "The Ad Inserter – Ad Manager & AdSense Ads plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via URL Parameters in iframe Mode in all versions up to, and including, 2.8.15 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attack",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9280 - Ad Inserter <= 2.8.15 - Reflected ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b38504de8ace27a4d033bd803c4b3259",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9197 - Smart Slider 3 <= 3.5.1.36 - Authenticated (Administrator+) Path Traversal to Arbitrary File Read via 'src'/'srcset' Attribute in HTML Export",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9197",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9197\n  <br />\n  <strong>Published :</strong> June 6, 2026, 4:17 a.m. | 18 hours, 29 minutes ago\n  <br />\n  <strong>Description :</strong>The Smart Slider 3 plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 3.5.1.36 via the replaceHTMLImage function. This makes it possible for authenticated attackers, with administrator-level access and above, to read the contents of arbitrary files on the server, which can contain sensitive information.\n  <br />\n  <strong>Severity:</strong> 4.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-06T04:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-9197"
+    ],
+    "cvss": 4.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.9,
+      "description": "The Smart Slider 3 plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 3.5.1.36 via the replaceHTMLImage function. This makes it possible for authenticated attackers, with administrator-level access and above, to read the contents of arbitrary files on the",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9197 - Smart Slider 3 <= 3.5.1.36 - Authe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "776dd1220abcfc48c3a509b1e4c4622d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8991 - Drag and Drop Multiple File Upload for Contact Form 7 <= 1.3.9.7 - Authenticated (Administrator+) Stored Cross-Site Scripting via 'drag_n_drop_text' and 'drag_n_drop_browse_text' Settings",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8991",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8991\n  <br />\n  <strong>Published :</strong> June 6, 2026, 4:17 a.m. | 18 hours, 29 minutes ago\n  <br />\n  <strong>Description :</strong>The Drag and Drop Multiple File Upload for Contact Form 7 plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'drag_n_drop_text' and 'drag_n_drop_browse_text' Settings in all versions up to, and including, 1.3.9.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.\n  <br />\n  <strong>Severity:</strong> 4.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, time",
+    "pub_date": "2026-06-06T04:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-8991"
+    ],
+    "cvss": 4.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.4,
+      "description": "The Drag and Drop Multiple File Upload for Contact Form 7 plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'drag_n_drop_text' and 'drag_n_drop_browse_text' Settings in all versions up to, and including, 1.3.9.7 due to insufficient input sanitization and output escaping. This mak",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8991 - Drag and Drop Multiple File Upload",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ce94cd0e6015c41f5e968a8502bae579",
+    "source": "BleepingComputer",
+    "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+    "summary": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
+    "pub_date": "2026-06-06T14:09:26+00:00",
+    "cve_ids": [
+      "CVE-2026-3300"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Critical Everest Forms Pro flaw exploited to take ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cb1a6ca2a610ea2806bf94a76b55a110",
+    "source": "The Hacker News",
+    "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+    "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+    "summary": "OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks.\n\nThe feature is primarily designed for people and organizations that handle sensitive data and require stricter protection guarantees. Lockdown Mode is available to logged-in users across Free, Go, Plus, and Pro, and",
+    "pub_date": "2026-06-06T13:36:57+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New ChatGPT Lockdown Mode Limits Tools That Could ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "da2fca79c0c6d04caa866aecb4d6fd68",
+    "source": "The Hacker News",
+    "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+    "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+    "summary": "A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that relay web-scraping traffic for a data business Bright Data markets heavily to the AI industry.\n\nThe company, the successor to Luminati, operates what it calls the largest residential proxy network in the world,",
+    "pub_date": "2026-06-06T08:29:05+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Free Apps Are Quietly Turning Smart TVs Into Web-S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "74eb74663a9229d934363355c5927f84",
+    "source": "The Hacker News",
+    "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+    "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U  multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash",
+    "pub_date": "2026-06-06T08:14:31+00:00",
+    "cve_ids": [
+      "CVE-2026-28318"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CISA Adds Actively Exploited SolarWinds Serv-U DoS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "28ecb8d88842de5f9553d37cc071ed99",
+    "source": "The Hacker News",
+    "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
+    "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+    "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all of them found by an autonomous AI agent.\n\nThe same week, Google shipped Chrome 149 with patches for 429 security bugs, the most ever in a single release.\n\nOnly the FFmpeg bugs were found by AI.",
+    "pub_date": "2026-06-06T07:28:30+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ed7cb5908ca7edf70f93b2175fb7c683",
+    "source": "The Hacker News",
+    "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+    "summary": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign.\n\nThe incident impacted 73 Microsoft repositories across four of its GitHub organizations, including Azure, Azure-Samples, Microsoft, and MicrosoftDocs, per OpenSourceMalware. The development has GitHub to disable access to those repositories.\n\n\"Access to this",
+    "pub_date": "2026-06-06T06:58:04+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Miasma Worm Hits 73 Microsoft GitHub Repositories ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b612fb7154fba9f45911d8cbb82c34cf",
+    "source": "The Hacker News",
+    "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
+    "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+    "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out of a maximum of 10.0. It affects the following deployment types -\n\n\n  On-Prem Deployment\n  Cisco SD-WAN Cloud-Pro\n  Cisco SD-WAN Cloud (Cisco Managed)\n  Cisco SD-WAN for Government (FedRAMP)\n\n\"A",
+    "pub_date": "2026-06-06T04:19:28+00:00",
+    "cve_ids": [
+      "CVE-2026-20245"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b96d2bd8e6c23ea1155de234f9b2cd8c",
+    "source": "Dark Reading",
+    "title": "Name That Toon Contest",
+    "link": "https://www.darkreading.com/events/celebrate-20-years-of-dark-reading-name-that-toon-contest",
+    "summary": "",
+    "pub_date": "2026-06-26T11:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Name That Toon Contest",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "71d2229ba8bc7e6f681a7ab266359db8",
+    "source": "SecurityWeek",
+    "title": "Opal Security Raises $23 Million for AI-Native Identity Governance",
+    "link": "https://www.securityweek.com/opal-security-raises-23-million-for-ai-native-identity-governance/",
+    "summary": "<p>Raising $59 million to date, Opal also announced five senior leadership appointments.</p>\n<p>The post <a href=\"https://www.securityweek.com/opal-security-raises-23-million-for-ai-native-identity-governance/\">Opal Security Raises $23 Million for AI-Native Identity Governance</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-06-06T10:15:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Opal Security Raises $23 Million for AI-Native Ide",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "683c87e9b4cff4b524bef60f0635cf6d",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds SolarWinds Serv-U flaw to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/193245/security/u-s-cisa-adds-solarwinds-serv-u-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds SolarWinds Serv-U flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added SolarWinds Serv-U flaw, tracked as CVE-2026-28318 (CVSS ver 3.1 score of 7.5), to its Known Exploited Vulnerabilities (KEV) catalog. SolarWinds Serv-U is a managed file transfer (MFT) and secure file [&#8230;]",
+    "pub_date": "2026-06-06T21:44:53+00:00",
+    "cve_ids": [
+      "CVE-2026-28318"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds SolarWinds Serv-U flaw to its Known",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "558beba94d2141b65b710852b2bc35ff",
+    "source": "Security Affairs",
+    "title": "Report: Anthropic Deploys Engineers to Support NSA Use of Mythos",
+    "link": "https://securityaffairs.com/193234/ai/report-anthropic-deploys-engineers-to-support-nsa-use-of-mythos.html",
+    "summary": "Reports claim Anthropic engineers are helping the NSA use its restricted AI model Mythos, known for advanced cybersecurity capabilities. This week, the Financial Times reported that Anthropic has placed approximately six &#8220;forward-deployed&#8221; engineers inside the National Security Agency to help the intelligence agency use Mythos, its most capable cyber model, for offensive operations. Two people [&#8230;]",
+    "pub_date": "2026-06-06T16:18:53+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Report: Anthropic Deploys Engineers to Support NSA",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fff355b11c0eb96866275cf71ec79bed",
+    "source": "Security Affairs",
+    "title": "Claude Opus Found a Four-Year-Old Hole in Zcash’s Privacy Layer. Nobody Knows If Someone Already Used It.",
+    "link": "https://securityaffairs.com/193224/hacking/claude-opus-found-a-four-year-old-hole-in-zcashs-privacy-layer-nobody-knows-if-someone-already-used-it.html",
+    "summary": "Claude Opus 4.8 helped uncover a four-year-old critical flaw in Zcash that could have enabled undetectable creation of counterfeit coins. On May 29, the security researcher Taylor Hornby found a critical vulnerability in Zcash Orchard privacy pool using Claude Opus 4.8. The Zcash team hired Hornby specifically to look for this kind of issue. He [&#8230;]",
+    "pub_date": "2026-06-06T07:53:05+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Claude Opus Found a Four-Year-Old Hole in Zcash’s ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fb06067793b1c41ee9374c03a278691b",
+    "source": "CrowdStrike",
+    "title": "3 Principles to Safely Scale Agentic AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "3 Principles to Safely Scale Agentic AI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2f00a4ed2e13ebb1d46b5246cc4339ca",
+    "source": "CrowdStrike",
+    "title": "ISO 42001:2023 and the New Reality of Cloud AI Data Risk",
+    "link": "https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "ISO 42001:2023 and the New Reality of Cloud AI Dat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "379101dd9f89becc3a7691ea4fc28195",
+    "source": "CrowdStrike",
+    "title": "How to Stop AI-Driven Data Loss",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How to Stop AI-Driven Data Loss",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6e53e2cc60625c78334dd4d421b9c45c",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Brings Enterprise-Grade Security to the AI Factory with NVIDIA Vera BlueField-4 STX",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Brings Enterprise-Grade Security to th",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f7e425c7bcd03cd1c6696f164be364fa",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Scales AI-Native Agents Across Falcon Exposure Management with NVIDIA",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-collaborate-to-scale-ai-native-agents-across-falcon-exposure-management/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Scales AI-Native Agents Across Falcon ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1c413a1dd63e4d946f4813e8cd220c87",
+    "source": "CrowdStrike",
+    "title": "Secure Shadow AI at the Control Plane with Falcon for IT",
+    "link": "https://www.crowdstrike.com/en-us/blog/secure-shadow-ai-at-the-control-plane-with-falcon-for-it/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Secure Shadow AI at the Control Plane with Falcon ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "31c5c5632fd5a468f39d47cec14125a6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in 2026 Gartner&reg; Magic Quadrant&trade; for Endpoint Protection for Seventh Consecutive Time",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-in-2026-gartner-magic-quadrant-for-endpoint-protection/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in 2026 Gartner&reg; Ma",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "94f4d526a9071ede96a3df084ca39bcf",
+    "source": "CrowdStrike",
+    "title": "Shadow AI: The Hidden Risk Expanding Across the Enterprise",
+    "link": "https://www.crowdstrike.com/en-us/blog/shadow-ai-hidden-risk-expanding-across-the-enterprise/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Shadow AI: The Hidden Risk Expanding Across the En",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07a9e294ed0c79d66b9e555a869e420b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in Identity Threat Detection and Response",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-in-identity-threat-detection-and-response/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in Identity Threat Dete",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4af947859d9c2aed4540bd8ef56d3063",
+    "source": "CrowdStrike",
+    "title": "Disrupting Glassworm: Inside CrowdStrike&rsquo;s Takedown of a Developer-Targeting Botnet",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Disrupting Glassworm: Inside CrowdStrike&rsquo;s T",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
