@@ -1,0 +1,853 @@
+[
+  {
+    "uid": "e6162c70679f388b465c2343428a3f61",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12174 - D-Link DCS-935L HTTP rhea snprintf format string",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12174",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12174\n  <br />\n  <strong>Published :</strong> June 13, 2026, 9:16 p.m. | 45 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in D-Link DCS-935L 1.10.01. This issue affects the function snprintf of the file /web/cgi-bin/greece/rhea of the component HTTP Handler. Such manipulation of the argument data leads to format string. The attack may be launched remotely. The exploit has been disclosed publicly and may be used.\n  <br />\n  <strong>Severity:</strong> 9.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-13T21:16:18+00:00",
+    "cve_ids": [
+      "CVE-2026-12174"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A security vulnerability has been detected in D-Link DCS-935L 1.10.01. This issue affects the function snprintf of the file /web/cgi-bin/greece/rhea of the component HTTP Handler. Such manipulation of the argument data leads to format string. The attack may be launched remotely. The exploit has been",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12174 - D-Link DCS-935L HTTP rhea snprint",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "161f8d476e2eead1624774a31c3d52c0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12183 - Nefteprodukttekhnika BUK TS-G Improper Authentication",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12183",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12183\n  <br />\n  <strong>Published :</strong> June 13, 2026, 6:16 p.m. | 3 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>Nefteprodukttekhnika BUK TS-G Gas Station Automation System 2.9.1 through 2.10.2 on Linux contains an Improper Authentication vulnerability (CWE-287) in the system configuration module. The /php/ajax-login.php endpoint returns userid=1 (administrator) in response to any HTTP POST request that supplies arbitrary credentials (e.g., action=dologin&amp;login=&amp;pwd=), and subsequent privileged endpoints under /php/ajax-main.php and /modules/* do not validate a server-side session. A remote unauthenticated attacker can invoke any administrative action exposed by the configuration module, including reading and modifying user",
+    "pub_date": "2026-06-13T18:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-12183"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "Nefteprodukttekhnika BUK TS-G Gas Station Automation System 2.9.1 through 2.10.2 on Linux contains an Improper Authentication vulnerability (CWE-287) in the system configuration module. The /php/ajax-login.php endpoint returns userid=1 (administrator) in response to any HTTP POST request that suppli",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12183 - Nefteprodukttekhnika BUK TS-G Imp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b2eb740f2060bb637bfb0bb06ed3e7c3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6428 - Koha SQL Injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6428",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6428\n  <br />\n  <strong>Published :</strong> June 13, 2026, 5:16 p.m. | 4 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>SQL Injection in reports/catalogue_out.pl in Koha Community Koha through 22.11.37, 23.x, 24.x before 24.11.16, 25.05.x before 25.05.11, 25.11.x before 25.11.05, 26.05.x before 26.05.01, and 26.11.x before 26.11.00 allows an authenticated staff user with the Reports module flag to read arbitrary data from the Koha application database via the Filter URL parameter when the Criteria parameter matches /branchcode/.\n\n\n\nThe vulnerable sink in sub calculate concatenates the unmodified Filter request parameter directly into a LIKE clause of the auxiliary $strsth2 statement and executes it via DBI without bound parameters:\n\n\n\nmy $",
+    "pub_date": "2026-06-13T17:16:17+00:00",
+    "cve_ids": [
+      "CVE-2026-6428"
+    ],
+    "cvss": 7.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.6,
+      "description": "SQL Injection in reports/catalogue_out.pl in Koha Community Koha through 22.11.37, 23.x, 24.x before 24.11.16, 25.05.x before 25.05.11, 25.11.x before 25.11.05, 26.05.x before 26.05.01, and 26.11.x before 26.11.00 allows an authenticated staff user with the Reports module flag to read arbitrary data",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-6428 - Koha SQL Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5a627bef1a561f15bf48f1255f65ffa7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-5513 - Online Scheduling and Appointment Booking System – Bookly <= 27.2 - Unauthenticated Stored Cross-Site Scripting via 'bookly-customer-full-name' Cookie",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-5513",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-5513\n  <br />\n  <strong>Published :</strong> June 13, 2026, 12:16 p.m. | 9 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The Online Scheduling and Appointment Booking System – Bookly plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'bookly-customer-full-name' cookie in versions up to, and including, 27.2 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. Exploitation requires 'Remember personal information in cookies' setting to be enabled (disabled by default).\n  <br />\n  <strong>Severity:</strong> 7.2 | HIGH\n  <br />\n  Visit the link for more details, ",
+    "pub_date": "2026-06-13T12:16:15+00:00",
+    "cve_ids": [
+      "CVE-2026-5513"
+    ],
+    "cvss": 7.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.2,
+      "description": "The Online Scheduling and Appointment Booking System – Bookly plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'bookly-customer-full-name' cookie in versions up to, and including, 27.2 due to insufficient input sanitization and output escaping. This makes it possible for una",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-5513 - Online Scheduling and Appointment ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5ce775c701fe65a42e39a734d0e3d327",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-1291 - Meow Gallery <= 5.4.4 - Missing Authorization to Authenticated (Author+) Shortcode creation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-1291",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-1291\n  <br />\n  <strong>Published :</strong> June 13, 2026, 10:16 a.m. | 11 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The Meow Gallery plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the REST API endpoint /wp-json/meow-gallery/v1/save_shortcode in all versions up to, and including, 5.4.4 This makes it possible for authenticated attackers, with Author-level access and above, to arbitrarily create or overwrite existing gallery shortcode records by supplying a user-controlled id value. The endpoint performs database update operations without verifying that the requesting user is authorized to modify the referenced gallery record or create their own.\n  <br />\n  <strong>Severity:<",
+    "pub_date": "2026-06-13T10:16:18+00:00",
+    "cve_ids": [
+      "CVE-2026-1291"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Meow Gallery plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the REST API endpoint /wp-json/meow-gallery/v1/save_shortcode in all versions up to, and including, 5.4.4 This makes it possible for authenticated attackers, with Author-leve",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-1291 - Meow Gallery <= 5.4.4 - Missing Au",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3c6e2d960bf54e232895c454be01ed86",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11624 - Model Context Protocol DNS Rebinding Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11624",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11624\n  <br />\n  <strong>Published :</strong> June 13, 2026, 10:16 a.m. | 11 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The Model Context Protocol has a security warning advising servers to validate the \"Origin\" header on all incoming connections to prevent DNS rebinding attacks. Prior to the v0.25.0 release, users had no way to validate the origin's host. In v0.25.0, a new \"--allowed-hosts\" flag was introduced alongside the existing \"--allowed-origins\" flag, enabling users to specify permitted hosts at server startup. Both flags default to \"*\", allowing users to implement strict access controls as needed without breaking existing setups. If either flag is set to \"*\", the server will output a startup warning about potential vulnerabilit",
+    "pub_date": "2026-06-13T10:16:17+00:00",
+    "cve_ids": [
+      "CVE-2026-11624"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11624 - Model Context Protocol DNS Rebind",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3a2f152ec3fdc3c33bda49b2c1f56ce1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9629 - Canvas <= 2.5.2 - Authenticated (Contributor+) Stored Cross-Site Scripting via 'tag' Block Attribute",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9629",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9629\n  <br />\n  <strong>Published :</strong> June 13, 2026, 8:16 a.m. | 13 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The Canvas plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'tag' parameter in all versions up to, and including, 2.5.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-13T08:16:12+00:00",
+    "cve_ids": [
+      "CVE-2026-9629"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "The Canvas plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'tag' parameter in all versions up to, and including, 2.5.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9629 - Canvas <= 2.5.2 - Authenticated (C",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9fd84902eb035c857c8a3d168c58447f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-3297 - Page Builder: Pagelayer – Drag and Drop website builder <= 2.0.9 - Authenticated (Contributor+) Stored Cross-Site Scripting via Anchor Block",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-3297",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-3297\n  <br />\n  <strong>Published :</strong> June 13, 2026, 8:16 a.m. | 13 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The Page Builder: Pagelayer – Drag and Drop website builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Anchor block in versions up to, and including, 2.0.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-13T08:16:12+00:00",
+    "cve_ids": [
+      "CVE-2026-3297"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "The Page Builder: Pagelayer – Drag and Drop website builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Anchor block in versions up to, and including, 2.0.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, w",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-3297 - Page Builder: Pagelayer – Drag and",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2052727f25bc13c382318ed5172464f3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-2470 - Pagelayer <= 2.0.9 - Incorrect Authorization to Authenticated (Contributor+) Mail Relay Configuration via 'contacts'",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-2470",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-2470\n  <br />\n  <strong>Published :</strong> June 13, 2026, 8:16 a.m. | 13 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The Page Builder: Pagelayer – Drag and Drop website builder plugin for WordPress is vulnerable to Incorrect Authorization in all versions up to, and including, 2.0.9. This is due to the pagelayer_save_content AJAX handler allowing users with basic post-edit capability to persist pagelayer_contact_templates metadata on posts they can edit (including pending posts), while the unauthenticated pagelayer_contact_submit endpoint later consumes that metadata by user-controlled post/form identifiers without enforcing a privileged or published-context boundary. This makes it possible for authenticated attackers, with Contributor-",
+    "pub_date": "2026-06-13T08:16:12+00:00",
+    "cve_ids": [
+      "CVE-2026-2470"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Page Builder: Pagelayer – Drag and Drop website builder plugin for WordPress is vulnerable to Incorrect Authorization in all versions up to, and including, 2.0.9. This is due to the pagelayer_save_content AJAX handler allowing users with basic post-edit capability to persist pagelayer_contact_te",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-2470 - Pagelayer <= 2.0.9 - Incorrect Aut",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "00ab1f87ced0270414a31c0a69f7a892",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9134 - Photo Gallery by FooGallery : Responsive Image Gallery, Masonry Gallery & Carousel <= 3.1.31 - Authenticated (Contributor+) Stored Cross-Site Scripting via 'custom_attribute_key' Shortcode Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9134",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9134\n  <br />\n  <strong>Published :</strong> June 13, 2026, 7:16 a.m. | 14 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The FooGallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'custom_attribute_key' shortcode parameter in versions up to, and including, 3.1.31 This is due to an incomplete JavaScript event handler blacklist in the foogallery_sanitize_javascript() function, which blocks only a subset of HTML event attributes (onmouseover, onmouseout, onpointerenter, onclick, onload, onchange, onerror) while permitting others such as 'onmouseenter', combined with the failure to escape the attribute key when building the gallery container HTML in foogallery_build_container_attributes_safe(). This makes it possi",
+    "pub_date": "2026-06-13T07:16:15+00:00",
+    "cve_ids": [
+      "CVE-2026-9134"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "The FooGallery plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'custom_attribute_key' shortcode parameter in versions up to, and including, 3.1.31 This is due to an incomplete JavaScript event handler blacklist in the foogallery_sanitize_javascript() function, which blocks ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9134 - Photo Gallery by FooGallery : Resp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8deb64a2313a794658203702b6414dee",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9109 - GPTranslate <= 2.31 - Unauthenticated Stored Cross-Site Scripting via REST API Translation Storage",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9109",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9109\n  <br />\n  <strong>Published :</strong> June 13, 2026, 7:16 a.m. | 14 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The GPTranslate – Multilingual AI Translation for WordPress: Automatically Translate Websites plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REST API Translation Storage in all versions up to, and including, 2.31 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The deterministically derived API key (sha256 of the site URL) is printed in the HTML source of every page via the JavaScript variable gptApiKey, meaning any unauthenticated vis",
+    "pub_date": "2026-06-13T07:16:14+00:00",
+    "cve_ids": [
+      "CVE-2026-9109"
+    ],
+    "cvss": 7.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.2,
+      "description": "The GPTranslate – Multilingual AI Translation for WordPress: Automatically Translate Websites plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REST API Translation Storage in all versions up to, and including, 2.31 due to insufficient input sanitization and output escaping. This",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9109 - GPTranslate <= 2.31 - Unauthentica",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1c09b27a7f4af2035604d3ab7a7b3002",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9062 - Agile Store Locator < 1.6.9 - Admin+ Arbitrary File Read via Path Traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9062",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9062\n  <br />\n  <strong>Published :</strong> June 13, 2026, 7:16 a.m. | 14 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The Store Locator WordPress plugin before 1.6.9 does not validate a parameter before using it in a file path, allowing high-privileged users such as administrators to read arbitrary `.php` files from the server, including configuration files that contain database credentials and authentication keys.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-13T07:16:14+00:00",
+    "cve_ids": [
+      "CVE-2026-9062"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9062 - Agile Store Locator < 1.6.9 - Admi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ad0e7c59bd1af263644c31a55664fb19",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9061 - Agile Store Locator < 1.6.9 - Admin+ Stored XSS via logo_name",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9061",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9061\n  <br />\n  <strong>Published :</strong> June 13, 2026, 7:16 a.m. | 14 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The Store Locator WordPress plugin before 1.6.9 does not sanitize and escape store logo metadata before storing it and outputting it on the Store Locator WordPress plugin before 1.6.9 admin page, allowing high-privileged users such as administrators to perform Stored Cross-Site Scripting attacks even when the `unfiltered_html` capability is disallowed (e.g. in a multisite network).\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-13T07:16:14+00:00",
+    "cve_ids": [
+      "CVE-2026-9061"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9061 - Agile Store Locator < 1.6.9 - Admi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "de3dfe0fd136f66bb94d91483595ddbf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11769 - Operator - Namespaced User Path Traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11769",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11769\n  <br />\n  <strong>Published :</strong> June 13, 2026, 6:16 a.m. | 15 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>We have released version 5.24.0 of the Grafana Operator. This patch includes a CRITICAL severity security fix for a path traversal/privilege escalation vulnerability in the Grafana Operator.\n\n\n\n### Summary\n\n\n\nThe Grafana Operator supports loading dashboards & library panels using the jsonnet data templating language. The jsonnet expression is evaluated in the context of the operator manager pod.\n\n\n\n### Impact\n\n\n\nIt is possible for a malicious user who can create Dashboard or LibraryPanel resources for a Grafana instance to obtain the Kubernetes service account token of the Grafana Operator manager.\n\n\n\n### Affected versi",
+    "pub_date": "2026-06-13T06:16:14+00:00",
+    "cve_ids": [
+      "CVE-2026-11769"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11769 - Operator - Namespaced User Path T",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "50f1d91e0f558c3454662b9d626bbb26",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9848 - WP Ticket <= 6.0.4 - Unauthenticated SQL Injection via WordPress Search 's' Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9848",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9848\n  <br />\n  <strong>Published :</strong> June 13, 2026, 3:16 a.m. | 18 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The WP Ticket plugin for WordPress is vulnerable to SQL Injection via the WordPress search query parameter (`s`) in versions up to, and including, 6.0.4 The plugin hooks WordPress's `posts_request` filter with `wp_ticket_com_posts_request()`, which calls `emd_author_search_results()` when the current request is an unauthenticated front-end search. That function reads `$query->query_vars['s']` — already wp_unslash()'d by `WP_Query::parse_query()`, so wp_magic_quotes protection has been stripped — and concatenates the raw value into a SQL `LIKE` clause inside a UNION sub-SELECT appended to the main query, with no `$wpdb->p",
+    "pub_date": "2026-06-13T03:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-9848"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "The WP Ticket plugin for WordPress is vulnerable to SQL Injection via the WordPress search query parameter (`s`) in versions up to, and including, 6.0.4 The plugin hooks WordPress's `posts_request` filter with `wp_ticket_com_posts_request()`, which calls `emd_author_search_results()` when the curren",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9848 - WP Ticket <= 6.0.4 - Unauthenticat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fb8ef4b1c2ad5fa06d1dffe7e47b1a97",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54231 - Abrt: unsanitized systemd journal content written to dump directory files enables content injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54231",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54231\n  <br />\n  <strong>Published :</strong> June 13, 2026, 3:16 a.m. | 18 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>A content injection vulnerability was found in the ABRT post-create event handler scripts in libreport. The event script queries the systemd journal for log entries matching the crashed process and writes the results to files in the dump directory without sanitizing embedded control characters. A local user can inject arbitrary content into the journal output by embedding newline characters in syslog messages, controlling the content that root writes to dump directory files.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, a",
+    "pub_date": "2026-06-13T03:16:21+00:00",
+    "cve_ids": [
+      "CVE-2026-54231"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "A content injection vulnerability was found in the ABRT post-create event handler scripts in libreport. The event script queries the systemd journal for log entries matching the crashed process and writes the results to files in the dump directory without sanitizing embedded control characters. A lo",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54231 - Abrt: unsanitized systemd journal",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "68dbe6b1a516eaa2c4785b40326cdb1d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54230 - Abrt: event handler scripts follow symlinks when writing output files, allowing arbitrary file overwrites",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54230",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54230\n  <br />\n  <strong>Published :</strong> June 13, 2026, 3:16 a.m. | 18 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>A symlink following vulnerability was found in the ABRT post-create event handler scripts in libreport. Event scripts write output files using shell redirections without the O_NOFOLLOW flag. If the target file is replaced with a symlink, the shell process running as root follows the symlink and writes content to the symlink target, allowing arbitrary file overwrites on the system.\n  <br />\n  <strong>Severity:</strong> 7.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-13T03:16:21+00:00",
+    "cve_ids": [
+      "CVE-2026-54230"
+    ],
+    "cvss": 7.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.0,
+      "description": "A symlink following vulnerability was found in the ABRT post-create event handler scripts in libreport. Event scripts write output files using shell redirections without the O_NOFOLLOW flag. If the target file is replaced with a symlink, the shell process running as root follows the symlink and writ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54230 - Abrt: event handler scripts follo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8393020c119121a23b4c6a3035aac846",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54229 - Abrt: chownproblemdir succeeds during active post-create event processing due to inadequate locking",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54229",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54229\n  <br />\n  <strong>Published :</strong> June 13, 2026, 3:16 a.m. | 18 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>A race condition was found in the abrt-dbus D-Bus service's ChownProblemDir method. ChownProblemDir opens the dump directory with DD_OPEN_READONLY and calls dd_chown to change ownership of all files to the caller's uid, succeeding even while post-create event handlers hold a write lock. This allows an attacker to gain filesystem-level control of the dump directory while privileged event scripts are still running.\n  <br />\n  <strong>Severity:</strong> 7.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-13T03:16:21+00:00",
+    "cve_ids": [
+      "CVE-2026-54229"
+    ],
+    "cvss": 7.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.0,
+      "description": "A race condition was found in the abrt-dbus D-Bus service's ChownProblemDir method. ChownProblemDir opens the dump directory with DD_OPEN_READONLY and calls dd_chown to change ownership of all files to the caller's uid, succeeding even while post-create event handlers hold a write lock. This allows ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54229 - Abrt: chownproblemdir succeeds du",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dad65f4309507254d4462d300c974fdf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54228 - Abrt: toctou race condition in abrt-dbus setelement allows arbitrary file writes to dump directories",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54228",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54228\n  <br />\n  <strong>Published :</strong> June 13, 2026, 3:16 a.m. | 18 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>A time-of-check time-of-use (TOCTOU) race condition was found in the abrt-dbus D-Bus service's SetElement method. Between dump directory creation and post-create event execution, any local user can call SetElement to write arbitrary text files into the root-owned dump directory, bypassing package validation and allowing crashes of unpackaged binaries to survive post-create processing.\n  <br />\n  <strong>Severity:</strong> 7.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-13T03:16:21+00:00",
+    "cve_ids": [
+      "CVE-2026-54228"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "A time-of-check time-of-use (TOCTOU) race condition was found in the abrt-dbus D-Bus service's SetElement method. Between dump directory creation and post-create event execution, any local user can call SetElement to write arbitrary text files into the root-owned dump directory, bypassing package va",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54228 - Abrt: toctou race condition in ab",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7c23b6e8829d1963ce80ece718d4e996",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12089 - WS Optimize – All-in-One Speed Booster & Cache Tools <= 3.3.19 - Authenticated (Editor+) Arbitrary File Read",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12089",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12089\n  <br />\n  <strong>Published :</strong> June 13, 2026, 3:16 a.m. | 18 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>The LWS Optimize – All-in-One Speed Booster & Cache Tools plugin for WordPress is vulnerable to Arbitrary File Read in versions up to, and including, 3.3.19. This is due to the combine_current_css() function  trusting  values harvested from page HTML and converting same-site URLs to absolute filesystem paths before reading them with file_get_contents()/Minify\\CSS::add(), without enforcing that the resolved path stay within ABSPATH or have a .css extension. This makes it possible for authenticated attackers, with Editor-level access and above, to read arbitrary files.\n  <br />\n  <strong>Severity:</strong> 4.9 | MEDIUM\n  ",
+    "pub_date": "2026-06-13T03:16:19+00:00",
+    "cve_ids": [
+      "CVE-2026-12089"
+    ],
+    "cvss": 4.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.9,
+      "description": "The LWS Optimize – All-in-One Speed Booster & Cache Tools plugin for WordPress is vulnerable to Arbitrary File Read in versions up to, and including, 3.3.19. This is due to the combine_current_css() function  trusting <link rel=\"stylesheet\" href=\"...\"> values harvested from page HTML and converting ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12089 - WS Optimize – All-in-One Speed Bo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2966b281c47aa1ee23d0599f4828c39c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11443 - Allegra downloadAttachment Cross-Site Scripting Authentication Bypass Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11443",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11443\n  <br />\n  <strong>Published :</strong> June 13, 2026, 12:16 a.m. | 21 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>Allegra downloadAttachment Cross-Site Scripting Authentication Bypass Vulnerability. This vulnerability allows remote attackers to execute arbitrary script on affected installations of Allegra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.\n\nThe specific flaw exists within the downloadAttachment method. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to execute script in the context of the current user. Was ZDI-C",
+    "pub_date": "2026-06-13T00:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-11443"
+    ],
+    "cvss": 4.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.6,
+      "description": "Allegra downloadAttachment Cross-Site Scripting Authentication Bypass Vulnerability. This vulnerability allows remote attackers to execute arbitrary script on affected installations of Allegra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11443 - Allegra downloadAttachment Cross-",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a8f224cdb7f82226b2d362553fe9b4f1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11442 - Allegra exportReport Directory Traversal Information Disclosure Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11442",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11442\n  <br />\n  <strong>Published :</strong> June 13, 2026, 12:16 a.m. | 21 hours, 45 minutes ago\n  <br />\n  <strong>Description :</strong>Allegra exportReport Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Allegra. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the exportReport method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the service account. Was ZDI-CAN-28208.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the lin",
+    "pub_date": "2026-06-13T00:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-11442"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Allegra exportReport Directory Traversal Information Disclosure Vulnerability. This vulnerability allows remote attackers to disclose sensitive information on affected installations of Allegra. Authentication is required to exploit this vulnerability.\n\nThe specific flaw exists within the exportRepor",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11442 - Allegra exportReport Directory Tr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5cb1a4ed1914b4480b7084b769974b25",
+    "source": "BleepingComputer",
+    "title": "Ex-school district employee jailed for hacks on former employer",
+    "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+    "summary": "A former  IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former employer that disrupted classroom operations, deleted accounts, and caused tens of thousands of dollars in damages. [...]",
+    "pub_date": "2026-06-13T20:53:13+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Ex-school district employee jailed for hacks on fo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7f0ad743262dd872096612d3ee92a4f0",
+    "source": "BleepingComputer",
+    "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
+    "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
+    "summary": "Chinese hackers took control of a target organization's authentication stack and maintained persistence for 10 years, with full visibility into the administrative activity. [...]",
+    "pub_date": "2026-06-13T14:06:42+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Chinese hackers hijack auth flow, spy on isolated ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "66d6650c9b211b16f354fae3ab1f4f0f",
+    "source": "BleepingComputer",
+    "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
+    "link": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
+    "summary": "The US government has ordered Anthropic to block all foreign nationals from accessing Fable 5 and Mythos 5, forcing the company to suspend both models worldwide. Anthropic is complying but disputes the basis, calling the cited jailbreak narrow and the capability widely available elsewhere. [...]",
+    "pub_date": "2026-06-13T10:01:32+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "US Gov asks Anthropic to ban 'foreign national' ac",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8375823b34df93a93b46e3192643e1ed",
+    "source": "The Hacker News",
+    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+    "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+    "summary": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution.\n\nThe vulnerability, tracked as CVE-2026-20253, is rated 9.8 on the CVSS scoring system.\n\n\"In Splunk Enterprise versions below 10.2.4 and 10.0.7, an unauthenticated user could create or truncate arbitrary",
+    "pub_date": "2026-06-13T13:23:03+00:00",
+    "cve_ids": [
+      "CVE-2026-20253"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Critical Splunk Enterprise Flaw Lets Attackers Run",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "da6373d6eca2dc7f73ec335d7dce6717",
+    "source": "The Hacker News",
+    "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
+    "link": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
+    "summary": "Anthropic said on Friday it will \"abruptly disable\" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government ordered it to suspend access to the models for foreign nationals, whether inside or outside the U.S., citing national security concerns.\n\nThe AI company said it received an order at 5:21 p.m. ET, instructing it to suspend",
+    "pub_date": "2026-06-13T05:42:50+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. Orders Anthropic to Suspend Fable 5 and Mytho",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cf92226564e97f89bde2beacfa766f95",
+    "source": "CyberScoop",
+    "title": "Anthropic disables new models after government calls them a national security concern",
+    "link": "https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/",
+    "summary": "<p>The Commerce Department’s expert control decree led to the company shutting off access to Fable 5 and Mythos 5 worldwide, drawing sharp criticism from researchers and industry analysts.</p>\n<p>The post <a href=\"https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/\">Anthropic disables new models after government calls them a national security concern</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "pub_date": "2026-06-13T18:29:36+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Anthropic disables new models after government cal",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b96d2bd8e6c23ea1155de234f9b2cd8c",
+    "source": "Dark Reading",
+    "title": "Name That Toon Contest",
+    "link": "https://www.darkreading.com/events/celebrate-20-years-of-dark-reading-name-that-toon-contest",
+    "summary": "",
+    "pub_date": "2026-06-26T11:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Name That Toon Contest",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c91f595218f802bd3f4a757ac434abe4",
+    "source": "SecurityWeek",
+    "title": "NPM 12 Will Change Script Execution Behavior to Prevent Supply Chain Attacks",
+    "link": "https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/",
+    "summary": "<p>By default, npm install will no longer execute scripts from dependencies, unless explicitly allowed.</p>\n<p>The post <a href=\"https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/\">NPM 12 Will Change Script Execution Behavior to Prevent Supply Chain Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-06-13T15:52:58+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "NPM 12 Will Change Script Execution Behavior to Pr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5f5bb8bac64ccf8af884e3ba7c340b8a",
+    "source": "SecurityWeek",
+    "title": "Anthropic Says It Has Taken Its Latest AI Models Offline to Comply With New Export Controls",
+    "link": "https://www.securityweek.com/anthropic-says-it-has-taken-its-latest-ai-models-offline-to-comply-with-new-export-controls/",
+    "summary": "<p>Anthropic takes Fable 5 and Mythos 5 offline to comply with a directive from the Trump administration to prevent use by foreign nationals.</p>\n<p>The post <a href=\"https://www.securityweek.com/anthropic-says-it-has-taken-its-latest-ai-models-offline-to-comply-with-new-export-controls/\">Anthropic Says It Has Taken Its Latest AI Models Offline to Comply With New Export Controls</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-06-13T06:38:34+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Anthropic Says It Has Taken Its Latest AI Models O",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6f2a3b7c1996ff298733b1188baa0087",
+    "source": "Security Affairs",
+    "title": "Washington Pulled the Plug on Anthropic ‘s Fable 5 and Mythos 5 models. The Rest of the World Is Watching.",
+    "link": "https://securityaffairs.com/193579/ai/washington-pulled-the-plug-on-anthropic-fable-5-and-mythos-5-models.html",
+    "summary": "Anthropic disputes restrictions on Mythos 5 and Fable 5, arguing the decision lacks transparency and isn&#8217;t based on clear technical evidence. On Friday June 12 at 5:21pm ET, Anthropic received a letter from the US Commerce Department, signed by Commerce Secretary Howard Lutnick and drafted with officials from the Bureau of Industry and Security. The [&#8230;]",
+    "pub_date": "2026-06-13T14:32:09+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Washington Pulled the Plug on Anthropic ‘s Fable 5",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f4a512ec03962644c7bfacf204fc3586",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds Oracle PeopleSoft Enterprise PeopleTools flaw to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/193574/security/u-s-cisa-adds-oracle-peoplesoft-enterprise-peopletools-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Oracle PeopleSoft Enterprise PeopleTools flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Oracle PeopleSoft Enterprise PeopleTools flaw, tracked as CVE-2026-35273 (CVSS score of 9.8), to its Known Exploited Vulnerabilities (KEV) catalog. Oracle PeopleSoft Enterprise PeopleTools is the underlying technology platform [&#8230;]",
+    "pub_date": "2026-06-13T09:19:14+00:00",
+    "cve_ids": [
+      "CVE-2026-35273"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds Oracle PeopleSoft Enterprise People",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07d00e994aef66e46c15124b13fc8ebf",
+    "source": "CrowdStrike",
+    "title": "Why AI Projects Stall and How CIOs Can Respond",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Projects Stall and How CIOs Can Respond",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "290f2b600fd3430143fef98c38268990",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar&trade;: Cloud and Application Runtime Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named an Innovation and Growth Leader ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cff83324956e33760e68ebb0e48e8192",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Identity Leadership with OpenID and IDPro",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Identity Leadership with OpenI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "42027725b8b2b9ba0cb7316c9813e14d",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike 2026 Technology Threat Landscape Report: China&rsquo;s Ambitions Fuel Attacks",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike 2026 Technology Threat Landscape Repor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "219949705e47d4e93673d675a46ad2b7",
+    "source": "CrowdStrike",
+    "title": "June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "June 2026 Patch Tuesday: Microsoft Patches 206 Vul",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3d5c79690b35d61c5d2d4cefdb727d9f",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike and Zscaler Bring Continuous Identity to Zero Trust Access",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike and Zscaler Bring Continuous Identity ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fb06067793b1c41ee9374c03a278691b",
+    "source": "CrowdStrike",
+    "title": "3 Principles to Safely Scale Agentic AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "3 Principles to Safely Scale Agentic AI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2f00a4ed2e13ebb1d46b5246cc4339ca",
+    "source": "CrowdStrike",
+    "title": "ISO 42001:2023 and the New Reality of Cloud AI Data Risk",
+    "link": "https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "ISO 42001:2023 and the New Reality of Cloud AI Dat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "379101dd9f89becc3a7691ea4fc28195",
+    "source": "CrowdStrike",
+    "title": "How to Stop AI-Driven Data Loss",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How to Stop AI-Driven Data Loss",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6e53e2cc60625c78334dd4d421b9c45c",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Brings Enterprise-Grade Security to the AI Factory with NVIDIA Vera BlueField-4 STX",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Brings Enterprise-Grade Security to th",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
