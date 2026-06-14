@@ -1,0 +1,630 @@
+[
+  {
+    "uid": "9cb70e41ed86cd4366a31daa9eb46998",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12191 - Comma AI Openpilot Pickle modeld.py pickle.loads deserialization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12191",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12191\n  <br />\n  <strong>Published :</strong> June 14, 2026, 11 p.m. | 25 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in Comma AI Openpilot 0.11. This issue affects the function pickle.load/pickle.loads of the file selfdrive/modeld/modeld.py of the component Pickle Module. The manipulation results in deserialization. The attack is only possible with local access. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-14T23:00:08+00:00",
+    "cve_ids": [
+      "CVE-2026-12191"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "A vulnerability was found in Comma AI Openpilot 0.11. This issue affects the function pickle.load/pickle.loads of the file selfdrive/modeld/modeld.py of the component Pickle Module. The manipulation results in deserialization. The attack is only possible with local access. The vendor was contacted e",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12191 - Comma AI Openpilot Pickle modeld.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a0c0b9846c896f38284ae2078ed4251c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12190 - Genspark AI Workspace App ai.mainfunc.genspark improper authorization in handler for custom url scheme",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12190",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12190\n  <br />\n  <strong>Published :</strong> June 14, 2026, 10:45 p.m. | 40 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in Genspark AI Workspace App 2.8.4 on Android. This vulnerability affects unknown code of the component ai.mainfunc.genspark. The manipulation leads to improper authorization in handler for custom url scheme. The attack can only be performed from a local environment. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-14T22:45:07+00:00",
+    "cve_ids": [
+      "CVE-2026-12190"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability has been found in Genspark AI Workspace App 2.8.4 on Android. This vulnerability affects unknown code of the component ai.mainfunc.genspark. The manipulation leads to improper authorization in handler for custom url scheme. The attack can only be performed from a local environment. T",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12190 - Genspark AI Workspace App ai.main",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fce4361952a878ae0d52f0f4a66dae32",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12189 - Moovit Bus & Public Transit App com.tranzmate improper authorization in handler for custom url scheme",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12189",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12189\n  <br />\n  <strong>Published :</strong> June 14, 2026, 10:30 p.m. | 55 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Moovit Bus & Public Transit App 1.18 on Android. This affects an unknown part of the component com.tranzmate. Executing a manipulation can lead to improper authorization in handler for custom url scheme. The attack can only be executed locally. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-14T22:30:08+00:00",
+    "cve_ids": [
+      "CVE-2026-12189"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A flaw has been found in Moovit Bus & Public Transit App 1.18 on Android. This affects an unknown part of the component com.tranzmate. Executing a manipulation can lead to improper authorization in handler for custom url scheme. The attack can only be executed locally. The exploit has been published",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12189 - Moovit Bus & Public Transit App c",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "03f343164f3c447748de6891f82312da",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12188 - Grit42 Grit GritEntityController grit_entity_controller.rb sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12188",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12188\n  <br />\n  <strong>Published :</strong> June 14, 2026, 10:15 p.m. | 1 hour, 10 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in Grit42 Grit up to 0.11.0. Affected by this issue is some unknown functionality of the file modules/core/backend/app/controllers/concerns/grit/core/grit_entity_controller.rb of the component GritEntityController. Performing a manipulation results in sql injection. The attack may be initiated remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-14T22:15:08+00:00",
+    "cve_ids": [
+      "CVE-2026-12188"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was detected in Grit42 Grit up to 0.11.0. Affected by this issue is some unknown functionality of the file modules/core/backend/app/controllers/concerns/grit/core/grit_entity_controller.rb of the component GritEntityController. Performing a manipulation results in sql injection. The ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12188 - Grit42 Grit GritEntityController ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dafc9757b6b11d00cda22479b6b63803",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12187 - GL.iNet GL-MT3000 Online Firmware Upgrade one_click_upgrade command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12187",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12187\n  <br />\n  <strong>Published :</strong> June 14, 2026, 10 p.m. | 1 hour, 25 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in GL.iNet GL-MT3000 up to 4.4.5. Affected by this vulnerability is an unknown functionality of the file /usr/bin/one_click_upgrade of the component Online Firmware Upgrade Handler. Such manipulation leads to command injection. The attack can be launched remotely. The exploit has been disclosed publicly and may be used. Upgrading to version 4.7 addresses this issue. Upgrading the affected component is advised. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.\n  <br />\n  <strong>Severity:</strong> 0.",
+    "pub_date": "2026-06-14T22:00:09+00:00",
+    "cve_ids": [
+      "CVE-2026-12187"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A security vulnerability has been detected in GL.iNet GL-MT3000 up to 4.4.5. Affected by this vulnerability is an unknown functionality of the file /usr/bin/one_click_upgrade of the component Online Firmware Upgrade Handler. Such manipulation leads to command injection. The attack can be launched re",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12187 - GL.iNet GL-MT3000 Online Firmware",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "efacc08f8727b0913d566acbec9bb151",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12186 - GL.iNet GL-MT3000 Tor Proxy Service Configuration tor replace_country command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12186",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12186\n  <br />\n  <strong>Published :</strong> June 14, 2026, 9:16 p.m. | 2 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in GL.iNet GL-MT3000 up to 4.4.5. Affected is the function replace_country in the library /usr/lib/oui-httpd/rpc/tor of the component Tor Proxy Service Configuration Handler. This manipulation causes command injection. The attack can be initiated remotely. The exploit has been made available to the public and could be used for attacks. Upgrading to version 4.7 is able to address this issue. It is recommended to upgrade the affected component. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affected product.\n  <br />\n  <stron",
+    "pub_date": "2026-06-14T21:16:18+00:00",
+    "cve_ids": [
+      "CVE-2026-12186"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "A weakness has been identified in GL.iNet GL-MT3000 up to 4.4.5. Affected is the function replace_country in the library /usr/lib/oui-httpd/rpc/tor of the component Tor Proxy Service Configuration Handler. This manipulation causes command injection. The attack can be initiated remotely. The exploit ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12186 - GL.iNet GL-MT3000 Tor Proxy Servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b8b8e95c4b5943cff60cf36264e8b96b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54413 - DriftRegion UDS Integer Underflow Out-of-Bounds Read",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54413",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54413\n  <br />\n  <strong>Published :</strong> June 14, 2026, 6:17 p.m. | 5 hours, 8 minutes ago\n  <br />\n  <strong>Description :</strong>driftregion iso14229 through 0.9.0 contains an integer underflow and downstream out-of-bounds read in the Handle_0x27_SecurityAccess() function in iso14229.c that allows a remote unauthenticated attacker to crash a UDS server and potentially read memory past the receive buffer by sending a single-byte 0x27 SecurityAccess request that follows any earlier well-formed 0x27 message. The handler reads the SecurityAccess subFunction from recv_buf[1] without first checking that recv_len is at least 2, then computes the key-data length as the unsigned subtraction (uint16_t)(recv_len - UDS_0X27_REQ_BASE_LEN); when recv_len equals ",
+    "pub_date": "2026-06-14T18:17:20+00:00",
+    "cve_ids": [
+      "CVE-2026-54413"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "driftregion iso14229 through 0.9.0 contains an integer underflow and downstream out-of-bounds read in the Handle_0x27_SecurityAccess() function in iso14229.c that allows a remote unauthenticated attacker to crash a UDS server and potentially read memory past the receive buffer by sending a single-by",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54413 - DriftRegion UDS Integer Underflow",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5f8e2333fdc1fbec8ac80420a0e80bcd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54412 - MQTT-C Heap Out-of-Bounds Read and Integer Underflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54412",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54412\n  <br />\n  <strong>Published :</strong> June 14, 2026, 6:17 p.m. | 5 hours, 8 minutes ago\n  <br />\n  <strong>Description :</strong>LiamBindle MQTT-C through version 1.1.6 contains a heap-based out-of-bounds read and integer underflow in the mqtt_unpack_publish_response() function in src/mqtt.c that allows a remote unauthenticated attacker controlling an MQTT broker - or able to inject MQTT traffic into an unencrypted session - to crash a subscribed MQTT-C client and potentially disclose adjacent heap memory by sending a single crafted PUBLISH packet. The function validates only that the fixed-header remaining_length is at least 4, then reads the 16-bit topic_name_size field from the broker-controlled packet and advances the parse pointer by that valu",
+    "pub_date": "2026-06-14T18:17:20+00:00",
+    "cve_ids": [
+      "CVE-2026-54412"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "LiamBindle MQTT-C through version 1.1.6 contains a heap-based out-of-bounds read and integer underflow in the mqtt_unpack_publish_response() function in src/mqtt.c that allows a remote unauthenticated attacker controlling an MQTT broker - or able to inject MQTT traffic into an unencrypted session - ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54412 - MQTT-C Heap Out-of-Bounds Read an",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b51b2124ff879e54eb9ee533b3288ebf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54411 - Linux-PAM pam_userdb Plaintext Password Recovery Timing Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54411",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54411\n  <br />\n  <strong>Published :</strong> June 14, 2026, 6:17 p.m. | 5 hours, 8 minutes ago\n  <br />\n  <strong>Description :</strong>Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the ",
+    "pub_date": "2026-06-14T18:17:20+00:00",
+    "cve_ids": [
+      "CVE-2026-54411"
+    ],
+    "cvss": 5.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.9,
+      "description": "Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54411 - Linux-PAM pam_userdb Plaintext Pa",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b1e46dacde230a3bb1ebf0eb6fb3fe08",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54410 - nanoMODBUS TCP Server Off-by-One Buffer Overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54410",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54410\n  <br />\n  <strong>Published :</strong> June 14, 2026, 6:17 p.m. | 5 hours, 8 minutes ago\n  <br />\n  <strong>Description :</strong>nanoMODBUS through v1.23.0 contains an off-by-one buffer overflow in the recv_msg_header() function of the Modbus/TCP server that allows remote unauthenticated attackers to write one attacker-controlled byte past the end of the 260-byte receive buffer by sending a crafted MBAP frame whose Length field is set to 255. The overflow corrupts the adjacent buffer-index field of the nanoMODBUS state structure, resulting in denial of service through invalid memory accesses and, on bare-metal and RTOS targets without memory protection, one-byte information disclosure and writes to unintended register addresses on the Write Multipl",
+    "pub_date": "2026-06-14T18:17:20+00:00",
+    "cve_ids": [
+      "CVE-2026-54410"
+    ],
+    "cvss": 8.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.6,
+      "description": "nanoMODBUS through v1.23.0 contains an off-by-one buffer overflow in the recv_msg_header() function of the Modbus/TCP server that allows remote unauthenticated attackers to write one attacker-controlled byte past the end of the 260-byte receive buffer by sending a crafted MBAP frame whose Length fie",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54410 - nanoMODBUS TCP Server Off-by-One ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "995f4c4ca6d135894b4b006be58e2bea",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11527 - Config::IniFiles versions before 3.001000 for Perl allow OS command injection and file overwrite via a 2-arg open() of the -file argument in _make_filehandle",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11527",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11527\n  <br />\n  <strong>Published :</strong> June 14, 2026, 12:16 p.m. | 11 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>Config::IniFiles versions before 3.001000 for Perl allow OS command injection and file overwrite via a 2-arg open() of the -file argument in _make_filehandle.\n\nConfig::IniFiles::_make_filehandle opens a filename argument with Perl's 2-arg open(), so a filename that begins or ends with a pipe (\"| cmd\", \"cmd |\") or begins with a redirect (\"> path\", \">> path\") is run as a command or redirect rather than opened as a file. The helper is the open path behind the documented -file argument: new(-file => $thing) reaches it through ReadConfig. An in-memory scalar reference (-file => \\$text) does not open a path and is unaffected.",
+    "pub_date": "2026-06-14T12:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-11527"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11527 - Config::IniFiles versions before ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a3e57263d76ef555b2a97b9480f8a252",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11526 - GD versions before 2.86 for Perl allow OS command injection and file overwrite via a 2-arg open() of filename arguments in _make_filehandle",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11526",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11526\n  <br />\n  <strong>Published :</strong> June 14, 2026, 12:16 p.m. | 11 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>GD versions before 2.86 for Perl allow OS command injection and file overwrite via a 2-arg open() of filename arguments in _make_filehandle.\n\nGD::Image::_make_filehandle opens a filename argument with Perl's 2-arg open(), so a filename that begins or ends with a pipe (\"| cmd\", \"cmd |\") or begins with a redirect (\"> path\", \">> path\") is run as a command or redirect rather than opened as a file. _make_filehandle is the single open path behind every filename-accepting constructor (new, newFromPng, newFromJpeg, and the rest); the in-memory *Data variants do not open a path and are unaffected.\n\nAny caller that forwards untru",
+    "pub_date": "2026-06-14T12:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-11526"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11526 - GD versions before 2.86 for Perl ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ffdf0ab45a119a66dbcc8d1129ca1bac",
+    "source": "CVEfeed.io",
+    "title": "CVE-2025-15546 - Iptanus File Upload < 5.1.7 - File Overwrite via Race Condition",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2025-15546",
+    "summary": "<strong>CVE ID :</strong>CVE-2025-15546\n  <br />\n  <strong>Published :</strong> June 14, 2026, 8:16 a.m. | 15 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>The Iptanus File Upload WordPress plugin before 5.1.7 does not implement proper file handling when the duplicatepolicy setting is configured to \"maintain both.\" Due to a Time-of-Check to Time-of-Use (TOCTOU) race condition between the file existence check and the actual file write operation, an authenticated attacker can overwrite files uploaded by other users.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-14T08:16:17+00:00",
+    "cve_ids": [
+      "CVE-2025-15546"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2025-15546 - Iptanus File Upload < 5.1.7 - Fil",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e8c6b5d57674e45aceeaebc8ea2fc906",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54421 - OpenStack Ironic Information Disclosure",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54421",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54421\n  <br />\n  <strong>Published :</strong> June 14, 2026, 4:16 a.m. | 19 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>In OpenStack Ironic through 35.0.1, when applying a PATCH to update fields in volume properties the user is authorized for, Ironic can return unredacted sensitive information (such as iSCSI credentials). The PATCH outcome is a security issue; the POST outcome is not a security issue.\n  <br />\n  <strong>Severity:</strong> 6.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-14T04:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-54421"
+    ],
+    "cvss": 6.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.8,
+      "description": "In OpenStack Ironic through 35.0.1, when applying a PATCH to update fields in volume properties the user is authorized for, Ironic can return unredacted sensitive information (such as iSCSI credentials). The PATCH outcome is a security issue; the POST outcome is not a security issue.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54421 - OpenStack Ironic Information Disc",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "16e73dfc50a9e87487f0178228d7b2ee",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54420 - LiteSpeed cPanel Plugin Symlink Privilege Escalation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54420",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54420\n  <br />\n  <strong>Published :</strong> June 14, 2026, 4:16 a.m. | 19 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>LiteSpeed cPanel plugin before 2.4.8 (as distributed in LiteSpeed WHM PlugIn before 5.3.2.0) mishandles symlinks provided by a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS, as exploited in the wild in May 2026.\n  <br />\n  <strong>Severity:</strong> 8.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-14T04:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-54420"
+    ],
+    "cvss": 8.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.5,
+      "description": "LiteSpeed cPanel plugin before 2.4.8 (as distributed in LiteSpeed WHM PlugIn before 5.3.2.0) mishandles symlinks provided by a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS, as exploited in the wild in May 2026.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54420 - LiteSpeed cPanel Plugin Symlink P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9922c8c2227d33a527dc7e056977c734",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12176 - SourceCodester CET Automated Grading System with AI Predictive Analytics index.php cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12176",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12176\n  <br />\n  <strong>Published :</strong> June 14, 2026, 12:16 a.m. | 23 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in SourceCodester CET Automated Grading System with AI Predictive Analytics 1.0. The impacted element is an unknown function of the file /index.php. The manipulation of the argument action leads to cross site scripting. The attack is possible to be carried out remotely. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 5.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-14T00:16:19+00:00",
+    "cve_ids": [
+      "CVE-2026-12176"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability has been found in SourceCodester CET Automated Grading System with AI Predictive Analytics 1.0. The impacted element is an unknown function of the file /index.php. The manipulation of the argument action leads to cross site scripting. The attack is possible to be carried out remotely",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12176 - SourceCodester CET Automated Grad",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "886d877ce365675a8761a720dd87ae0b",
+    "source": "BleepingComputer",
+    "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+    "summary": "In a coordinated effort, the FBI, working with Google and Black Lotus Labs, has dismantled a massive Chinese phishing-as-a-service operation called Outsider Enterprise with thousands of phishing websites used to steal credit card data and passwords. [...]",
+    "pub_date": "2026-06-14T14:36:23+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "FBI disrupts massive AI-powered phishing service u",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b96d2bd8e6c23ea1155de234f9b2cd8c",
+    "source": "Dark Reading",
+    "title": "Name That Toon Contest",
+    "link": "https://www.darkreading.com/events/celebrate-20-years-of-dark-reading-name-that-toon-contest",
+    "summary": "",
+    "pub_date": "2026-06-26T11:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Name That Toon Contest",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "03ddee5595783740b9687822aba23a7b",
+    "source": "Schneier on Security",
+    "title": "Upcoming Speaking Engagements",
+    "link": "https://www.schneier.com/blog/archives/2026/06/upcoming-speaking-engagements-57.html",
+    "summary": "<p>This is a current list of where and when I am scheduled to speak:</p>\n<ul>\n<li>I’m giving a keynote at <a href=\"https://wirtschaftsrat.de/de/hoehepunktveranstaltungen/wir-bauen-die-cybernation-von-der-vision-zur-wirkung/\">Cybernation 2026</a> in Berlin, Germany, on June 24, 2026.</li>\n<li>I’m speaking at the <a href=\"https://potsdamer-sicherheitskonferenz.de/\">Potsdam Conference on National Cybersecurity</a> at the Hasso Plattner Institut in Potsdam, Germany. The event runs June 24–25, 2026, and my talk will be the evening of June 24.</li>\n<li>I’m participating in a panel discussion at the <a href=\"https://www.oiip.ac.at/en/events/disruption-or-singularity-ai-security-and-governance-in-the-21st-century/\">Austrian Institute for International Affairs</a> in Vienna on Thursday, June 25, 20",
+    "pub_date": "2026-06-14T16:07:31+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Upcoming Speaking Engagements",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2ad7173ffa4414cb3a81cb3c9d062e74",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 101",
+    "link": "https://securityaffairs.com/193609/breaking-news/security-affairs-malware-newsletter-round-101.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter IronWorm: Shai-Hulud&#8217;s rustier cousin Trojanized ai-sdk-ollama Delivers Miasma, a Self-Replicating npm Worm via binding.gyp&#160; Inside the Cross-Platform Propagation of a New Gafgyt Variant C0XMO&#160; Using AI Agents to Analyze Malware on REMnux&#160;&#160; The Miasma [&#8230;]",
+    "pub_date": "2026-06-14T13:23:29+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 101",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d4b6d761deab4fbc950031d72df5b98b",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 581 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/193600/security/security-affairs-newsletter-round-581-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. Washington Pulled the Plug on Anthropic &#8216;s Fable 5 and Mythos 5 models. The Rest of [&#8230;]",
+    "pub_date": "2026-06-14T13:03:56+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 581 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8bf9a927c897bf1377ac13cb4a8cd21f",
+    "source": "Security Affairs",
+    "title": "Ukrainian Extradited from Ireland Pleads Guilty Over Role in Conti Ransomware Scheme",
+    "link": "https://securityaffairs.com/193590/uncategorized/ukrainian-extradited-from-ireland-pleads-guilty-over-role-in-conti-ransomware-scheme.html",
+    "summary": "Ukrainian national Oleksii Lytvynenko pleaded guilty in the U.S. for his role in Conti ransomware attacks targeting victims worldwide. Oleksii Oleksiyovych Lytvynenko (44), a Ukrainian national extradited from Ireland to the U.S., has pleaded guilty to conspiracy to commit wire fraud for his involvement in the Conti ransomware operation. Prosecutors said he helped conduct attacks [&#8230;]",
+    "pub_date": "2026-06-14T05:58:21+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Ukrainian Extradited from Ireland Pleads Guilty Ov",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07d00e994aef66e46c15124b13fc8ebf",
+    "source": "CrowdStrike",
+    "title": "Why AI Projects Stall and How CIOs Can Respond",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Projects Stall and How CIOs Can Respond",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "290f2b600fd3430143fef98c38268990",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar&trade;: Cloud and Application Runtime Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named an Innovation and Growth Leader ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cff83324956e33760e68ebb0e48e8192",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Identity Leadership with OpenID and IDPro",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Identity Leadership with OpenI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "42027725b8b2b9ba0cb7316c9813e14d",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike 2026 Technology Threat Landscape Report: China&rsquo;s Ambitions Fuel Attacks",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike 2026 Technology Threat Landscape Repor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "219949705e47d4e93673d675a46ad2b7",
+    "source": "CrowdStrike",
+    "title": "June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "June 2026 Patch Tuesday: Microsoft Patches 206 Vul",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3d5c79690b35d61c5d2d4cefdb727d9f",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike and Zscaler Bring Continuous Identity to Zero Trust Access",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike and Zscaler Bring Continuous Identity ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fb06067793b1c41ee9374c03a278691b",
+    "source": "CrowdStrike",
+    "title": "3 Principles to Safely Scale Agentic AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "3 Principles to Safely Scale Agentic AI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2f00a4ed2e13ebb1d46b5246cc4339ca",
+    "source": "CrowdStrike",
+    "title": "ISO 42001:2023 and the New Reality of Cloud AI Data Risk",
+    "link": "https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "ISO 42001:2023 and the New Reality of Cloud AI Dat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "379101dd9f89becc3a7691ea4fc28195",
+    "source": "CrowdStrike",
+    "title": "How to Stop AI-Driven Data Loss",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How to Stop AI-Driven Data Loss",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6e53e2cc60625c78334dd4d421b9c45c",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Brings Enterprise-Grade Security to the AI Factory with NVIDIA Vera BlueField-4 STX",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Brings Enterprise-Grade Security to th",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
