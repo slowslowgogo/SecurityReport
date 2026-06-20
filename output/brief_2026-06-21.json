@@ -1,0 +1,878 @@
+[
+  {
+    "uid": "0fc4b5a4b6dbc648f1107083bf86ef77",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56355 - GNU Savannah Savane Authorization Bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56355",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56355\n  <br />\n  <strong>Published :</strong> June 20, 2026, 8:08 p.m. | 3 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>GNU Savannah Administration Savane through 3.17 uses untrusted data as part of authorization.\n  <br />\n  <strong>Severity:</strong> 3.7 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T20:08:05+00:00",
+    "cve_ids": [
+      "CVE-2026-56355"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "GNU Savannah Administration Savane through 3.17 uses untrusted data as part of authorization.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56355 - GNU Savannah Savane Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a5cd236f6014ec1a1ab177cf41b04878",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56347 - AVideo TopMenu Plugin - Stored Cross-Site Scripting via Unescaped Menu Item Fields",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56347",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56347\n  <br />\n  <strong>Published :</strong> June 20, 2026, 6:27 p.m. | 4 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>AVideo TopMenu plugin through version 26.0 contains a stored cross-site scripting vulnerability in menu item rendering due to missing output encoding of icon classes, URLs, and text labels. Attackers can inject malicious JavaScript through unescaped menu item fields that execute for all site visitors, potentially stealing session cookies or performing unauthorized actions.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T18:27:13+00:00",
+    "cve_ids": [
+      "CVE-2026-56347"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "AVideo TopMenu plugin through version 26.0 contains a stored cross-site scripting vulnerability in menu item rendering due to missing output encoding of icon classes, URLs, and text labels. Attackers can inject malicious JavaScript through unescaped menu item fields that execute for all site visitor",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56347 - AVideo TopMenu Plugin - Stored Cr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "aac81da84eb3199d86b56b4dacf04cf9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56346 - AVideo - Unauthenticated PGP Message Decryption via decryptMessage.json.php Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56346",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56346\n  <br />\n  <strong>Published :</strong> June 20, 2026, 6:27 p.m. | 4 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>AVideo through version 25.0 contains an authentication bypass vulnerability in the decryptMessage.json.php endpoint that allows unauthenticated users to decrypt PGP messages. Remote attackers can submit private keys, ciphertext, and passphrases to perform server-side decryption without credentials, exposing key material to logs and enabling resource exhaustion attacks.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T18:27:12+00:00",
+    "cve_ids": [
+      "CVE-2026-56346"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "AVideo through version 25.0 contains an authentication bypass vulnerability in the decryptMessage.json.php endpoint that allows unauthenticated users to decrypt PGP messages. Remote attackers can submit private keys, ciphertext, and passphrases to perform server-side decryption without credentials, ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56346 - AVideo - Unauthenticated PGP Mess",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "16a2eed9f0714e2a022bfe65feb58c64",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56345 - AVideo - Arbitrary User Session Hijacking via Meet Plugin uploadRecordedVideo Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56345",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56345\n  <br />\n  <strong>Published :</strong> June 20, 2026, 6:27 p.m. | 4 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>AVideo through 29.0 contains an authorization bypass vulnerability in the Meet plugin's uploadRecordedVideo.json.php endpoint that derives the target users_id from the uploaded filename without verification. An attacker with knowledge of the Meet shared secret can craft a malicious file upload with a filename containing an arbitrary users_id to invoke passwordless User->login() and establish an authenticated session as any user including admin. Attackers can obtain the Meet shared secret through path-traversal vulnerabilities or timing attacks against checkToken.json.php, then POST a crafted file to uploadRecordedVideo.j",
+    "pub_date": "2026-06-20T18:27:12+00:00",
+    "cve_ids": [
+      "CVE-2026-56345"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "AVideo through 29.0 contains an authorization bypass vulnerability in the Meet plugin's uploadRecordedVideo.json.php endpoint that derives the target users_id from the uploaded filename without verification. An attacker with knowledge of the Meet shared secret can craft a malicious file upload with ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56345 - AVideo - Arbitrary User Session H",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "960bb5eaa732eec251f9d5840e33f479",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56342 - AVideo - Server-Side Request Forgery in Live/test.php via statsURL Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56342",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56342\n  <br />\n  <strong>Published :</strong> June 20, 2026, 6:27 p.m. | 4 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>AVideo through version 27.0 contains a server-side request forgery vulnerability in plugin/Live/test.php that allows authenticated administrators to read arbitrary URLs via the statsURL parameter, which lacks isSSRFSafeURL() validation and accepts requests to private IP ranges and cloud metadata endpoints. Attackers can exploit this by crafting requests to internal services, cloud metadata endpoints like 169.254.169.254, and localhost to retrieve sensitive information including IAM credentials, internal service responses, and network configuration details.\n  <br />\n  <strong>Severity:</strong> 6.8 | MEDIUM\n  <br />\n  Vis",
+    "pub_date": "2026-06-20T18:27:11+00:00",
+    "cve_ids": [
+      "CVE-2026-56342"
+    ],
+    "cvss": 6.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.8,
+      "description": "AVideo through version 27.0 contains a server-side request forgery vulnerability in plugin/Live/test.php that allows authenticated administrators to read arbitrary URLs via the statsURL parameter, which lacks isSSRFSafeURL() validation and accepts requests to private IP ranges and cloud metadata end",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56342 - AVideo - Server-Side Request Forg",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bd9c809d986b35e387a6a97a59cecbb0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56341 - AVideo - Unauthenticated Access to Payment Log DataTables Endpoints via list.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56341",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56341\n  <br />\n  <strong>Published :</strong> June 20, 2026, 6:27 p.m. | 4 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>AVideo through version 26.0 contains multiple unauthenticated list.json.php endpoints in payment plugins lacking authorization checks, exposing PayPal tokens, Authorize.Net webhooks, and Bitcoin transaction records. Unauthenticated attackers can retrieve all payment transaction data including agreement IDs, user financial records, and API responses via direct GET requests to vulnerable endpoints.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T18:27:10+00:00",
+    "cve_ids": [
+      "CVE-2026-56341"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "AVideo through version 26.0 contains multiple unauthenticated list.json.php endpoints in payment plugins lacking authorization checks, exposing PayPal tokens, Authorize.Net webhooks, and Bitcoin transaction records. Unauthenticated attackers can retrieve all payment transaction data including agreem",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56341 - AVideo - Unauthenticated Access t",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "11d94c24f0533b09b99868eb540a84b2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56340 - vLLM - Denial of Service via Unvalidated Multimodal Embeddings",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56340",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56340\n  <br />\n  <strong>Published :</strong> June 20, 2026, 6:27 p.m. | 4 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>vLLM versions >= 0.10.2 and < 0.13.0 are missing sparse tensor validation in multimodal embeddings processing. Because PyTorch disables sparse tensor invariant checks by default, an attacker can submit crafted embedding requests with malformed (negative or out-of-bounds) tensor indices, when the prompt-embeds feature is enabled, to trigger crashes or resource exhaustion (denial of service), with potential for out-of-bounds/write-what-where memory corruption. This continues CVE-2025-62164, whose prior fix only disabled the feature by default rather than addressing the root cause.\n  <br />\n  <strong>Severity:</strong> 8.8 ",
+    "pub_date": "2026-06-20T18:27:10+00:00",
+    "cve_ids": [
+      "CVE-2026-56340",
+      "CVE-2025-62164"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "vLLM versions >= 0.10.2 and < 0.13.0 are missing sparse tensor validation in multimodal embeddings processing. Because PyTorch disables sparse tensor invariant checks by default, an attacker can submit crafted embedding requests with malformed (negative or out-of-bounds) tensor indices, when the pro",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56340 - vLLM - Denial of Service via Unva",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7b5115ab166f28ead26a6efa377155c6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2025-71379 - vllm - Regular Expression Denial of Service in Multiple Components",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2025-71379",
+    "summary": "<strong>CVE ID :</strong>CVE-2025-71379\n  <br />\n  <strong>Published :</strong> June 20, 2026, 6:27 p.m. | 4 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>vLLM versions >= 0.6.3 and < 0.9.0 contain multiple regular expression denial of service (ReDoS) vulnerabilities. Several regex patterns — in vllm/lora/utils.py, the phi4mini tool parser, and the OpenAI-compatible serving chat endpoint — are susceptible to catastrophic backtracking. An attacker submitting crafted input with nested or repeated structures can trigger severe CPU consumption and performance degradation, resulting in denial of service.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T18:27:09+00:00",
+    "cve_ids": [
+      "CVE-2025-71379"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "vLLM versions >= 0.6.3 and < 0.9.0 contain multiple regular expression denial of service (ReDoS) vulnerabilities. Several regex patterns — in vllm/lora/utils.py, the phi4mini tool parser, and the OpenAI-compatible serving chat endpoint — are susceptible to catastrophic backtracking. An attacker subm",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2025-71379 - vllm - Regular Expression Denial ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e8ddb98d87ad951ac675c433cf545672",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-5366 - Git Argument Injection in prefecthq/prefect",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-5366",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-5366\n  <br />\n  <strong>Published :</strong> June 20, 2026, 4:43 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Prefect version 3.6.23 is vulnerable to remote code execution due to improper handling of user-controlled input in the `GitRepository` storage class. The `commit_sha` parameter, which is passed to git commands, lacks validation and does not include a `--` separator to distinguish user input from git flags. This allows attackers to inject arbitrary git flags, such as `--upload-pack`, enabling execution of external programs. Additionally, the `directories` parameter can be exploited to inject git flags during sparse-checkout operations. These vulnerabilities allow any user with deployment creation permissions to execute arb",
+    "pub_date": "2026-06-20T16:43:37+00:00",
+    "cve_ids": [
+      "CVE-2026-5366"
+    ],
+    "cvss": 9.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.9,
+      "description": "Prefect version 3.6.23 is vulnerable to remote code execution due to improper handling of user-controlled input in the `GitRepository` storage class. The `commit_sha` parameter, which is passed to git commands, lacks validation and does not include a `--` separator to distinguish user input from git",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-5366 - Git Argument Injection in prefecth",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "454537aa177bace086ead9db2b031220",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56332 - Capgo - Open Redirect via confirmation_url Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56332",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56332\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains an open redirect vulnerability in the confirm-signup endpoint that allows attackers to redirect users to arbitrary external websites. The confirmation_url parameter is not validated, enabling attackers to craft malicious links for phishing and credential harvesting attacks.\n  <br />\n  <strong>Severity:</strong> 5.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:49+00:00",
+    "cve_ids": [
+      "CVE-2026-56332"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "Capgo before 12.128.2 contains an open redirect vulnerability in the confirm-signup endpoint that allows attackers to redirect users to arbitrary external websites. The confirmation_url parameter is not validated, enabling attackers to craft malicious links for phishing and credential harvesting att",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56332 - Capgo - Open Redirect via confirm",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "315707c862b1a3a773145489ed99fd67",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56330 - Capgo - Open Redirect via Unvalidated Stripe Billing URLs",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56330",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56330\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains an open redirect vulnerability in stripe_portal and stripe_checkout endpoints that accept unvalidated callbackUrl, successUrl, and cancelUrl parameters. Authenticated attackers can craft malicious billing URLs to redirect users to attacker-controlled domains for phishing and credential harvesting.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:48+00:00",
+    "cve_ids": [
+      "CVE-2026-56330"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "Capgo before 12.128.2 contains an open redirect vulnerability in stripe_portal and stripe_checkout endpoints that accept unvalidated callbackUrl, successUrl, and cancelUrl parameters. Authenticated attackers can craft malicious billing URLs to redirect users to attacker-controlled domains for phishi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56330 - Capgo - Open Redirect via Unvalid",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cab0a3345ef76bef9ba85896bf9285be",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56319 - Capgo - App Existence Oracle via GET /statistics/app/:app_id",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56319",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56319\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains an information disclosure vulnerability in the GET /statistics/app/:app_id endpoint that allows app-limited API keys to distinguish existing sibling app IDs through differential error responses. Attackers can enumerate real app IDs outside their allowed scope by observing 500 PGRST116 errors for inaccessible apps versus 401 errors for nonexistent apps, breaking tenant isolation.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:48+00:00",
+    "cve_ids": [
+      "CVE-2026-56319"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Capgo before 12.128.2 contains an information disclosure vulnerability in the GET /statistics/app/:app_id endpoint that allows app-limited API keys to distinguish existing sibling app IDs through differential error responses. Attackers can enumerate real app IDs outside their allowed scope by observ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56319 - Capgo - App Existence Oracle via ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ed21a78ad4fbeba734bad51c452f91d0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56307 - Cap-go - Broken Cursor Pagination in /private/devices Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56307",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56307\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Cap-go before 12.128.12 contains a broken cursor pagination vulnerability in the /private/devices endpoint on the Cloudflare/workerd path that allows authenticated attackers to cause duplicate-page loops and make later rows unreachable. Attackers with app.read_devices access can exploit non-advancing cursor filters to trigger infinite pagination loops, prevent dataset traversal, and cause repeated processing in device-management workflows.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:47+00:00",
+    "cve_ids": [
+      "CVE-2026-56307"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Cap-go before 12.128.12 contains a broken cursor pagination vulnerability in the /private/devices endpoint on the Cloudflare/workerd path that allows authenticated attackers to cause duplicate-page loops and make later rows unreachable. Attackers with app.read_devices access can exploit non-advancin",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56307 - Cap-go - Broken Cursor Pagination",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a9a485bf2a994f2ae8b02fb359239dd6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56304 - picklescan - Arbitrary File Creation via logging.FileHandler Deserialization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56304",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56304\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>picklescan before 1.0.1 contains an unsafe pickle deserialization vulnerability allowing unauthenticated attackers to create arbitrary zero-byte files via logging.FileHandler class instantiation. Attackers can exploit this by crafting malicious pickle payloads to bypass RCE blocklists and create lock files or other filesystem artifacts, potentially causing denial of service or application disruption.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:46+00:00",
+    "cve_ids": [
+      "CVE-2026-56304"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "picklescan before 1.0.1 contains an unsafe pickle deserialization vulnerability allowing unauthenticated attackers to create arbitrary zero-byte files via logging.FileHandler class instantiation. Attackers can exploit this by crafting malicious pickle payloads to bypass RCE blocklists and create loc",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56304 - picklescan - Arbitrary File Creat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b347f42cb68ace7c080c9be6d680494b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56295 - Capgo - Policy Enforcement Bypass in Webhook Management Endpoints via Non-Expiring API Keys",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56295",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56295\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains an authorization bypass vulnerability in webhook management endpoints that allows non-expiring API keys to bypass the require_apikey_expiration organization policy. The checkWebhookPermission function fails to call apikeyHasOrgRightWithPolicy, enabling attackers with legacy non-expiring keys to list, create, and delete webhooks despite explicit organizational policy requiring key expiration.\n  <br />\n  <strong>Severity:</strong> 6.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:46+00:00",
+    "cve_ids": [
+      "CVE-2026-56295"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "Capgo before 12.128.2 contains an authorization bypass vulnerability in webhook management endpoints that allows non-expiring API keys to bypass the require_apikey_expiration organization policy. The checkWebhookPermission function fails to call apikeyHasOrgRightWithPolicy, enabling attackers with l",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56295 - Capgo - Policy Enforcement Bypass",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bcaaaed8ae6140e5d181bd6cc8db2ac7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56294 - capacitor-native-biometric - Authentication Bypass via Unvalidated CryptoObject in onAuthenticationSucceeded",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56294",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56294\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>capacitor-native-biometric before 12.128.2 contains an authentication bypass vulnerability where the onAuthenticationSucceeded() method fails to validate CryptoObject parameters. Attackers can hook the onAuthenticationSucceeded() function using dynamic instrumentation to bypass biometric authentication without valid credentials.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:45+00:00",
+    "cve_ids": [
+      "CVE-2026-56294"
+    ],
+    "cvss": 4.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.8,
+      "description": "capacitor-native-biometric before 12.128.2 contains an authentication bypass vulnerability where the onAuthenticationSucceeded() method fails to validate CryptoObject parameters. Attackers can hook the onAuthenticationSucceeded() function using dynamic instrumentation to bypass biometric authenticat",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56294 - capacitor-native-biometric - Auth",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5cc1bb4af8eba25cba4a947ce855642e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56282 - Capgo - Information Disclosure via Unauthenticated /replication Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56282",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56282\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains an information disclosure vulnerability in the unauthenticated /replication endpoint that exposes internal PostgreSQL replication telemetry including slot names and WAL LSN positions. Attackers can access this endpoint without authentication to retrieve sensitive infrastructure details such as replication slot names, confirmed_flush_lsn, restart_lsn values, and database error messages for reconnaissance purposes.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:44+00:00",
+    "cve_ids": [
+      "CVE-2026-56282"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Capgo before 12.128.2 contains an information disclosure vulnerability in the unauthenticated /replication endpoint that exposes internal PostgreSQL replication telemetry including slot names and WAL LSN positions. Attackers can access this endpoint without authentication to retrieve sensitive infra",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56282 - Capgo - Information Disclosure vi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f0fd07e0df7bc6f62c9f6a17120d2cc1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56276 - Flowise - Mass Assignment in PUT /api/v1/user Allows Password Hash Override",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56276",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56276\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Flowise before 3.1.2 contains a mass assignment vulnerability in the PUT /api/v1/user endpoint that allows authenticated users to directly modify the credential field without validation. Attackers can bypass password change verification and session invalidation by supplying a crafted password hash, establishing persistent account access after temporary session compromise.\n  <br />\n  <strong>Severity:</strong> 6.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:44+00:00",
+    "cve_ids": [
+      "CVE-2026-56276"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56276 - Flowise - Mass Assignment in PUT ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2c415c0417bb98184330a9d45f5ae3f7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56267 - Flowise - PII Disclosure via Unauthenticated Forgot Password Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56267",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56267\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Flowise before 3.0.13 contains an information exposure vulnerability in the POST /api/v1/account/forgot-password endpoint that returns full user objects including PII to unauthenticated attackers. An attacker can enumerate valid email addresses and harvest sensitive user data including user IDs, names, account status, and timestamps by sending requests with known email addresses.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:43+00:00",
+    "cve_ids": [
+      "CVE-2026-56267"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56267 - Flowise - PII Disclosure via Unau",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b266ff0630f3e65c47a147cd004f78da",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56235 - Capgo - Unauthenticated Cross-Tenant Metrics Disclosure via RPC Functions",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56235",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56235\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Cap-go capgo before 12.128.2 contains an authorization bypass in several Supabase PostgREST RPC functions (get_app_metrics, get_global_metrics, get_total_metrics) that are granted to the anon role without enforcing org membership or permission checks. An unauthenticated attacker using only the public Supabase API key (sb_publishable_*) can query arbitrary org_id values to disclose cross-tenant usage telemetry (MAU, bandwidth, installs, gets), enumerate app IDs for a target org, and determine org existence via an oracle (valid org returns metrics, invalid returns []).\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <",
+    "pub_date": "2026-06-20T15:24:42+00:00",
+    "cve_ids": [
+      "CVE-2026-56235"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Cap-go capgo before 12.128.2 contains an authorization bypass in several Supabase PostgREST RPC functions (get_app_metrics, get_global_metrics, get_total_metrics) that are granted to the anon role without enforcing org membership or permission checks. An unauthenticated attacker using only the publi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56235 - Capgo - Unauthenticated Cross-Ten",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "06daa8bab95d952b43d8ebc1a09d0dc9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56228 - Capgo - Denial of Service via Improper Password Policy Length Validation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56228",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56228\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 fails to enforce a maximum value on the minimum password length field in its password policy configuration. An authenticated organization administrator can set an extremely large numeric value (e.g., billions of characters) as the minimum password length, making compliance impossible for all organization members. Once the policy is enabled, users (including administrators) are unable to change their passwords or access the organization, resulting in an organization-wide account lockout and application-level denial of service.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the li",
+    "pub_date": "2026-06-20T15:24:41+00:00",
+    "cve_ids": [
+      "CVE-2026-56228"
+    ],
+    "cvss": 4.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.9,
+      "description": "Capgo before 12.128.2 fails to enforce a maximum value on the minimum password length field in its password policy configuration. An authenticated organization administrator can set an extremely large numeric value (e.g., billions of characters) as the minimum password length, making compliance impo",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56228 - Capgo - Denial of Service via Imp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ac1372ac9f70ba6b6df4ba9df1be9f41",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56227 - Capgo - Server-Side Request Forgery via Webhook URL Validation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56227",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56227\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains a server-side request forgery vulnerability in webhook URL validation that allows loopback and internal addresses. Organization admins can configure webhooks pointing to localhost or 127.0.0.1, and when triggered, the backend performs outbound requests to these addresses with error responses disclosed to users.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:41+00:00",
+    "cve_ids": [
+      "CVE-2026-56227"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "Capgo before 12.128.2 contains a server-side request forgery vulnerability in webhook URL validation that allows loopback and internal addresses. Organization admins can configure webhooks pointing to localhost or 127.0.0.1, and when triggered, the backend performs outbound requests to these address",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56227 - Capgo - Server-Side Request Forge",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ffdf89eaaf4b778e8507748616ce3786",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56218 - Capgo - EXIF Metadata Exposure via Image Upload",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56218",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56218\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 fails to strip EXIF metadata including GPS geolocation data from uploaded images, allowing information disclosure. Attackers can download uploaded images and extract precise latitude and longitude coordinates revealing user physical location at capture time.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:40+00:00",
+    "cve_ids": [
+      "CVE-2026-56218"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Capgo before 12.128.2 fails to strip EXIF metadata including GPS geolocation data from uploaded images, allowing information disclosure. Attackers can download uploaded images and extract precise latitude and longitude coordinates revealing user physical location at capture time.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56218 - Capgo - EXIF Metadata Exposure vi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "74fb5bbb249e56e1ffc746c2df5c054a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2025-71331 - Flowise - Cross-Site Scripting in Chat Messages and Agent Workflows",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2025-71331",
+    "summary": "<strong>CVE ID :</strong>CVE-2025-71331\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:24 p.m. | 7 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Flowise before 3.0.8 contains a cross-site scripting (XSS) vulnerability caused by insufficient input filtering in chat messages and custom agent functions. An attacker can inject malicious JavaScript by sending an iframe payload (e.g., ) in a chat box, or by having a custom agent function return an XSS payload from an external website. The injected script executes in the victim's browser, enabling theft of cookies and session data.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:24:39+00:00",
+    "cve_ids": [
+      "CVE-2025-71331"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "Flowise before 3.0.8 contains a cross-site scripting (XSS) vulnerability caused by insufficient input filtering in chat messages and custom agent functions. An attacker can inject malicious JavaScript by sending an iframe payload (e.g., <iframe src=\"javascript:alert(document.cookie)\">) in a chat box",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2025-71331 - Flowise - Cross-Site Scripting in",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "01eb6fc0a1e3f84596a4917aa9a4b90c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56325 - Capgo - App ID Confusion via ILIKE Wildcard in Preview Subdomain Lookup",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56325",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56325\n  <br />\n  <strong>Published :</strong> June 20, 2026, 3:21 p.m. | 8 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 uses ILIKE pattern matching instead of exact matching for app_id lookup in the preview subdomain resolver, allowing underscore characters in app_id to act as SQL wildcards. Attackers can create apps with app_ids differing by one character at underscore positions to cause unintended pattern matches, breaking preview functionality for legitimate apps or causing app-id confusion.\n  <br />\n  <strong>Severity:</strong> 3.1 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-20T15:21:57+00:00",
+    "cve_ids": [
+      "CVE-2026-56325"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "Capgo before 12.128.2 uses ILIKE pattern matching instead of exact matching for app_id lookup in the preview subdomain resolver, allowing underscore characters in app_id to act as SQL wildcards. Attackers can create apps with app_ids differing by one character at underscore positions to cause uninte",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56325 - Capgo - App ID Confusion via ILIK",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8b5688190b3d8ea01f6592aefece5145",
+    "source": "BleepingComputer",
+    "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
+    "link": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+    "summary": "A new ransomware operation named 'Prinz Eugen' prioritizes recently modified files for encryption and leaves no ransom note on the system. [...]",
+    "pub_date": "2026-06-20T15:23:46+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Prinz Eugen ransomware prioritizes recent file",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6dc962b757f829c626cf588d6e969168",
+    "source": "BleepingComputer",
+    "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+    "summary": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]",
+    "pub_date": "2026-06-20T14:09:19+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Microsoft links Mastra AI supply chain attack to N",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "236eb33db5759c846a4c14ddd0f930c7",
+    "source": "SecurityWeek",
+    "title": "French President Urges US to Share Cutting-Edge AI and Democracies to Cooperate on Regulation",
+    "link": "https://www.securityweek.com/french-president-urges-us-to-share-cutting-edge-ai-and-democracies-to-cooperate-on-regulation/",
+    "summary": "<p>French President Emmanuel Macron urged the world’s wealthy democracies to work together on regulating advanced AI systems.</p>\n<p>The post <a href=\"https://www.securityweek.com/french-president-urges-us-to-share-cutting-edge-ai-and-democracies-to-cooperate-on-regulation/\">French President Urges US to Share Cutting-Edge AI and Democracies to Cooperate on Regulation</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-06-20T09:48:40+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "French President Urges US to Share Cutting-Edge AI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3c02ee8690f770fb334836241dfa97e7",
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+    "link": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+    "summary": "Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites.\n\nThe vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens",
+    "pub_date": "2026-06-20T09:56:04+00:00",
+    "cve_ids": [
+      "CVE-2026-4020"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hackers Exploit Gravity SMTP WordPress Plugin Bug ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ccdf721a9cca1b58f25bcbd843ac12a9",
+    "source": "Unit 42",
+    "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
+    "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+    "summary": "<p>We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. </p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/large-scale-credential-attacks/\">Threat Brief: Mitigating Large-Scale Credential Attacks</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>",
+    "pub_date": "2026-06-20T02:05:33+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Threat Brief: Mitigating Large-Scale Credential At",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1052dd81564567e273b0c293bfd5147d",
+    "source": "Security Affairs",
+    "title": "Inside GentleKiller: The EDR-Killer Powering The Gentlemen",
+    "link": "https://securityaffairs.com/193941/uncategorized/inside-gentlekiller-the-edr-killer-powering-the-gentlemen.html",
+    "summary": "The Gentlemen equips affiliates with a centralized EDR-killer suite, rapidly weaponizing BYOVD exploits to disable security tools before ransomware attacks. ESET published a detailed breakdown of The Gentlemen&#8216;s technical infrastructure on June 18, the result of months of incident-level investigation corroborated by the group&#8217;s own internal data leak from May 2026. Since emerging in late [&#8230;]",
+    "pub_date": "2026-06-20T15:30:22+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Inside GentleKiller: The EDR-Killer Powering The G",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c9b07ea8ff718676a082ebda6aed4862",
+    "source": "Security Affairs",
+    "title": "FortiBleed Exposes Global Credential-Spraying Operation",
+    "link": "https://securityaffairs.com/193931/hacking/fortibleed-exposes-global-credential-spraying-operation.html",
+    "summary": "FortiBleed exposed a massive campaign that made billions of login attempts against Fortinet VPNs, compromising organizations worldwide. FortiBleed wasn&#8217;t a targeted hack. It was a factory. A multi-operator crew ran an industrial-scale attack against Fortinet FortiGate SSL VPN devices worldwide, and security researcher Volodymyr &#8220;Bob&#8221; Diachenko of SecurityDiscovery.com caught them only because they left their [&#8230;]",
+    "pub_date": "2026-06-20T08:37:49+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "FortiBleed Exposes Global Credential-Spraying Oper",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ff63cabe2afdaea677a94b5b2b6ab436",
+    "source": "Security Affairs",
+    "title": "CISA Warns of Active Exploitation Following FortiBleed Leak",
+    "link": "https://securityaffairs.com/193902/hacking/cisa-warns-of-active-exploitation-following-fortibleed-leak.html",
+    "summary": "FortiBleed exposed credentials for 74,000 Fortinet devices, with attackers actively exploiting the leak to target systems worldwide. On June 18, CISA issued an emergency alert after reports surfaced that credentials for approximately 74,000 Fortinet firewalls and VPN gateways had been leaked in what researchers are calling FortiBleed. The agency confirmed that threat actors were actively [&#8230;]",
+    "pub_date": "2026-06-20T08:10:50+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CISA Warns of Active Exploitation Following FortiB",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f872616042a910b9b1900b14b3dcc2a",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 2: Sto",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dbfe95ad2e9d92b7fa6e403d9471f01d",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 1: The",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "734ce40a3df927fe2f4c6286f97a8456",
+    "source": "CrowdStrike",
+    "title": "After Executive Order 14409: Next Steps for Securing AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "After Executive Order 14409: Next Steps for Securi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fa98c086f9f0ffd128027b3900bab1b0",
+    "source": "CrowdStrike",
+    "title": "Falcon Exposure Management Now Available for Third-Party Environments",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Exposure Management Now Available for Third",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5627343bd8d0dc34520a49e641fac5e4",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Announces Continuous Identity for AI Agents",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Announces Continuous Identity for AI A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07d00e994aef66e46c15124b13fc8ebf",
+    "source": "CrowdStrike",
+    "title": "Why AI Projects Stall and How CIOs Can Respond",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Projects Stall and How CIOs Can Respond",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "290f2b600fd3430143fef98c38268990",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar&trade;: Cloud and Application Runtime Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named an Innovation and Growth Leader ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cff83324956e33760e68ebb0e48e8192",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Identity Leadership with OpenID and IDPro",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Identity Leadership with OpenI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "42027725b8b2b9ba0cb7316c9813e14d",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike 2026 Technology Threat Landscape Report: China&rsquo;s Ambitions Fuel Attacks",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike 2026 Technology Threat Landscape Repor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "219949705e47d4e93673d675a46ad2b7",
+    "source": "CrowdStrike",
+    "title": "June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "June 2026 Patch Tuesday: Microsoft Patches 206 Vul",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
