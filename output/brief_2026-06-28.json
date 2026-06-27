@@ -1,0 +1,845 @@
+[
+  {
+    "uid": "f3c682cb8f6199b4629fb7e83ca6c45d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10643 - Out-of-bounds heap write in Zephyr `recvmsg()` ancillary-data path (`insert_pktinfo` undersizes the control-buffer capacity check)",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10643",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10643\n  <br />\n  <strong>Published :</strong> June 27, 2026, 10:59 p.m. | 41 minutes ago\n  <br />\n  <strong>Description :</strong>Zephyr's IP socket recvmsg() implementation (subsys/net/lib/sockets/sockets_inet.c, insert_pktinfo()) validated the user-supplied ancillary (msg_control) buffer using only the payload length (msg-msg_controllen < pktinfo_len) before writing a full control message consisting of an aligned cmsg header plus the payload. Because the check omitted the cmsg header size, a control buffer whose length falls in the under-checked window (e.g. 16-27 bytes for IPv4 IP_PKTINFO on a 64-bit target, where a single element actually occupies 28 bytes) passes the guard yet causes a fixed-size out-of-bounds write of up to one cmsg header (~12 bytes",
+    "pub_date": "2026-06-27T22:59:22+00:00",
+    "cve_ids": [
+      "CVE-2026-10643"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10643 - Out-of-bounds heap write in Zephy",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2411df5b3effe70fc546cba30e168446",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-49416 - Integer overflow in vt(4) CONS_HISTORY ioctl",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-49416",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-49416\n  <br />\n  <strong>Published :</strong> June 27, 2026, 9:25 a.m. | 14 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The CONS_HISTORY ioctl handler did not adequately validate the requested history size.  A large value caused an integer overflow in the buffer size calculation, resulting in a heap allocation smaller than expected.  Subsequent initialization of the buffer wrote beyond the end of the allocation.\n\nAn unprivileged local user with access to a vt(4) device can trigger an out-of-bounds write in the kernel, potentially escalating privileges.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-27T09:25:12+00:00",
+    "cve_ids": [
+      "CVE-2026-49416"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-49416 - Integer overflow in vt(4) CONS_HI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "561fa61cfc7f231f9801db615bac0769",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-49414 - ASLR bypass for setuid executables via procctl(2)",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-49414",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-49414\n  <br />\n  <strong>Published :</strong> June 27, 2026, 9:22 a.m. | 14 hours, 18 minutes ago\n  <br />\n  <strong>Description :</strong>The ELF image activator cleared per-process ASLR preference flags for setuid binaries after the code that computes the PIE base address, rather than before.  As a result, a user-requested ASLR disable was still in effect at the point where the base address was chosen.\n\nAn unprivileged local user can disable ASLR for a setuid PIE binary by calling procctl(2) before execve(2).  This makes exploitation of any separate memory corruption vulnerability in that binary significantly easier.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timelin",
+    "pub_date": "2026-06-27T09:22:23+00:00",
+    "cve_ids": [
+      "CVE-2026-49414"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-49414 - ASLR bypass for setuid executable",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "41be32fa743b8a71fc1c60aa1fa8b3f0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-49413 - Flaw in Linuxulator execution of setugid binaries",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-49413",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-49413\n  <br />\n  <strong>Published :</strong> June 27, 2026, 9:08 a.m. | 14 hours, 31 minutes ago\n  <br />\n  <strong>Description :</strong>The Linuxulator determined whether a binary was set-user-ID or set-group-ID by checking the P_SUGID process flag.  During execve(2), this flag is not yet set at the point where the auxiliary vector is constructed, so AT_SECURE was incorrectly set to zero for set-user-ID and set-group-ID executables.\n\nAn unprivileged local user can inject a shared library via LD_PRELOAD into a set-user-ID or set-group-ID Linux binary, gaining the privileges of that binary.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-27T09:08:23+00:00",
+    "cve_ids": [
+      "CVE-2026-49413"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-49413 - Flaw in Linuxulator execution of ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9e418cdca8489ed3a90ec76d046ffa92",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-49412 - Use-after-free bug in the IPV6_MSFILTER socket option handler",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-49412",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-49412\n  <br />\n  <strong>Published :</strong> June 27, 2026, 9:02 a.m. | 14 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>The kernel handler for IPV6_MSFILTER dropped a serializing lock in order to copy the source-filter list from userspace, then reacquired the lock.  During this window another thread could free the multicast filter structure, leaving the handler with a stale pointer to freed memory.\n\nAn unprivileged local user can exploit this use-after-free to escalate privileges.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-27T09:02:55+00:00",
+    "cve_ids": [
+      "CVE-2026-49412"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-49412 - Use-after-free bug in the IPV6_MS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e4a3cb641452919837c17490665b2cad",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-45259 - sigqueue(2) missing capability mode restriction",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-45259",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-45259\n  <br />\n  <strong>Published :</strong> June 27, 2026, 8:59 a.m. | 14 hours, 41 minutes ago\n  <br />\n  <strong>Description :</strong>sigqueue(2) was marked as permitted in capability mode with the introduction of Capsicum in 2011, but the implementation of kern_sigqueue did not include a capability mode check restricting signal delivery to the calling process's own PID.\n\nA process in capability mode can use sigqueue(2) to send signals to any process it could signal following standard Unix permissions, bypassing the Capsicum sandbox restriction.  A compromised sandboxed process could interfere with other processes, for example by sending SIGKILL or SIGSTOP.  This could be any process running as the same user, or any process, for a superuser sandboxed ",
+    "pub_date": "2026-06-27T08:59:17+00:00",
+    "cve_ids": [
+      "CVE-2026-45259"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-45259 - sigqueue(2) missing capability mo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c5077db3f997d091173c39a92ff0ee7c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-45258 - Multiple vulnerabilities in the sound(4) mmap path",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-45258",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-45258\n  <br />\n  <strong>Published :</strong> June 27, 2026, 8:50 a.m. | 14 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>dsp_mmap_single() validated the requested mapping by checking the sum of the user-supplied offset and length against the buffer size.  This addition could overflow, so that a large offset and length wrapped around and passed the check.  The offset was then narrowed from 64 to 32 bits when converted to a buffer address, yielding a mapping that extended past the audio buffer into unrelated kernel memory.\n\nThe /dev/dsp device nodes are world-accessible by default.  On a system with an audio device, either issue allows an unprivileged local user to read and write kernel memory, which can be used to escalate privileges, pote",
+    "pub_date": "2026-06-27T08:50:56+00:00",
+    "cve_ids": [
+      "CVE-2026-45258"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-45258 - Multiple vulnerabilities in the s",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d90e63647d0dd6cd5e22dc9c17afa803",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-49417 - Multiple vulnerabilities in the sound(4) mmap path",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-49417",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-49417\n  <br />\n  <strong>Published :</strong> June 27, 2026, 8:48 a.m. | 14 hours, 51 minutes ago\n  <br />\n  <strong>Description :</strong>Second, the audio buffer backing a mapping could be freed when the device was closed even though the mapping remained valid.  The freed memory could then be reused elsewhere while still accessible through the stale mapping.\n\nThe /dev/dsp device nodes are world-accessible by default.  On a system with an audio device, either issue allows an unprivileged local user to read and write kernel memory, which can be used to escalate privileges, potentially gaining full control of the affected system.  At a minimum, an attacker can crash the kernel, resulting in a Denial of Service (DoS).\n  <br />\n  <strong>Severity:</strong> 0.",
+    "pub_date": "2026-06-27T08:48:30+00:00",
+    "cve_ids": [
+      "CVE-2026-49417"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-49417 - Multiple vulnerabilities in the s",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b507aff55e5719adf80f83f9963297cd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12399 - Gutenverse <= 3.8.0 - Authenticated (Editor+) Stored Cross-Site Scripting via 'fonts[].font.font.value' Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12399",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12399\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Gutenverse – WordPress Blocks, Page Builder & Site Editor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 3.8.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with editor-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.\n  <br />\n  <strong>Severity:</strong> 4.4 | MEDIUM\n  <br />\n  Visit the link fo",
+    "pub_date": "2026-06-27T06:50:59+00:00",
+    "cve_ids": [
+      "CVE-2026-12399"
+    ],
+    "cvss": 4.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.4,
+      "description": "The Gutenverse – WordPress Blocks, Page Builder & Site Editor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 3.8.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attacker",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12399 - Gutenverse <= 3.8.0 - Authenticat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "558584d763977bd27368fd124044ceda",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-3462 - Frisbii Pay <= 1.8.9 - Missing Authorization to Authenticated (Subscriber+) Payment Token Modification",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-3462",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-3462\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Frisbii Pay plugin for WordPress is vulnerable to unauthorized modification of data due to missing capability checks on the 'upload_csv' and 'process_batch' functions in all versions up to, and including, 1.8.9. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary CSV data and overwrite WooCommerce payment tokens, postmeta, and order meta records.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-27T06:50:59+00:00",
+    "cve_ids": [
+      "CVE-2026-3462"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "The Frisbii Pay plugin for WordPress is vulnerable to unauthorized modification of data due to missing capability checks on the 'upload_csv' and 'process_batch' functions in all versions up to, and including, 1.8.9. This makes it possible for authenticated attackers, with Subscriber-level access and",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-3462 - Frisbii Pay <= 1.8.9 - Missing Aut",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "01301a48ac10af685475aabe823fdd47",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12432 - Stripe Payment Forms by WP Full Pay <= 8.4.3 - Missing Authorization to Unauthenticated Payment Record Manipulation via 'paymentIntentId' Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12432",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12432\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The WP Full Stripe Free plugin for WordPress is vulnerable to Missing Authorization in versions up to, and including, 8.4.3 via the wpfs_update_failed_payment_status AJAX action. The handler is registered through both wp_ajax_ and wp_ajax_nopriv_ hooks and the underlying update_failed_payment_status() function performs no capability check, no nonce verification, and no logged-in check before calling $this->db->updatePaymentByEventId() with attacker-controlled POST parameters. This makes it possible for unauthenticated attackers who can obtain a valid Stripe Payment Intent ID for the target site (Payment Intent IDs are e",
+    "pub_date": "2026-06-27T06:50:59+00:00",
+    "cve_ids": [
+      "CVE-2026-12432"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "The WP Full Stripe Free plugin for WordPress is vulnerable to Missing Authorization in versions up to, and including, 8.4.3 via the wpfs_update_failed_payment_status AJAX action. The handler is registered through both wp_ajax_ and wp_ajax_nopriv_ hooks and the underlying update_failed_payment_status",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12432 - Stripe Payment Forms by WP Full P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "14d570460fafd361edda85b40544bc7c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11597 - Surbma | Infusionsoft Shortcode <= 2.0.1 - Authenticated (Contributor+) Stored Cross-Site Scripting via Shortcode Attributes",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11597",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11597\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Surbma | Infusionsoft Shortcode plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'infusionsoft-form' shortcode in versions up to, and including, 2.0.1. This is due to insufficient input sanitization and output escaping on user-supplied 'account' and 'id' shortcode attributes in the surbma_infusionsoft_shortcode_shortcode() function, which are concatenated directly into a <br /><strong></strong><br />",
+    "pub_date": "2026-06-27T06:50:58+00:00",
+    "cve_ids": [
+      "CVE-2026-11597"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "The Surbma | Infusionsoft Shortcode plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'infusionsoft-form' shortcode in versions up to, and including, 2.0.1. This is due to insufficient input sanitization and output escaping on user-supplied 'account' and 'id' shortcode attrib",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11597 - Surbma | Infusionsoft Shortcode <",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "260dd4ae65989db23db16e5b59f6f3f3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13295 - Page Builder by SiteOrigin <= 2.34.3 - Authenticated (Contributor+) Stored Cross-Site Scripting via panels_data Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13295",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13295\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Page Builder by SiteOrigin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via panels_data Parameter in all versions up to, and including, 2.34.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This is possible because the nonce and edit_post capability checks enforced during save are both satisfied by Contributor-level users for their own posts, and the panels_data value is stored as post meta ",
+    "pub_date": "2026-06-27T06:50:58+00:00",
+    "cve_ids": [
+      "CVE-2026-13295"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "The Page Builder by SiteOrigin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via panels_data Parameter in all versions up to, and including, 2.34.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-lev",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13295 - Page Builder by SiteOrigin <= 2.3",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "81f241534694471c23bd27cd8d009da6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12471 - Spexo <= 2.0.11 - Missing Authorization to Authenticated (Subscriber+) Limited Plugin Activation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12471",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12471\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Spexo theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the activate_plugin function in all versions up to, and including, 2.0.11. This makes it possible for authenticated attackers, with Subscriber-level access and above, to activate a limited set of plugins.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-27T06:50:57+00:00",
+    "cve_ids": [
+      "CVE-2026-12471"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Spexo theme for WordPress is vulnerable to unauthorized access due to a missing capability check on the activate_plugin function in all versions up to, and including, 2.0.11. This makes it possible for authenticated attackers, with Subscriber-level access and above, to activate a limited set of ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12471 - Spexo <= 2.0.11 - Missing Authori",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "67c0cfb74af95b8e9a2d3207e8864aca",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11773 - Masteriyo LMS <= 2.2.1 - Missing Authorization to Authenticated (Student+) Arbitrary Course Announcement Modification",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11773",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11773\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Masteriyo LMS – LMS Course Builder, Quizzes & Certificates plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.2.1. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authenticated attackers, with student-level access and above, to modify the description (post content) of arbitrary course announcements authored by instructors or administrators.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more..",
+    "pub_date": "2026-06-27T06:50:57+00:00",
+    "cve_ids": [
+      "CVE-2026-11773"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Masteriyo LMS – LMS Course Builder, Quizzes & Certificates plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.2.1. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authentic",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11773 - Masteriyo LMS <= 2.2.1 - Missing ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d3a8e61f4df066d39897cc7fe029e4ec",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9233 - Quiz and Survey Master (QSM) <= 11.1.4 - Missing Authorization to Authenticated (Contributor+) Arbitrary Modification via qsm_insert_quiz_template AJAX Action",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9233",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9233\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Quiz and Survey Master (QSM) – Easy Quiz and Survey Maker plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 11.1.4. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authenticated attackers, with contributor-level access and above, to create, modify, and delete quiz output templates stored in the mlw_quiz_output_templates database table, including storing unsanitized HTML content such as arbitrary script tags.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more det",
+    "pub_date": "2026-06-27T06:50:57+00:00",
+    "cve_ids": [
+      "CVE-2026-9233"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Quiz and Survey Master (QSM) – Easy Quiz and Survey Maker plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 11.1.4. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authentic",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9233 - Quiz and Survey Master (QSM) <= 11",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "881c728c5fb4a336d89b2812d38ab179",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11364 - Product Specifications for Woocommerce <= 0.8.9 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Attribute/Group Creation, Modification, and Deletion via 'dwps_modify_groups' and 'dwps_modify_attributes' AJAX Actions",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11364",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11364\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Product Specifications for WooCommerce plugin for WordPress is vulnerable to unauthorized modification, creation, and deletion of data in versions up to and including 0.8.9. This is due to a missing capability check and missing nonce verification in the __invoke() methods of the AttributeGroupController and AttributeController classes, which are bound to the 'dwps_modify_groups' and 'dwps_modify_attributes' AJAX actions. This makes it possible for authenticated attackers, with Subscriber-level access and above, to create, edit, and delete arbitrary product specification groups and attributes (taxonomy terms in the '",
+    "pub_date": "2026-06-27T06:50:56+00:00",
+    "cve_ids": [
+      "CVE-2026-11364"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Product Specifications for WooCommerce plugin for WordPress is vulnerable to unauthorized modification, creation, and deletion of data in versions up to and including 0.8.9. This is due to a missing capability check and missing nonce verification in the __invoke() methods of the AttributeGroupCo",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11364 - Product Specifications for Woocom",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c65c0525b5ac15d76a800b98d1d4ff93",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11783 - Dokan: AI Powered WooCommerce Multivendor Marketplace Solution <= 5.0.4 - Authenticated (Custom+) Stored Cross-Site Scripting via Product SKU",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11783",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11783\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Dokan: AI Powered WooCommerce Multivendor Marketplace Solution – Build Your Own Amazon, eBay, Etsy plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Product SKU in all versions up to, and including, 5.0.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with custom-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The malicious payload is delivered to site visitors — including unauthenticated users — when the store search widget inserts the unescaped AJAX resp",
+    "pub_date": "2026-06-27T06:50:56+00:00",
+    "cve_ids": [
+      "CVE-2026-11783"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "The Dokan: AI Powered WooCommerce Multivendor Marketplace Solution – Build Your Own Amazon, eBay, Etsy plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Product SKU in all versions up to, and including, 5.0.4 due to insufficient input sanitization and output escaping. This makes ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11783 - Dokan: AI Powered WooCommerce Mul",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2f25d29e16bb3440021a5651733f367f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9242 - RegistrationMagic <= 6.0.8.6 - Authenticated (Subscriber+) Authentication Bypass via Forged PayPal IPN Request",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9242",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9242\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login plugin for WordPress is vulnerable to Authentication Bypass via Insufficient Verification of Data Authenticity in all versions up to and including 6.0.8.6. This is due to the PayPal IPN `callback` handler being registered as a nopriv AJAX action with no authentication or nonce requirement, and critically because the handler updates the payment log database row with attacker-controlled POST data — including `payment_status` and the `custom` field encoding the target `user_id` — before PayPal IPN validation is performed, meaning t",
+    "pub_date": "2026-06-27T06:50:56+00:00",
+    "cve_ids": [
+      "CVE-2026-9242"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "The RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login plugin for WordPress is vulnerable to Authentication Bypass via Insufficient Verification of Data Authenticity in all versions up to and including 6.0.8.6. This is due to the PayPal IPN `callback` handler b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9242 - RegistrationMagic <= 6.0.8.6 - Aut",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dd91100a8549ee7dc62e97827c868a26",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-11987 - Dokan: AI Powered WooCommerce Multivendor Marketplace Solution <= 5.0.4 - Authenticated (Subscriber+) Insecure Direct Object Reference to Information Disclosure via 'id' Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-11987",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-11987\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6:50 a.m. | 16 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>The Dokan: AI Powered WooCommerce Multivendor Marketplace Solution – Build Your Own Amazon, eBay, Etsy plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 5.0.4 via the 'id' parameter due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with subscriber-level access and above, to read any other vendor's products — including unpublished draft and pending listings — exposing product names, prices, SKUs, and descriptions belonging to other vendors. The permission callbacks for both the collection endpoint and the sing",
+    "pub_date": "2026-06-27T06:50:55+00:00",
+    "cve_ids": [
+      "CVE-2026-11987"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Dokan: AI Powered WooCommerce Multivendor Marketplace Solution – Build Your Own Amazon, eBay, Etsy plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 5.0.4 via the 'id' parameter due to missing validation on a user controlled key. This ma",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-11987 - Dokan: AI Powered WooCommerce Mul",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "22e2e59bd705c77ea31caefa21948148",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9677 - Shariff for WordPress <= 1.0.11 - Admin+ Stored Cross-Site Scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9677",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9677\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6 a.m. | 17 hours, 40 minutes ago\n  <br />\n  <strong>Description :</strong>The Shariff for WordPress Shariff for WordPress plugin through 1.0.11 does not sanitize or escape the shariff_infourl setting before outputting it in the frontend HTML via the generateshariff() function, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-27T06:00:02+00:00",
+    "cve_ids": [
+      "CVE-2026-9677"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9677 - Shariff for WordPress <= 1.0.11 - ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "383d89f92a9598e9aa1174cbda89835c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10820 - ProfilePress < 4.16.17 - Subscriber+ Subscription Cancellation via IDOR",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10820",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10820\n  <br />\n  <strong>Published :</strong> June 27, 2026, 6 a.m. | 17 hours, 40 minutes ago\n  <br />\n  <strong>Description :</strong>The Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content  WordPress plugin before 4.16.17 does not verify that the user performing a subscription action owns the targeted subscription, allowing any authenticated user (Subscriber+) to cancel other users' active subscriptions via an Insecure Direct Object Reference.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-27T06:00:02+00:00",
+    "cve_ids": [
+      "CVE-2026-10820"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10820 - ProfilePress < 4.16.17 - Subscrib",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ec7eaf5b2b33ac249d8d4a885b64b30a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12404 - NEX-Forms <= 9.2.2 - Missing Authorization to Unauthenticated Sensitive Information Disclosure via CSVExport Class",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12404",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12404\n  <br />\n  <strong>Published :</strong> June 27, 2026, 5:33 a.m. | 18 hours, 6 minutes ago\n  <br />\n  <strong>Description :</strong>The NEX-Forms – Ultimate Forms Plugin for WordPress plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 9.2.2. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated attackers to enumerate sequential report IDs and download complete form submission data — including names, email addresses, phone numbers, postal addresses, payment details, and uploaded file paths — for any saved report on the site.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, suc",
+    "pub_date": "2026-06-27T05:33:44+00:00",
+    "cve_ids": [
+      "CVE-2026-12404"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "The NEX-Forms – Ultimate Forms Plugin for WordPress plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 9.2.2. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for unauthenticated atta",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12404 - NEX-Forms <= 9.2.2 - Missing Auth",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "980381bc4393d434bbe03e371f874642",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13245 - MaxButtons <= 9.8.5 - Reflected Cross-Site Scripting via 'view' Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13245",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13245\n  <br />\n  <strong>Published :</strong> June 27, 2026, 5:33 a.m. | 18 hours, 6 minutes ago\n  <br />\n  <strong>Description :</strong>The MaxButtons – Create buttons plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'view' parameter in all versions up to, and including, 9.8.5 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-27T05:33:43+00:00",
+    "cve_ids": [
+      "CVE-2026-13245"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "The MaxButtons – Create buttons plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'view' parameter in all versions up to, and including, 9.8.5 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitra",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13245 - MaxButtons <= 9.8.5 - Reflected C",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e80a3b7a7eaf2d5b6c93686adae3a8c2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12415 - Invoice Generator <= 1.0.0 - Unauthenticated Privilege Escalation via Account Takeover via 'user_id' Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12415",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12415\n  <br />\n  <strong>Published :</strong> June 27, 2026, 4:30 a.m. | 19 hours, 9 minutes ago\n  <br />\n  <strong>Description :</strong>The Invoice Generator plugin for WordPress is vulnerable to privilege escalation due to a missing capability check on the pravel_invoice_edit_account() AJAX action in versions up to, and including, 1.0.0. The handler is exposed via wp_ajax_nopriv_pravel_invoice_edit_account, accepts an attacker-controlled user_id and user_email from POST data, and calls wp_update_user() without verifying authentication, ownership, or a nonce. This makes it possible for unauthenticated attackers to change the email address of any user, including administrators, and then trigger WordPress's password reset flow to gain access to the targete",
+    "pub_date": "2026-06-27T04:30:30+00:00",
+    "cve_ids": [
+      "CVE-2026-12415"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "The Invoice Generator plugin for WordPress is vulnerable to privilege escalation due to a missing capability check on the pravel_invoice_edit_account() AJAX action in versions up to, and including, 1.0.0. The handler is exposed via wp_ajax_nopriv_pravel_invoice_edit_account, accepts an attacker-cont",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12415 - Invoice Generator <= 1.0.0 - Unau",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e6448c1692d0cef6841c1df670c1cfd3",
+    "source": "BleepingComputer",
+    "title": "Clean GitHub repo tricks AI coding agents into running malware",
+    "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+    "summary": "An agentic coding tool tasked with cloning and setting up a seemingly benign GitHub repository could execute a malicious payload that remains invisible to security scanners, AI agents, and human reviewers. [...]",
+    "pub_date": "2026-06-27T14:22:36+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Clean GitHub repo tricks AI coding agents into run",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "74e2b245d5ce5a34eff4998a92933f74",
+    "source": "Dark Reading",
+    "title": "Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk",
+    "link": "https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk",
+    "summary": "Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks.",
+    "pub_date": "2026-06-27T11:48:05+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Third-Party Breaches Teach Education Sector a Cost",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2855741275ec773390ce76dc8e71948f",
+    "source": "SecurityWeek",
+    "title": "Chinese Framework Powers 200,000 Scam Sites",
+    "link": "https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/",
+    "summary": "<p>Threat actors are selling investment scam templates created using the legitimate DCloud Uni-App toolkit.</p>\n<p>The post <a href=\"https://www.securityweek.com/chinese-framework-powers-200000-scam-sites/\">Chinese Framework Powers 200,000 Scam Sites</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-06-27T12:13:51+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Chinese Framework Powers 200,000 Scam Sites",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cdd3a23529c8e6d87ac4971d6f738d25",
+    "source": "The Hacker News",
+    "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
+    "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+    "summary": "The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence services to break into the messaging accounts of government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S.\n\nThe systematic cyber attacks aimed at stealing sensitive",
+    "pub_date": "2026-06-27T17:27:11+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Ukraine Says Russian Intelligence Used Fake Suppor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "84222de80e842511e06f77d1f93fe175",
+    "source": "The Hacker News",
+    "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
+    "link": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
+    "summary": "OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S. government.\n\nWhile Sol is the latest flagship model and the most powerful, Terra strikes a balance between efficiency and power, and Luna is fine-tuned for speed and affordability.\n\n\"GPT‑5.6 Sol launches with our most",
+    "pub_date": "2026-06-27T12:19:37+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "OpenAI Previews GPT-5.6 Sol With Restricted Access",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "64dfab8e867f164ee4d0791b6803e099",
+    "source": "Security Affairs",
+    "title": "New FBI Alert: Russian Intelligence Uses Signal Recovery Keys to Access Messages",
+    "link": "https://securityaffairs.com/194360/intelligence/new-fbi-alert-russian-intelligence-uses-signal-recovery-keys-to-access-messages.html",
+    "summary": "FBI warns Russian spies now target Signal Backup Recovery Keys, enabling access to message history and long-term account takeover. The FBI and CISA updated their March 2026 warning about Russian intelligence phishing campaigns, and the new advisory adds a detail that wasn&#8217;t in the original: the operators have shifted their primary objective from stealing verification [&#8230;]",
+    "pub_date": "2026-06-27T16:08:57+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New FBI Alert: Russian Intelligence Uses Signal Re",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c684d625c18b96ddcc768876bf3f1191",
+    "source": "Security Affairs",
+    "title": "Hospitality Sector Hit by Phishing Campaign Using Fake Guest Complaint Emails",
+    "link": "https://securityaffairs.com/194349/uncategorized/hospitality-sector-hit-by-phishing-campaign-using-fake-guest-complaint-emails.html",
+    "summary": "Microsoft warns of a phishing campaign targeting the hospitality sector with fake guest emails that install TonRAT using resilient persistence. Microsoft Threat Intelligence published a detailed analysis on an ongoing hacking campaign against hospitality organizations that has been running since April 2026. The targets are specific: device names observed across compromised environments include strings like [&#8230;]",
+    "pub_date": "2026-06-27T15:20:56+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hospitality Sector Hit by Phishing Campaign Using ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c46f4368d68a75a437f67a662cc8d7b3",
+    "source": "Security Affairs",
+    "title": "DirtyClone: Fourth Linux Kernel Flaw in Six Weeks Escalates to Root",
+    "link": "https://securityaffairs.com/194338/uncategorized/dirtyclone-fourth-linux-kernel-flaw-in-six-weeks-escalates-to-root.html",
+    "summary": "DirtyClone: a Linux kernel privilege escalation that silently rewrites executables in memory, leaving no disk trace. Patch now. JFrog Security Research published a working exploit walkthrough on June 25 for CVE-2026-43503 (CVSS score of 8.8), a Linux kernel privilege escalation they call DirtyClone. It&#8217;s the fourth vulnerability in the DirtyFrag family, all sharing the same [&#8230;]",
+    "pub_date": "2026-06-27T09:12:26+00:00",
+    "cve_ids": [
+      "CVE-2026-43503"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "DirtyClone: Fourth Linux Kernel Flaw in Six Weeks ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "85c4de30e48f9e433f96e1061da69dd6",
+    "source": "CrowdStrike",
+    "title": "The Identity Problem Hiding in AI Agent Deployments",
+    "link": "https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The Identity Problem Hiding in AI Agent Deployment",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d17f9e981b875d258d9d86261fce86ee",
+    "source": "CrowdStrike",
+    "title": "94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "94% of Organizations Report Cloud Breaches: CrowdS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f872616042a910b9b1900b14b3dcc2a",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 2: Sto",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dbfe95ad2e9d92b7fa6e403d9471f01d",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 1: The",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "734ce40a3df927fe2f4c6286f97a8456",
+    "source": "CrowdStrike",
+    "title": "After Executive Order 14409: Next Steps for Securing AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "After Executive Order 14409: Next Steps for Securi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fa98c086f9f0ffd128027b3900bab1b0",
+    "source": "CrowdStrike",
+    "title": "Falcon Exposure Management Now Available for Third-Party Environments",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Exposure Management Now Available for Third",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5627343bd8d0dc34520a49e641fac5e4",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Announces Continuous Identity for AI Agents",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Announces Continuous Identity for AI A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07d00e994aef66e46c15124b13fc8ebf",
+    "source": "CrowdStrike",
+    "title": "Why AI Projects Stall and How CIOs Can Respond",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Projects Stall and How CIOs Can Respond",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "290f2b600fd3430143fef98c38268990",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar&trade;: Cloud and Application Runtime Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named an Innovation and Growth Leader ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cff83324956e33760e68ebb0e48e8192",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Identity Leadership with OpenID and IDPro",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Identity Leadership with OpenI",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
