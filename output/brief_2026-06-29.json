@@ -1,0 +1,828 @@
+[
+  {
+    "uid": "44b1143094a1e48aa73857200db11f11",
+    "source": "BleepingComputer",
+    "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+    "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+    "summary": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]",
+    "pub_date": "2026-06-28T14:13:46+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Data breach exposes up to 14.2 million email login",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0523ceb0fd1ecbddf12c39a594b40072",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13512 - Databend Tenant client_session_manager.rs state_key authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13512",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13512\n  <br />\n  <strong>Published :</strong> June 28, 2026, 10:45 p.m. | 55 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in Databend up to 1.2.881 on HTTP. This affects the function ClientSessionManager::state_key of the file src/query/service/src/servers/http/v1/session/client_session_manager.rs of the component Tenant Handler. The manipulation leads to authorization bypass. It is possible to initiate the attack remotely. The exploit is publicly available and might be used. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T22:45:10+00:00",
+    "cve_ids": [
+      "CVE-2026-13512"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was identified in Databend up to 1.2.881 on HTTP. This affects the function ClientSessionManager::state_key of the file src/query/service/src/servers/http/v1/session/client_session_manager.rs of the component Tenant Handler. The manipulation leads to authorization bypass. It is possi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13512 - Databend Tenant client_session_ma",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "25aa9d2d80b6fa0828281c05c4d1fe2d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13511 - VoltAgent Memory REST API memory.handlers.ts handleGetMemoryConversation improper authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13511",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13511\n  <br />\n  <strong>Published :</strong> June 28, 2026, 10:30 p.m. | 1 hour, 10 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in VoltAgent up to 2.1.17. Affected by this issue is the function handleGetMemoryConversation of the file packages/server-core/src/handlers/memory.handlers.ts of the component Memory REST API. Executing a manipulation of the argument conversationId can lead to improper authorization. The attack may be performed from remote. This attack is characterized by high complexity. The exploitation is known to be difficult. The exploit has been publicly disclosed and may be utilized. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit ",
+    "pub_date": "2026-06-28T22:30:11+00:00",
+    "cve_ids": [
+      "CVE-2026-13511"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "A vulnerability was determined in VoltAgent up to 2.1.17. Affected by this issue is the function handleGetMemoryConversation of the file packages/server-core/src/handlers/memory.handlers.ts of the component Memory REST API. Executing a manipulation of the argument conversationId can lead to improper",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13511 - VoltAgent Memory REST API memory.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2a5abc061fc0bd9a91203cabea9241c5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13510 - SimStudioAI sim Password Protection deployment.ts weak hash",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13510",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13510\n  <br />\n  <strong>Published :</strong> June 28, 2026, 10:15 p.m. | 1 hour, 25 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in SimStudioAI sim up to 0.6.92. Affected by this vulnerability is an unknown functionality in the library apps/sim/lib/core/security/deployment.ts of the component Password Protection Handler. Performing a manipulation results in use of weak hash. The attack is possible to be carried out remotely. The attack's complexity is rated as high. The exploitation appears to be difficult. The exploit has been made public and could be used. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details,",
+    "pub_date": "2026-06-28T22:15:11+00:00",
+    "cve_ids": [
+      "CVE-2026-13510"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "A vulnerability was found in SimStudioAI sim up to 0.6.92. Affected by this vulnerability is an unknown functionality in the library apps/sim/lib/core/security/deployment.ts of the component Password Protection Handler. Performing a manipulation results in use of weak hash. The attack is possible to",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13510 - SimStudioAI sim Password Protecti",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a98d2f9dcb22a391c752e0d8b4614d30",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13509 - RAGapp Knowledge File files.py FileHandler.remove_file path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13509",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13509\n  <br />\n  <strong>Published :</strong> June 28, 2026, 10 p.m. | 1 hour, 40 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in RAGapp up to 0.1.5. Affected is the function FileHandler.upload_file/FileHandler.remove_file of the file src/ragapp/backend/controllers/files.py of the component Knowledge File Handler. Such manipulation leads to path traversal. The attack can be executed remotely. The exploit has been disclosed to the public and may be used. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T22:00:11+00:00",
+    "cve_ids": [
+      "CVE-2026-13509"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in RAGapp up to 0.1.5. Affected is the function FileHandler.upload_file/FileHandler.remove_file of the file src/ragapp/backend/controllers/files.py of the component Knowledge File Handler. Such manipulation leads to path traversal. The attack can be executed remotely. ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13509 - RAGapp Knowledge File files.py Fi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3a4d917c4303f2de394c65d12085f1a6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13508 - khoj-ai khoj Conversation Sharing api_chat.py authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13508",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13508\n  <br />\n  <strong>Published :</strong> June 28, 2026, 9:45 p.m. | 1 hour, 55 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in khoj-ai khoj up to 2.0.0-beta.28. This impacts an unknown function of the file src/khoj/routers/api_chat.py of the component Conversation Sharing Handler. This manipulation of the argument conversation.agent causes incorrect authorization. Remote exploitation of the attack is possible. The exploit has been published and may be used. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T21:45:10+00:00",
+    "cve_ids": [
+      "CVE-2026-13508"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "A flaw has been found in khoj-ai khoj up to 2.0.0-beta.28. This impacts an unknown function of the file src/khoj/routers/api_chat.py of the component Conversation Sharing Handler. This manipulation of the argument conversation.agent causes incorrect authorization. Remote exploitation of the attack i",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13508 - khoj-ai khoj Conversation Sharing",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "79a8e3fd6b1a6f32d6406c9d209f666d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13507 - volcengine OpenViking Local VectorDB Primary-key Label str_to_uint64.py str_to_uint64 data authenticity",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13507",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13507\n  <br />\n  <strong>Published :</strong> June 28, 2026, 9:30 p.m. | 2 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in volcengine OpenViking up to 0.3.21. This affects the function str_to_uint64 of the file openviking/storage/vectordb/utils/str_to_uint64.py of the component Local VectorDB Primary-key Label Handler. The manipulation of the argument ID results in insufficient verification of data authenticity. The attack may be launched remotely. Attacks of this nature are highly complex. The exploitability is reported as difficult. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected pr",
+    "pub_date": "2026-06-28T21:30:09+00:00",
+    "cve_ids": [
+      "CVE-2026-13507"
+    ],
+    "cvss": 5.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.0,
+      "description": "A vulnerability was detected in volcengine OpenViking up to 0.3.21. This affects the function str_to_uint64 of the file openviking/storage/vectordb/utils/str_to_uint64.py of the component Local VectorDB Primary-key Label Handler. The manipulation of the argument ID results in insufficient verificati",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13507 - volcengine OpenViking Local Vecto",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "31b09d06f640d20c1e829b7cff46cd3c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-49048 - Joomla Extension - joomcoder.com - Unauthenticated SQL Injection in JoomCCK extension for Joomla < 6.4.1",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-49048",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-49048\n  <br />\n  <strong>Published :</strong> June 28, 2026, 6:37 p.m. | 5 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>The Joomla extension JoomCCK exposes a front-end controller task, that builds two SQL statements by directly concatenating a user-supplied request parameter into the query string without escaping or parameterisation.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T18:37:13+00:00",
+    "cve_ids": [
+      "CVE-2026-49048"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-49048 - Joomla Extension - joomcoder.com ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "be5a0fcdfd0b30abe3936cf9f3bee0ff",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13504 - code-projects Project Management System Mail Compose mail.php cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13504",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13504\n  <br />\n  <strong>Published :</strong> June 28, 2026, 3:30 p.m. | 8 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in code-projects Project Management System 1.0. This vulnerability affects unknown code of the file /mail.php of the component Mail Compose Page. Such manipulation leads to cross site scripting. The attack may be performed from remote. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 4.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T15:30:08+00:00",
+    "cve_ids": [
+      "CVE-2026-13504"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "A vulnerability has been found in code-projects Project Management System 1.0. This vulnerability affects unknown code of the file /mail.php of the component Mail Compose Page. Such manipulation leads to cross site scripting. The attack may be performed from remote. The exploit has been disclosed to",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13504 - code-projects Project Management ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "482f09b56297a25f5d83799b92b38c4f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13503 - antlr ANTLR4 tokenVocab Grammar Option TokenVocabParser.java getImportedVocabFile path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13503",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13503\n  <br />\n  <strong>Published :</strong> June 28, 2026, 3:15 p.m. | 8 hours, 25 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in antlr ANTLR4 up to 4.13.2. Affected by this issue is the function getImportedVocabFile of the file tool/src/org/antlr/v4/parse/TokenVocabParser.java of the component tokenVocab Grammar Option Handler. The manipulation results in path traversal. The attack can be executed remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T15:15:07+00:00",
+    "cve_ids": [
+      "CVE-2026-13503"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was detected in antlr ANTLR4 up to 4.13.2. Affected by this issue is the function getImportedVocabFile of the file tool/src/org/antlr/v4/parse/TokenVocabParser.java of the component tokenVocab Grammar Option Handler. The manipulation results in path traversal. The attack can be execu",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13503 - antlr ANTLR4 tokenVocab Grammar O",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b9d1a9c8e1a5049ba960ff3d7e5c37b0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13502 - antlr ANTLR4 Maven Plugin GrammarDependencies.java ObjectInputStream.readObject toctou",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13502",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13502\n  <br />\n  <strong>Published :</strong> June 28, 2026, 2:45 p.m. | 8 hours, 55 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in antlr ANTLR4 up to 4.13.2. This affects the function ObjectInputStream.readObject of the file antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/GrammarDependencies.java of the component Maven Plugin. This manipulation causes time-of-check time-of-use. The attack is restricted to local execution. A high degree of complexity is needed for the attack. It is indicated that the exploitability is difficult. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.5 | MEDIUM\n  <br />",
+    "pub_date": "2026-06-28T14:45:07+00:00",
+    "cve_ids": [
+      "CVE-2026-13502"
+    ],
+    "cvss": 4.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.5,
+      "description": "A flaw has been found in antlr ANTLR4 up to 4.13.2. This affects the function ObjectInputStream.readObject of the file antlr4-maven-plugin/src/main/java/org/antlr/mojo/antlr4/GrammarDependencies.java of the component Maven Plugin. This manipulation causes time-of-check time-of-use. The attack is res",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13502 - antlr ANTLR4 Maven Plugin Grammar",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "477dade8070ce75cc964aa631492a862",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13501 - antlr ANTLR4 gofmt GoTarget.java GoTarget command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13501",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13501\n  <br />\n  <strong>Published :</strong> June 28, 2026, 2:30 p.m. | 9 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in antlr ANTLR4 up to 4.13.2. Affected by this vulnerability is the function GoTarget of the file tool/src/org/antlr/v4/codegen/target/GoTarget.java of the component gofmt. The manipulation leads to command injection. The attack can only be performed from a local environment. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T14:30:08+00:00",
+    "cve_ids": [
+      "CVE-2026-13501"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A security vulnerability has been detected in antlr ANTLR4 up to 4.13.2. Affected by this vulnerability is the function GoTarget of the file tool/src/org/antlr/v4/codegen/target/GoTarget.java of the component gofmt. The manipulation leads to command injection. The attack can only be performed from a",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13501 - antlr ANTLR4 gofmt GoTarget.java ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dc56fc11bcc238819b481fd122b661db",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13500 - antlr ANTLR4 Grammar Action Block OutputFile.java code injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13500",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13500\n  <br />\n  <strong>Published :</strong> June 28, 2026, 2:15 p.m. | 9 hours, 25 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in antlr ANTLR4 up to 4.13.2. Affected is an unknown function of the file tool/src/org/antlr/v4/codegen/model/OutputFile.java of the component Grammar Action Block Handler. Executing a manipulation can lead to code injection. The attack may be launched remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T14:15:07+00:00",
+    "cve_ids": [
+      "CVE-2026-13500"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A weakness has been identified in antlr ANTLR4 up to 4.13.2. Affected is an unknown function of the file tool/src/org/antlr/v4/codegen/model/OutputFile.java of the component Grammar Action Block Handler. Executing a manipulation can lead to code injection. The attack may be launched remotely. The ex",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13500 - antlr ANTLR4 Grammar Action Block",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "adb734aae40e22fffa8020c1d7de4318",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13499 - yashpokharna2555 restaurent-management-system Registration login_register.php cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13499",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13499\n  <br />\n  <strong>Published :</strong> June 28, 2026, 1:15 p.m. | 10 hours, 25 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in yashpokharna2555 restaurent-management-system. This impacts an unknown function of the file login_register.php of the component Registration Handler. Performing a manipulation of the argument Username results in cross site scripting. The attack may be initiated remotely. The exploit has been released to the public and may be used for attacks. This product uses a rolling release model to deliver continuous updates. As a result, specific version information for affected or updated releases is not available. The project was informed of the problem early through an issue report but has",
+    "pub_date": "2026-06-28T13:15:08+00:00",
+    "cve_ids": [
+      "CVE-2026-13499"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A security flaw has been discovered in yashpokharna2555 restaurent-management-system. This impacts an unknown function of the file login_register.php of the component Registration Handler. Performing a manipulation of the argument Username results in cross site scripting. The attack may be initiated",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13499 - yashpokharna2555 restaurent-manag",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "264e60030e53739aae4db778dbf166eb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13498 - yashpokharna2555 restaurent-management-system POST Parameter forgotpassword.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13498",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13498\n  <br />\n  <strong>Published :</strong> June 28, 2026, 1 p.m. | 10 hours, 40 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in yashpokharna2555 restaurent-management-system. This affects an unknown function of the file /forgotpassword.php of the component POST Parameter Handler. Such manipulation of the argument email leads to sql injection. The attack can be launched remotely. The exploit is publicly available and might be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link",
+    "pub_date": "2026-06-28T13:00:08+00:00",
+    "cve_ids": [
+      "CVE-2026-13498"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was identified in yashpokharna2555 restaurent-management-system. This affects an unknown function of the file /forgotpassword.php of the component POST Parameter Handler. Such manipulation of the argument email leads to sql injection. The attack can be launched remotely. The exploit ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13498 - yashpokharna2555 restaurent-manag",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "91372f6d0aea81952a09cf38d8c4d608",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13497 - itsourcecode Hospital Management System appointment.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13497",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13497\n  <br />\n  <strong>Published :</strong> June 28, 2026, 12:45 p.m. | 10 hours, 55 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in itsourcecode Hospital Management System 1.0. The impacted element is an unknown function of the file /appointment.php. This manipulation of the argument editid causes sql injection. The attack can be initiated remotely. The exploit has been publicly disclosed and may be utilized.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T12:45:08+00:00",
+    "cve_ids": [
+      "CVE-2026-13497"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was determined in itsourcecode Hospital Management System 1.0. The impacted element is an unknown function of the file /appointment.php. This manipulation of the argument editid causes sql injection. The attack can be initiated remotely. The exploit has been publicly disclosed and ma",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13497 - itsourcecode Hospital Management ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a720d01aff70d94f36da43dc9304aaf6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13496 - itsourcecode Hospital Management System ajaxmedicine.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13496",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13496\n  <br />\n  <strong>Published :</strong> June 28, 2026, 12:30 p.m. | 11 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in itsourcecode Hospital Management System 1.0. The affected element is an unknown function of the file /ajaxmedicine.php. The manipulation of the argument medicineid results in sql injection. It is possible to launch the attack remotely. The exploit has been made public and could be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T12:30:09+00:00",
+    "cve_ids": [
+      "CVE-2026-13496"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was found in itsourcecode Hospital Management System 1.0. The affected element is an unknown function of the file /ajaxmedicine.php. The manipulation of the argument medicineid results in sql injection. It is possible to launch the attack remotely. The exploit has been made public an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13496 - itsourcecode Hospital Management ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9aee44e50551a44840871b43474dc958",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13495 - itsourcecode Hospital Management System adminprofile.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13495",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13495\n  <br />\n  <strong>Published :</strong> June 28, 2026, 12:15 p.m. | 11 hours, 25 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in itsourcecode Hospital Management System 1.0. Impacted is an unknown function of the file /adminprofile.php. The manipulation of the argument loginid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T12:15:08+00:00",
+    "cve_ids": [
+      "CVE-2026-13495"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "A vulnerability has been found in itsourcecode Hospital Management System 1.0. Impacted is an unknown function of the file /adminprofile.php. The manipulation of the argument loginid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13495 - itsourcecode Hospital Management ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e7d1af21b3384b7fee451d0630cbf2f9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13493 - AIDC-AI ComfyUI-Copilot Workflow Checkpoint Restore conversation_api.py resource injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13493",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13493\n  <br />\n  <strong>Published :</strong> June 28, 2026, noon | 11 hours, 40 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in AIDC-AI ComfyUI-Copilot up to 2.0.28. This issue affects some unknown processing of the file backend/controller/conversation_api.py of the component Workflow Checkpoint Restore Handler. Executing a manipulation can lead to improper control of resource identifiers. The attack may be performed from remote. A high complexity level is associated with this attack. The exploitability is assessed as difficult. The exploit has been published and may be used. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 3.1 | LOW\n  <br />\n  Visit the link for more details, such a",
+    "pub_date": "2026-06-28T12:00:09+00:00",
+    "cve_ids": [
+      "CVE-2026-13493"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "A flaw has been found in AIDC-AI ComfyUI-Copilot up to 2.0.28. This issue affects some unknown processing of the file backend/controller/conversation_api.py of the component Workflow Checkpoint Restore Handler. Executing a manipulation can lead to improper control of resource identifiers. The attack",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13493 - AIDC-AI ComfyUI-Copilot Workflow ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "394dae30079c09f88d347c0e297123e7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13491 - 78 xiaozhi-esp32 MQTT Goodbye mqtt_protocol.cc GetInstance denial of service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13491",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13491\n  <br />\n  <strong>Published :</strong> June 28, 2026, 11:15 a.m. | 12 hours, 25 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in 78 xiaozhi-esp32 up to 2.2.6. This vulnerability affects the function Application::GetInstance of the file main/protocols/mqtt_protocol.cc of the component MQTT Goodbye Handler. Performing a manipulation of the argument session_id results in denial of service. The attack is possible to be carried out remotely. The complexity of an attack is rather high. It is stated that the exploitability is difficult. The exploit is now public and may be used. The patch is named e182471f8c5a22434346bd98da34d3b66c8c8b3e. It is recommended to apply a patch to fix this issue.\n  <br />\n  <strong>Severity:<",
+    "pub_date": "2026-06-28T11:15:10+00:00",
+    "cve_ids": [
+      "CVE-2026-13491"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "A vulnerability was detected in 78 xiaozhi-esp32 up to 2.2.6. This vulnerability affects the function Application::GetInstance of the file main/protocols/mqtt_protocol.cc of the component MQTT Goodbye Handler. Performing a manipulation of the argument session_id results in denial of service. The att",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13491 - 78 xiaozhi-esp32 MQTT Goodbye mqt",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8ba767a108c1404aeb39fa2390152952",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13490 - glpi-project glpi Document document.send.php canViewFile authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13490",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13490\n  <br />\n  <strong>Published :</strong> June 28, 2026, 11 a.m. | 12 hours, 40 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in glpi-project glpi 11.0.5/11.0.6/11.0.7. This affects the function Document::canViewFile of the file front/document.send.php of the component Document Handler. Such manipulation of the argument docid leads to authorization bypass. The attack can be executed remotely. This attack is characterized by high complexity. It is indicated that the exploitability is difficult. The vendor was contacted early about this disclosure.\n  <br />\n  <strong>Severity:</strong> 6.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T11:00:05+00:00",
+    "cve_ids": [
+      "CVE-2026-13490"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "A security vulnerability has been detected in glpi-project glpi 11.0.5/11.0.6/11.0.7. This affects the function Document::canViewFile of the file front/document.send.php of the component Document Handler. Such manipulation of the argument docid leads to authorization bypass. The attack can be execut",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13490 - glpi-project glpi Document docume",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c8acd60cc188526593bb707a36ff1fbd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13489 - 78 xiaozhi-esp32 MCP Response mcp_server.cc ParseMessage improper synchronization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13489",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13489\n  <br />\n  <strong>Published :</strong> June 28, 2026, 10:45 a.m. | 12 hours, 55 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in 78 xiaozhi-esp32 up to 2.2.6. Affected by this issue is the function ParseMessage of the file main/mcp_server.cc of the component MCP Response Handler. This manipulation causes improper synchronization. Remote exploitation of the attack is possible. The attack's complexity is rated as high. The exploitation is known to be difficult. The exploit has been made available to the public and could be used for attacks. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 3.1 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected",
+    "pub_date": "2026-06-28T10:45:08+00:00",
+    "cve_ids": [
+      "CVE-2026-13489"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "A weakness has been identified in 78 xiaozhi-esp32 up to 2.2.6. Affected by this issue is the function ParseMessage of the file main/mcp_server.cc of the component MCP Response Handler. This manipulation causes improper synchronization. Remote exploitation of the attack is possible. The attack's com",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13489 - 78 xiaozhi-esp32 MCP Response mcp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8936eb7b35d63ebfd3962d9e990e3d27",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13488 - SourceCodester Class and Exam Timetabling System preview7.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13488",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13488\n  <br />\n  <strong>Published :</strong> June 28, 2026, 10:30 a.m. | 13 hours, 10 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in SourceCodester Class and Exam Timetabling System 1.0/7.php. Affected by this vulnerability is an unknown functionality of the file /preview7.php. The manipulation of the argument course_year_section results in sql injection. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T10:30:09+00:00",
+    "cve_ids": [
+      "CVE-2026-13488"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A security flaw has been discovered in SourceCodester Class and Exam Timetabling System 1.0/7.php. Affected by this vulnerability is an unknown functionality of the file /preview7.php. The manipulation of the argument course_year_section results in sql injection. The attack may be launched remotely.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13488 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8d97f216a6693ecb1777a95e2fde403b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13487 - SourceCodester Class and Exam Timetabling System archive.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13487",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13487\n  <br />\n  <strong>Published :</strong> June 28, 2026, 10:15 a.m. | 13 hours, 25 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in SourceCodester Class and Exam Timetabling System 1.0. Affected is an unknown function of the file /archive.php. The manipulation of the argument sy leads to sql injection. The attack may be initiated remotely. The exploit is publicly available and might be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T10:15:08+00:00",
+    "cve_ids": [
+      "CVE-2026-13487"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was identified in SourceCodester Class and Exam Timetabling System 1.0. Affected is an unknown function of the file /archive.php. The manipulation of the argument sy leads to sql injection. The attack may be initiated remotely. The exploit is publicly available and might be used.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13487 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7ff5f13eead9b5b19d6bd0df1bdd2e69",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13486 - SourceCodester Class and Exam Timetabling System preview6.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13486",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13486\n  <br />\n  <strong>Published :</strong> June 28, 2026, 9:45 a.m. | 13 hours, 55 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in SourceCodester Class and Exam Timetabling System 1.0/6.php. This impacts an unknown function of the file /preview6.php. Executing a manipulation of the argument course_year_section can lead to sql injection. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T09:45:09+00:00",
+    "cve_ids": [
+      "CVE-2026-13486"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was determined in SourceCodester Class and Exam Timetabling System 1.0/6.php. This impacts an unknown function of the file /preview6.php. Executing a manipulation of the argument course_year_section can lead to sql injection. The attack can be launched remotely. The exploit has been ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13486 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8d0f3237778fb27797792eb6e12e9479",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13485 - SourceCodester Class and Exam Timetabling System preview.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13485",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13485\n  <br />\n  <strong>Published :</strong> June 28, 2026, 9:15 a.m. | 14 hours, 25 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in SourceCodester Class and Exam Timetabling System 1.0. This affects an unknown function of the file /preview.php. Performing a manipulation of the argument course_year_section results in sql injection. The attack can be initiated remotely. The exploit has been made public and could be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-06-28T09:15:09+00:00",
+    "cve_ids": [
+      "CVE-2026-13485"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was found in SourceCodester Class and Exam Timetabling System 1.0. This affects an unknown function of the file /preview.php. Performing a manipulation of the argument course_year_section results in sql injection. The attack can be initiated remotely. The exploit has been made public",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13485 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "31aa5127cf875f9da1a7d1a5f1c5e7c6",
+    "source": "Security Affairs",
+    "title": "KDDI Data Breach Impacts up to 14.2 Million Email Accounts at Six ISPs",
+    "link": "https://securityaffairs.com/194387/data-breach/kddi-data-breach-impacts-up-to-14-2-million-email-accounts-at-six-isps.html",
+    "summary": "KDDI Corporation disclosed a breach affecting up to 14.2 million email accounts after attackers exploited a vulnerability in third-party software. KDDI Corporation disclosed a data breach that exposed up to 14.2 million email accounts across six Japanese internet service providers. KDDI Corporation is one of Japan&#8217;s largest telecommunications companies. It employs more than 60,000 people [&#8230;]",
+    "pub_date": "2026-06-28T19:11:57+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "KDDI Data Breach Impacts up to 14.2 Million Email ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "87f2c721fe2ffff0c72c0ec77662f17f",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 103",
+    "link": "https://securityaffairs.com/194383/malware/security-affairs-malware-newsletter-round-103.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter More Than 4,000 Legacy Routers Compromised by AryStinger, Turned into Global Attack Proxies for Hackers&#160;&#160; A VBScript campaign distributed through WhatsApp deploying RMM software&#160; Lost in relocation: analysis of a new loader distributing CASTLESTEALER&#160;&#160; [&#8230;]",
+    "pub_date": "2026-06-28T18:05:59+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 103",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9755f333701fc2242878106c5dd3849c",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 583 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/194372/security/security-affairs-newsletter-round-583-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. New FBI Alert: Russian Intelligence Uses Signal Recovery Keys to Access Messages Hospitality Sector Hit by [&#8230;]",
+    "pub_date": "2026-06-28T15:29:10+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 583 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5b77884cededc5ef2627d643701fef34",
+    "source": "Help Net Security",
+    "title": "Week in review: Fortibleed campaign’s impact on orgs, Cisco Unified CM flaw exploited",
+    "link": "https://www.helpnetsecurity.com/2026/06/28/week-in-review-fortibleed-campaigns-impact-on-orgs-cisco-unified-cm-flaw-exploited/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Encrypted DNS still tells an eavesdropper where to look Encrypted DNS runs across much of the Internet. DNS over TLS, HTTPS, and QUIC keep the contents of a query away from anyone watching a network link. The encryption covers the message inside each packet. The packet still carries plaintext headers, and those values mark a flow as DNS. Agent Beacon: &#8230; <a href=\"https://www.helpnetsecurity.com/2026/06/28/week-in-review-fortibleed-campaigns-impact-on-orgs-cisco-unified-cm-flaw-exploited/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/06/28/week-in-review-fortibleed-campaigns-impact-on-orgs-cisco-unified-cm-fl",
+    "pub_date": "2026-06-28T08:00:44+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: Fortibleed campaign’s impact on or",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "85c4de30e48f9e433f96e1061da69dd6",
+    "source": "CrowdStrike",
+    "title": "The Identity Problem Hiding in AI Agent Deployments",
+    "link": "https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The Identity Problem Hiding in AI Agent Deployment",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d17f9e981b875d258d9d86261fce86ee",
+    "source": "CrowdStrike",
+    "title": "94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "94% of Organizations Report Cloud Breaches: CrowdS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f872616042a910b9b1900b14b3dcc2a",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 2: Sto",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dbfe95ad2e9d92b7fa6e403d9471f01d",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 1: The",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "734ce40a3df927fe2f4c6286f97a8456",
+    "source": "CrowdStrike",
+    "title": "After Executive Order 14409: Next Steps for Securing AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "After Executive Order 14409: Next Steps for Securi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fa98c086f9f0ffd128027b3900bab1b0",
+    "source": "CrowdStrike",
+    "title": "Falcon Exposure Management Now Available for Third-Party Environments",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Exposure Management Now Available for Third",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5627343bd8d0dc34520a49e641fac5e4",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Announces Continuous Identity for AI Agents",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Announces Continuous Identity for AI A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07d00e994aef66e46c15124b13fc8ebf",
+    "source": "CrowdStrike",
+    "title": "Why AI Projects Stall and How CIOs Can Respond",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Projects Stall and How CIOs Can Respond",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "290f2b600fd3430143fef98c38268990",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar&trade;: Cloud and Application Runtime Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named an Innovation and Growth Leader ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cff83324956e33760e68ebb0e48e8192",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Identity Leadership with OpenID and IDPro",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Identity Leadership with OpenI",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
