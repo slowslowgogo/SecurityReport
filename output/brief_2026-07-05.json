@@ -1,0 +1,808 @@
+[
+  {
+    "uid": "7f95bef65a08f24546a85ea483ac57b0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14639 - A vulnerability has been found in CodeAstro Ecomme",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14639",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14639\n  <br />\n  <strong>Published :</strong> July 4, 2026, 6:16 p.m. | 3 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in CodeAstro Ecommerce Website 1.0. This impacts an unknown function of the file /ecommerce-website-php/customer/my_account.php?edit_account. Such manipulation of the argument c_name leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T18:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-14639"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in CodeAstro Ecommerce Website 1.0. This impacts an unknown function of the file /ecommerce-website-php/customer/my_account.php?edit_account. Such manipulation of the argument c_name leads to sql injection. The attack may be launched remotely. The exploit has been disc",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14639 - A vulnerability has been found in",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "55c98758e043b1b7c9f92d86ffc6df11",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14638 - A flaw has been found in itsourcecode Hospital Man",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14638",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14638\n  <br />\n  <strong>Published :</strong> July 4, 2026, 6:16 p.m. | 3 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in itsourcecode Hospital Management System 1.0. This affects an unknown function of the file /patient.php. This manipulation of the argument editid causes sql injection. The attack may be initiated remotely. The exploit has been published and may be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T18:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-14638"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A flaw has been found in itsourcecode Hospital Management System 1.0. This affects an unknown function of the file /patient.php. This manipulation of the argument editid causes sql injection. The attack may be initiated remotely. The exploit has been published and may be used.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14638 - A flaw has been found in itsource",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "285c85cb12d6cd5fdb19adae3a72ce01",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14637 - A security vulnerability has been detected in kiri",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14637",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14637\n  <br />\n  <strong>Published :</strong> July 4, 2026, 6:16 p.m. | 3 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 13fd582aaf49aeab7438acc0fc3eb973a1f5e6a7. The affected element is the function getCartItems in the library application/libraries/ShoppingCart.php. The manipulation of the argument shopping_cart leads to deserialization. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The identifier of the patch is 49b20f53de2b7ec34e920b11c863f1491d911a04. ",
+    "pub_date": "2026-07-04T18:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-14637"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "A security vulnerability has been detected in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 13fd582aaf49aeab7438acc0fc3eb973a1f5e6a7. The affected element is the function getCartItems in the library application/libraries/ShoppingCart.php. The manipulation of the argument shopping_cart leads to d",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14637 - A security vulnerability has been",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "964593a3d931dd77f44b934250202b84",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14636 - A weakness has been identified in kirilkirkov Ecom",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14636",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14636\n  <br />\n  <strong>Published :</strong> July 4, 2026, 5:16 p.m. | 4 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 23105f25dadf57b4314fc015a63a7c6e910c89df. Impacted is the function do_upload_others_images of the file application/modules/vendor/controllers/AddProduct.php of the component Vendor Image Manager. Executing a manipulation of the argument folder can lead to path traversal. It is possible to launch the attack remotely. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available. This patch is called de1c9e73ccf3bd032d9a0525c4752290d959dd8b. ",
+    "pub_date": "2026-07-04T17:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-14636"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "A weakness has been identified in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 23105f25dadf57b4314fc015a63a7c6e910c89df. Impacted is the function do_upload_others_images of the file application/modules/vendor/controllers/AddProduct.php of the component Vendor Image Manager. Executing a manipula",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14636 - A weakness has been identified in",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3652947e3e6120ed433735ace7eca98e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14635 - kirilkirkov Ecommerce-CodeIgniter-Bootstrap Vendor Multi-Image Endpoint AddProduct.php path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14635",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14635\n  <br />\n  <strong>Published :</strong> July 4, 2026, 5:16 p.m. | 4 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 222ff31c06687b1c6d0e1ab63953f82c3674c52b. This issue affects some unknown processing of the file application/modules/vendor/controllers/AddProduct.php of the component Vendor Multi-Image Endpoint. Performing a manipulation of the argument folder results in path traversal. It is possible to initiate the attack remotely. The exploit has been released to the public and may be used for attacks. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are availa",
+    "pub_date": "2026-07-04T17:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-14635"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A security flaw has been discovered in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 222ff31c06687b1c6d0e1ab63953f82c3674c52b. This issue affects some unknown processing of the file application/modules/vendor/controllers/AddProduct.php of the component Vendor Multi-Image Endpoint. Performing a m",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14635 - kirilkirkov Ecommerce-CodeIgniter",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8996146987a37b0c0de8a17d9c5770f0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14634 - kirilkirkov Ecommerce-CodeIgniter-Bootstrap Subscribed Emails Admin MY_Controller.php checkForPostRequests cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14634",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14634\n  <br />\n  <strong>Published :</strong> July 4, 2026, 5:16 p.m. | 4 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 213babdbaa949e94557246414db0130e01394517. This vulnerability affects the function checkForPostRequests of the file application/core/MY_Controller.php of the component Subscribed Emails Admin Page. Such manipulation of the argument User-Agent leads to cross site scripting. The attack may be performed from remote. The exploit is publicly available and might be used. This product utilizes a rolling release system for continuous delivery, and as such, version information for affected or updated releases is not disclosed. The name of the patch ",
+    "pub_date": "2026-07-04T17:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-14634"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was identified in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 213babdbaa949e94557246414db0130e01394517. This vulnerability affects the function checkForPostRequests of the file application/core/MY_Controller.php of the component Subscribed Emails Admin Page. Such manipulation o",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14634 - kirilkirkov Ecommerce-CodeIgniter",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d86bc2c395357524dd94d37b3859c67f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14633 - kirilkirkov Ecommerce-CodeIgniter-Bootstrap Hidden REST API Endpoint set cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14633",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14633\n  <br />\n  <strong>Published :</strong> July 4, 2026, 4:17 p.m. | 5 hours, 43 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 49b20f53de2b7ec34e920b11c863f1491d911a04. This affects an unknown part of the file /index.php/api/product/set of the component Hidden REST API Endpoint. This manipulation of the argument title/description causes cross site scripting. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized. This product adopts a rolling release strategy to maintain continuous delivery. Therefore, version details for affected or updated releases cannot be specified. Patch name: d9785f995da77bdc62fb2d34ba",
+    "pub_date": "2026-07-04T16:17:14+00:00",
+    "cve_ids": [
+      "CVE-2026-14633"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was determined in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 49b20f53de2b7ec34e920b11c863f1491d911a04. This affects an unknown part of the file /index.php/api/product/set of the component Hidden REST API Endpoint. This manipulation of the argument title/description causes cros",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14633 - kirilkirkov Ecommerce-CodeIgniter",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9cf1d012dbd5a6cbbd5929e9754555b1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14632 - kirilkirkov Ecommerce-CodeIgniter-Bootstrap Trusted Backend MY_Controller.php setReferrer redirect",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14632",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14632\n  <br />\n  <strong>Published :</strong> July 4, 2026, 4:17 p.m. | 5 hours, 43 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 95dfa8cebbb87ab46ae450643a07241274a74dce. Affected by this issue is the function setReferrer of the file application/core/MY_Controller.php of the component Trusted Backend Interface. The manipulation of the argument href results in open redirect. The attack can be executed remotely. The exploit has been made public and could be used. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The patch is identified as 213babdbaa949e94557246414db0130e01394517.",
+    "pub_date": "2026-07-04T16:17:14+00:00",
+    "cve_ids": [
+      "CVE-2026-14632"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was found in kirilkirkov Ecommerce-CodeIgniter-Bootstrap up to 95dfa8cebbb87ab46ae450643a07241274a74dce. Affected by this issue is the function setReferrer of the file application/core/MY_Controller.php of the component Trusted Backend Interface. The manipulation of the argument href",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14632 - kirilkirkov Ecommerce-CodeIgniter",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f869e0e1537efbc77d1e8247f0bd2639",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14630 - ForceInjection AI-fundermentals Memory Recall smart_customer_service.py get_conversation_history weak hash",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14630",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14630\n  <br />\n  <strong>Published :</strong> July 4, 2026, 3:16 p.m. | 6 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in ForceInjection AI-fundermentals 2.0/3.0. Affected by this vulnerability is the function get_conversation_history of the file 08_agentic_system/memory/langchain/code/smart_customer_service.py of the component Memory Recall Handler. The manipulation leads to use of weak hash. Remote exploitation of the attack is possible. A high degree of complexity is needed for the attack. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The identifier of the patch is f57277fdd9ba373ace72d83c272023ec67f720d6. It is suggested to install a patch to addr",
+    "pub_date": "2026-07-04T15:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-14630"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "A vulnerability has been found in ForceInjection AI-fundermentals 2.0/3.0. Affected by this vulnerability is the function get_conversation_history of the file 08_agentic_system/memory/langchain/code/smart_customer_service.py of the component Memory Recall Handler. The manipulation leads to use of we",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14630 - ForceInjection AI-fundermentals M",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4242d1c46b35ac489f4aa38d7490d705",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14629 - RT-Thread Parameter lwp_syscall.c sys_ioctl divide by zero",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14629",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14629\n  <br />\n  <strong>Published :</strong> July 4, 2026, 2:16 p.m. | 7 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in RT-Thread up to 5.2.2. Affected is the function read/write/sys_ioctl of the file components/lwp/lwp_syscall.c of the component Parameter Handler. Executing a manipulation can lead to divide by zero. The attack may be launched remotely. The exploit has been published and may be used. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T14:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-14629"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A flaw has been found in RT-Thread up to 5.2.2. Affected is the function read/write/sys_ioctl of the file components/lwp/lwp_syscall.c of the component Parameter Handler. Executing a manipulation can lead to divide by zero. The attack may be launched remotely. The exploit has been published and may ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14629 - RT-Thread Parameter lwp_syscall.c",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9b65dffa7bb792aab935bac579e5295f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14535 - Fickling MLAllowlist analysis pass rendered inoperative by shared mutable state in AnalysisContext.shorten_code()",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14535",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14535\n  <br />\n  <strong>Published :</strong> July 4, 2026, 2:16 p.m. | 7 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>In Trail of Bits fickling versions up to and including 0.1.11, the UnsafeImportsML analysis pass unconditionally calls AnalysisContext.shorten_code(node) on every import node it inspects, regardless of whether the import is flagged as unsafe. This call registers the shortened code representation in the shared AnalysisContext.reported_shortened_code set. When the MLAllowlist analysis pass subsequently runs, it calls the same shorten_code() method, receives already_reported=True for every import, and executes a continue statement that skips its allowlist check entirely. This renders MLAllowlist dead code for all imports — i",
+    "pub_date": "2026-07-04T14:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-14535"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "In Trail of Bits fickling versions up to and including 0.1.11, the UnsafeImportsML analysis pass unconditionally calls AnalysisContext.shorten_code(node) on every import node it inspects, regardless of whether the import is flagged as unsafe. This call registers the shortened code representation in ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14535 - Fickling MLAllowlist analysis pas",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c44c5a9c09a612424573321e4a203b5a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14534 - Fickling check_safety() bypass via unlisted standard library modules (_posixsubprocess, site, atexit)",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14534",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14534\n  <br />\n  <strong>Published :</strong> July 4, 2026, 2:16 p.m. | 7 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>Trail of Bits fickling versions up to and including 0.1.10 do not include the Python standard library modules _posixsubprocess, site, and atexit in the UNSAFE_IMPORTS denylist (fickle.py). Because these modules are absent from the denylist, fickling's check_safety() function returns LIKELY_SAFE with zero findings for pickle payloads that invoke dangerous functions including _posixsubprocess.fork_exec (C-level process spawner capable of executing arbitrary binaries), site.execsitecustomize (executes arbitrary site customization code), and atexit._run_exitfuncs (triggers all registered exit handler callbacks). The fickling.",
+    "pub_date": "2026-07-04T14:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-14534"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "Trail of Bits fickling versions up to and including 0.1.10 do not include the Python standard library modules _posixsubprocess, site, and atexit in the UNSAFE_IMPORTS denylist (fickle.py). Because these modules are absent from the denylist, fickling's check_safety() function returns LIKELY_SAFE with",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14534 - Fickling check_safety() bypass vi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bd179afdb26571bf1c09dab85cb91598",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14628 - NousResearch hermes-agent Live Webhook Endpoint base.py extract_media path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14628",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14628\n  <br />\n  <strong>Published :</strong> July 4, 2026, 1:16 p.m. | 8 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in NousResearch hermes-agent up to 2026.5.16. This impacts the function extract_media of the file gateway/platforms/base.py of the component Live Webhook Endpoint. Performing a manipulation results in path traversal. The attack may be initiated remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T13:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-14628"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was detected in NousResearch hermes-agent up to 2026.5.16. This impacts the function extract_media of the file gateway/platforms/base.py of the component Live Webhook Endpoint. Performing a manipulation results in path traversal. The attack may be initiated remotely. The exploit is n",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14628 - NousResearch hermes-agent Live We",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "af020dffd96640ebc98ac9aab9de1bea",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14627 - NousResearch hermes-agent Discord Platform Integration discord.py DiscordAdapter._is_allowed_user improper authentication",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14627",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14627\n  <br />\n  <strong>Published :</strong> July 4, 2026, 1:16 p.m. | 8 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in NousResearch hermes-agent up to 0.15.2. This affects the function DiscordAdapter._is_allowed_user of the file gateway/platforms/discord.py of the component Discord Platform Integration. Such manipulation leads to improper authentication. The attack can be launched remotely. This attack is characterized by high complexity. The exploitability is reported as difficult. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.6 | MEDIUM\n  <br />\n  Visit the ",
+    "pub_date": "2026-07-04T13:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-14627"
+    ],
+    "cvss": 5.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.6,
+      "description": "A security vulnerability has been detected in NousResearch hermes-agent up to 0.15.2. This affects the function DiscordAdapter._is_allowed_user of the file gateway/platforms/discord.py of the component Discord Platform Integration. Such manipulation leads to improper authentication. The attack can b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14627 - NousResearch hermes-agent Discord",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "36a46f93e16da5c6564aef52837d43ae",
+    "source": "CVEfeed.io",
+    "title": "CVE-2025-13475 - Cross-Tenant Access via Application Consent Mismanagement in Multiple WSO2 Products Allows Unauthorized Data Exposure",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2025-13475",
+    "summary": "<strong>CVE ID :</strong>CVE-2025-13475\n  <br />\n  <strong>Published :</strong> July 4, 2026, 1:16 p.m. | 8 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>In multi-tenanted deployments, the application consent management mechanism fails to correctly isolate consent scopes between tenants. Consent granted by a user for a specific SaaS application within one tenant can be incorrectly applied to SaaS applications with the same name in other tenants, leading to unintended cross-tenant consent sharing.\n\nThis vulnerability may result in the exposure of user data across tenants, enabling SaaS applications in different tenants to access and modify information without explicit user authorization. This can lead to unauthorized data access and privacy violations. This vulnerability ha",
+    "pub_date": "2026-07-04T13:16:30+00:00",
+    "cve_ids": [
+      "CVE-2025-13475"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "In multi-tenanted deployments, the application consent management mechanism fails to correctly isolate consent scopes between tenants. Consent granted by a user for a specific SaaS application within one tenant can be incorrectly applied to SaaS applications with the same name in other tenants, lead",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2025-13475 - Cross-Tenant Access via Applicati",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "08bff62990839d81eb55acd13f0e8481",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-53362 - ipv6: account for fraggap on the paged allocation path",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-53362",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-53362\n  <br />\n  <strong>Published :</strong> July 4, 2026, 12:17 p.m. | 9 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: account for fraggap on the paged allocation path\n\nIn __ip6_append_data(), when the paged-allocation branch is taken\n(MSG_MORE / NETIF_F_SG / large fraglen), alloclen and pagedlen are\ncomputed as\n\n\talloclen = fragheaderlen + transhdrlen;\n\tpagedlen = datalen - transhdrlen;\n\ndatalen already includes fraggap (datalen = length + fraggap). When\nfraggap is non-zero, this is not the first skb and transhdrlen is zero.\nThe fraggap bytes carried over from the previous skb are copied just past\nthe fragment headers in the new skb's linear area. The linear area",
+    "pub_date": "2026-07-04T12:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-53362"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-53362 - ipv6: account for fraggap on the ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c5108c3eeb4fe16d1e3b438bc8a1b029",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-53361 - af_unix: Set gc_in_progress to true in unix_gc().",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-53361",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-53361\n  <br />\n  <strong>Published :</strong> July 4, 2026, 12:17 p.m. | 9 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>In the Linux kernel, the following vulnerability has been resolved:\n\naf_unix: Set gc_in_progress to true in unix_gc().\n\nIgor Ushakov reported that unix_gc() could run with gc_in_progress\nbeing false if the work is scheduled while running:\n\n  Thread 1         Thread 2                     Thread 3\n  --------         --------                     --------\n                   unix_schedule_gc()           unix_schedule_gc()\n                   `- if (!gc_in_progress)      `- if (!gc_in_progress)\n                      |- gc_in_progress = true     |\n                      `- queue_work()              |\n  unix_gc() <----------------",
+    "pub_date": "2026-07-04T12:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-53361"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-53361 - af_unix: Set gc_in_progress to tr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6d9717c43543e1e939d20e34be23ff67",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-53360 - KVM: SEV: Require in-GHCB scratch area if GHCB v2+ is in use",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-53360",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-53360\n  <br />\n  <strong>Published :</strong> July 4, 2026, 12:17 p.m. | 9 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: SEV: Require in-GHCB scratch area if GHCB v2+ is in use\n\nAs per the GHCB spec, when using GHCB v2+ require the software scratch area\nto reside in the GHCB's shared buffer.  Note, things like Page State Change\n(PSC) requests _rely_ on this behavior, as the guest can't provide a length\nwhen making the request, i.e. the size of the guest payload is bounded by\nthe size of the shared buffer.\n\nFailure to force usage of the GHCB, and a slew of other flaws, lets a\nmalicious SNP guest corrupt host kernel heap memory, and leak host heap\nlayout information.\n\n",
+    "pub_date": "2026-07-04T12:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-53360"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-53360 - KVM: SEV: Require in-GHCB scratch",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e9e8cd61671debcf6043d957008ad895",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-53359 - KVM: x86: Fix shadow paging use-after-free due to unexpected role",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-53359",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-53359\n  <br />\n  <strong>Published :</strong> July 4, 2026, 12:17 p.m. | 9 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Fix shadow paging use-after-free due to unexpected role\n\nCommit 0cb2af2ea66ad (\"KVM: x86: Fix shadow paging use-after-free due\nto unexpected GFN\") fixed a shadow paging mismatch between stored and\ncomputed GFNs; the bug could be triggered by changing a PDE mapping from\noutside the guest, and then deleting a memslot.  The rmap_remove()\ncall would miss entries created after the PDE change because the GFN\nof the leaf SPTE does not match the GFN of the struct kvm_mmu_page.\n\nA similar hole however remains if the modified PDE points to a non-leaf\npa",
+    "pub_date": "2026-07-04T12:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-53359"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-53359 - KVM: x86: Fix shadow paging use-a",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7a04683433fcc44ddac932ed540020cf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14626 - NousResearch hermes-agent HTTP API run_agent.py AIAgent.run_conversation denial of service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14626",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14626\n  <br />\n  <strong>Published :</strong> July 4, 2026, 12:16 p.m. | 9 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in NousResearch hermes-agent up to 2026.4.30. The impacted element is the function AIAgent.run_conversation of the file run_agent.py of the component HTTP API. This manipulation of the argument todos causes denial of service. The attack can be initiated remotely. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T12:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-14626"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A weakness has been identified in NousResearch hermes-agent up to 2026.4.30. The impacted element is the function AIAgent.run_conversation of the file run_agent.py of the component HTTP API. This manipulation of the argument todos causes denial of service. The attack can be initiated remotely. The e",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14626 - NousResearch hermes-agent HTTP AP",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "46ac91d555362f222f68f9cfdcba144c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14625 - NousResearch hermes-agent server.py shell.exec protection mechanism",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14625",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14625\n  <br />\n  <strong>Published :</strong> July 4, 2026, 12:16 p.m. | 9 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in NousResearch hermes-agent up to 0.15.2. The affected element is the function shell.exec of the file tui_gateway/server.py. The manipulation results in protection mechanism failure. It is possible to launch the attack remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T12:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-14625"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security flaw has been discovered in NousResearch hermes-agent up to 0.15.2. The affected element is the function shell.exec of the file tui_gateway/server.py. The manipulation results in protection mechanism failure. It is possible to launch the attack remotely. The exploit has been released to t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14625 - NousResearch hermes-agent server.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4a2bae448a9b45333d7eb910cf349fbd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12196 - HestiaCP Admin Takeover",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12196",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12196\n  <br />\n  <strong>Published :</strong> July 4, 2026, 12:16 p.m. | 9 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>HestiaCP panel cronjob feature is affected by a broken access control vulnerability. Low privilege users can modify the panel cronjob to execute scripts HestiaCP management scripts with passwordless sudo. This could result in the takeover of administrator users in the application and the underlying webserver.\n  <br />\n  <strong>Severity:</strong> 8.3 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T12:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-12196"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12196 - HestiaCP Admin Takeover",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ca2e9ab48e56334b3dc96d3f369546ca",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12195 - myVesta is affected by an authenticated remote cod",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12195",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12195\n  <br />\n  <strong>Published :</strong> July 4, 2026, 12:16 p.m. | 9 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>myVesta is affected by an authenticated remote code execution vulnerability. Low privileged users can insert arbitrary commands as a part of the v_ftp_user parameter when deleting FTP usernames. This could result in the execution of commands as the admin user or takevoer of the admin user in myVesta.\n  <br />\n  <strong>Severity:</strong> 8.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T12:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-12195"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12195 - myVesta is affected by an authent",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9e4e9f8701a54acee28e54da107f4ec4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14624 - omec-project amf NGSetupRequest handler.go denial of service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14624",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14624\n  <br />\n  <strong>Published :</strong> July 4, 2026, 11:16 a.m. | 10 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in omec-project amf up to 2.0.2/2.1.1. Impacted is an unknown function of the file /go/src/amf/ngap/handler.go of the component NGSetupRequest Handler. The manipulation leads to denial of service. It is possible to initiate the attack remotely. The exploit is publicly available and might be used. The identifier of the patch is 34bc6724acc97dba1f8691e586da95b042cb612d. To fix this issue, it is recommended to deploy a patch.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T11:16:47+00:00",
+    "cve_ids": [
+      "CVE-2026-14624"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was identified in omec-project amf up to 2.0.2/2.1.1. Impacted is an unknown function of the file /go/src/amf/ngap/handler.go of the component NGSetupRequest Handler. The manipulation leads to denial of service. It is possible to initiate the attack remotely. The exploit is publicly ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14624 - omec-project amf NGSetupRequest h",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "25da4aeefb1c8e24dd6ad0fb4cf93220",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14623 - omec-project amf NGAP Message RRCInactiveTransitionReport denial of service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14623",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14623\n  <br />\n  <strong>Published :</strong> July 4, 2026, 10:16 a.m. | 11 hours, 44 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in omec-project amf up to 2.1.1. This issue affects the function RRCInactiveTransitionReport of the component NGAP Message Handler. Executing a manipulation can lead to denial of service. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized. This patch is called 34bc6724acc97dba1f8691e586da95b042cb612d. A patch should be applied to remediate this issue.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-04T10:16:27+00:00",
+    "cve_ids": [
+      "CVE-2026-14623"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was determined in omec-project amf up to 2.1.1. This issue affects the function RRCInactiveTransitionReport of the component NGAP Message Handler. Executing a manipulation can lead to denial of service. The attack may be performed from remote. The exploit has been publicly disclosed ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14623 - omec-project amf NGAP Message RRC",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "da3100ccc13cee2e3fe2d12d2cbaf958",
+    "source": "The Hacker News",
+    "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
+    "link": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
+    "summary": "A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left.\n\nThe odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single",
+    "pub_date": "2026-07-04T12:47:53+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. Government Entity Paid Kairos $1 Million in D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4475c81b7436e8daa4353902b4f4747f",
+    "source": "The Hacker News",
+    "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
+    "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+    "summary": "The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as PolinRider.\n\n\"The campaign remains active, and new malicious packages are likely to continue appearing as threat actors compromise maintainer accounts,",
+    "pub_date": "2026-07-04T11:17:24+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "North Korean Hackers Publish 108 Malicious Package",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0a4428d5fdfdcb61f1f239063186fcec",
+    "source": "BleepingComputer",
+    "title": "JadePuffer ransomware used AI agent to automate entire attack",
+    "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
+    "summary": "Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language model (LLM) agent. [...]",
+    "pub_date": "2026-07-04T14:16:38+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "JadePuffer ransomware used AI agent to automate en",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "60273c7235004b11a21b3f03061eef21",
+    "source": "Security Affairs",
+    "title": "U.S. Government Agency Paid $1M to Data Extortion Group Kairos",
+    "link": "https://securityaffairs.com/194750/security/u-s-government-agency-paid-1m-to-data-extortion-group-kairos.html",
+    "summary": "A U.S. government agency paid $1M to Kairos, a group focused on data theft and extortion rather than ransomware, Ransom-ISAC reports. A new case study from Ransom-ISAC reconstructs a complete data-extortion incident involving a U.S. government body and a threat actor called Kairos, using a leaked negotiation transcript and blockchain tracing of the ransom payment. [&#8230;]",
+    "pub_date": "2026-07-04T16:53:35+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. Government Agency Paid $1M to Data Extortion ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "97170f3434b34f1e79076216ce9fe806",
+    "source": "Security Affairs",
+    "title": "FBI: TeamPCP Compromised Dev Tools to Steal Cloud Credentials",
+    "link": "https://securityaffairs.com/194741/cyber-crime/fbi-teampcp-compromised-dev-tools-to-steal-cloud-credentials.html",
+    "summary": "FBI says TeamPCP poisoned trusted developer tools to steal cloud credentials, spread malware through software updates, and extort victims. On July 2, 2026, the FBI published a FLASH alert identifying the criminal group called TeamPCP and detailing how it compromised widely used developer and security tools to steal credentials from victim environments at scale. The [&#8230;]",
+    "pub_date": "2026-07-04T07:55:14+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "FBI: TeamPCP Compromised Dev Tools to Steal Cloud ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4fea9b5bdfedaa543107e025acafc456",
+    "source": "CrowdStrike",
+    "title": "Browser Security: Zero-Days Are Only Part of the Problem",
+    "link": "https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Browser Security: Zero-Days Are Only Part of the P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d02104f77d5e5c2bd8d57cc56f0122f9",
+    "source": "CrowdStrike",
+    "title": "Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Cloud Security June 2026 Release: Updates f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "85c4de30e48f9e433f96e1061da69dd6",
+    "source": "CrowdStrike",
+    "title": "The Identity Problem Hiding in AI Agent Deployments",
+    "link": "https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The Identity Problem Hiding in AI Agent Deployment",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d17f9e981b875d258d9d86261fce86ee",
+    "source": "CrowdStrike",
+    "title": "94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "94% of Organizations Report Cloud Breaches: CrowdS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f872616042a910b9b1900b14b3dcc2a",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 2: Sto",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dbfe95ad2e9d92b7fa6e403d9471f01d",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 1: The",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "734ce40a3df927fe2f4c6286f97a8456",
+    "source": "CrowdStrike",
+    "title": "After Executive Order 14409: Next Steps for Securing AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "After Executive Order 14409: Next Steps for Securi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fa98c086f9f0ffd128027b3900bab1b0",
+    "source": "CrowdStrike",
+    "title": "Falcon Exposure Management Now Available for Third-Party Environments",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Exposure Management Now Available for Third",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5627343bd8d0dc34520a49e641fac5e4",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Announces Continuous Identity for AI Agents",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Announces Continuous Identity for AI A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07d00e994aef66e46c15124b13fc8ebf",
+    "source": "CrowdStrike",
+    "title": "Why AI Projects Stall and How CIOs Can Respond",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Projects Stall and How CIOs Can Respond",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
