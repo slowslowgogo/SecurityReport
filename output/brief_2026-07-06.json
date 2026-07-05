@@ -1,0 +1,845 @@
+[
+  {
+    "uid": "78bd40f8cc36b98ea9a98db3fd6d5fec",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-59520 - WordPress CrawlWP SEO plugin <= 3.0.16 - Cross Site Request Forgery (CSRF) vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-59520",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-59520\n  <br />\n  <strong>Published :</strong> July 5, 2026, 9:44 p.m. | 21 minutes ago\n  <br />\n  <strong>Description :</strong>Cross-Site Request Forgery (CSRF) vulnerability in properfraction CrawlWP SEO allows Cross Site Request Forgery.\n\nThis issue affects CrawlWP SEO: from n/a through 3.0.16.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T21:44:29+00:00",
+    "cve_ids": [
+      "CVE-2026-59520"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Cross-Site Request Forgery (CSRF) vulnerability in properfraction CrawlWP SEO allows Cross Site Request Forgery.\n\nThis issue affects CrawlWP SEO: from n/a through 3.0.16.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-59520 - WordPress CrawlWP SEO plugin <= 3",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f320bfe8327cafaf04c5dc95bf2ac86f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-59519 - WordPress FormLayer plugin <= 1.0.6 - Sensitive Data Exposure vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-59519",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-59519\n  <br />\n  <strong>Published :</strong> July 5, 2026, 9:42 p.m. | 23 minutes ago\n  <br />\n  <strong>Description :</strong>Insertion of Sensitive Information Into Sent Data vulnerability in Softaculous FormLayer allows Retrieve Embedded Sensitive Data.\n\nThis issue affects FormLayer: from n/a through 1.0.6.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T21:42:33+00:00",
+    "cve_ids": [
+      "CVE-2026-59519"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Insertion of Sensitive Information Into Sent Data vulnerability in Softaculous FormLayer allows Retrieve Embedded Sensitive Data.\n\nThis issue affects FormLayer: from n/a through 1.0.6.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-59519 - WordPress FormLayer plugin <= 1.0",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "99b54c6b7f8ba353e68d480c3e42dbb6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-59511 - WordPress Exclusive Addons Elementor plugin <= 2.7.9.9 - Sensitive Data Exposure vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-59511",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-59511\n  <br />\n  <strong>Published :</strong> July 5, 2026, 9:36 p.m. | 29 minutes ago\n  <br />\n  <strong>Description :</strong>Insertion of Sensitive Information Into Sent Data vulnerability in Tim Strifler Exclusive Addons Elementor allows Retrieve Embedded Sensitive Data.\n\nThis issue affects Exclusive Addons Elementor: from n/a through 2.7.9.9.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T21:36:39+00:00",
+    "cve_ids": [
+      "CVE-2026-59511"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Insertion of Sensitive Information Into Sent Data vulnerability in Tim Strifler Exclusive Addons Elementor allows Retrieve Embedded Sensitive Data.\n\nThis issue affects Exclusive Addons Elementor: from n/a through 2.7.9.9.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-59511 - WordPress Exclusive Addons Elemen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0328ba1df9cd71ea9a6aaa9b3c521f0a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14771 - SourceCodester Class and Exam Timetabling System edit_exam1.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14771",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14771\n  <br />\n  <strong>Published :</strong> July 5, 2026, 9:30 p.m. | 35 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in SourceCodester Class and Exam Timetabling System 1.0/1.php. The affected element is an unknown function of the file /edit_exam1.php. Executing a manipulation of the argument ID can lead to sql injection. It is possible to launch the attack remotely. The exploit has been published and may be used.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T21:30:09+00:00",
+    "cve_ids": [
+      "CVE-2026-14771"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A flaw has been found in SourceCodester Class and Exam Timetabling System 1.0/1.php. The affected element is an unknown function of the file /edit_exam1.php. Executing a manipulation of the argument ID can lead to sql injection. It is possible to launch the attack remotely. The exploit has been publ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14771 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f1209e6b42680790f51805f55c5356b4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14770 - SourceCodester Class and Exam Timetabling System edit_room.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14770",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14770\n  <br />\n  <strong>Published :</strong> July 5, 2026, 9:16 p.m. | 49 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in SourceCodester Class and Exam Timetabling System 1.0. Impacted is an unknown function of the file /edit_room.php. Performing a manipulation of the argument ID results in sql injection. It is possible to initiate the attack remotely. The exploit is now public and may be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T21:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-14770"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was detected in SourceCodester Class and Exam Timetabling System 1.0. Impacted is an unknown function of the file /edit_room.php. Performing a manipulation of the argument ID results in sql injection. It is possible to initiate the attack remotely. The exploit is now public and may b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14770 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e871799db732fca081a18703445443a0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14769 - code-projects Real State Services pay.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14769",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14769\n  <br />\n  <strong>Published :</strong> July 5, 2026, 9:16 p.m. | 49 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in code-projects Real State Services 1.0. This issue affects some unknown processing of the file /pay.php. Such manipulation of the argument Bankname leads to sql injection. The attack may be performed from remote. The exploit has been disclosed publicly and may be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T21:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-14769"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A security vulnerability has been detected in code-projects Real State Services 1.0. This issue affects some unknown processing of the file /pay.php. Such manipulation of the argument Bankname leads to sql injection. The attack may be performed from remote. The exploit has been disclosed publicly an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14769 - code-projects Real State Services",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d3bd4b166a010ea7c809b14da2423a6f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14768 - code-projects Real State Services builderHome.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14768",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14768\n  <br />\n  <strong>Published :</strong> July 5, 2026, 8:16 p.m. | 1 hour, 49 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in code-projects Real State Services 1.0. This vulnerability affects unknown code of the file /builderHome.php. This manipulation of the argument loc causes sql injection. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be used for attacks.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T20:16:31+00:00",
+    "cve_ids": [
+      "CVE-2026-14768"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A weakness has been identified in code-projects Real State Services 1.0. This vulnerability affects unknown code of the file /builderHome.php. This manipulation of the argument loc causes sql injection. The attack is possible to be carried out remotely. The exploit has been made available to the pub",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14768 - code-projects Real State Services",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f3fccfe9798c1cfcd96d6b8ebedb835a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14767 - CodeAstro Ecommerce Website POST Parameter confirm.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14767",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14767\n  <br />\n  <strong>Published :</strong> July 5, 2026, 8:16 p.m. | 1 hour, 49 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in CodeAstro Ecommerce Website 1.0. This affects an unknown part of the file /ecommerce-website-php/customer/confirm.php of the component POST Parameter Handler. The manipulation of the argument invoice_no results in sql injection. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T20:16:31+00:00",
+    "cve_ids": [
+      "CVE-2026-14767"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security flaw has been discovered in CodeAstro Ecommerce Website 1.0. This affects an unknown part of the file /ecommerce-website-php/customer/confirm.php of the component POST Parameter Handler. The manipulation of the argument invoice_no results in sql injection. The attack can be executed remot",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14767 - CodeAstro Ecommerce Website POST ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0a97fc34f2062ba22e443393ce9e1cdf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14766 - CodeAstro Apartment Visitor Management System POST Parameter search-result.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14766",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14766\n  <br />\n  <strong>Published :</strong> July 5, 2026, 7:16 p.m. | 2 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in CodeAstro Apartment Visitor Management System 1.0. Affected by this issue is some unknown functionality of the file /apartment-visitor/search-result.php of the component POST Parameter Handler. The manipulation of the argument searchdata leads to sql injection. Remote exploitation of the attack is possible. The exploit is publicly available and might be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T19:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-14766"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was identified in CodeAstro Apartment Visitor Management System 1.0. Affected by this issue is some unknown functionality of the file /apartment-visitor/search-result.php of the component POST Parameter Handler. The manipulation of the argument searchdata leads to sql injection. Remo",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14766 - CodeAstro Apartment Visitor Manag",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7f827e09171d54ffefda67f20c5aac69",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-59510 - Authenticated Path Traversal in AIL Framework PDF Object Handling Enables Potential Arbitrary File Read",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-59510",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-59510\n  <br />\n  <strong>Published :</strong> July 5, 2026, 6:16 p.m. | 3 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>AIL Framework contains a path traversal vulnerability in its PDF object handling. Prior to commit 14c618fce4d1df02358717c48ea903706abecdf2, the PDF.get_filepath() function constructed a file path by joining the configured PDF storage directory with a path derived from a PDF object identifier, without verifying that the resolved path remained within the intended PDF_FOLDER directory.\n\nAn authenticated attacker able to invoke PDF object operations with a crafted identifier could use relative traversal sequences or absolute path components to cause AIL Framework to open files located outside the PDF storage directory. This c",
+    "pub_date": "2026-07-05T18:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-59510"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-59510 - Authenticated Path Traversal in A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "73bbacec446f05b0a68c781265afcb84",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14764 - code-projects Hotel and Tourism Reservation Event Management add_event.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14764",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14764\n  <br />\n  <strong>Published :</strong> July 5, 2026, 5:17 p.m. | 4 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in code-projects Hotel and Tourism Reservation 1.0. This impacts an unknown function of the file /admin/add_event.php of the component Event Management Page. Such manipulation of the argument fdetails leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T17:17:27+00:00",
+    "cve_ids": [
+      "CVE-2026-14764"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability has been found in code-projects Hotel and Tourism Reservation 1.0. This impacts an unknown function of the file /admin/add_event.php of the component Event Management Page. Such manipulation of the argument fdetails leads to sql injection. The attack can be launched remotely. The exp",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14764 - code-projects Hotel and Tourism R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1d17062cfa38ee8bad0c53b3f3378959",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14763 - code-projects Hotel and Tourism Reservation Tour Reservations tour_reserves.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14763",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14763\n  <br />\n  <strong>Published :</strong> July 5, 2026, 5:17 p.m. | 4 hours, 48 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in code-projects Hotel and Tourism Reservation 1.0. This affects an unknown function of the file /admin/tour_reserves.php of the component Tour Reservations Page. This manipulation of the argument tour causes sql injection. The attack can be initiated remotely. The exploit has been published and may be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T17:17:27+00:00",
+    "cve_ids": [
+      "CVE-2026-14763"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A flaw has been found in code-projects Hotel and Tourism Reservation 1.0. This affects an unknown function of the file /admin/tour_reserves.php of the component Tour Reservations Page. This manipulation of the argument tour causes sql injection. The attack can be initiated remotely. The exploit has ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14763 - code-projects Hotel and Tourism R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "92d1c796aa2ed81f7d09458bc223abbf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14762 - code-projects Hotel and Tourism Reservation Room Management rooms.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14762",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14762\n  <br />\n  <strong>Published :</strong> July 5, 2026, 4:19 p.m. | 5 hours, 46 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in code-projects Hotel and Tourism Reservation 1.0. The impacted element is an unknown function of the file /admin/rooms.php of the component Room Management Page. The manipulation of the argument delete results in sql injection. It is possible to launch the attack remotely. The exploit is now public and may be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T16:19:45+00:00",
+    "cve_ids": [
+      "CVE-2026-14762"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was detected in code-projects Hotel and Tourism Reservation 1.0. The impacted element is an unknown function of the file /admin/rooms.php of the component Room Management Page. The manipulation of the argument delete results in sql injection. It is possible to launch the attack remot",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14762 - code-projects Hotel and Tourism R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ca0c768150daf46d5d83fe9b3b03e87f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14761 - radareorg radare2 str.c r_str_append integer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14761",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14761\n  <br />\n  <strong>Published :</strong> July 5, 2026, 4:19 p.m. | 5 hours, 46 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in radareorg radare2 up to 6.1.6. The affected element is the function r_str_ndup/r_str_append of the file libr/util/str.c. The manipulation leads to integer overflow. An attack has to be approached locally. The exploit has been disclosed publicly and may be used. The identifier of the patch is a20a56917ae85d732e683f8d9078bdcfee92446c. Applying a patch is the recommended action to fix this issue.\n  <br />\n  <strong>Severity:</strong> 3.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T16:19:44+00:00",
+    "cve_ids": [
+      "CVE-2026-14761"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "A security vulnerability has been detected in radareorg radare2 up to 6.1.6. The affected element is the function r_str_ndup/r_str_append of the file libr/util/str.c. The manipulation leads to integer overflow. An attack has to be approached locally. The exploit has been disclosed publicly and may b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14761 - radareorg radare2 str.c r_str_app",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "359fa3761c8117bea3c49d539b378a66",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14760 - radareorg radare2 regprofile disasm.c r_core_seek_arch_bits use after free",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14760",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14760\n  <br />\n  <strong>Published :</strong> July 5, 2026, 4:19 p.m. | 5 hours, 46 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in radareorg radare2 up to 6.1.6. Impacted is the function r_core_seek_arch_bits of the file libr/core/disasm.c of the component regprofile Handler. Executing a manipulation can lead to use after free. The attack requires local access. The exploit has been made available to the public and could be used for attacks. This patch is called 8b25c773785d85cb0103410a0905089d286921c2. It is advisable to implement a patch to correct this issue.\n  <br />\n  <strong>Severity:</strong> 3.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T16:19:44+00:00",
+    "cve_ids": [
+      "CVE-2026-14760"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "A weakness has been identified in radareorg radare2 up to 6.1.6. Impacted is the function r_core_seek_arch_bits of the file libr/core/disasm.c of the component regprofile Handler. Executing a manipulation can lead to use after free. The attack requires local access. The exploit has been made availab",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14760 - radareorg radare2 regprofile disa",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9e07973f1599d0a28b32e9c1be354ed8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14759 - radareorg radare2 RBinJava Line Number Table class.c r_bin_java_inner_classes_attr_calc_size heap-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14759",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14759\n  <br />\n  <strong>Published :</strong> July 5, 2026, 4:19 p.m. | 5 hours, 46 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in radareorg radare2 up to 6.1.6. This issue affects the function r_bin_java_inner_classes_attr_calc_size of the file shlr/java/class.c of the component RBinJava Line Number Table Parser. Performing a manipulation results in heap-based buffer overflow. The attack requires a local approach. The exploit has been released to the public and may be used for attacks. The patch is named cd62d15a6cbecdc67fd03f3ebdbbbeb741d18f87. To fix this issue, it is recommended to deploy a patch.\n  <br />\n  <strong>Severity:</strong> 3.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details",
+    "pub_date": "2026-07-05T16:19:44+00:00",
+    "cve_ids": [
+      "CVE-2026-14759"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "A security flaw has been discovered in radareorg radare2 up to 6.1.6. This issue affects the function r_bin_java_inner_classes_attr_calc_size of the file shlr/java/class.c of the component RBinJava Line Number Table Parser. Performing a manipulation results in heap-based buffer overflow. The attack ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14759 - radareorg radare2 RBinJava Line N",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6eeccf80d78e362f46c35ddad97f3938",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9085 - DNS Hijacking in TUBITAK BILGEM's Pardus-Parental-Control",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9085",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9085\n  <br />\n  <strong>Published :</strong> July 5, 2026, 3:16 p.m. | 6 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>Incorrect Permission Assignment for Critical Resource, Improper Access Control vulnerability in TUBITAK BILGEM Software Technologies Research Institute Pardus-Parental-Control allows DNS Spoofing.\n\nThis issue affects Pardus-Parental-Control: from <=0.5.1 before 0.7.0.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T15:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-9085"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "Incorrect Permission Assignment for Critical Resource, Improper Access Control vulnerability in TUBITAK BILGEM Software Technologies Research Institute Pardus-Parental-Control allows DNS Spoofing.\n\nThis issue affects Pardus-Parental-Control: from <=0.5.1 before 0.7.0.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9085 - DNS Hijacking in TUBITAK BILGEM's ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b3dc19cc5a12e2c0e5b681b90c41742c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6509 - Privilege Escalation in TUBITAK BILGEM's Pardus Update",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6509",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6509\n  <br />\n  <strong>Published :</strong> July 5, 2026, 3:16 p.m. | 6 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>Missing Authorization vulnerability in TUBITAK BILGEM Software Technologies Research Institute Pardus Update allows Privilege Escalation.\n\nThis issue affects Pardus Update: from <=0.6.3 before 0.6.6.\n  <br />\n  <strong>Severity:</strong> 7.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T15:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-6509"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "Missing Authorization vulnerability in TUBITAK BILGEM Software Technologies Research Institute Pardus Update allows Privilege Escalation.\n\nThis issue affects Pardus Update: from <=0.6.3 before 0.6.6.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-6509 - Privilege Escalation in TUBITAK BI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "78a3e389f40ef5a1ae855909b5545660",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14758 - radareorg radare2 hexpairs cmd_anal.inc.c cmd_anal_opcode integer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14758",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14758\n  <br />\n  <strong>Published :</strong> July 5, 2026, 3:16 p.m. | 6 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in radareorg radare2 up to 6.1.6. This vulnerability affects the function cmd_anal_opcode of the file libr/core/cmd_anal.inc.c of the component hexpairs Parser. Such manipulation leads to integer overflow. The attack needs to be performed locally. The exploit is publicly available and might be used. The name of the patch is 84e773986e7e5bb30453a9384f498ec0ccc9d0a9. A patch should be applied to remediate this issue.\n  <br />\n  <strong>Severity:</strong> 3.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T15:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-14758"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "A vulnerability was identified in radareorg radare2 up to 6.1.6. This vulnerability affects the function cmd_anal_opcode of the file libr/core/cmd_anal.inc.c of the component hexpairs Parser. Such manipulation leads to integer overflow. The attack needs to be performed locally. The exploit is public",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14758 - radareorg radare2 hexpairs cmd_an",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "97011e6c3dbd9750198a8ac0dca5ec4a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14757 - radareorg radare2 cmd_anal.inc core_anal_bytes integer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14757",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14757\n  <br />\n  <strong>Published :</strong> July 5, 2026, 3:16 p.m. | 6 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in radareorg radare2 up to 6.1.6. This affects the function core_anal_bytes of the file libr/core/cmd_anal.inc. This manipulation causes integer overflow. The attack needs to be launched locally. The exploit has been publicly disclosed and may be utilized. It is suggested to install a patch to address this issue.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T15:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-14757"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was determined in radareorg radare2 up to 6.1.6. This affects the function core_anal_bytes of the file libr/core/cmd_anal.inc. This manipulation causes integer overflow. The attack needs to be launched locally. The exploit has been publicly disclosed and may be utilized. It is sugges",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14757 - radareorg radare2 cmd_anal.inc co",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "96240b16eebbc4a29dc86b1bd7aa3e82",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14756 - code-projects Hotel and Tourism Reservation Tour Management add_tour.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14756",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14756\n  <br />\n  <strong>Published :</strong> July 5, 2026, 3:16 p.m. | 6 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in code-projects Hotel and Tourism Reservation 1.0. Affected by this issue is some unknown functionality of the file /admin/add_tour.php of the component Tour Management Page. The manipulation of the argument delete_image results in sql injection. The attack may be launched remotely. The exploit has been made public and could be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T15:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-14756"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was found in code-projects Hotel and Tourism Reservation 1.0. Affected by this issue is some unknown functionality of the file /admin/add_tour.php of the component Tour Management Page. The manipulation of the argument delete_image results in sql injection. The attack may be launched",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14756 - code-projects Hotel and Tourism R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a491d1bc11005af81de411d1f0833efd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14755 - code-projects Hotel and Tourism Reservation Reservations Management reservations.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14755",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14755\n  <br />\n  <strong>Published :</strong> July 5, 2026, 3:16 p.m. | 6 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in code-projects Hotel and Tourism Reservation 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/reservations.php of the component Reservations Management Page. The manipulation of the argument delete leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T15:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-14755"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability has been found in code-projects Hotel and Tourism Reservation 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/reservations.php of the component Reservations Management Page. The manipulation of the argument delete leads to sql injection. The attack ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14755 - code-projects Hotel and Tourism R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ba74c4d7d627b973a19bb3c5bb4d4398",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12386 - Buffer Overflow in TUBITAK BILGEM's Pardus Pen",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12386",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12386\n  <br />\n  <strong>Published :</strong> July 5, 2026, 3:16 p.m. | 6 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>Improper null termination vulnerability in TUBITAK BILGEM Software Technologies Research Institute Pardus Pen allows Overflow Buffers.\n\nThis issue affects Pardus Pen: from <=4.1.5 before 4.2.1.\n  <br />\n  <strong>Severity:</strong> 3.9 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T15:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-12386"
+    ],
+    "cvss": 3.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.9,
+      "description": "Improper null termination vulnerability in TUBITAK BILGEM Software Technologies Research Institute Pardus Pen allows Overflow Buffers.\n\nThis issue affects Pardus Pen: from <=4.1.5 before 4.2.1.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12386 - Buffer Overflow in TUBITAK BILGEM",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5ba71129f220619f88d5e9979305fbcf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12250 - Sensitive Data Exposure in TUBITAK BILGEM's Pardus Domain Joiner",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12250",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12250\n  <br />\n  <strong>Published :</strong> July 5, 2026, 3:16 p.m. | 6 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>Invocation of process using visible sensitive information vulnerability in TUBITAK BILGEM Software Technologies Research Institute Pardus Domain Joiner allows Excavation.\n\nThis issue affects Pardus Domain Joiner: from 0.5.2 before 0.5.4.\n  <br />\n  <strong>Severity:</strong> 7.9 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T15:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-12250"
+    ],
+    "cvss": 7.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.9,
+      "description": "Invocation of process using visible sensitive information vulnerability in TUBITAK BILGEM Software Technologies Research Institute Pardus Domain Joiner allows Excavation.\n\nThis issue affects Pardus Domain Joiner: from 0.5.2 before 0.5.4.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12250 - Sensitive Data Exposure in TUBITA",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "026fbb5e2af37c72f9b012aa9910c11a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14754 - code-projects Hotel and Tourism Reservation add_room.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14754",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14754\n  <br />\n  <strong>Published :</strong> July 5, 2026, 2:16 p.m. | 7 hours, 49 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in code-projects Hotel and Tourism Reservation 1.0. Affected is an unknown function of the file /admin/add_room.php. Executing a manipulation of the argument delete_image/edit/description/number/price/rooms/type can lead to sql injection. The attack can be launched remotely. The exploit has been published and may be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-05T14:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-14754"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A flaw has been found in code-projects Hotel and Tourism Reservation 1.0. Affected is an unknown function of the file /admin/add_room.php. Executing a manipulation of the argument delete_image/edit/description/number/price/rooms/type can lead to sql injection. The attack can be launched remotely. Th",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14754 - code-projects Hotel and Tourism R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c53cdb933007595799df411b7d31a2a4",
+    "source": "BleepingComputer",
+    "title": "Flipper Zero firmware development continues with community help",
+    "link": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
+    "summary": "Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]",
+    "pub_date": "2026-07-05T14:14:52+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Flipper Zero firmware development continues with c",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8297b1eef97bf68ff5c4e5bf0770ec92",
+    "source": "Help Net Security",
+    "title": "New ClamAV security patch closes seven scanner bugs dating back two decades",
+    "link": "https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/",
+    "summary": "<p>Open source antivirus scanning sits inside mail gateways, file upload checks, and endpoint tooling at organizations of every size. Much of that work runs through ClamAV, the scanning engine maintained by Cisco&#8217;s Talos group. The project released two patch versions, 1.5.3 and 1.4.5, carrying fixes for seven security flaws along with smaller hardening changes. Packer and PE parsing flaws Most of the patched bugs sit in the code that unpacks and parses executable formats, the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/06/clamav-security-patch-versions/\">New ClamAV security patch closes seven scanner bugs datin",
+    "pub_date": "2026-07-05T22:30:13+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New ClamAV security patch closes seven scanner bug",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4e29e9c4c33a4797457e5e5d44d9fe98",
+    "source": "Help Net Security",
+    "title": "Week in review: SimpleHelp vulnerability exploited, Oracle EBS Payments flaw under attack",
+    "link": "https://www.helpnetsecurity.com/2026/07/05/week-in-review-simplehelp-vulnerability-exploited-oracle-ebs-payments-flaw-under-attack/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Companies keep bolting AI onto their products, and the security bill is coming due Companies keep bolting AI and LLM features onto their products, and the security results are starting to show a pattern. The vulnerabilities those features create get rated high risk far more often than anything else, and they get fixed slower than anything else. The figures come &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/05/week-in-review-simplehelp-vulnerability-exploited-oracle-ebs-payments-flaw-under-attack/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/05/week-in-review-simplehelp-vulnerability-exploited-oracl",
+    "pub_date": "2026-07-05T05:10:59+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: SimpleHelp vulnerability exploited",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "47e748ea9eabf7c9db8a5c7c0fbfa8f7",
+    "source": "Security Affairs",
+    "title": "Medtronic Notifies 3.8 Million After ShinyHunters Data Breach",
+    "link": "https://securityaffairs.com/194788/cyber-crime/medtronic-notifies-3-8-million-after-shinyhunters-data-breach.html",
+    "summary": "Medtronic says a ShinyHunters attack exposed the personal and medical data of over 3.8 million people. Products and operations were unaffected. Medtronic is notifying 3,834,294 individuals after a cyberattack by the ShinyHunters extortion group exposed personal and medical information. In April 2026, Medtronic confirmed a cyberattack on its corporate IT systems after the hacker group ShinyHunters claimed [&#8230;]",
+    "pub_date": "2026-07-05T18:31:18+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Medtronic Notifies 3.8 Million After ShinyHunters ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "32da5a0080f8688d56153512163bb34c",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 104",
+    "link": "https://securityaffairs.com/194785/uncategorized/security-affairs-malware-newsletter-round-104.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Hijacked npm Packages Use Novel VSCode Autorun and Blockchain Dead Drops to Deploy a Credential/Crypto Stealer&#160;&#160; Building a CI/CD pipeline for Sigma rules&#160;&#160; Inside StegoAd: How a Threat Actor Evolved to Fuel Silent Ad [&#8230;]",
+    "pub_date": "2026-07-05T17:37:07+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 104",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0ada82080b2059c895e6def9971a43b7",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 584 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/194772/security/security-affairs-newsletter-round-584-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. U.S. Government Agency Paid $1M to Data Extortion Group Kairos FBI: TeamPCP Compromised Dev Tools to [&#8230;]",
+    "pub_date": "2026-07-05T05:07:31+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 584 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4fea9b5bdfedaa543107e025acafc456",
+    "source": "CrowdStrike",
+    "title": "Browser Security: Zero-Days Are Only Part of the Problem",
+    "link": "https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Browser Security: Zero-Days Are Only Part of the P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d02104f77d5e5c2bd8d57cc56f0122f9",
+    "source": "CrowdStrike",
+    "title": "Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Cloud Security June 2026 Release: Updates f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "85c4de30e48f9e433f96e1061da69dd6",
+    "source": "CrowdStrike",
+    "title": "The Identity Problem Hiding in AI Agent Deployments",
+    "link": "https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The Identity Problem Hiding in AI Agent Deployment",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d17f9e981b875d258d9d86261fce86ee",
+    "source": "CrowdStrike",
+    "title": "94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "94% of Organizations Report Cloud Breaches: CrowdS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f872616042a910b9b1900b14b3dcc2a",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 2: Sto",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dbfe95ad2e9d92b7fa6e403d9471f01d",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 1: The",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "734ce40a3df927fe2f4c6286f97a8456",
+    "source": "CrowdStrike",
+    "title": "After Executive Order 14409: Next Steps for Securing AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "After Executive Order 14409: Next Steps for Securi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fa98c086f9f0ffd128027b3900bab1b0",
+    "source": "CrowdStrike",
+    "title": "Falcon Exposure Management Now Available for Third-Party Environments",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Exposure Management Now Available for Third",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5627343bd8d0dc34520a49e641fac5e4",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Announces Continuous Identity for AI Agents",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Announces Continuous Identity for AI A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07d00e994aef66e46c15124b13fc8ebf",
+    "source": "CrowdStrike",
+    "title": "Why AI Projects Stall and How CIOs Can Respond",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Projects Stall and How CIOs Can Respond",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
