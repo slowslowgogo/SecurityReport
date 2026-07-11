@@ -1,0 +1,871 @@
+[
+  {
+    "uid": "0fe596170c45551bd3ab228a6e7db6bf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-58281 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-58281",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-58281\n  <br />\n  <strong>Published :</strong> July 11, 2026, 9:16 p.m. | 1 hour, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Deserialization of untrusted data in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.\n  <br />\n  <strong>Severity:</strong> 8.3 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T21:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-58281"
+    ],
+    "cvss": 8.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.3,
+      "description": "Deserialization of untrusted data in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-58281 - Microsoft Edge (Chromium-based) R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3044df7d695fcd4b750d3b3dde57a584",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10660 - Shared reassembly buffer in Bluetooth BAP Broadcast Assistant enables cross-connection memory corruption",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10660",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10660\n  <br />\n  <strong>Published :</strong> July 11, 2026, 5:16 p.m. | 5 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The Bluetooth BAP Broadcast Assistant GATT client in subsys/bluetooth/audio/bap_broadcast_assistant.c reassembled remote Broadcast Receive State data into a single file-static net_buf_simple (att_buf, BT_ATT_MAX_ATTRIBUTE_LEN = 512 bytes) shared by all connection instances, while the BUSY flag, long-read handle, and reset/offset state were per-connection.\n\nWhen the device acts as a Broadcast Assistant connected to multiple Scan Delegator peripherals, notification and long-read callbacks from different connections interleave on the shared buffer: the append in notify_handler (net_buf_simple_add_mem at the not-busy branch)",
+    "pub_date": "2026-07-11T17:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-10660"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "The Bluetooth BAP Broadcast Assistant GATT client in subsys/bluetooth/audio/bap_broadcast_assistant.c reassembled remote Broadcast Receive State data into a single file-static net_buf_simple (att_buf, BT_ATT_MAX_ATTRIBUTE_LEN = 512 bytes) shared by all connection instances, while the BUSY flag, long",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10660 - Shared reassembly buffer in Bluet",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a6abed12d4dc2f0f839d3b5e2f3b3c07",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61870 - ImageMagick before 7.1.2-26 Memory Leak via VIFF Encoder",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61870",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61870\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>ImageMagick before 7.1.2-26 contains a memory leak vulnerability in the VIFF encoder when memory allocation fails. Attackers can trigger allocation failures by processing specially crafted VIFF images to exhaust available memory and cause denial of service.\n  <br />\n  <strong>Severity:</strong> 2.9 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-61870"
+    ],
+    "cvss": 2.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.9,
+      "description": "ImageMagick before 7.1.2-26 contains a memory leak vulnerability in the VIFF encoder when memory allocation fails. Attackers can trigger allocation failures by processing specially crafted VIFF images to exhaust available memory and cause denial of service.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61870 - ImageMagick before 7.1.2-26 Memor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9a9e058de20acc66dd5da4f1ec61e28a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61861 - ImageMagick before 7.1.2-26 Use-After-Free in FormatMagickCaption",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61861",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61861\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>ImageMagick before 7.1.2-26 contains a use-after-free vulnerability in the FormatMagickCaption method when memory allocation fails. Attackers can trigger memory allocation failures to cause a dangling pointer to reference freed memory, potentially enabling denial of service or code execution.\n  <br />\n  <strong>Severity:</strong> 3.7 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-61861"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "ImageMagick before 7.1.2-26 contains a use-after-free vulnerability in the FormatMagickCaption method when memory allocation fails. Attackers can trigger memory allocation failures to cause a dangling pointer to reference freed memory, potentially enabling denial of service or code execution.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61861 - ImageMagick before 7.1.2-26 Use-A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ef472cc3b0d4435b23e523c00045dfe8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61858 - ImageMagick before 7.1.2-26 Policy Bypass via APNG encoder",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61858",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61858\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>ImageMagick before 7.1.2-26 contains a policy bypass vulnerability in the APNG encoder and external delegates due to missing validation checks. Attackers can write files to disallowed paths by bypassing configured policy restrictions through the APNG encoding process.\n  <br />\n  <strong>Severity:</strong> 3.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-61858"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "ImageMagick before 7.1.2-26 contains a policy bypass vulnerability in the APNG encoder and external delegates due to missing validation checks. Attackers can write files to disallowed paths by bypassing configured policy restrictions through the APNG encoding process.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61858 - ImageMagick before 7.1.2-26 Polic",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4578dea04836fb530acdbfd9a8f2414b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61857 - ImageMagick before 7.1.2-26 Heap Use-After-Free via XMP",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61857",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61857\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>ImageMagick before 7.1.2-26 contains a heap use-after-free vulnerability caused by missing null check when parsing XMP profiles. Attackers can craft malicious image files with specially crafted XMP data to trigger the vulnerability and cause application crashes.\n  <br />\n  <strong>Severity:</strong> 3.7 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-61857"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "ImageMagick before 7.1.2-26 contains a heap use-after-free vulnerability caused by missing null check when parsing XMP profiles. Attackers can craft malicious image files with specially crafted XMP data to trigger the vulnerability and cause application crashes.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61857 - ImageMagick before 7.1.2-26 Heap ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "72b7e989704c61e5243795ce41a050c2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61465 - ImageMagick before 7.1.2-26 Memory Allocation Policy Bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61465",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61465\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>ImageMagick before 7.1.2-26 and 6.9.13-51 is missing a check for the allowed memory allocation limit in matrix-backed operations such as -canny. An attacker can supply a crafted image that causes ImageMagick to allocate more memory than permitted by the configured policy, resulting in a denial of service.\n  <br />\n  <strong>Severity:</strong> 3.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-61465"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "ImageMagick before 7.1.2-26 and 6.9.13-51 is missing a check for the allowed memory allocation limit in matrix-backed operations such as -canny. An attacker can supply a crafted image that causes ImageMagick to allocate more memory than permitted by the configured policy, resulting in a denial of se",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61465 - ImageMagick before 7.1.2-26 Memor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "187fdb53e158115211e8da507b4c7141",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61454 - Grav before 2.0.4 Information Disclosure via __GRAV_CONFIG__",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61454",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61454\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The Grav Admin2 plugin (getgrav/grav-plugin-admin2) before 2.0.4 embeds a global JavaScript variable window.__GRAV_CONFIG__ in the Admin2 SPA bootstrap page at /grav/admin (and its subroutes). This object is returned in every unauthenticated response and discloses the server URL, API prefix, admin base path, runtime environment type, and exact Grav and Admin2 version numbers, allowing an unauthenticated attacker to fingerprint the deployment and select version-specific exploits without reconnaissance.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affe",
+    "pub_date": "2026-07-11T14:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-61454"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "The Grav Admin2 plugin (getgrav/grav-plugin-admin2) before 2.0.4 embeds a global JavaScript variable window.__GRAV_CONFIG__ in the Admin2 SPA bootstrap page at /grav/admin (and its subroutes). This object is returned in every unauthenticated response and discloses the server URL, API prefix, admin b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61454 - Grav before 2.0.4 Information Dis",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0ca53f376e67dd8c15f00234f5fbe59d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61448 - Parse Server 9.0.0 Stored XSS via malformed Content-Type",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61448",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61448\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Parse Server is affected by a stored cross-site scripting (XSS) vulnerability in versions >= 9.0.0, < 9.10.0-alpha.2 and <= 8.6.83. When an uploaded file's extension is not recognized by the mime package, Parse Server preserves the client-supplied Content-Type. A malformed Content-Type that is not a valid type/subtype media type (e.g., 'image', 'image/', or 'image//svg+xml') bypasses the fileUpload.fileExtensions blocklist and is stored unchanged. On storage adapters that persist and serve the uploaded Content-Type (such as Amazon S3, Google Cloud Storage, or Azure Blob Storage), a browser cannot parse the malformed valu",
+    "pub_date": "2026-07-11T14:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-61448"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61448 - Parse Server 9.0.0 Stored XSS via",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e0835ea83c079e3c39f7dab61a9ff69a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61447 - PraisonAI before 1.6.78 Remote Code Execution via CodeAgent",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61447",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61447\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PraisonAI before 1.6.78 contains a remote code execution vulnerability in CodeAgent._execute_python() that executes LLM-generated Python code without AST validation, import restrictions, or sandbox enforcement. Attackers can influence LLM output through prompt injection to exfiltrate all environment secrets and execute arbitrary code on the host system.\n  <br />\n  <strong>Severity:</strong> 10.0 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-61447"
+    ],
+    "cvss": 10.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 10.0,
+      "description": "PraisonAI before 1.6.78 contains a remote code execution vulnerability in CodeAgent._execute_python() that executes LLM-generated Python code without AST validation, import restrictions, or sandbox enforcement. Attackers can influence LLM output through prompt injection to exfiltrate all environment",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61447 - PraisonAI before 1.6.78 Remote Co",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "398adf415266fce81c08d502bce818b2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61445 - PraisonAI before 4.6.78 Arbitrary File Write and Command Execution",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61445",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61445\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PraisonAI before 4.6.78 contains arbitrary file write and command execution vulnerabilities in the AICoder component due to missing path validation and command sanitization in LLM tool calls. Attackers can inject malicious prompts through the chat interface to write files to arbitrary filesystem locations and execute arbitrary shell commands with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.9 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-61445"
+    ],
+    "cvss": 9.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.9,
+      "description": "PraisonAI before 4.6.78 contains arbitrary file write and command execution vulnerabilities in the AICoder component due to missing path validation and command sanitization in LLM tool calls. Attackers can inject malicious prompts through the chat interface to write files to arbitrary filesystem loc",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61445 - PraisonAI before 4.6.78 Arbitrary",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5f999e10d9b40a32203c6fb283796930",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61442 - PraisonAI Platform before 0.1.9 Authorization Bypass via PATCH",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61442",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61442\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PraisonAI Platform (praisonai-platform) before 0.1.9 fails to enforce owner/admin authorization on the PATCH routes for projects, issues, and agents, which only require workspace-member role. A workspace member can modify owner-created records; for projects, a member can reassign lead_id to their own user id and then delete the owner-created project, bypassing the delete route's owner/admin permission check.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-61442"
+    ],
+    "cvss": 7.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.1,
+      "description": "PraisonAI Platform (praisonai-platform) before 0.1.9 fails to enforce owner/admin authorization on the PATCH routes for projects, issues, and agents, which only require workspace-member role. A workspace member can modify owner-created records; for projects, a member can reassign lead_id to their ow",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61442 - PraisonAI Platform before 0.1.9 A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f00af17d1b4400e0a1c1446538bca2c8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61439 - PraisonAI before 4.6.78 Prompt Injection Defense Bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61439",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61439\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PraisonAI versions before 4.6.78 contain a prompt injection defense misconfiguration where the block threshold defaults to CRITICAL severity, allowing HIGH-level threats to pass through unblocked. Attackers can submit single-vector prompt injection attacks such as instruction overrides or financial manipulation that trigger HIGH severity detection but are logged without blocking, enabling system prompt extraction and unauthorized tool invocations.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-61439"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "PraisonAI versions before 4.6.78 contain a prompt injection defense misconfiguration where the block threshold defaults to CRITICAL severity, allowing HIGH-level threats to pass through unblocked. Attackers can submit single-vector prompt injection attacks such as instruction overrides or financial ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61439 - PraisonAI before 4.6.78 Prompt In",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9eaf8a3403a0cd3584427929300d201b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61429 - PraisonAI before 1.6.78 SSRF via Crawl4AI Chromium backend",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61429",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61429\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PraisonAI versions before 1.6.78 contain a server-side request forgery vulnerability in the Crawl4AI/Chromium backend that allows attackers to bypass SSRF validation by exploiting DNS rebinding and HTTP redirects. Attackers can craft URLs that resolve to internal services after the initial validation check, enabling the headless browser to follow redirects and read internal responses including sensitive canary values.\n  <br />\n  <strong>Severity:</strong> 8.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-61429"
+    ],
+    "cvss": 8.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.5,
+      "description": "PraisonAI versions before 1.6.78 contain a server-side request forgery vulnerability in the Crawl4AI/Chromium backend that allows attackers to bypass SSRF validation by exploiting DNS rebinding and HTTP redirects. Attackers can craft URLs that resolve to internal services after the initial validatio",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61429 - PraisonAI before 1.6.78 SSRF via ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "98dc5896e2e1456c43278fffed98d23b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61428 - PraisonAI AgentMail before 4.6.78 Message Injection via Webhook",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61428",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61428\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PraisonAI AgentMail versions before 4.6.78 lack signature verification in webhook mode, allowing unauthenticated attackers to inject messages with spoofed sender addresses. Attackers can POST crafted message.received events to the webhook endpoint to inject arbitrary content into the agent and trigger replies to attacker-controlled addresses, bypassing sender allow/block lists.\n  <br />\n  <strong>Severity:</strong> 7.3 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-61428"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "PraisonAI AgentMail versions before 4.6.78 lack signature verification in webhook mode, allowing unauthenticated attackers to inject messages with spoofed sender addresses. Attackers can POST crafted message.received events to the webhook endpoint to inject arbitrary content into the agent and trigg",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61428 - PraisonAI AgentMail before 4.6.78",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c89ccde7a07f6c9eaf54b563855b0ef2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61426 - PraisonAI before 1.7.3 Unauthenticated Agent Access via Insecure Defaults",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61426",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61426\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PraisonAI before 1.7.3 contains an insecure default configuration that binds to all interfaces with no API key requirement and wildcard CORS. Unauthenticated attackers can call GET /api/agents to read agent instructions and system prompts, or POST /api/chat to invoke agents without authentication.\n  <br />\n  <strong>Severity:</strong> 8.6 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-61426"
+    ],
+    "cvss": 8.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.6,
+      "description": "PraisonAI before 1.7.3 contains an insecure default configuration that binds to all interfaces with no API key requirement and wildcard CORS. Unauthenticated attackers can call GET /api/agents to read agent instructions and system prompts, or POST /api/chat to invoke agents without authentication.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61426 - PraisonAI before 1.7.3 Unauthenti",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "884cd53b5ea8a1c4e07a028e4410bef5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-60090 - PraisonAI before 4.6.78 SQL/CQL Injection via vector dimension",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-60090",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-60090\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PraisonAI before 4.6.78 fails to validate the caller-controlled dimension argument in the PGVector and Cassandra knowledge-store create_collection() backends. Although schema, keyspace, and collection-name identifiers are validated, the dimension value (declared as int but not enforced at runtime) is interpolated directly into the vector column of the generated CREATE TABLE DDL. A caller able to influence collection-creation dimensions can pass a string such as '3); DROP TABLE tenant_secrets; --' to inject SQL/CQL tokens into the statement executed by the database driver.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITI",
+    "pub_date": "2026-07-11T14:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-60090"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "PraisonAI before 4.6.78 fails to validate the caller-controlled dimension argument in the PGVector and Cassandra knowledge-store create_collection() backends. Although schema, keyspace, and collection-name identifiers are validated, the dimension value (declared as int but not enforced at runtime) i",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-60090 - PraisonAI before 4.6.78 SQL/CQL I",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a0556bf885fb9aa5316ce1661d26e63c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-60088 - PraisonAI before 4.6.78 Path Traversal via Custom Commands",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-60088",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-60088\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PraisonAI before 4.6.78 fails to validate file path references in custom command templates, allowing attackers to read files outside the workspace. Attackers can include path traversal sequences like @../outside_secret.txt or absolute paths in project command files to exfiltrate process-readable files into model prompts.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-60088"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "PraisonAI before 4.6.78 fails to validate file path references in custom command templates, allowing attackers to read files outside the workspace. Attackers can include path traversal sequences like @../outside_secret.txt or absolute paths in project command files to exfiltrate process-readable fil",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-60088 - PraisonAI before 4.6.78 Path Trav",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d2acf8094af5479508950a60bc15b7a9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56763 - Hono - Prototype Pollution via __proto__ Key in parseBody with dot Option",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56763",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56763\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Hono before 4.12.7 allows __proto__ key in parseBody with dot option enabled, permitting specially crafted form field names to create objects with __proto__ properties. When parsed results are merged into regular JavaScript objects using unsafe merge patterns, attackers can exploit this to achieve prototype pollution and modify object behavior.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-56763"
+    ],
+    "cvss": 4.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.8,
+      "description": "Hono before 4.12.7 allows __proto__ key in parseBody with dot option enabled, permitting specially crafted form field names to create objects with __proto__ properties. When parsed results are merged into regular JavaScript objects using unsafe merge patterns, attackers can exploit this to achieve p",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56763 - Hono - Prototype Pollution via __",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7ed975637b49b8ccd38cab42f916dca1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56372 - ImageMagick - Heap Buffer Overflow Read via Unrecognized Magnify Method",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56372",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56372\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>ImageMagick before 7.1.2-19 contains a heap buffer overflow vulnerability in the magnify operation that allows attackers to read out of bounds memory. An unrecognized magnify:method value triggers an out of bounds read, potentially exposing sensitive information or causing denial of service.\n  <br />\n  <strong>Severity:</strong> 3.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:21+00:00",
+    "cve_ids": [
+      "CVE-2026-56372"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "ImageMagick before 7.1.2-19 contains a heap buffer overflow vulnerability in the magnify operation that allows attackers to read out of bounds memory. An unrecognized magnify:method value triggers an out of bounds read, potentially exposing sensitive information or causing denial of service.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56372 - ImageMagick - Heap Buffer Overflo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fddbade3a2ce49f6bfb83617d0636e85",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56303 - Capgo - Unauthenticated API Key Metadata Disclosure via SECURITY DEFINER RPC Function",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56303",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56303\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains an information disclosure vulnerability in the find_apikey_by_value PostgreSQL function marked SECURITY DEFINER and executable by the anon role. Unauthenticated attackers can call this function via the /rest/v1/rpc/find_apikey_by_value endpoint to retrieve sensitive API key metadata including user_id, mode, org scoping, and expiration details when supplied a valid key value.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:21+00:00",
+    "cve_ids": [
+      "CVE-2026-56303"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Capgo before 12.128.2 contains an information disclosure vulnerability in the find_apikey_by_value PostgreSQL function marked SECURITY DEFINER and executable by the anon role. Unauthenticated attackers can call this function via the /rest/v1/rpc/find_apikey_by_value endpoint to retrieve sensitive AP",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56303 - Capgo - Unauthenticated API Key M",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dfd2e619f8bbf03ffa0821f32a6e8bc2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56296 - Cap-go - App Existence Oracle via Unauthenticated transfer_app RPC",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56296",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56296\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Cap-go before 12.128.2 contains an information disclosure vulnerability in the public.transfer_app RPC function that returns distinct error messages for existing versus non-existing app IDs. Unauthenticated attackers can enumerate valid app IDs by observing error message differences when calling transfer_app with only the publishable API key.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:21+00:00",
+    "cve_ids": [
+      "CVE-2026-56296"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Cap-go before 12.128.2 contains an information disclosure vulnerability in the public.transfer_app RPC function that returns distinct error messages for existing versus non-existing app IDs. Unauthenticated attackers can enumerate valid app IDs by observing error message differences when calling tra",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56296 - Cap-go - App Existence Oracle via",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a07df3bdf8db3ee4e6941f1a0e4d18ce",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56240 - Capgo - Billing Authorization Bypass via Exhausted Usage Credits",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56240",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56240\n  <br />\n  <strong>Published :</strong> July 11, 2026, 2:16 p.m. | 8 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.12 contains a billing authorization bypass vulnerability in the plan_valid calculation that allows organizations with exhausted or expired usage credit grants to bypass billing gates. Attackers can exploit the divergence between the plugin hot-path plan_valid expression and the authoritative billing gate to gain continued access to /updates, /stats, /channel_self, and attachment upload endpoints after credit depletion.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T14:16:20+00:00",
+    "cve_ids": [
+      "CVE-2026-56240"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Capgo before 12.128.12 contains a billing authorization bypass vulnerability in the plan_valid calculation that allows organizations with exhausted or expired usage credit grants to bypass billing gates. Attackers can exploit the divergence between the plugin hot-path plan_valid expression and the a",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56240 - Capgo - Billing Authorization Byp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1f36b3d505ce55bb3729eea3fea10258",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-57828 - Joomla Extension - phoca.cz - Authenticated file upload in RSFiles component < 6.1.3",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-57828",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-57828\n  <br />\n  <strong>Published :</strong> July 11, 2026, 10:16 a.m. | 12 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The Joomla extension Phoca Downloads is vulnerable to an authenticated arbitrary file upload that allows registered users uploading executable files and leads to full RCE.\n  <br />\n  <strong>Severity:</strong> 9.0 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T10:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-57828"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-57828 - Joomla Extension - phoca.cz - Aut",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "960234e0c720172ddd2bf050e032d6b8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-57827 - Joomla Extension - rsjoomla.com - Unauthenticated file upload in RSFiles component < 1.17.12",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-57827",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-57827\n  <br />\n  <strong>Published :</strong> July 11, 2026, 10:16 a.m. | 12 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The Joomla extension RSFiles is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and leads to full RCE.\n  <br />\n  <strong>Severity:</strong> 10.0 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-11T10:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-57827"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-57827 - Joomla Extension - rsjoomla.com -",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f1167ec170de0ef01cc3e6b01dd334e4",
+    "source": "BleepingComputer",
+    "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
+    "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+    "summary": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]",
+    "pub_date": "2026-07-11T14:18:23+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Australia warns of global campaign targeting vulne",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "562b94f32c88143d31ddcae4488c1811",
+    "source": "BleepingComputer",
+    "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+    "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+    "summary": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of numbers. [...]",
+    "pub_date": "2026-07-11T09:03:57+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "'Ghostcommit' hides prompt injection in images to ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "981101e2dad87218baa4a308e053ed1b",
+    "source": "The Hacker News",
+    "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+    "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+    "summary": "The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a&nbsp;preinstall&nbsp;hook that drops and executes a native binary, one build each for Windows, macOS, and Linux.\n\nSocket flagged the release&nbsp;six minutes after it was published. If you or one of your",
+    "pub_date": "2026-07-11T17:59:26+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Compromised jscrambler 8.14.0 npm Release Drops Ru",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e09de65b48669002b0fd8abcf6c253e7",
+    "source": "The Hacker News",
+    "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+    "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+    "summary": "Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat actors between February 2024 and April 2026.\n\n\"At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and",
+    "pub_date": "2026-07-11T17:49:31+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hackers Weaponize Balochistan Police Portal in Mul",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0c5064115228c79ef7663b178af3a2a0",
+    "source": "The Hacker News",
+    "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+    "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+    "summary": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution.\n\nThe vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user's session. It has yet to be assigned a CVE identifier.\n\n\"The",
+    "pub_date": "2026-07-11T06:45:55+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Critical Zimbra Flaw Could Let Crafted Emails Run ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d3a8873d3f120677e5723a3bf425453c",
+    "source": "SecurityWeek",
+    "title": "Ghost Accounts Abuse GitHub API in Mass Recon Campaign",
+    "link": "https://www.securityweek.com/ghost-accounts-abuse-github-api-in-mass-recon-campaign/",
+    "summary": "<p>Multiple campaigns are using ghost accounts to map GitHub organizations, including their repositories and members.</p>\n<p>The post <a href=\"https://www.securityweek.com/ghost-accounts-abuse-github-api-in-mass-recon-campaign/\">Ghost Accounts Abuse GitHub API in Mass Recon Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-07-11T17:30:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Ghost Accounts Abuse GitHub API in Mass Recon Camp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2b033fcdf5a03b9ab1078f6d10329b43",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds iCagenda and Balbooa Forms flaws to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/195164/security/u-s-cisa-adds-icagenda-and-balbooa-forms-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds iCagenda and Balbooa Forms flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added iCagenda and Balbooa Forms flaws to its Known Exploited Vulnerabilities (KEV) catalog. The flaws added to the catalog are: iCagenda is an open-source event management extension for Joomla. [&#8230;]",
+    "pub_date": "2026-07-11T19:31:19+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds iCagenda and Balbooa Forms flaws to",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "940189ea548eaa5bccedc61aad4012f5",
+    "source": "Security Affairs",
+    "title": "Critical U-Boot Bugs Undermine Secure Boot on Millions of Devices",
+    "link": "https://securityaffairs.com/195150/security/critical-u-boot-bugs-undermine-secure-boot-on-millions-of-devices.html",
+    "summary": "Binarly found six U-Boot flaws, including two that enable code execution during boot image verification, impacting 50+ releases. Binarly&#8217;s research team has found six vulnerabilities in U-Boot, the open-source bootloader that runs on home routers, smart cameras, server management controllers, and a large portion of the embedded hardware that powers the internet. All six are [&#8230;]",
+    "pub_date": "2026-07-11T17:45:43+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Critical U-Boot Bugs Undermine Secure Boot on Mill",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "675bd8114202b1d65643944835029e65",
+    "source": "CrowdStrike",
+    "title": "Why AI Governance Without Guardrails Is Theater",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Governance Without Guardrails Is Theater",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c38e0a9f40e5b42a8083d2e213bb079b",
+    "source": "CrowdStrike",
+    "title": "Falcon Secure Access Sets the Standard for Zero Trust Browser Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Secure Access Sets the Standard for Zero Tr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3ed10fd54ef9535509f726a2af18c5e5",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Uncovers New Prompt Injection Techniques",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Uncovers New Prompt Injection Techniqu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d5d6f715ea091b6c5641007de107cc4e",
+    "source": "CrowdStrike",
+    "title": "How AI-leading Security Teams Are Building the Agentic SOC",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How AI-leading Security Teams Are Building the Age",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4fea9b5bdfedaa543107e025acafc456",
+    "source": "CrowdStrike",
+    "title": "Browser Security: Zero-Days Are Only Part of the Problem",
+    "link": "https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Browser Security: Zero-Days Are Only Part of the P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d02104f77d5e5c2bd8d57cc56f0122f9",
+    "source": "CrowdStrike",
+    "title": "Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Cloud Security June 2026 Release: Updates f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "85c4de30e48f9e433f96e1061da69dd6",
+    "source": "CrowdStrike",
+    "title": "The Identity Problem Hiding in AI Agent Deployments",
+    "link": "https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The Identity Problem Hiding in AI Agent Deployment",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d17f9e981b875d258d9d86261fce86ee",
+    "source": "CrowdStrike",
+    "title": "94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "94% of Organizations Report Cloud Breaches: CrowdS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f872616042a910b9b1900b14b3dcc2a",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 2: Sto",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dbfe95ad2e9d92b7fa6e403d9471f01d",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 1: The",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
