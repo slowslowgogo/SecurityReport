@@ -1,0 +1,849 @@
+[
+  {
+    "uid": "e61c5f7aff0946696a0a0b2bc19bf9d1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-15506 - SecureAge CatchPulse Driver saappctl.sys heap-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-15506",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-15506\n  <br />\n  <strong>Published :</strong> July 12, 2026, 9:30 p.m. | 44 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in SecureAge CatchPulse up to 10.9.3. The affected element is an unknown function in the library saappctl.sys of the component Driver. Such manipulation leads to heap-based buffer overflow. An attack has to be approached locally. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T21:30:12+00:00",
+    "cve_ids": [
+      "CVE-2026-15506"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "A security vulnerability has been detected in SecureAge CatchPulse up to 10.9.3. The affected element is an unknown function in the library saappctl.sys of the component Driver. Such manipulation leads to heap-based buffer overflow. An attack has to be approached locally. The exploit has been disclo",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-15506 - SecureAge CatchPulse Driver saapp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4e30d11e5f7a584ae9923d812f1bea55",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-15505 - vnotex vnote YAML Frontmatter markdownit.js cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-15505",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-15505\n  <br />\n  <strong>Published :</strong> July 12, 2026, 8:16 p.m. | 1 hour, 58 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in vnotex vnote up to 3.20.1. Impacted is an unknown function of the file /src/data/extra/web/js/markdownit.js of the component YAML Frontmatter. This manipulation of the argument p_metaData causes cross site scripting. The attack may be initiated remotely. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 4.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T20:16:17+00:00",
+    "cve_ids": [
+      "CVE-2026-15505"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "A weakness has been identified in vnotex vnote up to 3.20.1. Impacted is an unknown function of the file /src/data/extra/web/js/markdownit.js of the component YAML Frontmatter. This manipulation of the argument p_metaData causes cross site scripting. The attack may be initiated remotely. The vendor ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-15505 - vnotex vnote YAML Frontmatter mar",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2f9e786afbc56c6dfe447b826589d48e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10668 - Host-triggerable control-endpoint wedge (DoS) in Nuvoton NuMaker HSUSBD UDC driver",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10668",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10668\n  <br />\n  <strong>Published :</strong> July 12, 2026, 5:16 p.m. | 4 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>The Nuvoton NuMaker HSUSBD USB device-controller driver (drivers/usb/udc/udc_numaker.c) armed the control Data IN stage unconditionally (base->CEPTXCNT = len in numaker_hsusbd_ep_trigger). Because the HSUSBD hardware cannot disarm a control Data IN already armed for a previous transfer, a USB host that cancels an in-flight control transfer (timeout) and then issues a new SETUP packet can drive the driver out of sync: stale data may be transmitted in the new transfer and the control endpoint can become permanently stuck NAK'ing every subsequent control transfer.\n\nA malicious or buggy host (physical/adjacent attacker drivi",
+    "pub_date": "2026-07-12T17:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-10668"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "The Nuvoton NuMaker HSUSBD USB device-controller driver (drivers/usb/udc/udc_numaker.c) armed the control Data IN stage unconditionally (base->CEPTXCNT = len in numaker_hsusbd_ep_trigger). Because the HSUSBD hardware cannot disarm a control Data IN already armed for a previous transfer, a USB host t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10668 - Host-triggerable control-endpoint",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8f94d21e730b20e734e082f23145ed37",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10667 - SMP use-after-free in Zephyr `CONFIG_USERSPACE` dynamic kernel-object tracking, reachable from unprivileged user threads",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10667",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10667\n  <br />\n  <strong>Published :</strong> July 12, 2026, 5:16 p.m. | 4 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Zephyr's dynamic kernel-object tracking (kernel/userspace/userspace.c, formerly kernel/userspace.c) maintains a doubly-linked list (obj_list) of dynamically allocated kernel objects. Iteration over this list in k_object_wordlist_foreach() was performed under lists_lock using the SAFE iterator (which caches the next node), but list removal and freeing of nodes was performed under different, disjoint spinlocks: objfree_lock in k_object_free() and obj_lock in unref_check(). On an SMP system, while one CPU iterated obj_list under lists_lock, another CPU could unlink and k_free() the dyn_obj node that the iterator had cached ",
+    "pub_date": "2026-07-12T17:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-10667"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "Zephyr's dynamic kernel-object tracking (kernel/userspace/userspace.c, formerly kernel/userspace.c) maintains a doubly-linked list (obj_list) of dynamically allocated kernel objects. Iteration over this list in k_object_wordlist_foreach() was performed under lists_lock using the SAFE iterator (which",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10667 - SMP use-after-free in Zephyr `CON",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "60b9332256e5bd87a60117ec02ec5135",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10666 - Stack buffer overflow in `net_ipaddr_parse()` IPv4 address-with-port parsing in `subsys/net/ip/utils.c`",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10666",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10666\n  <br />\n  <strong>Published :</strong> July 12, 2026, 5:16 p.m. | 4 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>parse_ipv4() in subsys/net/ip/utils.c (reached via net_ipaddr_parse() for strings of the form \"a.b.c.d:port\") copies the port substring into a fixed 17-byte stack buffer (char ipaddr[NET_IPV4_ADDR_LEN + 1]) using a length of str_len - end - 1, where str_len is the full, unbounded input length and end is only the (<=15-byte) offset of the ':' delimiter. Because the destination size is never consulted, a crafted address string with a long suffix after the colon (e.g. \"1.2.3.4:\" followed by hundreds of bytes) causes an out-of-bounds stack write whose length and contents are fully attacker-controlled (memcpy of the suffix pl",
+    "pub_date": "2026-07-12T17:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-10666"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "parse_ipv4() in subsys/net/ip/utils.c (reached via net_ipaddr_parse() for strings of the form \"a.b.c.d:port\") copies the port substring into a fixed 17-byte stack buffer (char ipaddr[NET_IPV4_ADDR_LEN + 1]) using a length of str_len - end - 1, where str_len is the full, unbounded input length and en",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10666 - Stack buffer overflow in `net_ipa",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "58aa649e804f8358f15bcc65ca2546b7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10665 - Heap buffer overflow on WireGuard receive path via unbounded incoming packet length",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10665",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10665\n  <br />\n  <strong>Published :</strong> July 12, 2026, 5:16 p.m. | 4 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>In Zephyr's WireGuard subsystem (subsys/net/lib/wireguard), wg_process_data_message() in wg_crypto.c linearizes an inbound transport-data payload into a fixed pool buffer of CONFIG_WIREGUARD_BUF_LEN bytes before decryption. The call net_buf_linearize(buf->data, data_len, pkt->buffer, ..., data_len) passed the attacker-derived data_len as both the destination capacity and the copy length, defeating the function's internal len = min(len, dst_len) bound. data_len is derived from the received UDP datagram length and is only lower-bounded by wg_ctrl_recv() (no upper bound). When data_len exceeds CONFIG_WIREGUARD_BUF_LEN — e.g",
+    "pub_date": "2026-07-12T17:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-10665"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "In Zephyr's WireGuard subsystem (subsys/net/lib/wireguard), wg_process_data_message() in wg_crypto.c linearizes an inbound transport-data payload into a fixed pool buffer of CONFIG_WIREGUARD_BUF_LEN bytes before decryption. The call net_buf_linearize(buf->data, data_len, pkt->buffer, ..., data_len) ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10665 - Heap buffer overflow on WireGuard",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0986a53c7700a20af62f7465fea78b48",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10664 - Out-of-bounds write in nRF70 Wi-Fi driver power-save event handler (unbounded TWT flow count)",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10664",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10664\n  <br />\n  <strong>Published :</strong> July 12, 2026, 5:16 p.m. | 4 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>The nRF70 Wi-Fi driver's power-save event handler nrf_wifi_event_proc_get_power_save_info() in drivers/wifi/nrf_wifi/src/wifi_mgmt.c copied TWT (Target Wake Time) flow entries from an nrf_wifi_umac_event_power_save_info event into the fixed-size twt_flows[WIFI_MAX_TWT_FLOWS] (8-element) array of a caller-supplied struct wifi_ps_config, looping over event-provided num_twt_flows without validating it against WIFI_MAX_TWT_FLOWS or checking event_len. When num_twt_flows exceeds 8, the handler writes past the destination array (which is typically on the caller's stack, e.g. the wifi ps shell command) -- an out-of-bounds write",
+    "pub_date": "2026-07-12T17:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-10664"
+    ],
+    "cvss": 5.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.0,
+      "description": "The nRF70 Wi-Fi driver's power-save event handler nrf_wifi_event_proc_get_power_save_info() in drivers/wifi/nrf_wifi/src/wifi_mgmt.c copied TWT (Target Wake Time) flow entries from an nrf_wifi_umac_event_power_save_info event into the fixed-size twt_flows[WIFI_MAX_TWT_FLOWS] (8-element) array of a c",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10664 - Out-of-bounds write in nRF70 Wi-F",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0050aea94b3965e86e5166eac3012d9b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10663 - Use-after-free / double-free of the root USB device in the experimental USB host stack",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10663",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10663\n  <br />\n  <strong>Published :</strong> July 12, 2026, 5:16 p.m. | 4 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>In Zephyr's experimental USB host stack (CONFIG_USB_HOST_STACK), usbh_device_disconnect() (subsys/usb/host/usbh_device.c) freed the root usb_device slab object without clearing the cached pointer ctx->root. The bus removal handler dev_removed_handler() (subsys/usb/host/usbh_core.c) decides what to tear down solely from ctx->root, checking only that it is non-NULL.\n\nBecause UHC controller drivers (e.g. uhc_max3421e, uhc_mcux_common) synthesize UHC_EVT_DEV_REMOVED directly from physical bus line state with no debounce or state guard, an attacker with physical USB access (or a rogue device that bounces its connection) can d",
+    "pub_date": "2026-07-12T17:16:23+00:00",
+    "cve_ids": [
+      "CVE-2026-10663"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "In Zephyr's experimental USB host stack (CONFIG_USB_HOST_STACK), usbh_device_disconnect() (subsys/usb/host/usbh_device.c) freed the root usb_device slab object without clearing the cached pointer ctx->root. The bus removal handler dev_removed_handler() (subsys/usb/host/usbh_core.c) decides what to t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10663 - Use-after-free / double-free of t",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "df718f91d9dc13b88a180fed0f8d848d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-58596 - Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-58596",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-58596\n  <br />\n  <strong>Published :</strong> July 12, 2026, 4:16 p.m. | 5 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Untrusted pointer dereference in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network.\n  <br />\n  <strong>Severity:</strong> 8.3 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T16:16:31+00:00",
+    "cve_ids": [
+      "CVE-2026-58596"
+    ],
+    "cvss": 8.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.3,
+      "description": "Untrusted pointer dereference in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-58596 - Microsoft Edge (Chromium-based) E",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dfb18f3e4e6c9b48dd8998f1f08cd52d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-15502 - AojiaoZero Antaris PayPal IPN Payment ipn.php _rewardPurchase sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-15502",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-15502\n  <br />\n  <strong>Published :</strong> July 12, 2026, 1:16 p.m. | 8 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in AojiaoZero Antaris 1.0. This affects the function _rewardPurchase of the file /ipn.php of the component PayPal IPN Payment Handler. The manipulation of the argument item_number results in sql injection. The attack may be performed from remote. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T13:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-15502"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was detected in AojiaoZero Antaris 1.0. This affects the function _rewardPurchase of the file /ipn.php of the component PayPal IPN Payment Handler. The manipulation of the argument item_number results in sql injection. The attack may be performed from remote. The vendor was contacted",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-15502 - AojiaoZero Antaris PayPal IPN Pay",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a6cea23c5aecda0eebab6783f624ec11",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-15501 - AstrBotDevs AstrBot MCP Test Endpoint tools.py ToolsRoute.test_mcp_connection server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-15501",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-15501\n  <br />\n  <strong>Published :</strong> July 12, 2026, 1:16 p.m. | 8 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in AstrBotDevs AstrBot up to 4.25.2. Affected by this issue is the function ToolsRoute.test_mcp_connection of the file astrbot/dashboard/routes/tools.py of the component MCP Test Endpoint. The manipulation of the argument mcp_server_config.url leads to server-side request forgery. The attack is possible to be carried out remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS de",
+    "pub_date": "2026-07-12T13:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-15501"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security vulnerability has been detected in AstrBotDevs AstrBot up to 4.25.2. Affected by this issue is the function ToolsRoute.test_mcp_connection of the file astrbot/dashboard/routes/tools.py of the component MCP Test Endpoint. The manipulation of the argument mcp_server_config.url leads to serv",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-15501 - AstrBotDevs AstrBot MCP Test Endp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1d4f121cfd9f42c0351f6e372da371ee",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61876 - LuCI DHCPv6 Lease Hostname Stored Cross-Site Scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61876",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61876\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>LuCI versions fail to properly encode DHCPv6 lease hostnames before rendering in status tables, allowing adjacent network attackers to inject HTML markup. Attackers can send a DHCPv6 Client FQDN containing script tags that execute in the administrator's browser when viewing DHCP lease pages.\n  <br />\n  <strong>Severity:</strong> 9.4 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:46+00:00",
+    "cve_ids": [
+      "CVE-2026-61876"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "LuCI versions fail to properly encode DHCPv6 lease hostnames before rendering in status tables, allowing adjacent network attackers to inject HTML markup. Attackers can send a DHCPv6 Client FQDN containing script tags that execute in the administrator's browser when viewing DHCP lease pages.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61876 - LuCI DHCPv6 Lease Hostname Stored",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "42b42dc3ea15353f2712b0c7a82bd3ef",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61875 - luci-app-upnp Stored XSS via UPnP Port Mapping Description",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61875",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61875\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>luci-app-upnp contains a stored cross-site scripting vulnerability that allows unauthenticated LAN clients to inject JavaScript via UPnP IGD AddPortMapping SOAP requests. Attackers can send malicious HTML in the NewPortMappingDescription field, which miniupnpd stores and luci-app-upnp renders without output encoding, executing the payload when administrators view the UPnP or Status pages.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:46+00:00",
+    "cve_ids": [
+      "CVE-2026-61875"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "luci-app-upnp contains a stored cross-site scripting vulnerability that allows unauthenticated LAN clients to inject JavaScript via UPnP IGD AddPortMapping SOAP requests. Attackers can send malicious HTML in the NewPortMappingDescription field, which miniupnpd stores and luci-app-upnp renders withou",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61875 - luci-app-upnp Stored XSS via UPnP",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3b1e6ededd824b2d09bfa0202df38c6a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-61874 - filebrowser before 2.63.17 Stale Public Share via Trailing-Slash Delete",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-61874",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-61874\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>filebrowser versions before 2.63.17 fail to normalize paths before querying the share index in DeleteWithPathPrefix, allowing authenticated users to leave stale public shares behind. Attackers can delete a shared directory using a trailing-slash path, then recreate the same directory to expose new contents through the dormant public share URL.\n  <br />\n  <strong>Severity:</strong> 3.1 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:46+00:00",
+    "cve_ids": [
+      "CVE-2026-61874"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "filebrowser versions before 2.63.17 fail to normalize paths before querying the share index in DeleteWithPathPrefix, allowing authenticated users to leave stale public shares behind. Attackers can delete a shared directory using a trailing-slash path, then recreate the same directory to expose new c",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-61874 - filebrowser before 2.63.17 Stale ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c2e1f83449764fb27710ab59766ae9c9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-59260 - OpenWrt luci-app-samba4 read ACL remote code execution via smbd",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-59260",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-59260\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>OpenWrt luci-app-samba4 read ACL grants file.exec permission on /usr/sbin/smbd, allowing authenticated delegated users to execute the Samba daemon with caller-controlled command-line arguments. Attackers can pass arbitrary Samba global options such as message command to a root smbd process, triggering command execution when SMB protocol messages are processed.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:45+00:00",
+    "cve_ids": [
+      "CVE-2026-59260"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "OpenWrt luci-app-samba4 read ACL grants file.exec permission on /usr/sbin/smbd, allowing authenticated delegated users to execute the Samba daemon with caller-controlled command-line arguments. Attackers can pass arbitrary Samba global options such as message command to a root smbd process, triggeri",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-59260 - OpenWrt luci-app-samba4 read ACL ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "46e3bf42e5fbb83c8a3deb25023bd01d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56336 - Capgo - Information Disclosure via Unauthenticated SSO check-domain Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56336",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56336\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains an information disclosure vulnerability in the unauthenticated /private/sso/check-domain endpoint that returns internal org_id and provider_id values. Attackers can enumerate email domains to build mappings of domains to organization UUIDs and SSO provider identifiers, enabling reconnaissance against Capgo tenants.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:45+00:00",
+    "cve_ids": [
+      "CVE-2026-56336"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Capgo before 12.128.2 contains an information disclosure vulnerability in the unauthenticated /private/sso/check-domain endpoint that returns internal org_id and provider_id values. Attackers can enumerate email domains to build mappings of domains to organization UUIDs and SSO provider identifiers,",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56336 - Capgo - Information Disclosure vi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "27418e7de2dd8fc183327b41cc856425",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56313 - Capgo - Cross-Organization Account Disruption via SSO Prelink Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56313",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56313\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains a cross-organization account disruption vulnerability in the SSO prelink endpoint that allows enterprise administrators to delete password identities of users in foreign organizations. Attackers with org.update_settings permission and an active SSO provider can call the prelink-users endpoint to permanently remove email-based authentication for any user matching the provider's email domain, forcing victims to use the attacker's SSO provider or complete password reset recovery.\n  <br />\n  <strong>Severity:</strong> 8.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details,",
+    "pub_date": "2026-07-12T12:16:45+00:00",
+    "cve_ids": [
+      "CVE-2026-56313"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "Capgo before 12.128.2 contains a cross-organization account disruption vulnerability in the SSO prelink endpoint that allows enterprise administrators to delete password identities of users in foreign organizations. Attackers with org.update_settings permission and an active SSO provider can call th",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56313 - Capgo - Cross-Organization Accoun",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ee161d0c8a072d777bd6bacb4df840f7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56308 - Capgo - Insufficient Authentication in Email Change Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56308",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56308\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 allows email address changes without requiring current password re-authentication or verification of the existing email address. An attacker with access to a valid session cookie or authenticated browser can change the account email to gain control of account recovery and bypass multi-factor authentication protections.\n  <br />\n  <strong>Severity:</strong> 8.4 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:45+00:00",
+    "cve_ids": [
+      "CVE-2026-56308"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "Capgo before 12.128.2 allows email address changes without requiring current password re-authentication or verification of the existing email address. An attacker with access to a valid session cookie or authenticated browser can change the account email to gain control of account recovery and bypas",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56308 - Capgo - Insufficient Authenticati",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "53db1e587bb1ff9e7fde54db10582c27",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56281 - Capgo - SQL Injection via Unvalidated limit Parameter in Admin Stats Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56281",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56281\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains a sql injection vulnerability in the POST /private/admin_stats endpoint where the limit parameter is destructured from unvalidated request body and interpolated directly into Cloudflare Analytics Engine SQL queries via template literals. An attacker with platform admin credentials can inject SQL fragments to enumerate dataset schemas, extract analytics data, or cause denial-of-service against the analytics backend.\n  <br />\n  <strong>Severity:</strong> 5.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:45+00:00",
+    "cve_ids": [
+      "CVE-2026-56281"
+    ],
+    "cvss": 3.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.8,
+      "description": "Capgo before 12.128.2 contains a sql injection vulnerability in the POST /private/admin_stats endpoint where the limit parameter is destructured from unvalidated request body and interpolated directly into Cloudflare Analytics Engine SQL queries via template literals. An attacker with platform admin",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56281 - Capgo - SQL Injection via Unvalid",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "81d2b0287d476fe6430d7047b91b820e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56271 - Flowise - Weak Default JWT Secrets in Authentication Middleware",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56271",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56271\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Flowise before 3.1.0 (affected versions 3.0.13 and earlier) uses weak hardcoded default JWT secrets ('auth_token', 'refresh_token') and default audience and issuer values ('AUDIENCE', 'ISSUER') in the enterprise passport authentication middleware (packages/server/src/enterprise/middleware/passport/index.ts). When the corresponding environment variables (JWT_AUTH_TOKEN_SECRET, JWT_REFRESH_TOKEN_SECRET, JWT_AUDIENCE, JWT_ISSUER) are not set, the application silently falls back to these publicly known defaults, allowing an attacker to forge valid JWTs and impersonate any user, including administrators, resulting in authent",
+    "pub_date": "2026-07-12T12:16:45+00:00",
+    "cve_ids": [
+      "CVE-2026-56271"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "Flowise before 3.1.0 (affected versions 3.0.13 and earlier) uses weak hardcoded default JWT secrets ('auth_token', 'refresh_token') and default audience and issuer values ('AUDIENCE', 'ISSUER') in the enterprise passport authentication middleware (packages/server/src/enterprise/middleware/passport/i",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56271 - Flowise - Weak Default JWT Secret",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "28d4410cbaebd465d5f788b5cff3e181",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56260 - Crawl4AI - Arbitrary File Write via output_path Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56260",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56260\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Crawl4AI before 0.8.7 contains an arbitrary file write vulnerability in the Docker API server's /screenshot and /pdf endpoints. The output_path parameter accepts arbitrary filesystem paths without validation, allowing an attacker to supply absolute or path-traversal values to write to any location writable by the application's user, overwriting server files and causing denial of service.\n  <br />\n  <strong>Severity:</strong> 9.1 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:45+00:00",
+    "cve_ids": [
+      "CVE-2026-56260"
+    ],
+    "cvss": 9.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.1,
+      "description": "Crawl4AI before 0.8.7 contains an arbitrary file write vulnerability in the Docker API server's /screenshot and /pdf endpoints. The output_path parameter accepts arbitrary filesystem paths without validation, allowing an attacker to supply absolute or path-traversal values to write to any location w",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56260 - Crawl4AI - Arbitrary File Write v",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a9aab87891711ce4fdb05df08c155f2c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56259 - Crawl4AI - LLM Credential Exfiltration via base_url and Environment Variable Resolution",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56259",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56259\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Crawl4AI before 0.8.8 contains credential exfiltration vulnerabilities in the Docker API server that allow attackers to redirect LLM API calls to attacker-controlled endpoints and read arbitrary environment variables. Attackers can exploit the unauthenticated /md, /llm, and /llm/job endpoints by supplying a malicious base_url parameter and setting api_token to env:VARIABLE_NAME to exfiltrate provider API keys and server secrets including JWT SECRET_KEY for authentication bypass.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline,",
+    "pub_date": "2026-07-12T12:16:45+00:00",
+    "cve_ids": [
+      "CVE-2026-56259"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "Crawl4AI before 0.8.8 contains credential exfiltration vulnerabilities in the Docker API server that allow attackers to redirect LLM API calls to attacker-controlled endpoints and read arbitrary environment variables. Attackers can exploit the unauthenticated /md, /llm, and /llm/job endpoints by sup",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56259 - Crawl4AI - LLM Credential Exfiltr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "96a82e1fefb8fc15da8d1e0368b42d05",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56252 - Capgo - Scope Isolation Failure in Webhook Test Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56252",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56252\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains a scope isolation vulnerability in the POST /webhooks/test endpoint that allows app-scoped API keys to invoke org-scoped webhook operations. Attackers with app-scoped credentials can trigger signed outbound webhook deliveries for arbitrary organization webhooks outside their declared app boundary, bypassing the limited_to_apps authorization check.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:44+00:00",
+    "cve_ids": [
+      "CVE-2026-56252"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "Capgo before 12.128.2 contains a scope isolation vulnerability in the POST /webhooks/test endpoint that allows app-scoped API keys to invoke org-scoped webhook operations. Attackers with app-scoped credentials can trigger signed outbound webhook deliveries for arbitrary organization webhooks outside",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56252 - Capgo - Scope Isolation Failure i",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b0f7b42d900406f0461db4cbb732af93",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56241 - Capgo - RBAC Demotion Privilege Retention via Stale org_users.user_right",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56241",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56241\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains a privilege escalation vulnerability where demoted super_admin users retain access to delete_non_compliant_bundles and count_non_compliant_bundles RPCs due to stale org_users.user_right column not being cleared during role binding deletion. Attackers can exploit this by maintaining a previously granted super_admin role to enumerate and bulk delete non-compliant bundles across the entire organization indefinitely.\n  <br />\n  <strong>Severity:</strong> 8.3 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:44+00:00",
+    "cve_ids": [
+      "CVE-2026-56241"
+    ],
+    "cvss": 8.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.3,
+      "description": "Capgo before 12.128.2 contains a privilege escalation vulnerability where demoted super_admin users retain access to delete_non_compliant_bundles and count_non_compliant_bundles RPCs due to stale org_users.user_right column not being cleared during role binding deletion. Attackers can exploit this b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56241 - Capgo - RBAC Demotion Privilege R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0fc0e67e7fcac3684b1a356574d918af",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-56238 - Capgo - Unauthenticated Information Disclosure via PostgREST global_stats Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-56238",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-56238\n  <br />\n  <strong>Published :</strong> July 12, 2026, 12:16 p.m. | 9 hours, 58 minutes ago\n  <br />\n  <strong>Description :</strong>Capgo before 12.128.2 contains an information disclosure vulnerability in the Supabase PostgREST global_stats endpoint that allows unauthenticated attackers to read sensitive financial and operational metrics using only the public apikey. Remote attackers can query the /rest/v1/global_stats endpoint to expose MRR, total revenue, plan-tier revenue breakdown, customer counts, and operational telemetry.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-12T12:16:44+00:00",
+    "cve_ids": [
+      "CVE-2026-56238"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Capgo before 12.128.2 contains an information disclosure vulnerability in the Supabase PostgREST global_stats endpoint that allows unauthenticated attackers to read sensitive financial and operational metrics using only the public apikey. Remote attackers can query the /rest/v1/global_stats endpoint",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-56238 - Capgo - Unauthenticated Informati",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "46c825ba403bc58564cf00c6bfaa2e42",
+    "source": "BleepingComputer",
+    "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+    "summary": "Anthropic has just extended access to Claude Fable 5 for paid subscribers until July 19, giving you another week to keep using the most powerful model. [...]",
+    "pub_date": "2026-07-12T19:39:12+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Claude Fable 5 stays free for paid users until Jul",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "78691cfdccff8048f9f12196a54c70ea",
+    "source": "BleepingComputer",
+    "title": "RedHook Android malware now uses Wireless ADB for shell access",
+    "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
+    "summary": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges without requiring a computer connection. [...]",
+    "pub_date": "2026-07-12T14:27:32+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "RedHook Android malware now uses Wireless ADB for ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ba6f587f176855d0791f0f9fc8e1b9d7",
+    "source": "Security Affairs",
+    "title": "Ryuk Ransomware Member Pleads Guilty Over Attacks on U.S. Organizations",
+    "link": "https://securityaffairs.com/195216/uncategorized/ryuk-ransomware-member-pleads-guilty-over-attacks-on-u-s-organizations.html",
+    "summary": "An alleged Ryuk ransomware member pleaded guilty in the U.S. for helping deploy attacks on American companies and faces up to 15 years in prison. Armenian national Karen Serobovich Vardanyan (34) pleaded guilty in the U.S. for his role in Ryuk ransomware attacks targeting American organizations between 2019 and 2020. Extradited from Ukraine after his [&#8230;]",
+    "pub_date": "2026-07-12T20:48:04+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Ryuk Ransomware Member Pleads Guilty Over Attacks ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "121733a68b52b26bec82aeb4cfa8b79d",
+    "source": "Security Affairs",
+    "title": "Progress Told ShareFile Customers to Pull the Plug on Their Servers. Here’s What We Know.",
+    "link": "https://securityaffairs.com/195194/hacking/progress-told-sharefile-customers-to-pull-the-plug-on-their-servers-heres-what-we-know.html",
+    "summary": "Progress urged ShareFile Storage Zone customers to shut down internet-facing servers immediately over a credible security threat under investigation. Progress Software sent an urgent email to ShareFile customers the evening of July 10 with a subject line that left no room for ambiguity: &#8220;Service Disruption. Immediate Action Required.&#8221; The company told customers running Storage Zone [&#8230;]",
+    "pub_date": "2026-07-12T14:39:10+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Progress Told ShareFile Customers to Pull the Plug",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "70c351a60e9e825981e6913be6bd1842",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 105",
+    "link": "https://securityaffairs.com/195187/breaking-news/security-affairs-malware-newsletter-round-105.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Novel Java-Based QuimaRAT Targets Windows, macOS, and Linux&#160;&#160; Vibe Coded Extortion: Avalon’s Path from Legal Lure to CrownX Ransom Capabilities Armored Likho digging a snake pit: inside the covert BusySnake Stealer campaign   RedWing: A [&#8230;]",
+    "pub_date": "2026-07-12T13:57:19+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 105",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "74d0bba419b3727c571b0f4ee3cfd1f7",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 585 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/195175/breaking-news/security-affairs-newsletter-round-585-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. U.S. CISA adds iCagenda and Balbooa Forms flaws to its Known Exploited Vulnerabilities catalog Critical U-Boot [&#8230;]",
+    "pub_date": "2026-07-12T04:58:08+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 585 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "675bd8114202b1d65643944835029e65",
+    "source": "CrowdStrike",
+    "title": "Why AI Governance Without Guardrails Is Theater",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Governance Without Guardrails Is Theater",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c38e0a9f40e5b42a8083d2e213bb079b",
+    "source": "CrowdStrike",
+    "title": "Falcon Secure Access Sets the Standard for Zero Trust Browser Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Secure Access Sets the Standard for Zero Tr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3ed10fd54ef9535509f726a2af18c5e5",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Uncovers New Prompt Injection Techniques",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Uncovers New Prompt Injection Techniqu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d5d6f715ea091b6c5641007de107cc4e",
+    "source": "CrowdStrike",
+    "title": "How AI-leading Security Teams Are Building the Agentic SOC",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How AI-leading Security Teams Are Building the Age",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4fea9b5bdfedaa543107e025acafc456",
+    "source": "CrowdStrike",
+    "title": "Browser Security: Zero-Days Are Only Part of the Problem",
+    "link": "https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Browser Security: Zero-Days Are Only Part of the P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d02104f77d5e5c2bd8d57cc56f0122f9",
+    "source": "CrowdStrike",
+    "title": "Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Cloud Security June 2026 Release: Updates f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "85c4de30e48f9e433f96e1061da69dd6",
+    "source": "CrowdStrike",
+    "title": "The Identity Problem Hiding in AI Agent Deployments",
+    "link": "https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The Identity Problem Hiding in AI Agent Deployment",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d17f9e981b875d258d9d86261fce86ee",
+    "source": "CrowdStrike",
+    "title": "94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "94% of Organizations Report Cloud Breaches: CrowdS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f872616042a910b9b1900b14b3dcc2a",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 2: Sto",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dbfe95ad2e9d92b7fa6e403d9471f01d",
+    "source": "CrowdStrike",
+    "title": "New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Abuse of the ClickOnce Technology, Part 1: The",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
