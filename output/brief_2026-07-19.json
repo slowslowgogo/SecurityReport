@@ -1,0 +1,886 @@
+[
+  {
+    "uid": "dee3035d1d5f078f0970d3671cb46306",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16197 - Sipeed PicoClaw Group Message feishu_64.go handleMessageReceive authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16197",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16197\n  <br />\n  <strong>Published :</strong> July 18, 2026, 11 p.m. | 19 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in Sipeed PicoClaw up to 0.2.9. The affected element is the function handleMessageReceive of the file pkg/channels/feishu/feishu_64.go of the component Group Message Handler. Such manipulation leads to missing authorization. The attack can be launched remotely. The exploit has been disclosed publicly and may be used. The reported GitHub issue was closed automatically due to inactivity.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T23:00:12+00:00",
+    "cve_ids": [
+      "CVE-2026-16197"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security vulnerability has been detected in Sipeed PicoClaw up to 0.2.9. The affected element is the function handleMessageReceive of the file pkg/channels/feishu/feishu_64.go of the component Group Message Handler. Such manipulation leads to missing authorization. The attack can be launched remot",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16197 - Sipeed PicoClaw Group Message fei",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d23baf89497338e159065d773068859",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16196 - Sipeed PicoClaw web_fetch web.go isPrivateOrRestrictedIP server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16196",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16196\n  <br />\n  <strong>Published :</strong> July 18, 2026, 10:45 p.m. | 34 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Sipeed PicoClaw up to 0.2.9. Impacted is the function isPrivateOrRestrictedIP of the file pkg/tools/integration/web.go of the component web_fetch. This manipulation causes server-side request forgery. The attack can be initiated remotely. The exploit has been made available to the public and could be used for attacks. Patch name: 2efbe5d560e7ed9bc5209c203dc4aa6ecdbc7405. To fix this issue, it is recommended to deploy a patch.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T22:45:13+00:00",
+    "cve_ids": [
+      "CVE-2026-16196"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A weakness has been identified in Sipeed PicoClaw up to 0.2.9. Impacted is the function isPrivateOrRestrictedIP of the file pkg/tools/integration/web.go of the component web_fetch. This manipulation causes server-side request forgery. The attack can be initiated remotely. The exploit has been made a",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16196 - Sipeed PicoClaw web_fetch web.go ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e6df1b033dcca78c42427d1f8d426a79",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16195 - Sipeed PicoClaw Group Message wecom.go dispatchIncoming authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16195",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16195\n  <br />\n  <strong>Published :</strong> July 18, 2026, 10:30 p.m. | 49 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in Sipeed PicoClaw up to 0.2.9. This issue affects the function dispatchIncoming of the file pkg/channels/wecom/wecom.go of the component Group Message Handler. The manipulation results in incorrect authorization. It is possible to launch the attack remotely. The exploit has been released to the public and may be used for attacks. The reported GitHub issue was closed automatically due to inactivity.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T22:30:10+00:00",
+    "cve_ids": [
+      "CVE-2026-16195"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security flaw has been discovered in Sipeed PicoClaw up to 0.2.9. This issue affects the function dispatchIncoming of the file pkg/channels/wecom/wecom.go of the component Group Message Handler. The manipulation results in incorrect authorization. It is possible to launch the attack remotely. The ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16195 - Sipeed PicoClaw Group Message wec",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "28b3d963bad6f508f1be869f535f1e92",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16194 - zhayujie CowAgent web_fetch.py WebFetch.execute server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16194",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16194\n  <br />\n  <strong>Published :</strong> July 18, 2026, 10:16 p.m. | 1 hour, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in zhayujie CowAgent up to 2.1.1. This affects the function WebFetch.execute of the file agent/tools/web_fetch/web_fetch.py. Executing a manipulation of the argument url can lead to server-side request forgery. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized. Upgrading to version 2.1.2 is able to mitigate this issue. This patch is called ea47f3097eed4f8295c4cb3d76ecb97e0f43d632. It is recommended to upgrade the affected component. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version o",
+    "pub_date": "2026-07-18T22:16:43+00:00",
+    "cve_ids": [
+      "CVE-2026-16194"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was determined in zhayujie CowAgent up to 2.1.1. This affects the function WebFetch.execute of the file agent/tools/web_fetch/web_fetch.py. Executing a manipulation of the argument url can lead to server-side request forgery. The attack may be performed from remote. The exploit has b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16194 - zhayujie CowAgent web_fetch.py We",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "13f86725c5432f12eedd3ae8ac3485ee",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16156 - SourceCodester Class and Exam Timetabling System forexam.php cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16156",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16156\n  <br />\n  <strong>Published :</strong> July 18, 2026, 10:16 p.m. | 1 hour, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in SourceCodester Class and Exam Timetabling System 1.0. This affects an unknown part of the file /forexam.php. The manipulation of the argument day results in cross site scripting. It is possible to launch the attack remotely. The exploit has been released to the public and may be used for attacks.\n  <br />\n  <strong>Severity:</strong> 4.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T22:16:43+00:00",
+    "cve_ids": [
+      "CVE-2026-16156"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "A security flaw has been discovered in SourceCodester Class and Exam Timetabling System 1.0. This affects an unknown part of the file /forexam.php. The manipulation of the argument day results in cross site scripting. It is possible to launch the attack remotely. The exploit has been released to the",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16156 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8d2fc547ae24b01ade7c440ccdb2a068",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10130 - QueryWeaver Authentication Bypass via Email Signup Token Issuance for Existing Accounts",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10130",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10130\n  <br />\n  <strong>Published :</strong> July 18, 2026, 10:15 p.m. | 1 hour, 4 minutes ago\n  <br />\n  <strong>Description :</strong>QueryWeaver contains an authentication bypass vulnerability that allows unauthenticated attackers to obtain valid session tokens for existing accounts by submitting a signup request with a known victim email address. The signup route unconditionally creates and links a new token to the matching Identity via a Cypher MERGE operation before checking whether the email belongs to an existing account, causing the server to return a valid authenticated session token for the victim's identity without requiring any prior credentials or user interaction.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link fo",
+    "pub_date": "2026-07-18T22:15:13+00:00",
+    "cve_ids": [
+      "CVE-2026-10130"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "QueryWeaver contains an authentication bypass vulnerability that allows unauthenticated attackers to obtain valid session tokens for existing accounts by submitting a signup request with a known victim email address. The signup route unconditionally creates and links a new token to the matching Iden",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10130 - QueryWeaver Authentication Bypass",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9069f58d0b616b6ec1e8825e932bf687",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-57857 - Flow Payment Plugin for WordPress Reflected Cross-Site Scripting via error_message Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-57857",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-57857\n  <br />\n  <strong>Published :</strong> July 18, 2026, 9:17 p.m. | 2 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>The Flow Payment plugin for WordPress (flow.cl) version 3.0.8 is vulnerable to reflected cross-site scripting on the WooCommerce checkout page. When the plugin handles an order cancellation, the error_message GET parameter is passed directly to wc_add_notice() in flowpayment-fl.php (lines 57-58) without input sanitization (for example sanitize_text_field()) or output escaping (for example esc_html()) before being rendered in the checkout notice HTML. An unauthenticated attacker can craft a URL containing a JavaScript payload in the error_message parameter (for example /checkout/?add-to-cart={product-id}&amp;cancel_order=t",
+    "pub_date": "2026-07-18T21:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-57857"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Flow Payment plugin for WordPress (flow.cl) version 3.0.8 is vulnerable to reflected cross-site scripting on the WooCommerce checkout page. When the plugin handles an order cancellation, the error_message GET parameter is passed directly to wc_add_notice() in flowpayment-fl.php (lines 57-58) wit",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-57857 - Flow Payment Plugin for WordPress",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ec56f8abf0b45de2ec7b96ff6932bb80",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16155 - SourceCodester Class and Exam Timetabling System schoolyr.php cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16155",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16155\n  <br />\n  <strong>Published :</strong> July 18, 2026, 9:17 p.m. | 2 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in SourceCodester Class and Exam Timetabling System 1.0. Affected by this issue is some unknown functionality of the file /schoolyr.php. The manipulation of the argument sy leads to cross site scripting. It is possible to initiate the attack remotely. The exploit is publicly available and might be used.\n  <br />\n  <strong>Severity:</strong> 4.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T21:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-16155"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "A vulnerability was identified in SourceCodester Class and Exam Timetabling System 1.0. Affected by this issue is some unknown functionality of the file /schoolyr.php. The manipulation of the argument sy leads to cross site scripting. It is possible to initiate the attack remotely. The exploit is pu",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16155 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5b9a3a66d083f12a4a69ba81eac05364",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16154 - SourceCodester Class and Exam Timetabling System edit_room1.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16154",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16154\n  <br />\n  <strong>Published :</strong> July 18, 2026, 9:17 p.m. | 2 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in SourceCodester Class and Exam Timetabling System 1.0/1.php. Affected by this vulnerability is an unknown functionality of the file /edit_room1.php. Executing a manipulation of the argument ID can lead to sql injection. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T21:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-16154"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was determined in SourceCodester Class and Exam Timetabling System 1.0/1.php. Affected by this vulnerability is an unknown functionality of the file /edit_room1.php. Executing a manipulation of the argument ID can lead to sql injection. The attack may be performed from remote. The ex",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16154 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9b3636afe515e879dcae65cdc7daf2eb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16152 - SourceCodester Class and Exam Timetabling System edit_rooma.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16152",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16152\n  <br />\n  <strong>Published :</strong> July 18, 2026, 9:17 p.m. | 2 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in SourceCodester Class and Exam Timetabling System 1.0. Affected is an unknown function of the file /edit_rooma.php. Performing a manipulation of the argument ID results in sql injection. The attack is possible to be carried out remotely. The exploit has been made public and could be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T21:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-16152"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was found in SourceCodester Class and Exam Timetabling System 1.0. Affected is an unknown function of the file /edit_rooma.php. Performing a manipulation of the argument ID results in sql injection. The attack is possible to be carried out remotely. The exploit has been made public a",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16152 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3a428fe9a8e5809b5c3d45f5b5b68a75",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12228 - Stored XSS in Direct Messages via Prompt Sharing in parisneo/lollms",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12228",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12228\n  <br />\n  <strong>Published :</strong> July 18, 2026, 9:17 p.m. | 2 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A stored cross-site scripting (XSS) vulnerability exists in the `POST /api/prompts/share` endpoint of parisneo/lollms (latest version). The endpoint stores attacker-controlled `prompt_content` into `DBDirectMessage.content` without server-side sanitization. When a victim opens the direct message (DM) thread, the message is rendered by the DM UI through `MessageContentRenderer`, which uses `v-html` to insert rendered HTML into the DOM. The frontend sanitizer, which is regex-based, fails to comprehensively sanitize attacker-controlled HTML, allowing malicious payloads to execute in the victim's browser context. This vulnera",
+    "pub_date": "2026-07-18T21:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-12228"
+    ],
+    "cvss": 8.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.7,
+      "description": "A stored cross-site scripting (XSS) vulnerability exists in the `POST /api/prompts/share` endpoint of parisneo/lollms (latest version). The endpoint stores attacker-controlled `prompt_content` into `DBDirectMessage.content` without server-side sanitization. When a victim opens the direct message (DM",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12228 - Stored XSS in Direct Messages via",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "60aa6cd0deefb4f6b39d50372f2fc94a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-57848 - Stoat for Android Internal File Disclosure via Exported ShareTargetActivity URI Validation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-57848",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-57848\n  <br />\n  <strong>Published :</strong> July 18, 2026, 8:17 p.m. | 3 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>Stoat for Android exports the chat.stoat.activities.ShareTargetActivity component (reachable to any process on the device via the android.intent.action.SEND intent) and accepts the file to share as a URI supplied through the android.intent.extra.STREAM extra. The activity does not validate or filter the incoming URI before using it as the outgoing attachment, so a caller can pass a file:// URI pointing at the application's own internal storage (for example /data/data/chat.revolt/databases/revolt.db, cached authentication token files, or preferences) and have the app treat that internal file as a user-selected attachment. ",
+    "pub_date": "2026-07-18T20:17:30+00:00",
+    "cve_ids": [
+      "CVE-2026-57848"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "Stoat for Android exports the chat.stoat.activities.ShareTargetActivity component (reachable to any process on the device via the android.intent.action.SEND intent) and accepts the file to share as a URI supplied through the android.intent.extra.STREAM extra. The activity does not validate or filter",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-57848 - Stoat for Android Internal File D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7a28fc87299c0eb9e2ee6218fb2bee7b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-53994 - ProFTPD mod_sftp Heap Buffer Overflow via Unsigned Integer Underflow and Size Truncation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-53994",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-53994\n  <br />\n  <strong>Published :</strong> July 18, 2026, 8:17 p.m. | 3 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>ProFTPD mod_sftp contains a heap-based buffer overflow reachable by an authenticated SFTP user. The fxp_packet_read() function accepts the attacker-supplied 32-bit big-endian SFTP packet length without a minimum sanity check. A value of 0 causes an unsigned subtraction elsewhere in the read path to underflow to approximately 4 GB. That oversized request reaches the core memory allocator, where the rounded size is computed in size_t but passed to new_block() as a 32-bit int; the low 32 bits of 0x100000000 are 0, so new_block() returns a small (~512-byte) block while the caller is told it received ~4 GB. The subsequent fill",
+    "pub_date": "2026-07-18T20:17:30+00:00",
+    "cve_ids": [
+      "CVE-2026-53994"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "ProFTPD mod_sftp contains a heap-based buffer overflow reachable by an authenticated SFTP user. The fxp_packet_read() function accepts the attacker-supplied 32-bit big-endian SFTP packet length without a minimum sanity check. A value of 0 causes an unsigned subtraction elsewhere in the read path to ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-53994 - ProFTPD mod_sftp Heap Buffer Over",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cbd54421b42c141d951ca932cfc52abe",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16151 - CartoDB carto-api-client filters.ts addFilter prototype pollution",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16151",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16151\n  <br />\n  <strong>Published :</strong> July 18, 2026, 8:17 p.m. | 3 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in CartoDB carto-api-client 0.5.29. This impacts the function addFilter of the file src/filters.ts. Such manipulation of the argument column leads to improperly controlled modification of object prototype attributes. The attack can be executed remotely. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T20:17:30+00:00",
+    "cve_ids": [
+      "CVE-2026-16151"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in CartoDB carto-api-client 0.5.29. This impacts the function addFilter of the file src/filters.ts. Such manipulation of the argument column leads to improperly controlled modification of object prototype attributes. The attack can be executed remotely. The project was",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16151 - CartoDB carto-api-client filters.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c47c6c6ca2f2787a39ef67fbef0aa193",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16150 - RobinHerbots Inputmask Internal Deep Merge Helper extend.js extendAliases prototype pollution",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16150",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16150\n  <br />\n  <strong>Published :</strong> July 18, 2026, 8:17 p.m. | 3 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in RobinHerbots Inputmask up to 5.0.9. Affected by this issue is the function extendDefaults/extendDefinitions/extendAliases in the library lib/dependencyLibs/extend.js of the component Internal Deep Merge Helper. The manipulation results in improperly controlled modification of object prototype attributes. The attack may be performed from remote. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more..",
+    "pub_date": "2026-07-18T20:17:29+00:00",
+    "cve_ids": [
+      "CVE-2026-16150"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was found in RobinHerbots Inputmask up to 5.0.9. Affected by this issue is the function extendDefaults/extendDefinitions/extendAliases in the library lib/dependencyLibs/extend.js of the component Internal Deep Merge Helper. The manipulation results in improperly controlled modificati",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16150 - RobinHerbots Inputmask Internal D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fbf904a766cd6ee0386f0aab86e43f98",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16133 - LiuMengxuan04 MiniCode mcp.ts child_process.spawn command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16133",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16133\n  <br />\n  <strong>Published :</strong> July 18, 2026, 7:17 p.m. | 4 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in LiuMengxuan04 MiniCode 0.1.0. Affected by this vulnerability is the function child_process.spawn of the file mcp.ts. Executing a manipulation can lead to command injection. The attack can be launched remotely. The attack requires a high level of complexity. The exploitation appears to be difficult. The exploit has been published and may be used. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 5.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T19:17:05+00:00",
+    "cve_ids": [
+      "CVE-2026-16133"
+    ],
+    "cvss": 5.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.0,
+      "description": "A flaw has been found in LiuMengxuan04 MiniCode 0.1.0. Affected by this vulnerability is the function child_process.spawn of the file mcp.ts. Executing a manipulation can lead to command injection. The attack can be launched remotely. The attack requires a high level of complexity. The exploitation ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16133 - LiuMengxuan04 MiniCode mcp.ts chi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ec233b4b94e13ab9c94b043b47dbf5ee",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16131 - itsourcecode Hospital Management System prescriptionrecord.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16131",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16131\n  <br />\n  <strong>Published :</strong> July 18, 2026, 7:17 p.m. | 4 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in itsourcecode Hospital Management System 1.0. This affects an unknown function of the file /prescriptionrecord.php. This manipulation of the argument delid causes sql injection. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be used for attacks.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T19:17:05+00:00",
+    "cve_ids": [
+      "CVE-2026-16131"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A weakness has been identified in itsourcecode Hospital Management System 1.0. This affects an unknown function of the file /prescriptionrecord.php. This manipulation of the argument delid causes sql injection. It is possible to initiate the attack remotely. The exploit has been made available to th",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16131 - itsourcecode Hospital Management ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0a635543efa07533a5b3b5fa4ca1863e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16130 - nearai ironclaw write_file path_utils.rs validate_path link following",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16130",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16130\n  <br />\n  <strong>Published :</strong> July 18, 2026, 6:16 p.m. | 5 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in nearai ironclaw up to 0.29.1. The affected element is the function validate_path of the file src/tools/builtin/path_utils.rs of the component write_file. The manipulation leads to link following. Local access is required to approach this attack. The exploit is publicly available and might be used. The identifier of the patch is 369ff3d240cf3c0787b50e1e9f182e1a06c71255. It is recommended to apply a patch to fix this issue.\n  <br />\n  <strong>Severity:</strong> 4.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T18:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-16130"
+    ],
+    "cvss": 4.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.4,
+      "description": "A vulnerability was identified in nearai ironclaw up to 0.29.1. The affected element is the function validate_path of the file src/tools/builtin/path_utils.rs of the component write_file. The manipulation leads to link following. Local access is required to approach this attack. The exploit is publi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16130 - nearai ironclaw write_file path_u",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2788d2473e4c2f9b580da758c429727d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16129 - princezuda SafestClaw Built-in Web shell.py ShellAction._validate_command incomplete blacklist",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16129",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16129\n  <br />\n  <strong>Published :</strong> July 18, 2026, 5:16 p.m. | 6 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in princezuda SafestClaw up to 4.2.4. This vulnerability affects the function ShellAction._validate_command of the file src/safestclaw/actions/shell.py of the component Built-in Web Interface. Such manipulation leads to incomplete blacklist. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The presence of this vulnerability remains uncertain at this time. The project maintainer explains: \"On paper you're correct, this is a vulnerability. In practice, nothing your AI generated shows how it makes users vulnerable. It's open source. Someone c",
+    "pub_date": "2026-07-18T17:16:39+00:00",
+    "cve_ids": [
+      "CVE-2026-16129"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability has been found in princezuda SafestClaw up to 4.2.4. This vulnerability affects the function ShellAction._validate_command of the file src/safestclaw/actions/shell.py of the component Built-in Web Interface. Such manipulation leads to incomplete blacklist. An attack has to be approac",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16129 - princezuda SafestClaw Built-in We",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "779eee5e8b3a4ab371dce70fc427e71d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16128 - zevorn rt-claw http_request swarm.c receiver_thread server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16128",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16128\n  <br />\n  <strong>Published :</strong> July 18, 2026, 5:16 p.m. | 6 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in zevorn rt-claw up to 0.2.0. This impacts the function receiver_thread of the file claw/services/swarm/swarm.c of the component http_request. Performing a manipulation results in server-side request forgery. It is possible to initiate the attack remotely. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T17:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-16128"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A security flaw has been discovered in zevorn rt-claw up to 0.2.0. This impacts the function receiver_thread of the file claw/services/swarm/swarm.c of the component http_request. Performing a manipulation results in server-side request forgery. It is possible to initiate the attack remotely. The ex",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16128 - zevorn rt-claw http_request swarm",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "059f95025a8d183fecbc3bb40e78e0f6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16127 - zevorn rt-claw http_request tool_net.c claw_net_post server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16127",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16127\n  <br />\n  <strong>Published :</strong> July 18, 2026, 4:17 p.m. | 7 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in zevorn rt-claw up to 0.2.0. This affects the function claw_net_get/claw_net_post of the file claw/tools/tool_net.c of the component http_request. Such manipulation of the argument url leads to server-side request forgery. The attack may be performed from remote. The exploit is publicly available and might be used. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T16:17:13+00:00",
+    "cve_ids": [
+      "CVE-2026-16127"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was identified in zevorn rt-claw up to 0.2.0. This affects the function claw_net_get/claw_net_post of the file claw/tools/tool_net.c of the component http_request. Such manipulation of the argument url leads to server-side request forgery. The attack may be performed from remote. The",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16127 - zevorn rt-claw http_request tool_",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "27f4599bdbff2237c778ca8a284252a3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16126 - zevorn rt-claw Swarm RPC Receiver swarm.c handle_rpc_request authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16126",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16126\n  <br />\n  <strong>Published :</strong> July 18, 2026, 4:17 p.m. | 7 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in zevorn rt-claw up to 0.2.0. The impacted element is the function handle_rpc_request of the file claw/services/swarm/swarm.c of the component Swarm RPC Receiver. This manipulation causes incorrect authorization. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T16:17:13+00:00",
+    "cve_ids": [
+      "CVE-2026-16126"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was determined in zevorn rt-claw up to 0.2.0. The impacted element is the function handle_rpc_request of the file claw/services/swarm/swarm.c of the component Swarm RPC Receiver. This manipulation causes incorrect authorization. The attack is possible to be carried out remotely. The ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16126 - zevorn rt-claw Swarm RPC Receiver",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5b01b230b13f287f7dab3e4b60459b76",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16125 - zevorn rt-claw http_request net.c claw_net_post server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16125",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16125\n  <br />\n  <strong>Published :</strong> July 18, 2026, 4:17 p.m. | 7 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in zevorn rt-claw up to 0.2.0. The affected element is the function claw_net_get/claw_net_post of the file claw/services/tools/net.c of the component http_request. The manipulation of the argument url results in server-side request forgery. The attack can be executed remotely. The exploit has been made public and could be used. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T16:17:12+00:00",
+    "cve_ids": [
+      "CVE-2026-16125"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was found in zevorn rt-claw up to 0.2.0. The affected element is the function claw_net_get/claw_net_post of the file claw/services/tools/net.c of the component http_request. The manipulation of the argument url results in server-side request forgery. The attack can be executed remote",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16125 - zevorn rt-claw http_request net.c",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "967a34f20a2de5db008d5ef40962ce07",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16124 - nextlevelbuilder GoClaw web_fetch web_shared.go isPrivateIP server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16124",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16124\n  <br />\n  <strong>Published :</strong> July 18, 2026, 4:17 p.m. | 7 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in nextlevelbuilder GoClaw up to 3.15.0-beta.32. This affects the function CheckSSRF/isPrivateIP of the file internal/tools/web_shared.go of the component web_fetch. Such manipulation leads to server-side request forgery. The attack can be launched remotely. The exploit has been disclosed publicly and may be used. Upgrading to version 3.15.0-beta.33 is able to mitigate this issue. The name of the patch is 12a0168271827650ddb0026d6277fbadf3dcf3ea. Upgrading the affected component is recommended.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more ",
+    "pub_date": "2026-07-18T16:17:12+00:00",
+    "cve_ids": [
+      "CVE-2026-16124"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security vulnerability has been detected in nextlevelbuilder GoClaw up to 3.15.0-beta.32. This affects the function CheckSSRF/isPrivateIP of the file internal/tools/web_shared.go of the component web_fetch. Such manipulation leads to server-side request forgery. The attack can be launched remotely",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16124 - nextlevelbuilder GoClaw web_fetch",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c1c2d1f3b7f80f35848e068e2c308119",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16123 - nextlevelbuilder GoClaw Invoke Endpoint tools_invoke.go ToolsInvokeHandler.ServeHTTP authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16123",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16123\n  <br />\n  <strong>Published :</strong> July 18, 2026, 3:17 p.m. | 8 hours, 2 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in nextlevelbuilder GoClaw up to 3.13.2. Affected by this issue is the function ToolsInvokeHandler.ServeHTTP of the file internal/http/tools_invoke.go of the component Invoke Endpoint. This manipulation causes missing authorization. The attack can be initiated remotely. The exploit has been made available to the public and could be used for attacks.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-07-18T15:17:33+00:00",
+    "cve_ids": [
+      "CVE-2026-16123"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A weakness has been identified in nextlevelbuilder GoClaw up to 3.13.2. Affected by this issue is the function ToolsInvokeHandler.ServeHTTP of the file internal/http/tools_invoke.go of the component Invoke Endpoint. This manipulation causes missing authorization. The attack can be initiated remotely",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16123 - nextlevelbuilder GoClaw Invoke En",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "db7d61430a44b00e151845c8813d3b1f",
+    "source": "BleepingComputer",
+    "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
+    "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+    "summary": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
+    "pub_date": "2026-07-18T19:32:02+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Update now: 7-Zip fixes RCE flaw exploitable with ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dae53909cc88f08b97d2b8f9944e2d14",
+    "source": "BleepingComputer",
+    "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+    "link": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+    "summary": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]",
+    "pub_date": "2026-07-18T17:22:47+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "WordPress Core \"wp2shell\" RCE flaws get public exp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d670530739e69fa6dfae9b6eafe583d",
+    "source": "BleepingComputer",
+    "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+    "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
+    "pub_date": "2026-07-18T14:17:19+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Microsoft warns of surge in ACR Stealer attacks on",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6bf75af1567be8563a3ade87bb1a2224",
+    "source": "BleepingComputer",
+    "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
+    "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+    "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
+    "pub_date": "2026-07-18T13:15:24+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The Future of Age Verification: Your Face Never Le",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "12ca245ee740370089f820e33fab753f",
+    "source": "Help Net Security",
+    "title": "Two new high severity WordPress vulnerabilities, patch immediately!",
+    "link": "https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2shell-cve-2026-60137-cve-2026-60137/",
+    "summary": "<p>The 7.0.2 WordPress security release addresses one critical and one high severity security issue. The vulnerabilities reported to the WordPress security team include: CVE-2026-60137 &#8211; A facilitated SQL injection issue reported as a team by TF1T, dtro, and haongo CVE-2026-63030 &#8211; A REST API batch-route confusion and SQL injection issue leading to Remote Code Execution reported by Adam Kues at Assetnote / Searchlight Cyber Which versions of WordPress are vulnerable? WordPress 6.9 is affected by &#8230; <a href=\"https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2shell-cve-2026-60137-cve-2026-60137/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/07/18/wordpress-vulnerabilities-wp2s",
+    "pub_date": "2026-07-18T14:57:20+00:00",
+    "cve_ids": [
+      "CVE-2026-60137",
+      "CVE-2026-63030"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Two new high severity WordPress vulnerabilities, p",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cb81aebbfbb466fbc5f47f91c3b5035f",
+    "source": "Security Affairs",
+    "title": "OpenSSL Fixes HollowByte Memory Exhaustion Bug",
+    "link": "https://securityaffairs.com/195588/hacking/openssl-fixes-hollowbyte-memory-exhaustion-bug.html",
+    "summary": "Okta disclosed HollowByte, an 11-byte OpenSSL flaw that lets remote attackers exhaust server memory and trigger denial-of-service attacks. Okta&#8217;s Red Team disclosed a denial-of-service vulnerability in OpenSSL they named HollowByte, and the attack payload is exactly 11 bytes. A remote, unauthenticated attacker sends that payload and the server allocates up to 131 KB of memory [&#8230;]",
+    "pub_date": "2026-07-18T18:24:32+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "OpenSSL Fixes HollowByte Memory Exhaustion Bug",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "eb377ff3605ef13d712af1ac52844aa4",
+    "source": "Security Affairs",
+    "title": "Daxin: 13-Year-Old China-Linked Malware Found Still Active on Manufacturer’s Network",
+    "link": "https://securityaffairs.com/195577/malware/daxin-13-year-old-china-linked-malware-found-still-active-on-manufacturers-network.html",
+    "summary": "Researchers found China&#8217;s Daxin rootkit and a new Stupig backdoor on a Taiwan firm&#8217;s network, suggesting a stealthy intrusion dating back to 2013. Symantec&#8217;s Threat Hunter Team found Daxin running on a compromised host at a Taiwan-based subsidiary of a multinational high-tech manufacturer in 2026. Daxin is a Windows kernel-mode rootkit that Symantec first documented [&#8230;]",
+    "pub_date": "2026-07-18T14:01:03+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Daxin: 13-Year-Old China-Linked Malware Found Stil",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2f544f97fe0f854181b4b75ed28f25e7",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds Fortinet FortiSandbox and Microsoft SharePoint flaws to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/195569/security/u-s-cisa-adds-fortinet-fortisandbox-and-microsoft-sharepoint-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Fortinet FortiSandbox and Microsoft SharePoint flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Fortinet FortiSandbox and Microsoft SharePoint flaws to its Known Exploited Vulnerabilities (KEV) catalog. This week, Microsoft’s July 2026 Patch Tuesday addressed the SharePoint remote code execution bug [&#8230;]",
+    "pub_date": "2026-07-18T11:49:16+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds Fortinet FortiSandbox and Microsoft",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0863fc1903540547642f0a9508979e24",
+    "source": "CrowdStrike",
+    "title": "AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity",
+    "link": "https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "AIDR: How CrowdStrike Is Defining the Next Era of ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fe88ae66747afc2854a4c94eef8ff090",
+    "source": "CrowdStrike",
+    "title": "July 2026 Patch Tuesday: Microsoft Patches 622 Vulnerabilities Including Two Exploited Zero-Days",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-july-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "July 2026 Patch Tuesday: Microsoft Patches 622 Vul",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "675bd8114202b1d65643944835029e65",
+    "source": "CrowdStrike",
+    "title": "Why AI Governance Without Guardrails Is Theater",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-ai-governance-without-guardrails-is-theater/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why AI Governance Without Guardrails Is Theater",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c38e0a9f40e5b42a8083d2e213bb079b",
+    "source": "CrowdStrike",
+    "title": "Falcon Secure Access Sets the Standard for Zero Trust Browser Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-secure-access-sets-standard-for-zero-trust-security-browser/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Secure Access Sets the Standard for Zero Tr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3ed10fd54ef9535509f726a2af18c5e5",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Uncovers New Prompt Injection Techniques",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Uncovers New Prompt Injection Techniqu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d5d6f715ea091b6c5641007de107cc4e",
+    "source": "CrowdStrike",
+    "title": "How AI-leading Security Teams Are Building the Agentic SOC",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How AI-leading Security Teams Are Building the Age",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4fea9b5bdfedaa543107e025acafc456",
+    "source": "CrowdStrike",
+    "title": "Browser Security: Zero-Days Are Only Part of the Problem",
+    "link": "https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Browser Security: Zero-Days Are Only Part of the P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d02104f77d5e5c2bd8d57cc56f0122f9",
+    "source": "CrowdStrike",
+    "title": "Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Cloud Security June 2026 Release: Updates f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "85c4de30e48f9e433f96e1061da69dd6",
+    "source": "CrowdStrike",
+    "title": "The Identity Problem Hiding in AI Agent Deployments",
+    "link": "https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The Identity Problem Hiding in AI Agent Deployment",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d17f9e981b875d258d9d86261fce86ee",
+    "source": "CrowdStrike",
+    "title": "94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "94% of Organizations Report Cloud Breaches: CrowdS",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
