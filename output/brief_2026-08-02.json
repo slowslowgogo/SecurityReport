@@ -1,0 +1,884 @@
+[
+  {
+    "uid": "36650eb79f05b4fe2b73b6ece3df81dc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-18556 - Unauthenticated administrative account takeover",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-18556",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-18556\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 8:16 p.m. | 1 hour, 30 minutes ago\n  <br />\n  <strong>Description :</strong>Authentication bypass using an alternate path or channel vulnerability in N-able N-central allows Authentication Bypass.\n\nThis issue affects N-central: through 2026.1.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T20:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-18556"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-18556 - Unauthenticated administrative ac",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8cdebd577b6fb850d7529d358d2fef65",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-55735 - Guardian.revoke/3 acts on unverified token claims, allowing forged-token session revocation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-55735",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-55735\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 7:16 p.m. | 2 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>Improper Verification of Cryptographic Signature in ueberauth guardian allows an unauthenticated attacker to revoke a victim's session with a forged token.\n\nGuardian.revoke/3 in lib/guardian.ex decodes the supplied token with peek/1, which performs no signature verification (it only base64-decodes the JWT header and payload). The resulting unverified claims are forwarded directly to the configured token module's revoke callback and the implementation's on_revoke callback, a state-mutating sink. The sibling operations refresh/2 and exchange/4 both call decode_and_verify first, so the signature is checked before anything ac",
+    "pub_date": "2026-08-01T19:16:42+00:00",
+    "cve_ids": [
+      "CVE-2026-55735"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-55735 - Guardian.revoke/3 acts on unverif",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9b0e18b70450cf42915afca4a48b91d0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-55734 - guardian atom exhaustion in Guardian.Permissions.encode_permissions!/1",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-55734",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-55734\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 7:16 p.m. | 2 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>Allocation of Resources Without Limits or Throttling vulnerability in ueberauth guardian (Guardian.Permissions module) allows a denial of service via BEAM atom-table exhaustion.\n\nThis vulnerability is associated with program file lib/guardian/permissions.ex and program routines 'Elixir.Guardian.Permissions':encode_permissions!/1, 'Elixir.Guardian.Permissions':encode_permissions_into_claims!/2, 'Elixir.Guardian.Permissions':do_encode_permissions!/2.\n\nThe Guardian.Permissions mixin installs a public encode_permissions!/1 function on every module that does use Guardian.Permissions. For each key of the supplied map, encode_pe",
+    "pub_date": "2026-08-01T19:16:42+00:00",
+    "cve_ids": [
+      "CVE-2026-55734"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-55734 - guardian atom exhaustion in Guard",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3815b3d1206e377f9568de73bd753dbf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-55733 - Atom-table exhaustion denial of service in Guardian permissions AtomEncoding via unbounded atom creation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-55733",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-55733\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 7:16 p.m. | 2 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>Allocation of Resources Without Limits or Throttling in ueberauth guardian allows denial of service via unbounded atom creation from attacker-controlled binary input.\n\nGuardian.Permissions.AtomEncoding encodes permission scopes by passing arbitrary binaries to String.to_atom/1. When encode/3 in lib/guardian/permissions/atom_encoding.ex is called with a list, each binary entry is handled by the encode_value/3 binary clause, which calls String.to_atom(value) with no allow-list check. The perm_set argument (the application's small, finite set of legitimate permission names) is discarded, so any external string flows straight",
+    "pub_date": "2026-08-01T19:16:42+00:00",
+    "cve_ids": [
+      "CVE-2026-55733"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-55733 - Atom-table exhaustion denial of s",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "55aed9149e41cd31f6bf14af7c8320d7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-54894 - Atom-table exhaustion denial of service in Guardian via unbounded atom creation from binary keys",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-54894",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-54894\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 7:16 p.m. | 2 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>Allocation of Resources Without Limits or Throttling in ueberauth guardian allows denial of service via unbounded atom creation from attacker-influenced binary input.\n\nGuardian.Plug.Keys derives connection and session namespace keys by passing arbitrary binaries to String.to_atom/1. base_key/1 in lib/guardian/plug/keys.ex converts any binary into the atom :\"guardian_<input />\", and the derived helpers claims_key/1, resource_key/1, and token_key/1 create a second atom on top of that. key_from_other/1 likewise converts a regex-captured binary through String.to_atom/1. The public specs advertise String.t() as a valid argumen",
+    "pub_date": "2026-08-01T19:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-54894"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-54894 - Atom-table exhaustion denial of s",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6e735c3a2edcb00e2d3702b356a155c0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67355 - guzzlehttp/guzzle before 7.15.1 Host-only Cookie Scope",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67355",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67355\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>guzzlehttp/guzzle versions before 7.15.1 fail to preserve host-only cookie scope, storing the request host in the Domain field instead of marking cookies as host-only. Attackers controlling child hosts can receive host-only cookies intended only for parent hosts, potentially disclosing session identifiers and authorization tokens when the same cookie jar is reused across trust boundaries.\n  <br />\n  <strong>Severity:</strong> 5.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:06+00:00",
+    "cve_ids": [
+      "CVE-2026-67355"
+    ],
+    "cvss": 5.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.9,
+      "description": "guzzlehttp/guzzle versions before 7.15.1 fail to preserve host-only cookie scope, storing the request host in the Domain field instead of marking cookies as host-only. Attackers controlling child hosts can receive host-only cookies intended only for parent hosts, potentially disclosing session ident",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67355 - guzzlehttp/guzzle before 7.15.1 H",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5d0adfde3b6a8119f58ebee476f7e4de",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67354 - guzzlehttp/guzzle before 7.15.1 URI Fragment Disclosure via Referer",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67354",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67354\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>guzzlehttp/guzzle versions before 7.15.1 contain an information disclosure vulnerability in RedirectMiddleware. When the optional allow_redirects.referer setting is enabled, the middleware copies the URI fragment (the portion after '#') from the referring request into the generated Referer header when following a same-scheme redirect (e.g., HTTPS to HTTPS). An attacker who controls the redirect destination can read this fragment from the incoming Referer header, potentially disclosing one-time login secrets, access tokens, state values, or other sensitive client data to a server never meant to receive it. The referer sett",
+    "pub_date": "2026-08-01T13:17:06+00:00",
+    "cve_ids": [
+      "CVE-2026-67354"
+    ],
+    "cvss": 5.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.9,
+      "description": "guzzlehttp/guzzle versions before 7.15.1 contain an information disclosure vulnerability in RedirectMiddleware. When the optional allow_redirects.referer setting is enabled, the middleware copies the URI fragment (the portion after '#') from the referring request into the generated Referer header wh",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67354 - guzzlehttp/guzzle before 7.15.1 U",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9051bebe0390c72464ef5090983435c5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67353 - guzzlehttp/guzzle before 7.15.1 Unbounded Cookie Denial of Service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67353",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67353\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>guzzlehttp/guzzle versions before 7.15.1 contain a denial of service vulnerability in the CookieJar that accepts unlimited Set-Cookie header fields with no size restrictions. Attackers can return many large cookies from a malicious server, causing Guzzle to store excessive data in memory and generate oversized Cookie headers that fail in handlers or destination servers.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:06+00:00",
+    "cve_ids": [
+      "CVE-2026-67353"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "guzzlehttp/guzzle versions before 7.15.1 contain a denial of service vulnerability in the CookieJar that accepts unlimited Set-Cookie header fields with no size restrictions. Attackers can return many large cookies from a malicious server, causing Guzzle to store excessive data in memory and generat",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67353 - guzzlehttp/guzzle before 7.15.1 U",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "eda2e9027c19efcebffbe008c94b71bf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67352 - luci-app-https-dns-proxy Stored XSS via resolver_url",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67352",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67352\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>luci-app-https-dns-proxy contains a stored cross-site scripting vulnerability in the resolver_url parameter that allows authenticated users to inject active HTML. When an administrator views the HTTPS DNS Proxy status page, the resolver URL is rendered as raw HTML and executes JavaScript in the administrator's browser origin.\n  <br />\n  <strong>Severity:</strong> 7.6 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:05+00:00",
+    "cve_ids": [
+      "CVE-2026-67352"
+    ],
+    "cvss": 7.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.6,
+      "description": "luci-app-https-dns-proxy contains a stored cross-site scripting vulnerability in the resolver_url parameter that allows authenticated users to inject active HTML. When an administrator views the HTTPS DNS Proxy status page, the resolver URL is rendered as raw HTML and executes JavaScript in the admi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67352 - luci-app-https-dns-proxy Stored X",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7abfa0eb27e31a270fddb27b918c2fe7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67344 - ArcadeDB before 26.7.2 Authentication Bypass via ALTER TYPE",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67344",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67344\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>ArcadeDB before 26.7.2 fails to enforce the UPDATE_SCHEMA database permission on the ALTER TYPE ... CUSTOM and ALTER TYPE ... BUCKETSELECTIONSTRATEGY SQL operations, which map to setCustomValue and setBucketSelectionStrategy in LocalDocumentType. An authenticated user with only read access (e.g., a read-only API token) can submit these ALTER TYPE statements via the HTTP command endpoint to mutate a type's custom schema metadata and bucket-selection strategy, bypassing the documented updateSchema permission boundary and potentially corrupting schema metadata and record routing.\n  <br />\n  <strong>Severity:</strong> 4.3 | M",
+    "pub_date": "2026-08-01T13:17:05+00:00",
+    "cve_ids": [
+      "CVE-2026-67344"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "ArcadeDB before 26.7.2 fails to enforce the UPDATE_SCHEMA database permission on the ALTER TYPE ... CUSTOM and ALTER TYPE ... BUCKETSELECTIONSTRATEGY SQL operations, which map to setCustomValue and setBucketSelectionStrategy in LocalDocumentType. An authenticated user with only read access (e.g., a ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67344 - ArcadeDB before 26.7.2 Authentica",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2f1fbc2e7fef76c0f27f8523fe18503e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67343 - ArcadeDB before 26.7.2 Cluster Token Disclosure via GET /api/v1/server",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67343",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67343\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>ArcadeDB versions before 26.7.2 fail to properly redact the cluster token in the GET /api/v1/server endpoint, allowing authenticated users to retrieve the arcadedb.ha.clusterToken value in cleartext. Attackers can use the leaked token with X-ArcadeDB-Cluster-Token and X-ArcadeDB-Forwarded-User headers to impersonate root and execute administrative actions including user creation, database operations, and server shutdown.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:05+00:00",
+    "cve_ids": [
+      "CVE-2026-67343"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "ArcadeDB versions before 26.7.2 fail to properly redact the cluster token in the GET /api/v1/server endpoint, allowing authenticated users to retrieve the arcadedb.ha.clusterToken value in cleartext. Attackers can use the leaked token with X-ArcadeDB-Cluster-Token and X-ArcadeDB-Forwarded-User heade",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67343 - ArcadeDB before 26.7.2 Cluster To",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6b777500733b171fc07d45874b0ef887",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67342 - ArcadeDB before 26.7.2 Authorization Bypass via Database Handlers",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67342",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67342\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>ArcadeDB versions before 26.7.2 contain an authorization bypass vulnerability in HTTP handlers for time series, batch, Prometheus, and Grafana endpoints that fail to validate database access permissions. Attackers can access and modify databases they are not authorized to use by directly calling affected endpoints with arbitrary database parameters.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:05+00:00",
+    "cve_ids": [
+      "CVE-2026-67342"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "ArcadeDB versions before 26.7.2 contain an authorization bypass vulnerability in HTTP handlers for time series, batch, Prometheus, and Grafana endpoints that fail to validate database access permissions. Attackers can access and modify databases they are not authorized to use by directly calling aff",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67342 - ArcadeDB before 26.7.2 Authorizat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d3a4b3e029e8f30ae8f5378f6838094e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67341 - ArcadeDB before 26.7.2 Authorization Bypass via SQL DEFINE FUNCTION",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67341",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67341\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>ArcadeDB versions before 26.7.2 fail to enforce scripting authorization checks on the SQL DEFINE FUNCTION statement with LANGUAGE js. Attackers with database access can execute arbitrary JavaScript code by submitting DEFINE FUNCTION statements, bypassing security controls intended to restrict scripting to administrators.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:05+00:00",
+    "cve_ids": [
+      "CVE-2026-67341"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "ArcadeDB versions before 26.7.2 fail to enforce scripting authorization checks on the SQL DEFINE FUNCTION statement with LANGUAGE js. Attackers with database access can execute arbitrary JavaScript code by submitting DEFINE FUNCTION statements, bypassing security controls intended to restrict script",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67341 - ArcadeDB before 26.7.2 Authorizat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4393f3ada339f3d3197b8f0d892cc51d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67340 - ArcadeDB before 26.7.2 Remote Code Execution via Trigger Scripts",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67340",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67340\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>ArcadeDB before 26.7.2 (arcadedb-engine) allows trigger scripts to look up host classes in java.lang.* (via Java.type) because ScriptTriggerExecutor adds java.lang.* to the allowed packages. An authenticated user with UPDATE_SCHEMA permission can create a JavaScript trigger that invokes java.lang.Runtime.getRuntime().exec() (or ProcessBuilder), achieving OS command execution when the trigger fires.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:05+00:00",
+    "cve_ids": [
+      "CVE-2026-67340"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "ArcadeDB before 26.7.2 (arcadedb-engine) allows trigger scripts to look up host classes in java.lang.* (via Java.type) because ScriptTriggerExecutor adds java.lang.* to the allowed packages. An authenticated user with UPDATE_SCHEMA permission can create a JavaScript trigger that invokes java.lang.Ru",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67340 - ArcadeDB before 26.7.2 Remote Cod",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "00aa93a8e2604e6075468e48b8f2487d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67339 - guzzlehttp/guzzle before 7.14.2 Proxy-Authorization Header Disclosure",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67339",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67339\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>guzzlehttp/guzzle versions before 7.14.2 fail to properly isolate Proxy-Authorization headers from origin servers in cURL handlers. Attackers can capture proxy credentials through origin server access logs when requests are redirected, bypassed, or sent through SOCKS proxies that Guzzle misclassifies as direct connections.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-67339"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "guzzlehttp/guzzle versions before 7.14.2 fail to properly isolate Proxy-Authorization headers from origin servers in cURL handlers. Attackers can capture proxy credentials through origin server access logs when requests are redirected, bypassed, or sent through SOCKS proxies that Guzzle misclassifie",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67339 - guzzlehttp/guzzle before 7.14.2 P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "28f8aeac638f06af2b8b72205164124b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67338 - JupyterLab before 4.5.9 Stored XSS via Extension Manager",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67338",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67338\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>JupyterLab before 4.5.9 contains a stored cross-site scripting vulnerability in the Extension Manager that fails to validate URI protocols in package metadata URLs. Attackers can publish malicious PyPI packages with javascript: URLs in project metadata that execute arbitrary JavaScript in the JupyterLab origin when users click the extension name.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-67338"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "JupyterLab before 4.5.9 contains a stored cross-site scripting vulnerability in the Extension Manager that fails to validate URI protocols in package metadata URLs. Attackers can publish malicious PyPI packages with javascript: URLs in project metadata that execute arbitrary JavaScript in the Jupyte",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67338 - JupyterLab before 4.5.9 Stored XS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "02afad285a4ea3243950fb07465cb232",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67337 - better-auth before 1.4.9 Two-Factor Authentication Bypass via session.cookieCache",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67337",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67337\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>better-auth versions before 1.4.9 contain a two-factor authentication bypass vulnerability when session.cookieCache is enabled. Attackers with valid primary credentials can access authenticated routes without completing second-factor verification by exploiting premature session caching.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-67337"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "better-auth versions before 1.4.9 contain a two-factor authentication bypass vulnerability when session.cookieCache is enabled. Attackers with valid primary credentials can access authenticated routes without completing second-factor verification by exploiting premature session caching.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67337 - better-auth before 1.4.9 Two-Fact",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f12f06c85c3c6152383cc5309fdd8e87",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67336 - better-auth before 1.6.11 Insecure Cryptographic Defaults via oidcProvider",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67336",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67336\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>better-auth versions before 1.6.11 contain insecure cryptographic defaults in the oidcProvider and mcp plugins that advertise the none algorithm and accept plain PKCE by default. Attackers can exploit algorithm negotiation to accept unsigned tokens or intercept authorization codes when PKCE plain is used instead of the required S256 method.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-67336"
+    ],
+    "cvss": 8.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.7,
+      "description": "better-auth versions before 1.6.11 contain insecure cryptographic defaults in the oidcProvider and mcp plugins that advertise the none algorithm and accept plain PKCE by default. Attackers can exploit algorithm negotiation to accept unsigned tokens or intercept authorization codes when PKCE plain is",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67336 - better-auth before 1.6.11 Insecur",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d88fbcdef718d55e69638fb5be5ec953",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67335 - better-auth before 1.6.2 OAuth State Validation Bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67335",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67335\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>better-auth versions before 1.6.2 fail to validate the OAuth state parameter against the stored nonce when using cookie-backed state storage without PKCE. Attackers can forge the state parameter and supply an attacker-controlled authorization code to create authenticated sessions bound to the attacker's external identity or persistently link attacker accounts to victim profiles.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-67335"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "better-auth versions before 1.6.2 fail to validate the OAuth state parameter against the stored nonce when using cookie-backed state storage without PKCE. Attackers can forge the state parameter and supply an attacker-controlled authorization code to create authenticated sessions bound to the attack",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67335 - better-auth before 1.6.2 OAuth St",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9d7ae9c7841859a4f48349dadc9bdf78",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67334 - better-auth Stale Sessions Persist After User Deletion",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67334",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67334\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>better-auth versions before 1.6.11 fail to delete cached sessions when removing users via admin, anonymous, or SCIM endpoints when secondaryStorage is configured and storeSessionInDatabase is false. Attackers can reuse deleted user session tokens to maintain authentication for up to seven days after account deletion.\n  <br />\n  <strong>Severity:</strong> 3.8 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-67334"
+    ],
+    "cvss": 3.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.8,
+      "description": "better-auth versions before 1.6.11 fail to delete cached sessions when removing users via admin, anonymous, or SCIM endpoints when secondaryStorage is configured and storeSessionInDatabase is false. Attackers can reuse deleted user session tokens to maintain authentication for up to seven days after",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67334 - better-auth Stale Sessions Persis",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3818b080308ced07c55d06804f0734a8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67333 - better-auth before 1.6.13 Stored XSS via javascript redirect_uri",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67333",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67333\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>better-auth before 1.6.13 (and pre-release builds 1.7.0-beta.0 through 1.7.0-beta.3) fail to validate the scheme of redirect_uris registered via the deprecated oidc-provider plugin and the mcp plugin (which wraps the same provider). An attacker can register an OAuth client with a javascript: redirect_uri, which the authorization server later returns unchanged in the consent response. If the deployment's consent page navigates the browser to the returned redirectURI (e.g. assigning it to window.location.href), the attacker's JavaScript executes in the authorization-server origin, exposing the victim's session and enabling ",
+    "pub_date": "2026-08-01T13:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-67333"
+    ],
+    "cvss": 7.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.2,
+      "description": "better-auth before 1.6.13 (and pre-release builds 1.7.0-beta.0 through 1.7.0-beta.3) fail to validate the scheme of redirect_uris registered via the deprecated oidc-provider plugin and the mcp plugin (which wraps the same provider). An attacker can register an OAuth client with a javascript: redirec",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67333 - better-auth before 1.6.13 Stored ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "35be40a3110ebaea1cc2528bcc99d02f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67332 - @better-auth/oauth-provider before 1.7.0-beta.4 Authorization Bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67332",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67332\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>@better-auth/oauth-provider before 1.7.0-beta.4 fails to bind access-token audience to the authorization grant, allowing clients to request tokens for unrelated resources. Attackers can complete an OAuth flow and obtain access tokens whose audience targets resource servers the authorization never covered, bypassing intended authorization boundaries.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-67332"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "@better-auth/oauth-provider before 1.7.0-beta.4 fails to bind access-token audience to the authorization grant, allowing clients to request tokens for unrelated resources. Attackers can complete an OAuth flow and obtain access tokens whose audience targets resource servers the authorization never co",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67332 - @better-auth/oauth-provider befor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7be82f4dc65ee92c06e370e488032041",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67331 - better-auth SCIM 1.5.0 before 1.7.0-beta.4 Authorization Bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67331",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67331\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>better-auth SCIM versions from 1.5.0 before 1.7.0-beta.4 fail to bind non-organization SCIM providers to their creator by default, allowing authenticated users to manage other users' providers. Attackers can regenerate SCIM bearer tokens, invalidate legitimate tokens, and authenticate to SCIM API routes with the attacker-controlled token.\n  <br />\n  <strong>Severity:</strong> 8.3 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-01T13:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-67331"
+    ],
+    "cvss": 8.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.3,
+      "description": "better-auth SCIM versions from 1.5.0 before 1.7.0-beta.4 fail to bind non-organization SCIM providers to their creator by default, allowing authenticated users to manage other users' providers. Attackers can regenerate SCIM bearer tokens, invalidate legitimate tokens, and authenticate to SCIM API ro",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67331 - better-auth SCIM 1.5.0 before 1.7",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d1d9f31995624a55d5b408dfb6a6c5a6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67330 - better-auth SCIM 1.4.0-beta.27 through 1.6.21 Account Takeover via Provider-ID Collision",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67330",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67330\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>@better-auth/scim (a better-auth plugin) versions >= 1.4.0-beta.27 through <= 1.6.21 and >= 1.7.0-beta.0 through <= 1.7.0-beta.9 contain an authorization bypass. SCIM token issuance did not reject provider IDs already used by existing SSO, SAML, OIDC, generic OAuth, or social account providers, and the same logical provider ID was used for both SCIM provider configuration and account ownership. An authenticated user could mint a SCIM token whose provider ID collided with an existing provider namespace, causing SCIM user routes to resolve account rows the token never provisioned. This allowed listing, reading, updating (in",
+    "pub_date": "2026-08-01T13:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-67330"
+    ],
+    "cvss": 9.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.9,
+      "description": "@better-auth/scim (a better-auth plugin) versions >= 1.4.0-beta.27 through <= 1.6.21 and >= 1.7.0-beta.0 through <= 1.7.0-beta.9 contain an authorization bypass. SCIM token issuance did not reject provider IDs already used by existing SSO, SAML, OIDC, generic OAuth, or social account providers, and ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67330 - better-auth SCIM 1.4.0-beta.27 th",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0d6faa8cbbafe2b55c85aa7981de2a17",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67329 - @better-auth/stripe before 1.6.21 Authorization Bypass via Organization Subscription",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67329",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67329\n  <br />\n  <strong>Published :</strong> Aug. 1, 2026, 1:17 p.m. | 8 hours, 30 minutes ago\n  <br />\n  <strong>Description :</strong>@better-auth/stripe versions >= 1.4.11 and < 1.6.21, and >= 1.7.0-beta.0 and < 1.7.0-beta.10, contain an authorization bypass in organization subscription actions. The middleware validates the organization ID taken from the request query string against the authorizeReference callback, but the handler reads the organization ID only from the request body and falls back to the caller's active organization from their session. When these differ, an authenticated member of multiple organizations can perform subscription actions (cancel, change plan, restore, billing portal access) against an organization they belong to but shou",
+    "pub_date": "2026-08-01T13:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-67329"
+    ],
+    "cvss": 7.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.1,
+      "description": "@better-auth/stripe versions >= 1.4.11 and < 1.6.21, and >= 1.7.0-beta.0 and < 1.7.0-beta.10, contain an authorization bypass in organization subscription actions. The middleware validates the organization ID taken from the request query string against the authorizeReference callback, but the handle",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67329 - @better-auth/stripe before 1.6.21",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "01924bacfbdee7f899027c03801ba49c",
+    "source": "BleepingComputer",
+    "title": "Rails patches critical Active Storage flaw with RCE potential",
+    "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+    "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]",
+    "pub_date": "2026-08-01T14:20:30+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Rails patches critical Active Storage flaw with RC",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f329dc769622af754afa0514eea9dfd7",
+    "source": "SecurityWeek",
+    "title": "Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments",
+    "link": "https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/",
+    "summary": "<p>The funding round was led by SYN Ventures, with participation from existing investors DataTribe and TEDCO. </p>\n<p>The post <a href=\"https://www.securityweek.com/balance-theory-raises-19-million-to-help-enterprises-manage-cybersecurity-investments/\">Balance Theory Raises $19 Million to Help Enterprises Manage Cybersecurity Investments</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-08-01T12:30:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Balance Theory Raises $19 Million to Help Enterpri",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "995ab23e7a50b611743ffe2049f54270",
+    "source": "SecurityWeek",
+    "title": "Ruby on Rails Patches Critical Vulnerability",
+    "link": "https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/",
+    "summary": "<p>The flaw can be exploited by unauthenticated attackers to read arbitrary files and potentially achieve remote code execution (RCE).</p>\n<p>The post <a href=\"https://www.securityweek.com/ruby-on-rails-patches-critical-vulnerability/\">Ruby on Rails Patches Critical Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-08-01T11:15:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Ruby on Rails Patches Critical Vulnerability",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "de99e5aaca12c4b48098d041f2576cac",
+    "source": "The Hacker News",
+    "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+    "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+    "summary": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.\n\nA March 2021 firmware integration error routed seed generation to a deterministic software pseudorandom number generator (PRNG",
+    "pub_date": "2026-08-01T17:17:22+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Coldcard Hardware Wallet Flaw Linked to $70 Millio",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "aed5516703c645643042c604753d9fa4",
+    "source": "The Hacker News",
+    "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+    "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+    "summary": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to authorities.\n\nAnyone who visited a site carrying the affected script on July 27 and copied a Bitcoin,",
+    "pub_date": "2026-08-01T09:03:07+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hackers Poison Adform Script to Swap Crypto Wallet",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "953ceb6000b38a10f9771ec42e1e107f",
+    "source": "The Hacker News",
+    "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+    "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+    "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system.\n\nIt has been described as a case of incorrect authorization that could result in",
+    "pub_date": "2026-08-01T07:12:42+00:00",
+    "cve_ids": [
+      "CVE-2026-48449"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Co",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "578b73a2b13dda7150506f0e9922a9b3",
+    "source": "The Hacker News",
+    "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+    "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+    "summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nResearchers track the operation as CaptiveCrunch and attribute it to Storm-2945. It assesses Storm-2945 to be an operational sub-cluster of Midnight Blizzard, also known as",
+    "pub_date": "2026-08-01T06:29:05+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Delive",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5457ca93f00ec6f8711876038a508ee8",
+    "source": "CrowdStrike",
+    "title": "Falcon AIDR Now Protects Copilot Studio Agents and Claude Code",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon AIDR Now Protects Copilot Studio Agents and",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6572b3be1b626f9d7ad7242132771b3e",
+    "source": "CrowdStrike",
+    "title": "Inside Astaroth's New Spambot Component",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Inside Astaroth's New Spambot Component",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "04f010ba4782b9bc0a78fb9f68d76349",
+    "source": "CrowdStrike",
+    "title": "Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Cloud Security July 2026 Release: Helping S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1c002bb83318417dda8c68eb1d380bb9",
+    "source": "CrowdStrike",
+    "title": "Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Platform IOAs Arrive in Falcon Next-Gen SIE",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5c7f81d16f4bf95e8f675830264c8637",
+    "source": "CrowdStrike",
+    "title": "5 High-Impact Use Cases for Falcon Onum",
+    "link": "https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "5 High-Impact Use Cases for Falcon Onum",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4102c386312bae1914ec6aab4c208d67",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Joins the Open Secure AI Alliance to A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "70b3bea4c00926f98d2c3b472b79f979",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Falcon Platform Helps Meet U.S. Govern",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4b23a8b319ab916a6ae090b3c37d17a9",
+    "source": "CrowdStrike",
+    "title": "Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks",
+    "link": "https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Denying the Worm: Detecting SANDWORM_MODE and the ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "285a589de93a34498bed6e7edf45b00f",
+    "source": "CrowdStrike",
+    "title": "Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense",
+    "link": "https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Beyond the Model: Harnessing Frontier AI for Stron",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0863fc1903540547642f0a9508979e24",
+    "source": "CrowdStrike",
+    "title": "AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity",
+    "link": "https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "AIDR: How CrowdStrike Is Defining the Next Era of ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a3ec0f383ac41dc4ab85126485ce553b",
+    "source": "Security Affairs",
+    "title": "Russian Hackers Hijack Hotel Wi-Fi to Steal Microsoft 365 Tokens",
+    "link": "https://securityaffairs.com/196441/apt/russian-hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-tokens.html",
+    "summary": "Microsoft says Russian hackers hijacked hotel Wi-Fi portals to spread malware and steal Microsoft 365 tokens from travelers. Microsoft Threat Intelligence disclosed CaptiveCrunch, a campaign it attributes to Storm-2945, an operational sub-cluster of Midnight Blizzard, the Russian SVR-linked group also known as APT29 and Cozy Bear. Since early May 2026, Storm-2945 has been manipulating DNS [&#8230;]",
+    "pub_date": "2026-08-01T14:11:37+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Russian Hackers Hijack Hotel Wi-Fi to Steal Micros",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dae257bf544845c24a4bb2ab16ab1e07",
+    "source": "Security Affairs",
+    "title": "Adobe fixed a maximum-severity vulnerability flaw in Campaign Classic",
+    "link": "https://securityaffairs.com/196429/security/adobe-fixed-a-maximum-severity-vulnerability-flaw-in-campaign-classic.html",
+    "summary": "Adobe fixed a maximum severity vulnerability in Campaign Classic that could let attackers run code remotely without user interaction. Adobe has addressed a critical vulnerability, tracked as CVE-2026-48449 (CVSS score of 10.0), in Adobe Campaign Classic, the company&#8217;s enterprise marketing automation platform. The flaw is caused by incorrect authorization and could allow attackers to execute [&#8230;]",
+    "pub_date": "2026-08-01T12:31:34+00:00",
+    "cve_ids": [
+      "CVE-2026-48449"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Adobe fixed a maximum-severity vulnerability flaw ",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
