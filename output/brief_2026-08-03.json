@@ -1,0 +1,864 @@
+[
+  {
+    "uid": "ce34e003770fd671bc88755c26ea8c4e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-18577 - Incomplete patch leads to administrative account takeover",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-18577",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-18577\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 10:06 p.m. | 25 minutes ago\n  <br />\n  <strong>Description :</strong>An incomplete patch for CVE-2026-18556 allows for authentication bypass and account takeover in N-central Versions through 2026.3.1\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T22:06:18+00:00",
+    "cve_ids": [
+      "CVE-2026-18556",
+      "CVE-2026-18577"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-18577 - Incomplete patch leads to adminis",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "354a260fa620470a05797e4d27173529",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10848 - Out-of-bounds read in Zephyr OCPP 1.6 RPC message parser (parse_rpc_msg)",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10848",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10848\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 5:16 p.m. | 5 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The OCPP 1.6 client in subsys/net/lib/ocpp parsed inbound WAMP RPC frames in parse_rpc_msg() (subsys/net/lib/ocpp/ocpp_j.c) using a hand-rolled helper, extract_string_field(), that copied the message's uid and action fields with strncpy(out_buf, token + 1, outlen - 1) and then scanned the result with strchr(out_buf, '\"'). Because strncpy does not NUL-terminate the destination when the source is at least outlen - 1 (127) bytes long, the subsequent strchr reads past the 128-byte destination buffer into adjacent stack memory; if a \" byte is found beyond the buffer, a one-byte out-of-bounds NUL write also occurs. A related de",
+    "pub_date": "2026-08-02T17:16:58+00:00",
+    "cve_ids": [
+      "CVE-2026-10848"
+    ],
+    "cvss": 7.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.0,
+      "description": "The OCPP 1.6 client in subsys/net/lib/ocpp parsed inbound WAMP RPC frames in parse_rpc_msg() (subsys/net/lib/ocpp/ocpp_j.c) using a hand-rolled helper, extract_string_field(), that copied the message's uid and action fields with strncpy(out_buf, token + 1, outlen - 1) and then scanned the result wit",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10848 - Out-of-bounds read in Zephyr OCPP",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4297a3013676f43ac5c7b3af155b5ca3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9856 - Path Traversal in huggingface/transformers",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9856",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9856\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 4:16 p.m. | 6 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability in huggingface/transformers versions <=5.8.0.dev0 allows an attacker to perform arbitrary file writes via path traversal. The issue resides in the `save_pretrained()` methods of `PreTrainedTokenizerBase` and `ProcessorMixin`, where keys from the `chat_template` dictionary are used directly as filenames without proper validation. An attacker can exploit this by publishing a malicious Hugging Face Hub repository with a crafted `tokenizer_config.json` file. When a victim downloads and saves the tokenizer or processor, the attacker-controlled keys can escape the intended save directory, enabling arbitrary file ",
+    "pub_date": "2026-08-02T16:16:25+00:00",
+    "cve_ids": [
+      "CVE-2026-9856"
+    ],
+    "cvss": 7.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.1,
+      "description": "A vulnerability in huggingface/transformers versions <=5.8.0.dev0 allows an attacker to perform arbitrary file writes via path traversal. The issue resides in the `save_pretrained()` methods of `PreTrainedTokenizerBase` and `ProcessorMixin`, where keys from the `chat_template` dictionary are used di",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9856 - Path Traversal in huggingface/tran",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e86ab54ae5435ea2bf9595146190a35d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-65321 - PyAthena 3.35.4 SQL Injection via DefaultParameterFormatter DELETE/CTAS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-65321",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-65321\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 3:16 p.m. | 7 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>PyAthena prior to 3.35.4 contains a sql injection vulnerability that allows unauthenticated attackers to inject arbitrary SQL by exploiting improper quote-escaping in DefaultParameterFormatter.format(), which routes DELETE and CTAS statements to the _escape_hive function that backslash-escapes single quotes rather than doubling them. Because Athena and Trino do not treat backslashes as escape characters inside string literals, attacker-supplied input such as a single quote followed by SQL syntax causes the parser to terminate the string literal prematurely, enabling data exfiltration via UNION SELECT, execution of destruc",
+    "pub_date": "2026-08-02T15:16:33+00:00",
+    "cve_ids": [
+      "CVE-2026-65321"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "PyAthena prior to 3.35.4 contains a sql injection vulnerability that allows unauthenticated attackers to inject arbitrary SQL by exploiting improper quote-escaping in DefaultParameterFormatter.format(), which routes DELETE and CTAS statements to the _escape_hive function that backslash-escapes singl",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-65321 - PyAthena 3.35.4 SQL Injection via",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b901af6019e06e30cc18e4943eae1646",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10774 - PSA key-slot leak in Bluetooth Mesh subnet deletion leading to resource-exhaustion DoS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10774",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10774\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 3:16 p.m. | 7 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Zephyr's Bluetooth Mesh subnet key management leaks one PSA Crypto key slot on every subnet-key teardown. In subsys/bluetooth/mesh/subnet.c, net_keys_create() imports the Private Beacon Key into a PSA key slot under CONFIG_BT_MESH_PRIV_BEACONS (enabled by default), but subnet_keys_destroy() guarded the matching psa_destroy_key() with CONFIG_BT_MESH_V1d1. That Kconfig symbol was removed when explicit Mesh 1.0.1 support was dropped, so the destroy branch became permanently dead code and the import is never balanced by a destroy.\n\nThe imbalanced teardown is reached every time subnet keys are destroyed: deleting a subnet (Con",
+    "pub_date": "2026-08-02T15:16:33+00:00",
+    "cve_ids": [
+      "CVE-2026-10774"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "Zephyr's Bluetooth Mesh subnet key management leaks one PSA Crypto key slot on every subnet-key teardown. In subsys/bluetooth/mesh/subnet.c, net_keys_create() imports the Private Beacon Key into a PSA key slot under CONFIG_BT_MESH_PRIV_BEACONS (enabled by default), but subnet_keys_destroy() guarded ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10774 - PSA key-slot leak in Bluetooth Me",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a36af942b690bd043c0750a95c24ed27",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-68583 - luci-app-adblock-fast before 1.2.4-4 Stored XSS via file_url.name",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-68583",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-68583\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>luci-app-adblock-fast before 1.2.4-4 contains a stored cross-site scripting vulnerability in the blocklist name field that allows lower-privileged users to inject active HTML. When an administrator views the AdBlock Fast status page, the injected payload executes in the administrator's browser under the LuCI origin.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T13:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-68583"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "luci-app-adblock-fast before 1.2.4-4 contains a stored cross-site scripting vulnerability in the blocklist name field that allows lower-privileged users to inject active HTML. When an administrator views the AdBlock Fast status page, the injected payload executes in the administrator's browser under",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-68583 - luci-app-adblock-fast before 1.2.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b83a1f3ea5548ce5e83da70f25488181",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-68582 - Vikunja 0.24.0 Broken Object Level Authorization via Link-Share Token",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-68582",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-68582\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Vikunja versions >= 0.24.0 and <= 2.3.0 contain a broken object level authorization (BOLA) vulnerability in the task-collection endpoint (GET /api/v1/projects/{project}/views/{view}/tasks). The endpoint loads the requested project view from the URL path without verifying the caller is authorized for it. For a link-share token holder, the task scope is pinned to the share's own project, but the view is taken from the attacker-controlled path and never re-validated. As a result, a holder of any project share link can read any other tenant's kanban bucket records — bucket titles and the full created_by user object (username,",
+    "pub_date": "2026-08-02T13:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-68582"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Vikunja versions >= 0.24.0 and <= 2.3.0 contain a broken object level authorization (BOLA) vulnerability in the task-collection endpoint (GET /api/v1/projects/{project}/views/{view}/tasks). The endpoint loads the requested project view from the URL path without verifying the caller is authorized for",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-68582 - Vikunja 0.24.0 Broken Object Leve",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b68d8e5b1f849bd80cbd762ef8c1363e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-68581 - Vikunja 0.22.0 through 2.3.0 Authentication Bypass via Principal ID Collision",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-68581",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-68581\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Vikunja versions 0.22.0 through 2.3.0 fail to validate the principal type in API token management. Because user IDs and link-share IDs are independent numeric sequences and both resolve through a generic web.Auth.GetID() interface, a link-share JWT whose numeric ID equals a target user's ID is treated as that user by the /api/v1/tokens endpoints. An authenticated attacker can obtain a target's numeric user ID via authenticated user search, then create link shares on an attacker-writable project until the link-share sequence reaches that value, and use the resulting link-share JWT to list, create, and delete the target use",
+    "pub_date": "2026-08-02T13:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-68581"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "Vikunja versions 0.22.0 through 2.3.0 fail to validate the principal type in API token management. Because user IDs and link-share IDs are independent numeric sequences and both resolve through a generic web.Auth.GetID() interface, a link-share JWT whose numeric ID equals a target user's ID is treat",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-68581 - Vikunja 0.22.0 through 2.3.0 Auth",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9bb3ebb4aa19be8f57715200b18c67e5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-68580 - FreeRDP before 3.29.0 Integer Overflow via Audio Input Channel",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-68580",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-68580\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>FreeRDP before 3.29.0 contains integer overflow vulnerabilities in the audio input redirection channel (audin) across ALSA, sndio, WinMM, and OpenSL ES backends that fail to validate the FramesPerPacket parameter from RDP servers. Attackers can supply a malicious FramesPerPacket value causing allocation size wraparound, resulting in heap-based buffer overflow on ALSA or denial of service on all platforms.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-68580"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "FreeRDP before 3.29.0 contains integer overflow vulnerabilities in the audio input redirection channel (audin) across ALSA, sndio, WinMM, and OpenSL ES backends that fail to validate the FramesPerPacket parameter from RDP servers. Attackers can supply a malicious FramesPerPacket value causing alloca",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-68580 - FreeRDP before 3.29.0 Integer Ove",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2ccf451ad6676dc345d26c4195f7f3af",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-68579 - FreeRDP before 3.30.0 Heap Overflow via CliprdrStream_Read",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-68579",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-68579\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>FreeRDP before 3.30.0 (<= 3.29.0) contains a heap-based buffer overflow in the Windows clipboard client's CliprdrStream_Read function (client/Windows/wf_cliprdr.c). When an OLE paste consumer (e.g. explorer.exe) calls IStream::Read with a fixed-size buffer of cb bytes, CliprdrStream_Read requests file contents from the RDP server and then copies the response into the caller's buffer using the server-supplied length (req_fsize) instead of cb. A malicious or compromised RDP server can return an oversized CB_FILECONTENTS_RESPONSE, causing an out-of-bounds write of attacker-controlled data into the paste consumer's heap buffe",
+    "pub_date": "2026-08-02T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-68579"
+    ],
+    "cvss": 9.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.6,
+      "description": "FreeRDP before 3.30.0 (<= 3.29.0) contains a heap-based buffer overflow in the Windows clipboard client's CliprdrStream_Read function (client/Windows/wf_cliprdr.c). When an OLE paste consumer (e.g. explorer.exe) calls IStream::Read with a fixed-size buffer of cb bytes, CliprdrStream_Read requests fi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-68579 - FreeRDP before 3.30.0 Heap Overfl",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "303346b30dcae35c13f3557cec84bcfa",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-68578 - ArcadeDB before 26.7.3 Authentication Bypass via MCP Transport",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-68578",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-68578\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>ArcadeDB versions before 26.7.3 fail to bind the authenticated principal in the MCP HTTP transport, causing all engine permission checks to silently pass as no-ops. Non-root MCP-allowed users can perform arbitrary database writes, DDL, schema mutations, and execute arbitrary JavaScript code via the query tool.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-68578"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "ArcadeDB versions before 26.7.3 fail to bind the authenticated principal in the MCP HTTP transport, causing all engine permission checks to silently pass as no-ops. Non-root MCP-allowed users can perform arbitrary database writes, DDL, schema mutations, and execute arbitrary JavaScript code via the ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-68578 - ArcadeDB before 26.7.3 Authentica",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8027e7518be15367cf653bd99d11f1ee",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67357 - ArcadeDB before 26.7.3 Information Disclosure via get_server_settings",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67357",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67357\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>ArcadeDB versions before 26.7.3 contain an information disclosure vulnerability in the MCP get_server_settings tool that leaks the arcadedb.ha.clusterToken in cleartext. Attackers with MCP access can retrieve the cluster token and use it with X-ArcadeDB-Cluster-Token and X-ArcadeDB-Forwarded-User headers to impersonate root and achieve full server compromise.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-67357"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "ArcadeDB versions before 26.7.3 contain an information disclosure vulnerability in the MCP get_server_settings tool that leaks the arcadedb.ha.clusterToken in cleartext. Attackers with MCP access can retrieve the cluster token and use it with X-ArcadeDB-Cluster-Token and X-ArcadeDB-Forwarded-User he",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67357 - ArcadeDB before 26.7.3 Informatio",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ff29012ca1dbe17dd7346ffdedd2bbe3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67356 - ArcadeDB before 26.7.3 Privilege Escalation via JavaScript Trigger",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67356",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67356\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>ArcadeDB before 26.7.3 binds the real LocalDatabase object into JavaScript trigger contexts with HostAccess.ALL, allowing schema-admins to call getSecurity().createUser() without permission checks. Attackers with UPDATE_SCHEMA permission can create triggers that execute JavaScript to create server-wide admin users, escalating privileges beyond their authorization level.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-67356"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "ArcadeDB before 26.7.3 binds the real LocalDatabase object into JavaScript trigger contexts with HostAccess.ALL, allowing schema-admins to call getSecurity().createUser() without permission checks. Attackers with UPDATE_SCHEMA permission can create triggers that execute JavaScript to create server-w",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67356 - ArcadeDB before 26.7.3 Privilege ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bf1aba54fef33770e9ce1817dd6b1e5a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2025-71401 - better-auth before 1.4.1 basePath Modification DoS",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2025-71401",
+    "summary": "<strong>CVE ID :</strong>CVE-2025-71401\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>better-auth (npm) before 1.4.2 allows an external request to configure baseURL when it is not otherwise defined (e.g., BETTER_AUTH_URL is unset). An attacker able to make the very first request to the server after startup can poison the router's base path, causing all routes to return 404 for all users (denial of service). The issue is not reachable when baseURL is explicitly configured or on typical managed hosting platforms.\n  <br />\n  <strong>Severity:</strong> 5.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T13:16:52+00:00",
+    "cve_ids": [
+      "CVE-2025-71401"
+    ],
+    "cvss": 5.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.9,
+      "description": "better-auth (npm) before 1.4.2 allows an external request to configure baseURL when it is not otherwise defined (e.g., BETTER_AUTH_URL is unset). An attacker able to make the very first request to the server after startup can poison the router's base path, causing all routes to return 404 for all us",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2025-71401 - better-auth before 1.4.1 basePath",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "44909da86462c14e5a761784a4b37e1c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2025-71400 - better-auth passkey before 1.4.0 IDOR via delete-passkey",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2025-71400",
+    "summary": "<strong>CVE ID :</strong>CVE-2025-71400\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>better-auth passkey versions before 1.4.0 contain an insecure direct object reference vulnerability in the passkey deletion endpoint that allows authenticated users to delete arbitrary passkeys by ID. Attackers with valid sessions can submit crafted requests to the delete-passkey endpoint with enumerated passkey IDs to remove other users' passkeys.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T13:16:52+00:00",
+    "cve_ids": [
+      "CVE-2025-71400"
+    ],
+    "cvss": 7.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.1,
+      "description": "better-auth passkey versions before 1.4.0 contain an insecure direct object reference vulnerability in the passkey deletion endpoint that allows authenticated users to delete arbitrary passkeys by ID. Attackers with valid sessions can submit crafted requests to the delete-passkey endpoint with enume",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2025-71400 - better-auth passkey before 1.4.0 ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7532793ac54f0a6d7f49862bb8cde4c0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2025-71399 - Better Auth before 1.4.4 Path Normalization Bypass via rou3",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2025-71399",
+    "summary": "<strong>CVE ID :</strong>CVE-2025-71399\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 1:16 p.m. | 9 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Better Auth relies on better-call, which uses the rou3 router library. In affected versions of rou3, paths are normalized by removing empty segments, so /path, //path, and ///path resolve to the same route. In Better Auth versions prior to 1.4.5 (which bundles the fixed rou3), this can allow attackers to bypass disabledPaths configuration and path-based rate limits by submitting requests with extra slashes in the URL path. The issue does not apply in deployments where the proxy or platform normalizes URLs by collapsing multiple slashes.\n  <br />\n  <strong>Severity:</strong> 8.6 | HIGH\n  <br />\n  Visit the link for more de",
+    "pub_date": "2026-08-02T13:16:52+00:00",
+    "cve_ids": [
+      "CVE-2025-71399"
+    ],
+    "cvss": 8.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.6,
+      "description": "Better Auth relies on better-call, which uses the rou3 router library. In affected versions of rou3, paths are normalized by removing empty segments, so /path, //path, and ///path resolve to the same route. In Better Auth versions prior to 1.4.5 (which bundles the fixed rou3), this can allow attacke",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2025-71399 - Better Auth before 1.4.4 Path Nor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "690958e54140a0ea02f25b7a8fcd59e0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-12231 - Exclusive Addons for Elementor <= 2.7.9.8 - Authenticated (Contributor+) Stored Cross-Site Scripting via 'exad_infobox_image'",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-12231",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-12231\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 9:16 a.m. | 13 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The Exclusive Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘ exad_infobox_image’ parameter in all versions up to, and including, 2.7.9.8 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T09:16:33+00:00",
+    "cve_ids": [
+      "CVE-2026-12231"
+    ],
+    "cvss": 6.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.4,
+      "description": "The Exclusive Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ‘ exad_infobox_image’ parameter in all versions up to, and including, 2.7.9.8 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, w",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-12231 - Exclusive Addons for Elementor <=",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c7833fc3904cdfa222b8c9dc907451e0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-18573 - Keycloak-services: keycloak-services: client access-type policy condition bypass during client update",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-18573",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-18573\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 6:16 a.m. | 16 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw was found in the keycloak-services component of Keycloak, which is used for managing authentication and authorization flows. The issue occurs when a realm administrator configures client policies to enforce specific authentication requirements on confidential clients. Due to improper evaluation of the client state during an update operation, an attacker with client management permissions can bypass these security policies by first creating a public client and then updating it to a confidential client with weaker authentication. This can result in the persistence of clients that do not comply with the intended secu",
+    "pub_date": "2026-08-02T06:16:42+00:00",
+    "cve_ids": [
+      "CVE-2026-18573"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "A flaw was found in the keycloak-services component of Keycloak, which is used for managing authentication and authorization flows. The issue occurs when a realm administrator configures client policies to enforce specific authentication requirements on confidential clients. Due to improper evaluati",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-18573 - Keycloak-services: keycloak-servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e073324dcc8fcf171f8ce2d5d23b5133",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-18572 - Keycloak-services: keycloak-services: uma claim token can override authorization time-policy evaluation attributes",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-18572",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-18572\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 6:16 a.m. | 16 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>Keycloak provides authorization services that allow administrators to restrict access to resources based on time policies (for example, only allowing access during business hours). A flaw was discovered where a user can include a fake time value in their authorization request that overrides the actual server time. This allows the user to bypass these time-based restrictions and access protected resources at unauthorized times.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T06:16:42+00:00",
+    "cve_ids": [
+      "CVE-2026-18572"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Keycloak provides authorization services that allow administrators to restrict access to resources based on time policies (for example, only allowing access during business hours). A flaw was discovered where a user can include a fake time value in their authorization request that overrides the actu",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-18572 - Keycloak-services: keycloak-servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "73c924c6d2ddfff94e0862ac3c9076d0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-18571 - Keycloak-services: keycloak-services: fgap v2 group assignment bypass during user creation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-18571",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-18571\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 6:16 a.m. | 16 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw was found in the user creation component of Keycloak when Fine-Grained Admin Permissions V2 (FGAP V2) is enabled. This issue allows a sub-administrator with permission to create users to add those users to any group, even groups the sub-administrator is not authorized to manage. This could lead to unauthorized access to sensitive information or elevated privileges for the newly created users.\n  <br />\n  <strong>Severity:</strong> 6.6 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T06:16:42+00:00",
+    "cve_ids": [
+      "CVE-2026-18571"
+    ],
+    "cvss": 6.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.6,
+      "description": "A flaw was found in the user creation component of Keycloak when Fine-Grained Admin Permissions V2 (FGAP V2) is enabled. This issue allows a sub-administrator with permission to create users to add those users to any group, even groups the sub-administrator is not authorized to manage. This could le",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-18571 - Keycloak-services: keycloak-servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "22e4b9350582c1912b57f86dbfbd0b22",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-18570 - Keycloak-services: keycloak-services: full-scope-disabled client policy validation bypass via omitted fullscopeallowed",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-18570",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-18570\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 6:16 a.m. | 16 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw was found in the full-scope-disabled client-policy executor within the keycloak-services component. This component is responsible for enforcing security policies during client registration and configuration in Red Hat Build of Keycloak. The issue occurs because the executor only validates the fullScopeAllowed field when it is explicitly provided in a request. By omitting this field, a delegated user can bypass the policy, resulting in a client created with full scope access. This allows the client to obtain tokens with unauthorized role mappings.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit ",
+    "pub_date": "2026-08-02T06:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-18570"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "A flaw was found in the full-scope-disabled client-policy executor within the keycloak-services component. This component is responsible for enforcing security policies during client registration and configuration in Red Hat Build of Keycloak. The issue occurs because the executor only validates the",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-18570 - Keycloak-services: keycloak-servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cccd611ee85ef85daba47062b5dbeef3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16540 - Simply Schedule Appointments < 1.6.12.6 - Unauthenticated Appointment Data Disclosure and Mass Deletion via purge Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16540",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16540\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 6:16 a.m. | 16 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The Simply Schedule Appointments WordPress plugin before 1.6.12.6 does not correctly restrict a bulk appointment operation to the requester's own records, allowing unauthenticated users to retrieve the personal data of all appointments across the site and, on premium editions, to permanently delete them.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T06:16:40+00:00",
+    "cve_ids": [
+      "CVE-2026-16540"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16540 - Simply Schedule Appointments < 1.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d7913b57671c55178ce3f82bdcdf5f19",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16292 - Frontend File Manager Plugin <= 23.6 - File Metadata Update via CSRF",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16292",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16292\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 6:16 a.m. | 16 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The Frontend File Manager Plugin WordPress plugin through 23.6 does not perform nonce validation on one of its file-metadata update actions, allowing an attacker to modify the metadata of a logged-in user's uploaded file via a CSRF attack, which can be leveraged to download that file. When guest uploads are enabled, the same action is reachable unauthenticated against any user's file.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T06:16:40+00:00",
+    "cve_ids": [
+      "CVE-2026-16292"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16292 - Frontend File Manager Plugin <= 2",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8e16254778cd24b61bf19f600b1e199c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16291 - ProfileGrid < 5.9.9.8 - Subscriber+ Arbitrary Notification Deletion via IDOR",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16291",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16291\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 6:16 a.m. | 16 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The ProfileGrid  WordPress plugin before 5.9.9.8 does not verify that a notification belongs to the requesting user before deleting it, allowing any authenticated user such as a Subscriber to delete other users' notifications by enumerating notification identifiers.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T06:16:40+00:00",
+    "cve_ids": [
+      "CVE-2026-16291"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16291 - ProfileGrid < 5.9.9.8 - Subscribe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1d18d599b4b397e7212dd08d30ea6927",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-16285 - WooCommerce Product Attachment < 2.3.3 - Unauthenticated Arbitrary Media Download",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-16285",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-16285\n  <br />\n  <strong>Published :</strong> Aug. 2, 2026, 6:16 a.m. | 16 hours, 15 minutes ago\n  <br />\n  <strong>Description :</strong>The Product Attachment for WooCommerce WordPress plugin before 2.3.3 does not perform any authorization check before streaming media library files, allowing unauthenticated users to download any attachment — including private or unlinked uploads — by enumerating its numeric ID.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-02T06:16:40+00:00",
+    "cve_ids": [
+      "CVE-2026-16285"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-16285 - WooCommerce Product Attachment < ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6d941f092d8edd29b8fa14353edaae6d",
+    "source": "BleepingComputer",
+    "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
+    "summary": "OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer science. [...]",
+    "pub_date": "2026-08-02T22:31:41+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "OpenAI teases Astra, its next major AI model, afte",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dea0b1cc98b5a8d780f2c40e13d2cc57",
+    "source": "BleepingComputer",
+    "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
+    "link": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+    "summary": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number generator. [...]",
+    "pub_date": "2026-08-02T21:14:29+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "COLDCARD wallet RNG flaw likely linked to $88 mill",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f245eb5c2fac84bf4783879a82b43be8",
+    "source": "BleepingComputer",
+    "title": "Google Chrome may soon block New Tab hijacker extensions by default",
+    "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
+    "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]",
+    "pub_date": "2026-08-02T14:17:16+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Google Chrome may soon block New Tab hijacker exte",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f1e04c917bd6df1fdbf69953c49ab630",
+    "source": "Help Net Security",
+    "title": "Week in review: Claude breached three companies during tests, AD CS domain-takeover PoC released",
+    "link": "https://www.helpnetsecurity.com/2026/08/02/week-in-review-claude-breached-three-companies-during-tests-ad-cs-domain-takeover-poc-released/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Nono: Open-source sandbox for AI agents AI coding agents run with the same permissions as their users, meaning they can access sensitive files, credentials, and production systems. A prompt injection, hallucinated command, or simple mistake can quickly turn that access into a security incident. To reduce the risk, Luke Hinds and Stephen Parkinson co-founded nolabs and released Nono, an open-source &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/02/week-in-review-claude-breached-three-companies-during-tests-ad-cs-domain-takeover-poc-released/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/02/week-in-rev",
+    "pub_date": "2026-08-02T08:00:17+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: Claude breached three companies du",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "488bbd009248889add421808e2a816b5",
+    "source": "Security Affairs",
+    "title": "CareCloud Breach Exposes Medical and Financial Data of 345,000",
+    "link": "https://securityaffairs.com/196480/cyber-crime/carecloud-breach-exposes-medical-and-financial-data-of-345000.html",
+    "summary": "CareCloud disclosed a breach affecting 345,000 people after hackers stole medical and financial data from its AWS-hosted systems. TechCrunch reports that CareCloud, the New Jersey-based health tech company that stores patient records for more than 45,000 providers across the US, is finally notifying people impacted by a breach the firm first disclosed back in March. [&#8230;]",
+    "pub_date": "2026-08-02T20:08:44+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CareCloud Breach Exposes Medical and Financial Dat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6f678dc2b0d76bcfb329f509cfc0fa03",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 108",
+    "link": "https://securityaffairs.com/196475/security/security-affairs-malware-newsletter-round-108.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter TAG-195 Upgrades MaaS Ecosystem with Modular Tools&#160; Inside a DPRK BlueNoroff ClickFix Kit SourTrade: Browser-Assembled Malware Delivered Through Malvertising&#160;&#160; MedusaHVNC: A Hidden Desktop That Steals Live Windows Sessions&#160;&#160; Unpacking “Cruciferra”: An Analysis of a [&#8230;]",
+    "pub_date": "2026-08-02T17:53:23+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 108",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "be0d240b68ab9b9a4e56f9e3f1e49bed",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 588 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/196466/security/security-affairs-newsletter-round-588-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including international press. Russian Hackers Hijack Hotel Wi-Fi to Steal Microsoft 365 Tokens Adobe fixed a maximum-severity vulnerability flaw in [&#8230;]",
+    "pub_date": "2026-08-02T17:14:10+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 588 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8d0ff9fdb39ba5d116fb80dc6b72f3c7",
+    "source": "Security Affairs",
+    "title": "CISA Urges Utilities to Remove Internet-Exposed PLCs After Minnesota Attacks",
+    "link": "https://securityaffairs.com/196453/ics-scada/cisa-urges-utilities-to-remove-internet-exposed-plcs-after-minnesota-attacks.html",
+    "summary": "After attacks hit 30+ Minnesota water systems, CISA urged utilities to remove internet-exposed PLCs and strengthen OT security. Between Sunday and Monday, July 26 and 27, a coordinated cyberattack hit operational technology (OT) systems at more than 30 community water utilities across the state, according to Minnesota IT Services (MNIT). “A coordinated cyberattack targeted operational technology [&#8230;]",
+    "pub_date": "2026-08-02T05:06:33+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CISA Urges Utilities to Remove Internet-Exposed PL",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5457ca93f00ec6f8711876038a508ee8",
+    "source": "CrowdStrike",
+    "title": "Falcon AIDR Now Protects Copilot Studio Agents and Claude Code",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon AIDR Now Protects Copilot Studio Agents and",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6572b3be1b626f9d7ad7242132771b3e",
+    "source": "CrowdStrike",
+    "title": "Inside Astaroth's New Spambot Component",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Inside Astaroth's New Spambot Component",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "04f010ba4782b9bc0a78fb9f68d76349",
+    "source": "CrowdStrike",
+    "title": "Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Cloud Security July 2026 Release: Helping S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1c002bb83318417dda8c68eb1d380bb9",
+    "source": "CrowdStrike",
+    "title": "Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Platform IOAs Arrive in Falcon Next-Gen SIE",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5c7f81d16f4bf95e8f675830264c8637",
+    "source": "CrowdStrike",
+    "title": "5 High-Impact Use Cases for Falcon Onum",
+    "link": "https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "5 High-Impact Use Cases for Falcon Onum",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4102c386312bae1914ec6aab4c208d67",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Joins the Open Secure AI Alliance to A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "70b3bea4c00926f98d2c3b472b79f979",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Falcon Platform Helps Meet U.S. Govern",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4b23a8b319ab916a6ae090b3c37d17a9",
+    "source": "CrowdStrike",
+    "title": "Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks",
+    "link": "https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Denying the Worm: Detecting SANDWORM_MODE and the ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "285a589de93a34498bed6e7edf45b00f",
+    "source": "CrowdStrike",
+    "title": "Beyond the Model: Harnessing Frontier AI for Stronger Cyber Defense",
+    "link": "https://www.crowdstrike.com/en-us/blog/harnessing-frontier-ai-for-stronger-defense/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Beyond the Model: Harnessing Frontier AI for Stron",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0863fc1903540547642f0a9508979e24",
+    "source": "CrowdStrike",
+    "title": "AIDR: How CrowdStrike Is Defining the Next Era of Cybersecurity",
+    "link": "https://www.crowdstrike.com/en-us/blog/aidr-how-crowdstrike-is-defining-next-era-of-cybersecurity/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "AIDR: How CrowdStrike Is Defining the Next Era of ",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
