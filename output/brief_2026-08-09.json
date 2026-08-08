@@ -1,0 +1,934 @@
+[
+  {
+    "uid": "225c5a45c98a6c91d3282087f2d23520",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71958 - D-Link DWR-M961 Buffer Overflow via quicksetup.cgi",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71958",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71958\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 6:16 p.m. | 3 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a buffer overflow vulnerability in the quicksetup.cgi interface. A remote attacker can write overly long strings to the test4, ssid2, and username fields and execute arbitrary commands by crafting a specific payload, or cause the device to crash.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T18:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-71958"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a buffer overflow vulnerability in the quicksetup.cgi interface. A remote attacker can write overly long strings to the test4, ssid2, and username fields and execute arbitrary commands by crafting a s",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71958 - D-Link DWR-M961 Buffer Overflow v",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "942056e0744f4b1cbd3aabd20700632e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71957 - D-Link DWR-M961 Buffer Overflow via app.cgi",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71957",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71957\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 6:16 p.m. | 3 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a buffer overflow vulnerability in the app.cgi interface. A remote attacker can write an overly long string to the netAcc.addlist[].name field and execute arbitrary commands by crafting a specific payload, or cause the device to crash.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T18:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-71957"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a buffer overflow vulnerability in the app.cgi interface. A remote attacker can write an overly long string to the netAcc.addlist[].name field and execute arbitrary commands by crafting a specific pay",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71957 - D-Link DWR-M961 Buffer Overflow v",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1271fe7f864d097b41a21e6a09e2fa96",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71956 - D-Link DWR-M961 Command Injection via app.cgi",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71956",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71956\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 6:16 p.m. | 3 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a command injection vulnerability in the app.cgi interface. A remote attacker can inject arbitrary malicious commands into the netDig.ping.dst field, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T18:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-71956"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a command injection vulnerability in the app.cgi interface. A remote attacker can inject arbitrary malicious commands into the netDig.ping.dst field, resulting in command execution with root privilege",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71956 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "12cb5a79320ec8beabf8fda43060d497",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71955 - D-Link DWR-M961 Command Injection via /boafrm/formWsc",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71955",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71955\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a command injection vulnerability in the /boafrm/formWsc interface. A remote attacker can inject arbitrary malicious commands into the localPin, targetAPSsid, peerPin, and peerRptPin fields, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:49+00:00",
+    "cve_ids": [
+      "CVE-2026-71955"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and software version 1.1.2_C1_202602110044 contain a command injection vulnerability in the /boafrm/formWsc interface. A remote attacker can inject arbitrary malicious commands into the localPin, targetAPSsid, peerPin, and peerRptPin fields, resulting",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71955 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b0e3556c9cb975cd6701bef2eac34603",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71954 - D-Link DWR-M961 Command Injection via /boafrm/formL2tpv3ConfigSetup",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71954",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71954\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formL2tpv3ConfigSetup interface. A remote attacker can inject arbitrary malicious commands into the tunnelid and sessionid fields, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:49+00:00",
+    "cve_ids": [
+      "CVE-2026-71954"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formL2tpv3ConfigSetup interface. A remote attacker can inject arbitrary malicious commands into the tunnelid and sessionid fields, resulting in ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71954 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dfb7f033078c5812fe4083e878b4482e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71953 - D-Link DWR-M961 Command Injection via /boafrm/formNtp",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71953",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71953\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formNtp interface. A remote attacker can inject arbitrary malicious commands into the ntpServerIp1 field, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-71953"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formNtp interface. A remote attacker can inject arbitrary malicious commands into the ntpServerIp1 field, resulting in command execution with ro",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71953 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "910b2de26e41a64553631ed3adfd67cb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71952 - D-Link DWR-M961 Command Injection via /boafrm/formPinManageSetup",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71952",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71952\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formPinManageSetup interface. A remote attacker can inject arbitrary malicious commands into the oldPIn field, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-71952"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formPinManageSetup interface. A remote attacker can inject arbitrary malicious commands into the oldPIn field, resulting in command execution wi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71952 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "42542e3bdb03a9ebf6a122a3891ec812",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71951 - D-Link DWR-M961 Command Injection via /boafrm/formIMEISetup",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71951",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71951\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formIMEISetup interface. A remote attacker can inject arbitrary malicious commands into the IMEI_value field, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-71951"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formIMEISetup interface. A remote attacker can inject arbitrary malicious commands into the IMEI_value field, resulting in command execution wit",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71951 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "84af77300af1ae3f6f913bf1bd8ccfe6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71950 - D-Link DWR-M961 Command Injection via /boafrm/formSmsManage",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71950",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71950\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formSmsManage interface. A remote attacker can inject arbitrary malicious commands into the action_value field, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-71950"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formSmsManage interface. A remote attacker can inject arbitrary malicious commands into the action_value field, resulting in command execution w",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71950 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "773253ba08ded1ff416cef075e828ac1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71949 - D-Link DWR-M961 Command Injection via /boafrm/formUSSDSetup",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71949",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71949\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formUSSDSetup interface. A remote attacker can inject arbitrary malicious commands into the ussdValue and selectMenuValue fields, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-71949"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formUSSDSetup interface. A remote attacker can inject arbitrary malicious commands into the ussdValue and selectMenuValue fields, resulting in c",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71949 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "72428628c5f338f62ddd063d36950fd0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71948 - D-Link DWR-M961 Command Injection via /boafrm/formDebugDiagnosticRun",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71948",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71948\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formDebugDiagnosticRun interface. A remote attacker can inject arbitrary malicious commands into the host field, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-71948"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formDebugDiagnosticRun interface. A remote attacker can inject arbitrary malicious commands into the host field, resulting in command execution ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71948 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "700229990d552bd2c0151813fe3e8aa0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71947 - D-Link DWR-M961 Command Injection via /boafrm/formTracerouteDiagnosticRun",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71947",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71947\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formTracerouteDiagnosticRun interface. A remote attacker can inject arbitrary malicious commands into the host and ipVer fields, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:47+00:00",
+    "cve_ids": [
+      "CVE-2026-71947"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formTracerouteDiagnosticRun interface. A remote attacker can inject arbitrary malicious commands into the host and ipVer fields, resulting in co",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71947 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "50108cef50bf5711210fede62f5e39ab",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71946 - D-Link DWR-M961 Command Injection via /boafrm/formPingDiagnosticRun",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71946",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71946\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formPingDiagnosticRun interface. A remote attacker can inject arbitrary malicious commands into the host field, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:47+00:00",
+    "cve_ids": [
+      "CVE-2026-71946"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formPingDiagnosticRun interface. A remote attacker can inject arbitrary malicious commands into the host field, resulting in command execution w",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71946 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "34b0123ffb5cd21e56650c69a02f78c7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71945 - D-Link DWR-M961 Command Injection via /boafrm/formLtefotaUpgradeFibocom",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71945",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71945\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formLtefotaUpgradeFibocom interface. A remote attacker can inject arbitrary malicious commands into the fota_url field, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:47+00:00",
+    "cve_ids": [
+      "CVE-2026-71945"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formLtefotaUpgradeFibocom interface. A remote attacker can inject arbitrary malicious commands into the fota_url field, resulting in command exe",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71945 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1b125dae327c57dac5a40bfd3e34b9fb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-71944 - D-Link DWR-M961 Command Injection via /boafrm/formLtefotaUpgradeQuectel",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-71944",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-71944\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 5:16 p.m. | 4 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formLtefotaUpgradeQuectel interface. A remote attacker can inject arbitrary malicious commands into the fota_url field, resulting in command execution with root privileges.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T17:16:47+00:00",
+    "cve_ids": [
+      "CVE-2026-71944"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "D-Link DWR-M961 devices with hardware version C1 and firmware version before 1.1.5_C1_202607071108 contain a command injection vulnerability in the /boafrm/formLtefotaUpgradeQuectel interface. A remote attacker can inject arbitrary malicious commands into the fota_url field, resulting in command exe",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-71944 - D-Link DWR-M961 Command Injection",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "556774e303e23b7acf8908cce758b2b0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-67620 - Flowise 3.1.4 SSRF via fetch-links Endpoint Incomplete Deny-List",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-67620",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-67620\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 4:16 p.m. | 5 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>Flowise through 3.1.4 contains a server-side request forgery vulnerability in the SSRF guard implemented in httpSecurity.ts, where the DEFAULT_DENY_LIST omits the Oracle Cloud Infrastructure metadata endpoint 192.0.0.192 and the Alibaba Cloud metadata endpoint 100.100.100.200, allowing authenticated attackers to force the server to issue arbitrary GET requests to cloud instance metadata services. Attackers can send requests to the fetch-links API endpoint with a crafted URL parameter, bypassing deny-list validation including redirect-based bypasses, to reach instance metadata services and expose instance identity data and",
+    "pub_date": "2026-08-08T16:16:49+00:00",
+    "cve_ids": [
+      "CVE-2026-67620"
+    ],
+    "cvss": 7.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.7,
+      "description": "Flowise through 3.1.4 contains a server-side request forgery vulnerability in the SSRF guard implemented in httpSecurity.ts, where the DEFAULT_DENY_LIST omits the Oracle Cloud Infrastructure metadata endpoint 192.0.0.192 and the Alibaba Cloud metadata endpoint 100.100.100.200, allowing authenticated",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-67620 - Flowise 3.1.4 SSRF via fetch-link",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "43f2f961bef965344f4143953d8beb3e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-42170 - Gimp: gimp dds plug-in heap-based buffer overflow via bpp mismatch in load_layer() (ddsread.c)",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-42170",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-42170\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 4:16 p.m. | 5 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>A heap-based buffer overflow vulnerability exists in the GIMP DDS (DirectDraw Surface) file parser. When a crafted DDS file declares a D3D9 pixel format but sets a lower bits-per-pixel (bpp) value in the header, the loader allocates an undersized heap buffer. Subsequent pixel data consumption at the real format's stride causes a write past the heap buffer boundary, leading to heap metadata corruption and potential code execution.\n  <br />\n  <strong>Severity:</strong> 7.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T16:16:49+00:00",
+    "cve_ids": [
+      "CVE-2026-42170"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "A heap-based buffer overflow vulnerability exists in the GIMP DDS (DirectDraw Surface) file parser. When a crafted DDS file declares a D3D9 pixel format but sets a lower bits-per-pixel (bpp) value in the header, the loader allocates an undersized heap buffer. Subsequent pixel data consumption at the",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-42170 - Gimp: gimp dds plug-in heap-based",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "677dde3e70c6ae2381c9e2af7bdf9eef",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19288 - astralisone rive-mcp-server-core importRiveFile Flow importRiveFile.ts path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19288",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19288\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 2:16 p.m. | 7 hours, 34 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in astralisone rive-mcp-server-core up to db1d0cc4cd52589116360428b7504fd0ca748b3e. This affects an unknown part of the file packages/mcp-server/src/tools/importRiveFile.ts of the component importRiveFile Flow. Such manipulation of the argument libraryId leads to path traversal. The attack needs to be performed locally. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</stro",
+    "pub_date": "2026-08-08T14:16:24+00:00",
+    "cve_ids": [
+      "CVE-2026-19288"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability has been found in astralisone rive-mcp-server-core up to db1d0cc4cd52589116360428b7504fd0ca748b3e. This affects an unknown part of the file packages/mcp-server/src/tools/importRiveFile.ts of the component importRiveFile Flow. Such manipulation of the argument libraryId leads to path ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19288 - astralisone rive-mcp-server-core ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "616146de4178e9f8bc5142b301814c22",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19287 - abrinsmead mindpilot-mcp HistoryService path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19287",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19287\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 2:16 p.m. | 7 hours, 34 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in abrinsmead mindpilot-mcp 0.5.0. Affected by this issue is some unknown functionality of the component HistoryService. This manipulation of the argument ID causes path traversal. The attack needs to be launched locally. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T14:16:22+00:00",
+    "cve_ids": [
+      "CVE-2026-19287"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A flaw has been found in abrinsmead mindpilot-mcp 0.5.0. Affected by this issue is some unknown functionality of the component HistoryService. This manipulation of the argument ID causes path traversal. The attack needs to be launched locally. The project was informed of the problem early through an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19287 - abrinsmead mindpilot-mcp HistoryS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4550c27a87318c33127d27be02696936",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19285 - aaronsb memory-graph memoryTools.ts JsonMemoryStorage.saveMemories path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19285",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19285\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 1:17 p.m. | 8 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in aaronsb memory-graph up to 5cfd2382778837b9f6399080956eee670d00452c. Affected by this vulnerability is the function JsonMemoryStorage.createDomain/JsonMemoryStorage.getMemories/JsonMemoryStorage.saveMemories of the file src/tools/memoryTools.ts. The manipulation results in path traversal. The attack must be initiated from a local position. This product operates on a rolling release basis, ensuring continuous delivery. Consequently, there are no version details for either affected or updated releases. The project was informed of the problem early through an issue report but has not responded",
+    "pub_date": "2026-08-08T13:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-19285"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was detected in aaronsb memory-graph up to 5cfd2382778837b9f6399080956eee670d00452c. Affected by this vulnerability is the function JsonMemoryStorage.createDomain/JsonMemoryStorage.getMemories/JsonMemoryStorage.saveMemories of the file src/tools/memoryTools.ts. The manipulation resul",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19285 - aaronsb memory-graph memoryTools.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c1c69d1d4a052b607d438584a0770a59",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19284 - MauricioMilano coder-api Projects Endpoint projects.ts createProject command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19284",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19284\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 1:17 p.m. | 8 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in MauricioMilano coder-api up to 1.1.0. Affected is the function createProject of the file src/core/projects.ts of the component Projects Endpoint. The manipulation leads to command injection. The attack must be carried out locally. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T13:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-19284"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A security vulnerability has been detected in MauricioMilano coder-api up to 1.1.0. Affected is the function createProject of the file src/core/projects.ts of the component Projects Endpoint. The manipulation leads to command injection. The attack must be carried out locally. The project was informe",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19284 - MauricioMilano coder-api Projects",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fb455d2931c0399bc6171e569dc85f16",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19282 - andreahaku llm_memory_mcp GitHooksManager.ts auto.capture command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19282",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19282\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 1:17 p.m. | 8 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in andreahaku llm_memory_mcp up to f11dc8bcff3ff8cf943a2945f99ff3b0bdc8a6d0. This impacts the function auto.capture of the file src/autolearn/GitHooksManager.ts of the component llm_memory_mcp. Executing a manipulation of the argument hash can lead to command injection. The attack is restricted to local execution. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit",
+    "pub_date": "2026-08-08T13:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-19282"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A weakness has been identified in andreahaku llm_memory_mcp up to f11dc8bcff3ff8cf943a2945f99ff3b0bdc8a6d0. This impacts the function auto.capture of the file src/autolearn/GitHooksManager.ts of the component llm_memory_mcp. Executing a manipulation of the argument hash can lead to command injection",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19282 - andreahaku llm_memory_mcp GitHook",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1bc1a119c7e428571e1e1c4ac6883ad7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19281 - adolfosalasgomez3011 slidev-builder-mcp generateAssets Tool generateAssets.ts generateChart command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19281",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19281\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 12:16 p.m. | 9 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in adolfosalasgomez3011 slidev-builder-mcp 2.1.0. This affects the function generateChart of the file src/tools/generateAssets.ts of the component generateAssets Tool. Performing a manipulation of the argument outputDir results in command injection. The attack is only possible with local access. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T12:16:46+00:00",
+    "cve_ids": [
+      "CVE-2026-19281"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A security flaw has been discovered in adolfosalasgomez3011 slidev-builder-mcp 2.1.0. This affects the function generateChart of the file src/tools/generateAssets.ts of the component generateAssets Tool. Performing a manipulation of the argument outputDir results in command injection. The attack is ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19281 - adolfosalasgomez3011 slidev-build",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dfcc67dfc5536de016bc188638e13be2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19279 - MIMICLab mcp-pdf-vision index.ts load_pdf command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19279",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19279\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 11:16 a.m. | 10 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in MIMICLab mcp-pdf-vision 1.1.0. The impacted element is the function load_pdf of the file src/index.ts. Such manipulation of the argument pdfPath/sessionId leads to command injection. The attack can only be performed from a local environment. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-08T11:16:50+00:00",
+    "cve_ids": [
+      "CVE-2026-19279"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was identified in MIMICLab mcp-pdf-vision 1.1.0. The impacted element is the function load_pdf of the file src/index.ts. Such manipulation of the argument pdfPath/sessionId leads to command injection. The attack can only be performed from a local environment. The project was informed",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19279 - MIMICLab mcp-pdf-vision index.ts ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "48dd1f993b9d5e1573344018ebbf362e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-68082 - libceph: fix two unsafe bare decodes in decode_lockers()",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-68082",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-68082\n  <br />\n  <strong>Published :</strong> Aug. 8, 2026, 10:16 a.m. | 11 hours, 33 minutes ago\n  <br />\n  <strong>Description :</strong>In the Linux kernel, the following vulnerability has been resolved:\n\nlibceph: fix two unsafe bare decodes in decode_lockers()\n\ndecode_lockers() in cls_lock_client.c contains two bare decode operations\nthat allow a malicious or compromised OSD to trigger slab-out-of-bounds\nreads:\n\n1. ceph_decode_32(p) at the num_lockers field has no preceding bounds\n   check. ceph_start_decoding() accepts struct_len=0 as valid -- the\n   internal ceph_decode_need(p, end, 0, bad) always passes -- so when an\n   OSD sends struct_len=0, ceph_start_decoding() returns success with\n   p == end. The immediately following bare ceph_decode_32(p) th",
+    "pub_date": "2026-08-08T10:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-68082"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-68082 - libceph: fix two unsafe bare deco",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e64368097dfbaea66ecc71a5913cfb30",
+    "source": "BleepingComputer",
+    "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+    "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
+    "pub_date": "2026-08-08T14:16:23+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hackers breach TrueConf to trojanize client instal",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dd5901f90d162e9f9de7efc045c4a175",
+    "source": "SecurityWeek",
+    "title": "Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data",
+    "link": "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/",
+    "summary": "<p>The RovoBlast attack method identified by Varonis researchers could have been exploited to steal Confluence, Jira and SharePoint data.</p>\n<p>The post <a href=\"https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/\">Critical One-Click Vulnerability in Atlassian&#8217;s Rovo AI Exposed Enterprise Data</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-08-08T11:30:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Critical One-Click Vulnerability in Atlassian’s Ro",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f8b3b09c8a327a5305e8a3fa83356cf2",
+    "source": "The Hacker News",
+    "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+    "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+    "summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed.\n\nPromptArmor, an AI security firm, hid the instructions in content Rovo reads. It said an uploaded file was",
+    "pub_date": "2026-08-08T08:54:50+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Atlassian Rovo Can Be Tricked Into Sending Jira an",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f98bce50d6c1a1a24a3f25b528d525a4",
+    "source": "The Hacker News",
+    "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+    "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+    "summary": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface.\n\nAcross attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email.\n\nPortSwigger researcher Gareth",
+    "pub_date": "2026-08-08T08:03:57+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New CSS Attacks Can Break Webmail Defenses to Stea",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ac04ef1f616af5fee3ecebbf0a89317a",
+    "source": "The Hacker News",
+    "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+    "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+    "summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain",
+    "pub_date": "2026-08-08T06:58:31+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Metabase Zero-Day Exploited in Wild Allows Admin A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e82e75755178e3620eb9189ef9d14f6d",
+    "source": "The Hacker News",
+    "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+    "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+    "summary": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.\n\n\"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques,\" the company said.\n\n\"This is not a duplicate of our",
+    "pub_date": "2026-08-08T06:57:43+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "N-able Issues N-central Hotfix 2 as Attackers Reac",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5a49aea178cbfbf6006d7d9328fe772e",
+    "source": "The Hacker News",
+    "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+    "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary",
+    "pub_date": "2026-08-08T06:52:16+00:00",
+    "cve_ids": [
+      "CVE-2026-8037"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Progress Kemp LoadMaster Flaw Hits CISA KEV After ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d419588ba67109803afc5ffaf8b58b2e",
+    "source": "Security Affairs",
+    "title": "Palo Alto Networks Faces China Cybersecurity Review Amid Rising Tech Tensions",
+    "link": "https://securityaffairs.com/196881/intelligence/palo-alto-networks-faces-china-cybersecurity-review-amid-rising-tech-tensions.html",
+    "summary": "China opened a cybersecurity review of Palo Alto Networks, citing national security concerns but giving no details about the reasons behind the probe. China’s Cyberspace Administration (CAC) announced that it&#8217;s launching a cybersecurity review of products Palo Alto Networks sells in the country. The announcement itself runs to a few sentences of formal Chinese, citing [&#8230;]",
+    "pub_date": "2026-08-08T13:41:32+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Palo Alto Networks Faces China Cybersecurity Revie",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d3776cfd20e1d747177d6e434a6f90ac",
+    "source": "Security Affairs",
+    "title": "Metabase Zero-Day Exploited in the Wild, Exposing Admin Access and Sensitive Data",
+    "link": "https://securityaffairs.com/196874/hacking/metabase-zero-day-exploited-in-the-wild-exposing-admin-access-and-sensitive-data.html",
+    "summary": "Attackers exploited a CVSS 10 Metabase zero-day to gain admin access and steal sensitive data. Framework confirmed it was among the victims. Metabase just confirmed something no analytics vendor wants to write: attackers found and used an unpatched, maximum-severity flaw against Metabase Cloud before anyone on the defense side knew it existed. The company&#8217;s own [&#8230;]",
+    "pub_date": "2026-08-08T11:50:21+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Metabase Zero-Day Exploited in the Wild, Exposing ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "02b0a1d897204c7aa103efe4487c00ca",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds a Progress LoadMaster flaw to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/196863/hacking/u-s-cisa-adds-a-progress-loadmaster-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a Progress LoadMaster vulnerability to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a Progress LoadMaster vulnerability, tracked as CVE-2026-8037 (CVSS score of 9.6), to its Known Exploited Vulnerabilities (KEV) catalog. The vulnerability is an OS Command Injection Remote Code Execution issue [&#8230;]",
+    "pub_date": "2026-08-08T11:00:08+00:00",
+    "cve_ids": [
+      "CVE-2026-8037"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds a Progress LoadMaster flaw to its K",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "42b0a93f038d6d0e100eb12f9818c42c",
+    "source": "Security Affairs",
+    "title": "Unlimited Technology Systems Data Breach Exposes Data of 3.8 Million Healthcare Patients",
+    "link": "https://securityaffairs.com/196843/data-breach/unlimited-technology-systems-data-breach-exposes-data-of-3-8-million-healthcare-patients.html",
+    "summary": "Hackers stole personal, medical, and insurance data of 3.8 million people from Unlimited Technology Systems&#8217; data center. Unlimited Technology Systems disclosed a data breach affecting more than 3.8 million people after hackers accessed one of its commercial data centers between October 5 and 10, 2025. Unlimited Technology Systems is a U.S.-based healthcare technology company headquartered [&#8230;]",
+    "pub_date": "2026-08-08T07:25:10+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Unlimited Technology Systems Data Breach Exposes D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7eec14e56f16f6ed5841a674ad0f77ec",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Threat Hunts for Shell Command Obfusca",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e54deacd46c8f3f0bd6e56312e2859d7",
+    "source": "CrowdStrike",
+    "title": "Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery",
+    "link": "https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Expanding AI Benchmarks in Cybersecurity Beyond Vu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d85bc3c4f4081cc4b23bf9716db08ee",
+    "source": "CrowdStrike",
+    "title": "Secure Agent Harness Execution: Preventing Escape",
+    "link": "https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Secure Agent Harness Execution: Preventing Escape",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "381c1226be6eac108bec5bd04b2cb597",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike 2026 Threat Hunting Report: Exploitati",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5457ca93f00ec6f8711876038a508ee8",
+    "source": "CrowdStrike",
+    "title": "Falcon AIDR Now Protects Copilot Studio Agents and Claude Code",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon AIDR Now Protects Copilot Studio Agents and",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6572b3be1b626f9d7ad7242132771b3e",
+    "source": "CrowdStrike",
+    "title": "Inside Astaroth's New Spambot Component",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Inside Astaroth's New Spambot Component",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "04f010ba4782b9bc0a78fb9f68d76349",
+    "source": "CrowdStrike",
+    "title": "Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Cloud Security July 2026 Release: Helping S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1c002bb83318417dda8c68eb1d380bb9",
+    "source": "CrowdStrike",
+    "title": "Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Platform IOAs Arrive in Falcon Next-Gen SIE",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5c7f81d16f4bf95e8f675830264c8637",
+    "source": "CrowdStrike",
+    "title": "5 High-Impact Use Cases for Falcon Onum",
+    "link": "https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "5 High-Impact Use Cases for Falcon Onum",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4102c386312bae1914ec6aab4c208d67",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Joins the Open Secure AI Alliance to A",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
