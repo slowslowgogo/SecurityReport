@@ -1,0 +1,886 @@
+[
+  {
+    "uid": "d5847576e3edbfdc48ca6a1020279198",
+    "source": "BleepingComputer",
+    "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+    "summary": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
+    "pub_date": "2026-08-16T22:28:57+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Anthropic confirms Claude is down in major outage ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1c2776aa7eb8f01fc94aec84675702d2",
+    "source": "BleepingComputer",
+    "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+    "link": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+    "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
+    "pub_date": "2026-08-16T17:29:52+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Large-scale DDoS attacks disrupted Threema secure ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "29bd50e6ac86083595032bc4f6542321",
+    "source": "BleepingComputer",
+    "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+    "link": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+    "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
+    "pub_date": "2026-08-16T15:07:44+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New AmnesiaStealer macOS malware hijacks browser s",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7491a740fa5ff18ff0213653389349bd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19960 - Edimax EW-7478APC formWlbasic command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19960",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19960\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 10:45 p.m. | 22 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in Edimax EW-7478APC 1.04. This impacts the function formWlbasic of the file /goform/formWlbasic. Such manipulation of the argument rootAPmac leads to command injection. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T22:45:09+00:00",
+    "cve_ids": [
+      "CVE-2026-19960"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19960 - Edimax EW-7478APC formWlbasic com",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e039c75098313d72c57ced40a32b4693",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19959 - Edimax EW-7478APC formWanTcpipSetup stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19959",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19959\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 10:30 p.m. | 37 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Edimax EW-7478APC 1.04. This affects the function formWanTcpipSetup of the file /goform/formWanTcpipSetup. This manipulation of the argument pppUserName causes stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T22:30:15+00:00",
+    "cve_ids": [
+      "CVE-2026-19959"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19959 - Edimax EW-7478APC formWanTcpipSet",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0754902bc1f5cb5b0153a9bd622eb6f9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19957 - graphlit graphlit-mcp-server ssrf-test Endpoint tools.ts fetch server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19957",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19957\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 10:16 p.m. | 50 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in graphlit graphlit-mcp-server 1.0.1. This affects the function fetch of the file src/tools.ts of the component ssrf-test Endpoint. Such manipulation of the argument url leads to server-side request forgery. The attack may be launched remotely. The exploit is publicly available and might be used. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T22:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-19957"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was identified in graphlit graphlit-mcp-server 1.0.1. This affects the function fetch of the file src/tools.ts of the component ssrf-test Endpoint. Such manipulation of the argument url leads to server-side request forgery. The attack may be launched remotely. The exploit is publicly",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19957 - graphlit graphlit-mcp-server ssrf",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "df4413550a2cbc9a3bf3d01c4e71ad31",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19958 - iatsiuk pptr-mcp execute Tool vm-executor.ts executeCode code injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19958",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19958\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 10:15 p.m. | 52 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in iatsiuk pptr-mcp up to 0.2.7. The impacted element is the function executeCode of the file src/vm-executor.ts of the component execute Tool. The manipulation results in code injection. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T22:15:12+00:00",
+    "cve_ids": [
+      "CVE-2026-19958"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19958 - iatsiuk pptr-mcp execute Tool vm-",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b116d365a2ab4407af3fefd92ca3383a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19956 - gomarble-ai facebook-ads-mcp-server server.py fetch_pagination_url server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19956",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19956\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 9:16 p.m. | 1 hour, 50 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in gomarble-ai facebook-ads-mcp-server 0.1.0. The impacted element is the function fetch_pagination_url of the file server.py. Such manipulation leads to server-side request forgery. The attack can be launched remotely. The name of the patch is 4e53875aa22e8991c2fa4a7660d86e1caba66659. Applying a patch is advised to resolve this issue.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T21:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-19956"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in gomarble-ai facebook-ads-mcp-server 0.1.0. The impacted element is the function fetch_pagination_url of the file server.py. Such manipulation leads to server-side request forgery. The attack can be launched remotely. The name of the patch is 4e53875aa22e8991c2fa4a76",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19956 - gomarble-ai facebook-ads-mcp-serv",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d0af99e1b49d654c2cdc1b40d747c1d0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19955 - TrailDB TOC Validation tdb.c tdb_open out-of-bounds",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19955",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19955\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 8:16 p.m. | 2 hours, 51 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in TrailDB 0.6. Impacted is the function tdb_open of the file /src/tdb.c of the component TOC Validation. The manipulation results in out-of-bounds read. It is possible to launch the attack remotely. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 4.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T20:16:25+00:00",
+    "cve_ids": [
+      "CVE-2026-19955"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "A vulnerability was detected in TrailDB 0.6. Impacted is the function tdb_open of the file /src/tdb.c of the component TOC Validation. The manipulation results in out-of-bounds read. It is possible to launch the attack remotely. The exploit is now public and may be used. The project was informed of ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19955 - TrailDB TOC Validation tdb.c tdb_",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "eb9c1171bd2b512051115dc56c3a9597",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74797 - OpenTofu before 1.11.4 Denial of Service via malicious zip",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74797",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74797\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>OpenTofu versions before 1.11.4 contain a denial of service vulnerability in the tofu init command when processing maliciously-crafted .zip archives for provider or module packages. Attackers can cause excessive CPU usage by controlling .zip archive content served during dependency installation, degrading system performance and preventing timely completion of the init process.\n  <br />\n  <strong>Severity:</strong> 3.1 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-74797"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "OpenTofu versions before 1.11.4 contain a denial of service vulnerability in the tofu init command when processing maliciously-crafted .zip archives for provider or module packages. Attackers can cause excessive CPU usage by controlling .zip archive content served during dependency installation, deg",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74797 - OpenTofu before 1.11.4 Denial of ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2772d0fe7b087886a29f4faa9fdd964e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74796 - OpenTofu before 1.11.7 Symlink Following Path Traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74796",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74796\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>OpenTofu before 1.11.7 fails to validate existing symlinks in the provider cache directory during initialization. Attackers can place a malicious symlink in a trusted working directory to cause tofu init to write provider package contents to arbitrary filesystem locations outside the working tree.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-74796"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "OpenTofu before 1.11.7 fails to validate existing symlinks in the provider cache directory during initialization. Attackers can place a malicious symlink in a trusted working directory to cause tofu init to write provider package contents to arbitrary filesystem locations outside the working tree.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74796 - OpenTofu before 1.11.7 Symlink Fo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "778db17b3dcf42f2ccc0eb2e16705706",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74795 - Scriban before 6.6.0 Denial of Service via Uncontrolled Recursion",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74795",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74795\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 6.6.0 contains an uncontrolled recursion vulnerability in its recursive-descent parser. The parser does not enforce a default expression depth limit (the ExpressionDepthLimit property in ParserOptions defaults to null/disabled), so an attacker who controls template input can supply a deeply nested template (e.g., thousands of nested parentheses or blocks) that exhausts thread stack space and raises a StackOverflowException. Because a StackOverflowException cannot be caught in .NET, this causes immediate, unrecoverable termination of the hosting process, resulting in a denial of service. Applications that p",
+    "pub_date": "2026-08-16T14:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-74795"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Scriban before 6.6.0 contains an uncontrolled recursion vulnerability in its recursive-descent parser. The parser does not enforce a default expression depth limit (the ExpressionDepthLimit property in ParserOptions defaults to null/disabled), so an attacker who controls template input can supply a ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74795 - Scriban before 6.6.0 Denial of Se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cf57b53bcc69717ced36d7e15a198545",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74794 - Scriban before 6.6.0 Denial of Service via Infinite Recursion",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74794",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74794\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 6.6.0 contains an infinite recursion vulnerability in object rendering when the ObjectRecursionLimit property defaults to unlimited. Attackers can supply circular reference objects to the template context, exhausting stack space and triggering an uncatchable StackOverflowException that terminates the hosting process.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-74794"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Scriban before 6.6.0 contains an infinite recursion vulnerability in object rendering when the ObjectRecursionLimit property defaults to unlimited. Attackers can supply circular reference objects to the template context, exhausting stack space and triggering an uncatchable StackOverflowException tha",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74794 - Scriban before 6.6.0 Denial of Se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "118e03ac1f40888e5338c0a36c4ab847",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74792 - Scriban before 7.0.0 Stack Overflow via nested array initializers",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74792",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74792\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.0.0 (affected versions <= 6.6.0) contains a stack overflow vulnerability in nested array initializer parsing. Deeply nested array initializers recurse through a path (ParseArrayInitializer → ParseExpression → ParseArrayInitializer) that is not covered by the ExpressionDepthLimit counter added in the fix for GHSA-wgh7-7m3c-fx25. An attacker who can supply untrusted input to Template.Parse can trigger an uncatchable StackOverflowException that immediately terminates the process, even with the default ExpressionDepthLimit enabled.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link fo",
+    "pub_date": "2026-08-16T14:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-74792"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Scriban before 7.0.0 (affected versions <= 6.6.0) contains a stack overflow vulnerability in nested array initializer parsing. Deeply nested array initializers recurse through a path (ParseArrayInitializer → ParseExpression → ParseArrayInitializer) that is not covered by the ExpressionDepthLimit cou",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74792 - Scriban before 7.0.0 Stack Overfl",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "381467fe52ef96847229d0f3d84d19bc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74791 - Scriban before 7.0.0 Authorization Bypass via Stale Include Cache",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74791",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74791\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.0.0 fails to clear the CachedTemplates dictionary when TemplateContext.Reset() is called, allowing cached templates to persist across reused contexts. Attackers can exploit request-dependent ITemplateLoader implementations to access previously authorized template content from earlier renders without triggering TemplateLoader.Load() again.\n  <br />\n  <strong>Severity:</strong> 8.6 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-74791"
+    ],
+    "cvss": 8.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.6,
+      "description": "Scriban before 7.0.0 fails to clear the CachedTemplates dictionary when TemplateContext.Reset() is called, allowing cached templates to persist across reused contexts. Attackers can exploit request-dependent ITemplateLoader implementations to access previously authorized template content from earlie",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74791 - Scriban before 7.0.0 Authorizatio",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e40fb342df7fef6d95680e107501db16",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74790 - Scriban before 7.0.0 MemberFilter Bypass via TemplateContext Cache",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74790",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74790\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.0.0 caches TypedObjectAccessor by Type only without considering MemberFilter changes, allowing reused TemplateContext instances to expose members that should be hidden. Attackers can access filtered properties and fields by reusing a TemplateContext after tightening its MemberFilter, bypassing sandbox policies across requests or tenants.\n  <br />\n  <strong>Severity:</strong> 9.1 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-74790"
+    ],
+    "cvss": 9.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.1,
+      "description": "Scriban before 7.0.0 caches TypedObjectAccessor by Type only without considering MemberFilter changes, allowing reused TemplateContext instances to expose members that should be hidden. Attackers can access filtered properties and fields by reusing a TemplateContext after tightening its MemberFilter",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74790 - Scriban before 7.0.0 MemberFilter",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6f0c2f6667ac4579313bdcaf4e50199c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74789 - Scriban before 7.0.0 LoopLimit Bypass via Built-in Operations",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74789",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74789\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.0.0 (affected <= 6.6.0) applies its LoopLimit constraint only to script loop statements and not to expensive iteration performed inside built-in operators and functions. As a result, a single expression such as {{ 1..1000000 | array.size }} — or a memory-amplification expression such as {{ 'A' * 200000000 }} — can force large CPU or memory consumption even when LoopLimit is configured to a very small value, resulting in denial of service. Applications that render attacker-controlled templates and rely on LoopLimit for safe execution are affected.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n",
+    "pub_date": "2026-08-16T14:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-74789"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Scriban before 7.0.0 (affected <= 6.6.0) applies its LoopLimit constraint only to script loop statements and not to expensive iteration performed inside built-in operators and functions. As a result, a single expression such as {{ 1..1000000 | array.size }} — or a memory-amplification expression suc",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74789 - Scriban before 7.0.0 LoopLimit By",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ac85c2c821833c7b5e105e6ea7d315db",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74788 - Scriban before 7.0.0 Denial of Service via string.pad_left/pad_right",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74788",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74788\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.0.0 (affected versions <= 6.6.0) contains an uncontrolled memory allocation vulnerability in the string.pad_left and string.pad_right template functions, which perform no validation on the width parameter before delegating to .NET's String.PadLeft/PadRight. When an application exposes Scriban to untrusted template input, an attacker can supply an arbitrarily large width value (e.g., 500,000,000) to trigger ~1GB memory allocations in a single call, resulting in OutOfMemoryException and denial of service. The TemplateContext.LimitToString limit does not prevent this because it is only enforced after the st",
+    "pub_date": "2026-08-16T14:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-74788"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Scriban before 7.0.0 (affected versions <= 6.6.0) contains an uncontrolled memory allocation vulnerability in the string.pad_left and string.pad_right template functions, which perform no validation on the width parameter before delegating to .NET's String.PadLeft/PadRight. When an application expos",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74788 - Scriban before 7.0.0 Denial of Se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "02789fd0dba107a6cdd52444059c3c25",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74787 - Scriban before 7.0.0 Uncontrolled Recursion via object.to_json",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74787",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74787\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.0.0 contains an uncontrolled recursion vulnerability in the object.to_json builtin function that lacks depth limits and circular reference detection. Attackers can craft templates with self-referencing objects to trigger unbounded recursion, causing a StackOverflowException that fatally terminates the hosting .NET process.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-74787"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Scriban before 7.0.0 contains an uncontrolled recursion vulnerability in the object.to_json builtin function that lacks depth limits and circular reference detection. Attackers can craft templates with self-referencing objects to trigger unbounded recursion, causing a StackOverflowException that fat",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74787 - Scriban before 7.0.0 Uncontrolled",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "255817e6490a9c952948ef3340753538",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74786 - Scriban before 7.0.0 Denial of Service via Unbounded Template Output",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74786",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74786\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.0.0 (affected versions <= 6.6.0) contains a denial-of-service vulnerability in which the LimitToString safety limit (default 1MB) can be bypassed because ObjectToString resets the per-call length counter (_currentToStringLength) on every top-level call and StringBuilderOutput enforces no cumulative output-size limit. An attacker who can supply a template can render a near-limit string repeatedly in a loop, allocating approximately 1GB of memory and causing an out-of-memory condition that crashes the host application.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more de",
+    "pub_date": "2026-08-16T14:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-74786"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Scriban before 7.0.0 (affected versions <= 6.6.0) contains a denial-of-service vulnerability in which the LimitToString safety limit (default 1MB) can be bypassed because ObjectToString resets the per-call length counter (_currentToStringLength) on every top-level call and StringBuilderOutput enforc",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74786 - Scriban before 7.0.0 Denial of Se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0a5db854b33c1e4b6342a25f3b13b01b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74785 - Scriban before 7.0.0 Denial of Service via Unbounded Resource Consumption",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74785",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74785\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.0.0 contains three distinct denial-of-service vulnerabilities in expression evaluation that bypass existing safety controls through unbounded string multiplication, uncontrolled BigInteger shift operations, and LoopLimit bypass via range enumeration in builtin functions. Attackers who can supply templates can cause out-of-memory exceptions or CPU exhaustion, typically terminating the entire host process.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-74785"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Scriban before 7.0.0 contains three distinct denial-of-service vulnerabilities in expression evaluation that bypass existing safety controls through unbounded string multiplication, uncontrolled BigInteger shift operations, and LoopLimit bypass via range enumeration in builtin functions. Attackers w",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74785 - Scriban before 7.0.0 Denial of Se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1eee11b6fc04d64c2b3d4be0effbefaa",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74784 - Scriban before 7.2.0 Denial of Service via array.insert_at",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74784",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74784\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.2.0 contains a denial of service vulnerability in the array.insert_at function that allocates unbounded null entries without respecting LoopLimit or LimitToString constraints. Attackers can supply a large index parameter to trigger OutOfMemoryException and crash the host process in under a second.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-74784"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74784 - Scriban before 7.2.0 Denial of Se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c36b9f5defdf76b9a9ff3761d513b5bf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74783 - Scriban 6.6.0 through 7.2.0 Parser Recursion Denial of Service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74783",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74783\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban versions 6.6.0 through 7.2.0 contain a non-enforcing ExpressionDepthLimit guard that fails to stop recursive descent parsing of deeply nested expressions. Attackers can supply templates with deeply nested parentheses, array initializers, object initializers, or unary operators to trigger an uncatchable StackOverflowException that immediately terminates the host process.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:56+00:00",
+    "cve_ids": [
+      "CVE-2026-74783"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Scriban versions 6.6.0 through 7.2.0 contain a non-enforcing ExpressionDepthLimit guard that fails to stop recursive descent parsing of deeply nested expressions. Attackers can supply templates with deeply nested parentheses, array initializers, object initializers, or unary operators to trigger an ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74783 - Scriban 6.6.0 through 7.2.0 Parse",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "78da2c65446329afbdc5bb569d5d6950",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-73062 - Scriban 3.0.0 through 7.2.0 Denial of Service via Array Multiplication",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-73062",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-73062\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban versions 3.0.0 through 7.2.0 contain a denial of service vulnerability in the array multiplication operator that allocates memory without enforcing LoopLimit or overflow-safe arithmetic checks. Attackers can supply a large integer multiplier in a template to force multi-gigabyte memory allocations, causing resource exhaustion and availability degradation.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-73062"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Scriban versions 3.0.0 through 7.2.0 contain a denial of service vulnerability in the array multiplication operator that allocates memory without enforcing LoopLimit or overflow-safe arithmetic checks. Attackers can supply a large integer multiplier in a template to force multi-gigabyte memory alloc",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-73062 - Scriban 3.0.0 through 7.2.0 Denia",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a72d36e4b0349f5449d2f9664a1feff3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-73061 - Scriban before 7.2.2 Arbitrary Property Write via TypedObjectAccessor",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-73061",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-73061\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban before 7.2.2 contains an access-modifier bypass vulnerability in TypedObjectAccessor that allows template code to write CLR object properties without setter-visibility checks. Attackers can modify properties with private, internal, or init-only setters, and perform mass assignment on public-setter properties, permanently altering live host objects after template rendering.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-73061"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "Scriban before 7.2.2 contains an access-modifier bypass vulnerability in TypedObjectAccessor that allows template code to write CLR object properties without setter-visibility checks. Attackers can modify properties with private, internal, or init-only setters, and perform mass assignment on public-",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-73061 - Scriban before 7.2.2 Arbitrary Pr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0151b509b3a61738ffd025e422f6b08d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-73060 - Scriban 3.0.0 through 7.2.5 Denial of Service via ScriptRange.Multiply",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-73060",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-73060\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>Scriban versions from 3.0.0 through 7.2.5 contain a denial of service vulnerability in the ScriptRange.Multiply operator that bypasses LoopLimit when the left operand is a lazy sequence. Attackers can supply templates with array multiplication on lazy sequences to execute billions of uncharged iterations, pinning CPU cores and exhausting garbage collection resources even when LoopLimit is set to 1.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-73060"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Scriban versions from 3.0.0 through 7.2.5 contain a denial of service vulnerability in the ScriptRange.Multiply operator that bypasses LoopLimit when the left operand is a lazy sequence. Attackers can supply templates with array multiplication on lazy sequences to execute billions of uncharged itera",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-73060 - Scriban 3.0.0 through 7.2.5 Denia",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a08833e6a328c368d827da0cb3b79819",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-73059 - stoatchat before 0.15.0 Permission Bypass via message_fetch",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-73059",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-73059\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>stoatchat before 0.15.0 contains a permission bypass vulnerability in the message_fetch route that checks only ViewChannel permission instead of requiring ReadMessageHistory. Attackers with ViewChannel access but ReadMessageHistory denied can retrieve individual message content by ID, bypassing the intended history restriction enforced by bulk read routes.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-73059"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "stoatchat before 0.15.0 contains a permission bypass vulnerability in the message_fetch route that checks only ViewChannel permission instead of requiring ReadMessageHistory. Attackers with ViewChannel access but ReadMessageHistory denied can retrieve individual message content by ID, bypassing the ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-73059 - stoatchat before 0.15.0 Permissio",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5821145f20ffc2929dfbd91b6dc630f3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-73058 - stoatchat before 0.15.0 SSRF via IPv6 unspecified address bypass",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-73058",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-73058\n  <br />\n  <strong>Published :</strong> Aug. 16, 2026, 2:16 p.m. | 8 hours, 50 minutes ago\n  <br />\n  <strong>Description :</strong>stoatchat versions before 0.15.0 fail to block the IPv6 unspecified address (::) in the SSRF blocklist, allowing unauthenticated attackers to bypass protections via the /proxy and /embed endpoints. Attackers can craft requests using IPv6 literal syntax to access services on the loopback interface and retrieve sensitive internal content.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-16T14:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-73058"
+    ],
+    "cvss": 5.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.8,
+      "description": "stoatchat versions before 0.15.0 fail to block the IPv6 unspecified address (::) in the SSRF blocklist, allowing unauthenticated attackers to bypass protections via the /proxy and /embed endpoints. Attackers can craft requests using IPv6 literal syntax to access services on the loopback interface an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-73058 - stoatchat before 0.15.0 SSRF via ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "011ece51885edd658c0caf63a53b5138",
+    "source": "Help Net Security",
+    "title": "Week in review: Salesforce and ServiceNow portals exposed for 17 months, exploited Metabase 0-day",
+    "link": "https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: GitHub Dependabot malware alerts now cover eight ecosystems GitHub has flagged npm malware since March 2026. Anyone pulling in a bad PyPI, Maven, RubyGems, NuGet, Go, crates.io, or PHP Composer package has had no such warning, because GitHub’s malware detection only ever watched one ecosystem. That changed this month. Dependabot malware alerts, which had run on npm data alone, now &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-a",
+    "pub_date": "2026-08-16T08:00:56+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: Salesforce and ServiceNow portals ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fc1ea6ebc9eda89b295f146d02d1bcfd",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 110",
+    "link": "https://securityaffairs.com/197314/malware/security-affairs-malware-newsletter-round-110.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Kimsuky Integrates AI into Attack Operations, From AI-Generated Decoy Documents to a Local LLM ShieldBreak &#8211; August 2026 disclosure&#160;&#160; Kimwolf v7: An Evolution of the Kimwolf Botnet&#160; CISA, FBI and Partners Warn Organizations of [&#8230;]",
+    "pub_date": "2026-08-16T17:43:31+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 110",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b4f0d1cfac7c907dde6a391a554bb91a",
+    "source": "Security Affairs",
+    "title": "Mustang Panda Upgrades CoolClient With a Kernel Rootkit",
+    "link": "https://securityaffairs.com/197274/apt/mustang-panda-upgrades-coolclient-with-a-kernel-rootkit.html",
+    "summary": "Mustang Panda upgraded CoolClient with a signed kernel driver that hides processes, files and network activity, making the backdoor harder to detect. HoneyMyte, also known as Mustang Panda, has pushed its CoolClient backdoor another step deeper into Windows. Kaspersky’s latest analysis shows a new variant that can deploy a signed kernel-mode driver as a Windows [&#8230;]",
+    "pub_date": "2026-08-16T17:15:46+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Mustang Panda Upgrades CoolClient With a Kernel Ro",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ac823a4a02a5801c106a81cc3358b233",
+    "source": "Security Affairs",
+    "title": "Sophisticated Cyberattack Exposes Data of 678,000 French Taxpayers",
+    "link": "https://securityaffairs.com/197287/cyber-crime/sophisticated-cyberattack-exposes-data-of-678000-french-taxpayers.html",
+    "summary": "France&#8217;s tax agency says hackers stole data on 678,000 taxpayers, including income and tax details, in a sophisticated cyberattack. A threat actor claimed to have breached France’s tax agency in late June. France&#8217;s tax administration confirmed that a cyberattack exposed personal data of 678,000 individuals and businesses, prompting an immediate criminal investigation. The cybercrime unit [&#8230;]",
+    "pub_date": "2026-08-16T08:55:16+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Sophisticated Cyberattack Exposes Data of 678,000 ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9eced3bedc98ad612486573c9dbe1f5e",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 590 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/197288/breaking-news/security-affairs-newsletter-round-590-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including international press. Crooks Are Buying Your Expired Domains and Using Them to Deliver Malware SAP Commerce Cloud CVE-2026-58231 Exploited [&#8230;]",
+    "pub_date": "2026-08-16T08:31:53+00:00",
+    "cve_ids": [
+      "CVE-2026-58231"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 590 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "eaed1390697e6034c7802b60da623949",
+    "source": "Security Affairs",
+    "title": "APT36 Suspected in PATCHCORD Espionage Campaign Using Google Sheets C2",
+    "link": "https://securityaffairs.com/197266/intelligence/apt36-suspected-in-patchcord-espionage-campaign-using-google-sheets-c2.html",
+    "summary": "Acronis uncovered PATCHCORD, a stealthy backdoor targeting Afghan telecom and South Asian infrastructure via fake VPN tools and Google Sheets C2. Researchers at Acronis just documented an espionage operation that reads like it was built by someone with genuinely good taste in disguises. Their Threat Research Unit report tracks a previously undocumented backdoor called PATCHCORD, [&#8230;]",
+    "pub_date": "2026-08-16T07:24:53+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "APT36 Suspected in PATCHCORD Espionage Campaign Us",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ac291f9b174465b4f81c2dff517729d1",
+    "source": "CrowdStrike",
+    "title": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "August 2026 Patch Tuesday: One Exploited Zero-Day ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7eec14e56f16f6ed5841a674ad0f77ec",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Threat Hunts for Shell Command Obfusca",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e54deacd46c8f3f0bd6e56312e2859d7",
+    "source": "CrowdStrike",
+    "title": "Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery",
+    "link": "https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Expanding AI Benchmarks in Cybersecurity Beyond Vu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d85bc3c4f4081cc4b23bf9716db08ee",
+    "source": "CrowdStrike",
+    "title": "Secure Agent Harness Execution: Preventing Escape",
+    "link": "https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Secure Agent Harness Execution: Preventing Escape",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "381c1226be6eac108bec5bd04b2cb597",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike 2026 Threat Hunting Report: Exploitati",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5457ca93f00ec6f8711876038a508ee8",
+    "source": "CrowdStrike",
+    "title": "Falcon AIDR Now Protects Copilot Studio Agents and Claude Code",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon AIDR Now Protects Copilot Studio Agents and",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6572b3be1b626f9d7ad7242132771b3e",
+    "source": "CrowdStrike",
+    "title": "Inside Astaroth's New Spambot Component",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Inside Astaroth's New Spambot Component",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "04f010ba4782b9bc0a78fb9f68d76349",
+    "source": "CrowdStrike",
+    "title": "Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Cloud Security July 2026 Release: Helping S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1c002bb83318417dda8c68eb1d380bb9",
+    "source": "CrowdStrike",
+    "title": "Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Platform IOAs Arrive in Falcon Next-Gen SIE",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5c7f81d16f4bf95e8f675830264c8637",
+    "source": "CrowdStrike",
+    "title": "5 High-Impact Use Cases for Falcon Onum",
+    "link": "https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "5 High-Impact Use Cases for Falcon Onum",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
