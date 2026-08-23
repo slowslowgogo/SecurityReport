@@ -1,0 +1,850 @@
+[
+  {
+    "uid": "f1b2f9c23193745ac06b695a53cda7dd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78183 - DBD::Pg version 3.21.0 for Perl has a heap out-of-bounds write in quote_float",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78183",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78183\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 8:16 p.m. | 54 minutes ago\n  <br />\n  <strong>Description :</strong>DBD::Pg version 3.21.0 for Perl has a heap out-of-bounds write in quote_float.\n\nquote_float() allocates the length of the string + 1, which is the size of the bare numeric symbol plus NULL.  But for special literals NaN, Inf, +Inf, -Inf, Infinity, +Infinity, -Infinity it emits the literal surrounded by quotes plus NULL, which is length + 3 bytes. Every recognised literal (case-insensitive) overflows by 2 bytes, a single quote and a NULL.\n\nThis can be reached by the $dbh->quote method, for example\n\n    $dbh->quote( \"Infinity\", DBI::SQL_NUMERIC ).\n\nThis regression was introduced in 3.21.0 by the quote.c rewrite.\n  <br />\n  <strong>",
+    "pub_date": "2026-08-23T20:16:50+00:00",
+    "cve_ids": [
+      "CVE-2026-78183"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78183 - DBD::Pg version 3.21.0 for Perl h",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7d70044ed9e2e64142c1fe24c3d6c675",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78140 - Dromara UJCMS web-file-template Endpoint WebFileTemplateController.java update special elements in template engine",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78140",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78140\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 8:16 p.m. | 54 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Dromara UJCMS up to 10.1.3. The impacted element is the function update of the file src/main/java/com/ujcms/cms/ext/web/backendapi/WebFileTemplateController.java of the component web-file-template Endpoint. Executing a manipulation can lead to improper neutralization of special elements used in a template engine. The attack can be launched remotely. The exploit has been published and may be used.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T20:16:50+00:00",
+    "cve_ids": [
+      "CVE-2026-78140"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "A flaw has been found in Dromara UJCMS up to 10.1.3. The impacted element is the function update of the file src/main/java/com/ujcms/cms/ext/web/backendapi/WebFileTemplateController.java of the component web-file-template Endpoint. Executing a manipulation can lead to improper neutralization of spec",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78140 - Dromara UJCMS web-file-template E",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5466591898cd9a93051724332b4e71a8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-19565 - Apache::AppSamurai::Util versions through 1.01 for Perl generate predictable session authentication keys from the clock and process id in CreateSessionAuthKey",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-19565",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-19565\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 8:16 p.m. | 54 minutes ago\n  <br />\n  <strong>Description :</strong>Apache::AppSamurai::Util versions through 1.01 for Perl generate predictable session authentication keys from the clock and process id in CreateSessionAuthKey.\n\nCreateSessionAuthKey runs five rounds of SHA-256, each over a fresh Time::HiRes reading formatted to six decimal places, the running digest, and the process id. CreateSession calls it with an empty key source on every login, and the optional Keysource directive is the only route to the other branch. The result is 64 hex characters. The microsecond field of the first reading takes one of a million values, the later readings follow it within microseconds, and the process id",
+    "pub_date": "2026-08-23T20:16:50+00:00",
+    "cve_ids": [
+      "CVE-2026-19565"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-19565 - Apache::AppSamurai::Util versions",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c5d501f365bcce9c6413f3dc4d643b23",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-75922 - Reverse::Proxy versions before 0.04 for Perl allow HTTP request smuggling via a percent-decoded PATH_INFO written unencoded to the upstream request line",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-75922",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-75922\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 7:16 p.m. | 1 hour, 55 minutes ago\n  <br />\n  <strong>Description :</strong>Reverse::Proxy versions before 0.04 for Perl allow HTTP request smuggling via a percent-decoded PATH_INFO written unencoded to the upstream request line.\n\nPSGI hands PATH_INFO to an application percent-decoded, so a %XX sequence in the client URL has become a raw byte by the time the proxy sees it. The proxy appends that byte string to the upstream base URL, and for an Upgrade tunnel writes it into a request line it serializes itself, re-encoding nothing in either path. The HTTP client that sends the resulting URL does not validate the target either. A path containing %0d%0a therefore arrives at the upstream as a CRLF tha",
+    "pub_date": "2026-08-23T19:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-75922"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-75922 - Reverse::Proxy versions before 0.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1782fffcb8602b9bb26f683712320e73",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-9769 - justhtml before 1.10.0 Denial of Service via deeply nested HTML",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-9769",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-9769\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml through 1.9.1 (fixed in 1.10.0) is vulnerable to uncontrolled recursion leading to denial of service. During JustHTML() construction, TreeBuilder.finish() unconditionally calls _populate_selectedcontent(), which recursively traverses the DOM tree via _find_elements()/_find_element() without a depth bound. An attacker who can supply HTML for parsing can provide deeply nested elements (e.g., ~1000 nested <div> tags, roughly 11 KB) to exceed CPython's default recursion limit and trigger an unhandled RecursionError, which may abort parsing, fail requests, or terminate a worker/process depending on the host applicatio",
+    "pub_date": "2026-08-23T14:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-9769"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "justhtml through 1.9.1 (fixed in 1.10.0) is vulnerable to uncontrolled recursion leading to denial of service. During JustHTML() construction, TreeBuilder.finish() unconditionally calls _populate_selectedcontent(), which recursively traverses the DOM tree via _find_elements()/_find_element() without",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-9769 - justhtml before 1.10.0 Denial of S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ca56f2011165e854dc6976bb180a34b7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8630 - justhtml before 1.12.0 Mutation XSS via Raw Text Elements",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8630",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8630\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml before 1.12.0 (versions <= 1.11.0) contains a mutation cross-site scripting (mXSS) vulnerability in the serialization of raw-text elements such as <br /><strong></strong><br />",
+    "pub_date": "2026-08-23T14:16:55+00:00",
+    "cve_ids": [
+      "CVE-2026-8630"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "justhtml before 1.12.0 (versions <= 1.11.0) contains a mutation cross-site scripting (mXSS) vulnerability in the serialization of raw-text elements such as <style> and <script>. When a DOM tree is processed by sanitize_dom() using a custom policy that keeps these elements, text nodes inside them are",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8630 - justhtml before 1.12.0 Mutation XS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2d326f49d21bccffabb8fd40b64df430",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-8445 - justhtml before 1.12.0 Sanitizer Bypass via Markdown",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-8445",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-8445\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml versions <= 1.11.0 (fixed in 1.12.0) do not sufficiently escape HTML-significant characters (angle brackets) in text nodes when converting a parsed document to Markdown via to_markdown(). While a small set of Markdown metacharacters are escaped, characters such as < and > are preserved, so untrusted input that is safe in to_html() — including entity-decoded text (e.g. &lt;script&gt;) or text from RCDATA/RAWTEXT-parsed elements like , <textarea>, <noscript>, and  — can be emitted as raw HTML in the Markdown output, enabling a sanitizer bypass and potential cross-site scripting when that output is rendered.\n  <br /",
+    "pub_date": "2026-08-23T14:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-8445"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "justhtml versions <= 1.11.0 (fixed in 1.12.0) do not sufficiently escape HTML-significant characters (angle brackets) in text nodes when converting a parsed document to Markdown via to_markdown(). While a small set of Markdown metacharacters are escaped, characters such as < and > are preserved, so ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-8445 - justhtml before 1.12.0 Sanitizer B",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b5d84a3c79c0257fa26b6c8fb98e13e3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-7808 - justhtml before 1.16.0 Multiple Security Issues via Sanitization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-7808",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-7808\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml before 1.16.0 contains multiple HTML sanitization bypass issues that can allow active/dangerous content (e.g., script or style) to survive sanitization, potentially leading to cross-site scripting. The issues primarily affect advanced usage rather than the default JustHTML(..., sanitize=True) path for ordinary parsed HTML: mutating or reusing sanitization policy objects (including exported defaults) could weaken later sanitization; programmatic DOM input to sanitize()/sanitize_dom() could miss mixed-case tag names (e.g., ScRiPt, StYlE); crafted programmatic doctype names could serialize into active markup; and cu",
+    "pub_date": "2026-08-23T14:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-7808"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "justhtml before 1.16.0 contains multiple HTML sanitization bypass issues that can allow active/dangerous content (e.g., script or style) to survive sanitization, potentially leading to cross-site scripting. The issues primarily affect advanced usage rather than the default JustHTML(..., sanitize=Tru",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-7808 - justhtml before 1.16.0 Multiple Se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b76183189808ee7540a92b5c917978fe",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-77088 - justhtml 0.9.0 through 1.21.0 Cross-Site Scripting via code-span",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-77088",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-77088\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml versions 0.9.0 through 1.21.0 contain a cross-site scripting vulnerability in to_markdown() where inline code spans fail to account for blank lines as block boundaries. Attackers can inject blank lines into code or pre element text to break the inline span, causing sanitized HTML to be emitted unescaped and re-parsed as live Markdown by compliant renderers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T14:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-77088"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "justhtml versions 0.9.0 through 1.21.0 contain a cross-site scripting vulnerability in to_markdown() where inline code spans fail to account for blank lines as block boundaries. Attackers can inject blank lines into code or pre element text to break the inline span, causing sanitized HTML to be emit",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-77088 - justhtml 0.9.0 through 1.21.0 Cro",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b47046912c6fb2bfd80e4ec8724916fd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74793 - justhtml before 3.11.0 XSS via selectedcontent projection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74793",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74793\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml before 3.11.0 contains a cross-site scripting vulnerability where the default sanitizer bypasses event handler removal in selectedcontent projections. Attackers can inject SVG or MathML elements with event handlers that are cloned and reinserted into output without sanitization, enabling stored or reflected XSS attacks.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T14:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-74793"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "justhtml before 3.11.0 contains a cross-site scripting vulnerability where the default sanitizer bypasses event handler removal in selectedcontent projections. Attackers can inject SVG or MathML elements with event handlers that are cloned and reinserted into output without sanitization, enabling st",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74793 - justhtml before 3.11.0 XSS via se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "acfa5b17938e7164d197e06d673bc9f5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-6827 - justhtml before 1.17.0 Multiple Cross-Site Scripting Vulnerabilities",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-6827",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-6827\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml before 1.17.0 contains multiple security issues in sanitization, serialization, and programmatic DOM handling. When custom policies preserve foreign namespaces (SVG/MathML), dangerous content such as HTML integration points (SVG , MathML ) and mutation-XSS parser-differential payloads could survive sanitization and become active HTML after reparse; SVG filter=\"url(...)\" and preserved <br /><strong></strong><br />",
+    "pub_date": "2026-08-23T14:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-6827"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "justhtml before 1.17.0 contains multiple security issues in sanitization, serialization, and programmatic DOM handling. When custom policies preserve foreign namespaces (SVG/MathML), dangerous content such as HTML integration points (SVG <foreignObject>, MathML <annotation-xml encoding=\"text/html\">)",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-6827 - justhtml before 1.17.0 Multiple Cr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8a9b6ee64b1df29ce0a068a9cdb3aa77",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-5751 - justhtml before 1.14.0 Mutation XSS via custom sanitization policies",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-5751",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-5751\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml versions 1.13.0 and earlier contain a parser-differential / mutation cross-site scripting (mXSS) vulnerability when using a custom SanitizationPolicy that preserves foreign namespaces (e.g., drop_foreign_namespaces=False with allowlisted SVG/MathML elements or raw-text containers such as <br /><strong></strong><br />",
+    "pub_date": "2026-08-23T14:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-5751"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "justhtml versions 1.13.0 and earlier contain a parser-differential / mutation cross-site scripting (mXSS) vulnerability when using a custom SanitizationPolicy that preserves foreign namespaces (e.g., drop_foreign_namespaces=False with allowlisted SVG/MathML elements or raw-text containers such as <s",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-5751 - justhtml before 1.14.0 Mutation XS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "08327c6c360dc6d7d61ec4df2b0a2784",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-5389 - justhtml before 1.13.0 XSS via code fence breakout",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-5389",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-5389\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml versions before 1.13.0 contain a cross-site scripting vulnerability in the to_markdown() function when serializing attacker-controlled pre content. Attackers can place backticks inside sanitized pre elements to break out of fixed-length code fences, allowing raw HTML to execute when the generated Markdown is rendered by CommonMark or GFM-style renderers.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T14:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-5389"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "justhtml versions before 1.13.0 contain a cross-site scripting vulnerability in the to_markdown() function when serializing attacker-controlled pre content. Attackers can place backticks inside sanitized pre elements to break out of fixed-length code fences, allowing raw HTML to execute when the gen",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-5389 - justhtml before 1.13.0 XSS via cod",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a7d1a8711921049814d9893840318859",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-5388 - justhtml before 1.15.0 Multiple Security Issues",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-5388",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-5388\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml before 1.15.0 contains multiple security issues in URL sanitization helpers (clean_url_value/clean_url_in_js_string), HTML serialization, Markdown passthrough (html_passthrough=True), and several custom sanitization-policy edge cases. Depending on configuration, an attacker can bypass sanitization to inject active HTML and JavaScript — for example via encoded javascript: URLs, backslash-based relative URLs resolved as remote hosts, markup-breaking programmatic element/attribute names or HTML comments, raw </textarea> reintroduction through Markdown passthrough, or preserved <br /><strong></strong><br />",
+    "pub_date": "2026-08-23T14:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-5388"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "justhtml before 1.15.0 contains multiple security issues in URL sanitization helpers (clean_url_value/clean_url_in_js_string), HTML serialization, Markdown passthrough (html_passthrough=True), and several custom sanitization-policy edge cases. Depending on configuration, an attacker can bypass sanit",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-5388 - justhtml before 1.15.0 Multiple Se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a2d7c23603b39c36c21c3a20d3466e69",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-4671 - justhtml before 1.18.0 Denial of Service via CSS Selector",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-4671",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-4671\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 2:16 p.m. | 6 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>justhtml before 1.18.0 contains multiple low-severity denial-of-service issues in CSS selector handling and linkification. Applications that evaluate attacker-controlled selector strings (via query(), matches(), or selector-based transforms), run selector matching over very large untrusted documents, construct DOM trees from untrusted structure, or enable linkification over attacker-controlled text may consume disproportionate CPU or memory. Triggers include oversized selectors, large selector lists, oversized compound selectors, long combinator chains, deeply nested functional pseudo-classes, repeated token/positional ma",
+    "pub_date": "2026-08-23T14:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-4671"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "justhtml before 1.18.0 contains multiple low-severity denial-of-service issues in CSS selector handling and linkification. Applications that evaluate attacker-controlled selector strings (via query(), matches(), or selector-based transforms), run selector matching over very large untrusted documents",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-4671 - justhtml before 1.18.0 Denial of S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cc4aff31df1e6c9842bd86f1f9ab36cf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78155 - Untrusted Search Path in StackGres",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78155",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78155\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 10:16 a.m. | 10 hours, 55 minutes ago\n  <br />\n  <strong>Description :</strong>privilege escalation in StackGres operator allows a low-privilege tenant who owns a database to gain administrator privileges\n  <br />\n  <strong>Severity:</strong> 9.9 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T10:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-78155"
+    ],
+    "cvss": 9.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.9,
+      "description": "privilege escalation in StackGres operator allows a low-privilege tenant who owns a database to gain administrator privileges",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78155 - Untrusted Search Path in StackGre",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e93f69d0a6313b24ce03c20a1491bd3e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78115 - SourceCodester Class and Exam Timetabling System User Account Update edit_user_account.php improper authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78115",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78115\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 10:16 a.m. | 10 hours, 55 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in SourceCodester Class and Exam Timetabling System 1.0. Affected is an unknown function of the file /admin/edit_user_account.php of the component User Account Update. Such manipulation of the argument id/username leads to improper authorization. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T10:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-78115"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "A vulnerability has been found in SourceCodester Class and Exam Timetabling System 1.0. Affected is an unknown function of the file /admin/edit_user_account.php of the component User Account Update. Such manipulation of the argument id/username leads to improper authorization. The attack may be laun",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78115 - SourceCodester Class and Exam Tim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "51f3f687a0488b6cfc1d391d896875c0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78112 - itsourcecode Hospital Management System Project in PHP viewservicetype.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78112",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78112\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 10:16 a.m. | 10 hours, 55 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in itsourcecode Hospital Management System Project in PHP 1.0. This impacts an unknown function of the file /viewservicetype.php. This manipulation of the argument delid causes sql injection. The attack may be initiated remotely. The exploit has been published and may be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T10:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-78112"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A flaw has been found in itsourcecode Hospital Management System Project in PHP 1.0. This impacts an unknown function of the file /viewservicetype.php. This manipulation of the argument delid causes sql injection. The attack may be initiated remotely. The exploit has been published and may be used.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78112 - itsourcecode Hospital Management ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f8492e66ddbf97872f99256b1a29ac78",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-10053 - Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in GitLab",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-10053",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-10053\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 10:16 a.m. | 10 hours, 55 minutes ago\n  <br />\n  <strong>Description :</strong>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.8 before 19.0.6, 19.1 before 19.1.4, and 19.2 before 19.2.2 that under certain conditions could have allowed an authenticated user to achieve remote code execution due to a path traversal vulnerability in the package registry.\n  <br />\n  <strong>Severity:</strong> 8.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T10:16:27+00:00",
+    "cve_ids": [
+      "CVE-2026-10053"
+    ],
+    "cvss": 8.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.5,
+      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.8 before 19.0.6, 19.1 before 19.1.4, and 19.2 before 19.2.2 that under certain conditions could have allowed an authenticated user to achieve remote code execution due to a path traversal vulnerability in the package regis",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-10053 - Improper Limitation of a Pathname",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "161e15a275e13b5c4de8f3f9092d6bf5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-77116 - Brave Popup Builder < 0.8.6 - Subscriber+ Unpublished Popup Disclosure via Preview",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-77116",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-77116\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 6:17 a.m. | 14 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>Brave Popup Builder (slug: brave-popup-builder) has a broken access control issue in versions through 0.8.5. Any logged-in user - Subscriber or WooCommerce Customer is enough — can read popup content they shouldn't have access to by passing a post ID in the URL.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T06:17:27+00:00",
+    "cve_ids": [
+      "CVE-2026-77116"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Brave Popup Builder (slug: brave-popup-builder) has a broken access control issue in versions through 0.8.5. Any logged-in user - Subscriber or WooCommerce Customer is enough — can read popup content they shouldn't have access to by passing a post ID in the URL.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-77116 - Brave Popup Builder < 0.8.6 - Sub",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3c32583a801b40d3b219ca8f098a1c80",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-77115 - Brave Popup Builder < 0.8.6 - Unauthenticated Reflected XSS via UTM Parameters",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-77115",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-77115\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 6:17 a.m. | 14 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>Brave Popup Builder (brave-popup-builder) up to version 0.8.5 reflects UTM query parameters into popup form HTML without escaping them.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T06:17:27+00:00",
+    "cve_ids": [
+      "CVE-2026-77115"
+    ],
+    "cvss": 7.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.1,
+      "description": "Brave Popup Builder (brave-popup-builder) up to version 0.8.5 reflects UTM query parameters into popup form HTML without escaping them.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-77115 - Brave Popup Builder < 0.8.6 - Una",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c18537d2c9eae27a1b61092fca758170",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-77003 - Content Mask 1.8.0 - 1.8.5.4 - Contributor Publish Capability Bypass via create_new_content_mask",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-77003",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-77003\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 6:17 a.m. | 14 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>The Content Mask WordPress plugin before 1.8.5.5 does not check the capability required to publish the post type being created, allowing users with a role as low as Contributor to publish posts and pages on the site without holding the publish capability.\n  <br />\n  <strong>Severity:</strong> 2.7 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T06:17:23+00:00",
+    "cve_ids": [
+      "CVE-2026-77003"
+    ],
+    "cvss": 2.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.7,
+      "description": "The Content Mask WordPress plugin before 1.8.5.5 does not check the capability required to publish the post type being created, allowing users with a role as low as Contributor to publish posts and pages on the site without holding the publish capability.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-77003 - Content Mask 1.8.0 - 1.8.5.4 - Co",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ce8ad3474c1d7c8c236f5329bd9b3eb9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-14853 - WooCommerce Bookings < 3.9.0 - Subscriber+ Draft Bookable Product Creation via Missing Authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14853",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-14853\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 6:17 a.m. | 14 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>The WooCommerce Bookings WordPress plugin before 3.9.0 does not perform a capability check on one of its AJAX actions, and its nonce check can be bypassed by omitting the token, allowing users with Subscriber-level access and above to create draft bookable products.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T06:17:16+00:00",
+    "cve_ids": [
+      "CVE-2026-14853"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The WooCommerce Bookings WordPress plugin before 3.9.0 does not perform a capability check on one of its AJAX actions, and its nonce check can be bypassed by omitting the token, allowing users with Subscriber-level access and above to create draft bookable products.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-14853 - WooCommerce Bookings < 3.9.0 - Su",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bf1a1a9c363df7eed7171ddd6abeecd9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-13598 - RestrictMate < 1.3.0 - Unauthenticated Privilege Escalation to Administrator",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-13598",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-13598\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 6:16 a.m. | 14 hours, 55 minutes ago\n  <br />\n  <strong>Description :</strong>The RestrictMate  WordPress plugin before 1.3.0 does not restrict the user role supplied during account registration, allowing unauthenticated attackers to create a new administrator account and gain a logged-in administrator session, leading to full site takeover.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T06:16:19+00:00",
+    "cve_ids": [
+      "CVE-2026-13598"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-13598 - RestrictMate < 1.3.0 - Unauthenti",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3ad4cd79fe934ec5e01afa620c40b33d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78063 - Tenda CH22 editFileName formeditFileName command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78063",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78063\n  <br />\n  <strong>Published :</strong> Aug. 23, 2026, 5:16 a.m. | 15 hours, 54 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in Tenda CH22 1.0.0.1. The impacted element is the function formeditFileName of the file /goform/editFileName. The manipulation of the argument editNameMit results in command injection. The attack can be launched remotely. The exploit has been released to the public and may be used for attacks.\n  <br />\n  <strong>Severity:</strong> 7.4 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-23T05:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-78063"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "A security flaw has been discovered in Tenda CH22 1.0.0.1. The impacted element is the function formeditFileName of the file /goform/editFileName. The manipulation of the argument editNameMit results in command injection. The attack can be launched remotely. The exploit has been released to the publ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78063 - Tenda CH22 editFileName formeditF",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "01df0b93320fcb074b6be7beef35d99d",
+    "source": "BleepingComputer",
+    "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+    "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+    "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+    "pub_date": "2026-08-23T14:23:46+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "ToxicPanda Android malware uses VPN permissions to",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4cfe8ada398eb49f33690d2192e68a48",
+    "source": "Help Net Security",
+    "title": "Week in review: Records allegedly stolen from Azure tenants, Medusa ransomware hits 500+ orgs",
+    "link": "https://www.helpnetsecurity.com/2026/08/23/week-in-review-records-allegedly-stolen-from-azure-tenants-medusa-ransomware-hits-500-orgs/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Windows 11’s strongest security defenses can be bypassed without a screwdriver Researchers from the University of Birmingham and Durham University have found a way to knock down some of the toughest protections in Windows 11 without physically opening or modifying the target machine. The attack assumes the attacker has already gained privileged access to the system. Police bust cybercrime ring &#8230; <a href=\"https://www.helpnetsecurity.com/2026/08/23/week-in-review-records-allegedly-stolen-from-azure-tenants-medusa-ransomware-hits-500-orgs/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/08/23/week-in-review-reco",
+    "pub_date": "2026-08-23T08:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: Records allegedly stolen from Azur",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c2eb4e25baf014c36897741aef5e1e01",
+    "source": "Troy Hunt",
+    "title": "Welcoming the Sri Lankan Government to Have I Been Pwned",
+    "link": "https://www.troyhunt.com/welcoming-the-sri-lankan-government-to-have-i-been-pwned/",
+    "summary": "<p>Today, we welcome the 48th government onboarded to Have I Been Pwned&#x2019;s free gov service: Sri Lanka. Sri Lanka CERT now has access to monitor Sri Lankan government domains against the data in HIBP, helping identify exposed government accounts and respond when they appear in new data breaches.</p>",
+    "pub_date": "2026-08-23T06:39:45+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Welcoming the Sri Lankan Government to Have I Been",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e2ec5bb1d1bf43b45ab6778fee4e6758",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 111",
+    "link": "https://securityaffairs.com/197743/security/security-affairs-malware-newsletter-round-111.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Akira Hits Safe Mode: Ransomware Rebooting Around EDR&#160; Multi-Functional Linux Botnet “Evooo1Bot”&#160; &#160;&#160;&#160; StubMaker RubyGems Campaign Delivers a Windows Infostealer&#160;&#160; Hunting MacSync Stealer infrastructure through behavioral pivots&#160; Manic: Blend between Banking Malware &#38; Spyware&#160;&#160; [&#8230;]",
+    "pub_date": "2026-08-23T17:04:47+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 111",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "78eff1c12a54b4a04b7637589db7603a",
+    "source": "Security Affairs",
+    "title": "UK Power Plant Disabled for Four Days by Iran-Linked Hackers, Concurrent with US Water Attacks",
+    "link": "https://securityaffairs.com/197734/cyber-warfare-2/uk-power-plant-disabled-for-four-days-by-iran-linked-hackers-concurrent-with-us-water-attacks.html",
+    "summary": "Iran-linked hackers shut down a UK power plant for four days in the first confirmed attack of its kind, concurrent with water infrastructure attacks across 12 US states. Iran-linked hackers shut down a British power plant for four days in what The Telegraph describes as the most successful cyberattack of its kind against UK energy [&#8230;]",
+    "pub_date": "2026-08-23T08:48:14+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "UK Power Plant Disabled for Four Days by Iran-Link",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5cd432dfbb2c0a864867100778437d38",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 591 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/197728/breaking-news/security-affairs-newsletter-round-591-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including international press. ToxicPanda 2.0 Gets a Major Upgrade, Expanding Attacks Across 16 Countries Malware Hijacks Android Car Head Units [&#8230;]",
+    "pub_date": "2026-08-23T08:29:02+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 591 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4fe32284b64284e2f0afe376c6b75f5f",
+    "source": "Security Affairs",
+    "title": "Zero-Click Grok Chat History Theft: Adversa AI Demonstrates Cryptographic Context Injection",
+    "link": "https://securityaffairs.com/197717/hacking/zero-click-grok-chat-history-theft-adversa-ai-demonstrates-cryptographic-context-injection.html",
+    "summary": "New Cryptographic Context Injection technique bypasses AI guardrails via AES-encrypted payloads, leaking full Grok chat histories zero-click Adversa AI researcher Rony Utevsky devised a new attack technique, called Cryptographic Context Injection, that bypasses AI safety filters by sending instructions as AES-encrypted ciphertext and tricking the model into decrypting them inside its own code execution runtime. [&#8230;]",
+    "pub_date": "2026-08-23T07:20:38+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Zero-Click Grok Chat History Theft: Adversa AI Dem",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0486ab5b0b5b7d9ce37f7892cf6e5c0d",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named Strongest Overall Leader in 2026",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2a15040cf074060b9f3b0d922b9c0d09",
+    "source": "CrowdStrike",
+    "title": "Benchmaxxing: When the Benchmark Becomes the Target",
+    "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Benchmaxxing: When the Benchmark Becomes the Targe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a9ad5ea1fc8ef699b5ccd7cb989806ae",
+    "source": "CrowdStrike",
+    "title": "Teaching AI to Reason Through Detection Triage",
+    "link": "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Teaching AI to Reason Through Detection Triage",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ac291f9b174465b4f81c2dff517729d1",
+    "source": "CrowdStrike",
+    "title": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "August 2026 Patch Tuesday: One Exploited Zero-Day ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7eec14e56f16f6ed5841a674ad0f77ec",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Threat Hunts for Shell Command Obfusca",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e54deacd46c8f3f0bd6e56312e2859d7",
+    "source": "CrowdStrike",
+    "title": "Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery",
+    "link": "https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Expanding AI Benchmarks in Cybersecurity Beyond Vu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d85bc3c4f4081cc4b23bf9716db08ee",
+    "source": "CrowdStrike",
+    "title": "Secure Agent Harness Execution: Preventing Escape",
+    "link": "https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Secure Agent Harness Execution: Preventing Escape",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "381c1226be6eac108bec5bd04b2cb597",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike 2026 Threat Hunting Report: Exploitati",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5457ca93f00ec6f8711876038a508ee8",
+    "source": "CrowdStrike",
+    "title": "Falcon AIDR Now Protects Copilot Studio Agents and Claude Code",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon AIDR Now Protects Copilot Studio Agents and",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6572b3be1b626f9d7ad7242132771b3e",
+    "source": "CrowdStrike",
+    "title": "Inside Astaroth's New Spambot Component",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Inside Astaroth's New Spambot Component",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
