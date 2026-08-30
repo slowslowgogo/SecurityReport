@@ -1,0 +1,898 @@
+[
+  {
+    "uid": "42c84e04e8dba2a4956f906314c33056",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82417 - qs.stringify throws TypeError on objects with a non-callable constructor.isBuffer property",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82417",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82417\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 11:51 p.m. | 22 minutes ago\n  <br />\n  <strong>Description :</strong>### Summary\n\n\n\n`qs.stringify` throws a `TypeError` when it serializes an object whose own `constructor` property has a truthy, non-callable `isBuffer` member. `utils.isBuffer` duck-types buffers by calling `obj.constructor.isBuffer(obj)` after checking only that the property is truthy, so a value such as `{ constructor: { isBuffer: \"x\" } }` makes the call throw `TypeError: obj.constructor.isBuffer is not a function`.\n\n\n\n### Details\n\n\n\n`lib/stringify.js:127` calls `utils.isBuffer` on every non-primitive value it serializes. `utils.isBuffer` (`lib/utils.js:332`) reads `obj.constructor.isBuffer` and invokes it without verifying tha",
+    "pub_date": "2026-08-29T23:51:27+00:00",
+    "cve_ids": [
+      "CVE-2026-82417"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "### Summary\n\n\n\n`qs.stringify` throws a `TypeError` when it serializes an object whose own `constructor` property has a truthy, non-callable `isBuffer` member. `utils.isBuffer` duck-types buffers by calling `obj.constructor.isBuffer(obj)` after checking only that the property is truthy, so a value su",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82417 - qs.stringify throws TypeError on ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9ccefbbf4e7912a05440a6c2b4832d7a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82424 - PHPGurukul Student Information System student_edit1.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82424",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82424\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 11:17 p.m. | 56 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in PHPGurukul Student Information System 1.0. Affected by this vulnerability is an unknown functionality of the file /student_edit1.php. Executing a manipulation of the argument ID can lead to sql injection. The attack can be launched remotely. The exploit has been made available to the public and could be used for attacks.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T23:17:24+00:00",
+    "cve_ids": [
+      "CVE-2026-82424"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A weakness has been identified in PHPGurukul Student Information System 1.0. Affected by this vulnerability is an unknown functionality of the file /student_edit1.php. Executing a manipulation of the argument ID can lead to sql injection. The attack can be launched remotely. The exploit has been mad",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82424 - PHPGurukul Student Information Sy",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1eaa482ba0a5353f689330701e95d143",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82423 - macrozheng mall Payment Status Endpoint paySuccess behavioral workflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82423",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82423\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 11:17 p.m. | 56 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in macrozheng mall up to 1.0.3. The affected element is an unknown function of the file /order/paySuccess of the component Payment Status Endpoint. The manipulation of the argument orderId leads to enforcement of behavioral workflow. The attack is possible to be carried out remotely. The vendor deleted the GitHub issue for this vulnerability without any explanation.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T23:17:23+00:00",
+    "cve_ids": [
+      "CVE-2026-82423"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "A vulnerability has been found in macrozheng mall up to 1.0.3. The affected element is an unknown function of the file /order/paySuccess of the component Payment Status Endpoint. The manipulation of the argument orderId leads to enforcement of behavioral workflow. The attack is possible to be carrie",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82423 - macrozheng mall Payment Status En",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6a3ec98a89ae44123a857556e86baffb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82422 - itsourcecode Sales and Inventory System emp_del.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82422",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82422\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 10:16 p.m. | 1 hour, 57 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in itsourcecode Sales and Inventory System 1.0. Impacted is an unknown function of the file /pages/emp_del.php. The manipulation of the argument ID results in sql injection. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T22:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-82422"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security flaw has been discovered in itsourcecode Sales and Inventory System 1.0. Impacted is an unknown function of the file /pages/emp_del.php. The manipulation of the argument ID results in sql injection. The attack may be launched remotely. The exploit has been released to the public and may b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82422 - itsourcecode Sales and Inventory ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "497de1ca03269c80707958d38c9976cc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82421 - itsourcecode Sales and Inventory System emp_edit.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82421",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82421\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 9:16 p.m. | 2 hours, 57 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in itsourcecode Sales and Inventory System 1.0. This issue affects some unknown processing of the file /pages/emp_edit.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit is publicly available and might be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T21:16:44+00:00",
+    "cve_ids": [
+      "CVE-2026-82421"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was identified in itsourcecode Sales and Inventory System 1.0. This issue affects some unknown processing of the file /pages/emp_edit.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit is publicly available and might be ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82421 - itsourcecode Sales and Inventory ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "56cf2f80da59c892cd021e90ec769a01",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-15369 - Custom User Registration Fields for WooCommerce <= 2.2.3 - Unauthenticated Privilege Escalation via 'afreg_select_user_role' Parameter in Store API Checkout",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-15369",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-15369\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 8:16 p.m. | 3 hours, 57 minutes ago\n  <br />\n  <strong>Description :</strong>The Custom User Registration Fields for WooCommerce plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 2.2.3. This is due to the plugin accepting an attacker-controlled afreg_select_user_role value from the unauthenticated WooCommerce Store API /wc/store/v1/checkout request in the af_reg_checkout_data_to_order_meta_data_block() function, persisting it in order meta, and then passing it directly to WP_User::add_role() in the af_reg_custom_order_processing_function() function (hooked to woocommerce_thankyou) without validating against the plugin's admin-configured allowed role list",
+    "pub_date": "2026-08-29T20:16:31+00:00",
+    "cve_ids": [
+      "CVE-2026-15369"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "The Custom User Registration Fields for WooCommerce plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 2.2.3. This is due to the plugin accepting an attacker-controlled afreg_select_user_role value from the unauthenticated WooCommerce Store API /wc/store/v1/",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-15369 - Custom User Registration Fields f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "31251bbaad7908130a599894aeb1e36f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-75807 - SAML Single Sign On <= 5.4.6 - Unauthenticated Authentication Bypass via X.509 Certificate Poisoning",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-75807",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-75807\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 6:16 p.m. | 5 hours, 57 minutes ago\n  <br />\n  <strong>Description :</strong>The SAML Single Sign On – SSO Login plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 5.4.6. This is due to the mo_saml_login_validate() ACS handler persisting the X.509 certificate extracted from an incoming SAMLResponse into the mo_saml_required_certificate option before the signature-validation verdict is enforced, because mo_saml_find_certificate() returns false on a fingerprint mismatch rather than halting execution. This makes it possible for unauthenticated attackers to overwrite the plugin's stored IdP signing certificate with an attacker-controlled value, and subsequen",
+    "pub_date": "2026-08-29T18:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-75807"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "The SAML Single Sign On – SSO Login plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 5.4.6. This is due to the mo_saml_login_validate() ACS handler persisting the X.509 certificate extracted from an incoming SAMLResponse into the mo_saml_required_certific",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-75807 - SAML Single Sign On <= 5.4.6 - Un",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a9684ebe7dd0ce104acfb9a1aeafe5dd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82476 - Memos through 0.30.0 SSRF via Omitted CGNAT Address Range",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82476",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82476\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:18 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>Memos through 0.30.0 omits the 100.64.0.0/10 carrier-grade NAT address range from SSRF protection in its link-metadata fetcher, allowing unauthenticated attackers to bypass IP validation. Attackers can make the server request internal hosts in that range including cloud metadata services and read page titles and descriptions back.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:18:00+00:00",
+    "cve_ids": [
+      "CVE-2026-82476"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Memos through 0.30.0 omits the 100.64.0.0/10 carrier-grade NAT address range from SSRF protection in its link-metadata fetcher, allowing unauthenticated attackers to bypass IP validation. Attackers can make the server request internal hosts in that range including cloud metadata services and read pa",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82476 - Memos through 0.30.0 SSRF via Omi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a94a8982cf3f6fab7eed23dfb88dae41",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82475 - iFlytek astron-agent through 1.1.1 Workflow Hijacking via Missing Ownership Check",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82475",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82475\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:18 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>iFlytek astron-agent through 1.1.1 contains an authorization bypass vulnerability in the copyFlow endpoint that fails to validate workflow ownership. Authenticated attackers can enumerate workflow identifiers and overwrite other tenants' workflows or copy private workflows to read their definitions.\n  <br />\n  <strong>Severity:</strong> 8.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:18:00+00:00",
+    "cve_ids": [
+      "CVE-2026-82475"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "iFlytek astron-agent through 1.1.1 contains an authorization bypass vulnerability in the copyFlow endpoint that fails to validate workflow ownership. Authenticated attackers can enumerate workflow identifiers and overwrite other tenants' workflows or copy private workflows to read their definitions.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82475 - iFlytek astron-agent through 1.1.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c7349ed7c79604b36bb09419f9d77d1f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82474 - Sudo through 1.9.17p2 Intercept Policy Bypass via execveat",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82474",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82474\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>Sudo through 1.9.17p2 fails to apply intercept policy checks to the execveat system call in ptrace-based intercept mode. Users permitted to run specific commands can execute denied programs by calling execveat directly or through fexecve, bypassing policy enforcement and logging.\n  <br />\n  <strong>Severity:</strong> 7.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:59+00:00",
+    "cve_ids": [
+      "CVE-2026-82474"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "Sudo through 1.9.17p2 fails to apply intercept policy checks to the execveat system call in ptrace-based intercept mode. Users permitted to run specific commands can execute denied programs by calling execveat directly or through fexecve, bypassing policy enforcement and logging.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82474 - Sudo through 1.9.17p2 Intercept P",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7517cce95b0d5c123335eb3fe3a46f02",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82473 - KubeEdge CloudCore through 1.23.1 Missing Authentication on Node Task Endpoints",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82473",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82473\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>KubeEdge CloudCore through 1.23.1 accepts node task status reports on its HTTPS server without authentication verification. Attackers can reach CloudCore on port 10002 to mark upgrade jobs as succeeded or failed, deceiving the control plane about node upgrade status and blocking further upgrade scheduling.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:59+00:00",
+    "cve_ids": [
+      "CVE-2026-82473"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "KubeEdge CloudCore through 1.23.1 accepts node task status reports on its HTTPS server without authentication verification. Attackers can reach CloudCore on port 10002 to mark upgrade jobs as succeeded or failed, deceiving the control plane about node upgrade status and blocking further upgrade sche",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82473 - KubeEdge CloudCore through 1.23.1",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8c8202fd5cdac7e16a52de372c4f248b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82472 - Documenso before 2.13.0 Unauthenticated File Upload via /api/files/upload-pdf",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82472",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82472\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>Documenso before 2.13.0 accepts PDF file uploads on the /api/files/upload-pdf endpoint without requiring authentication, session tokens, or API credentials. Unauthenticated attackers can upload arbitrary PDF files indefinitely to exhaust storage resources or fill the database with unlinked document records.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:59+00:00",
+    "cve_ids": [
+      "CVE-2026-82472"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Documenso before 2.13.0 accepts PDF file uploads on the /api/files/upload-pdf endpoint without requiring authentication, session tokens, or API credentials. Unauthenticated attackers can upload arbitrary PDF files indefinitely to exhaust storage resources or fill the database with unlinked document ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82472 - Documenso before 2.13.0 Unauthent",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2ae190c5d0b464b081895ce62d9bc011",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82470 - Rodauth before 2.47.0 TOTP Code Reuse via Drift Window",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82470",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82470\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>Rodauth before 2.47.0 contains a time-based one-time password reuse vulnerability in the otp feature that fails to track the last accepted code timestamp. Attackers who observe a valid TOTP code can replay it during the drift window to bypass the second authentication factor.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:59+00:00",
+    "cve_ids": [
+      "CVE-2026-82470"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "Rodauth before 2.47.0 contains a time-based one-time password reuse vulnerability in the otp feature that fails to track the last accepted code timestamp. Attackers who observe a valid TOTP code can replay it during the drift window to bypass the second authentication factor.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82470 - Rodauth before 2.47.0 TOTP Code R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a3d9edced850e5772e4a526323c2ad6c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82469 - Rodauth before 2.47.0 Authentication Bypass via jwt_refresh",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82469",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82469\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>Rodauth before 2.47.0 contains an authentication bypass vulnerability in the jwt_refresh route that issues new JWT access tokens without requiring a refresh token. Attackers can present an access token to the refresh route via non-POST methods to obtain a new valid access token, enabling indefinite account access with temporary token possession.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:59+00:00",
+    "cve_ids": [
+      "CVE-2026-82469"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "Rodauth before 2.47.0 contains an authentication bypass vulnerability in the jwt_refresh route that issues new JWT access tokens without requiring a refresh token. Attackers can present an access token to the refresh route via non-POST methods to obtain a new valid access token, enabling indefinite ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82469 - Rodauth before 2.47.0 Authenticat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "847e0ff9afa99c09b35905b89ed2d22c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82468 - Rodauth before 2.47.0 CSRF Protection Bypass via Content-Type",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82468",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82468\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>Rodauth before 2.47.0 contains a cross-site request forgery protection bypass vulnerability in the JSON request content type validation. Attackers can craft cross-origin form posts with content types containing application/json substrings to bypass CSRF token validation and force victims to authenticate to attacker-controlled accounts.\n  <br />\n  <strong>Severity:</strong> 4.7 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:59+00:00",
+    "cve_ids": [
+      "CVE-2026-82468"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "Rodauth before 2.47.0 contains a cross-site request forgery protection bypass vulnerability in the JSON request content type validation. Attackers can craft cross-origin form posts with content types containing application/json substrings to bypass CSRF token validation and force victims to authenti",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82468 - Rodauth before 2.47.0 CSRF Protec",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fbe90ba24c0644185c1cf1d2d7f0e466",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82467 - Rodauth before 2.47.0 Open Redirect via Return-to Path",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82467",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82467\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>Rodauth before 2.47.0 fails to validate protocol-relative return-to paths in confirm_password, login_return_to_requested_location, and two_factor_auth_return_to_requested_location features. Attackers can craft paths with leading double slashes that browsers resolve as protocol-relative URLs, redirecting authenticated users to attacker-controlled sites after login or password confirmation.\n  <br />\n  <strong>Severity:</strong> 4.7 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:59+00:00",
+    "cve_ids": [
+      "CVE-2026-82467"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "Rodauth before 2.47.0 fails to validate protocol-relative return-to paths in confirm_password, login_return_to_requested_location, and two_factor_auth_return_to_requested_location features. Attackers can craft paths with leading double slashes that browsers resolve as protocol-relative URLs, redirec",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82467 - Rodauth before 2.47.0 Open Redire",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5d329a34d360f45deeb70b0b088be16c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82466 - Rodauth before 2.46.0 Authentication Bypass via webauthn_login",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82466",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82466\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>Rodauth before 2.46.0 contains an authentication bypass vulnerability in the webauthn_login route that allows logged-in users to authenticate as any other account. Attackers can exploit improper account resolution logic that falls back to session account identifiers instead of validating the credential binding to complete authentication as arbitrary users.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:58+00:00",
+    "cve_ids": [
+      "CVE-2026-82466"
+    ],
+    "cvss": 8.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.7,
+      "description": "Rodauth before 2.46.0 contains an authentication bypass vulnerability in the webauthn_login route that allows logged-in users to authenticate as any other account. Attackers can exploit improper account resolution logic that falls back to session account identifiers instead of validating the credent",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82466 - Rodauth before 2.46.0 Authenticat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8d7cfa1b6bbea61e094ce7580c86fced",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82465 - pac4j-saml before 6.5.6 Session Destruction via Unsigned LogoutRequest",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82465",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82465\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>pac4j-saml before 6.5.6 does not require signature validation of SAML LogoutRequest messages in SAML2LogoutValidator.validateLogoutRequest(). When an IdP sends no SessionIndex, a session can be destroyed based solely on the NameID, allowing an unauthenticated attacker to submit an unsigned LogoutRequest with a guessed identifier (e.g., an email address used as NameID) to terminate a victim's SAML session.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:58+00:00",
+    "cve_ids": [
+      "CVE-2026-82465"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "pac4j-saml before 6.5.6 does not require signature validation of SAML LogoutRequest messages in SAML2LogoutValidator.validateLogoutRequest(). When an IdP sends no SessionIndex, a session can be destroyed based solely on the NameID, allowing an unauthenticated attacker to submit an unsigned LogoutReq",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82465 - pac4j-saml before 6.5.6 Session D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9c0fa45c24c5f752489224e8aab6464a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82464 - pac4j-core before 6.5.6 Open Redirect via Backslash Logout",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82464",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82464\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>pac4j-core before 6.5.6 contains an open redirect vulnerability in DefaultLogoutLogic.perform() that accepts backslash-prefixed logout redirect targets matching logoutUrlPattern. Attackers can craft logout links with backslash-prefixed external hosts that browsers normalize into network-path references, redirecting victims to attacker-controlled sites after logout.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:58+00:00",
+    "cve_ids": [
+      "CVE-2026-82464"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "pac4j-core before 6.5.6 contains an open redirect vulnerability in DefaultLogoutLogic.perform() that accepts backslash-prefixed logout redirect targets matching logoutUrlPattern. Attackers can craft logout links with backslash-prefixed external hosts that browsers normalize into network-path referen",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82464 - pac4j-core before 6.5.6 Open Redi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fb8a2f583fd979cd186e9d1f89194beb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82463 - pac4j-core before 6.5.6 Authorization Bypass via Reversed Profile Type Check",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82463",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82463\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>pac4j-core before 6.5.6 contains an authentication bypass vulnerability in CheckProfileTypeAuthorizer that reverses the profile type validation logic. Attackers can authenticate through a weaker client and access resources requiring a stronger profile type by satisfying generic profile checks.\n  <br />\n  <strong>Severity:</strong> 8.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:58+00:00",
+    "cve_ids": [
+      "CVE-2026-82463"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "pac4j-core before 6.5.6 contains an authentication bypass vulnerability in CheckProfileTypeAuthorizer that reverses the profile type validation logic. Attackers can authenticate through a weaker client and access resources requiring a stronger profile type by satisfying generic profile checks.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82463 - pac4j-core before 6.5.6 Authoriza",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7c9820d8e0da2bae5291e73dabea4db6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82462 - pac4j-oidc before 6.5.6 Authentication Bypass via Access Token Substitution",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82462",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82462\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>pac4j-oidc before 6.5.6 accepts OIDC callbacks carrying only an access token without authorization code or ID token validation. Attackers can substitute access tokens minted for other clients to create authenticated sessions without proper issuer, audience, nonce, or subject verification.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:58+00:00",
+    "cve_ids": [
+      "CVE-2026-82462"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "pac4j-oidc before 6.5.6 accepts OIDC callbacks carrying only an access token without authorization code or ID token validation. Attackers can substitute access tokens minted for other clients to create authenticated sessions without proper issuer, audience, nonce, or subject verification.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82462 - pac4j-oidc before 6.5.6 Authentic",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "93e0463e5d53e06258bdae182e6f64cf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82461 - pac4j-oidc before 6.5.6 Privilege Escalation via Unverified Keycloak Access Token",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82461",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82461\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>pac4j-oidc before 6.5.6 fails to verify access token signatures, issuers, audiences, or expiry when extracting Keycloak realm and client roles. Attackers can forge access tokens with administrative roles paired with valid ID tokens to bypass authorization checks in applications relying on pac4j role validation.\n  <br />\n  <strong>Severity:</strong> 8.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:58+00:00",
+    "cve_ids": [
+      "CVE-2026-82461"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "pac4j-oidc before 6.5.6 fails to verify access token signatures, issuers, audiences, or expiry when extracting Keycloak realm and client roles. Attackers can forge access tokens with administrative roles paired with valid ID tokens to bypass authorization checks in applications relying on pac4j role",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82461 - pac4j-oidc before 6.5.6 Privilege",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "00f00ee3fe903db86a4f4a03e9d20cb2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82460 - Cloud Commander before 19.20.2 Directory Traversal via REST and Markdown",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82460",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82460\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 5:17 p.m. | 6 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>Cloud Commander before 19.20.2 contains a directory traversal vulnerability in REST file-operation and markdown endpoints that fails to properly validate path normalization. Attackers can use path traversal sequences to read, write, move, or copy files outside the configured root directory.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T17:17:58+00:00",
+    "cve_ids": [
+      "CVE-2026-82460"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "Cloud Commander before 19.20.2 contains a directory traversal vulnerability in REST file-operation and markdown endpoints that fails to properly validate path normalization. Attackers can use path traversal sequences to read, write, move, or copy files outside the configured root directory.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82460 - Cloud Commander before 19.20.2 Di",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "94422648b6176a7b4a661b886bd409fa",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82481 - cohttp Directory Traversal Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82481",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82481\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 3:17 p.m. | 8 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>The cohttp package before 6.3.0 for OCaml allows directory traversal.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T15:17:55+00:00",
+    "cve_ids": [
+      "CVE-2026-82481"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82481 - cohttp Directory Traversal Vulner",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b27d12baa7dd8d8155cba1242ca0a59a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82477 - MITRE SAF Heimdall Server-Side Request Forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82477",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82477\n  <br />\n  <strong>Published :</strong> Aug. 29, 2026, 3:17 p.m. | 8 hours, 56 minutes ago\n  <br />\n  <strong>Description :</strong>In MITRE SAF Heimdall 2.11.6 through 2.13.x before 2.14.0, an SSRF issue allows remote attackers to access internal network resources via the Tenable proxy endpoint. This occurs in apps/backend/src/tenable/tenable.controller.ts.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-08-29T15:17:55+00:00",
+    "cve_ids": [
+      "CVE-2026-82477"
+    ],
+    "cvss": 5.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.8,
+      "description": "In MITRE SAF Heimdall 2.11.6 through 2.13.x before 2.14.0, an SSRF issue allows remote attackers to access internal network resources via the Tenable proxy endpoint. This occurs in apps/backend/src/tenable/tenable.controller.ts.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82477 - MITRE SAF Heimdall Server-Side Re",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3f7c49eff9e65cfd140ae15a8df77ebd",
+    "source": "BleepingComputer",
+    "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+    "summary": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]",
+    "pub_date": "2026-08-29T23:11:51+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Anthropic is cutting Claude Code's current weekly ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1bf6f178910435946f551c441466039c",
+    "source": "BleepingComputer",
+    "title": "Brave browser adds email aliases to help users evade tracking",
+    "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+    "summary": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]",
+    "pub_date": "2026-08-29T14:19:23+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Brave browser adds email aliases to help users eva",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7e7b8b046854fcc4f1a541dde994379c",
+    "source": "The Hacker News",
+    "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+    "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+    "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution.\n\nThe vulnerabilities, according to Wordfence and Patchstack, are listed below -\n\n\n  CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
+    "pub_date": "2026-08-29T16:25:03+00:00",
+    "cve_ids": [
+      "CVE-2026-76581"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Five Critical WordPress Plugin and Theme Flaws Ena",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fff3c3f7fc71206f2fa3b8274c7fcda3",
+    "source": "SecurityWeek",
+    "title": "Hasbro Data Breach Exposed Employee Personal Information",
+    "link": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
+    "summary": "<p>A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach.</p>\n<p>The post <a href=\"https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/\">Hasbro Data Breach Exposed Employee Personal Information</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-08-29T11:55:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hasbro Data Breach Exposed Employee Personal Infor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f759ac91c50145d686491f3e702e5a70",
+    "source": "Dark Reading",
+    "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
+    "link": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
+    "summary": "",
+    "pub_date": "2026-11-12T16:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[Virtual Event] What Every Enterprise Should Know ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2c87da2a5e46edae95c7091f1f396013",
+    "source": "Dark Reading",
+    "title": "[Virtual Event] Building a Secure AI Strategy for the Enterprise",
+    "link": "https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026",
+    "summary": "",
+    "pub_date": "2026-10-08T15:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[Virtual Event] Building a Secure AI Strategy for ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3aaf27ec7db1864f8402dbc7f16617ff",
+    "source": "Security Affairs",
+    "title": "Hack One Robot, Reach the Next: Unitree G1 Security Flaws",
+    "link": "https://securityaffairs.com/198085/hacking/hack-one-robot-reach-the-next-unitree-g1-security-flaws.html",
+    "summary": "A researcher chained two Unitree G1 flaws to gain root access remotely and showed how a compromised robot could attack others nearby. Security researcher Olivier Laflamme spent about three months digging into the Unitree G1 humanoid robot and eventually found a way to fully compromise it without plugging in a single cable. In his technical [&#8230;]",
+    "pub_date": "2026-08-29T11:55:44+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hack One Robot, Reach the Next: Unitree G1 Securit",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8ab59de27cc72b12a8b2f592109e42e0",
+    "source": "Security Affairs",
+    "title": "Rhysida Ransomware Group Targets Berlin Government Ahead of Vote",
+    "link": "https://securityaffairs.com/198064/cyber-crime/rhysida-ransomware-group-targets-berlin-government-ahead-of-vote.html",
+    "summary": "Berlin &#8216;s government faces a Rhysida ransomware attack weeks before elections, with officials refusing to pay despite a claimed 5.79 TB data theft. Berlin&#8217;s state government confirmed this week it&#8217;s dealing with an extortion attempt following an August cyberattack on the city-state&#8217;s administrative network, and officials have already refused the requested ransom. The ransomware group [&#8230;]",
+    "pub_date": "2026-08-29T10:55:47+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Rhysida Ransomware Group Targets Berlin Government",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ba517c2a5b86b744605b10824b3fee0f",
+    "source": "Security Affairs",
+    "title": "Philippine Nuclear and Naval Targets Hit by Suspected Chinese Operator",
+    "link": "https://securityaffairs.com/198041/intelligence/philippine-nuclear-and-naval-targets-hit-by-suspected-chinese-operator.html",
+    "summary": "An alleged Chinese-speaking actor breached Philippine nuclear and naval targets by exploiting known flaws, stealing sensitive data. A suspected Chinese-speaking operator targeted a Philippine nuclear research body and a marine engineering company that supports the Philippine Navy, using well-known vulnerabilities in internet-facing ownCloud and WordPress systems. The activity was uncovered after Hunt.io found an exposed [&#8230;]",
+    "pub_date": "2026-08-29T09:16:52+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Philippine Nuclear and Naval Targets Hit by Suspec",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0486ab5b0b5b7d9ce37f7892cf6e5c0d",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named Strongest Overall Leader in 2026",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2a15040cf074060b9f3b0d922b9c0d09",
+    "source": "CrowdStrike",
+    "title": "Benchmaxxing: When the Benchmark Becomes the Target",
+    "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Benchmaxxing: When the Benchmark Becomes the Targe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a9ad5ea1fc8ef699b5ccd7cb989806ae",
+    "source": "CrowdStrike",
+    "title": "Teaching AI to Reason Through Detection Triage",
+    "link": "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Teaching AI to Reason Through Detection Triage",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ac291f9b174465b4f81c2dff517729d1",
+    "source": "CrowdStrike",
+    "title": "August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "August 2026 Patch Tuesday: One Exploited Zero-Day ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7eec14e56f16f6ed5841a674ad0f77ec",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Threat Hunts for Shell Command Obfusca",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e54deacd46c8f3f0bd6e56312e2859d7",
+    "source": "CrowdStrike",
+    "title": "Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery",
+    "link": "https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Expanding AI Benchmarks in Cybersecurity Beyond Vu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d85bc3c4f4081cc4b23bf9716db08ee",
+    "source": "CrowdStrike",
+    "title": "Secure Agent Harness Execution: Preventing Escape",
+    "link": "https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Secure Agent Harness Execution: Preventing Escape",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "381c1226be6eac108bec5bd04b2cb597",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike 2026 Threat Hunting Report: Exploitati",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5457ca93f00ec6f8711876038a508ee8",
+    "source": "CrowdStrike",
+    "title": "Falcon AIDR Now Protects Copilot Studio Agents and Claude Code",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon AIDR Now Protects Copilot Studio Agents and",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6572b3be1b626f9d7ad7242132771b3e",
+    "source": "CrowdStrike",
+    "title": "Inside Astaroth's New Spambot Component",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Inside Astaroth's New Spambot Component",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
