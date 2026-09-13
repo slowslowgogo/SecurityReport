@@ -1,0 +1,940 @@
+[
+  {
+    "uid": "4425e1e6f38daa5e0f6cd6545dcdaead",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90487 - Xuxueli xxl-job JobGroupController.java privileges management",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90487",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90487\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 11 p.m. | 20 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in Xuxueli xxl-job up to 3.4.2. Affected by this issue is some unknown functionality of the file xxl-job-admin/src/main/java/com/xxl/job/admin/business/controller/JobGroupController.java. The manipulation results in improper privilege management. The attack may be launched remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T23:00:11+00:00",
+    "cve_ids": [
+      "CVE-2026-90487"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was found in Xuxueli xxl-job up to 3.4.2. Affected by this issue is some unknown functionality of the file xxl-job-admin/src/main/java/com/xxl/job/admin/business/controller/JobGroupController.java. The manipulation results in improper privilege management. The attack may be launched ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90487 - Xuxueli xxl-job JobGroupControlle",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "65700b3af423cf8f4b9dfed29969481f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90486 - openstatusHQ openstatus resolve-custom-domain-rewrite.ts server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90486",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90486\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 10:45 p.m. | 35 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in openstatusHQ openstatus up to f04c827112f30a11d571ebdad3892826034d6265. Affected by this vulnerability is an unknown functionality of the file apps/status-page/src/lib/proxy/resolve-custom-domain-rewrite.ts. The manipulation leads to server-side request forgery. The attack may be initiated remotely. This product uses a rolling release model to deliver continuous updates. As a result, specific version information for affected or updated releases is not available. The identifier of the patch is 86f370c9c20074c3c3fdec53a359874b8e670fd4. It is suggested to install a patch to address this issue. Thi",
+    "pub_date": "2026-09-12T22:45:17+00:00",
+    "cve_ids": [
+      "CVE-2026-90486"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in openstatusHQ openstatus up to f04c827112f30a11d571ebdad3892826034d6265. Affected by this vulnerability is an unknown functionality of the file apps/status-page/src/lib/proxy/resolve-custom-domain-rewrite.ts. The manipulation leads to server-side request forgery. The",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90486 - openstatusHQ openstatus resolve-c",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bb09a165fcdf38bc1f38b725dec49b9e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90647 - Kalkitech ASE2000 Improper Certificate Validation Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90647",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90647\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 10:38 p.m. | 42 minutes ago\n  <br />\n  <strong>Description :</strong>ASE/Kalkitech ASE2000 V2 Communication Test Set 2.35 through 2.37 on Windows contains an improper certificate validation vulnerability in the IEC 60870-5-104 TLS client (Task Mode). This allows a network-positioned attacker to bypass certificate validation via a certificate with multiple simultaneous faults, enabling a Man-in-the-Middle attack on protected communications.\n  <br />\n  <strong>Severity:</strong> 9.1 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T22:38:16+00:00",
+    "cve_ids": [
+      "CVE-2026-90647"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "ASE/Kalkitech ASE2000 V2 Communication Test Set 2.35 through 2.37 on Windows contains an improper certificate validation vulnerability in the IEC 60870-5-104 TLS client (Task Mode). This allows a network-positioned attacker to bypass certificate validation via a certificate with multiple simultaneou",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90647 - Kalkitech ASE2000 Improper Certif",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "32926196569f842a561328b3d222fcb4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-79300 - SEP sesam Improper Authorization and MFA Bypass Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-79300",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-79300\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 10:20 p.m. | 1 hour ago\n  <br />\n  <strong>Description :</strong>SEP sesam before 5.2.0.24 mishandles User Authorization with MFA. If AD authentication is configured and MFA is enforced, an attacker can create a second OTP access capability. SEP sesam and Active Directory handle username capitalization differently, which may allow multiple SEP sesam user accounts to be created for the same Active Directory (AD) account. Active Directory treats usernames as case-insensitive, while SEP sesam distinguishes between different letter casing. As a result, the same AD user can be represented by multiple SEP sesam user accounts that differ only in username capitalization. When Active Directory authentica",
+    "pub_date": "2026-09-12T22:20:40+00:00",
+    "cve_ids": [
+      "CVE-2026-79300"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "SEP sesam before 5.2.0.24 mishandles User Authorization with MFA. If AD authentication is configured and MFA is enforced, an attacker can create a second OTP access capability. SEP sesam and Active Directory handle username capitalization differently, which may allow multiple SEP sesam user accounts",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-79300 - SEP sesam Improper Authorization ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8e159280cab9e5361d5f99f5547de71c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90485 - IOBit Uninstaller IOCTL Dispatch IURegistryFilter.sys sub_11838 null pointer dereference",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90485",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90485\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 10:16 p.m. | 1 hour, 4 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in IOBit Uninstaller 15.5.0.11. Affected by this issue is the function sub_11838 of the file IURegistryFilter.sys of the component IOCTL Dispatch Handler. This manipulation causes null pointer dereference. The attack requires local access. The exploit has been published and may be used. Identical IURegistryFilter.sys ships across multiple IObit families. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T22:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-90485"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "A flaw has been found in IOBit Uninstaller 15.5.0.11. Affected by this issue is the function sub_11838 of the file IURegistryFilter.sys of the component IOCTL Dispatch Handler. This manipulation causes null pointer dereference. The attack requires local access. The exploit has been published and may",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90485 - IOBit Uninstaller IOCTL Dispatch ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ebe5e20f1939ab8fd804f3efada1ddac",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90616 - Flatpak Sandbox Escape via Symlink Race Condition",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90616",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90616\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 8:16 p.m. | 3 hours, 4 minutes ago\n  <br />\n  <strong>Description :</strong>In Flatpak before 1.18.1, a malicious sandboxed app can obtain arbitrary read and write access to files on the host, which can be escalated to arbitrary code execution on the host, a different vulnerability than CVE-2026-76925. Flatpak creates a few app data directories (e.g., /var/cache, /var/data, /var/config, and /var/tmp) in every sandbox on every app launch where, in some cases, components of the path are attacker-controlled. Missing symlink protection can redirect the directories. Some of these directories are bind-mounted by Flatpak by passing the path (e.g., /home/user/.var/app/APP_ID/cache/tmp), which contains a",
+    "pub_date": "2026-09-12T20:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-90616",
+      "CVE-2026-76925"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "In Flatpak before 1.18.1, a malicious sandboxed app can obtain arbitrary read and write access to files on the host, which can be escalated to arbitrary code execution on the host, a different vulnerability than CVE-2026-76925. Flatpak creates a few app data directories (e.g., /var/cache, /var/data,",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90616 - Flatpak Sandbox Escape via Symlin",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4f0bd7301b3503e1fb11d3afdb9e57ac",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90560 - zstd-jni 1.2.0 through 1.5.7-13 Out-of-Bounds Read via ZstdDictDecompress",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90560",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90560\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 6:16 p.m. | 5 hours, 4 minutes ago\n  <br />\n  <strong>Description :</strong>zstd-jni versions 1.2.0 through 1.5.7-13 contain an out-of-bounds read vulnerability in the ZstdDictDecompress constructor because offset and length arguments are never validated against the dictionary array bounds. Attackers can supply arbitrary offset or length values to read memory past the end of the supplied array, potentially causing JVM termination.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T18:16:44+00:00",
+    "cve_ids": [
+      "CVE-2026-90560"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "zstd-jni versions 1.2.0 through 1.5.7-13 contain an out-of-bounds read vulnerability in the ZstdDictDecompress constructor because offset and length arguments are never validated against the dictionary array bounds. Attackers can supply arbitrary offset or length values to read memory past the end o",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90560 - zstd-jni 1.2.0 through 1.5.7-13 O",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8df4e2284d06cc23788bd92a95c34b0e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90559 - snappy-java through 1.1.10.8 Out-of-Bounds Write via uncompress",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90559",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90559\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 6:16 p.m. | 5 hours, 4 minutes ago\n  <br />\n  <strong>Description :</strong>snappy-java through 1.1.10.8 contains an out-of-bounds write vulnerability in Snappy.uncompress(ByteBuffer, ByteBuffer) because destination buffer capacity is never validated against decompressed size. Attackers can supply valid compressed data that decompresses larger than the destination buffer, causing writes past buffer boundaries and JVM termination.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T18:16:44+00:00",
+    "cve_ids": [
+      "CVE-2026-90559"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "snappy-java through 1.1.10.8 contains an out-of-bounds write vulnerability in Snappy.uncompress(ByteBuffer, ByteBuffer) because destination buffer capacity is never validated against decompressed size. Attackers can supply valid compressed data that decompresses larger than the destination buffer, c",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90559 - snappy-java through 1.1.10.8 Out-",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "50b362af45d9189e345f92b412aeb77c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90558 - sngrep through 1.8.4 Stack Buffer Overflow via SIP Headers",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90558",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90558\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 6:16 p.m. | 5 hours, 4 minutes ago\n  <br />\n  <strong>Description :</strong>sngrep through 1.8.4 contains stack buffer overflow vulnerabilities in SIP attribute formatting routines when header values exceed the 255-byte buffer limit. Attackers can craft malicious SIP packets with oversized Call-ID, X-Call-ID, or other header fields to overflow stack buffers and cause crashes or execute arbitrary code during packet parsing and rendering.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T18:16:44+00:00",
+    "cve_ids": [
+      "CVE-2026-90558"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "sngrep through 1.8.4 contains stack buffer overflow vulnerabilities in SIP attribute formatting routines when header values exceed the 255-byte buffer limit. Attackers can craft malicious SIP packets with oversized Call-ID, X-Call-ID, or other header fields to overflow stack buffers and cause crashe",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90558 - sngrep through 1.8.4 Stack Buffer",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0fbcc6aa28933e60ba390304e8931393",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90557 - Freeciv 3.1.0 through 3.2.5 Out-of-Bounds Read via Savegame",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90557",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90557\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 6:16 p.m. | 5 hours, 4 minutes ago\n  <br />\n  <strong>Description :</strong>Freeciv versions 3.1.0 through 3.2.5 contain an out-of-bounds read vulnerability in sg_load_player_unit() when processing savegame files with invalid unit activity indices. An attacker can craft a malicious savegame file with an out-of-range activity index that bypasses bounds checking and causes a crash or limited heap memory exposure when loaded.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T18:16:44+00:00",
+    "cve_ids": [
+      "CVE-2026-90557"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "Freeciv versions 3.1.0 through 3.2.5 contain an out-of-bounds read vulnerability in sg_load_player_unit() when processing savegame files with invalid unit activity indices. An attacker can craft a malicious savegame file with an out-of-range activity index that bypasses bounds checking and causes a ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90557 - Freeciv 3.1.0 through 3.2.5 Out-o",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "356a63e03e75f7cd0cd51f55ed07201f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90556 - Freeciv before 3.2.6 Heap Buffer Overflow via worklist_load",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90556",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90556\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 6:16 p.m. | 5 hours, 4 minutes ago\n  <br />\n  <strong>Description :</strong>Freeciv versions before 3.2.6 contain a heap buffer overflow in worklist_load() when processing savegame files with declared worklist lengths exceeding the fixed array bound of 64 elements. Attackers can craft malicious savegame files that write past the entries array into adjacent heap-allocated struct fields, potentially corrupting memory when a user or server operator loads the file.\n  <br />\n  <strong>Severity:</strong> 8.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T18:16:44+00:00",
+    "cve_ids": [
+      "CVE-2026-90556"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "Freeciv versions before 3.2.6 contain a heap buffer overflow in worklist_load() when processing savegame files with declared worklist lengths exceeding the fixed array bound of 64 elements. Attackers can craft malicious savegame files that write past the entries array into adjacent heap-allocated st",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90556 - Freeciv before 3.2.6 Heap Buffer ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "db2849d587ac75bbe9a1ca03807993f2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90555 - vLLM before 0.28.0 Denial of Service via Audio Header",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90555",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90555\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>vLLM versions before 0.28.0 fail to validate audio sample rate headers in the transcription endpoint, allowing authenticated clients to bypass duration checks. Attackers can submit forged FLAC headers with inflated sample rates to trigger excessive memory allocation and crash the API server process affecting all tenants.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-90555"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "vLLM versions before 0.28.0 fail to validate audio sample rate headers in the transcription endpoint, allowing authenticated clients to bypass duration checks. Attackers can submit forged FLAC headers with inflated sample rates to trigger excessive memory allocation and crash the API server process ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90555 - vLLM before 0.28.0 Denial of Serv",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5fb25d15b6920c6b95e3af80e392ade7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90554 - vLLM before 0.28.0 Denial of Service via audio extraction",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90554",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90554\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>vLLM versions >=0.10.2 and <0.28.0 do not apply any audio decode-size or duration limit when extracting audio from video input for NanoNemotronVL models. In nano_nemotron_vl.py, _extract_audio_from_videos calls load_audio_pyav(BytesIO(video_bytes)) without the max_duration_s or max_decode_bytes parameters, so neither VLLM_MAX_AUDIO_DECODE_DURATION_S nor VLLM_MAX_AUDIO_DECODE_BYTES is enforced (unlike the direct audio upload path in AudioMediaIO). When a NanoNemotronVL model is served with use_audio_in_video=True, an attacker who supplies a small, highly compressed video as multimodal input can force the server to alloca",
+    "pub_date": "2026-09-12T13:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-90554"
+    ],
+    "cvss": 6.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.2,
+      "description": "vLLM versions >=0.10.2 and <0.28.0 do not apply any audio decode-size or duration limit when extracting audio from video input for NanoNemotronVL models. In nano_nemotron_vl.py, _extract_audio_from_videos calls load_audio_pyav(BytesIO(video_bytes)) without the max_duration_s or max_decode_bytes para",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90554 - vLLM before 0.28.0 Denial of Serv",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fdcd23b3bd961d75a8d0ca8e917d6900",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90553 - vLLM before 0.28.0 Remote Code Execution via LlavaOnevision2 processor",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90553",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90553\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>vLLM before 0.28.0 contains a remote code execution vulnerability in the LlavaOnevision2 processor loader that ignores the trust_remote_code parameter when loading remote processor classes. Attackers can craft a malicious model with arbitrary code in processing_llava_onevision2.py that executes with vLLM process authority even when trust_remote_code is set to False.\n  <br />\n  <strong>Severity:</strong> 8.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-90553"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "vLLM before 0.28.0 contains a remote code execution vulnerability in the LlavaOnevision2 processor loader that ignores the trust_remote_code parameter when loading remote processor classes. Attackers can craft a malicious model with arbitrary code in processing_llava_onevision2.py that executes with",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90553 - vLLM before 0.28.0 Remote Code Ex",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ac2cd91879ab221082e4a761950586dd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90552 - WWBN AVideo Missing Authorization via Playlists_schedules list.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90552",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90552\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate playlist ownership in the Playlists_schedules/list.json.php and Live/calendar.json.php endpoints, allowing authenticated and unauthenticated users to read private playlist schedule metadata. Attackers with canStream privileges or no authentication can retrieve schedule names, descriptions, timestamps, and playlist identifiers by querying these endpoints without ownership checks.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-90552"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate playlist ownership in the Playlists_schedules/list.json.php and Live/calendar.json.php endpoints, allowing authenticated and unauthenticated users to read private playlist schedule metadata. Attackers with canStrea",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90552 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "59b7a3294ba7e59018a6fa7888713b64",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90551 - WWBN AVideo Missing Authorization via video_from_program API",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90551",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90551\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate playlist ownership in the video_from_program API endpoint, allowing unauthenticated access to private playlist contents. Attackers can query the API without authentication to enumerate private playlist names, owner information, and video titles including password-protected content.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-90551"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate playlist ownership in the video_from_program API endpoint, allowing unauthenticated access to private playlist contents. Attackers can query the API without authentication to enumerate private playlist names, owner",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90551 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c1050cbe2f0db21e068475f66c1bea27",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90550 - WWBN AVideo Missing Authorization via mediaSession.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90550",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90550\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to check user authorization in the PlayerSkins mediaSession.json.php endpoint before returning video metadata. Unauthenticated attackers can request the endpoint with a video ID parameter to retrieve password-protected video titles and owner email addresses without authentication.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-90550"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to check user authorization in the PlayerSkins mediaSession.json.php endpoint before returning video metadata. Unauthenticated attackers can request the endpoint with a video ID parameter to retrieve password-protected video t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90550 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "01ecfa0c7f37b9628f1b0038ddf22ac4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90549 - WWBN AVideo Missing Authorization via videosAndroid.json.php Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90549",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90549\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to properly authorize access to the videosAndroid.json.php endpoint, allowing unauthenticated guests to list password-protected videos with sensitive owner information. Attackers can retrieve video metadata including owner email, lastLogin, filename, and hashId by sending an unauthenticated GET request to the endpoint.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-90549"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to properly authorize access to the videosAndroid.json.php endpoint, allowing unauthenticated guests to list password-protected videos with sensitive owner information. Attackers can retrieve video metadata including owner ema",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90549 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "736f1cebc4d12547949f182c0a768285",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90548 - WWBN AVideo Missing Authorization in ImageGallery list.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90548",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90548\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate user permissions in the ImageGallery list.json.php endpoint, allowing unauthenticated access to list gallery files. Attackers can retrieve filenames and URLs of password-protected image galleries by directly accessing the endpoint, then fetch the exposed files without authentication.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-90548"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate user permissions in the ImageGallery list.json.php endpoint, allowing unauthenticated access to list gallery files. Attackers can retrieve filenames and URLs of password-protected image galleries by directly access",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90548 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ac27e4fd5bd8692daca24d78755a46bb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90547 - WWBN AVideo Missing Authorization via getBookmarks.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90547",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90547\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate user permissions in the Bookmark plugin getBookmarks.json.php endpoint, allowing unauthenticated attackers to read chapter names from password-protected videos. Attackers can query the endpoint with a video ID parameter to retrieve sensitive chapter metadata without authentication or password verification.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-90547"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate user permissions in the Bookmark plugin getBookmarks.json.php endpoint, allowing unauthenticated attackers to read chapter names from password-protected videos. Attackers can query the endpoint with a video ID para",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90547 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fd67a590203e4624423183e4cd49273b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90546 - WWBN AVideo Missing Authorization via like.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90546",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90546\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate video access permissions in the like.json.php endpoint, allowing logged-in users to record likes on password-protected and group-restricted videos. Attackers can submit like requests for videos they cannot watch to increment like counters and bypass access controls.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:52+00:00",
+    "cve_ids": [
+      "CVE-2026-90546"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate video access permissions in the like.json.php endpoint, allowing logged-in users to record likes on password-protected and group-restricted videos. Attackers can submit like requests for videos they cannot watch to",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90546 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e3e00ae5dc85c6693fd5a6daaf7ddad7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90545 - WWBN AVideo Missing Authorization via commentAddNew.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90545",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90545\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate video access permissions in the commentAddNew.json.php endpoint, allowing authenticated users to post comments on password-protected and group-restricted videos. Attackers can submit POST requests with a valid session to add comments to videos they cannot watch, bypassing password and group access controls.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:52+00:00",
+    "cve_ids": [
+      "CVE-2026-90545"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate video access permissions in the commentAddNew.json.php endpoint, allowing authenticated users to post comments on password-protected and group-restricted videos. Attackers can submit POST requests with a valid sess",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90545 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bfd4f1ab0096dd14c453a232fc0ed04f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90544 - WWBN AVideo Missing Authorization via videoAddViewCount.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90544",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90544\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate video access permissions in the videoAddViewCount.json.php endpoint before updating view statistics. Authenticated attackers can increment view counts and watch-time on videos they cannot access by submitting requests with arbitrary video IDs.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:52+00:00",
+    "cve_ids": [
+      "CVE-2026-90544"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate video access permissions in the videoAddViewCount.json.php endpoint before updating view statistics. Authenticated attackers can increment view counts and watch-time on videos they cannot access by submitting reque",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90544 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8545d837e104e48e8d45f56d85039777",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90543 - WWBN AVideo Missing Authentication via socketMessageLiveOwner.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90543",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90543\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo at commit c3edcc274c389816d434acadac07ee78eaf330c1 and earlier, with the Live plugin enabled, contains a missing authentication vulnerability in plugin/Live/socketMessageLiveOwner.json.php. The script reads the `key` and `msg` parameters from $_REQUEST, resolves the stream owner via LiveTransmition::keyExists, and verifies that the stream owner (not the caller) is an administrator; it performs no User::isLogged() check and enforces no CSRF token. As a result, an unauthenticated remote attacker who knows an administrator's Live stream key can call sendSocketSuccessMessageToUsers_id and deliver arbitrary in-ap",
+    "pub_date": "2026-09-12T13:16:52+00:00",
+    "cve_ids": [
+      "CVE-2026-90543"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "WWBN AVideo at commit c3edcc274c389816d434acadac07ee78eaf330c1 and earlier, with the Live plugin enabled, contains a missing authentication vulnerability in plugin/Live/socketMessageLiveOwner.json.php. The script reads the `key` and `msg` parameters from $_REQUEST, resolves the stream owner via Live",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90543 - WWBN AVideo Missing Authenticatio",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "579f7ac54836a8b05023e4cc8be06353",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90542 - WWBN AVideo Missing Authorization via remindMe.json.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90542",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90542\n  <br />\n  <strong>Published :</strong> Sept. 12, 2026, 1:16 p.m. | 10 hours, 3 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate that logged-in users can access live schedules before creating reminders via remindMe.json.php. Authenticated attackers can create scheduler reminders for private live schedules they cannot view and learn the private schedule title from the generated email job.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-12T13:16:52+00:00",
+    "cve_ids": [
+      "CVE-2026-90542"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 fails to validate that logged-in users can access live schedules before creating reminders via remindMe.json.php. Authenticated attackers can create scheduler reminders for private live schedules they cannot view and learn the priva",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90542 - WWBN AVideo Missing Authorization",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d7914357f7b1afaf4673e57de2930c97",
+    "source": "BleepingComputer",
+    "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+    "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+    "summary": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
+    "pub_date": "2026-09-12T14:14:32+00:00",
+    "cve_ids": [
+      "CVE-2026-85103",
+      "CVE-2026-85102"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Dutch NCSC: Critical Check Point VPN flaws exploit",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9249a1b00b15709951979b93bd64b6af",
+    "source": "The Hacker News",
+    "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.\n\nDetails of the vulnerabilities are as follows -\n\n\n  CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization",
+    "pub_date": "2026-09-12T15:54:45+00:00",
+    "cve_ids": [
+      "CVE-2026-42016"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CISA Adds 5 Actively Exploited Artifactory, Screen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bcd8d98197c05fde5c8a140dde268ba6",
+    "source": "The Hacker News",
+    "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+    "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+    "summary": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organization using it, from developers running coding agents and non-technical staff signing consumer AI tools into corporate",
+    "pub_date": "2026-09-12T10:24:44+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "When the Whole Company Adopts AI: What It Does to ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f60d96c9871051ee1ceca24556da224",
+    "source": "The Hacker News",
+    "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+    "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+    "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.\n\nOn May 12, Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, disclosed details of a coordinated cyber attack that targeted the package manager for the",
+    "pub_date": "2026-09-12T09:07:56+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "OpenAI Agents Linked to RubyGems Campaign That Gai",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d09a4628176f35f132895a8c0a81ac45",
+    "source": "CyberScoop",
+    "title": "Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems",
+    "link": "https://cyberscoop.com/openai-agents-malicious-rubygems-packages/",
+    "summary": "<p>OpenAI confirmed their agents were behind a campaign in May that researchers say flooded the popular online code repository with malicious software packages.</p>\n<p>The post <a href=\"https://cyberscoop.com/openai-agents-malicious-rubygems-packages/\">Researchers say OpenAI agents were behind May hacking campaign targeting RubyGems</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "pub_date": "2026-09-12T01:50:30+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Researchers say OpenAI agents were behind May hack",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a5cae1a0273330197d1f8095fe8f9a97",
+    "source": "SecurityWeek",
+    "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
+    "link": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
+    "summary": "<p>Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.</p>\n<p>The post <a href=\"https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/\">BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-09-12T11:10:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "BlueMoon Exploit Kit Chains Recent Chrome, Windows",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8d26dde89a0e8cdf36a3cfe0b38ae90f",
+    "source": "SecurityWeek",
+    "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
+    "link": "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
+    "summary": "<p>Anthropic said the users did not succeed in “fielding an operational device” but did carry out a failed test of a guided rocket.</p>\n<p>The post <a href=\"https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/\">Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-09-12T01:50:53+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Users in Houthi-Held Yemen Tried to Develop Advanc",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f759ac91c50145d686491f3e702e5a70",
+    "source": "Dark Reading",
+    "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
+    "link": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
+    "summary": "",
+    "pub_date": "2026-11-12T16:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[Virtual Event] What Every Enterprise Should Know ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2c87da2a5e46edae95c7091f1f396013",
+    "source": "Dark Reading",
+    "title": "[Virtual Event] Building a Secure AI Strategy for the Enterprise",
+    "link": "https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026",
+    "summary": "",
+    "pub_date": "2026-10-08T15:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[Virtual Event] Building a Secure AI Strategy for ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e2b1766dd072b1afad15009285648924",
+    "source": "CrowdStrike",
+    "title": "September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "September 2026 Patch Tuesday: Two Exploited Zero-D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "db2b25eff2236dff0c85c8902080f903",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Delivers the Next Evolution of the Agentic SOC",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Delivers the Next Evolution of the Age",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "03c7a316fa4387b20f866f4d73b2a3a1",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Extends Endpoint Security to Stop Soft",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d0daaab2005f0b396defafbb1490b5eb",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Announces Agentic Identity Provider",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Announces Agentic Identity Provider",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9db3bd54d425ac036cab919c20715655",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Guardian Defines the Next Generation of AI Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Falcon Guardian Defines the Next Gener",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f1ba6aac3f9347365f738179efa8fd5b",
+    "source": "CrowdStrike",
+    "title": "Peer Pressure: Inside the Sality Botnet Disruption Operation",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Peer Pressure: Inside the Sality Botnet Disruption",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2c0b68ccbf2bb2c367c2c03d25e0b429",
+    "source": "CrowdStrike",
+    "title": "Agents of Chaos: A New $100K Agentic Security Challenge",
+    "link": "https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Agents of Chaos: A New $100K Agentic Security Chal",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0486ab5b0b5b7d9ce37f7892cf6e5c0d",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named Strongest Overall Leader in 2026",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2a15040cf074060b9f3b0d922b9c0d09",
+    "source": "CrowdStrike",
+    "title": "Benchmaxxing: When the Benchmark Becomes the Target",
+    "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Benchmaxxing: When the Benchmark Becomes the Targe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a9ad5ea1fc8ef699b5ccd7cb989806ae",
+    "source": "CrowdStrike",
+    "title": "Teaching AI to Reason Through Detection Triage",
+    "link": "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Teaching AI to Reason Through Detection Triage",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7649ba96c877fd50c91b9cc0d0a7e62b",
+    "source": "Security Affairs",
+    "title": "Revolut Exposed KYC Data After Fraudulent Government Email Passed Security Checks",
+    "link": "https://securityaffairs.com/198922/data-breach/revolut-exposed-kyc-data-after-fraudulent-government-email-passed-security-checks.html",
+    "summary": "Revolut handed over KYC documents, selfies, and Bitcoin transaction histories after a fake government email with valid domain credentials passed its checks. Revolut confirmed on September 12, 2026, that it disclosed sensitive customer data to an unauthorized third party after receiving fraudulent information requests sent from an email address operating inside an actual government agency&#8217;s [&#8230;]",
+    "pub_date": "2026-09-12T21:05:41+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Revolut Exposed KYC Data After Fraudulent Governme",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5bab4322c71c4bc8603603b8b3c80598",
+    "source": "Security Affairs",
+    "title": "Anthropic: AI Misuse Is Entering a New Phase: From Cybercrime to Surveillance, Propaganda and Weapons",
+    "link": "https://securityaffairs.com/198905/ai/anthropic-ai-misuse-is-entering-a-new-phase-from-cybercrime-to-surveillance-propaganda-and-weapons.html",
+    "summary": "AI is becoming an operational force for cybercrime, surveillance, propaganda, fraud and weapons development, lowering the cost and scale of attacks. Artificial intelligence (AI) is becoming more than a tool for people who want to do something malicious. It is increasingly becoming part of the operational machinery itself. That is the main message emerging from [&#8230;]",
+    "pub_date": "2026-09-12T16:46:56+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Anthropic: AI Misuse Is Entering a New Phase: From",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
