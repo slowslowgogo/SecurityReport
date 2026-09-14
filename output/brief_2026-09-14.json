@@ -1,0 +1,918 @@
+[
+  {
+    "uid": "271badd9a8df35b42b5a4547e9eef287",
+    "source": "BleepingComputer",
+    "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+    "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
+    "pub_date": "2026-09-13T14:26:32+00:00",
+    "cve_ids": [
+      "CVE-2026-51990"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hackers exploit Tencent app flaw to deploy GrayRab",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "77ee8137f98448aa23d532d89f1d72fe",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90601 - getzep graphiti REST API main.py improper authentication",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90601",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90601\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 10:30 p.m. | 23 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in getzep graphiti up to 0.30.2. Affected is an unknown function of the file server/graph_service/main.py of the component REST API. The manipulation results in improper authentication. The attack can be launched remotely. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T22:30:07+00:00",
+    "cve_ids": [
+      "CVE-2026-90601"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was found in getzep graphiti up to 0.30.2. Affected is an unknown function of the file server/graph_service/main.py of the component REST API. The manipulation results in improper authentication. The attack can be launched remotely. The pull request to fix this issue awaits acceptanc",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90601 - getzep graphiti REST API main.py ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bcdf1ddc80756070d3b9a7dc53907e0a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90599 - Rizwan17 inventory-management-system process.php cross-site request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90599",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90599\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 10:17 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Rizwan17 inventory-management-system up to 5e74a46b4b70623d0e4a0c9c4aee3bd1777185d2. This affects an unknown function of the file includes/process.php. Executing a manipulation can lead to cross-site request forgery. It is possible to launch the attack remotely. The exploit has been published and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> ",
+    "pub_date": "2026-09-13T22:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-90599"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A flaw has been found in Rizwan17 inventory-management-system up to 5e74a46b4b70623d0e4a0c9c4aee3bd1777185d2. This affects an unknown function of the file includes/process.php. Executing a manipulation can lead to cross-site request forgery. It is possible to launch the attack remotely. The exploit ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90599 - Rizwan17 inventory-management-sys",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "722cac20720d5cf32f41f5ddf09557a9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90598 - jaygajera17 E-commerce-project-springBoot UserController.java UserController.updateUser authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90598",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90598\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 10:17 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in jaygajera17 E-commerce-project-springBoot up to 5e74a46b4b70623d0e4a0c9c4aee3bd1777185d2. The impacted element is the function UserController.updateUser of the file UserController.java. Performing a manipulation of the argument userid results in authorization bypass. It is possible to initiate the attack remotely. The exploit is now public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 6",
+    "pub_date": "2026-09-13T22:17:00+00:00",
+    "cve_ids": [
+      "CVE-2026-90598"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was detected in jaygajera17 E-commerce-project-springBoot up to 5e74a46b4b70623d0e4a0c9c4aee3bd1777185d2. The impacted element is the function UserController.updateUser of the file UserController.java. Performing a manipulation of the argument userid results in authorization bypass. ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90598 - jaygajera17 E-commerce-project-sp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d18c3b265e5734cbe71d6077b625db9f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90597 - itsourcecode Sales and Inventory System sup_edit1.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90597",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90597\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 10:17 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in itsourcecode Sales and Inventory System 1.0. The affected element is an unknown function of the file /pages/sup_edit1.php. Such manipulation of the argument ID leads to sql injection. The attack may be performed from remote. The exploit has been disclosed publicly and may be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T22:17:00+00:00",
+    "cve_ids": [
+      "CVE-2026-90597"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security vulnerability has been detected in itsourcecode Sales and Inventory System 1.0. The affected element is an unknown function of the file /pages/sup_edit1.php. Such manipulation of the argument ID leads to sql injection. The attack may be performed from remote. The exploit has been disclose",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90597 - itsourcecode Sales and Inventory ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "378ba59284c96719d8c841b28e47c5eb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90596 - embedded-graphics image_raw.rs new/bytes_per_row integer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90596",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90596\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 10:17 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in embedded-graphics up to 0.8.2 on 32-bit. Impacted is the function ImageRaw::new/bytes_per_row of the file src/image/image_raw.rs. This manipulation causes integer overflow. The attack is possible to be carried out remotely. Upgrading the affected component is recommended. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T22:17:00+00:00",
+    "cve_ids": [
+      "CVE-2026-90596"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "A weakness has been identified in embedded-graphics up to 0.8.2 on 32-bit. Impacted is the function ImageRaw::new/bytes_per_row of the file src/image/image_raw.rs. This manipulation causes integer overflow. The attack is possible to be carried out remotely. Upgrading the affected component is recomm",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90596 - embedded-graphics image_raw.rs ne",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1939a06e681c3b7e03fe9c6205420eaf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-52297 - FFmpeg MOV Parsing Out-of-Bounds Read",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-52297",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-52297\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 10:17 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>FFmpeg before 9.0 has an out-of-bounds read because there is insufficiently padded extradata in the MOV parsing path in mov_read_iacb in libavformat/mov.c.\n  <br />\n  <strong>Severity:</strong> 2.9 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T22:17:00+00:00",
+    "cve_ids": [
+      "CVE-2026-52297"
+    ],
+    "cvss": 2.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.9,
+      "description": "FFmpeg before 9.0 has an out-of-bounds read because there is insufficiently padded extradata in the MOV parsing path in mov_read_iacb in libavformat/mov.c.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-52297 - FFmpeg MOV Parsing Out-of-Bounds ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f3e94af31b78f67dc75d2dbe26c5db51",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-52296 - FFmpeg WMA Out-of-Bounds Read",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-52296",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-52296\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 10:17 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>FFmpeg before 9.0 has an out-of-bounds read because of missing required padding in WMA extradata allocation paths in libavcodec/wmaenc.c.\n  <br />\n  <strong>Severity:</strong> 2.9 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T22:17:00+00:00",
+    "cve_ids": [
+      "CVE-2026-52296"
+    ],
+    "cvss": 2.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.9,
+      "description": "FFmpeg before 9.0 has an out-of-bounds read because of missing required padding in WMA extradata allocation paths in libavcodec/wmaenc.c.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-52296 - FFmpeg WMA Out-of-Bounds Read",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3a7a1f49b1adbb9ebd5bab0ffcf2eb97",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-35867 - LB-LINK AC1900_AZ2 Command Injection Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-35867",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-35867\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 10:16 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>A Command Injection vulnerability exists in the bs_SetLimitCli_info function within the libshare.so library of the LB-LINK router AC1900_AZ2 V1.0.2 via shell metacharacters, if the device is deployed in a scenario where an actor is able to make a \"POST /goform/set_LimitClient_cfg\" call but does not already have administrative access to the device.\n  <br />\n  <strong>Severity:</strong> 3.1 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T22:16:59+00:00",
+    "cve_ids": [
+      "CVE-2026-35867"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "A Command Injection vulnerability exists in the bs_SetLimitCli_info function within the libshare.so library of the LB-LINK router AC1900_AZ2 V1.0.2 via shell metacharacters, if the device is deployed in a scenario where an actor is able to make a \"POST /goform/set_LimitClient_cfg\" call but does not ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-35867 - LB-LINK AC1900_AZ2 Command Inject",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "badd55020896ebd3bfcbcad3b4a5fcac",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90600 - itsourcecode Sales and Inventory System inv_edit1.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90600",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90600\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 10:15 p.m. | 38 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in itsourcecode Sales and Inventory System 1.0. This impacts an unknown function of the file /pages/inv_edit1.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T22:15:09+00:00",
+    "cve_ids": [
+      "CVE-2026-90600"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in itsourcecode Sales and Inventory System 1.0. This impacts an unknown function of the file /pages/inv_edit1.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90600 - itsourcecode Sales and Inventory ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c9802c5d6a0e37b72d04b8e1f2aed9bc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90595 - wxiaoqi Spring-Cloud-Platform OnlineController.java OnlineController.getOnlineInfo authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90595",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90595\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in wxiaoqi Spring-Cloud-Platform 1.0/2.2/3.0. This issue affects the function OnlineController.getOnlineInfo of the file aceModules/ace-admin/auth/controller/OnlineController.java. The manipulation results in missing authorization. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and mor",
+    "pub_date": "2026-09-13T21:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-90595"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A security flaw has been discovered in wxiaoqi Spring-Cloud-Platform 1.0/2.2/3.0. This issue affects the function OnlineController.getOnlineInfo of the file aceModules/ace-admin/auth/controller/OnlineController.java. The manipulation results in missing authorization. The attack can be executed remot",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90595 - wxiaoqi Spring-Cloud-Platform Onl",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "06d18ea3339b1ffa49d50d64c94fb563",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90594 - wxiaoqi Spring-Cloud-Platform Permission Service PermissionService.java PermissionService.checkUserPermission authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90594",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90594\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in wxiaoqi Spring-Cloud-Platform 3.0.1/3.1.0. This vulnerability affects the function PermissionService.checkUserPermission of the file /rpc/service/PermissionService.java of the component Permission Service. The manipulation leads to missing authorization. Remote exploitation of the attack is possible. The exploit is publicly available and might be used. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeli",
+    "pub_date": "2026-09-13T21:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-90594"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was identified in wxiaoqi Spring-Cloud-Platform 3.0.1/3.1.0. This vulnerability affects the function PermissionService.checkUserPermission of the file /rpc/service/PermissionService.java of the component Permission Service. The manipulation leads to missing authorization. Remote expl",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90594 - wxiaoqi Spring-Cloud-Platform Per",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "807677262d490330d609030a548e1619",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90593 - embedded-graphics image_raw.rs draw_sub_image integer overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90593",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90593\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in embedded-graphics up to 0.8.2. This affects the function ImageRaw::draw_sub_image of the file src/image/image_raw.rs. Executing a manipulation of the argument width can lead to integer overflow. The attack may be launched remotely. The project was informed of the problem early through an issue report but has not responded yet.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-90593"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was determined in embedded-graphics up to 0.8.2. This affects the function ImageRaw::draw_sub_image of the file src/image/image_raw.rs. Executing a manipulation of the argument width can lead to integer overflow. The attack may be launched remotely. The project was informed of the pr",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90593 - embedded-graphics image_raw.rs dr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c2d7e9e135e3b958dcecc9d118b786a3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90584 - TooTallNate Java-WebSocket Fragmentation Draft_6455.java processFrameContinuousAndNonFin allocation of resources",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90584",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90584\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in TooTallNate Java-WebSocket up to 1.6.1. The impacted element is the function processFrameContinuousAndNonFin of the file Draft_6455.java of the component Fragmentation Handler. Executing a manipulation can lead to allocation of resources. The attack may be performed from remote. The exploit has been made available to the public and could be used for attacks. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-90584"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A weakness has been identified in TooTallNate Java-WebSocket up to 1.6.1. The impacted element is the function processFrameContinuousAndNonFin of the file Draft_6455.java of the component Fragmentation Handler. Executing a manipulation can lead to allocation of resources. The attack may be performed",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90584 - TooTallNate Java-WebSocket Fragme",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e2ce4de60ddb4f21b8b02a4881d92be1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-89050 - Quads Ads Manager for Google AdSense < 3.0.5 - Subscriber+ Ad-Selling Payment Bypass via Unverified Success Return URL",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-89050",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-89050\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>The Quads Ads Manager for Google AdSense WordPress plugin before 3.0.5 does not verify payment completion with the configured payment gateway before marking an ad-selling order as paid, allowing users who can place an order to obtain a paid ad placement without payment.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-89050"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "The Quads Ads Manager for Google AdSense WordPress plugin before 3.0.5 does not verify payment completion with the configured payment gateway before marking an ad-selling order as paid, allowing users who can place an order to obtain a paid ad placement without payment.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-89050 - Quads Ads Manager for Google AdSe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "20ea5454d3d5fd4d60d824c0c2c2b40c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-88802 - MDJM Event Management and Mobile Events Manager - Unauthenticated Arbitrary Post Deletion",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-88802",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-88802\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>The MDJM Event Management WordPress plugin before 1.7.8.5 and the Mobile Events Manager WordPress plugin through 1.4.8.3 do not check a capability, a nonce or the type of the record before permanently deleting the post identified in a request to their playlist entry removal, allowing unauthenticated attackers to destroy arbitrary posts, pages and media attachments, bypassing the trash.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-88802"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "The MDJM Event Management WordPress plugin before 1.7.8.5 and the Mobile Events Manager WordPress plugin through 1.4.8.3 do not check a capability, a nonce or the type of the record before permanently deleting the post identified in a request to their playlist entry removal, allowing unauthenticated",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-88802 - MDJM Event Management and Mobile ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1d689bd62d1e333e12a2d10234be50f3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-88793 - YouTube Embed 10.0 - 10.3 - Unauthenticated Stored XSS via youram_server",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-88793",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-88793\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>The YouTube Embed WordPress plugin from 10.0 to 10.3 does not perform any authorisation check on one of its AJAX actions, relying only on a nonce it prints on every front-end page, and does not escape the stored data before rendering it, allowing unauthenticated attackers to store arbitrary web scripts which will execute in the session of any user viewing the affected content, including an administrator.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-88793"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "The YouTube Embed WordPress plugin from 10.0 to 10.3 does not perform any authorisation check on one of its AJAX actions, relying only on a nonce it prints on every front-end page, and does not escape the stored data before rendering it, allowing unauthenticated attackers to store arbitrary web scri",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-88793 - YouTube Embed 10.0 - 10.3 - Unaut",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "24b59d072a2cf31c2c08509bc04ee031",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-85129 - Hoo Companion 1.0.2 - Unauthenticated Stored XSS via Theme Settings Import",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-85129",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-85129\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>The Hoo Companion WordPress plugin 1.0.2 does not have any authorisation or validation checks in one of its import features, and does not sanitise the data submitted to it before storing it as the active theme's settings, allowing unauthenticated attackers to inject arbitrary web scripts which will execute for anyone viewing the site, including administrators. The same request destroys the site's existing theme settings.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-85129"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "The Hoo Companion WordPress plugin 1.0.2 does not have any authorisation or validation checks in one of its import features, and does not sanitise the data submitted to it before storing it as the active theme's settings, allowing unauthenticated attackers to inject arbitrary web scripts which will ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-85129 - Hoo Companion 1.0.2 - Unauthentic",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "338bc605d739f5537c9b088073060962",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-81648 - CryptoPayment Gateway 1.2.1 - 1.2.2 - Unauthenticated Arbitrary File Deletion and Settings Update via Unguarded AJAX Router",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-81648",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-81648\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>The CryptoPayment Gateway WordPress plugin from 1.2.1 to 1.2.2 does not apply an authorization check on one of its AJAX endpoints, allowing unauthenticated users to invoke administrative operations, including deleting arbitrary files on the server, overwriting the payment gateway configuration and recovering stored wallet credentials in cleartext.\n  <br />\n  <strong>Severity:</strong> 10.0 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-81648"
+    ],
+    "cvss": 10.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 10.0,
+      "description": "The CryptoPayment Gateway WordPress plugin from 1.2.1 to 1.2.2 does not apply an authorization check on one of its AJAX endpoints, allowing unauthenticated users to invoke administrative operations, including deleting arbitrary files on the server, overwriting the payment gateway configuration and r",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-81648 - CryptoPayment Gateway 1.2.1 - 1.2",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "75590f29912566513f60535427658c44",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-74933 - GenieWords 1.5.27 - 1.5.34 - Unauthenticated Stored XSS and Configuration Overwrite",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-74933",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-74933\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>The GenieWords WordPress plugin from 1.5.27 to 1.5.34 does not have authorisation checks on some of its REST API and AJAX actions, and decodes stored values before printing them, allowing unauthenticated users to overwrite its configuration and inject arbitrary web scripts that execute on every front-end page.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-74933"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "The GenieWords WordPress plugin from 1.5.27 to 1.5.34 does not have authorisation checks on some of its REST API and AJAX actions, and decodes stored values before printing them, allowing unauthenticated users to overwrite its configuration and inject arbitrary web scripts that execute on every fron",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-74933 - GenieWords 1.5.27 - 1.5.34 - Unau",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4b80572ee05c47aabc4df27bedb828d6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-49030 - Pathe Path Traversal Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-49030",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-49030\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was withdrawn by its CNA.  Further investigation showed that it was not a security issue.  Notes: none.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-49030"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-49030 - Pathe Path Traversal Vulnerabilit",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c2569333fbcb9b2624f7d3f1e574ac4f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-38332 - TinyEXIF Heap-Based Buffer Over-Read",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-38332",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-38332\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>TinyEXIF before 1.1.0 has a heap-based buffer over-read in EntryParser::Fetch methods reachable via a crafted SubjectArea length.\n  <br />\n  <strong>Severity:</strong> 2.9 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-38332"
+    ],
+    "cvss": 2.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.9,
+      "description": "TinyEXIF before 1.1.0 has a heap-based buffer over-read in EntryParser::Fetch methods reachable via a crafted SubjectArea length.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-38332 - TinyEXIF Heap-Based Buffer Over-R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6dc5ddaa746937f2ed724925e5703803",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-37008 - CrewAI Sandbox Bypass via Python Runtime Manipulation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-37008",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-37008\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>CrewAI before fb2323b offers a Python blocklist approach that operates at the wrong level of abstraction, a different vulnerability than CVE-2026-2275. Import-time blocking of module names does not address the availability of Python's complete object graph. For example, calling ctypes.CDLL(None) loads the C library without relying in any import statements. In other words, a within-process sandbox cannot merely account for the import system and instead must account for the complete runtime of the Python interpreter.\n  <br />\n  <strong>Severity:</strong> 8.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS d",
+    "pub_date": "2026-09-13T21:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-2275",
+      "CVE-2026-37008"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "CrewAI before fb2323b offers a Python blocklist approach that operates at the wrong level of abstraction, a different vulnerability than CVE-2026-2275. Import-time blocking of module names does not address the availability of Python's complete object graph. For example, calling ctypes.CDLL(None) loa",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-37008 - CrewAI Sandbox Bypass via Python ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "27bfa7032e50450ab52c66b795724e2c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-36989 - LuxSoft LuxCal SQL Injection Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-36989",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-36989\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:17 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A SQL Injection vulnerability exists in LuxSoft LuxCal through 5.3.4L via rssfeed.php and common/retrieve.php.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-36989"
+    ],
+    "cvss": 5.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.8,
+      "description": "A SQL Injection vulnerability exists in LuxSoft LuxCal through 5.3.4L via rssfeed.php and common/retrieve.php.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-36989 - LuxSoft LuxCal SQL Injection Vuln",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a2404525bfdde1f6348c3efff0530abe",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-36453 - Rhymix Insecure Direct Object Reference Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-36453",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-36453\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 9:16 p.m. | 1 hour, 36 minutes ago\n  <br />\n  <strong>Description :</strong>Rhymix before 2.1.31 allows insecure direct object reference, aka RVE-2026-1. Arbitrary files can be accessed via extra variables.\n  <br />\n  <strong>Severity:</strong> 7.4 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-13T21:16:59+00:00",
+    "cve_ids": [
+      "CVE-2026-36453"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "Rhymix before 2.1.31 allows insecure direct object reference, aka RVE-2026-1. Arbitrary files can be accessed via extra variables.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-36453 - Rhymix Insecure Direct Object Ref",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "829d2eeb75741199d7ce03958e411d6c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-90583 - kagisearch smallweb Query String Rendering sw.py index cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-90583",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-90583\n  <br />\n  <strong>Published :</strong> Sept. 13, 2026, 8:16 p.m. | 2 hours, 36 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in kagisearch smallweb up to 0ecb9c48edbf98dc7e934b54fbac43869e64b4cf. The affected element is the function index of the file app/sw.py of the component Query String Rendering. Performing a manipulation of the argument qs results in cross site scripting. The attack is possible to be carried out remotely. This product adopts a rolling release strategy to maintain continuous delivery. Therefore, version details for affected or updated releases cannot be specified. The patch is named 00b68144e583f20a6b67e29cf01bc07f57979ffb. It is recommended to apply a patch to fix this issue. Exploitab",
+    "pub_date": "2026-09-13T20:16:51+00:00",
+    "cve_ids": [
+      "CVE-2026-90583"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A security flaw has been discovered in kagisearch smallweb up to 0ecb9c48edbf98dc7e934b54fbac43869e64b4cf. The affected element is the function index of the file app/sw.py of the component Query String Rendering. Performing a manipulation of the argument qs results in cross site scripting. The attac",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90583 - kagisearch smallweb Query String ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a0ee3c4be7d4cf1108b15abebb089f35",
+    "source": "The Hacker News",
+    "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+    "summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.\n\nThe first campaign, per the tech giant, involved sending over a million scam emails between August 3 and 5, 2026, by masquerading as chief executive officers",
+    "pub_date": "2026-09-13T10:11:48+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Attackers Use Passkey Phishing to Hijack Microsoft",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f759ac91c50145d686491f3e702e5a70",
+    "source": "Dark Reading",
+    "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
+    "link": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
+    "summary": "",
+    "pub_date": "2026-11-12T16:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[Virtual Event] What Every Enterprise Should Know ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2c87da2a5e46edae95c7091f1f396013",
+    "source": "Dark Reading",
+    "title": "[Virtual Event] Building a Secure AI Strategy for the Enterprise",
+    "link": "https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026",
+    "summary": "",
+    "pub_date": "2026-10-08T15:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[Virtual Event] Building a Secure AI Strategy for ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e8f02e08b1971991dc48070aee9ba2ae",
+    "source": "SecurityWeek",
+    "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
+    "link": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+    "summary": "<p>Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet.</p>\n<p>The post <a href=\"https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/\">Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-09-13T13:27:25+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Anthropic CEO Dario Amodei Says AI Industry Needs ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b4ef4f87203fae066439c0e287f4622b",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 114",
+    "link": "https://securityaffairs.com/198980/breaking-news/security-affairs-malware-newsletter-round-114.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter REVSTEALER ramps up Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode&#160;&#160; GuardBreaker: Derailing AI-assisted malware analysis with a code comment&#160;&#160; DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive [&#8230;]",
+    "pub_date": "2026-09-13T17:27:51+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 114",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a12bc89fa2dfd9f4022d8dbfbffb9cf3",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 594 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/198957/security/security-affairs-newsletter-round-594-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including international press. The AI Supply Chain Has a Security Problem, and Much of It Is Sitting on the Open [&#8230;]",
+    "pub_date": "2026-09-13T14:23:47+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 594 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "99e6a632a9f3af713292f152cc9b5bab",
+    "source": "Security Affairs",
+    "title": "GitLab CVE-2026-85706: One HTTP Request, No Authentication, Full File Read – Exploited Within 24 Hours",
+    "link": "https://securityaffairs.com/198945/hacking/gitlab-cve-2026-85706-one-http-request-no-authentication-full-file-read-exploited-within-24-hours.html",
+    "summary": "CVE-2026-85706, a CVSS 10.0 GitLab path traversal, was under active exploitation within 24 hours of disclosure. GitLab disclosed CVE-2026-85706 (CVSS score of 10.0) on September 10, 2026, a path traversal vulnerability in its repository commits API. CVE-2026-85706 affects GitLab’s repository commits API and can let attackers access files they should not see. A crafted request [&#8230;]",
+    "pub_date": "2026-09-13T12:26:54+00:00",
+    "cve_ids": [
+      "CVE-2026-85706"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "GitLab CVE-2026-85706: One HTTP Request, No Authen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "23e5870c099e88cdd24cf1823c8d2e85",
+    "source": "Security Affairs",
+    "title": "Conti Hacker Who Built Malware and Attacked Victims Gets Four-Year Sentence",
+    "link": "https://securityaffairs.com/198931/cyber-crime/conti-hacker-who-built-malware-and-attacked-victims-gets-four-year-sentence.html",
+    "summary": "Ukrainian lawyer and Conti malware developer Oleksii Lytvynenko was sentenced to four years in U.S. prison for ransomware attacks. Oleksii Oleksiyovych Lytvynenko had, by most accounts, a fairly ordinary legal career in Ukraine before he switched to writing malware. A US federal court sentenced the 44-year-old to four years in prison this week for conspiracy [&#8230;]",
+    "pub_date": "2026-09-13T09:19:42+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Conti Hacker Who Built Malware and Attacked Victim",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8d1e03a6bc6d995bdc90137d52c31dab",
+    "source": "Help Net Security",
+    "title": "Week in review: Linux rootkit deployed on F5 BIG-IP APM devices, Cisco FMC bugs exploited",
+    "link": "https://www.helpnetsecurity.com/2026/09/13/week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devices-cisco-fmc-bugs-exploited/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Zero trust AI agents demand a different kind of security In this interview, Chris Webber, VP, Product Marketing at Teleport, explains why zero trust principles need to change for AI agents. He covers how agents act fast, unpredictably, and continuously, and why old ideas like least privilege and point-in-time verification fall short. AI-Infra-Guard: Open-source security scanner for AI systems Tencent’s &#8230; <a href=\"https://www.helpnetsecurity.com/2026/09/13/week-in-review-linux-rootkit-deployed-on-f5-big-ip-apm-devices-cisco-fmc-bugs-exploited/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/09/13/week-in-revie",
+    "pub_date": "2026-09-13T08:00:57+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: Linux rootkit deployed on F5 BIG-I",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e2b1766dd072b1afad15009285648924",
+    "source": "CrowdStrike",
+    "title": "September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "September 2026 Patch Tuesday: Two Exploited Zero-D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "db2b25eff2236dff0c85c8902080f903",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Delivers the Next Evolution of the Agentic SOC",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Delivers the Next Evolution of the Age",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "03c7a316fa4387b20f866f4d73b2a3a1",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Extends Endpoint Security to Stop Soft",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d0daaab2005f0b396defafbb1490b5eb",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Announces Agentic Identity Provider",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Announces Agentic Identity Provider",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9db3bd54d425ac036cab919c20715655",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Guardian Defines the Next Generation of AI Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Falcon Guardian Defines the Next Gener",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f1ba6aac3f9347365f738179efa8fd5b",
+    "source": "CrowdStrike",
+    "title": "Peer Pressure: Inside the Sality Botnet Disruption Operation",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Peer Pressure: Inside the Sality Botnet Disruption",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2c0b68ccbf2bb2c367c2c03d25e0b429",
+    "source": "CrowdStrike",
+    "title": "Agents of Chaos: A New $100K Agentic Security Challenge",
+    "link": "https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Agents of Chaos: A New $100K Agentic Security Chal",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0486ab5b0b5b7d9ce37f7892cf6e5c0d",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar&trade;: Cloud Workload Protection Platforms",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named Strongest Overall Leader in 2026",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2a15040cf074060b9f3b0d922b9c0d09",
+    "source": "CrowdStrike",
+    "title": "Benchmaxxing: When the Benchmark Becomes the Target",
+    "link": "https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Benchmaxxing: When the Benchmark Becomes the Targe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a9ad5ea1fc8ef699b5ccd7cb989806ae",
+    "source": "CrowdStrike",
+    "title": "Teaching AI to Reason Through Detection Triage",
+    "link": "https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Teaching AI to Reason Through Detection Triage",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
