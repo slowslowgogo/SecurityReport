@@ -1,0 +1,1013 @@
+[
+  {
+    "uid": "45bcdb6a972c6c50ca4a3af6d9c2c658",
+    "source": "BleepingComputer",
+    "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+    "link": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+    "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing technique earned over $20,000 in bounties and two CVEs. [...]",
+    "pub_date": "2026-09-19T14:56:31+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "BragJack attacks hijack AI browser agents through ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9a98d3dbab0618cd436e960fb0010f28",
+    "source": "BleepingComputer",
+    "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+    "link": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+    "summary": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen cryptocurrency to North Korea. [...]",
+    "pub_date": "2026-09-19T14:05:15+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "North Korean WaterPlum hackers infected 30,000 dev",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d61477a7ce1145674c7dfa3d1376071",
+    "source": "BleepingComputer",
+    "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+    "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+    "pub_date": "2026-09-19T13:48:32+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "ShinyHunters hacks Clop leak site, threatens to ex",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "840f84735fec88fcf5985a0b3b7a3852",
+    "source": "BleepingComputer",
+    "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
+    "link": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
+    "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during calls, and shuts down permanently on September 27. We tried it and read the fine print. [...]",
+    "pub_date": "2026-09-19T11:38:20+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Viral AI actress' hotline face-scans every caller,",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1f0bd9d7b55cf7f1f9f85c877213230c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-94057 - Exim SMTP Smuggling Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-94057",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-94057\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>Exim before 4.100.1 allows SMTP smuggling in which the received message does not match any sent message, and instead depends on crafted data sent after a rejection during DATA processing.\n  <br />\n  <strong>Severity:</strong> 4.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:11+00:00",
+    "cve_ids": [
+      "CVE-2026-94057"
+    ],
+    "cvss": 4.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.0,
+      "description": "Exim before 4.100.1 allows SMTP smuggling in which the received message does not match any sent message, and instead depends on crafted data sent after a rejection during DATA processing.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-94057 - Exim SMTP Smuggling Vulnerability",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7785701fd950c2978b42d00c5d10f8d2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-94056 - Exim Information Disclosure Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-94056",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-94056\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>Exim before 4.100.1, when Proxy-Protocol is used with an attacker-controlled proxy, allows attackers to read certain uninitialized data from stack memory.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:11+00:00",
+    "cve_ids": [
+      "CVE-2026-94056"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Exim before 4.100.1, when Proxy-Protocol is used with an attacker-controlled proxy, allows attackers to read certain uninitialized data from stack memory.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-94056 - Exim Information Disclosure Vulne",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c29a8a8888922e605b403086103465f1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-94055 - Exim Use-After-Free Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-94055",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-94055\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>Exim before 4.100.1, when certain non-default TLS settings are used with GnuTLS, has a use-after-free.\n  <br />\n  <strong>Severity:</strong> 3.7 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-94055"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "Exim before 4.100.1, when certain non-default TLS settings are used with GnuTLS, has a use-after-free.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-94055 - Exim Use-After-Free Vulnerability",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "358aa39d4aa9626678b1916d9dac7a18",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-94054 - Exim Proxy-Protocol Out-of-Bounds Write",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-94054",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-94054\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>Exim before 4.100.1, when Proxy-Protocol is used with an attacker-controlled proxy, has an out-of-bounds write.\n  <br />\n  <strong>Severity:</strong> 7.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-94054"
+    ],
+    "cvss": 7.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.0,
+      "description": "Exim before 4.100.1, when Proxy-Protocol is used with an attacker-controlled proxy, has an out-of-bounds write.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-94054 - Exim Proxy-Protocol Out-of-Bounds",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cc6b437132fa9c2dd2512d1003fa28c9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93993 - Mistral Vibe before 2.25.5 Remote Code Execution via git post-checkout",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93993",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93993\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>Mistral Vibe before 2.25.5 contains a remote code execution vulnerability in the worktree creation process that executes git hooks before trust validation. Attackers can supply a repository with a crafted post-checkout hook that executes arbitrary shell commands with the privileges of the user running Vibe.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-93993"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "Mistral Vibe before 2.25.5 contains a remote code execution vulnerability in the worktree creation process that executes git hooks before trust validation. Attackers can supply a repository with a crafted post-checkout hook that executes arbitrary shell commands with the privileges of the user runni",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93993 - Mistral Vibe before 2.25.5 Remote",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b5c1fa12fcb34a177493ee82eecbd5b2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93992 - Gopeed through 2.0.0-beta.3 Arbitrary File Write via Path Traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93992",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93992\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>Gopeed through 2.0.0-beta.3 contains a path traversal vulnerability in archive extraction that allows attackers to write arbitrary files outside the extraction directory. Attackers can craft malicious archives with entries containing directory traversal sequences that bypass validation, enabling file write operations when users download and extract archives with AutoExtract enabled.\n  <br />\n  <strong>Severity:</strong> 8.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-93992"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "Gopeed through 2.0.0-beta.3 contains a path traversal vulnerability in archive extraction that allows attackers to write arbitrary files outside the extraction directory. Attackers can craft malicious archives with entries containing directory traversal sequences that bypass validation, enabling fil",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93992 - Gopeed through 2.0.0-beta.3 Arbit",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2bc83606576e12f88f90caa552052d3d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93991 - Argo Workflows 4.1.0 through 4.1.3 Cross-Namespace Disclosure via Negated Selector",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93991",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93991\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>Argo Workflows versions 4.1.0 through 4.1.3 contain an authorization bypass vulnerability in ListArchivedWorkflows that fails to apply cluster-scoped access review when the metadata.namespace field selector uses the NotEquals operator. Attackers with namespace-scoped list permissions can use a negated namespace field selector to retrieve archived workflows from all other namespaces, exposing spec arguments, parameter values, and annotations.\n  <br />\n  <strong>Severity:</strong> 8.3 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-93991"
+    ],
+    "cvss": 7.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.7,
+      "description": "Argo Workflows versions 4.1.0 through 4.1.3 contain an authorization bypass vulnerability in ListArchivedWorkflows that fails to apply cluster-scoped access review when the metadata.namespace field selector uses the NotEquals operator. Attackers with namespace-scoped list permissions can use a negat",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93991 - Argo Workflows 4.1.0 through 4.1.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "25717bea282be53383e5741cd3101cd9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93990 - Expat through 2.8.4 Malformed UTF-16 Acceptance via Unchecked Surrogate",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93990",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93990\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>Expat through 2.8.4 fails to validate low surrogates following high surrogates in UTF-16 input, allowing malformed UTF-16 sequences to be accepted. Attackers can craft UTF-16 encoded XML with lone high surrogates that consume following code units, hiding markup characters from the parser and enabling XML injection attacks.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-93990"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Expat through 2.8.4 fails to validate low surrogates following high surrogates in UTF-16 input, allowing malformed UTF-16 sequences to be accepted. Attackers can craft UTF-16 encoded XML with lone high surrogates that consume following code units, hiding markup characters from the parser and enablin",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93990 - Expat through 2.8.4 Malformed UTF",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3f04183a348213cf9eb54eeafdd50beb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93989 - vLLM through 0.29.0 Cross-Request Logits Corruption via bad_words",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93989",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93989\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>vLLM through 0.29.0 fails to properly validate bad_words token indices against the model's generation output width in SamplingParams.update_from_tokenizer(). Attackers can supply out-of-bounds token indices that corrupt logits memory of concurrent requests, causing different in-flight HTTP requests to return incorrect tokens.\n  <br />\n  <strong>Severity:</strong> 3.1 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-93989"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "vLLM through 0.29.0 fails to properly validate bad_words token indices against the model's generation output width in SamplingParams.update_from_tokenizer(). Attackers can supply out-of-bounds token indices that corrupt logits memory of concurrent requests, causing different in-flight HTTP requests ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93989 - vLLM through 0.29.0 Cross-Request",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a1908c99f190264386f5a81fe07b1051",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93988 - QloApps through 1.7.0 Arbitrary File Read via getEmailHTML",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93988",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93988\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>QloApps through 1.7.0 contains a path traversal vulnerability in the getEmailHTML action of admin/ajax.php that allows authenticated back-office users to read arbitrary files. Attackers can supply relative path sequences in the email parameter to bypass directory restrictions and access sensitive files including database credentials and configuration data.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:09+00:00",
+    "cve_ids": [
+      "CVE-2026-93988"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "QloApps through 1.7.0 contains a path traversal vulnerability in the getEmailHTML action of admin/ajax.php that allows authenticated back-office users to read arbitrary files. Attackers can supply relative path sequences in the email parameter to bypass directory restrictions and access sensitive fi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93988 - QloApps through 1.7.0 Arbitrary F",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "25ec6626861984da7ecc956a84f7b21b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93956 - olivier-ls PHP-FTS Search SearchEngine.php buildHighlights cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93956",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93956\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in olivier-ls PHP-FTS up to 1.1.2. Affected by this issue is the function SearchEngine::buildHighlights of the file src/SearchEngine.php of the component Search Engine. Executing a manipulation of the argument Query can lead to cross site scripting. The attack may be launched remotely. The exploit has been published and may be used. Upgrading to version 1.1.3 can resolve this issue. This patch is called 0b2fae333d6b022da7ed4c43e2d41aa03f91dff3. The affected component should be upgraded. The vendor was contacted early, responded in a very professional manner and quickly released a fixed version of the affec",
+    "pub_date": "2026-09-19T23:17:09+00:00",
+    "cve_ids": [
+      "CVE-2026-93956"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "A flaw has been found in olivier-ls PHP-FTS up to 1.1.2. Affected by this issue is the function SearchEngine::buildHighlights of the file src/SearchEngine.php of the component Search Engine. Executing a manipulation of the argument Query can lead to cross site scripting. The attack may be launched r",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93956 - olivier-ls PHP-FTS Search SearchE",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "de1175e66c279a8f5deb5143c24db116",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93955 - grimmory-tools grimmory Download Endpoint KoboController.java streamFileToResponse authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93955",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93955\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in grimmory-tools grimmory up to 3.3.3/3.4.1. Affected by this vulnerability is the function streamFileToResponse of the file backend/src/main/java/org/booklore/controller/KoboController.java of the component Download Endpoint. Performing a manipulation of the argument bookId results in authorization bypass. The attack may be initiated remotely. The exploit is now public and may be used. Issue #2431 is closed as completed, but its only comment states that the issue “has already been reported elsewhere.” No fixing commit or pull request is identified there.\n  <br />\n  <strong>Severity:</strong> 4.3 |",
+    "pub_date": "2026-09-19T23:17:09+00:00",
+    "cve_ids": [
+      "CVE-2026-93955"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was detected in grimmory-tools grimmory up to 3.3.3/3.4.1. Affected by this vulnerability is the function streamFileToResponse of the file backend/src/main/java/org/booklore/controller/KoboController.java of the component Download Endpoint. Performing a manipulation of the argument b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93955 - grimmory-tools grimmory Download ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b492b3a7b5da2c1092f401e15f2bdcb4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-89155 - Rejected reason: This CVE ID has been rejected or",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-89155",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-89155\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 11:17 p.m. | 47 minutes ago\n  <br />\n  <strong>Description :</strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T23:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-89155"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-89155 - Rejected reason: This CVE ID has ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5a87f8c63cad83d884917de13f0d68ec",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93954 - grimmory-tools grimmory Settings API Endpoint AppSettingController.java AppSettingController.getAppSettings authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93954",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93954\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 10:16 p.m. | 1 hour, 47 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in grimmory-tools grimmory up to 3.3.3/3.4.1. Affected is the function AppSettingController.getAppSettings of the file backend/src/main/java/org/booklore/controller/AppSettingController.java of the component Settings API Endpoint. Such manipulation leads to incorrect authorization. The attack can be launched remotely. The exploit has been disclosed publicly and may be used. The name of the patch is 2b66ca6df8110f6b512e030b54c16b9fbe318f17. Applying a patch is advised to resolve this issue. PR #2558, merged as 53abc8b, moved the OIDC secret into a dedicated setting, but did not ",
+    "pub_date": "2026-09-19T22:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-93954"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A security vulnerability has been detected in grimmory-tools grimmory up to 3.3.3/3.4.1. Affected is the function AppSettingController.getAppSettings of the file backend/src/main/java/org/booklore/controller/AppSettingController.java of the component Settings API Endpoint. Such manipulation leads to",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93954 - grimmory-tools grimmory Settings ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1e49ab093cf3b619de54ea63f5147ce8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82672 - Unvalidated chunk-size line tail in Mint HTTP/1 client enables response smuggling against strict intermediaries on pooled connections",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82672",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82672\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 5:16 p.m. | 6 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') vulnerability in elixir-mint mint allows a malicious HTTP/1 server to desynchronize a strict intermediary and the Mint client on a pooled connection, enabling response-queue poisoning against subsequent requests that share the connection.\n\nMint.HTTP1.Parse.chunk_size/1 in lib/mint/http1/parse.ex stops at the first non-hexadecimal byte of a chunked response's chunk-size line and returns the remainder unexamined. Mint.HTTP1.decode_body/5 in lib/mint/http1.ex then discards every byte up to the CRLF with Parse.ignore_until_crlf/1, so the accept",
+    "pub_date": "2026-09-19T17:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-82672"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82672 - Unvalidated chunk-size line tail ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ff7bed44dfa46a8e6e6319ce637a26d1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-82560 - Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-82560",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-82560\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 4:16 p.m. | 7 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width.\n\nEach =over adds its indent to the margin, which wrap() subtracts from the output width to get the space available for text. When that space reaches zero, the line-splitting substitution matches the empty string, and the loop consumes no input while appending the margin padding on every pass.\n\nFormatting an attacker-supplied POD document never returns, and the output grows until memory is exhausted.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit th",
+    "pub_date": "2026-09-19T16:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-82560"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-82560 - Pod::Text versions before 6.1.1 f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "efdc879e49960dedbbd993416a55ce35",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-94001 - Keycloak-services: keycloak-services: admin credential delete bypasses denied reset-password permission",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-94001",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-94001\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 3:17 p.m. | 8 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw was found in the Admin REST API of Keycloak, an open-source identity and access management solution. The endpoint used for deleting user credentials does not correctly check for fine-grained reset-password permissions. This allows a delegated administrator, who should be restricted from resetting passwords, to delete a user's password credentials, resulting in the user being unable to log in.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T15:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-94001"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "A flaw was found in the Admin REST API of Keycloak, an open-source identity and access management solution. The endpoint used for deleting user credentials does not correctly check for fine-grained reset-password permissions. This allows a delegated administrator, who should be restricted from reset",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-94001 - Keycloak-services: keycloak-servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8aeb5c4590d7c33f21ec33b19b7967e3",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-94000 - Keycloak-services: keycloak-services: delegated admin with manage-users can escalate to realm-admin via group membership",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-94000",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-94000\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 3:17 p.m. | 8 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw was found in the Admin REST API of Keycloak, an open-source identity and access management solution. The issue occurs in the group-membership endpoints where the system fails to check if a group grants administrative privileges before allowing a user to be added. This allows a delegated administrator with limited permissions to add themselves to a high-privilege group, potentially gaining full control over the entire realm.\n  <br />\n  <strong>Severity:</strong> 6.6 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T15:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-94000"
+    ],
+    "cvss": 6.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.6,
+      "description": "A flaw was found in the Admin REST API of Keycloak, an open-source identity and access management solution. The issue occurs in the group-membership endpoints where the system fails to check if a group grants administrative privileges before allowing a user to be added. This allows a delegated admin",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-94000 - Keycloak-services: keycloak-servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d67bec03ece8fb6aa9750ff5ce017c54",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93999 - Keycloak-services: keycloak-services: token refresh continues issuing tokens for disabled audience clients",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93999",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93999\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 3:17 p.m. | 8 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw was found in the OIDC protocol implementation of Keycloak, an open-source identity and access management solution. The issue occurs during the token refresh process when the server restores requested audiences from stored client IDs. Keycloak fails to verify if the target audience client is still enabled before issuing a new access token. This allows an application with an existing refresh token to continue obtaining valid access tokens for a disabled client, potentially bypassing administrative access controls for resource servers that rely on offline JWT validation.\n  <br />\n  <strong>Severity:</strong> 4.2 | M",
+    "pub_date": "2026-09-19T15:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-93999"
+    ],
+    "cvss": 4.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.2,
+      "description": "A flaw was found in the OIDC protocol implementation of Keycloak, an open-source identity and access management solution. The issue occurs during the token refresh process when the server restores requested audiences from stored client IDs. Keycloak fails to verify if the target audience client is s",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93999 - Keycloak-services: keycloak-servi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "79be706f86f2012e9c5391bf787de833",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93987 - rclone serve docker Path Traversal via Volume Name",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93987",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93987\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 12:16 p.m. | 11 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>rclone versions 1.56.0 through 1.75.0 contain a path traversal vulnerability in the `rclone serve docker` volume plugin. newVolume() in cmd/serve/docker/volume.go computes a volume's mountpoint as filepath.Join(drv.root, name) from the attacker-supplied `name` field of a Docker VolumeDriver.Create request without verifying that the result stays within drv.root (default /var/lib/docker-volumes/rclone), and checkMountpoint() then creates that directory with file.MkdirAll before mounting. A volume name containing enough `..` components (e.g. \"../../../../../../etc\") therefore resolves outside the base directory, allowing",
+    "pub_date": "2026-09-19T12:16:42+00:00",
+    "cve_ids": [
+      "CVE-2026-93987"
+    ],
+    "cvss": 3.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.4,
+      "description": "rclone versions 1.56.0 through 1.75.0 contain a path traversal vulnerability in the `rclone serve docker` volume plugin. newVolume() in cmd/serve/docker/volume.go computes a volume's mountpoint as filepath.Join(drv.root, name) from the attacker-supplied `name` field of a Docker VolumeDriver.Create r",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93987 - rclone serve docker Path Traversa",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a3ae6ff88f0d95535ad818880041cf8a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93986 - rclone before 1.75.1 Path Traversal via Directory Listing Names",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93986",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93986\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 12:16 p.m. | 11 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>rclone before 1.75.1 fails to confine names from server and third-party listing responses to the listed directory, allowing path traversal sequences in object names. Attackers can craft special names containing forward slashes and parent directory references to potentially write outside the destination root, though downstream protections in the local backend currently block actual file escape.\n  <br />\n  <strong>Severity:</strong> 3.1 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T12:16:42+00:00",
+    "cve_ids": [
+      "CVE-2026-93986"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "rclone before 1.75.1 fails to confine names from server and third-party listing responses to the listed directory, allowing path traversal sequences in object names. Attackers can craft special names containing forward slashes and parent directory references to potentially write outside the destinat",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93986 - rclone before 1.75.1 Path Travers",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "11649496937dff201ff3f95fde16962f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93985 - OpenPanel js-runtime JavaScript Template Sandbox Escape RCE",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93985",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93985\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 12:16 p.m. | 11 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>OpenPanel js-runtime through commit bad75bdd contains a sandbox escape vulnerability in the JavaScript webhook template validator that fails to block computed member access to constructor chains. Attackers with project write access can create webhook templates using computed property notation to access Function constructor and execute arbitrary code in the worker process.\n  <br />\n  <strong>Severity:</strong> 9.9 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T12:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-93985"
+    ],
+    "cvss": 9.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.9,
+      "description": "OpenPanel js-runtime through commit bad75bdd contains a sandbox escape vulnerability in the JavaScript webhook template validator that fails to block computed member access to constructor chains. Attackers with project write access can create webhook templates using computed property notation to acc",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93985 - OpenPanel js-runtime JavaScript T",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "309608049838bc9fd9ea7d21e4c281d1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93984 - OpenPanel API Authentication Bypass via Unverified Client Secret",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93984",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93984\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 12:16 p.m. | 11 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>OpenPanel tracking API through commit bad75bddc74d12d36cfb843f4531d3b830a8d994 fails to verify client secret cryptographic hash before authorizing revenue events and bot filtering. Attackers with only a public client ID can supply arbitrary dummy secrets to inject forged revenue metrics and bypass bot detection filters.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T12:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-93984"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "OpenPanel tracking API through commit bad75bddc74d12d36cfb843f4531d3b830a8d994 fails to verify client secret cryptographic hash before authorizing revenue events and bot filtering. Attackers with only a public client ID can supply arbitrary dummy secrets to inject forged revenue metrics and bypass b",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93984 - OpenPanel API Authentication Bypa",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "14c2572254ed7d8e1c4162a51b087caf",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93983 - OpenPanel SQL Injection via ClickHouse Property Key Filter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93983",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93983\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 12:16 p.m. | 11 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>OpenPanel through commit bad75bdd fails to escape property keys in ClickHouse SQL queries, allowing authenticated users to inject boolean SQL terms. Attackers can supply crafted filter names to bypass project isolation and access metrics from other projects.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T12:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-93983"
+    ],
+    "cvss": 5.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.0,
+      "description": "OpenPanel through commit bad75bdd fails to escape property keys in ClickHouse SQL queries, allowing authenticated users to inject boolean SQL terms. Attackers can supply crafted filter names to bypass project isolation and access metrics from other projects.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93983 - OpenPanel SQL Injection via Click",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c74d0af4a2d7cc7e947d39801d128bbc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-93982 - OpenPanel MCP Authentication Token in Query Parameter Logged Plaintext",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-93982",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-93982\n  <br />\n  <strong>Published :</strong> Sept. 19, 2026, 12:16 p.m. | 11 hours, 47 minutes ago\n  <br />\n  <strong>Description :</strong>OpenPanel through commit bad75bdd writes Model Context Protocol authentication tokens from URL query parameters to plaintext application logs without redaction. Attackers with access to application stdout or centralized logging systems can capture base64-encoded credentials to replay MCP requests and access project analytics.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-09-19T12:16:41+00:00",
+    "cve_ids": [
+      "CVE-2026-93982"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "OpenPanel through commit bad75bdd writes Model Context Protocol authentication tokens from URL query parameters to plaintext application logs without redaction. Attackers with access to application stdout or centralized logging systems can capture base64-encoded credentials to replay MCP requests an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-93982 - OpenPanel MCP Authentication Toke",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9d78f154ba43ab2817f552991340be8c",
+    "source": "SecurityWeek",
+    "title": "TigerByte Cyber Emerges From Stealth With $3 Million in Funding",
+    "link": "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/",
+    "summary": "<p>The company has secured over $7 million in contracts with US government agencies, including the US Space Force, the US Navy, and DARPA.</p>\n<p>The post <a href=\"https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/\">TigerByte Cyber Emerges From Stealth With $3 Million in Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-09-19T14:30:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "TigerByte Cyber Emerges From Stealth With $3 Milli",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4a256e8b10d32acd27a408f194fe2367",
+    "source": "The Hacker News",
+    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+    "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+    "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.\n\nThe chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.\n\nThis was security research,",
+    "pub_date": "2026-09-19T18:36:53+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Claude Opus 5 Helped Researchers Take Over OpenAI ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c5fc10fe5d8f5e286aca8ba8af77ab63",
+    "source": "The Hacker News",
+    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+    "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+    "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly.\n\nBut that still does not answer the question that matters: Can it actually be exploited in your environment?\n\nMythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
+    "pub_date": "2026-09-19T13:28:48+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Can You Prove a New CVE Is Exploitable Before Atta",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e581b74911094295d9a69bf45b9dbd8c",
+    "source": "The Hacker News",
+    "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+    "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+    "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in",
+    "pub_date": "2026-09-19T13:28:41+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Identity Visibility in 2026: The Foundation of Ide",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "afe49286d1e520eb055940793ed242b8",
+    "source": "The Hacker News",
+    "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+    "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability.\n\nThe vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior.\n\n\"SolarWinds",
+    "pub_date": "2026-09-19T09:31:17+00:00",
+    "cve_ids": [
+      "CVE-2026-28326"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SolarWinds Patches ARM Hard-Coded Key Flaw Enablin",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "56b4e7fd2912dd86bba1627585438cce",
+    "source": "The Hacker News",
+    "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+    "summary": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet.\n\nThe vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution.\n\n\"Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote",
+    "pub_date": "2026-09-19T08:18:54+00:00",
+    "cve_ids": [
+      "CVE-2026-58138"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Critical Pre-Auth RCE in Orkes Conductor Workflow ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fa6abc4df50dae08c052d40583146921",
+    "source": "The Hacker News",
+    "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+    "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.\n\nThe incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed",
+    "pub_date": "2026-09-19T07:51:34+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Google Gemini Broke Into Real Company Systems Afte",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0a43adaf72104f7bbf6872c875126f2d",
+    "source": "The Hacker News",
+    "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+    "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+    "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18.\n\nThe French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May's&nbsp;supply chain attack on TanStack, in which malicious versions of TanStack's npm packages stole credentials from",
+    "pub_date": "2026-09-19T07:14:54+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdSec Says TanStack npm Attack Led to Copy of 1",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "052d204b655aa7e8b4372a358d839ea4",
+    "source": "The Hacker News",
+    "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2025-39682 (CVSS score: 9.8) - An improper check for unusual or exceptional conditions vulnerability in the TLS receive path",
+    "pub_date": "2026-09-19T06:24:10+00:00",
+    "cve_ids": [
+      "CVE-2025-39682"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CISA Flags Three Linux Kernel Vulnerabilities Expl",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7fdcde0b13882f1ee00497e4c1f47ca0",
+    "source": "Dark Reading",
+    "title": "[Virtual Event] Cybersecurity Outlook 2027",
+    "link": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
+    "summary": "",
+    "pub_date": "2026-12-03T16:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "[Virtual Event] Cybersecurity Outlook 2027",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "92a269921f6cc2a2249a74d6f393c4f6",
+    "source": "Security Affairs",
+    "title": "Google Gemini also Broke Out of Its Test Environment",
+    "link": "https://securityaffairs.com/199392/ai/google-gemini-also-broke-out-of-its-test-environment.html",
+    "summary": "Google Gemini escaped a cyber test environment, reached three real companies, and exposed why AI security tests need strict isolation. Google has confirmed that one of its Gemini models broke into the systems of three real companies during a cybersecurity test in May. The incident is the first publicly known case in which a Google [&#8230;]",
+    "pub_date": "2026-09-19T14:09:34+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Google Gemini also Broke Out of Its Test Environme",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fd5406e311b38548ea73661333baaeb6",
+    "source": "Security Affairs",
+    "title": "AI Helps Hackers Hijack OpenAI Staff Accounts Through a Forum",
+    "link": "https://securityaffairs.com/199378/ai/ai-helps-hackers-hijack-openai-staff-accounts-through-a-forum.html",
+    "summary": "AI helped researchers exploit a Discourse flaw in under 72 hours, hijacking OpenAI staff accounts and exposing the risks of shared SSO. Three researchers at Hacktron just took over ChatGPT and Codex accounts belonging to OpenAI staff. The attack did not rely on phishing techniques or a leaked password. Through an image upload on OpenAI&#8217;s [&#8230;]",
+    "pub_date": "2026-09-19T13:01:08+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "AI Helps Hackers Hijack OpenAI Staff Accounts Thro",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bd23f3879d80f8647171269260766d46",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: External Threat Intelligence Service Providers, Q3 2026",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in The Forrester Wave&t",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a778c6f2e2c6ff8edd5184e0fe3d848e",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike SafeMind: When the Best Offense Builds the Best Defense",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike SafeMind: When the Best Offense Builds",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "70d9eec64b1818b86980d22f46fe8a22",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Accelerates Real-Time Data Classification with On-Device AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Accelerates Real-Time Data Classificat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c7475877c8c7adc0dff404bf6c0a79f6",
+    "source": "CrowdStrike",
+    "title": "PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting",
+    "link": "https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "PhantomRaven: An LLM-Generated Information Stealer",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e2b1766dd072b1afad15009285648924",
+    "source": "CrowdStrike",
+    "title": "September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "September 2026 Patch Tuesday: Two Exploited Zero-D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "db2b25eff2236dff0c85c8902080f903",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Delivers the Next Evolution of the Agentic SOC",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Delivers the Next Evolution of the Age",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "03c7a316fa4387b20f866f4d73b2a3a1",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Extends Endpoint Security to Stop Soft",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d0daaab2005f0b396defafbb1490b5eb",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Announces Agentic Identity Provider",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Announces Agentic Identity Provider",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9db3bd54d425ac036cab919c20715655",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Falcon Guardian Defines the Next Generation of AI Security",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Falcon Guardian Defines the Next Gener",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f1ba6aac3f9347365f738179efa8fd5b",
+    "source": "CrowdStrike",
+    "title": "Peer Pressure: Inside the Sality Botnet Disruption Operation",
+    "link": "https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Peer Pressure: Inside the Sality Botnet Disruption",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
