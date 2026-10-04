@@ -1,0 +1,932 @@
+[
+  {
+    "uid": "5f113e136b8440b3cab4c5a0097c0dfe",
+    "source": "BleepingComputer",
+    "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+    "link": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+    "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]",
+    "pub_date": "2026-10-03T23:12:34+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Google Gemini could soon get full access to your M",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c861057374d49283b324971736e94098",
+    "source": "BleepingComputer",
+    "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+    "summary": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
+    "pub_date": "2026-10-03T19:09:38+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "ShinyHunters hacker reportedly detained in Jordan,",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5687b230902f95b0b2d1db71e01fcb4c",
+    "source": "BleepingComputer",
+    "title": "Danish university DTU breach exposes data of up to 200,000 people",
+    "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+    "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [...]",
+    "pub_date": "2026-10-03T14:35:20+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Danish university DTU breach exposes data of up to",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3b455aed21c4fac8e4e1c4bae872d87f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105130 - LaraDashboard 1.4.0 before 1.4.8 Race Condition Bypasses Per-IP Registration Limit",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105130",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105130\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 12:16 a.m. | 1 hour, 23 minutes ago\n  <br />\n  <strong>Description :</strong>LaraDashboard from 1.4.0 before 1.4.8 contains a race condition vulnerability in RegisterController::register that allows unauthenticated attackers to bypass the per-IP daily registration limit. Attackers can send many concurrent registration requests from one IP so all pass RegistrationGuardService::hasExceededIpLimit before recordRegistration runs, creating accounts in bulk and defeating anti-automation controls.\n  <br />\n  <strong>Severity:</strong> 6.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T00:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-105130"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "LaraDashboard from 1.4.0 before 1.4.8 contains a race condition vulnerability in RegisterController::register that allows unauthenticated attackers to bypass the per-IP daily registration limit. Attackers can send many concurrent registration requests from one IP so all pass RegistrationGuardService",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105130 - LaraDashboard 1.4.0 before 1.4.8",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e6b501750b7b70055459d0477dc53f18",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105129 - LaraDashboard before 1.4.8 Incorrect Authorization Exposes Secrets via Settings API",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105129",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105129\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 12:16 a.m. | 1 hour, 23 minutes ago\n  <br />\n  <strong>Description :</strong>LaraDashboard before 1.4.8 contains an incorrect authorization vulnerability that allows authenticated users with only settings.view permission to read stored secrets through the settings API. Attackers can query GET /api/settings or /api/settings/{option_name} to retrieve plaintext AI provider API keys, mail credentials, passwords and tokens.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T00:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-105129"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "LaraDashboard before 1.4.8 contains an incorrect authorization vulnerability that allows authenticated users with only settings.view permission to read stored secrets through the settings API. Attackers can query GET /api/settings or /api/settings/{option_name} to retrieve plaintext AI provider API ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105129 - LaraDashboard before 1.4.8 Incor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0330781df68fb9af1c1702e6d0907752",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105128 - LaraDashboard before 1.4.8 Open Redirect via Email Template Builder redirect_url",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105128",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105128\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 12:16 a.m. | 1 hour, 23 minutes ago\n  <br />\n  <strong>Description :</strong>LaraDashboard before 1.4.8 contains an open redirect vulnerability that allows remote attackers to redirect users by supplying an unvalidated redirect_url parameter to EmailTemplateController builder and builderEdit. Attackers can send crafted builder links to logged-in users with email template permissions so saving a template navigates them to attacker-controlled phishing sites.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T00:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-105128"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "LaraDashboard before 1.4.8 contains an open redirect vulnerability that allows remote attackers to redirect users by supplying an unvalidated redirect_url parameter to EmailTemplateController builder and builderEdit. Attackers can send crafted builder links to logged-in users with email template per",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105128 - LaraDashboard before 1.4.8 Open ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f0c6c734a6dadc6eaff70536cd986613",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105127 - LaraDashboard 1.4.2 before 1.4.8 Resource Exhaustion via Password Recovery Endpoints",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105127",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105127\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 12:16 a.m. | 1 hour, 23 minutes ago\n  <br />\n  <strong>Description :</strong>LaraDashboard 1.4.2 before 1.4.8 applies advanced email validation to unauthenticated forgot-password and reset-password requests, triggering DNS lookups and paid AbstractAPI verification calls. Unauthenticated attackers can submit arbitrary addresses to exhaust the verification quota, making validation fail open for all public forms, and probe domain resolution.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T00:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-105127"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "LaraDashboard 1.4.2 before 1.4.8 applies advanced email validation to unauthenticated forgot-password and reset-password requests, triggering DNS lookups and paid AbstractAPI verification calls. Unauthenticated attackers can submit arbitrary addresses to exhaust the verification quota, making valida",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105127 - LaraDashboard 1.4.2 before 1.4.8",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "24a16907d22b1d613999fda1a0fa7da0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105126 - LaraDashboard before 1.4.8 Privilege Escalation via Superadmin Role Tampering",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105126",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105126\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 12:16 a.m. | 1 hour, 23 minutes ago\n  <br />\n  <strong>Description :</strong>LaraDashboard before 1.4.8 contains an improper privilege management vulnerability that allows authenticated Admin users to escalate to Superadmin by editing or renaming roles. Attackers with role.edit can rename their role to Superadmin or grant user.login_as permissions to take over accounts and reach core upgrade and module installation functions for code execution.\n  <br />\n  <strong>Severity:</strong> 8.6 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T00:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-105126"
+    ],
+    "cvss": 7.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.2,
+      "description": "LaraDashboard before 1.4.8 contains an improper privilege management vulnerability that allows authenticated Admin users to escalate to Superadmin by editing or renaming roles. Attackers with role.edit can rename their role to Superadmin or grant user.login_as permissions to take over accounts and r",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105126 - LaraDashboard before 1.4.8 Privi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "67a12d1f4b9ba2fc912af491235afb74",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105125 - LaraDashboard before 1.4.8 Path Traversal via /api/translations/{lang} Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105125",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105125\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 12:16 a.m. | 1 hour, 23 minutes ago\n  <br />\n  <strong>Description :</strong>LaraDashboard before 1.4.8 contains a path traversal vulnerability that allows unauthenticated attackers to read JSON files by manipulating the {lang} route segment. On Windows hosts, attackers can send URL-encoded backslash sequences like ..%5C to escape resources/lang and read composer.json or other application JSON files.\n  <br />\n  <strong>Severity:</strong> 6.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T00:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-105125"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "LaraDashboard before 1.4.8 contains a path traversal vulnerability that allows unauthenticated attackers to read JSON files by manipulating the {lang} route segment. On Windows hosts, attackers can send URL-encoded backslash sequences like ..%5C to escape resources/lang and read composer.json or oth",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105125 - LaraDashboard before 1.4.8 Path ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2571e79a12efa7c92cfd9b758b955d2a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105124 - W (wcms) through 3.18.0 Unauthenticated Stored XSS via Login Username and Comments",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105124",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105124\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 12:16 a.m. | 1 hour, 23 minutes ago\n  <br />\n  <strong>Description :</strong>W (vincent-peugnet/wcms) through 3.18.0 contains a stored cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts via the login user field and visitor comment website field. Attackers can submit failed logins rendered unescaped in the adminlog.php log viewer, or comment URLs echoed into href attributes in editrightbar.php, executing script with administrator or editor privileges.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T00:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-105124"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "W (vincent-peugnet/wcms) through 3.18.0 contains a stored cross-site scripting vulnerability that allows unauthenticated attackers to inject scripts via the login user field and visitor comment website field. Attackers can submit failed logins rendered unescaped in the adminlog.php log viewer, or co",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105124 - W (wcms) through 3.18.0 Unauthen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "42ed1e1fcc364cd2e92a5c6138967061",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105123 - W (wcms) through 3.18.0 RCE and Arbitrary File Write via Media Upload API",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105123",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105123\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 12:16 a.m. | 1 hour, 23 minutes ago\n  <br />\n  <strong>Description :</strong>W (vincent-peugnet/wcms) through 3.18.0 contains a remote code execution vulnerability that allows authenticated editors to write arbitrary files by abusing the unvalidated path in POST /api/v0/media/upload/[*:path]. Attackers can upload .php files executed by the web server, use encoded ../ sequences to write outside the media directory, and delete arbitrary files via DELETE /api/v0/media/[*:path].\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T00:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-105123"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "W (vincent-peugnet/wcms) through 3.18.0 contains a remote code execution vulnerability that allows authenticated editors to write arbitrary files by abusing the unvalidated path in POST /api/v0/media/upload/[*:path]. Attackers can upload .php files executed by the web server, use encoded ../ sequenc",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105123 - W (wcms) through 3.18.0 RCE and ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "199697d9ae4f56d657378d1efe228f89",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-96451 - WordPress Ultimate Member plugin <= 2.13.1 - Privilege Escalation vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-96451",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-96451\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 4:16 p.m. | 9 hours, 22 minutes ago\n  <br />\n  <strong>Description :</strong>Authorization Bypass Through User-Controlled Key vulnerability in Ultimate Member Ultimate Member ultimate-member allows Privilege Escalation.This issue affects Ultimate Member: from n/a through 2.13.1.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T16:16:46+00:00",
+    "cve_ids": [
+      "CVE-2026-96451"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "Authorization Bypass Through User-Controlled Key vulnerability in Ultimate Member Ultimate Member ultimate-member allows Privilege Escalation.This issue affects Ultimate Member: from n/a through 2.13.1.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-96451 - WordPress Ultimate Member plugin ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3d83d8e40f20299f2f4a341778d8a896",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-103342 - WordPress Unlimited Elements For Elementor (Free Widgets, Addons, Templates) plugin <= 2.0.20 - Cross Site Scripting (XSS) vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-103342",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-103342\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 3:16 p.m. | 10 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Unlimited Elements Unlimited Elements For Elementor (Free Widgets, Addons, Templates) unlimited-elements-for-elementor allows Reflected XSS.This issue affects Unlimited Elements For Elementor (Free Widgets, Addons, Templates): from n/a through 2.0.20.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T15:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-103342"
+    ],
+    "cvss": 7.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.1,
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Unlimited Elements Unlimited Elements For Elementor (Free Widgets, Addons, Templates) unlimited-elements-for-elementor allows Reflected XSS.This issue affects Unlimited Elements For Elementor (Free ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-103342 - WordPress Unlimited Elements For",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c8dff2b1049b82e1f5c97c67a2896f2b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-103065 - WordPress Kirki plugin <= 6.3.1 - Arbitrary Code Execution vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-103065",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-103065\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 3:16 p.m. | 10 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>Improper Validation of Specified Quantity in Input vulnerability in Themeum Kirki kirki allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Kirki: from n/a through 6.3.1.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T15:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-103065"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "Improper Validation of Specified Quantity in Input vulnerability in Themeum Kirki kirki allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Kirki: from n/a through 6.3.1.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-103065 - WordPress Kirki plugin <= 6.3.1 ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2fcf6e4caf146f9e086c6dfc8d8708f5",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105122 - OpenAM before 16.1.3 SSRF via OpenID Connect Client jwks_uri",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105122",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105122\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>OpenAM before 16.1.3 contains a server-side request forgery vulnerability that allows attackers able to register or modify OAuth 2.0 clients to make OpenAM fetch internal resources via an unvalidated jwks_uri. Attackers can trigger unauthenticated fetches through client-authentication and ID-token validation to probe internal hosts, metadata endpoints or local files, or exhaust request threads for denial of service.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:39+00:00",
+    "cve_ids": [
+      "CVE-2026-105122"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "OpenAM before 16.1.3 contains a server-side request forgery vulnerability that allows attackers able to register or modify OAuth 2.0 clients to make OpenAM fetch internal resources via an unvalidated jwks_uri. Attackers can trigger unauthenticated fetches through client-authentication and ID-token v",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105122 - OpenAM before 16.1.3 SSRF via Op",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2d97c15b0455dc9ffbb6f33b4b6bb40c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105121 - OpenAM before 16.1.3 Improper Authorization in Delegated Session-Destroy Realm Scoping",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105121",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105121\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>OpenAM before 16.1.3 contains an improper authorization vulnerability that allows delegated administrators to destroy sessions outside their realms because realm checks use the requester's realm. Authenticated accounts holding the iplanet-am-session-destroy-sessions attribute can supply a target session identifier or handle to forcibly log out users in any realm.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-105121"
+    ],
+    "cvss": 4.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.9,
+      "description": "OpenAM before 16.1.3 contains an improper authorization vulnerability that allows delegated administrators to destroy sessions outside their realms because realm checks use the requester's realm. Authenticated accounts holding the iplanet-am-session-destroy-sessions attribute can supply a target ses",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105121 - OpenAM before 16.1.3 Improper Au",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b8054a0faa66778b06005b82ddcf36ab",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105120 - OpenAM before 16.1.3 Cross-Realm Session Disclosure via Sessions REST Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105120",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105120\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>OpenAM before 16.1.3 contains an authorization bypass vulnerability in the sessions REST endpoint query operation that allows realm administrators to list sessions of every realm. Attackers holding delegated RealmAdmin privileges can supply a _queryFilter naming another realm to disclose usernames, universal IDs, and session handles across tenant boundaries.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-105120"
+    ],
+    "cvss": 4.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.9,
+      "description": "OpenAM before 16.1.3 contains an authorization bypass vulnerability in the sessions REST endpoint query operation that allows realm administrators to list sessions of every realm. Attackers holding delegated RealmAdmin privileges can supply a _queryFilter naming another realm to disclose usernames, ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105120 - OpenAM before 16.1.3 Cross-Realm",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "efbed15ec394d7e0c6a75c6a449eb97e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105119 - OpenAM before 16.1.3 PKCE Enforcement Bypass via OAuth 2.0 Hybrid Flows",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105119",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105119\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>OpenAM before 16.1.3 applies its OAuth2 Provider PKCE enforcement only to authorization requests whose response_type is exactly code, so codes issued through OpenID Connect hybrid flows (code token, code id_token, code token id_token) carry no bound challenge. An attacker who intercepts such a code can redeem it for a public client's tokens with any non-empty code_verifier.\n  <br />\n  <strong>Severity:</strong> 7.6 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-105119"
+    ],
+    "cvss": 6.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.8,
+      "description": "OpenAM before 16.1.3 applies its OAuth2 Provider PKCE enforcement only to authorization requests whose response_type is exactly code, so codes issued through OpenID Connect hybrid flows (code token, code id_token, code token id_token) carry no bound challenge. An attacker who intercepts such a code ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105119 - OpenAM before 16.1.3 PKCE Enforc",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0e23523b3a990d664fe009b98705ffcb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105118 - OpenAM before 16.1.3 Open Redirect via Unverified id_token_hint in endSession",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105118",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105118\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>OpenAM before 16.1.3 contains an open redirect vulnerability that allows unauthenticated attackers to redirect users by supplying an unverified id_token_hint to the /oauth2/connect/endSession endpoint. Attackers can name any realm client in a forged hint to redirect victims to any registered post-logout URI, enabling phishing that borrows the OpenAM host's trust.\n  <br />\n  <strong>Severity:</strong> 4.7 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-105118"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "OpenAM before 16.1.3 contains an open redirect vulnerability that allows unauthenticated attackers to redirect users by supplying an unverified id_token_hint to the /oauth2/connect/endSession endpoint. Attackers can name any realm client in a forged hint to redirect victims to any registered post-lo",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105118 - OpenAM before 16.1.3 Open Redire",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d5df2998cbbb93c6f427c72b3a703973",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105117 - OpenAM before 16.1.3 Email Content Injection via Users REST Self-Service Actions",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105117",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105117\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>OpenAM before 16.1.3 contains an email content injection vulnerability that allows unauthenticated attackers to control notification email wording via the forgotPassword and register actions on /json/{realm}/users. Attackers can supply subject and message fields to send phishing mail from the organisation's configured From address, or abuse register as a relay to arbitrary recipients.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-105117"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "OpenAM before 16.1.3 contains an email content injection vulnerability that allows unauthenticated attackers to control notification email wording via the forgotPassword and register actions on /json/{realm}/users. Attackers can supply subject and message fields to send phishing mail from the organi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105117 - OpenAM before 16.1.3 Email Conte",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a3b8d6dbd531c62960f9a936168d26f2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105116 - OpenAM before 16.1.3 Latent XSS in SAML Load-Balancer Cookie Bounce Page",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105116",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105116\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>OpenAM before 16.1.3 contains a latent cross-site scripting defect that places the SAML message, relay state and target URL unencoded into the load-balancer cookie bounce auto-submit page. If reachable with cookieHashRedirectEnabled set, crafted requests could execute script in the OpenAM origin, though an unrelated HTTP 500 failure prevents exploitation in released versions.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-105116"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "OpenAM before 16.1.3 contains a latent cross-site scripting defect that places the SAML message, relay state and target URL unencoded into the load-balancer cookie bounce auto-submit page. If reachable with cookieHashRedirectEnabled set, crafted requests could execute script in the OpenAM origin, th",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105116 - OpenAM before 16.1.3 Latent XSS ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "39a0f2d4a88f1c9f506562edb6d7c48e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105115 - OpenAM before 16.1.3 Unauthenticated Arbitrary Class Instantiation via JAX-RPC Interface",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105115",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105115\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>OpenAM before 16.1.3 contains an unauthenticated arbitrary class instantiation vulnerability in the legacy JAX-RPC SOAP interface that allows remote attackers to load classes without authentication. Attackers can send SOAP requests to /jaxrpc/* with an unverified session identifier and a chosen class name, crashing the server, probing the classpath, or potentially reaching code execution via gadget chains.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-105115"
+    ],
+    "cvss": 8.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.6,
+      "description": "OpenAM before 16.1.3 contains an unauthenticated arbitrary class instantiation vulnerability in the legacy JAX-RPC SOAP interface that allows remote attackers to load classes without authentication. Attackers can send SOAP requests to /jaxrpc/* with an unverified session identifier and a chosen clas",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105115 - OpenAM before 16.1.3 Unauthentic",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f87df055ce40ac4e4dac6988a24458c6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105114 - OpenAM before 16.1.3 Reflected XSS via OAuth2 Authorization Error Page",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105114",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105114\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>OpenAM before 16.1.3 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject script by supplying crafted parameters rendered unencoded on the OAuth2 authorization error page. Attackers can lure victims to a crafted /oauth2/authorize link with repeated parameters to run JavaScript in the OpenAM origin, acting within existing sessions or redirecting to phishing pages.\n  <br />\n  <strong>Severity:</strong> 6.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-105114"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "OpenAM before 16.1.3 contains a reflected cross-site scripting vulnerability that allows unauthenticated attackers to inject script by supplying crafted parameters rendered unencoded on the OAuth2 authorization error page. Attackers can lure victims to a crafted /oauth2/authorize link with repeated ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105114 - OpenAM before 16.1.3 Reflected X",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f5b5a2c79055bcb5ad8fd1752a842213",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105113 - Nezha 1.8.0 before 2.3.13 Denial of Service via Notification Mutex Deadlock",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105113",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105113\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>Nezha Dashboard from 1.8.0 before 2.3.13 contains an improper locking vulnerability where a non-deferred mutex unlock leaks on a nil-map panic path. Any authenticated non-admin member can issue four notification API calls to permanently deadlock the alerting subsystem, then exhaust memory with blocking requests.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-105113"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Nezha Dashboard from 1.8.0 before 2.3.13 contains an improper locking vulnerability where a non-deferred mutex unlock leaks on a nil-map panic path. Any authenticated non-admin member can issue four notification API calls to permanently deadlock the alerting subsystem, then exhaust memory with block",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105113 - Nezha 1.8.0 before 2.3.13 Denial",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "72734a2d0a522513fc32c00d33110368",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105112 - Nezha 1.8.0 before 2.3.13 Deadlock DoS via notification-group endpoints",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105112",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105112\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 2:16 p.m. | 11 hours, 23 minutes ago\n  <br />\n  <strong>Description :</strong>Nezha from 1.8.0 before 2.3.13 contains a lock-order inversion in UpdateGroup and DeleteGroup that allows authenticated non-admin users to deadlock the alerting subsystem. Attackers can concurrently call the notification-group and batch-delete endpoints with oversized id lists to widen the race and close an ABBA cycle, permanently killing alert delivery until restart.\n  <br />\n  <strong>Severity:</strong> 6.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-03T14:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-105112"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Nezha from 1.8.0 before 2.3.13 contains a lock-order inversion in UpdateGroup and DeleteGroup that allows authenticated non-admin users to deadlock the alerting subsystem. Attackers can concurrently call the notification-group and batch-delete endpoints with oversized id lists to widen the race and ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105112 - Nezha 1.8.0 before 2.3.13 Deadlo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "402d61fc320021e3389d0e56506620c4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105105 - Unauthenticated ZeroMQ command/telemetry bus in AIT-Core allows remote spacecraft command injection and telemetry exfiltration",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105105",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105105\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 12:16 p.m. | 13 hours, 22 minutes ago\n  <br />\n  <strong>Description :</strong>CWE-306: Missing Authentication for Critical Function in the ait.core.server telemetry and command broker (ait-server) in NASA-AMMOS AIT-Core through 3.1.1 allows an unauthenticated remote attacker with network access to the ZeroMQ message bus to inject spacecraft command data, exfiltrate command and telemetry traffic, inject forged telemetry, or disrupt the command and telemetry bus. The ait-server ZeroMQ broker binds its XSUB and XPUB sockets to all network interfaces by default without authentication or transport security. An attacker able to reach TCP port 5559 can publish messages onto internal topics, including t",
+    "pub_date": "2026-10-03T12:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-105105"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "CWE-306: Missing Authentication for Critical Function in the ait.core.server telemetry and command broker (ait-server) in NASA-AMMOS AIT-Core through 3.1.1 allows an unauthenticated remote attacker with network access to the ZeroMQ message bus to inject spacecraft command data, exfiltrate command an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105105 - Unauthenticated ZeroMQ command/t",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3e428fd743d43feea005ba0d16b5092d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-104983 - Linux Mint Xreader PDF Attachment Saving ev-window.c g_file_get_child path traversal",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-104983",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-104983\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 11:17 a.m. | 14 hours, 22 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in Linux Mint Xreader up to 4.6.9. Impacted is the function g_file_get_child of the file shell/ev-window.c of the component PDF Attachment Saving Handler. Such manipulation of the argument attachment leads to path traversal. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. One of the project maintainers closed this issue as \"completed\", because \"EPUB support was removed from Xreader and reimplemented in Xepub\". Code analysis indicates that this might be a misunderstanding of the situation.\n  <br />\n  <strong>Severity:</strong> 7.5 | HI",
+    "pub_date": "2026-10-03T11:17:33+00:00",
+    "cve_ids": [
+      "CVE-2026-104983"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in Linux Mint Xreader up to 4.6.9. Impacted is the function g_file_get_child of the file shell/ev-window.c of the component PDF Attachment Saving Handler. Such manipulation of the argument attachment leads to path traversal. The attack may be performed from remote. The",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-104983 - Linux Mint Xreader PDF Attachmen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "621ec975520dbeed3136e851f1eba5f0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-97873 - Legacy PBES1 and PKCS#12 PBE iteration count honoured unbounded in the raw JCA provider",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-97873",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-97873\n  <br />\n  <strong>Published :</strong> Oct. 3, 2026, 9:17 a.m. | 16 hours, 22 minutes ago\n  <br />\n  <strong>Description :</strong>In Bouncy Castle for Java before 1.86, the raw JCA provider's legacy PBES1 (PKCS#5 scheme 1) and PKCS#12 PBE families ran their password-based key derivation with an iteration count taken from untrusted input without bounding it, so a small input could dictate an arbitrary amount of work before anything could be verified. The AlgorithmParameters implementations (PKCS12PBE and its object identifier aliases, and PBKDF1) accepted any count from an encoded PKCS12PBEParams or PBEParameter, narrowing a value beyond the int range with intValue(), and every Cipher, Mac and SecretKeyFactory in these families derived with whatever",
+    "pub_date": "2026-10-03T09:17:06+00:00",
+    "cve_ids": [
+      "CVE-2026-97873"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-97873 - Legacy PBES1 and PKCS#12 PBE iter",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "74b897e703b6e3ae0c9b29e4f0d8c845",
+    "source": "The Hacker News",
+    "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+    "link": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+    "summary": "The U.K.'s domestic intelligence and security agency has warned that more than 100 academics have helped China boost its intelligence gathering efforts on behalf of Beijing's state security service.\n\nIn a \"Security Service Espionage Alert\" issued on September 30, 2026, MI5 said the \"primary purpose of the China General Technology Research Institute (CGTRI) 中国通用技术研究院 is to fund research that",
+    "pub_date": "2026-10-03T14:38:46+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "MI5 Says China’s MSS Funded Research Involving 100",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c333863c691be7819e3affd162814b6f",
+    "source": "The Hacker News",
+    "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+    "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+    "summary": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speaking countries.\n\nThe activity, observed by the Symantec and Carbon Black Threat Hunter Team, has hit critical infrastructure, government, and education organizations.\n\n\"In the",
+    "pub_date": "2026-10-03T14:36:33+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Warlock Exploits SharePoint Flaws to Disable Secur",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d2569772ad55cb12f349dec1b5e9c4ae",
+    "source": "The Hacker News",
+    "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+    "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+    "summary": "Featuring:\n\nCybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities, devices, data, and internet-facing infrastructure, security is shifting toward continuous visibility, control, and the ability to respond to risk at scale.\n\nThis report examines how core areas of",
+    "pub_date": "2026-10-03T11:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "The State of Cybersecurity in 2026: Key Segments, ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "633f9607aca2f247ce8b22bb80424910",
+    "source": "SecurityWeek",
+    "title": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
+    "link": "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/",
+    "summary": "<p>doxx.net’s new ADN platform prevents agentic misadventure while the agent is operating under the user’s authority.</p>\n<p>The post <a href=\"https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/\">doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-10-03T11:45:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "doxx.net Raises $38 Million to Prevent AI Agent-on",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a0a7006591ae4dff45b625d9b1725113",
+    "source": "SecurityWeek",
+    "title": "Fortra Patches Critical Vulnerabilities in BoKS",
+    "link": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
+    "summary": "<p>The bugs could lead to authentication bypass, shell command execution, and memory corruption.</p>\n<p>The post <a href=\"https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/\">Fortra Patches Critical Vulnerabilities in BoKS</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-10-03T11:34:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Fortra Patches Critical Vulnerabilities in BoKS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7e26f8671dc0aa528a9ab423f41a4a7d",
+    "source": "Security Affairs",
+    "title": "Fake Zoom installer hides macOS backdoor CloudSyncD",
+    "link": "https://securityaffairs.com/200293/malware/fake-zoom-installer-hides-macos-backdoor-cloudsyncd.html",
+    "summary": "Jamf Threat Labs details CloudSyncD, a fake macOS Zoom installer that hides a phished password using invisible zero-width Unicode characters. Jamf Threat Labs found CloudSyncD while doing routine scanning on VirusTotal, buried inside a disguised Zoom client. They first spotted it on September 15, clearly still under construction, and within two days watched it move [&#8230;]",
+    "pub_date": "2026-10-03T15:11:16+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Fake Zoom installer hides macOS backdoor CloudSync",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a76d5aa0edc86de57ab746d4fb1681c8",
+    "source": "Security Affairs",
+    "title": "CVE-2026-90970: Critical GitLab AI Gateway Flaw Fixed",
+    "link": "https://securityaffairs.com/200283/hacking/cve-2026-90970-critical-gitlab-ai-gateway-flaw-fixed.html",
+    "summary": "GitLab fixes critical AI Gateway flaw that could let authenticated Duo users escape a prompt sandbox and execute commands on self-hosted gateways. GitLab has released patches for a critical vulnerability in its AI Gateway, tracked as CVE-2026-90970 (CVSS score of 9.9), that could allow an authenticated user with access to the Duo Agent Platform to [&#8230;]",
+    "pub_date": "2026-10-03T10:43:39+00:00",
+    "cve_ids": [
+      "CVE-2026-90970"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-90970: Critical GitLab AI Gateway Flaw Fi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c5ef0020bd4ccdd31b80e315bd59d754",
+    "source": "Security Affairs",
+    "title": "Antino Backdoor Lets China-Linked UAT-11587 Turn Microsoft 365 Into a C2 Channel",
+    "link": "https://securityaffairs.com/200264/apt/antino-backdoor-uses-your-inbox-as-its-control-panel.html",
+    "summary": "Cisco Talos details UAT-11587, a China-linked group using the Antino backdoor and Microsoft 365 as cover to spy on Asian governments. Cisco Talos has been tracking a cluster of espionage activity since September 2025 that it calls UAT-11587, and by July 2026 the group had hit at least 16 government and policy organizations across eight [&#8230;]",
+    "pub_date": "2026-10-03T09:26:04+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Antino Backdoor Lets China-Linked UAT-11587 Turn M",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b15d7242ccad9b4a69232acd83ff6a9b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Federal SOC Modernization Thro",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "536ad3611a78a65bab2b5f8c71195179",
+    "source": "CrowdStrike",
+    "title": "Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Copy, Paste, Compromised: How ClickFix Attacks Wor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cb015b42c061020c1ec6621ffb77dd1a",
+    "source": "CrowdStrike",
+    "title": "A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "A Win for Defenders: CrowdStrike and NVIDIA Extend",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "80520e948cbec770ca0c66eb4b8faa00",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: Proactive Security Platforms, Q3 2026",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in The Forrester Wave&t",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bd23f3879d80f8647171269260766d46",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: External Threat Intelligence Service Providers, Q3 2026",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in The Forrester Wave&t",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a778c6f2e2c6ff8edd5184e0fe3d848e",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike SafeMind: When the Best Offense Builds the Best Defense",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike SafeMind: When the Best Offense Builds",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "70d9eec64b1818b86980d22f46fe8a22",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Accelerates Real-Time Data Classification with On-Device AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Accelerates Real-Time Data Classificat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c7475877c8c7adc0dff404bf6c0a79f6",
+    "source": "CrowdStrike",
+    "title": "PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting",
+    "link": "https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "PhantomRaven: An LLM-Generated Information Stealer",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e2b1766dd072b1afad15009285648924",
+    "source": "CrowdStrike",
+    "title": "September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "September 2026 Patch Tuesday: Two Exploited Zero-D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "db2b25eff2236dff0c85c8902080f903",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Delivers the Next Evolution of the Agentic SOC",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Delivers the Next Evolution of the Age",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
