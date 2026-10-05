@@ -1,0 +1,954 @@
+[
+  {
+    "uid": "dc103f6056e2e2c24d0bddc64f5e13ae",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105167 - kishor-23 food-waste-management-system donate.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105167",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105167\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 10:45 p.m. | 37 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. The impacted element is an unknown function of the file admin/donate.php. Executing a manipulation of the argument location can lead to sql injection. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized. This product utilizes a rolling release system for continuous delivery, and as such, version information for affected or updated releases is not disclosed. The project was informed of the problem early through an issue report b",
+    "pub_date": "2026-10-04T22:45:15+00:00",
+    "cve_ids": [
+      "CVE-2026-105167"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was determined in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. The impacted element is an unknown function of the file admin/donate.php. Executing a manipulation of the argument location can lead to sql inje",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105167 - kishor-23 food-waste-management-",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "aef42de29eb061db67049a2a28633a61",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105222 - alexpechkarev/google-maps through 12.16 Disabled TLS Certificate Verification via ssl_verify_peer",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105222",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105222\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 10:31 p.m. | 50 minutes ago\n  <br />\n  <strong>Description :</strong>The alexpechkarev/google-maps Laravel package through 12.16 disables TLS certificate verification by default because the bundled config sets ssl_verify_peer to FALSE, which is passed to CURLOPT_SSL_VERIFYPEER. On-path attackers can present any certificate to intercept Google Maps web-service requests, steal the API key from the query string, and tamper with responses.\n  <br />\n  <strong>Severity:</strong> 7.4 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T22:31:47+00:00",
+    "cve_ids": [
+      "CVE-2026-105222"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "The alexpechkarev/google-maps Laravel package through 12.16 disables TLS certificate verification by default because the bundled config sets ssl_verify_peer to FALSE, which is passed to CURLOPT_SSL_VERIFYPEER. On-path attackers can present any certificate to intercept Google Maps web-service request",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105222 - alexpechkarev/google-maps throug",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d587da1cbab0b5c72d8cbd203dfa569b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105221 - Gist RubyGem before 6.1.0 Disabled TLS Certificate Verification",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105221",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105221\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 10:31 p.m. | 50 minutes ago\n  <br />\n  <strong>Description :</strong>The gist RubyGem before 6.1.0 contains an improper certificate validation vulnerability that allows on-path attackers to intercept HTTPS traffic because http_connection in lib/gist.rb sets VERIFY_NONE. Attackers can present any certificate to read or modify GitHub API traffic, stealing OAuth tokens and login credentials to read and modify the victim's gists.\n  <br />\n  <strong>Severity:</strong> 7.4 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T22:31:47+00:00",
+    "cve_ids": [
+      "CVE-2026-105221"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "The gist RubyGem before 6.1.0 contains an improper certificate validation vulnerability that allows on-path attackers to intercept HTTPS traffic because http_connection in lib/gist.rb sets VERIFY_NONE. Attackers can present any certificate to read or modify GitHub API traffic, stealing OAuth tokens ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105221 - Gist RubyGem before 6.1.0 Disabl",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0a1d485a2cf88529df08c53091d2c724",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105220 - Twine 2 Desktop through 2.12.0 Arbitrary Code Execution via Imported Story Files",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105220",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105220\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 10:31 p.m. | 50 minutes ago\n  <br />\n  <strong>Description :</strong>Twine 2 desktop through 2.12.0 contains a cross-site scripting vulnerability in importStories() that executes markup from imported story files in the editor window. Attackers can craft a story file whose script calls the twineElectron openWithScratchFile IPC bridge to write and open a .bat file, executing code as the user.\n  <br />\n  <strong>Severity:</strong> 7.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T22:31:46+00:00",
+    "cve_ids": [
+      "CVE-2026-105220"
+    ],
+    "cvss": 7.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.8,
+      "description": "Twine 2 desktop through 2.12.0 contains a cross-site scripting vulnerability in importStories() that executes markup from imported story files in the editor window. Attackers can craft a story file whose script calls the twineElectron openWithScratchFile IPC bridge to write and open a .bat file, exe",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105220 - Twine 2 Desktop through 2.12.0 A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "91c4371b45807cfad8fdefde5ff074c9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105166 - kishor-23 food-waste-management-system Food Donation Form fooddonateform.php insert sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105166",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105166\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 10:30 p.m. | 52 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. The affected element is the function insert of the file fooddonateform.php of the component Food Donation Form. Performing a manipulation of the argument image-choice results in sql injection. The attack is possible to be carried out remotely. The exploit has been made public and could be used. This product adopts a rolling release strategy to maintain continuous delivery. Therefore, version details for affected or updated releases cannot be specified. The project was informed of ",
+    "pub_date": "2026-10-04T22:30:11+00:00",
+    "cve_ids": [
+      "CVE-2026-105166"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was found in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. The affected element is the function insert of the file fooddonateform.php of the component Food Donation Form. Performing a manipulation of the argu",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105166 - kishor-23 food-waste-management-",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6ff66b9d438ddd842833422e895902b2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105164 - NASA cFS cfe_fs_api.c CFE_FS_ParseInputFileNameEx out-of-bounds",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105164",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105164\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 10:16 p.m. | 1 hour, 5 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in NASA cFS up to 7.0.1. This issue affects the function CFE_FS_ParseInputFileNameEx of the file cfe/modules/fs/fsw/src/cfe_fs_api.c. This manipulation causes out-of-bounds read. Remote exploitation of the attack is possible. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 5.1 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T22:16:59+00:00",
+    "cve_ids": [
+      "CVE-2026-105164"
+    ],
+    "cvss": 2.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.7,
+      "description": "A flaw has been found in NASA cFS up to 7.0.1. This issue affects the function CFE_FS_ParseInputFileNameEx of the file cfe/modules/fs/fsw/src/cfe_fs_api.c. This manipulation causes out-of-bounds read. Remote exploitation of the attack is possible. The pull request to fix this issue awaits acceptance",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105164 - NASA cFS cfe_fs_api.c CFE_FS_Par",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "235df0466cb1fbb7feeb832dc8c0136f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105163 - crossplane crossplane-runtime ImageConfig client.go Get toctou",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105163",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105163\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 10:16 p.m. | 1 hour, 5 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in crossplane crossplane-runtime up to 2.2.2/2.3.2. This vulnerability affects the function Get of the file pkg/xpkg/client.go of the component ImageConfig. The manipulation results in time-of-check time-of-use. The attack may be launched remotely. Upgrading to version 2.2.3, 2.3.3 and 2.4.0-rc.1 is able to resolve this issue. The patch is identified as bee99c6cd6ca81878acca2940a2f0a02169fc208. You should upgrade the affected component.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T22:16:58+00:00",
+    "cve_ids": [
+      "CVE-2026-105163"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was detected in crossplane crossplane-runtime up to 2.2.2/2.3.2. This vulnerability affects the function Get of the file pkg/xpkg/client.go of the component ImageConfig. The manipulation results in time-of-check time-of-use. The attack may be launched remotely. Upgrading to version 2",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105163 - crossplane crossplane-runtime Im",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b74c3eea4dda21aebf64c56f8f0ffd75",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105165 - devopspolis secrets-replicator AssumeRole handler.py process_single_secret permission assignment",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105165",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105165\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 10:15 p.m. | 1 hour, 7 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in devopspolis secrets-replicator up to 0.4.0. Impacted is the function process_single_secret of the file src/handler.py of the component AssumeRole Handler. Such manipulation of the argument external_id leads to incorrect permission assignment. The attack can be executed remotely. Upgrading to version 0.5.0 is recommended to address this issue. The name of the patch is b42239405fbf4fae3c3f0048fc0b4225112edceb. It is suggested to upgrade the affected component.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, ",
+    "pub_date": "2026-10-04T22:15:17+00:00",
+    "cve_ids": [
+      "CVE-2026-105165"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in devopspolis secrets-replicator up to 0.4.0. Impacted is the function process_single_secret of the file src/handler.py of the component AssumeRole Handler. Such manipulation of the argument external_id leads to incorrect permission assignment. The attack can be execu",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105165 - devopspolis secrets-replicator A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a4d0d0c8b8cc6fc313b416720993875d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105219 - Mammoth.js 1.3.0 before 1.12.3 ReDoS via Style Map Tokeniser",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105219",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105219\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 6:16 p.m. | 5 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>Mammoth.js 1.3.0 before 1.12.3 contains a regular expression denial of service vulnerability in the style map tokeniser in lib/styles/parser/tokeniser.js due to overlapping regex alternatives. Attackers can supply a crafted .docx with an unterminated quoted string of repeated backslash escapes in mammoth/style-map to block the Node.js event loop.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T18:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-105219"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Mammoth.js 1.3.0 before 1.12.3 contains a regular expression denial of service vulnerability in the style map tokeniser in lib/styles/parser/tokeniser.js due to overlapping regex alternatives. Attackers can supply a crafted .docx with an unterminated quoted string of repeated backslash escapes in ma",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105219 - Mammoth.js 1.3.0 before 1.12.3 R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d468d5ba2a5053ec2aa8876a26cf00c1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105218 - gopay before 1.5.119 Disabled TLS Certificate Verification in xhttp Client",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105218",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105218\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 6:16 p.m. | 5 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>gopay before 1.5.119 disables TLS certificate verification in defaultClient() in pkg/xhttp/client.go, allowing man-in-the-middle attackers to impersonate payment provider APIs. Attackers can present any certificate to read merchant credentials, signatures and transaction data, and modify payment, refund and order query responses.\n  <br />\n  <strong>Severity:</strong> 9.1 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T18:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-105218"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "gopay before 1.5.119 disables TLS certificate verification in defaultClient() in pkg/xhttp/client.go, allowing man-in-the-middle attackers to impersonate payment provider APIs. Attackers can present any certificate to read merchant credentials, signatures and transaction data, and modify payment, re",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105218 - gopay before 1.5.119 Disabled TL",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "43bd50d7100669d6e1f62de04ca4fc1b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105217 - Cockpit CMS 2.12.0 before 2.14.1 Disabled TLS Verification via cron.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105217",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105217\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 6:16 p.m. | 5 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>Cockpit CMS 2.12.0 before 2.14.1 disables TLS certificate verification in the cron.php web worker restart request, allowing network attackers to capture the worker token. Man-in-the-middle attackers on the outbound path to site_url can present any certificate to steal the worker/web/token value and start the web worker.\n  <br />\n  <strong>Severity:</strong> 3.1 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T18:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-105217"
+    ],
+    "cvss": 3.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.1,
+      "description": "Cockpit CMS 2.12.0 before 2.14.1 disables TLS certificate verification in the cron.php web worker restart request, allowing network attackers to capture the worker token. Man-in-the-middle attackers on the outbound path to site_url can present any certificate to steal the worker/web/token value and ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105217 - Cockpit CMS 2.12.0 before 2.14.1",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6cab9ae62eb5ca1cbe3c6102878561de",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105216 - go-micro before 6.0.0 Disabled TLS Certificate Verification via tls.Config Helper",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105216",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105216\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 6:16 p.m. | 5 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>go-micro before 6.0.0 contains an improper certificate validation vulnerability that allows network attackers to impersonate services because the shared TLS helper sets InsecureSkipVerify to true by default. Man-in-the-middle attackers can present any certificate to intercept or modify gRPC transport, HTTP and RabbitMQ broker, and Consul or etcd registry traffic, including authentication tokens and credentials.\n  <br />\n  <strong>Severity:</strong> 9.1 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T18:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-105216"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "go-micro before 6.0.0 contains an improper certificate validation vulnerability that allows network attackers to impersonate services because the shared TLS helper sets InsecureSkipVerify to true by default. Man-in-the-middle attackers can present any certificate to intercept or modify gRPC transpor",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105216 - go-micro before 6.0.0 Disabled T",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c4f9c82335bc81ac78b7cc9bf40bd96a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105161 - invariant-systems-ai aiir Policy Gate signature verification",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105161",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105161\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 6:16 p.m. | 5 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in invariant-systems-ai aiir up to 1.7.0. The affected element is an unknown function of the component Policy Gate Handler. Executing a manipulation can lead to improper verification of cryptographic signature. The attack can be executed remotely. It is advisable to upgrade the affected component. The GitHub repository of this project is not available anymore. This vulnerability only affects products that are no longer supported by the maintainer.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more.",
+    "pub_date": "2026-10-04T18:16:33+00:00",
+    "cve_ids": [
+      "CVE-2026-105161"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A flaw has been found in invariant-systems-ai aiir up to 1.7.0. The affected element is an unknown function of the component Policy Gate Handler. Executing a manipulation can lead to improper verification of cryptographic signature. The attack can be executed remotely. It is advisable to upgrade the",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105161 - invariant-systems-ai aiir Policy",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c2937a36bf8d0eed4d645709bfb868f7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105224 - YesWiki before 4.6.7 Stored XSS via Bazar valeur Action",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105224",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105224\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 4:16 p.m. | 7 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>YesWiki before 4.6.7 contains a cross-site scripting vulnerability in the Bazar valeur action that allows page editors to inject script by rendering unescaped HTML fetched from a remote URL. Attackers can point tools/bazar/actions/valeur.php at a controlled server returning BAZ_fiche_titre markup with an img onerror handler, executing script in every viewer's browser.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T16:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-105224"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "YesWiki before 4.6.7 contains a cross-site scripting vulnerability in the Bazar valeur action that allows page editors to inject script by rendering unescaped HTML fetched from a remote URL. Attackers can point tools/bazar/actions/valeur.php at a controlled server returning BAZ_fiche_titre markup wi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105224 - YesWiki before 4.6.7 Stored XSS ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "13179d3a2e40edb1256389d6e9361e65",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105089 - WWBN AVideo through 29.2.0 Stored XSS via trailer1 in YouPHPFlix2 Templates",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105089",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105089\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 4:16 p.m. | 7 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo through 29.2.0 contains a stored cross-site scripting vulnerability that allows users with upload permission to inject script by setting a malicious video trailer1 URL. The value is rendered unescaped in YouPHPFlix2 templates and channel playlists, letting attackers break out of onclick strings or iframe src attributes to execute JavaScript in victims' browsers.\n  <br />\n  <strong>Severity:</strong> 9.3 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T16:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-105089"
+    ],
+    "cvss": 8.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.7,
+      "description": "WWBN AVideo through 29.2.0 contains a stored cross-site scripting vulnerability that allows users with upload permission to inject script by setting a malicious video trailer1 URL. The value is rendered unescaped in YouPHPFlix2 templates and channel playlists, letting attackers break out of onclick ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105089 - WWBN AVideo through 29.2.0 Store",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2c731aeed7e2e81a3f3ec214a9cbb86c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105086 - WWBN AVideo 12.4 through 29.2.0 Stored XSS via Double-Encoded Video Title",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105086",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105086\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 4:16 p.m. | 7 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>WWBN AVideo 12.4 through 29.2.0 contains a stored cross-site scripting vulnerability that allows authenticated uploaders to inject HTML by submitting doubly-encoded entities in video titles. Because safeString() strips tags before decoding entities and runs twice via setTitle() and save(), attackers can store markup that executes in trending, gallery, embed, and playlist pages.\n  <br />\n  <strong>Severity:</strong> 9.3 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T16:16:30+00:00",
+    "cve_ids": [
+      "CVE-2026-105086"
+    ],
+    "cvss": 8.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.7,
+      "description": "WWBN AVideo 12.4 through 29.2.0 contains a stored cross-site scripting vulnerability that allows authenticated uploaders to inject HTML by submitting doubly-encoded entities in video titles. Because safeString() strips tags before decoding entities and runs twice via setTitle() and save(), attackers",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105086 - WWBN AVideo 12.4 through 29.2.0 ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6787560a5e69df661d97bd86144f1808",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-104402 - WordPress Mindio Magic MCP plugin <= 0.5.6 - Sensitive Data Exposure vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-104402",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-104402\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 4:16 p.m. | 7 hours, 6 minutes ago\n  <br />\n  <strong>Description :</strong>Insertion of Sensitive Information Into Sent Data vulnerability in farvisun Mindio Magic MCP mindio-magic-mcp allows Retrieve Embedded Sensitive Data.This issue affects Mindio Magic MCP: from n/a through 0.5.6.\n  <br />\n  <strong>Severity:</strong> 4.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T16:16:28+00:00",
+    "cve_ids": [
+      "CVE-2026-104402"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Insertion of Sensitive Information Into Sent Data vulnerability in farvisun Mindio Magic MCP mindio-magic-mcp allows Retrieve Embedded Sensitive Data.This issue affects Mindio Magic MCP: from n/a through 0.5.6.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-104402 - WordPress Mindio Magic MCP plugi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bb9ee0d3f1bfaa389878880c3548d02e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105215 - ZITADEL before 4.16.2 Account Pre-Hijacking via Forged External IdP Callback",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105215",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105215\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 3:16 p.m. | 8 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>ZITADEL before 3.4.14 and 4.x before 4.16.2 contains an authentication bypass in the hosted Login V1 UI because the 'external account not found' registration endpoint trusts client-supplied external identity fields without a completed IdP callback. Unauthenticated attackers can submit forged IDPConfigID and ExternalUserID values to pre-create an account bound to a victim's external IdP identity, which the victim's later genuine external login then signs into.\n  <br />\n  <strong>Severity:</strong> 9.3 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T15:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-105215"
+    ],
+    "cvss": 9.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.1,
+      "description": "ZITADEL before 3.4.14 and 4.x before 4.16.2 contains an authentication bypass in the hosted Login V1 UI because the 'external account not found' registration endpoint trusts client-supplied external identity fields without a completed IdP callback. Unauthenticated attackers can submit forged IDPConf",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105215 - ZITADEL before 4.16.2 Account Pr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0e111d2d72d2448d47f59d82e8b101a7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105214 - Zitadel before 4.16.2 SSRF via Organization Domain HTTP Verification",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105214",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105214\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 3:16 p.m. | 8 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>Zitadel before 4.16.2 contains a server-side request forgery vulnerability that allows attackers to make the server request internal resources through organization domain HTTP verification. The challenge fetch uses Go's default http.Get instead of the protected client, so attackers can register domains that redirect to loopback, internal, or cloud metadata addresses to scan ports and map internal networks.\n  <br />\n  <strong>Severity:</strong> 2.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T15:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-105214"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105214 - Zitadel before 4.16.2 SSRF via O",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7a5e28498beae70c90dc0972eb1207f2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105213 - ZITADEL before 4.17.1 Authentication Bypass via Login V2 for Deactivated Organizations",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105213",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105213\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 3:16 p.m. | 8 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>ZITADEL 4.x before 4.17.1 does not check an organization's inactive state during Login V2 authentication, verifying only the individual user's status. Users of a deactivated organization who hold valid credentials, an existing session, or a refresh token can still sign in, create sessions, and obtain or refresh tokens.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T15:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-105213"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "ZITADEL 4.x before 4.17.1 does not check an organization's inactive state during Login V2 authentication, verifying only the individual user's status. Users of a deactivated organization who hold valid credentials, an existing session, or a refresh token can still sign in, create sessions, and obtai",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105213 - ZITADEL before 4.17.1 Authentica",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "18be4e3d4d2c104e626721cfcd9f97bb",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105212 - ZITADEL before 3.4.14 and 4.16.2 Account Takeover via Passkey Enrollment",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105212",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105212\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 3:16 p.m. | 8 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>ZITADEL 3.x before 3.4.14 and 4.x before 4.16.2 contains an authentication bypass in the hosted Login V1 and Login V2 UIs that accepts passkey or other authenticator enrollment on identify-only login sessions, before any primary factor is verified. Unauthenticated attackers knowing only a victim's login name can register an attacker-controlled authenticator and log in as that user, bypassing existing passwords and MFA.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T15:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-105212"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "ZITADEL 3.x before 3.4.14 and 4.x before 4.16.2 contains an authentication bypass in the hosted Login V1 and Login V2 UIs that accepts passkey or other authenticator enrollment on identify-only login sessions, before any primary factor is verified. Unauthenticated attackers knowing only a victim's l",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105212 - ZITADEL before 3.4.14 and 4.16.2",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2c830bfc599e0e390a257d8c8e57839d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105211 - ZITADEL before 4.17.1 Authentication Bypass via Login V2 OTP returnCode",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105211",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105211\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 3:16 p.m. | 8 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>ZITADEL before 4.17.1 contains an authentication bypass vulnerability in Login V2 that allows unauthenticated attackers to take over accounts by obtaining OTP codes via the returnCode delivery type. Attackers knowing a login name of a victim with OTP-Email and OTP-SMS enrolled can read both codes from server-action responses to gain MFA-authenticated sessions, including administrator takeover.\n  <br />\n  <strong>Severity:</strong> 9.2 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T15:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-105211"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "ZITADEL before 4.17.1 contains an authentication bypass vulnerability in Login V2 that allows unauthenticated attackers to take over accounts by obtaining OTP codes via the returnCode delivery type. Attackers knowing a login name of a victim with OTP-Email and OTP-SMS enrolled can read both codes fr",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105211 - ZITADEL before 4.17.1 Authentica",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6e3dd921bafe8c746ae933756f3d13aa",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105210 - ZITADEL before 4.17.1 Unauthenticated MFA Enrollment via Login V1 Init Handlers",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105210",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105210\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 3:16 p.m. | 8 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>ZITADEL 3.x before 3.4.15 and 4.x before 4.17.1 contains a missing authentication flaw in the hosted Login V1 UI, whose second-factor enrollment and initialization handlers act on an identify-only session before any primary factor is verified. Attackers knowing only a victim's login name can enroll attacker-controlled TOTP, OTP-SMS, OTP-Email, or U2F factors, overwrite the verified phone number, and enumerate users through discrepant errors.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T15:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-105210"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "ZITADEL 3.x before 3.4.15 and 4.x before 4.17.1 contains a missing authentication flaw in the hosted Login V1 UI, whose second-factor enrollment and initialization handlers act on an identify-only session before any primary factor is verified. Attackers knowing only a victim's login name can enroll ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105210 - ZITADEL before 4.17.1 Unauthenti",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c8679f4d5252b25aa85e5272f18e4ea4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105209 - ZITADEL before 3.4.15 and 4.17.1 Cross-Organization Account Takeover via Passkey Enrollment",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105209",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105209\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 3:16 p.m. | 8 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>ZITADEL 3.x before 3.4.15 and 4.x before 4.17.1 contains an improper authorization vulnerability: when issuing passkey or passwordless enrollment codes, it checks only the organization in the x-zitadel-orgid header, not the target user's organization. Attackers with user-write permission in one organization can obtain an enrollment code for a user in another organization on the same instance and register their own authenticator to take over that account.\n  <br />\n  <strong>Severity:</strong> 9.6 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T15:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-105209"
+    ],
+    "cvss": 9.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.6,
+      "description": "ZITADEL 3.x before 3.4.15 and 4.x before 4.17.1 contains an improper authorization vulnerability: when issuing passkey or passwordless enrollment codes, it checks only the organization in the x-zitadel-orgid header, not the target user's organization. Attackers with user-write permission in one orga",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105209 - ZITADEL before 3.4.15 and 4.17.1",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c00dff5379b7fc63d74b4b7321e5c0f6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105208 - ZITADEL before 4.17.3 Session Hijacking via Forgeable IdP Intent Tokens",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105208",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105208\n  <br />\n  <strong>Published :</strong> Oct. 4, 2026, 3:16 p.m. | 8 hours, 5 minutes ago\n  <br />\n  <strong>Description :</strong>ZITADEL 4.x before 4.17.3 and 3.x through 3.4.15 protects IdP intent tokens with unauthenticated, malleable encryption, allowing authenticated users to tamper with their own token so it is accepted for another user's external login intent. An attacker who predicts a victim's in-flight intent identifier and wins a timing race can call /v2/idp_intents or /v2/sessions to steal the victim's IdP tokens or hijack their session.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-04T15:16:31+00:00",
+    "cve_ids": [
+      "CVE-2026-105208"
+    ],
+    "cvss": 7.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.7,
+      "description": "ZITADEL 4.x before 4.17.3 and 3.x through 3.4.15 protects IdP intent tokens with unauthenticated, malleable encryption, allowing authenticated users to tamper with their own token so it is accepted for another user's external login intent. An attacker who predicts a victim's in-flight intent identif",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105208 - ZITADEL before 4.17.3 Session Hi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "41bb60c6927e2fccaee8084fa58d5916",
+    "source": "The Hacker News",
+    "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+    "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+    "summary": "A suspected member of the ShinyHunters digital extortion group, who goes by the online alias \"Rey,\" has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter.\n\nRey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September 29, 2026, cooperating with the U.S. Federal Bureau of Investigation (FBI) and",
+    "pub_date": "2026-10-04T07:22:05+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "ShinyHunters Suspect Rey Reportedly Detained in Jo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "45602fa31c59e56078a833a1e81d4b2c",
+    "source": "The Hacker News",
+    "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+    "link": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+    "summary": "A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal sector organizations.\n\nThe campaigns have impersonated prominent economists and AI policymakers, as well as a prominent Anthropic employee, to single out an AI policy expert at a",
+    "pub_date": "2026-10-04T07:20:32+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "China-Aligned TA419 Targets U.S. AI Policy Experts",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "62bc590f7ad7e73df12fb2ca6ed3623b",
+    "source": "BleepingComputer",
+    "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+    "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code execution. [...]",
+    "pub_date": "2026-10-04T21:58:01+00:00",
+    "cve_ids": [
+      "CVE-2026-88779"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Citrix patches NetScaler SAML zero-day exploited i",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b61e53bcc90bd4cb00b9abc79d9eb999",
+    "source": "BleepingComputer",
+    "title": "Anthropic asks Claude users to share voice data for AI model training",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+    "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
+    "pub_date": "2026-10-04T10:53:21+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Anthropic asks Claude users to share voice data fo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "471d09dfacf7ef192deb743abef05969",
+    "source": "SecurityWeek",
+    "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
+    "link": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
+    "summary": "<p>The announcement comes after Trump hosted top executives of AI companies at the White House last week.</p>\n<p>The post <a href=\"https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/\">Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-10-04T14:57:25+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Trump Names National Intelligence Director Jay Cla",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "16ae965e894b244d477955cdecc86d6a",
+    "source": "Troy Hunt",
+    "title": "Weekly Update 524: Live From Copenhagen",
+    "link": "https://www.troyhunt.com/weekly-update-524/",
+    "summary": "<p>I&apos;m in Denmark! Well, just, I&apos;m now at Copenhagen airport ready to begin the long trek home, with the final event at GOTO now done and going just perfectly. This week, there are two ShinyHunters arrests in the news: <a href=\"https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/?ref=troyhunt.com\" rel=\"noreferrer\">Pepijn in the Netherlands</a> and then <a href=\"https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html?ref=troyhunt.com\" rel=\"noreferrer\">Saif</a></p>",
+    "pub_date": "2026-10-04T11:52:23+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Weekly Update 524: Live From Copenhagen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b92bcdd85d83629841617e7520dfa148",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 2",
+    "link": "https://securityaffairs.com/200367/ai/security-affairs-ai-cybersecurity-newsletter-round-2.html",
+    "summary": "Security Affairs AI-CYBERSECURITY newsletter includes a collection of the best articles and research on AI in the international landscape Artificial intelligence is rapidly changing cybersecurity, reshaping both the techniques used by attackers and the tools available to defenders. AI agents can automate tasks, analyze large amounts of data, discover vulnerabilities and accelerate offensive operations. At [&#8230;]",
+    "pub_date": "2026-10-04T15:28:51+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7641554f89f4093d9d75e01ac1947b0f",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 117",
+    "link": "https://securityaffairs.com/200354/security/security-affairs-malware-newsletter-round-117.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Lunex Unmasked: A New Information Stealer Deployed Through BYOVD&#160;&#160; Storm-3168: Agentic-driven cloud attacks using compromised service principals   Don’t Call Us, We’ll Call Your APIs &#124; TraderTraitor Backdoors Resurface on Victim With No Crypto Ties&#160;&#160; [&#8230;]",
+    "pub_date": "2026-10-04T14:00:02+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 117",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8a4092f419e381a1196bcbd03c66b9b5",
+    "source": "Security Affairs",
+    "title": "ShinyHunters Suspect Detained in Jordan Helps FBI Track Down the Group",
+    "link": "https://securityaffairs.com/200338/cyber-crime/shinyhunters-suspect-detained-in-jordan-helps-fbi-track-down-the-group.html",
+    "summary": "A suspected ShinyHunters member arrested in Jordan is reportedly cooperating with the FBI, helping investigators track down the group. A suspected member of ShinyHunters, the group that claims to have stolen data on every FBI employee, was picked up in Jordan this week. The man is Saif al-Din Khader, detained by Jordanian authorities, with two [&#8230;]",
+    "pub_date": "2026-10-04T13:41:21+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "ShinyHunters Suspect Detained in Jordan Helps FBI ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "721d9c3f40ad3312745fd86bcff8175a",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 598 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/200326/breaking-news/security-affairs-newsletter-round-598-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including international press. Fake Zoom installer hides macOS backdoor CloudSyncD CVE-2026-90970: Critical GitLab AI Gateway Flaw Fixed Antino Backdoor Lets [&#8230;]",
+    "pub_date": "2026-10-04T07:58:06+00:00",
+    "cve_ids": [
+      "CVE-2026-90970"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 598 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d07e2421cb4f211e52039c3d12e60e54",
+    "source": "Security Affairs",
+    "title": "Warlock Ransomware Still Exploits Year-Old SharePoint Flaws to Hit Critical Infrastructure",
+    "link": "https://securityaffairs.com/200304/malware/warlock-ransomware-still-exploits-year-old-sharepoint-flaws-to-hit-critical-infrastructure.html",
+    "summary": "Warlock ransomware continues to exploit unpatched SharePoint flaws to breach water utilities, telecoms, governments, and universities worldwide. Warlock ransomware made headlines back in mid-2025 for exploiting a chain of SharePoint zero-days collectively dubbed ToolShell. More than a year later, the same group is still using that door, and it&#8217;s still getting in. Symantec tracks the [&#8230;]",
+    "pub_date": "2026-10-04T07:49:27+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Warlock Ransomware Still Exploits Year-Old SharePo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "175cfa168d098144636a26fada3f9ad5",
+    "source": "Help Net Security",
+    "title": "Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited",
+    "link": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: 16-year-old researcher breaks into Microsoft analytics service with access to 17 trillion rows of data A flaw in Titan, an internal Microsoft analytics service, could have let an attacker read employee records and Bing search analytics, a 16-year-old security researcher has disclosed. Citrix NetScaler RCE zero-days exploited globally for weeks (CVE-2026-88771, CVE-2026-88772) Citrix has patched eight critical and high-severity vulnerabilities &#8230; <a href=\"https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https:/",
+    "pub_date": "2026-10-04T08:00:19+00:00",
+    "cve_ids": [
+      "CVE-2026-88771",
+      "CVE-2026-88772"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: Researcher breaks into Microsoft a",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b15d7242ccad9b4a69232acd83ff6a9b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Federal SOC Modernization Thro",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "536ad3611a78a65bab2b5f8c71195179",
+    "source": "CrowdStrike",
+    "title": "Copy, Paste, Compromised: How ClickFix Attacks Work and How CrowdStrike Stops Them",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-clickfix-attacks-work-and-how-to-stop-them/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Copy, Paste, Compromised: How ClickFix Attacks Wor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cb015b42c061020c1ec6621ffb77dd1a",
+    "source": "CrowdStrike",
+    "title": "A Win for Defenders: CrowdStrike and NVIDIA Extend Security Across the AI Stack",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-extend-security-across-ai-stack/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "A Win for Defenders: CrowdStrike and NVIDIA Extend",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "80520e948cbec770ca0c66eb4b8faa00",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: Proactive Security Platforms, Q3 2026",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-proactive-security-platforms-q3-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in The Forrester Wave&t",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bd23f3879d80f8647171269260766d46",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in The Forrester Wave&trade;: External Threat Intelligence Service Providers, Q3 2026",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-forrester-wave-external-threat-intelligence-q3-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in The Forrester Wave&t",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a778c6f2e2c6ff8edd5184e0fe3d848e",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike SafeMind: When the Best Offense Builds the Best Defense",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-safemind-best-offense-builds-best-defense/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike SafeMind: When the Best Offense Builds",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "70d9eec64b1818b86980d22f46fe8a22",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Accelerates Real-Time Data Classification with On-Device AI",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Accelerates Real-Time Data Classificat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c7475877c8c7adc0dff404bf6c0a79f6",
+    "source": "CrowdStrike",
+    "title": "PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting",
+    "link": "https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "PhantomRaven: An LLM-Generated Information Stealer",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e2b1766dd072b1afad15009285648924",
+    "source": "CrowdStrike",
+    "title": "September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "September 2026 Patch Tuesday: Two Exploited Zero-D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "db2b25eff2236dff0c85c8902080f903",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Delivers the Next Evolution of the Agentic SOC",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Delivers the Next Evolution of the Age",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
