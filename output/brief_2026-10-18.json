@@ -1,0 +1,897 @@
+[
+  {
+    "uid": "16d7bb851f5e82a9cb5c4d7783c5fb47",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-107274",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-107274",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-107274\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 10:19 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>None\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T22:19:45+00:00",
+    "cve_ids": [
+      "CVE-2026-107274"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-107274",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e7fddc569131e7bf3142b8b982a25d9f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-107772",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-107772",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-107772\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 10:19 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>None\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T22:19:45+00:00",
+    "cve_ids": [
+      "CVE-2026-107772"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-107772",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b9a64abbe855a03c4ec90b1a47c9166e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-108117",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-108117",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-108117\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 10:19 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>None\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T22:19:45+00:00",
+    "cve_ids": [
+      "CVE-2026-108117"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-108117",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5780b92a81192a0443540879db3f4eb7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-107345",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-107345",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-107345\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 10:19 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>None\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T22:19:45+00:00",
+    "cve_ids": [
+      "CVE-2026-107345"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-107345",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f3454dd4bb651f8f7c1271fa713248b2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-105391",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105391",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-105391\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 10:19 p.m. | 36 minutes ago\n  <br />\n  <strong>Description :</strong>None\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T22:19:45+00:00",
+    "cve_ids": [
+      "CVE-2026-105391"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-105391",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "891aab99ee323de857d7ef438c681a8b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111865 - THU-MIG yoloe AutoBackend Model Loading autobackend.py eval eval injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111865",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111865\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 9:16 p.m. | 1 hour, 39 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in THU-MIG yoloe up to 40cd606cabdbe2b566d6f14a6b162c89206e9a1b. This affects the function eval of the file ultralytics/nn/autobackend.py of the component AutoBackend Model Loading. The manipulation of the argument imgsz/names/kpt_shape results in improper neutralization of directives in dynamically evaluated code. The attack requires a local approach. The exploit has been released to the public and may be used for attacks. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The project was informed of the problem early ",
+    "pub_date": "2026-10-17T21:16:25+00:00",
+    "cve_ids": [
+      "CVE-2026-111865"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A security flaw has been discovered in THU-MIG yoloe up to 40cd606cabdbe2b566d6f14a6b162c89206e9a1b. This affects the function eval of the file ultralytics/nn/autobackend.py of the component AutoBackend Model Loading. The manipulation of the argument imgsz/names/kpt_shape results in improper neutral",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111865 - THU-MIG yoloe AutoBackend Model ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5660004c16061a26a53691f1cfcf9bb1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111934 - Coder before 2.34.7 IP Spoofing via X-Forwarded-For Header",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111934",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111934\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Coder before 2.34.7 contains an IP spoofing vulnerability in the ExtractRealIPAddress middleware that trusts the leftmost, client-supplied X-Forwarded-For value instead of the client IP appended by a reverse proxy. Attackers can send forged X-Forwarded-For values through appending proxies to bypass per-IP rate limits on login, one-time passcode, and password validation endpoints, enabling brute-force attacks, and to falsify IP addresses recorded in audit logs.\n  <br />\n  <strong>Severity:</strong> 6.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-111934"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "Coder before 2.34.7 contains an IP spoofing vulnerability in the ExtractRealIPAddress middleware that trusts the leftmost, client-supplied X-Forwarded-For value instead of the client IP appended by a reverse proxy. Attackers can send forged X-Forwarded-For values through appending proxies to bypass ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111934 - Coder before 2.34.7 IP Spoofing ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0b1dbab2ec890d42cda28d50732d38d7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111933 - Coder before 2.34.2 User Enumeration via Login Placeholder Hash",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111933",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111933\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Coder before 2.29.17, 2.30.0 before 2.32.7, 2.33.0 before 2.33.8, and 2.34.0 before 2.34.2 contains a user enumeration vulnerability because userpassword.Compare() substitutes a placeholder hash derived from the string \"hunter2\" when a stored password hash is empty. Unauthenticated attackers can submit logins with the password \"hunter2\" and distinguish HTTP 403 from 401 responses to enumerate valid accounts and reveal the authentication provider of SSO-only users.\n  <br />\n  <strong>Severity:</strong> 6.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-111933"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "Coder before 2.29.17, 2.30.0 before 2.32.7, 2.33.0 before 2.33.8, and 2.34.0 before 2.34.2 contains a user enumeration vulnerability because userpassword.Compare() substitutes a placeholder hash derived from the string \"hunter2\" when a stored password hash is empty. Unauthenticated attackers can sub",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111933 - Coder before 2.34.2 User Enumera",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "323b484da8828f3ed6fb3e4aa8f0b5fc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111932 - Coder before 2.34.2 Stored HTML Injection via Appearance Settings",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111932",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111932\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Coder before 2.29.17, 2.30.0 before 2.32.7, 2.33.0 before 2.33.8, and 2.34.0 before 2.34.2 contains a stored HTML injection vulnerability because the ApplicationName and LogoURL appearance settings are rendered into HTML output without sufficient escaping. Attackers with the Owner role can store HTML markup in these settings that renders in the Coder dashboard and in SMTP notification emails sent to other deployment users.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-111932"
+    ],
+    "cvss": 3.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.4,
+      "description": "Coder before 2.29.17, 2.30.0 before 2.32.7, 2.33.0 before 2.33.8, and 2.34.0 before 2.34.2 contains a stored HTML injection vulnerability because the ApplicationName and LogoURL appearance settings are rendered into HTML output without sufficient escaping. Attackers with the Owner role can store HTM",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111932 - Coder before 2.34.2 Stored HTML ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bc7167fc843ce3c49b9b38fbeeb3fe0d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111931 - Coder 2.0.0 before 2.34.8 Open Redirect via Workspace App Proxy",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111931",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111931\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Coder from 2.0.0 before 2.34.8 contains an open redirect vulnerability in handleAPIKeySmuggling that allows attackers to redirect users externally via unsanitized r.URL.Path values. Attackers can craft links on trusted workspace app subdomains with paths beginning with double slashes, which become scheme-relative redirects to attacker sites for phishing.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:36+00:00",
+    "cve_ids": [
+      "CVE-2026-111931"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Coder from 2.0.0 before 2.34.8 contains an open redirect vulnerability in handleAPIKeySmuggling that allows attackers to redirect users externally via unsanitized r.URL.Path values. Attackers can craft links on trusted workspace app subdomains with paths beginning with double slashes, which become s",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111931 - Coder 2.0.0 before 2.34.8 Open R",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a24b6e8164caeeb0550dc6012b480b6b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111930 - Coder from 2.26.0 before 2.34.8 Information Disclosure via Workspace ACL Endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111930",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111930\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Coder from 2.26.0 before 2.34.8 contains an incorrect authorization flaw in the GET /api/v2/workspaces/{id}/acl endpoint, which checks only workspace read access and then fetches group members using an elevated system context. Authenticated users granted workspace use access can query the endpoint to harvest group members' emails, login types, status, and last-seen and creation timestamps.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-111930"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Coder from 2.26.0 before 2.34.8 contains an incorrect authorization flaw in the GET /api/v2/workspaces/{id}/acl endpoint, which checks only workspace read access and then fetches group members using an elevated system context. Authenticated users granted workspace use access can query the endpoint t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111930 - Coder from 2.26.0 before 2.34.8 ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3b695bcb098b633e83198b2164966d52",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111929 - Coder 2.30.0 before 2.34.8 Cross-Organization File Disclosure via DownloadFile RPC",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111929",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111929\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Coder from 2.30.0 before 2.34.8 contains an authorization bypass vulnerability in the provisioner daemon DownloadFile gRPC handler that allows authenticated provisioner daemons to download other organizations' cached Terraform module archives. Attackers with an org-scoped provisioner key and a known file UUID can retrieve module source code exposing infrastructure topology or embedded secrets.\n  <br />\n  <strong>Severity:</strong> 6.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-111929"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Coder from 2.30.0 before 2.34.8 contains an authorization bypass vulnerability in the provisioner daemon DownloadFile gRPC handler that allows authenticated provisioner daemons to download other organizations' cached Terraform module archives. Attackers with an org-scoped provisioner key and a known",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111929 - Coder 2.30.0 before 2.34.8 Cross",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "08971a027e9e757552fbd917ec989b8a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111928 - Coder 2.0.0 before 2.34.8 Authorization Bypass via User-Level ACL in RBAC Policy",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111928",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111928\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Coder from 2.0.0 before 2.34.8 contains an incorrect authorization vulnerability in the acl_allow rule of coderd/rbac/policy.rego, which does not verify organization membership for per-user ACL entries, and organization member removal does not scrub those entries. Authenticated users removed from an organization can keep accessing previously granted org-scoped resources such as templates and workspaces via the API.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-111928"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "Coder from 2.0.0 before 2.34.8 contains an incorrect authorization vulnerability in the acl_allow rule of coderd/rbac/policy.rego, which does not verify organization membership for per-user ACL entries, and organization member removal does not scrub those entries. Authenticated users removed from an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111928 - Coder 2.0.0 before 2.34.8 Author",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d623af0215233e8f2c5dc20b2ace2d7a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111927 - Coder before 2.35.4 Credential Theft via Workspace Proxy Hostname Prefix Match",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111927",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111927\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Coder before 2.29.20, 2.33.0 before 2.33.12, 2.34.0 before 2.34.8, and 2.35.0 before 2.35.4 contains an improper hostname validation flaw in GetWorkspaceProxyByHostname whose SIMILAR TO pattern performs a prefix match, so any domain that is a string prefix of a workspace-proxy access URL is trusted as a proxy. Attackers owning such a domain can lure an authenticated victim to a crafted /api/v2/applications/auth-redirect link, capture the redirected application_connect API key, and replay it to access the victim's workspace apps.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details,",
+    "pub_date": "2026-10-17T19:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-111927"
+    ],
+    "cvss": 7.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.7,
+      "description": "Coder before 2.29.20, 2.33.0 before 2.33.12, 2.34.0 before 2.34.8, and 2.35.0 before 2.35.4 contains an improper hostname validation flaw in GetWorkspaceProxyByHostname whose SIMILAR TO pattern performs a prefix match, so any domain that is a string prefix of a workspace-proxy access URL is trusted ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111927 - Coder before 2.35.4 Credential T",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "aaa2704ef188029ea4ed19b4916b8c45",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111926 - Coder from 2.10.0 before 2.34.8 Information Disclosure via Agent /debug/manifest",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111926",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111926\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Coder from 2.10.0 before 2.34.8 has an unauthenticated agent debug HTTP server on 127.0.0.1:2113 whose /debug/manifest handler returns the full agent manifest, including template-provided environment variable values. A lower-privileged Unix user or process in the same workspace can query this endpoint to read credentials such as cloud keys or registry tokens.\n  <br />\n  <strong>Severity:</strong> 4.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-111926"
+    ],
+    "cvss": 3.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.3,
+      "description": "Coder from 2.10.0 before 2.34.8 has an unauthenticated agent debug HTTP server on 127.0.0.1:2113 whose /debug/manifest handler returns the full agent manifest, including template-provided environment variable values. A lower-privileged Unix user or process in the same workspace can query this endpoi",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111926 - Coder from 2.10.0 before 2.34.8 ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9ecedce031af1c2ca21dd2d10c21a0b8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111924 - Fleet before 4.83.0 Denial of Service via Unbounded Gzip Decompression",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111924",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111924\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Fleet before 4.83.0 contains a denial of service vulnerability that allows unauthenticated attackers to exhaust server memory by sending gzip-compressed request bodies. Attackers can send small, highly compressed requests with Content-Encoding: gzip to unauthenticated endpoints that expand during decoding, crashing the entire Fleet instance.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-111924"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Fleet before 4.83.0 contains a denial of service vulnerability that allows unauthenticated attackers to exhaust server memory by sending gzip-compressed request bodies. Attackers can send small, highly compressed requests with Content-Encoding: gzip to unauthenticated endpoints that expand during de",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111924 - Fleet before 4.83.0 Denial of Se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c9da21d4a261b0c590f51dd14c0356fd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111923 - Fleet before 4.89.0 Unauthenticated DoS via Apple MDM Enrollment Plist Parsing",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111923",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111923\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Fleet before 4.89.0 contains an unbounded recursion vulnerability in Apple MDM enrollment property list parsing that allows unauthenticated attackers to crash the server. Attackers can send a crafted binary plist payload of about 150 bytes to the enrollment endpoints, triggering exponential allocation or infinite recursion that exhausts CPU and memory.\n  <br />\n  <strong>Severity:</strong> 8.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:35+00:00",
+    "cve_ids": [
+      "CVE-2026-111923"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Fleet before 4.89.0 contains an unbounded recursion vulnerability in Apple MDM enrollment property list parsing that allows unauthenticated attackers to crash the server. Attackers can send a crafted binary plist payload of about 150 bytes to the enrollment endpoints, triggering exponential allocati",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111923 - Fleet before 4.89.0 Unauthentica",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "aa6543eeae2ca995b05b9c3ae6c75a2e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111922 - Vikunja 2.2.0 before 2.7.0 Permissive CORS Policy Trusting Localhost Origins",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111922",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111922\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Vikunja from 2.2.0 before 2.7.0 contains a permissive CORS configuration that trusts every localhost and 127.0.0.1 port with credentials, even when service.publicurl is set. Attackers controlling a page on any localhost port can send a credentialed request to the token refresh endpoint and read the returned bearer JWT to take over the logged-in user's account.\n  <br />\n  <strong>Severity:</strong> 7.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-111922"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "Vikunja from 2.2.0 before 2.7.0 contains a permissive CORS configuration that trusts every localhost and 127.0.0.1 port with credentials, even when service.publicurl is set. Attackers controlling a page on any localhost port can send a credentialed request to the token refresh endpoint and read the ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111922 - Vikunja 2.2.0 before 2.7.0 Permi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "33c47366c9e0a2e11a4b4db9a6947c42",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111921 - Vikunja 0.13.0 before 2.7.0 Incorrect Authorization in Link Share Deletion",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111921",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111921\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Vikunja 0.13.0 before 2.7.0 contains an incorrect authorization vulnerability that allows project members with Write permission to delete admin-tier link shares because the delete permission check reads an unloaded share object. Attackers can send DELETE requests to the v1 or v2 projects shares endpoints with sequential share IDs to revoke admin links and invalidate existing share sessions.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-111921"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "Vikunja 0.13.0 before 2.7.0 contains an incorrect authorization vulnerability that allows project members with Write permission to delete admin-tier link shares because the delete permission check reads an unloaded share object. Attackers can send DELETE requests to the v1 or v2 projects shares endp",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111921 - Vikunja 0.13.0 before 2.7.0 Inco",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "064c2c661a6ffcbf8d0052530d759315",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111920 - Vikunja 2.6.0 Broken Access Control via Inherited Project Permissions",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111920",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111920\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Vikunja 2.6.0 contains a broken access control flaw in getProjectAccessForUser (pkg/models/project_access.go), which resolves a user's effective project permission as the maximum over the project tree, silently overriding explicit lower-permission shares on sub-projects. A collaborator with write access on a parent project but read-only access to a child project can modify the child project's tasks and content.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-111920"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Vikunja 2.6.0 contains a broken access control flaw in getProjectAccessForUser (pkg/models/project_access.go), which resolves a user's effective project permission as the maximum over the project tree, silently overriding explicit lower-permission shares on sub-projects. A collaborator with write ac",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111920 - Vikunja 2.6.0 Broken Access Cont",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b787b9bc540b111a33e4b4bbcab23f58",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111919 - Vikunja 0.22.0 before 2.7.0 Improper Access Revocation via Webhooks",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111919",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111919\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Vikunja 0.22.0 before 2.7.0 contains an improper access revocation vulnerability that allows removed collaborators to keep receiving project data through webhooks they created. Former collaborators keep receiving task titles and descriptions through their webhook, including content created after their access was revoked.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-111919"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Vikunja 0.22.0 before 2.7.0 contains an improper access revocation vulnerability that allows removed collaborators to keep receiving project data through webhooks they created. Former collaborators keep receiving task titles and descriptions through their webhook, including content created after the",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111919 - Vikunja 0.22.0 before 2.7.0 Impr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b831073fb812617e5491363e031d1ece",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111918 - Vikunja 1.0.0-rc0 before 2.7.0 Cross-Tenant Task Position Writes via Saved Filter Creation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111918",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111918\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Vikunja from 1.0.0-rc0 before 2.7.0 contains an improper authorization vulnerability in RecalculateTaskPositions that allows authenticated users with zero accessible projects to write task_positions rows for all tasks instance-wide. Attackers can delete their Inbox after repointing default_project_id, then create empty-filter saved filters to persist cross-tenant references and amplify writes for denial of service.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-111918"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "Vikunja from 1.0.0-rc0 before 2.7.0 contains an improper authorization vulnerability in RecalculateTaskPositions that allows authenticated users with zero accessible projects to write task_positions rows for all tasks instance-wide. Attackers can delete their Inbox after repointing default_project_i",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111918 - Vikunja 1.0.0-rc0 before 2.7.0 C",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d021033291fbbc0a1ac99c7abf457642",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111917 - Vikunja 2.3.0 before 2.7.0 WebSocket Authentication Ignores Session Revocation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111917",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111917\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Vikunja 2.3.0 before 2.7.0 contains an improper session validation vulnerability that allows attackers to keep WebSocket access after revocation because handleAuth never checks the JWT sid claim against the sessions table. Attackers holding a stolen access token can open or maintain connections to /api/v2/ws after session deletion or TOTP enrollment, continuing to receive the victim's notification.created pushes, including comment, task and project content.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-111917"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Vikunja 2.3.0 before 2.7.0 contains an improper session validation vulnerability that allows attackers to keep WebSocket access after revocation because handleAuth never checks the JWT sid claim against the sessions table. Attackers holding a stolen access token can open or maintain connections to /",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111917 - Vikunja 2.3.0 before 2.7.0 WebSo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d46e8f23d47d87c2dc179a9b951dc2ea",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111916 - Admidio before 5.0.16 Information Disclosure via rss/links.php Weblinks Feed",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111916",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111916\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Admidio before 5.0.16 contains an information disclosure vulnerability that allows unauthenticated attackers to view role-restricted weblinks because rss/links.php omits the category_view role-visibility filter. Attackers can request the weblinks RSS feed for an organization to retrieve link names, URLs, descriptions, categories, and creator names from restricted LNK categories.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-111916"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "Admidio before 5.0.16 contains an information disclosure vulnerability that allows unauthenticated attackers to view role-restricted weblinks because rss/links.php omits the category_view role-visibility filter. Attackers can request the weblinks RSS feed for an organization to retrieve link names, ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111916 - Admidio before 5.0.16 Informatio",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "043ab0ee57080f400ccb01c60aebc97b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111914 - Admidio 5.0.11 before 5.0.16 Broken Access Control via inventory_data.php",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111914",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111914\n  <br />\n  <strong>Published :</strong> Oct. 17, 2026, 7:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Admidio from 5.0.11 before 5.0.16 contains a broken access control vulnerability in modules/inventory/inventory_data.php that allows authenticated users to bypass the inventory_module_enabled restriction. Attackers with any valid login can request the DataTables JSON feed to read every inventory item and keeper names, even when the module is disabled.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-17T19:16:33+00:00",
+    "cve_ids": [
+      "CVE-2026-111914"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Admidio from 5.0.11 before 5.0.16 contains a broken access control vulnerability in modules/inventory/inventory_data.php that allows authenticated users to bypass the inventory_module_enabled restriction. Attackers with any valid login can request the DataTables JSON feed to read every inventory ite",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111914 - Admidio 5.0.11 before 5.0.16 Bro",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c549025bcffd73d0a57b903087bba598",
+    "source": "BleepingComputer",
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+    "pub_date": "2026-10-17T15:18:51+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hackers breach Microsoft 365 tenants via ConnectWi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4864321055de1de413aae9b760271b85",
+    "source": "BleepingComputer",
+    "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+    "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+    "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+    "pub_date": "2026-10-17T14:32:48+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Drupal patches critical RCE flaws, warns exploits ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "99a3461d16b7d1c912b7911ad0b5f129",
+    "source": "CyberScoop",
+    "title": "Federal agencies recommend cyber controls, independent testing for frontier AI systems",
+    "link": "https://cyberscoop.com/federal-ai-agent-sandbox-security-guidance/",
+    "summary": "<p>While voluntary, the document marks the federal government’s most detailed cybersecurity guidance for securing sandbox environments during AI model tests.</p>\n<p>The post <a href=\"https://cyberscoop.com/federal-ai-agent-sandbox-security-guidance/\">Federal agencies recommend cyber controls, independent testing for frontier AI systems</a> appeared first on <a href=\"https://cyberscoop.com\">CyberScoop</a>.</p>",
+    "pub_date": "2026-10-17T00:34:02+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Federal agencies recommend cyber controls, indepen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0ed9a47ea1d5b1959040499011b7744c",
+    "source": "The Hacker News",
+    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+    "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\n\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of",
+    "pub_date": "2026-10-17T11:11:56+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "MALFEX npm Package 'imgdecode' Hides Shellcode Loa",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9a0cd5bfb89f4150853a0548edfae29b",
+    "source": "The Hacker News",
+    "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+    "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+    "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.\n\nConnectWise Cloud Backup is a cloud-based backup and recovery service built for managed service providers (MSPs",
+    "pub_date": "2026-10-17T06:16:46+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hackers Use Compromised ConnectWise Credential to ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "838bc16394b29d638ba8edde9a893908",
+    "source": "SecurityWeek",
+    "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+    "link": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+    "summary": "<p>Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.</p>\n<p>The post <a href=\"https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/\">Israeli Ad Firm Doubled as Candiru&#8217;s Zero-Click Spyware Delivery Channel</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-10-17T11:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Sp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6956eb929ad19ba84094e3c433af3c66",
+    "source": "Security Affairs",
+    "title": "North Korean IT Workers Used Stolen US Identities to Earn $3 Million",
+    "link": "https://securityaffairs.com/201193/intelligence/north-korean-it-workers-used-stolen-us-identities-to-earn-3-million.html",
+    "summary": "The FBI raided 40 Texas homes over a North Korean scheme that used fake IT workers to target 70 US companies and generate $3 million. The Justice Department (DoJ) announced coordinated enforcement actions this week targeting North Korea’s long-running scheme to place fake IT workers inside American companies. Two US nationals were arrested, 14 people [&#8230;]",
+    "pub_date": "2026-10-17T16:29:10+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "North Korean IT Workers Used Stolen US Identities ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "18dedc42f033cc2e7514061fa83cc3b5",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds Fortinet Multiple Products and BeyondTrust Remote Support flaws to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/201178/security/u-s-cisa-adds-fortinet-multiple-products-and-beyondtrust-remote-support-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Fortinet Multiple Products and BeyondTrust Remote Support flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added the following vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog: This week, Palo Alto Netwoks researchers reported that PEERSTITCH malware exploited FortiManager to expose 500+ firewalls, [&#8230;]",
+    "pub_date": "2026-10-17T10:35:48+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds Fortinet Multiple Products and Beyo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "22dd052c9d2f481d1386d93bdcc01c7f",
+    "source": "Security Affairs",
+    "title": "BAE Systems Cyber Incident Takes US Bankruptcy Noticing Center Offline for a Week",
+    "link": "https://securityaffairs.com/201166/security/bae-systems-cyber-incident-takes-us-bankruptcy-noticing-center-offline-for-a-week.html",
+    "summary": "A cyber incident at a BAE Systems subsidiary just stopped every bankruptcy court in the US from sending notices, and the problem started a week ago. A security incident at BAE Systems Inc., the US subsidiary of British defense contractor BAE Systems, has taken the Bankruptcy Noticing Center offline since October 9. The Bankruptcy Noticing [&#8230;]",
+    "pub_date": "2026-10-17T10:08:42+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "BAE Systems Cyber Incident Takes US Bankruptcy Not",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a2ecdab8f3eee6d65ee5294d7a576476",
+    "source": "Security Affairs",
+    "title": "AI Agents Accessed Indian Organizations Without Authorization, CERT-In Warns",
+    "link": "https://securityaffairs.com/201130/ai/ai-agents-accessed-indian-organizations-without-authorization-cert-in-warns.html",
+    "summary": "India&#8217;s CERT-In warns AI agents accessed confidential data undetected, while attackers used offensive AI frameworks to accelerate cyberattacks. CERT-In, India&#8217;s national cyber response team, published a critical-severity advisory 15 documenting two distinct categories of AI-related incidents. In one, AI models under research and evaluation exceeded their assigned tasks and accessed live Indian systems without authorization. [&#8230;]",
+    "pub_date": "2026-10-17T08:55:55+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "AI Agents Accessed Indian Organizations Without Au",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2bf243aa5914ae242478bfd87bd84e3c",
+    "source": "CrowdStrike",
+    "title": "October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "October 2026 Patch Tuesday: 1,413 CVEs Include Thr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7b0a3d736287b1ef992fe5998180e083",
+    "source": "CrowdStrike",
+    "title": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
+    "link": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9f2655d52b3b3ddc0052f437d2cbb2b6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike and Anthropic Give Critical Infrastruc",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4712686fd6070fbf05e14bd8d7ff3457",
+    "source": "CrowdStrike",
+    "title": "Solving the Continuous Authorization Conundrum",
+    "link": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Solving the Continuous Authorization Conundrum",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "26fac5d3a2e6e654c988893225ba124e",
+    "source": "CrowdStrike",
+    "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+    "link": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Unknown Threat Actor Uses AI-Driven ARTEX to Targe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8f97d2317b7936dc1af53f6c52840b08",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-modern-endpoint-security-for-enterprises/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in the 2026 IDC MarketS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8f61db65d779e3536c1484f7aa22c33b",
+    "source": "CrowdStrike",
+    "title": "Request, Aggregate, Bypass: How Attackers Can Evade LLM Safety Classifiers",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-attackers-can-bypass-llm-safety-classifiers/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Request, Aggregate, Bypass: How Attackers Can Evad",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1956d9fd996a4019bd9251c6e996b21b",
+    "source": "CrowdStrike",
+    "title": "Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Falcon Data Security for SaaS Secures Sensitive Da",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4c9d482150c8b307fa61c28f7d493eb2",
+    "source": "CrowdStrike",
+    "title": "New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New in Falcon Cloud Security: Third-Party App Insi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b15d7242ccad9b4a69232acd83ff6a9b",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Federal SOC Modernization Through CISA-Funded SIEMaaS",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-federal-soc-modernization-via-cisa-siemaas/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Federal SOC Modernization Thro",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
