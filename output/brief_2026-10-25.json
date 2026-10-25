@@ -1,0 +1,942 @@
+[
+  {
+    "uid": "7a7c110d160c7651bf72cf6c4e4481e6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-89284 - Rejected reason: This CVE ID has been rejected or",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-89284",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-89284\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 11:16 p.m. | 37 minutes ago\n  <br />\n  <strong>Description :</strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T23:16:59+00:00",
+    "cve_ids": [
+      "CVE-2026-89284"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-89284 - Rejected reason: This CVE ID has ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "521de0d850b2e1fb3c3e61f69fe4fcff",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115996 - Unitree Robotics Unitree Go2 chat_go websocket.py WebSocketClient.connect certificate validation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115996",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115996\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 11:16 p.m. | 37 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in Unitree Robotics Unitree Go2 up to 1.1.13/1.1.14.1/1.1.15.1. This affects the function WebSocketClient.connect of the file websocket.py of the component chat_go. Performing a manipulation results in improper certificate validation. The attack may be initiated remotely. The attack's complexity is rated as high. The exploitability is reported as difficult. The vendor confirmed early: \"These issues were previously submitted by the researcher through our Security Response Center platform and are tracked internally as follows: Submission 990504 corresponds to our internal ticket #616 (Go2 chat_go WSS ",
+    "pub_date": "2026-10-24T23:16:58+00:00",
+    "cve_ids": [
+      "CVE-2026-115996"
+    ],
+    "cvss": 3.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.7,
+      "description": "A vulnerability was detected in Unitree Robotics Unitree Go2 up to 1.1.13/1.1.14.1/1.1.15.1. This affects the function WebSocketClient.connect of the file websocket.py of the component chat_go. Performing a manipulation results in improper certificate validation. The attack may be initiated remotely",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115996 - Unitree Robotics Unitree Go2 cha",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b578f0239ac3f49aa6d9dd5a20e31748",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115995 - Unitree Robotics Unitree Go2 chat_go gpt_thread.py set_volume os command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115995",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115995\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 11:16 p.m. | 37 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in Unitree Robotics Unitree Go2 up to 1.1.11.4. The impacted element is the function set_volume of the file gpt_thread.py of the component chat_go. Such manipulation of the argument Value leads to os command injection. The attack can be launched remotely. Upgrading to version 1.1.11.5 is sufficient to resolve this issue. You should upgrade the affected component. The vendor confirmed early: \"Submission 990502 corresponds to our internal ticket #474 (Go2 chat_go set_volume OS command injection, CWE-78).\"\n  <br />\n  <strong>Severity:</strong> 10.0 | HIGH\n  <br />\n  Visit the link for mor",
+    "pub_date": "2026-10-24T23:16:58+00:00",
+    "cve_ids": [
+      "CVE-2026-115995"
+    ],
+    "cvss": 9.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.6,
+      "description": "A security vulnerability has been detected in Unitree Robotics Unitree Go2 up to 1.1.11.4. The impacted element is the function set_volume of the file gpt_thread.py of the component chat_go. Such manipulation of the argument Value leads to os command injection. The attack can be launched remotely. U",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115995 - Unitree Robotics Unitree Go2 cha",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "de68690279318c4901397b0054b956dc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-111326 - Rejected reason: This CVE ID has been rejected or",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-111326",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-111326\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 11:16 p.m. | 37 minutes ago\n  <br />\n  <strong>Description :</strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T23:16:58+00:00",
+    "cve_ids": [
+      "CVE-2026-111326"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-111326 - Rejected reason: This CVE ID has",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "26c8bc0c638a1cbb7cbe225f2dfbfb31",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-109111 - Rejected reason: This CVE ID has been rejected or",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-109111",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-109111\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 11:16 p.m. | 37 minutes ago\n  <br />\n  <strong>Description :</strong>Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T23:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-109111"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-109111 - Rejected reason: This CVE ID has",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3e4b444c5ca7e23a4a01602106a9f787",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115982 - phpIPAM Rack Link Creation show-rack-popup.php create_rack_link cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115982",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115982\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 10:16 p.m. | 1 hour, 38 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in phpIPAM up to 1.8.3. Affected by this issue is the function create_rack_link of the file app/tools/racks/show-rack-popup.php of the component Rack Link Creation. Performing a manipulation of the argument deviceid results in cross site scripting. Remote exploitation of the attack is possible. The exploit is now public and may be used. The vendor was contacted early about this disclosure.\n  <br />\n  <strong>Severity:</strong> 5.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T22:16:27+00:00",
+    "cve_ids": [
+      "CVE-2026-115982"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability was detected in phpIPAM up to 1.8.3. Affected by this issue is the function create_rack_link of the file app/tools/racks/show-rack-popup.php of the component Rack Link Creation. Performing a manipulation of the argument deviceid results in cross site scripting. Remote exploitation of",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115982 - phpIPAM Rack Link Creation show-",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "75e23699921875ab95ce30a2c212117d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115981 - phpIPAM index.php cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115981",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115981\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 10:16 p.m. | 1 hour, 38 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in phpIPAM up to 1.8.3. Affected by this vulnerability is an unknown functionality of the file upgrade/index.php. Such manipulation of the argument REQUEST_URI leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure.\n  <br />\n  <strong>Severity:</strong> 3.3 | LOW\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T22:16:27+00:00",
+    "cve_ids": [
+      "CVE-2026-115981"
+    ],
+    "cvss": 2.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.4,
+      "description": "A security vulnerability has been detected in phpIPAM up to 1.8.3. Affected by this vulnerability is an unknown functionality of the file upgrade/index.php. Such manipulation of the argument REQUEST_URI leads to cross site scripting. The attack may be launched remotely. The exploit has been disclose",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115981 - phpIPAM index.php cross site scr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9a8e3ba766f3f76105897d05875fb034",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115973 - FaveoSuite Faveo Helpdesk ForgotPasswordController.php reset password recovery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115973",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115973\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 7:17 p.m. | 4 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in FaveoSuite Faveo Helpdesk 2.0.3. Affected by this issue is the function ForgotPasswordController::sendResetLinkEmail/PasswordController::reset of the file app/Http/Controllers/Auth/ForgotPasswordController.php. The manipulation leads to weak password recovery. The attack may be initiated remotely. The vendor was contacted early about this disclosure.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T19:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-115973"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was identified in FaveoSuite Faveo Helpdesk 2.0.3. Affected by this issue is the function ForgotPasswordController::sendResetLinkEmail/PasswordController::reset of the file app/Http/Controllers/Auth/ForgotPasswordController.php. The manipulation leads to weak password recovery. The a",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115973 - FaveoSuite Faveo Helpdesk Forgot",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8bf83321f67969d0093d8f8a41070ee9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-114820 - Vulnerability in the Oracle Java SE, Oracle GraalV",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-114820",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-114820\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 7:17 p.m. | 4 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511-b32, 8u511-perf-b32, 11.0.33.0.2, 17.0.21.0.2, 21.0.13.0.2, 25.0.5.0.2, 27.0.1.0.2; Oracle GraalVM for JDK: 17.0.21.0.2 and  21.0.13.0.2; Oracle GraalVM Enterprise Edition: 21.3.20.0.2. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerabilit",
+    "pub_date": "2026-10-24T19:17:04+00:00",
+    "cve_ids": [
+      "CVE-2026-114820"
+    ],
+    "cvss": 9.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.1,
+      "description": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u511-b32, 8u511-perf-b32, 11.0.33.0.2, 17.0.21.0.2, 21.0.13.0.2, 25.0.5.0.2, 27.0.1.0.2; Oracle Graal",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-114820 - Vulnerability in the Oracle Java",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "81fd1d6ad42b6f1e76e96e67448aadb4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115972 - FaveoSuite Faveo Helpdesk UnAuthController.php UnAuthController.resolve authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115972",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115972\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 6:16 p.m. | 5 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in FaveoSuite Faveo Helpdesk up to 2.0.3. Affected by this vulnerability is the function UnAuthController.changeStatus/UnAuthController.close/UnAuthController.open/UnAuthController.resolve of the file app/Http/Controllers/Client/helpdesk/UnAuthController.php. Executing a manipulation of the argument id/status can lead to missing authorization. The attack can be launched remotely. The vendor was contacted early about this disclosure.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T18:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-115972"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was determined in FaveoSuite Faveo Helpdesk up to 2.0.3. Affected by this vulnerability is the function UnAuthController.changeStatus/UnAuthController.close/UnAuthController.open/UnAuthController.resolve of the file app/Http/Controllers/Client/helpdesk/UnAuthController.php. Executing",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115972 - FaveoSuite Faveo Helpdesk UnAuth",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c9f8667a19e6822ab302b43dc0a5b2e7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115971 - Travisun Opptrix preParsing handler webhook Buffer.concat denial of service",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115971",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115971\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 6:16 p.m. | 5 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in Travisun Opptrix 0.4.0. Affected is the function Buffer.concat of the file /api/channels/webhook/ of the component preParsing handler. Performing a manipulation results in denial of service. The attack can be initiated remotely. The exploit has been made public and could be used. The project has been completely taken offline and deprecated. The project maintainer explains: \"The mentioned security risk was a design flaw that manifested primarily in local environments during earlier stages of version development. We previously addressed and resolved this specific risk; however, because the pro",
+    "pub_date": "2026-10-24T18:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-115971"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was found in Travisun Opptrix 0.4.0. Affected is the function Buffer.concat of the file /api/channels/webhook/ of the component preParsing handler. Performing a manipulation results in denial of service. The attack can be initiated remotely. The exploit has been made public and could",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115971 - Travisun Opptrix preParsing hand",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3de42df8b853ce9ece8c81b2b3dc5d52",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115970 - Travisun Opptrix Import Endpoint import code injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115970",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115970\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 6:16 p.m. | 5 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in Travisun Opptrix 0.4.0. This impacts an unknown function of the file /api/system-update/import of the component Import Endpoint. Such manipulation leads to code injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The project has been completely taken offline and deprecated. The project maintainer explains: \"The mentioned security risk was a design flaw that manifested primarily in local environments during earlier stages of version development. We previously addressed and resolved this specific risk; however, because the",
+    "pub_date": "2026-10-24T18:16:48+00:00",
+    "cve_ids": [
+      "CVE-2026-115970"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability has been found in Travisun Opptrix 0.4.0. This impacts an unknown function of the file /api/system-update/import of the component Import Endpoint. Such manipulation leads to code injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115970 - Travisun Opptrix Import Endpoint",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bc6773a45d9e847e03707f180414b56d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115969 - Travisun Opptrix Schedule API setup command injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115969",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115969\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 4:16 p.m. | 7 hours, 38 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Travisun Opptrix 0.4.0. This affects an unknown function of the file /api/auth/setup of the component Schedule API. This manipulation causes command injection. It is possible to initiate the attack remotely. The exploit has been published and may be used. The project has been completely taken offline and deprecated. The project maintainer explains: \"The mentioned security risk was a design flaw that manifested primarily in local environments during earlier stages of version development. We previously addressed and resolved this specific risk; however, because the project was restricted to a smal",
+    "pub_date": "2026-10-24T16:16:25+00:00",
+    "cve_ids": [
+      "CVE-2026-115969"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A flaw has been found in Travisun Opptrix 0.4.0. This affects an unknown function of the file /api/auth/setup of the component Schedule API. This manipulation causes command injection. It is possible to initiate the attack remotely. The exploit has been published and may be used. The project has bee",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115969 - Travisun Opptrix Schedule API se",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f1cb99d27cafd4b3e288e5cb6606f25e",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115933 - Forged signed tokens let any registered user take over other users and organizations",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115933",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115933\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 3:17 p.m. | 8 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>Postiz signs its session, invitation and password reset tokens with one shared secret and without any marker of what a token is for. A route that refreshes the credentials of a browser-extension channel signed data taken from the request itself and stored the result where the requesting user can read it back. A user could therefore obtain a validly signed token containing any claims they choose, which the application accepts as a session, as an organization invitation with a chosen role, as a password reset or as an enterprise provisioning token.\n\nA second, narrower route that creates team invitations signs extra fields",
+    "pub_date": "2026-10-24T15:17:33+00:00",
+    "cve_ids": [
+      "CVE-2026-115933"
+    ],
+    "cvss": 9.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.9,
+      "description": "Postiz signs its session, invitation and password reset tokens with one shared secret and without any marker of what a token is for. A route that refreshes the credentials of a browser-extension channel signed data taken from the request itself and stored the result where the requesting user can rea",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115933 - Forged signed tokens let any reg",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4a4835a679f05437c23735de4cbb7ac4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115557 - Distrust compromised intermediate certificates in ssl module",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115557",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115557\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 3:17 p.m. | 8 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>Python has added a denylist for known compromised certificates to the \"ssl\" module to ensure user safety even without certificate revocation configured. Known compromised certificates will automatically be rejected regardless of the SSLContext policy configuration.\n  <br />\n  <strong>Severity:</strong> 9.4 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T15:17:33+00:00",
+    "cve_ids": [
+      "CVE-2026-115557"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115557 - Distrust compromised intermediat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "09a0ef8f927f7ded27e53b49122b3004",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-114704 - WordPress Relevanssi  plugin <= 4.28.4 - PHP Object Injection vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-114704",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-114704\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 2:16 p.m. | 9 hours, 38 minutes ago\n  <br />\n  <strong>Description :</strong>Deserialization of Untrusted Data vulnerability in Christoph Vielgrader Relevanssi  relevanssi allows Object Injection.This issue affects Relevanssi : from n/a through 4.28.4.\n  <br />\n  <strong>Severity:</strong> 7.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T14:16:39+00:00",
+    "cve_ids": [
+      "CVE-2026-114704"
+    ],
+    "cvss": 7.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.2,
+      "description": "Deserialization of Untrusted Data vulnerability in Christoph Vielgrader Relevanssi  relevanssi allows Object Injection.This issue affects Relevanssi : from n/a through 4.28.4.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-114704 - WordPress Relevanssi  plugin <= ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "318a7bc0403bc2319b43c58171c2f419",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-114629 - Web::Simple versions before 0.035 for Perl allocate a buffer sized by the Content-Length header for urlencoded body parameters",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-114629",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-114629\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 2:16 p.m. | 9 hours, 38 minutes ago\n  <br />\n  <strong>Description :</strong>Web::Simple versions before 0.035 for Perl allocate a buffer sized by the Content-Length header for urlencoded body parameters.\n\nWeb::Dispatch::ParamParser::get_unpacked_body_from reads an application/x-www-form-urlencoded body using a single read call, with no cap and the return value ignored. Perl's read grows the buffer to the requested length before reading, so the declared Content-Length determines the allocation.\n\nAn attacker can trigger this through any route whose dispatch specification has a % body-parameter match, such as sub (POST + %name=), sending a Content-Length far larger than the body actually sent. No ",
+    "pub_date": "2026-10-24T14:16:39+00:00",
+    "cve_ids": [
+      "CVE-2026-114629"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-114629 - Web::Simple versions before 0.03",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3a7ef443c3e419ffee01695284ed7a9b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-114192 - WordPress WpEvently plugin <= 5.7.8 - Broken Access Control vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-114192",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-114192\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 2:16 p.m. | 9 hours, 38 minutes ago\n  <br />\n  <strong>Description :</strong>Missing Authorization vulnerability in Magepeople inc. WpEvently mage-eventpress allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WpEvently: from n/a through 5.7.8.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T14:16:39+00:00",
+    "cve_ids": [
+      "CVE-2026-114192"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Missing Authorization vulnerability in Magepeople inc. WpEvently mage-eventpress allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WpEvently: from n/a through 5.7.8.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-114192 - WordPress WpEvently plugin <= 5.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bbd136cc53de3d459f6443bcb5f1b141",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-114191 - WordPress UPI QR Code Payment Gateway for WooCommerce plugin <= 1.6.3 - Broken Access Control vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-114191",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-114191\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 2:16 p.m. | 9 hours, 38 minutes ago\n  <br />\n  <strong>Description :</strong>Missing Authorization vulnerability in Knit Pay UPI QR Code Payment Gateway for WooCommerce upi-qr-code-payment-for-woocommerce allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects UPI QR Code Payment Gateway for WooCommerce: from n/a through 1.6.3.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T14:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-114191"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "Missing Authorization vulnerability in Knit Pay UPI QR Code Payment Gateway for WooCommerce upi-qr-code-payment-for-woocommerce allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects UPI QR Code Payment Gateway for WooCommerce: from n/a through 1.6.3.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-114191 - WordPress UPI QR Code Payment Ga",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b074c50bd5607b8856a2abc868a31480",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115932 - Path traversal in post media lets any registered user read server files",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115932",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115932\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 1:16 p.m. | 10 hours, 38 minutes ago\n  <br />\n  <strong>Description :</strong>When a post is published, Postiz treats a media path that is not a web address as a file on the server's disk, but it does not check that the file lies inside the upload directory. A registered user can store a crafted media path with a post, get it past the checks that normally restrict it, and have the publishing worker read an arbitrary file and send it as an attachment to a Discord server the user controls.\n\nThe same unconfined reads can be reached through two further routes. One tells the caller whether a file exists and can exhaust the backend's memory, the other delivers the file the same way as the main route. ",
+    "pub_date": "2026-10-24T13:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-115932"
+    ],
+    "cvss": 9.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.6,
+      "description": "When a post is published, Postiz treats a media path that is not a web address as a file on the server's disk, but it does not check that the file lies inside the upload directory. A registered user can store a crafted media path with a post, get it past the checks that normally restrict it, and hav",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115932 - Path traversal in post media let",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "44e53729c07ad7125f81c8860dbed8c0",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116020 - BookStack before 26.09.2 Incorrect Authorization via AttachmentController on Draft Pages",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116020",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116020\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 12:16 p.m. | 11 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>BookStack before 26.09.2 contains an incorrect authorization vulnerability in AttachmentController that allows authenticated users to access other users' draft page attachments by ID. Attackers with attachment permissions can enumerate sequential attachment IDs to download, rename, relink, or replace files on another user's unpublished draft pages.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T12:16:58+00:00",
+    "cve_ids": [
+      "CVE-2026-116020"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "BookStack before 26.09.2 contains an incorrect authorization vulnerability in AttachmentController that allows authenticated users to access other users' draft page attachments by ID. Attackers with attachment permissions can enumerate sequential attachment IDs to download, rename, relink, or replac",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116020 - BookStack before 26.09.2 Incorre",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fbe08b090ea7554917fdb876f1449e75",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116019 - Grav 2.0.15 before 2.2.13 Allowlist Bypass via Flex Form Override Directives",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116019",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116019\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 12:16 p.m. | 11 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>Grav 2.0.15 before 2.2.13 contains an allowlist bypass vulnerability that allows page editors to invoke arbitrary public static methods by relocating data-*@ directives with unset-name@ or integer keys. Attackers with page-edit permission can embed crafted fields in Flex form overrides in page frontmatter to call methods like Folder::delete or Utils::download, deleting directories, overwriting files, or reading files outside the page tree.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T12:16:58+00:00",
+    "cve_ids": [
+      "CVE-2026-116019"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "Grav 2.0.15 before 2.2.13 contains an allowlist bypass vulnerability that allows page editors to invoke arbitrary public static methods by relocating data-*@ directives with unset-name@ or integer keys. Attackers with page-edit permission can embed crafted fields in Flex form overrides in page front",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116019 - Grav 2.0.15 before 2.2.13 Allowl",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "229d2ad2f38b4643e4e15c478a0c43dc",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116018 - ONEARMY community-platform before 2.165.2 IDOR via notification read endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116018",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116018\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 12:16 p.m. | 11 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>ONEARMY community-platform before 2.165.2 contains an insecure direct object reference vulnerability that allows authenticated users to mark other users' notifications as read via POST /api/notifications/:id/read. Attackers can iterate sequential notification IDs to suppress unread indicators of users in the same tenant, causing them to miss replies, comments and new-content notices.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T12:16:58+00:00",
+    "cve_ids": [
+      "CVE-2026-116018"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "ONEARMY community-platform before 2.165.2 contains an insecure direct object reference vulnerability that allows authenticated users to mark other users' notifications as read via POST /api/notifications/:id/read. Attackers can iterate sequential notification IDs to suppress unread indicators of use",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116018 - ONEARMY community-platform befor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8b5f52b297c8e44d2d6e5c79d821174c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116017 - Xiaozhi-esp32-server before 0.9.8 IDOR via device address-book endpoint",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116017",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116017\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 12:16 p.m. | 11 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>Xiaozhi-esp32-server before 0.9.8 contains an insecure direct object reference vulnerability in the manager-api DeviceController.getAddressBook handler that allows authenticated users to read other users' device address books. Attackers with a normal or self-registered account can request /device/address-book/{macAddress} with another user's device MAC to obtain contact MACs, aliases, call permissions, and owner user IDs.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T12:16:58+00:00",
+    "cve_ids": [
+      "CVE-2026-116017"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "Xiaozhi-esp32-server before 0.9.8 contains an insecure direct object reference vulnerability in the manager-api DeviceController.getAddressBook handler that allows authenticated users to read other users' device address books. Attackers with a normal or self-registered account can request /device/ad",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116017 - Xiaozhi-esp32-server before 0.9.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "1833188f665a98987c6a847f0d4146fa",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116016 - yudao-cloud through 2026.09 Data Permission Bypass via data-permission-enable Header",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116016",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116016\n  <br />\n  <strong>Published :</strong> Oct. 24, 2026, 12:16 p.m. | 11 hours, 37 minutes ago\n  <br />\n  <strong>Description :</strong>yudao-cloud through 2026.09 contains an authorization bypass vulnerability that allows authenticated users to evade row-level data scope restrictions by sending a data-permission-enable header set to false. Attackers can add this header to /admin-api requests, which DataPermissionRpcWebFilter trusts, to read or modify other departments' and users' records within the same tenant.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-24T12:16:57+00:00",
+    "cve_ids": [
+      "CVE-2026-116016"
+    ],
+    "cvss": 7.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.1,
+      "description": "yudao-cloud through 2026.09 contains an authorization bypass vulnerability that allows authenticated users to evade row-level data scope restrictions by sending a data-permission-enable header set to false. Attackers can add this header to /admin-api requests, which DataPermissionRpcWebFilter trusts",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116016 - yudao-cloud through 2026.09 Data",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e7f9610cf94e548f5505ad28a20f1c8c",
+    "source": "BleepingComputer",
+    "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+    "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+    "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
+    "pub_date": "2026-10-24T14:17:32+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "BlackX UEFI bootkit exploits Baton Drop flaw to by",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f71ebe7a492d15c9a932e8296f3a142",
+    "source": "The Hacker News",
+    "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+    "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+    "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+    "pub_date": "2026-10-24T11:09:29+00:00",
+    "cve_ids": [
+      "CVE-2026-111497"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Brotli Decoder Flaw Behind Node.js RCE Also Affect",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9d52cbe35a240de8dd0dac040558a025",
+    "source": "The Hacker News",
+    "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+    "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+    "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+    "pub_date": "2026-10-24T11:03:33+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Leaked LiteLLM Master Key Let Attackers Steal GitH",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c874b23267c2dd7cbaad8d2ebb6a1840",
+    "source": "The Hacker News",
+    "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+    "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+    "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\n\"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+    "pub_date": "2026-10-24T10:36:33+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Google Says Gmail and Photos Data Shared With AI S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f76395b595c2377d38f29d9979dd7593",
+    "source": "The Hacker News",
+    "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+    "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+    "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\n\nThe updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.\n\nPopcorn Time was",
+    "pub_date": "2026-10-24T09:04:24+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Researchers Push Over 2 Million Updates to Remotel",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "68af383958504ee6331831dccfd3f9b0",
+    "source": "The Hacker News",
+    "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
+    "pub_date": "2026-10-24T06:25:57+00:00",
+    "cve_ids": [
+      "CVE-2026-110447"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CISA Flags Two Actively Exploited Critical Flaws i",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e949f3fdfd1247eb59d29c39cc16f5db",
+    "source": "Security Affairs",
+    "title": "Pierluigi Paganini answers questions about the PHP2Shell flaws",
+    "link": "https://securityaffairs.com/201662/hacking/pierluigi-paganini-answers-questions-about-the-php2shell-flaws.html",
+    "summary": "Pierluigi Paganini answers questions about the PHP2Shell vulnerability, early exploitation, AI-assisted attacks, and the risks to businesses, servers, and personal data. 1. Your latest report reveals that hackers began exploiting the PHP2Shell vulnerability four days before it was publicly disclosed. First, can you explain what PHP is, how widely it is used across the internet, [&#8230;]",
+    "pub_date": "2026-10-24T18:58:38+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Pierluigi Paganini answers questions about the PHP",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "5b62339278b5768c9b6eaa86f4e9ea57",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds Collabora Online flaw to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/201652/security/u-s-cisa-adds-collabora-online-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Collabora Online flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a Collabora Collabora Online – Built-in CODE Server flaw, tracked as CVE-2026-110447 (CVSS score of 9.2), to its Known Exploited Vulnerabilities (KEV) catalog. Collabora Online – Built-in CODE Server is [&#8230;]",
+    "pub_date": "2026-10-24T16:53:59+00:00",
+    "cve_ids": [
+      "CVE-2026-110447"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds Collabora Online flaw to its Known ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f89954d8063f49e74c20fe2785e036c0",
+    "source": "Security Affairs",
+    "title": "Usage Intelligence: The Monetization Signal Most AI Companies Are Ignoring",
+    "link": "https://securityaffairs.com/201643/ai/usage-intelligence-the-monetization-signal-most-ai-companies-are-ignoring.html",
+    "summary": "AI companies need usage data to align pricing with costs, improve products, identify churn risks, and grow revenue through informed decisions. The AI Paradox There is a paradox: AI companies exist to extract intelligence from data, yet many have almost no visibility into how their own software is being used. They design complex models, introduce [&#8230;]",
+    "pub_date": "2026-10-24T14:33:09+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Usage Intelligence: The Monetization Signal Most A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e8c6688375bf066ddc7a8f6c9ccd1893",
+    "source": "Security Affairs",
+    "title": "Capcom Data Breach Exposes 11.7 Million Email Addresses",
+    "link": "https://securityaffairs.com/201626/data-breach/capcom-data-breach-exposes-11-7-million-email-addresses.html",
+    "summary": "Capcom disclosed a data breach exposing 11.7 million email addresses and account details after hackers accessed its CAPCOM ID service. Japanese gaming company Capcom has disclosed a data breach discovered on October 19 involving its CAPCOM ID service, which provides access to online services and games. As of October 22, attackers stole 11,774,247 email addresses, [&#8230;]",
+    "pub_date": "2026-10-24T10:21:53+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Capcom Data Breach Exposes 11.7 Million Email Addr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f42c5a4d0f67222e83dac58bce71a885",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds Arista VeloCloud Orchestrator flaw to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/201609/hacking/u-s-cisa-adds-arista-velocloud-orchestrator-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Arista VeloCloud Orchestrator flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a critical Arista VeloCloud Orchestrator flaw, tracked as CVE-2026-114625 (CVSS score of 9.4), to its Known Exploited Vulnerabilities (KEV) catalog. VeloCloud Orchestrator (VCO) is the central management system for [&#8230;]",
+    "pub_date": "2026-10-24T08:30:44+00:00",
+    "cve_ids": [
+      "CVE-2026-114625"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds Arista VeloCloud Orchestrator flaw ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4c2742e3e3e7c560ceb0437d9617b3b7",
+    "source": "CrowdStrike",
+    "title": "Why Organizations Secure AI Agents with Falcon Guardian",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why Organizations Secure AI Agents with Falcon Gua",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3e1c45e08d75d9b24b7a1da4be1fb6a5",
+    "source": "CrowdStrike",
+    "title": "Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation",
+    "link": "https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Obstacles to Weaponizing PHP2Shell Likely Constrai",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "087b4be06428b2c5e3bd8bdca5fa2b62",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Protects Customers from Threats Delivered via PHP2Shell",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Protects Customers from Threats Delive",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f023b42b85e1d22dce6b638a62b08fcc",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Uncovers New Agentic AI Campaigns",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Uncovers New Agentic AI Campaigns",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ef2703c7ba3feae67ef3a1c02401bf01",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Achieves NCSC CIR Enhanced Level Assurance",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Achieves NCSC CIR Enhanced Level Assur",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7b0a3d736287b1ef992fe5998180e083",
+    "source": "CrowdStrike",
+    "title": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
+    "link": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2bf243aa5914ae242478bfd87bd84e3c",
+    "source": "CrowdStrike",
+    "title": "October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "October 2026 Patch Tuesday: 1,413 CVEs Include Thr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9f2655d52b3b3ddc0052f437d2cbb2b6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike and Anthropic Give Critical Infrastruc",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4712686fd6070fbf05e14bd8d7ff3457",
+    "source": "CrowdStrike",
+    "title": "Solving the Continuous Authorization Conundrum",
+    "link": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Solving the Continuous Authorization Conundrum",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "26fac5d3a2e6e654c988893225ba124e",
+    "source": "CrowdStrike",
+    "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+    "link": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Unknown Threat Actor Uses AI-Driven ARTEX to Targe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7b358dafcb1a8fc3abdda808d7c9dec1",
+    "source": "Qualys Blog",
+    "title": "How to Identify Compromised eMudhra Certificates With Qualys (CVE-2026-111943 and CVE-2026-111944)",
+    "link": "https://blog.qualys.com/category/vulnerabilities-threat-research",
+    "summary": "Executive Summary A critical certificate authority incident disclosed on October 17, 2026, impacts eight eMudhra intermediate CA certificates. A flaw in the key generation process could allow attackers to recover private keys and issue fraudulent TLS or code-signing certificates. The affected intermediates have been revoked and blocked by major platform vendors, including Chrome, Mozilla, Apple, [&#8230;]",
+    "pub_date": "2026-10-24T02:03:52+00:00",
+    "cve_ids": [
+      "CVE-2026-111943",
+      "CVE-2026-111944"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How to Identify Compromised eMudhra Certificates W",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
