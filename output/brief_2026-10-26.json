@@ -1,0 +1,905 @@
+[
+  {
+    "uid": "24e8f4b14fe51faced04e5b801b29c3b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116099 - Fusion Creators Studio SCP Containment Breach Multiplayer Skynet++ Virtual Machine BlitzBanks out-of-bounds write",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116099",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116099\n  <br />\n  <strong>Published :</strong> Oct. 26, 2026, 12:17 a.m. | 19 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Fusion Creators Studio SCP Containment Breach Multiplayer up to 1.295. This issue affects the function BlitzBanks of the component Skynet++ Virtual Machine. Executing a manipulation can lead to out-of-bounds write. The attack can be executed remotely. The exploit has been published and may be used. Upgrading to version 1.3R is capable of addressing this issue. It is recommended to upgrade the affected component.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-26T00:17:14+00:00",
+    "cve_ids": [
+      "CVE-2026-116099"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A flaw has been found in Fusion Creators Studio SCP Containment Breach Multiplayer up to 1.295. This issue affects the function BlitzBanks of the component Skynet++ Virtual Machine. Executing a manipulation can lead to out-of-bounds write. The attack can be executed remotely. The exploit has been pu",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116099 - Fusion Creators Studio SCP Conta",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "acc865deb3b8a1cc25db2ff718ddc108",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116098 - SteelRaven7 Ravenfield RFL Custom Map Handler/RFLD Custom Map cacheCoverPoints deserialization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116098",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116098\n  <br />\n  <strong>Published :</strong> Oct. 26, 2026, 12:17 a.m. | 19 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in SteelRaven7 Ravenfield 25407073. This vulnerability affects the function cacheCoverPoints of the component RFL Custom Map Handler/RFLD Custom Map Handler. Performing a manipulation results in deserialization. Remote exploitation of the attack is possible. The patch is named EA39 Security Patch. Applying a patch is the recommended action to fix this issue.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-26T00:17:14+00:00",
+    "cve_ids": [
+      "CVE-2026-116098"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was detected in SteelRaven7 Ravenfield 25407073. This vulnerability affects the function cacheCoverPoints of the component RFL Custom Map Handler/RFLD Custom Map Handler. Performing a manipulation results in deserialization. Remote exploitation of the attack is possible. The patch is",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116098 - SteelRaven7 Ravenfield RFL Custo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f79efb86bdc4215a50f40aff6cafc644",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116097 - CloudClassroom-PHP-Project addnewstudent.php cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116097",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116097\n  <br />\n  <strong>Published :</strong> Oct. 26, 2026, 12:17 a.m. | 19 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in CloudClassroom-PHP-Project. This affects an unknown part of the file addnewstudent.php. Such manipulation of the argument fname leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. This product operates on a rolling release basis, ensuring continuous delivery. Consequently, there are no version details for either affected or updated releases. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.0 | MEDIUM\n  <br />\n  Visit the link for more d",
+    "pub_date": "2026-10-26T00:17:14+00:00",
+    "cve_ids": [
+      "CVE-2026-116097"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A security vulnerability has been detected in CloudClassroom-PHP-Project. This affects an unknown part of the file addnewstudent.php. Such manipulation of the argument fname leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. T",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116097 - CloudClassroom-PHP-Project addne",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ea302ad18def7528dcd77cea429fb2a7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116096 - ggml-org llama.cpp Pocket-TTS pockettts-gen.cpp list_pockettts_state_slots out-of-bounds write",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116096",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116096\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 11:17 p.m. | 1 hour, 18 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in ggml-org llama.cpp. Affected by this issue is the function list_pockettts_state_slots of the file tools/mtmd/models/pockettts-gen.cpp of the component Pocket-TTS. This manipulation of the argument mmproj causes out-of-bounds write. The attack requires local access. The exploit has been made available to the public and could be used for attacks. Upgrading to version b11796 can resolve this issue. Patch name: 0a1ef309cdbb9f2024f58a38fb4c42352c5db569. The affected component should be upgraded. The reported heap out‑of‑bounds write (gen‑audio / pocket‑tts state_out path) is no longer a sile",
+    "pub_date": "2026-10-25T23:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-116096"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A weakness has been identified in ggml-org llama.cpp. Affected by this issue is the function list_pockettts_state_slots of the file tools/mtmd/models/pockettts-gen.cpp of the component Pocket-TTS. This manipulation of the argument mmproj causes out-of-bounds write. The attack requires local access. ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116096 - ggml-org llama.cpp Pocket-TTS po",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6675f28ed4dc17dec8e3310614c97308",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116095 - smg-project smg llm-multimodal jpeg_turbo.rs decode_jpeg_rgb memory allocation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116095",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116095\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 11:17 p.m. | 1 hour, 18 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in smg-project smg 1.7.0/1.8.0/1.9.0/1.10.0/1.10.1. Affected is the function jpeg_turbo::decode_jpeg_rgb of the file crates/multimodal/src/jpeg_turbo.rs of the component llm-multimodal. The manipulation leads to uncontrolled memory allocation. The attack can be initiated remotely. The exploit is publicly available and might be used. Upgrading to version 1.11.0 is able to address this issue. The identifier of the patch is 8f51b57e219a914089e345b704c3c8de37a3bb8e. It is advisable to upgrade the affected component.\n  <br />\n  <strong>Severity:</strong> 5.5 | MEDIUM\n  <br />\n  Visit the link f",
+    "pub_date": "2026-10-25T23:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-116095"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was identified in smg-project smg 1.7.0/1.8.0/1.9.0/1.10.0/1.10.1. Affected is the function jpeg_turbo::decode_jpeg_rgb of the file crates/multimodal/src/jpeg_turbo.rs of the component llm-multimodal. The manipulation leads to uncontrolled memory allocation. The attack can be initiat",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116095 - smg-project smg llm-multimodal j",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b31e12c9a384898b7cb2feb4d47edf53",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116094 - EyouCMS function.php remote_file_to_local server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116094",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116094\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 10:16 p.m. | 2 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in EyouCMS up to 1.8.3. This impacts the function remote_file_to_local of the file application/function.php. Executing a manipulation can lead to server-side request forgery. It is possible to launch the attack remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T22:16:29+00:00",
+    "cve_ids": [
+      "CVE-2026-116094"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was determined in EyouCMS up to 1.8.3. This impacts the function remote_file_to_local of the file application/function.php. Executing a manipulation can lead to server-side request forgery. It is possible to launch the attack remotely. The exploit has been publicly disclosed and may ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116094 - EyouCMS function.php remote_file",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c87d2911f0f0a6584132d674bad8099d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115635 - AshPostgres returns another tenant's record for a skipped upsert when return_skipped_upsert? is set",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115635",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115635\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 8:16 p.m. | 4 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>Incorrect Authorization vulnerability in ash-project ash_postgres allows a user to read another tenant's record through a skipped upsert.\n\nWhen Ash.bulk_create/4 or a single create runs as an upsert with return_skipped_upsert?: true and the upsert is skipped (for example because its upsert_condition does not hold), AshPostgres.DataLayer reads the existing row back by the upsert identity in do_bulk_create/3 and upsert/4. That lookup did not apply the resource's attribute multitenancy, so on a resource using strategy :attribute it could match and return the row of another tenant with the same identity values, exposing its",
+    "pub_date": "2026-10-25T20:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-115635"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115635 - AshPostgres returns another tena",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0ed06a9e5c8ed4849e86cf014c789787",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115627 - AshPostgres ignores attribute multitenancy on the join resource when loading many_to_many and through relationships, returning records related through other tenants' rows",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115627",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115627\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 8:16 p.m. | 4 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>Incorrect Authorization vulnerability in ash-project ash_postgres allows a user to load destination records linked to a source record only through another tenant's join rows.\n\nWhen a many_to_many relationship, or a through relationship, is loaded with a lateral join (for example with a per-record limit or sort), AshPostgres.DataLayer builds the query for the join resource, and for each resource along a through path, in lateral_join_query/3 and through_step_queries/4 without running that resource's read action, which is where attribute multitenancy is applied. When those resources use strategy :attribute multitenancy, ro",
+    "pub_date": "2026-10-25T20:16:32+00:00",
+    "cve_ids": [
+      "CVE-2026-115627"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115627 - AshPostgres ignores attribute mu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8c8aa9bcbee8a261d712031d956c4e10",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-114214 - Loading a through relationship with a limit of 1 in Ash ignores the through path and returns unrelated destination records",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-114214",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-114214\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 8:16 p.m. | 4 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>Incorrect Authorization vulnerability in ash-project ash allows a client to read destination records unrelated to the source record through a through relationship.\n\nWhen a has_many relationship declared with through: was loaded for a single record with a limit of 1, or an unsorted has_one through relationship was loaded with a limit of 1, lateral_join?/4 in lib/ash/actions/read/relationships.ex chose the path that reads the destination without any filter linking it to the source. The load returned the first destination record by sort, or any other record with an offset. The read still runs the destination's policies but",
+    "pub_date": "2026-10-25T20:16:31+00:00",
+    "cve_ids": [
+      "CVE-2026-114214"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-114214 - Loading a through relationship w",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dcd9b104b15b177b5d7d0dfffafe111b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116063 - DedeCMS update_guide.php require_once code injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116063",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116063\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 6:16 p.m. | 6 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in DedeCMS up to 5.7.118. Impacted is the function require_once of the file dede/update_guide.php. This manipulation of the argument vtime causes code injection. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be used for attacks.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T18:16:47+00:00",
+    "cve_ids": [
+      "CVE-2026-116063"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "A weakness has been identified in DedeCMS up to 5.7.118. Impacted is the function require_once of the file dede/update_guide.php. This manipulation of the argument vtime causes code injection. Remote exploitation of the attack is possible. The exploit has been made available to the public and could ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116063 - DedeCMS update_guide.php require",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0ebe7c943f000d7fab84a3da9ad36d3c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116062 - SourceCodester Performance Indicator System save_profile.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116062",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116062\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 6:16 p.m. | 6 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in SourceCodester Performance Indicator System 1.0. This issue affects some unknown processing of the file /opils/staff/save_profile.php. The manipulation of the argument Contact results in sql injection. The attack may be launched remotely. The exploit has been released to the public and may be used for attacks.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T18:16:46+00:00",
+    "cve_ids": [
+      "CVE-2026-116062"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A security flaw has been discovered in SourceCodester Performance Indicator System 1.0. This issue affects some unknown processing of the file /opils/staff/save_profile.php. The manipulation of the argument Contact results in sql injection. The attack may be launched remotely. The exploit has been r",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116062 - SourceCodester Performance Indic",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "61fb34a0cd880b15737310d178eca3c4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116061 - SourceCodester Performance Indicator System edit_dealer.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116061",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116061\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 6:16 p.m. | 6 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in SourceCodester Performance Indicator System 1.0. This vulnerability affects unknown code of the file /opils/staff/edit_dealer.php. The manipulation of the argument Contact leads to sql injection. The attack may be initiated remotely. The exploit is publicly available and might be used.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T18:16:46+00:00",
+    "cve_ids": [
+      "CVE-2026-116061"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was identified in SourceCodester Performance Indicator System 1.0. This vulnerability affects unknown code of the file /opils/staff/edit_dealer.php. The manipulation of the argument Contact leads to sql injection. The attack may be initiated remotely. The exploit is publicly availabl",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116061 - SourceCodester Performance Indic",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "054fcf7176e6f4da9ded76d777084722",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116060 - SourceCodester Performance Indicator System adddealer.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116060",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116060\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 5:17 p.m. | 7 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in SourceCodester Performance Indicator System 1.0. This affects an unknown part of the file /opils/staff/adddealer.php. Executing a manipulation of the argument Contact can lead to sql injection. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized.\n  <br />\n  <strong>Severity:</strong> 7.5 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T17:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-116060"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A vulnerability was determined in SourceCodester Performance Indicator System 1.0. This affects an unknown part of the file /opils/staff/adddealer.php. Executing a manipulation of the argument Contact can lead to sql injection. The attack can be launched remotely. The exploit has been publicly discl",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116060 - SourceCodester Performance Indic",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4d8c71864d601dddfafaa181c1e043de",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115825 - HTTP::Server::PSGI versions before 1.0056 for Perl allow a single request to crash the server by declaring a large Content-Length",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115825",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115825\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 5:17 p.m. | 7 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>HTTP::Server::PSGI versions before 1.0056 for Perl allow a single request to crash the server by declaring a large Content-Length.\n\nThe request body is read with sysread() calls sized by the remaining Content-Length. Perl grows the read buffer to the requested length before any data arrives, so the server tries to allocate as much memory as the client declares.\n\nA remote attacker can send one request with a large Content-Length and a few body bytes, and perl exits with an out-of-memory error before the application is called. HTTP::Server::PSGI runs as a single process, so the server stays down until restarted.\n  <br />\n",
+    "pub_date": "2026-10-25T17:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-115825"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115825 - HTTP::Server::PSGI versions befo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a725e4ba202de2a251f03541aa48b188",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115824 - Starman versions before 0.4019 for Perl allow memory exhaustion via unbounded buffering of chunked request bodies",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115824",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115824\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 5:17 p.m. | 7 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>Starman versions before 0.4019 for Perl allow memory exhaustion via unbounded buffering of chunked request bodies.\n\nThe chunked body decoder keeps each chunk in memory until the whole chunk and its CRLF have arrived, and sets no limit on the length of a chunk-size line. A client that declares a huge chunk size and streams data, or sends a chunk-size line that never ends, grows the buffer for as long as it keeps sending.\n\nA remote attacker can exhaust worker memory with a single connection.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, ",
+    "pub_date": "2026-10-25T17:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-115824"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115824 - Starman versions before 0.4019 f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d6f34ecb81ada389969f7802470e715b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115823 - Starman versions before 0.4019 for Perl send response bodies for HEAD requests, desynchronizing responses on keep-alive connections",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115823",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115823\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 5:17 p.m. | 7 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>Starman versions before 0.4019 for Perl send response bodies for HEAD requests, desynchronizing responses on keep-alive connections.\n\nFor a HEAD request Starman omits chunked framing but still writes the body returned by the application, on both the array and streaming response paths. Responses with a 1xx, 204 or 304 status also carry the body.\n\nOn a keep-alive or pipelined connection the client reads those bytes as the start of the next response. A front-end proxy that reuses upstream connections may then pair responses with the wrong requests.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link fo",
+    "pub_date": "2026-10-25T17:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-115823"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115823 - Starman versions before 0.4019 f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "b083d6d07f351a2306c8dd3c5d8ee507",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115822 - Starman versions before 0.4019 for Perl allow CPU exhaustion via quadratic regex backtracking when parsing chunked request bodies",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115822",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115822\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 5:17 p.m. | 7 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>Starman versions before 0.4019 for Perl allow CPU exhaustion via quadratic regex backtracking when parsing chunked request bodies.\n\nStarman decodes chunked request bodies before calling the application, matching each chunk-size line with `s/^(([0-9a-fA-F]+).*\\015\\012)//`. A line of hex digits followed by a bare LF and then CRLF never matches, because `.` does not match LF, and each failed attempt backtracks in time quadratic in the length of the hex run. Nothing limits the length of the line.\n\nA remote attacker can exhaust worker CPU by sending such requests to any route.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n ",
+    "pub_date": "2026-10-25T17:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-115822"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115822 - Starman versions before 0.4019 f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c0d1d6936847697734a43deff4b51f07",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115817 - Starman versions before 0.4019 for Perl allow a stalled request body to hold a worker indefinitely, as read_timeout covers only the headers",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115817",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115817\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 5:17 p.m. | 7 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>Starman versions before 0.4019 for Perl allow a stalled request body to hold a worker indefinitely, as read_timeout covers only the headers.\n\nContent-Length and chunked request bodies are read with blocking reads and no deadline. A client that sends complete headers and then stalls or trickles the body keeps the worker waiting until it disconnects.\n\nA remote attacker can take every worker with a few such connections, five with the default worker count, so the server stops answering requests.\n\nVersion 0.4019 applies read_timeout to each wait for body data and adds a body_timeout limit, 300 seconds by default, on the tota",
+    "pub_date": "2026-10-25T17:17:00+00:00",
+    "cve_ids": [
+      "CVE-2026-115817"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115817 - Starman versions before 0.4019 f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fddbc15c821a1774a8dc3eb7fa927d59",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116058 - Alfresco Activiti JuelScriptEngine.java JuelScriptEngine.eval code injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116058",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116058\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 4:16 p.m. | 8 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in Alfresco Activiti up to 7.21.0-rc.692. Affected by this issue is the function JuelScriptEngine.eval of the file JuelScriptEngine.java. Performing a manipulation results in code injection. The attack can be initiated remotely. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T16:16:50+00:00",
+    "cve_ids": [
+      "CVE-2026-116058"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was found in Alfresco Activiti up to 7.21.0-rc.692. Affected by this issue is the function JuelScriptEngine.eval of the file JuelScriptEngine.java. Performing a manipulation results in code injection. The attack can be initiated remotely. The vendor was contacted early about this dis",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116058 - Alfresco Activiti JuelScriptEngi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "695d0c338942157c47938e8d7f50fad9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116057 - KodCloud KodExplorer Online Editor Save Endpoint editor.class.php unrestricted upload",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116057",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116057\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 4:16 p.m. | 8 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in KodCloud KodExplorer up to 4.55. Affected by this vulnerability is an unknown functionality of the file app/controller/editor.class.php of the component Online Editor Save Endpoint. Such manipulation of the argument path/filestr leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timel",
+    "pub_date": "2026-10-25T16:16:50+00:00",
+    "cve_ids": [
+      "CVE-2026-116057"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in KodCloud KodExplorer up to 4.55. Affected by this vulnerability is an unknown functionality of the file app/controller/editor.class.php of the component Online Editor Save Endpoint. Such manipulation of the argument path/filestr leads to unrestricted upload. It is p",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116057 - KodCloud KodExplorer Online Edit",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9dccaa22bf5b7317bbe8adf4210ad243",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116056 - KodCloud KodExplorer Remote Download web.function.php request_url_safe server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116056",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116056\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 4:16 p.m. | 8 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in KodCloud KodExplorer up to 4.56. Affected is the function request_url_safe of the file app/function/web.function.php of the component Remote Download. This manipulation causes server-side request forgery. It is possible to initiate the attack remotely. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T16:16:49+00:00",
+    "cve_ids": [
+      "CVE-2026-116056"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A flaw has been found in KodCloud KodExplorer up to 4.56. Affected is the function request_url_safe of the file app/function/web.function.php of the component Remote Download. This manipulation causes server-side request forgery. It is possible to initiate the attack remotely. The vendor was contact",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116056 - KodCloud KodExplorer Remote Down",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "61742ff3bd341942a5b6e835e0cb5559",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116055 - SourceCodester Performance Indicator System deleteproduct.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116055",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116055\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 3:17 p.m. | 9 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in SourceCodester Performance Indicator System 1.0. This impacts an unknown function of the file /opils/admin/deleteproduct.php. The manipulation of the argument ID results in sql injection. The attack may be performed from remote. The exploit is now public and may be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T15:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-116055"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was detected in SourceCodester Performance Indicator System 1.0. This impacts an unknown function of the file /opils/admin/deleteproduct.php. The manipulation of the argument ID results in sql injection. The attack may be performed from remote. The exploit is now public and may be us",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116055 - SourceCodester Performance Indic",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "75bb6ac0887f9d21ee71452f87903f8a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116054 - SH3 Módulo de Gestão/Módulo de Arrecadação weak password hash",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116054",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116054\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 3:17 p.m. | 9 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in SH3. This affects an unknown function of the component Módulo de Gestão/Módulo de Arrecadação. The manipulation leads to password hash with insufficient computational effort. The attack is possible to be carried out remotely. A high degree of complexity is needed for the attack. The exploitability is reported as difficult. The exploit has been disclosed publicly and may be used. Upgrading to version 2026.0.2.0 mitigates this issue. Upgrading the affected component is recommended.\n  <br />\n  <strong>Severity:</strong> 2.2 | LOW\n  <br />\n  Visit the link for more details, such",
+    "pub_date": "2026-10-25T15:17:01+00:00",
+    "cve_ids": [
+      "CVE-2026-116054"
+    ],
+    "cvss": 2.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 2.2,
+      "description": "A security vulnerability has been detected in SH3. This affects an unknown function of the component Módulo de Gestão/Módulo de Arrecadação. The manipulation leads to password hash with insufficient computational effort. The attack is possible to be carried out remotely. A high degree of complexity ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116054 - SH3 Módulo de Gestão/Módulo de A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "84a0eb9d661d7be3148d929de7f4b986",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116211 - YesWiki 4.5.0 before 4.7.0 SQL Injection via date_maj_fiche in Bazar entry create",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116211",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116211\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 2:17 p.m. | 10 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>YesWiki 4.5.0 before 4.7.0 contains an SQL injection vulnerability in PageManager::save(), where the date_maj_fiche field of a Bazar entry-creation request is concatenated unescaped into an INSERT statement. Unauthenticated attackers on default installs can inject a sub-SELECT against wiki_users to exfiltrate password hashes.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T14:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-116211"
+    ],
+    "cvss": 8.2,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.2,
+      "description": "YesWiki 4.5.0 before 4.7.0 contains an SQL injection vulnerability in PageManager::save(), where the date_maj_fiche field of a Bazar entry-creation request is concatenated unescaped into an INSERT statement. Unauthenticated attackers on default installs can inject a sub-SELECT against wiki_users to ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116211 - YesWiki 4.5.0 before 4.7.0 SQL I",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c4e8a1f2e09b46a2dbcca7a25e93bf26",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-116208 - YesWiki 4.6.2 before 4.7.0 Missing Authorization in ActivityPub syncActorPosts",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-116208",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-116208\n  <br />\n  <strong>Published :</strong> Oct. 25, 2026, 2:17 p.m. | 10 hours, 19 minutes ago\n  <br />\n  <strong>Description :</strong>YesWiki from 4.6.2 before 4.7.0 contains a missing authorization vulnerability in ActivityPubService::syncActorPosts that lets malicious ActivityPub servers manipulate other actors' mirrored entries. Attackers can serve a poisoned outbox with cross-actor Delete, Update, or Create activities during admin-initiated sync to delete, overwrite, forge, or mass-delete entries.\n  <br />\n  <strong>Severity:</strong> 8.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-25T14:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-116208"
+    ],
+    "cvss": 8.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.1,
+      "description": "YesWiki from 4.6.2 before 4.7.0 contains a missing authorization vulnerability in ActivityPubService::syncActorPosts that lets malicious ActivityPub servers manipulate other actors' mirrored entries. Attackers can serve a poisoned outbox with cross-actor Delete, Update, or Create activities during a",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-116208 - YesWiki 4.6.2 before 4.7.0 Missi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3a31401ab19236c338b49f37de0f6925",
+    "source": "BleepingComputer",
+    "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+    "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+    "pub_date": "2026-10-25T15:49:38+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "AI coding agents hijacked using AGENTS.md file in ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8988ecccd2e53a8ee94992bf88ea2046",
+    "source": "SecurityWeek",
+    "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+    "link": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+    "summary": "<p>Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks.</p>\n<p>The post <a href=\"https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/\">Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-10-25T11:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Former Unit 8200 Officers Raise $34 Million for Ag",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "01c375adaf3eee98195e7de6bd13f37c",
+    "source": "Help Net Security",
+    "title": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
+    "link": "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/",
+    "summary": "<p>The OpenSSL project released version 4.1.0, adding support for DTLS 1.3 and listing four known bugs in the DTLS code that ships with it. DTLS is the variant of TLS built for datagram transports such as UDP, and version 1.3 is defined in RFC 9147. The bugs fall on developers who adopt DTLS 1.3 or the DTLS support newly added to OpenSSL’s SSL listener API. Two of them can make an application misread a connection’s &#8230; <a href=\"https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/\">OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken</a> appeared first on <a href=\"https://www.helpnetsecurity.com\">Help Net S",
+    "pub_date": "2026-10-25T23:33:35+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "OpenSSL 4.1.0: What’s new, what’s removed, and wha",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fb2c279f05216e50f5e40e93010010ef",
+    "source": "Help Net Security",
+    "title": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
+    "link": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get ready to update! The PHP security team has announced an urgent security release for Wednesday, 21 October 2026 at 14:00 UTC. The release fixes two vulnerabilities, each rated 9.2 (Critical) under CVSS v4.0. The project will publish those details, along with the patched version numbers, when the release goes out. &#8230; <a href=\"https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploite",
+    "pub_date": "2026-10-25T09:00:56+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: PHP vulnerabilities patched, explo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a015bc5461fffee62222e948bc6d41d4",
+    "source": "The Hacker News",
+    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+    "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.\n\nThe findings were",
+    "pub_date": "2026-10-25T17:44:09+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Unpatched Tailscale SSH Flaws Could Let a Hacked D",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0f2325be7a104e58c762057e345c1c5e",
+    "source": "The Hacker News",
+    "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+    "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+    "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\n\"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
+    "pub_date": "2026-10-25T17:19:46+00:00",
+    "cve_ids": [
+      "CVE-2026-109619",
+      "CVE-2026-109618"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "PHP2Shell Exploitation Hits Government Entity Amid",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "059df2aa94c42d1f21ae4b5a4a72a769",
+    "source": "The Hacker News",
+    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+    "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+    "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
+    "pub_date": "2026-10-25T06:54:29+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "OpenAI AI Agents Demonstrate VM Escapes and Secret",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0856c462843053b78bbbda15da2cd0a9",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 5",
+    "link": "https://securityaffairs.com/201718/ai/security-affairs-ai-cybersecurity-newsletter-round-5.html",
+    "summary": "Security Affairs AI-CYBERSECURITY newsletter includes a collection of the best articles and research on AI in the international landscape Artificial intelligence is rapidly changing cybersecurity, reshaping both the techniques used by attackers and the tools available to defenders. AI agents can automate tasks, analyze large amounts of data, discover vulnerabilities and accelerate offensive operations. At [&#8230;]",
+    "pub_date": "2026-10-25T17:49:25+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "87987180fc978977a8d1a38065930046",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 120",
+    "link": "https://securityaffairs.com/201709/security/security-affairs-malware-newsletter-round-120.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Auditing the auditor: Unmasking Apex Accelerator GhostAction Attack Escalates By Targeting GitHub Users&#160;&#160; &#160;&#160;&#160; Plex vulnerabilities being exploited in the wild to drop a cryptominer&#160;&#160; WordPress Rank Math SEO PRO Plugin 3.0.123 is vulnerable [&#8230;]",
+    "pub_date": "2026-10-25T13:27:05+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 120",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0e1a0f2820ce612feb60d4d623765984",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 601 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/201698/breaking-news/security-affairs-newsletter-round-601-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including international press. Capcom Data Breach Exposes 11.7 Million Email Addresses U.S. CISA adds Arista VeloCloud Orchestrator&#160;flaw to its Known [&#8230;]",
+    "pub_date": "2026-10-25T12:28:47+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 601 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6928dcc57a125b09d20bc7e6caa149c0",
+    "source": "Security Affairs",
+    "title": "OpenAI Paused Frontier AI Training After a Security Incident",
+    "link": "https://securityaffairs.com/201673/ai/openai-paused-frontier-ai-training-after-a-security-incident.html",
+    "summary": "OpenAI paused frontier model training for 11 days after AI agents exposed security weaknesses, VM escapes and covert communication channels. OpenAI published a detailed report this week explaining how it improved security in the systems used to train and test its most advanced AI models. The company also described what happened when its AI agents [&#8230;]",
+    "pub_date": "2026-10-25T09:56:32+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "OpenAI Paused Frontier AI Training After a Securit",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4c2742e3e3e7c560ceb0437d9617b3b7",
+    "source": "CrowdStrike",
+    "title": "Why Organizations Secure AI Agents with Falcon Guardian",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why Organizations Secure AI Agents with Falcon Gua",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3e1c45e08d75d9b24b7a1da4be1fb6a5",
+    "source": "CrowdStrike",
+    "title": "Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation",
+    "link": "https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Obstacles to Weaponizing PHP2Shell Likely Constrai",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "087b4be06428b2c5e3bd8bdca5fa2b62",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Protects Customers from Threats Delivered via PHP2Shell",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Protects Customers from Threats Delive",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f023b42b85e1d22dce6b638a62b08fcc",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Uncovers New Agentic AI Campaigns",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Uncovers New Agentic AI Campaigns",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ef2703c7ba3feae67ef3a1c02401bf01",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Achieves NCSC CIR Enhanced Level Assurance",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-uk-ncsc-cir-enhanced-level-assurance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Achieves NCSC CIR Enhanced Level Assur",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "7b0a3d736287b1ef992fe5998180e083",
+    "source": "CrowdStrike",
+    "title": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance",
+    "link": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. Government Disrupts FAMOUS CHOLLIMA Operation",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2bf243aa5914ae242478bfd87bd84e3c",
+    "source": "CrowdStrike",
+    "title": "October 2026 Patch Tuesday: 1,413 CVEs Include Three Zero-Days and 75 Critical Vulnerabilities",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "October 2026 Patch Tuesday: 1,413 CVEs Include Thr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9f2655d52b3b3ddc0052f437d2cbb2b6",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike and Anthropic Give Critical Infrastructure Defenders the AI Advantage",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-anthropic-critical-infrastructure-defense-program/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike and Anthropic Give Critical Infrastruc",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4712686fd6070fbf05e14bd8d7ff3457",
+    "source": "CrowdStrike",
+    "title": "Solving the Continuous Authorization Conundrum",
+    "link": "https://www.crowdstrike.com/en-us/blog/solving-the-continuous-authorization-conundrum/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Solving the Continuous Authorization Conundrum",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "26fac5d3a2e6e654c988893225ba124e",
+    "source": "CrowdStrike",
+    "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+    "link": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Unknown Threat Actor Uses AI-Driven ARTEX to Targe",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
