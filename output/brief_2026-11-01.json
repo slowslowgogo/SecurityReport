@@ -1,0 +1,926 @@
+[
+  {
+    "uid": "b0ff533efc672b514c91c9bcf10ec02a",
+    "source": "BleepingComputer",
+    "title": "Northflank security breach leads to abuse of customers' AI API keys",
+    "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+    "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+    "pub_date": "2026-10-31T18:01:12+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Northflank security breach leads to abuse of custo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c8a9e4d99f4eeda40b7951427b8173b8",
+    "source": "BleepingComputer",
+    "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+    "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+    "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+    "pub_date": "2026-10-31T15:35:11+00:00",
+    "cve_ids": [
+      "CVE-2026-58882"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Android SMS of Death exploit can remotely cras",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c9bba5656d415800ccb0276159159d7d",
+    "source": "BleepingComputer",
+    "title": "Reddit to lock content behind logins to fight scrapers",
+    "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+    "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+    "pub_date": "2026-10-31T14:05:15+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Reddit to lock content behind logins to fight scra",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4bc7fcf06de138f18bd7fed3b4029cef",
+    "source": "BleepingComputer",
+    "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+    "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+    "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny. [...]",
+    "pub_date": "2026-10-31T13:10:19+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "From Beginner to Bug Hunter: Learning Cybersecurit",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "390feb96420434d589a95e125a2fa41a",
+    "source": "BleepingComputer",
+    "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+    "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+    "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+    "pub_date": "2026-10-31T12:50:09+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Chainalysis discloses data breach from \"offensive ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2a37916e8af500d655b80136f6810187",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120190 - PostyBirb Plus Submission Description Editor DescriptionInput.tsx cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120190",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120190\n  <br />\n  <strong>Published :</strong> Nov. 1, 2026, 12:30 a.m. | 26 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in PostyBirb Plus up to 3.1.75. Affected by this vulnerability is an unknown functionality of the file ui/src/views/submissions/submission-forms/form-components/DescriptionInput.tsx of the component Submission Description Editor. The manipulation results in cross site scripting. The attack may be performed from remote. The exploit has been released to the public and may be used for attacks. Upgrading to version 3.1.76 addresses this issue. The patch is identified as 6b11c2345ad98ae59fd5404a9f1024eb1d10c8a4. It is advisable to upgrade the affected component.\n  <br />\n  <strong>Severity:</strong",
+    "pub_date": "2026-11-01T00:30:25+00:00",
+    "cve_ids": [
+      "CVE-2026-120190"
+    ],
+    "cvss": 3.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 3.5,
+      "description": "A security flaw has been discovered in PostyBirb Plus up to 3.1.75. Affected by this vulnerability is an unknown functionality of the file ui/src/views/submissions/submission-forms/form-components/DescriptionInput.tsx of the component Submission Description Editor. The manipulation results in cross ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120190 - PostyBirb Plus Submission Descri",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "663d61b27eaed3a6ffc3d38c6a9bdf6b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-115946 - XS::libbrotli versions before 1.2.1.0 for Perl bundle a brotli library with an out-of-bounds write in the decoder",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-115946",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-115946\n  <br />\n  <strong>Published :</strong> Nov. 1, 2026, 12:16 a.m. | 40 minutes ago\n  <br />\n  <strong>Description :</strong>XS::libbrotli versions before 1.2.1.0 for Perl bundle a brotli library with an out-of-bounds write in the decoder.\n\nAffected versions compile a bundled brotli into static archives that dependent XS modules link against at build time, rather than using the system library. The bundled copy, 1.0.7 or 1.1.0 across the range, carries the decoder out-of-bounds write described in CVE-2026-111497. Version 1.2.1.0 updates it to brotli 1.2.1.\n\nXS::libbrotli has no Perl interface, so the decoder is reached through any dependent module that decompresses untrusted data with it. An attacker supplying a crafted brotli stream can corrupt decode",
+    "pub_date": "2026-11-01T00:16:34+00:00",
+    "cve_ids": [
+      "CVE-2026-111497",
+      "CVE-2026-115946"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-115946 - XS::libbrotli versions before 1.",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4e900c3df1444eb5ffaf1979a02b08f2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120189 - D-Link DIR-505 TFTP Upload Filename tftpd mp_upload_file stack-based overflow",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120189",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120189\n  <br />\n  <strong>Published :</strong> Nov. 1, 2026, midnight | 56 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_upload_file/mp_upload_file of the file /usr/bin/tftpd of the component TFTP Upload Filename Handler. The manipulation leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit is publicly available and might be used.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-01T00:00:23+00:00",
+    "cve_ids": [
+      "CVE-2026-120189"
+    ],
+    "cvss": 10.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 10.0,
+      "description": "A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_upload_file/mp_upload_file of the file /usr/bin/tftpd of the component TFTP Upload Filename Handler. The manipulation leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The e",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120189 - D-Link DIR-505 TFTP Upload Filen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "80e63160d9e7ff306b38ccfb413195e8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120185 - ken678 YznCMS Auth Group Group.php Backend privileges management",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120185",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120185\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 11:17 p.m. | 1 hour, 39 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in ken678 YznCMS up to 2.2.0. The affected element is the function Backend of the file app/admin/controller/auth/Group.php of the component Auth Group Handler. Performing a manipulation results in improper privilege management. The attack can be initiated remotely. Upgrading to version 2.2.1 is sufficient to fix this issue. The patch is named ed16cd7f7f73e0316ffa8a148d. You should upgrade the affected component.\n  <br />\n  <strong>Severity:</strong> 5.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T23:17:11+00:00",
+    "cve_ids": [
+      "CVE-2026-120185"
+    ],
+    "cvss": 4.7,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.7,
+      "description": "A security flaw has been discovered in ken678 YznCMS up to 2.2.0. The affected element is the function Backend of the file app/admin/controller/auth/Group.php of the component Auth Group Handler. Performing a manipulation results in improper privilege management. The attack can be initiated remotely",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120185 - ken678 YznCMS Auth Group Group.p",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e1e69e0084fd41cff69b37212311b058",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120135 - Apache Thrift: Java TProtocolUtil.skip() does not limit the recursion depth by default",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120135",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120135\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 9:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Uncontrolled Recursion vulnerability in Apache Thrift Java bindings.\n\n\n\nThis issue affects Apache Thrift: before 0.24.0.\n\n\n\nUsers are recommended to upgrade to version 0.24.0, which fixes the issue.\n  <br />\n  <strong>Severity:</strong> 8.2 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T21:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-120135"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120135 - Apache Thrift: Java TProtocolUti",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "907288f328eeed08936ad532a9e9e3b6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-118636 - Apache MINA: Unsafe Deserialization (CWE-502) in JavaNativeMessageDecoder",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-118636",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-118636\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 9:16 p.m. | 3 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>**UNSUPPORTED WHEN ASSIGNED** \n\nJavaNativeMessageDecoder in the MINA 3.0 codec module calls ObjectInputStream.readObject() on frame bytes with no class filter, so an\napplication that puts it in front of an untrusted peer is open to gadget-chain RCE.\n\nAs the 3.0.0 branch is inactive, we do not plan to release a version that fixes this issue. \n\nUsers are recommended to use the latest Apache MINA 2.2.X branch.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T21:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-118636"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "**UNSUPPORTED WHEN ASSIGNED** \n\nJavaNativeMessageDecoder in the MINA 3.0 codec module calls ObjectInputStream.readObject() on frame bytes with no class filter, so an\napplication that puts it in front of an untrusted peer is open to gadget-chain RCE.\n\nAs the 3.0.0 branch is inactive, we do not plan t",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-118636 - Apache MINA: Unsafe Deserializat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ab5996d49197a1739cb2e09ef2bfd176",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-118147 - Visual Studio Spoofing Vulnerability",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-118147",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-118147\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 7:16 p.m. | 5 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Improper certificate validation in Visual Studio allows an unauthorized attacker to perform spoofing over a network.\n  <br />\n  <strong>Severity:</strong> 7.4 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T19:16:47+00:00",
+    "cve_ids": [
+      "CVE-2026-118147"
+    ],
+    "cvss": 7.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.4,
+      "description": "Improper certificate validation in Visual Studio allows an unauthorized attacker to perform spoofing over a network.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-118147 - Visual Studio Spoofing Vulnerabi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "add77a19788dc02acea34440aedb4279",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120210 - FFmpeg 5.0 through 9.0.2 Path Traversal via IMF Demuxer ASSETMAP Path",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120210",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120210\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>FFmpeg 5.0 through 9.0.2 contains a path traversal vulnerability in the IMF demuxer that allows attackers to open files outside the package via unvalidated ASSETMAP Path elements. Attackers can supply a crafted IMF package with '..' or absolute paths to demux local MXF files, probe file existence and size, or trigger server-side requests.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:09+00:00",
+    "cve_ids": [
+      "CVE-2026-120210"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "FFmpeg 5.0 through 9.0.2 contains a path traversal vulnerability in the IMF demuxer that allows attackers to open files outside the package via unvalidated ASSETMAP Path elements. Attackers can supply a crafted IMF package with '..' or absolute paths to demux local MXF files, probe file existence an",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120210 - FFmpeg 5.0 through 9.0.2 Path Tr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d10e3897dacd0d32a04a667e3db3854f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120209 - AJ-Report through 1.7.1 Authentication Bypass leading to RCE via Share-Token",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120209",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120209\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticated remote code execution.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:09+00:00",
+    "cve_ids": [
+      "CVE-2026-120209"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticated remote code execut",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120209 - AJ-Report through 1.7.1 Authenti",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "509350317fe55343a7f6582683b466ec",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120208 - libheif 1.18.0 before 1.23.3 Heap Buffer Overflow via unci Mixed-Interleave Decoder",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120208",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120208\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>libheif 1.18.0 before 1.23.3 contains a heap-based buffer overflow vulnerability in unc_decoder_mixed_interleave::processTile() that allows attackers to write out of bounds by supplying chroma components with unequal bit depths. Attackers can craft a HEIF file declaring, for example, 16-bit Cb and 8-bit Cr to trigger file-controlled heap writes past the Cr plane, potentially achieving code execution in image-processing pipelines.\n  <br />\n  <strong>Severity:</strong> 7.7 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:09+00:00",
+    "cve_ids": [
+      "CVE-2026-120208"
+    ],
+    "cvss": 7.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.5,
+      "description": "libheif 1.18.0 before 1.23.3 contains a heap-based buffer overflow vulnerability in unc_decoder_mixed_interleave::processTile() that allows attackers to write out of bounds by supplying chroma components with unequal bit depths. Attackers can craft a HEIF file declaring, for example, 16-bit Cb and 8",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120208 - libheif 1.18.0 before 1.23.3 Hea",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f3de7fc340fa9b72789e6d2419378850",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120207 - Thelia Page Module before 2.0.4 CSRF via Page Tag, Document and Image Delete Routes",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120207",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120207\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Thelia Page Module before 2.0.4 contains a cross-site request forgery vulnerability that allows remote attackers to delete page tags, documents and images by abusing back-office delete routes lacking CSRF tokens and permission checks. Attackers can lure a logged-in administrator into navigating to crafted GET requests that walk sequential ids, removing TheliaLibrary images, their files and variants across pages, products and categories.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-120207"
+    ],
+    "cvss": 7.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.1,
+      "description": "Thelia Page Module before 2.0.4 contains a cross-site request forgery vulnerability that allows remote attackers to delete page tags, documents and images by abusing back-office delete routes lacking CSRF tokens and permission checks. Attackers can lure a logged-in administrator into navigating to c",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120207 - Thelia Page Module before 2.0.4 ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0c46fc93ae1af784f86898c0ab0090b4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120206 - Thelia before 3.2.0 Back-Office CSRF via URL Token and Unprotected Actions",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120206",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120206\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Thelia before 3.2.0 contains a cross-site request forgery vulnerability in the back office that allows attackers to forge administrative actions because per-session CSRF tokens leak via URL query strings. Attackers can reuse leaked tokens or target the unprotected setToggleVisibilityAction and updatePositionAction to make logged-in administrators delete, hide or reorder catalogue and configuration objects.\n  <br />\n  <strong>Severity:</strong> 5.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-120206"
+    ],
+    "cvss": 5.9,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.9,
+      "description": "Thelia before 3.2.0 contains a cross-site request forgery vulnerability in the back office that allows attackers to forge administrative actions because per-session CSRF tokens leak via URL query strings. Attackers can reuse leaked tokens or target the unprotected setToggleVisibilityAction and updat",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120206 - Thelia before 3.2.0 Back-Office ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "955b9ec1c4bc7cd87677843dd6371237",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120205 - Thelia before 3.1.0 Stored XSS via Coupon Condition Customer Name",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120205",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120205\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Thelia before 3.1.0 contains a stored cross-site scripting vulnerability in ForSomeCustomers::getSummary() that allows unauthenticated attackers to inject scripts via unescaped customer names. Attackers can register with a script payload as their name that executes when administrators view related coupons, stealing CSRF tokens to create administrator accounts.\n  <br />\n  <strong>Severity:</strong> 8.0 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-120205"
+    ],
+    "cvss": 8.0,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.0,
+      "description": "Thelia before 3.1.0 contains a stored cross-site scripting vulnerability in ForSomeCustomers::getSummary() that allows unauthenticated attackers to inject scripts via unescaped customer names. Attackers can register with a script payload as their name that executes when administrators view related c",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120205 - Thelia before 3.1.0 Stored XSS v",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "87aa32abda8aad2c1286c600eeccd15a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120204 - DeepInfer through 0.1.0 Path Traversal via /profile output_dir Parameter",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120204",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120204\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>DeepInfer through 0.1.0 contains a path traversal vulnerability in the unauthenticated /profile endpoint that allows remote attackers to create arbitrary directories via the output_dir parameter. Attackers, including cross-site GET requests from an operator's browser, can write chrome trace files to exhaust disk or inodes and use error messages as a filesystem oracle.\n  <br />\n  <strong>Severity:</strong> 6.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-120204"
+    ],
+    "cvss": 5.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.6,
+      "description": "DeepInfer through 0.1.0 contains a path traversal vulnerability in the unauthenticated /profile endpoint that allows remote attackers to create arbitrary directories via the output_dir parameter. Attackers, including cross-site GET requests from an operator's browser, can write chrome trace files to",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120204 - DeepInfer through 0.1.0 Path Tra",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "aa4bfafa54568f57523f4a2307345921",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120203 - ShowDoc 2.8.14 before 3.9.6 Code Injection via Mock Templates",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120203",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120203\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>ShowDoc 2.8.14 before 3.9.6 contains a code injection vulnerability in its Mock feature that allows authenticated users to execute shell commands through mockjs templates. Attackers can store a template via MockController::add with escaped parentheses that mockjs evaluates with eval(), then trigger it through MockController::infoByKey to run commands, as root in the official Docker image.\n  <br />\n  <strong>Severity:</strong> 8.8 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-120203"
+    ],
+    "cvss": 8.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 8.8,
+      "description": "ShowDoc 2.8.14 before 3.9.6 contains a code injection vulnerability in its Mock feature that allows authenticated users to execute shell commands through mockjs templates. Attackers can store a template via MockController::add with escaped parentheses that mockjs evaluates with eval(), then trigger ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120203 - ShowDoc 2.8.14 before 3.9.6 Code",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dcbc998b09fa84fb9d05205f27ccc3aa",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120202 - Highflame ramparts 0.8.1 through 0.8.10 Skill Bundle Scan Bypass via Nested .pyc",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120202",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120202\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Highflame ramparts 0.8.1 through 0.8.10 contains a security scan bypass vulnerability that allows attackers to hide malicious payloads because collect_bundle_siblings and walk_bundle_subdir skip nested directories and .pyc files. Attackers can distribute a skill bundle with an unchecked-hash .pyc under scripts//__pycache__/ that ramparts silently ignores, while CPython executes it when the skill runs.\n  <br />\n  <strong>Severity:</strong> 7.1 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:08+00:00",
+    "cve_ids": [
+      "CVE-2026-120202"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "Highflame ramparts 0.8.1 through 0.8.10 contains a security scan bypass vulnerability that allows attackers to hide malicious payloads because collect_bundle_siblings and walk_bundle_subdir skip nested directories and .pyc files. Attackers can distribute a skill bundle with an unchecked-hash .pyc un",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120202 - Highflame ramparts 0.8.1 through",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "04f1e0cb57109fe85856be528899e955",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120201 - Jpom 2.10.0 through 2.11.12 Authentication Bypass via JPOM-USER-TOKEN Header",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120201",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120201\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain super-administrator access by injecting query conditions into the JPOM-USER-TOKEN header. Attackers can send a value like 'is not null', which Hutool's Condition parser treats as an operator, then execute commands through Jpom's script features.\n  <br />\n  <strong>Severity:</strong> 9.8 | CRITICAL\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:07+00:00",
+    "cve_ids": [
+      "CVE-2026-120201"
+    ],
+    "cvss": 9.8,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 9.8,
+      "description": "Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain super-administrator access by injecting query conditions into the JPOM-USER-TOKEN header. Attackers can send a value like 'is not null', which Hutool's Condition parser treats as",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120201 - Jpom 2.10.0 through 2.11.12 Auth",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "fec8cf8ca20bf5932359b236e460a622",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120200 - Nexterm through 1.2.2-BETA Missing Authorization in Server Session Lifecycle Routes",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120200",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120200\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Nexterm through 1.2.2-BETA contains a missing authorization vulnerability that allows authenticated users to hibernate, resume, or terminate other users' remote sessions via session lifecycle routes. Attackers who obtain a session ID can call the hibernate, resume, or DELETE connection endpoints to disrupt live SSH, RDP, VNC, or SFTP sessions.\n  <br />\n  <strong>Severity:</strong> 5.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:07+00:00",
+    "cve_ids": [
+      "CVE-2026-120200"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "Nexterm through 1.2.2-BETA contains a missing authorization vulnerability that allows authenticated users to hibernate, resume, or terminate other users' remote sessions via session lifecycle routes. Attackers who obtain a session ID can call the hibernate, resume, or DELETE connection endpoints to ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120200 - Nexterm through 1.2.2-BETA Missi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a6ef253d88b1ad5a0d2fcd1e8cd155b7",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-120199 - LearnHouse before 1.1.1 Missing Authorization via Assignment Submissions API",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-120199",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-120199\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 6:17 p.m. | 6 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>LearnHouse before 1.1.1 contains a missing authorization vulnerability in the assignment API that allows authenticated users to read other users' grades and submissions. Attackers can supply another user_id to the submissions grade endpoint or query submission read functions to view other students' work, grades and instructor feedback.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T18:17:07+00:00",
+    "cve_ids": [
+      "CVE-2026-120199"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "LearnHouse before 1.1.1 contains a missing authorization vulnerability in the assignment API that allows authenticated users to read other users' grades and submissions. Attackers can supply another user_id to the submissions grade endpoint or query submission read functions to view other students' ",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-120199 - LearnHouse before 1.1.1 Missing ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ec13013f862836610f4647e9b5bbcdc9",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-102212 - Pre-Auth Heap Buffer Overflow in the Multipart Request",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-102212",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-102212\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 4:16 p.m. | 8 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>Heap-based buffer overflow in Opengear IM72XX, CM71XX, and ACM70XX firmware versions 4.8.0 through 5.5.2 on console server appliances allows an unauthenticated remote attacker to crash the index.cgi process via a crafted multipart/form-data POST request containing an overlong Content-Disposition name field.\n  <br />\n  <strong>Severity:</strong> 8.4 | HIGH\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T16:16:52+00:00",
+    "cve_ids": [
+      "CVE-2026-102212"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-102212 - Pre-Auth Heap Buffer Overflow in",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8877cabd05bb2c5a08bd001cd5312932",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78192 - WebDyne versions from 2.022 before 3.022 for Perl disclose application source to unauthenticated clients via the viewer in the default index page",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78192",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78192\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 3:16 p.m. | 9 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>WebDyne versions from 2.022 before 3.022 for Perl disclose application source to unauthenticated clients via the viewer in the default index page.\n\nWebDyne's wrapper scripts, such as webdyne.psgi, enable the built-in index page by default. Its source viewer returns files under the document root named in the source parameter of an HTMX request, including .psp, .pm and .pl files.\n\nA remote attacker can read the application's Perl code, including the __PERL__ blocks of .psp pages and any credentials they hold.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, af",
+    "pub_date": "2026-10-31T15:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-78192"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78192 - WebDyne versions from 2.022 befor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "62c579d8b14df910ba2c976f7a5a4957",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78191 - WebDyne versions from 2.031 before 3.022 for Perl execute files with .psp anywhere in the name as Perl pages",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78191",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78191\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 3:16 p.m. | 9 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>WebDyne versions from 2.031 before 3.022 for Perl execute files with .psp anywhere in the name as Perl pages.\n\nWebDyne decides whether to run a requested file as a page by matching its name against WEBDYNE_PSP_EXT_RE, which has no end anchor.\n\nAn application that accepts uploads by checking only the final extension lets a remote attacker upload a file such as report.psp.pdf and run its embedded Perl by requesting it.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T15:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-78191"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78191 - WebDyne versions from 2.031 befor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c27f5311adbf498e5ac235ed2ed14e86",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78190 - WebDyne versions from 2.014 before 3.022 for Perl reflect request parameters unescaped into form field values, allowing cross-site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78190",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78190\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 3:16 p.m. | 9 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>WebDyne versions from 2.014 before 3.022 for Perl reflect request parameters unescaped into form field values, allowing cross-site scripting.\n\nThe textfield, password_field and filefield tags fill their value attribute from the request parameter of the same name. WEBDYNE_CGI_AUTOESCAPE, which controls escaping of these values, defaults to off. From 2.022, WebDyne::HTML::Tiny also replaced its entity_encode method with one that returns its input unchanged, so enabling WEBDYNE_CGI_AUTOESCAPE has no effect.\n\nA remote attacker can inject script into any page using these tags through a crafted link.\n  <br />\n  <strong>Severit",
+    "pub_date": "2026-10-31T15:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-78190"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78190 - WebDyne versions from 2.014 befor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "45a3e232f03dd1b5f340e48f9ec2e65b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78189 - WebDyne versions from 3.007 before 3.022 for Perl execute .psp files outside the document root via path traversal in the PSGI API route fallback",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78189",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78189\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 3:16 p.m. | 9 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>WebDyne versions from 3.007 before 3.022 for Perl execute .psp files outside the document root via path traversal in the PSGI API route fallback.\n\nWhen a request matches no file, the PSGI handler retries it as an API route through api_filename. That keeps .. segments in the request path and only checks that the joined path starts with the document root, which a request for /../private passes.\n\nA remote attacker can run the embedded Perl in any .psp file the server can read, such as one uploaded to a directory outside the document root.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more deta",
+    "pub_date": "2026-10-31T15:16:54+00:00",
+    "cve_ids": [
+      "CVE-2026-78189"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78189 - WebDyne versions from 3.007 befor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "49164082f6c0cc569ee6cf0159ac3e2c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-78188 - WebDyne versions from 2.014 before 3.022 for Perl issue session cookies without the Secure, HttpOnly and SameSite attributes",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-78188",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-78188\n  <br />\n  <strong>Published :</strong> Oct. 31, 2026, 3:16 p.m. | 9 hours, 39 minutes ago\n  <br />\n  <strong>Description :</strong>WebDyne versions from 2.014 before 3.022 for Perl issue session cookies without the Secure, HttpOnly and SameSite attributes.\n\nWebDyne::Session sets its session cookie with only a name, value and path.\n\nBrowsers then send the session ID over plain HTTP and with cross-site requests, and expose it to page scripts. A network attacker or an injected script can steal the session, and another site can make requests that carry it.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-10-31T15:16:53+00:00",
+    "cve_ids": [
+      "CVE-2026-78188"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-78188 - WebDyne versions from 2.014 befor",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0a02976867030d66211b263e5cbd0967",
+    "source": "SecurityWeek",
+    "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+    "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+    "summary": "<p>A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities.</p>\n<p>The post <a href=\"https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/\">Syrian Hacker Gets Prison Time in US After Over a Decade on the Run</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+    "pub_date": "2026-10-31T11:00:00+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Syrian Hacker Gets Prison Time in US After Over a ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "065d6fd5d0631ffc27d73b8c2b655996",
+    "source": "The Hacker News",
+    "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+    "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+    "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens.\n\n\"This month, Chainalysis detected an external actor using offensive agentic",
+    "pub_date": "2026-10-31T12:01:56+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Chainalysis Confirms Intrusion Into Internal Tools",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6c360090011ba79dbeda4ab126f73505",
+    "source": "The Hacker News",
+    "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+    "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
+    "pub_date": "2026-10-31T08:27:43+00:00",
+    "cve_ids": [
+      "CVE-2026-111357"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Attackers Chain Three Ivanti Connect Secure Flaws ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0ab8fba09e2d39c70fc356b313988629",
+    "source": "The Hacker News",
+    "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+    "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+    "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed.\n\nThe researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
+    "pub_date": "2026-10-31T05:33:41+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "A Shared ChatGPT Link Could Run Attacker Code in Y",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "dee7e8f251784fe5d324be8caf5ae64d",
+    "source": "The Hacker News",
+    "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+    "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+    "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
+    "pub_date": "2026-10-31T04:56:12+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Cloudflare Reports 18.2 Million Network-Layer DDoS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6088a100c76a15273a644ea808d5e6c1",
+    "source": "Security Affairs",
+    "title": "U.S. CISA adds Ivanti Connect Secure flaws to its Known Exploited Vulnerabilities catalog",
+    "link": "https://securityaffairs.com/202175/security/u-s-cisa-adds-ivanti-connect-secure-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "summary": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Ivanti Connect Secure flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added the following Ivanti Connect Secure vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog: The vulnerabilities are part of an exploit chain that cybersecurity firm Volexity first documented in mid-October. &#8220;Volexity [&#8230;]",
+    "pub_date": "2026-10-31T19:33:36+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "U.S. CISA adds Ivanti Connect Secure flaws to its ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e6fa810a0f4180fe1b3ea0ce944e7aa9",
+    "source": "Security Affairs",
+    "title": "Attackers Exploit Critical Drupal Commerce Core Vulnerability CVE-2026-118539",
+    "link": "https://securityaffairs.com/202162/security/attackers-exploit-critical-drupal-commerce-core-vulnerability-cve-2026-118539.html",
+    "summary": "Drupal warns that attackers are exploiting a critical authorization flaw in Commerce Core, putting vulnerable online stores at risk. Drupal warns that threat actors are exploiting a highly critical security flaw, tracked as CVE-2026-118539, in its Commerce Core module. The vulnerability is caused by missing authorization checks. &#8220;This module enables you to sell goods and [&#8230;]",
+    "pub_date": "2026-10-31T09:08:58+00:00",
+    "cve_ids": [
+      "CVE-2026-118539"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Attackers Exploit Critical Drupal Commerce Core Vu",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2d897701e37726e7176de53daec970fe",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Expands Falcon Adversary OverWatch Threat Hunting Across AI and Google Cloud",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-threat-hunting-across-ai-and-google-cloud/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Expands Falcon Adversary OverWatch Thr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c86e541310116d4b716853cf625cbac5",
+    "source": "CrowdStrike",
+    "title": "Build an Intelligence Advantage with Falcon Next-Gen SIEM",
+    "link": "https://www.crowdstrike.com/en-us/blog/build-intelligence-advantage-with-falcon-next-gen-siem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Build an Intelligence Advantage with Falcon Next-G",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9e2f84d156d4e2bfc8915c3028c530cc",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Agent Graph Shows How Agents Act on the Endpoint",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-agent-graph-shows-how-agents-act-on-endpoint/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Agent Graph Shows How Agents Act on th",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e84f5a79d669335e047b82f7ff6d23fd",
+    "source": "CrowdStrike",
+    "title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+    "link": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "8313186c8f4274294cdef000db187561",
+    "source": "CrowdStrike",
+    "title": "New Prompt Injection Techniques Cover Agent-Planning Attacks",
+    "link": "https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "New Prompt Injection Techniques Cover Agent-Planni",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3a62c6ac4e581f1cbb3549f97b737f63",
+    "source": "CrowdStrike",
+    "title": "When AI Guardrails Expose Vulnerabilities",
+    "link": "https://www.crowdstrike.com/en-us/blog/when-ai-guardrails-expose-vulnerabilities/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "When AI Guardrails Expose Vulnerabilities",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3ce8bb2f44ec26d9967740d752b1dc63",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike 2026 Legal Threat Landscape Report: eCrime Leads Attacks, China Activity Intensifies",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-legal-threat-landscape-report/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike 2026 Legal Threat Landscape Report: eC",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3e1c45e08d75d9b24b7a1da4be1fb6a5",
+    "source": "CrowdStrike",
+    "title": "Obstacles to Weaponizing PHP2Shell Likely Constrain Immediate Widespread Exploitation",
+    "link": "https://www.crowdstrike.com/en-us/blog/obstacles-to-weaponizing-php2shell-likely-constrain-exploitation/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Obstacles to Weaponizing PHP2Shell Likely Constrai",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "4c2742e3e3e7c560ceb0437d9617b3b7",
+    "source": "CrowdStrike",
+    "title": "Why Organizations Secure AI Agents with Falcon Guardian",
+    "link": "https://www.crowdstrike.com/en-us/blog/why-organizations-secure-ai-agents-with-falcon-guardian/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Why Organizations Secure AI Agents with Falcon Gua",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "087b4be06428b2c5e3bd8bdca5fa2b62",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Protects Customers from Threats Delivered via PHP2Shell",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-protects-customers-from-php-rce-zero-days/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Protects Customers from Threats Delive",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
