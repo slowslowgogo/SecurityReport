@@ -1,0 +1,2424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>보안 브리핑 — 2026.11.11</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  :root {
+    --bg:         #0d1117;
+    --bg2:        #161b22;
+    --bg3:        #21262d;
+    --border:     #30363d;
+    --text:       #e6edf3;
+    --text2:      #8b949e;
+    --text3:      #6e7681;
+    --red:        #f85149;
+    --red-dim:    #3d1f1f;
+    --orange:     #e3b341;
+    --orange-dim: #3d2f0d;
+    --blue:       #58a6ff;
+    --blue-dim:   #0d2140;
+    --green:      #3fb950;
+    --green-dim:  #122920;
+    --purple:     #bc8cff;
+    --purple-dim: #1f1340;
+    --accent:     #1f6feb;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    background: var(--bg); color: var(--text);
+    font-size: 14px; line-height: 1.6; min-height: 100vh;
+  }
+
+  .site-header {
+    background: var(--bg2); border-bottom: 1px solid var(--border);
+    padding: 24px 32px; display: flex; align-items: center;
+    justify-content: space-between; position: sticky; top: 0; z-index: 100;
+  }
+  .header-left  { display: flex; align-items: center; gap: 14px; }
+  .logo-mark {
+    width: 36px; height: 36px; background: var(--accent); border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 14px; color: #fff;
+  }
+  .header-title { font-size: 16px; font-weight: 600; letter-spacing: -0.3px; }
+  .header-date  { font-size: 12px; color: var(--text2); font-family: 'IBM Plex Mono', monospace; }
+
+  .stats-bar {
+    background: var(--bg2); border-bottom: 1px solid var(--border);
+    padding: 16px 32px; display: flex; gap: 32px; align-items: center; overflow-x: auto;
+  }
+  .stats-group   { display: flex; gap: 24px; align-items: center; }
+  .stats-divider { width: 1px; height: 32px; background: var(--border); flex-shrink: 0; }
+  .big-stat      { display: flex; flex-direction: column; align-items: center; }
+  .big-stat .num { font-family: 'IBM Plex Mono', monospace; font-size: 24px; font-weight: 500; line-height: 1; }
+  .big-stat .label { font-size: 11px; color: var(--text2); margin-top: 3px; }
+  .num-red    { color: var(--red); }
+  .num-orange { color: var(--orange); }
+  .num-blue   { color: var(--blue); }
+  .num-purple { color: var(--purple); }
+  .num-white  { color: var(--text); }
+  .stat-item  { display: flex; flex-direction: column; align-items: center; }
+  .stat-num   { font-family: 'IBM Plex Mono', monospace; font-size: 18px; font-weight: 500; color: var(--text); }
+  .stat-label { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+  .main { padding: 32px; max-width: 1400px; margin: 0 auto; }
+
+  .brief-section { margin-bottom: 40px; }
+  .section-title {
+    font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 8px;
+    margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--border);
+  }
+  .section-icon { font-size: 16px; }
+  .count-badge {
+    margin-left: auto; font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px; font-weight: 500;
+    background: var(--bg3); color: var(--text2); padding: 2px 8px; border-radius: 10px;
+  }
+
+  .items-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 12px;
+  }
+
+  .item-card {
+    background: var(--bg2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 14px 16px; transition: border-color .15s, transform .15s;
+    border-left: 3px solid transparent;
+  }
+  .item-card:hover { transform: translateY(-1px); border-color: var(--accent); }
+  .rel-high   { border-left-color: var(--red); }
+  .rel-medium { border-left-color: var(--orange); }
+  .rel-low    { border-left-color: var(--border); }
+
+  .item-header { display: flex; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; align-items: center; }
+
+  .rel-badge {
+    font-size: 10px; font-weight: 600; letter-spacing: .5px;
+    padding: 2px 7px; border-radius: 4px; text-transform: uppercase;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .rel-high   .rel-badge { background: var(--red-dim);    color: var(--red); }
+  .rel-medium .rel-badge { background: var(--orange-dim); color: var(--orange); }
+  .rel-low    .rel-badge { background: var(--bg3);        color: var(--text3); }
+
+  .cat-badge    { font-size: 10px; padding: 2px 7px; border-radius: 4px; background: var(--blue-dim);   color: var(--blue); }
+  .kev-badge    { font-size: 10px; padding: 2px 7px; border-radius: 4px; background: #3d1a00;           color: #ff6b35; font-weight: 700; }
+  .action-badge { font-size: 10px; padding: 2px 7px; border-radius: 4px; background: #2d1f0d;           color: var(--orange); font-weight: 600; }
+  .cvss-badge   { font-size: 10px; font-family: 'IBM Plex Mono', monospace; padding: 2px 7px; border-radius: 4px; background: var(--bg3); }
+
+  .item-title { font-size: 13px; font-weight: 500; margin-bottom: 6px; line-height: 1.45; }
+  .item-title a { color: var(--text); text-decoration: none; }
+  .item-title a:hover { color: var(--blue); }
+  .item-summary { font-size: 12px; color: var(--text2); line-height: 1.5; margin-bottom: 6px; }
+
+  .affected-row { font-size: 11px; color: var(--text3); margin-bottom: 6px; }
+  .affected-tag {
+    display: inline-block; font-size: 10px; font-family: 'IBM Plex Mono', monospace;
+    padding: 1px 5px; border-radius: 3px;
+    background: var(--purple-dim); color: var(--purple); margin-right: 3px;
+  }
+
+  .item-meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+  .source-tag, .date-tag { font-size: 11px; color: var(--text3); font-family: 'IBM Plex Mono', monospace; }
+  .cve-tag {
+    font-size: 10px; font-family: 'IBM Plex Mono', monospace;
+    padding: 1px 6px; border-radius: 3px;
+    background: var(--green-dim); color: var(--green); text-decoration: none;
+  }
+  .cve-tag:hover { background: var(--green); color: #000; }
+
+  .empty-note {
+    padding: 32px; text-align: center; color: var(--text3); font-size: 13px;
+    border: 1px dashed var(--border); border-radius: 8px;
+  }
+
+  .site-footer {
+    margin-top: 40px; padding: 24px 32px; border-top: 1px solid var(--border);
+    color: var(--text3); font-size: 11px; font-family: 'IBM Plex Mono', monospace;
+    display: flex; justify-content: space-between;
+  }
+
+  @media (max-width: 768px) {
+    .stats-bar, .site-header { padding: 14px 16px; }
+    .main { padding: 16px; }
+    .items-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-left">
+    <div class="logo-mark">SB</div>
+    <div>
+      <div class="header-title">Security Briefing</div>
+      <div class="header-date">2026년 11월 11일 11:19 KST</div>
+    </div>
+  </div>
+</header>
+
+<div class="stats-bar">
+  <div class="stats-group">
+    <div class="big-stat"><span class="num num-white">124</span><span class="label">총 수집</span></div>
+    <div class="big-stat"><span class="num num-red">0</span><span class="label">긴급</span></div>
+    <div class="big-stat"><span class="num num-orange">0</span><span class="label">모니터링</span></div>
+    <div class="big-stat"><span class="num num-blue">0</span><span class="label">조치 필요</span></div>
+    <div class="big-stat"><span class="num num-purple">0</span><span class="label">KEV 등재</span></div>
+  </div>
+  <div class="stats-divider"></div>
+  <div class="stats-group"><div class="stat-item"><span class="stat-num">124</span><span class="stat-label">기타</span></div></div>
+</div>
+
+<main class="main">
+  <section class="brief-section"><p class="empty-note">긴급 항목 없음</p></section>
+  <section class="brief-section"><p class="empty-note">모니터링 항목 없음</p></section>
+  
+      <section class="brief-section section-low">
+        <h2 class="section-title"><span class="section-icon">⚪</span>참고 <span class="count-badge">124</span></h2>
+        <div class="items-grid">
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126546" target="_blank" rel="noopener">CVE-2026-126546 - Viber for iOS through 29.4.0.24 Denial of Service via Malformed GIF</a>
+          </div>
+          <div class="item-summary">CVE-2026-126546 - Viber for iOS through 29.4.0.24 </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126546" target="_blank">CVE-2026-126546</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126545" target="_blank" rel="noopener">CVE-2026-126545 - WWBN AVideo through 29.7.1 Missing Authorization via get_api_tags API</a>
+          </div>
+          <div class="item-summary">CVE-2026-126545 - WWBN AVideo through 29.7.1 Missi</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126545" target="_blank">CVE-2026-126545</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126544" target="_blank" rel="noopener">CVE-2026-126544 - WWBN AVideo 6.5 through 29.7.1 Email Verification Bypass via User::verifyCode()</a>
+          </div>
+          <div class="item-summary">CVE-2026-126544 - WWBN AVideo 6.5 through 29.7.1 E</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126544" target="_blank">CVE-2026-126544</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126543" target="_blank" rel="noopener">CVE-2026-126543 - WWBN AVideo through 29.7.1 Wallet Credit Manipulation via PayPalYPT ipnV2.php</a>
+          </div>
+          <div class="item-summary">CVE-2026-126543 - WWBN AVideo through 29.7.1 Walle</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126543" target="_blank">CVE-2026-126543</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126542" target="_blank" rel="noopener">CVE-2026-126542 - WWBN AVideo 6.5 through 29.7.1 Authentication Bypass via Hybridauth Social Login</a>
+          </div>
+          <div class="item-summary">CVE-2026-126542 - WWBN AVideo 6.5 through 29.7.1 A</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126542" target="_blank">CVE-2026-126542</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126541" target="_blank" rel="noopener">CVE-2026-126541 - WWBN AVideo through 29.7.1 Missing Authorization via Live Restream Endpoints</a>
+          </div>
+          <div class="item-summary">CVE-2026-126541 - WWBN AVideo through 29.7.1 Missi</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126541" target="_blank">CVE-2026-126541</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126539" target="_blank" rel="noopener">CVE-2026-126539 - Directus before 12.1.0 Authorization Bypass via Public WebSocket REST Interface</a>
+          </div>
+          <div class="item-summary">CVE-2026-126539 - Directus before 12.1.0 Authoriza</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126539" target="_blank">CVE-2026-126539</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126499" target="_blank" rel="noopener">CVE-2026-126499 - Jellyfin before 12.0 Path Traversal via Library VirtualFolders Endpoints</a>
+          </div>
+          <div class="item-summary">CVE-2026-126499 - Jellyfin before 12.0 Path Traver</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126499" target="_blank">CVE-2026-126499</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126498" target="_blank" rel="noopener">CVE-2026-126498 - WriteFreely before 0.17.3 Stored XSS via Unsanitized Post Slug</a>
+          </div>
+          <div class="item-summary">CVE-2026-126498 - WriteFreely before 0.17.3 Stored</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126498" target="_blank">CVE-2026-126498</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126497" target="_blank" rel="noopener">CVE-2026-126497 - LibreCAD through 2.2.1.6 Heap Out-of-Bounds Write via dwgReader18::parseDataPage</a>
+          </div>
+          <div class="item-summary">CVE-2026-126497 - LibreCAD through 2.2.1.6 Heap Ou</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126497" target="_blank">CVE-2026-126497</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126496" target="_blank" rel="noopener">CVE-2026-126496 - 1Panel-dev CordysCRM before 1.9.6 Authorization Bypass via /account/contact/get/{id}</a>
+          </div>
+          <div class="item-summary">CVE-2026-126496 - 1Panel-dev CordysCRM before 1.9.</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126496" target="_blank">CVE-2026-126496</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126495" target="_blank" rel="noopener">CVE-2026-126495 - MQTTX through 1.13.3 Stored XSS via Topic Tree and JSON Tree Tooltips</a>
+          </div>
+          <div class="item-summary">CVE-2026-126495 - MQTTX through 1.13.3 Stored XSS </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126495" target="_blank">CVE-2026-126495</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126188" target="_blank" rel="noopener">CVE-2026-126188 - Active Storage: Possible local file disclosure in Active Storage video previews and analysis</a>
+          </div>
+          <div class="item-summary">CVE-2026-126188 - Active Storage: Possible local f</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126188" target="_blank">CVE-2026-126188</a>
+            <span class="date-tag">2026-11-11</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-20183" target="_blank" rel="noopener">CVE-2026-20183 - ISE Authorization Bypass vulnerability</a>
+          </div>
+          <div class="item-summary">CVE-2026-20183 - ISE Authorization Bypass vulnerab</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-20183" target="_blank">CVE-2026-20183</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126261" target="_blank" rel="noopener">CVE-2026-126261 - Fortinet FortiManager Improper Authorization Vulnerability</a>
+          </div>
+          <div class="item-summary">CVE-2026-126261 - Fortinet FortiManager Improper A</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126261" target="_blank">CVE-2026-126261</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-126187" target="_blank" rel="noopener">CVE-2026-126187 - React: Unauthenticated Remote Code Execution in React Server Components</a>
+          </div>
+          <div class="item-summary">CVE-2026-126187 - React: Unauthenticated Remote Co</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-126187" target="_blank">CVE-2026-126187</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-123084" target="_blank" rel="noopener">CVE-2026-123084 - Python-pulpcore: pulpcore: header content guard jq filter exposes the content-app environment</a>
+          </div>
+          <div class="item-summary">CVE-2026-123084 - Python-pulpcore: pulpcore: heade</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-123084" target="_blank">CVE-2026-123084</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-0480" target="_blank" rel="noopener">CVE-2026-0480 - AMD Secure Encrypted Virtualization Missing Authentication Vulnerability</a>
+          </div>
+          <div class="item-summary">CVE-2026-0480 - AMD Secure Encrypted Virtualizatio</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-0480" target="_blank">CVE-2026-0480</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-0454" target="_blank" rel="noopener">CVE-2026-0454 - AMD Secure Encrypted Virtualization Out-of-Bounds Write</a>
+          </div>
+          <div class="item-summary">CVE-2026-0454 - AMD Secure Encrypted Virtualizatio</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-0454" target="_blank">CVE-2026-0454</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-0435" target="_blank" rel="noopener">CVE-2026-0435 - AMD Secure Encrypted Virtualization Use-After-Free Vulnerability</a>
+          </div>
+          <div class="item-summary">CVE-2026-0435 - AMD Secure Encrypted Virtualizatio</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-0435" target="_blank">CVE-2026-0435</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2026-0003" target="_blank" rel="noopener">CVE-2026-0003 - AMD SEV Firmware Downgrade Vulnerability</a>
+          </div>
+          <div class="item-summary">CVE-2026-0003 - AMD SEV Firmware Downgrade Vulnera</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-0003" target="_blank">CVE-2026-0003</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2025-48504" target="_blank" rel="noopener">CVE-2025-48504 - AMD SEV Use-After-Free Vulnerability</a>
+          </div>
+          <div class="item-summary">CVE-2025-48504 - AMD SEV Use-After-Free Vulnerabil</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2025-48504" target="_blank">CVE-2025-48504</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2025-29941" target="_blank" rel="noopener">CVE-2025-29941 - AMD SEV Weak Pseudo-Random Number Generator Seed Generation</a>
+          </div>
+          <div class="item-summary">CVE-2025-29941 - AMD SEV Weak Pseudo-Random Number</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2025-29941" target="_blank">CVE-2025-29941</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2025-0008" target="_blank" rel="noopener">CVE-2025-0008 - Secure Debug Unlock Authentication Bypass</a>
+          </div>
+          <div class="item-summary">CVE-2025-0008 - Secure Debug Unlock Authentication</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2025-0008" target="_blank">CVE-2025-0008</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cvefeed.io/vuln/detail/CVE-2024-36309" target="_blank" rel="noopener">CVE-2024-36309 - AMD Northbridge IO Missing Lock Bit Protection Vulnerability</a>
+          </div>
+          <div class="item-summary">CVE-2024-36309 - AMD Northbridge IO Missing Lock B</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CVEfeed.io</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2024-36309" target="_blank">CVE-2024-36309</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/" target="_blank" rel="noopener">Railway breach leads to $740,000 in fraudulent AI charges</a>
+          </div>
+          <div class="item-summary">Railway breach leads to $740,000 in fraudulent AI </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/" target="_blank" rel="noopener">Japanese furniture giant Nitori says hackers stole 37.6M customer records</a>
+          </div>
+          <div class="item-summary">Japanese furniture giant Nitori says hackers stole</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/" target="_blank" rel="noopener">Microsoft releases Windows 10 KB5131096 extended security update</a>
+          </div>
+          <div class="item-summary">Microsoft releases Windows 10 KB5131096 extended s</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/" target="_blank" rel="noopener">Hackers exploit trusted AWS access to breach multiple cloud environments</a>
+          </div>
+          <div class="item-summary">Hackers exploit trusted AWS access to breach multi</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/" target="_blank" rel="noopener">Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day</a>
+          </div>
+          <div class="item-summary">Microsoft November 2026 Patch Tuesday fixes 1,235 </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/" target="_blank" rel="noopener">Windows 11 KB5132061 & KB5131087 cumulative updates released</a>
+          </div>
+          <div class="item-summary">Windows 11 KB5132061 & KB5131087 cumulative update</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/" target="_blank" rel="noopener">Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers</a>
+          </div>
+          <div class="item-summary">Critical Xen Orchestra auth bypass flaw exploited </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/" target="_blank" rel="noopener">Binance warns of iOS flaw that could leak crypto wallet secrets</a>
+          </div>
+          <div class="item-summary">Binance warns of iOS flaw that could leak crypto w</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/" target="_blank" rel="noopener">Ransomware recovery is now a client retention metric</a>
+          </div>
+          <div class="item-summary">Ransomware recovery is now a client retention metr</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/" target="_blank" rel="noopener">SAP patches ICM2SHELL and PROXYGATE maximum severity flaws</a>
+          </div>
+          <div class="item-summary">SAP patches ICM2SHELL and PROXYGATE maximum severi</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/" target="_blank" rel="noopener">Hackers now exploit critical Barracuda ESG flaws to gain root access</a>
+          </div>
+          <div class="item-summary">Hackers now exploit critical Barracuda ESG flaws t</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/" target="_blank" rel="noopener">Turla hackers use new Cereal malware to spy on govt Exchange servers</a>
+          </div>
+          <div class="item-summary">Turla hackers use new Cereal malware to spy on gov</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/" target="_blank" rel="noopener">Google patches eighth Chrome zero-day exploited in attacks this year</a>
+          </div>
+          <div class="item-summary">Google patches eighth Chrome zero-day exploited in</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/" target="_blank" rel="noopener">Fireworks AI discloses new breach after cloud provider hack</a>
+          </div>
+          <div class="item-summary">Fireworks AI discloses new breach after cloud prov</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 BleepingComputer</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.cybersecuritydive.com/news/trump-cisa-director-nominee-michael-losapio/874256/" target="_blank" rel="noopener">Trump picks Palantir cybersecurity executive to lead CISA</a>
+          </div>
+          <div class="item-summary">Trump picks Palantir cybersecurity executive to le</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Cybersecurity Dive</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.cybersecuritydive.com/spons/truth-or-consequences-what-your-ai-strategy-is-standing-on/873999/" target="_blank" rel="noopener">Truth or consequences: What your AI strategy is standing on</a>
+          </div>
+          <div class="item-summary">Truth or consequences: What your AI strategy is st</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Cybersecurity Dive</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/" target="_blank" rel="noopener">Microsoft Fixes Nearly 1,100 Security Vulnerabilities</a>
+          </div>
+          <div class="item-summary">Microsoft Fixes Nearly 1,100 Security Vulnerabilit</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 KrebsOnSecurity</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/" target="_blank" rel="noopener">Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft</a>
+          </div>
+          <div class="item-summary">Exploited Outlook Zero-Day Among 1,094 Flaws Patch</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-124194" target="_blank">CVE-2026-124194</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/" target="_blank" rel="noopener">Adobe Patches 110 Vulnerabilities Across 9 Products</a>
+          </div>
+          <div class="item-summary">Adobe Patches 110 Vulnerabilities Across 9 Product</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/" target="_blank" rel="noopener">Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next</a>
+          </div>
+          <div class="item-summary">Software Transparency Is Changing: Allan Friedman </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/" target="_blank" rel="noopener">Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code</a>
+          </div>
+          <div class="item-summary">Google Widens Gemini 4 Carbon Access After AI Agen</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/" target="_blank" rel="noopener">Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders</a>
+          </div>
+          <div class="item-summary">Today: CISO Forum Virtual Summit 2026 – Join Globa</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/" target="_blank" rel="noopener">WhiteMatter Raises $20 Million in Series A Funding</a>
+          </div>
+          <div class="item-summary">WhiteMatter Raises $20 Million in Series A Funding</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/" target="_blank" rel="noopener">SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities</a>
+          </div>
+          <div class="item-summary">SAP Patches Critical ICM2SHELL, ProxyGate Vulnerab</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/" target="_blank" rel="noopener">Over a Dozen Organizations Hit in Qubole Supply Chain Attack</a>
+          </div>
+          <div class="item-summary">Over a Dozen Organizations Hit in Qubole Supply Ch</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/" target="_blank" rel="noopener">Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes</a>
+          </div>
+          <div class="item-summary">Anthropic Rolls Out Mythos 5.2 With Improved Bug H</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/" target="_blank" rel="noopener">N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days</a>
+          </div>
+          <div class="item-summary">N-able Takes N-central Offline as Researcher Drops</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 SecurityWeek</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cyberscoop.com/michael-losapio-cisa-director-nomination-palantir-scrutiny/" target="_blank" rel="noopener">CISA director pick already drawing concern from Hill Dems over Palantir connection</a>
+          </div>
+          <div class="item-summary">CISA director pick already drawing concern from Hi</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CyberScoop</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cyberscoop.com/us-quantum-computing-industry-manufacturing-push/" target="_blank" rel="noopener">The US wants its quantum lead to turn into factories and supply chains</a>
+          </div>
+          <div class="item-summary">The US wants its quantum lead to turn into factori</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CyberScoop</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cyberscoop.com/microsoft-patch-tuesday-november-2026/" target="_blank" rel="noopener">Microsoft fixes over 1,000 vulnerabilities in November Patch Tuesday</a>
+          </div>
+          <div class="item-summary">Microsoft fixes over 1,000 vulnerabilities in Nove</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CyberScoop</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cyberscoop.com/vanderbilt-university-ransomware-attack-byod/" target="_blank" rel="noopener">Vanderbilt University reels following ransomware attack claimed by BYOD group</a>
+          </div>
+          <div class="item-summary">Vanderbilt University reels following ransomware a</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CyberScoop</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cyberscoop.com/spyware-attacks-trend-everyday-people-iverify-report/" target="_blank" rel="noopener">Spyware attacks trend toward hitting just about anyone</a>
+          </div>
+          <div class="item-summary">Spyware attacks trend toward hitting just about an</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CyberScoop</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cyberscoop.com/russian-turla-group-used-new-toolset-to-silently-pilfer-emails-from-kazakhstan-romanian-governments/" target="_blank" rel="noopener">Russian Turla group used new toolset to silently pilfer emails from Kazakhstan, Romanian governments</a>
+          </div>
+          <div class="item-summary">Russian Turla group used new toolset to silently p</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CyberScoop</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://cyberscoop.com/trump-picks-palantirs-losapio-to-head-cisa/" target="_blank" rel="noopener">Trump picks Palantir’s LoSapio to head CISA</a>
+          </div>
+          <div class="item-summary">Trump picks Palantir’s LoSapio to head CISA</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CyberScoop</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html" target="_blank" rel="noopener">New OpenSSH Vulnerability</a>
+          </div>
+          <div class="item-summary">New OpenSSH Vulnerability</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Schneier on Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/firefox-free-vpn-data/" target="_blank" rel="noopener">Firefox free VPN drops its 50GB launch cap until January 31</a>
+          </div>
+          <div class="item-summary">Firefox free VPN drops its 50GB launch cap until J</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/x-org-server-vulnerabilities-november-2026/" target="_blank" rel="noopener">X.Org patches eight server vulnerabilities a month after fixing 12 others</a>
+          </div>
+          <div class="item-summary">X.Org patches eight server vulnerabilities a month</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/slack-ai-reverse-engineering/" target="_blank" rel="noopener">AI reverse engineering let researchers add a new feature to Slack</a>
+          </div>
+          <div class="item-summary">AI reverse engineering let researchers add a new f</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/dreeze-application-revival-33-million-funding/" target="_blank" rel="noopener">Dreeze raises $33 million to automate recovery of entire cloud applications</a>
+          </div>
+          <div class="item-summary">Dreeze raises $33 million to automate recovery of </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/cisa-incident-reporting-form-update/" target="_blank" rel="noopener">CISA tweaks cyber incident form to spot attacks that might be linked</a>
+          </div>
+          <div class="item-summary">CISA tweaks cyber incident form to spot attacks th</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/irisscon-2026-dublin/" target="_blank" rel="noopener">IRISSCON 2026 puts preparedness for cyberattacks and hybrid threats in focus</a>
+          </div>
+          <div class="item-summary">IRISSCON 2026 puts preparedness for cyberattacks a</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/anthropic-claude-fable-and-mythos-5-2-safeguards/" target="_blank" rel="noopener">Claude Mythos 5.2 arrives with stronger bug hunting and less sandbox-breaking behavior</a>
+          </div>
+          <div class="item-summary">Claude Mythos 5.2 arrives with stronger bug huntin</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/windows-settings-backup-default/" target="_blank" rel="noopener">Windows settings backup is on by default starting with Windows 11 26H2</a>
+          </div>
+          <div class="item-summary">Windows settings backup is on by default starting </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/eset-turla-exchange-malware/" target="_blank" rel="noopener">Turla’s Cereal malware turns victims’ Exchange servers into spy hubs</a>
+          </div>
+          <div class="item-summary">Turla’s Cereal malware turns victims’ Exchange ser</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.helpnetsecurity.com/2026/11/10/eric-fourrier-gitguardian-leaked-credentials/" target="_blank" rel="noopener">What a security leader should tell the CEO about leaked credentials</a>
+          </div>
+          <div class="item-summary">What a security leader should tell the CEO about l</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Help Net Security</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html" target="_blank" rel="noopener">Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones</a>
+          </div>
+          <div class="item-summary">Git Patches Flaw That Lets Malicious Repositories </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-111760" target="_blank">CVE-2026-111760</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html" target="_blank" rel="noopener">SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users</a>
+          </div>
+          <div class="item-summary">SGLang RCE Exploit Breaches NEAR AI, Steals Data F</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html" target="_blank" rel="noopener">Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access</a>
+          </div>
+          <div class="item-summary">Hackers Exploit Critical Xen Orchestra Auth Bypass</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html" target="_blank" rel="noopener">Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem</a>
+          </div>
+          <div class="item-summary">Three China-Nexus Espionage Campaigns Linked Throu</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html" target="_blank" rel="noopener">Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor</a>
+          </div>
+          <div class="item-summary">Attackers Exploit AhsayCBS Flaws to Deploy Sandbox</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-105134" target="_blank">CVE-2026-105134</a> <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-105133" target="_blank">CVE-2026-105133</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html" target="_blank" rel="noopener">Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America</a>
+          </div>
+          <div class="item-summary">Blind Eagle Uses Fake Court Notices to Deliver Rem</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html" target="_blank" rel="noopener">Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats</a>
+          </div>
+          <div class="item-summary">Fireworks AI Confirms Wider Breach Affecting Custo</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html" target="_blank" rel="noopener">Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed</a>
+          </div>
+          <div class="item-summary">Binance Warns of iOS Sandbox Escape That Could Exp</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html" target="_blank" rel="noopener">Beyond the Alert: The Case for Rich Network Data</a>
+          </div>
+          <div class="item-summary">Beyond the Alert: The Case for Rich Network Data</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html" target="_blank" rel="noopener">Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities</a>
+          </div>
+          <div class="item-summary">Apple Patches iMessage Group Chat Privacy Flaws an</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html" target="_blank" rel="noopener">Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers</a>
+          </div>
+          <div class="item-summary">Russian Turla Hackers Use New Cereal Malware to St</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html" target="_blank" rel="noopener">SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution</a>
+          </div>
+          <div class="item-summary">SAP Patches Four CVSS 10.0 Flaws, Including Two En</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html" target="_blank" rel="noopener">France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites</a>
+          </div>
+          <div class="item-summary">France Blames Iran for Sabotage Attack on Refriger</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html" target="_blank" rel="noopener">Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark</a>
+          </div>
+          <div class="item-summary">Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/google-issues-chrome-security-update.html" target="_blank" rel="noopener">Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026</a>
+          </div>
+          <div class="item-summary">Google Issues Chrome Security Update for Eighth Ac</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-125350" target="_blank">CVE-2026-125350</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html" target="_blank" rel="noopener">N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits</a>
+          </div>
+          <div class="item-summary">N-able Takes N-central Cloud Offline After Researc</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html" target="_blank" rel="noopener">CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws</a>
+          </div>
+          <div class="item-summary">CISA Warns of Active Exploitation of OpenSSH, GPUS</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 The Hacker News</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-123218" target="_blank">CVE-2026-123218</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.troyhunt.com/finally-payment-by-bank-transfer-comes-to-have-i-been-pwned/" target="_blank" rel="noopener">Finally, Payment by Bank Transfer Comes to Have I Been Pwned</a>
+          </div>
+          <div class="item-summary">Finally, Payment by Bank Transfer Comes to Have I </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Troy Hunt</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves" target="_blank" rel="noopener">November Patch Tuesday: An Overflowing Cornucopia of CVEs</a>
+          </div>
+          <div class="item-summary">November Patch Tuesday: An Overflowing Cornucopia </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Dark Reading</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon" target="_blank" rel="noopener">Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon</a>
+          </div>
+          <div class="item-summary">Artex: The AI Pen-Test Tool Hackers Turned Into a </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Dark Reading</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them" target="_blank" rel="noopener">F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them</a>
+          </div>
+          <div class="item-summary">F-Secure Identifies 26 Ways AI Can Harm Consumers,</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Dark Reading</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer" target="_blank" rel="noopener">Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer</a>
+          </div>
+          <div class="item-summary">Checkmarx Appoints Kobi Sivilya as Chief Informati</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Dark Reading</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness" target="_blank" rel="noopener">How to Assess OT Incident Response Preparedness</a>
+          </div>
+          <div class="item-summary">How to Assess OT Incident Response Preparedness</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Dark Reading</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github" target="_blank" rel="noopener">AI Coding Agents Leak Thousands of Secrets to GitHub</a>
+          </div>
+          <div class="item-summary">AI Coding Agents Leak Thousands of Secrets to GitH</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Dark Reading</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.darkreading.com/application-security/ai-reverse-engineering-apps" target="_blank" rel="noopener">AI Makes Reverse Engineering Mainstream Software &amp; Malware Far Easier</a>
+          </div>
+          <div class="item-summary">AI Makes Reverse Engineering Mainstream Software &</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Dark Reading</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.infosecurity-magazine.com/news/cisa-incident-reporting-form-circia/" target="_blank" rel="noopener">CISA Expands Incident Reporting Form While CIRCIA Mandate Waits</a>
+          </div>
+          <div class="item-summary">CISA Expands Incident Reporting Form While CIRCIA </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Infosecurity Magazine</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.infosecurity-magazine.com/news/turla-cereal-exchange-email/" target="_blank" rel="noopener">Russia-Linked Turla Hijacks Exchange Servers to Spy on NATO and EU Emails</a>
+          </div>
+          <div class="item-summary">Russia-Linked Turla Hijacks Exchange Servers to Sp</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Infosecurity Magazine</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.infosecurity-magazine.com/news/cloud-vulnerabilities-surge/" target="_blank" rel="noopener">Cloud Vulnerabilities Surge Fourfold in Less Than a Year</a>
+          </div>
+          <div class="item-summary">Cloud Vulnerabilities Surge Fourfold in Less Than </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Infosecurity Magazine</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.infosecurity-magazine.com/news/forgerock-openidm-default-password/" target="_blank" rel="noopener">Default Admin Password Let Researchers Unlock and Start Cars</a>
+          </div>
+          <div class="item-summary">Default Admin Password Let Researchers Unlock and </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Infosecurity Magazine</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.infosecurity-magazine.com/news/vanderbilt-university-cyber/" target="_blank" rel="noopener">Vanderbilt University Takes Systems Offline After Cyber Incident</a>
+          </div>
+          <div class="item-summary">Vanderbilt University Takes Systems Offline After </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Infosecurity Magazine</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.infosecurity-magazine.com/news/france-blames-iran-supermarket/" target="_blank" rel="noopener">France Blames Iran for Supermarket Fridge Hack, Requests International Arrest Warrants</a>
+          </div>
+          <div class="item-summary">France Blames Iran for Supermarket Fridge Hack, Re</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Infosecurity Magazine</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.infosecurity-magazine.com/news/binance-investigates-shinyhunters/" target="_blank" rel="noopener">Binance Investigates ShinyHunters Breach Claims</a>
+          </div>
+          <div class="item-summary">Binance Investigates ShinyHunters Breach Claims</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Infosecurity Magazine</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://securityaffairs.com/202813/hacking/u-s-cisa-adds-ibm-signalwire-freeswitch-openssh-and-gpustack-flaws-to-its-known-exploited-vulnerabilities-catalog.html" target="_blank" rel="noopener">U.S. CISA adds IBM, SignalWire FreeSwitch, OpenSSH, and GPUStack flaws to its Known Exploited Vulnerabilities catalog</a>
+          </div>
+          <div class="item-summary">U.S. CISA adds IBM, SignalWire FreeSwitch, OpenSSH</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Security Affairs</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://securityaffairs.com/202800/apt/russia-linked-apt-turla-turned-exchange-servers-into-their-own-control-room.html" target="_blank" rel="noopener">Russia-Linked APT Turla Turned Exchange Servers Into Their Own Control Room</a>
+          </div>
+          <div class="item-summary">Russia-Linked APT Turla Turned Exchange Servers In</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Security Affairs</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://securityaffairs.com/202788/hacking/ios-sandbox-escape-is-public-and-apple-hasnt-confirmed-a-fix.html" target="_blank" rel="noopener">iOS Sandbox Escape Is Public, and Apple Hasn’t Confirmed a Fix</a>
+          </div>
+          <div class="item-summary">iOS Sandbox Escape Is Public, and Apple Hasn’t Con</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Security Affairs</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://securityaffairs.com/202772/breaking-news/google-fixes-the-eighth-actively-exploited-chrome-zero-day-of-2026.html" target="_blank" rel="noopener">Google fixes the eighth actively exploited Chrome zero-day of 2026</a>
+          </div>
+          <div class="item-summary">Google fixes the eighth actively exploited Chrome </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Security Affairs</span>
+            <a class="cve-tag" href="https://nvd.nist.gov/vuln/detail/CVE-2026-125350" target="_blank">CVE-2026-125350</a>
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://securityaffairs.com/202740/data-breach/iris-ohyama-data-breach-may-expose-personal-information-of-7-7-million-people.html" target="_blank" rel="noopener">Iris Ohyama data breach may expose personal information of 7.7 million people</a>
+          </div>
+          <div class="item-summary">Iris Ohyama data breach may expose personal inform</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Security Affairs</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/" target="_blank" rel="noopener">Git security vulnerabilities announced</a>
+          </div>
+          <div class="item-summary">Git security vulnerabilities announced</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 GitHub Security Blog</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://research.checkpoint.com/2026/not-all-that-glitters-is-gold-tracking-copperdragons-sparrow-framework-around-the-globe/" target="_blank" rel="noopener">Not All That Glitters Is Gold: Tracking CopperDragon’s Sparrow Framework Around the Globe</a>
+          </div>
+          <div class="item-summary">Not All That Glitters Is Gold: Tracking CopperDrag</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Check Point Research</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/" target="_blank" rel="noopener">November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities</a>
+          </div>
+          <div class="item-summary">November 2026 Patch Tuesday: 1,252 CVEs Include On</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/" target="_blank" rel="noopener">How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders</a>
+          </div>
+          <div class="item-summary">How Adversaries Are Turning the Vulnerability Ecos</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-agentic-adversary-emulation-counters-ai-enabled-adversaries/" target="_blank" rel="noopener">CrowdStrike Introduces Agentic Adversary Emulation to Counter AI-Enabled Adversaries</a>
+          </div>
+          <div class="item-summary">CrowdStrike Introduces Agentic Adversary Emulation</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-enterprise-browser-security-to-falcon-platform/" target="_blank" rel="noopener">CrowdStrike Brings Enterprise Browser Security to the Falcon Platform</a>
+          </div>
+          <div class="item-summary">CrowdStrike Brings Enterprise Browser Security to </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/" target="_blank" rel="noopener">CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats</a>
+          </div>
+          <div class="item-summary">CrowdStrike Extends the Agentic SOC to Detect and </div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-innovations-secure-cloud-ai-runs-on/" target="_blank" rel="noopener">New Falcon Cloud Security Innovations Secure the Cloud AI Runs On</a>
+          </div>
+          <div class="item-summary">New Falcon Cloud Security Innovations Secure the C</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-advances-ai-security-and-safety-falcon-guardian/" target="_blank" rel="noopener">CrowdStrike Advances AI Security and Safety from Endpoint to Cloud</a>
+          </div>
+          <div class="item-summary">CrowdStrike Advances AI Security and Safety from E</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/" target="_blank" rel="noopener">Introducing AI Kill Switch: Taking Control When AI Agents Go Rogue</a>
+          </div>
+          <div class="item-summary">Introducing AI Kill Switch: Taking Control When AI</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-secures-ai-agents-inside-claude-cowork/" target="_blank" rel="noopener">CrowdStrike Secures AI Agents Inside Claude Cowork</a>
+          </div>
+          <div class="item-summary">CrowdStrike Secures AI Agents Inside Claude Cowork</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-dreadnode/" target="_blank" rel="noopener">CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform</a>
+          </div>
+          <div class="item-summary">CrowdStrike to Acquire Dreadnode to Bring Automate</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 CrowdStrike</span>
+            
+            <span class="date-tag"></span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://blog.qualys.com/category/vulnerabilities-threat-research" target="_blank" rel="noopener">Microsoft Patch Tuesday, November 2026 Security Update Review</a>
+          </div>
+          <div class="item-summary">Microsoft Patch Tuesday, November 2026 Security Up</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Qualys Blog</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/" target="_blank" rel="noopener">The Download: Pelosi’s successor targets AI and data centers face power woes</a>
+          </div>
+          <div class="item-summary">The Download: Pelosi’s successor targets AI and da</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 MIT Tech Review</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/" target="_blank" rel="noopener">Evolving metal extraction processes</a>
+          </div>
+          <div class="item-summary">Evolving metal extraction processes</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 MIT Tech Review</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/" target="_blank" rel="noopener">IT threat evolution in Q3 2026. Non-mobile statistics</a>
+          </div>
+          <div class="item-summary">IT threat evolution in Q3 2026. Non-mobile statist</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Securelist (Kaspersky)</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div>
+
+        <div class="item-card rel-low">
+          <div class="item-header">
+            <span class="rel-badge">참고</span>
+            <span class="cat-badge">기타</span>
+            
+          </div>
+          <div class="item-title">
+            <a href="https://securelist.com/malware-report-q3-2026-mobile-statistics/121844/" target="_blank" rel="noopener">IT threat evolution in Q3 2026. Mobile statistics</a>
+          </div>
+          <div class="item-summary">IT threat evolution in Q3 2026. Mobile statistics</div>
+          
+          <div class="item-meta">
+            <span class="source-tag">📡 Securelist (Kaspersky)</span>
+            
+            <span class="date-tag">2026-11-10</span>
+          </div>
+        </div></div>
+      </section>
+</main>
+
+<footer class="site-footer">
+  <span>Security Briefing · AI-augmented · RSS 52개 + NVD API + CISA KEV API</span>
+  <span>생성: 2026년 11월 11일 11:19 KST</span>
+</footer>
+
+</body>
+</html>
