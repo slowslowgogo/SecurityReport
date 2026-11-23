@@ -1,0 +1,972 @@
+[
+  {
+    "uid": "ae359164aa9b478647f67ed7401cdebd",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134789 - DumbWareio DumbAssets Settings API server.js dynamically-determined object attributes",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134789",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134789\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 3 a.m. | 18 minutes ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in DumbWareio DumbAssets up to 1.0.11. Affected by this vulnerability is an unknown functionality of the file server.js of the component Settings API. Executing a manipulation of the argument appriseUrl can lead to dynamically-determined object attributes. The attack can be executed remotely. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-23T03:00:29+00:00",
+    "cve_ids": [
+      "CVE-2026-134789"
+    ],
+    "cvss": 7.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 7.3,
+      "description": "A weakness has been identified in DumbWareio DumbAssets up to 1.0.11. Affected by this vulnerability is an unknown functionality of the file server.js of the component Settings API. Executing a manipulation of the argument appriseUrl can lead to dynamically-determined object attributes. The attack c",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134789 - DumbWareio DumbAssets Settings A",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f84d64605157fee1eeeb18b35103283c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134788 - warpdesign pcx-js PCX Pixel Buffer Decoder pcx.js decode4bpp memory allocation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134788",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134788\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 2:45 a.m. | 33 minutes ago\n  <br />\n  <strong>Description :</strong>A security flaw has been discovered in warpdesign pcx-js up to 1.1.1. Affected is the function decode8bpp/decode4bpp of the file js/pcx.js of the component PCX Pixel Buffer Decoder. Performing a manipulation results in uncontrolled memory allocation. Remote exploitation of the attack is possible. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-23T02:45:26+00:00",
+    "cve_ids": [
+      "CVE-2026-134788"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A security flaw has been discovered in warpdesign pcx-js up to 1.1.1. Affected is the function decode8bpp/decode4bpp of the file js/pcx.js of the component PCX Pixel Buffer Decoder. Performing a manipulation results in uncontrolled memory allocation. Remote exploitation of the attack is possible. Th",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134788 - warpdesign pcx-js PCX Pixel Buff",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "714ddf4063065bc3e32fc0676e619e32",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134787 - code-projects Intern Record System department.sql file information disclosure",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134787",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134787\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 2:30 a.m. | 48 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in code-projects Intern Record System 1.0. This impacts an unknown function of the file /department.sql. Such manipulation leads to file and directory information exposure. The attack may be launched remotely. The exploit is publicly available and might be used.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-23T02:30:26+00:00",
+    "cve_ids": [
+      "CVE-2026-134787"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was identified in code-projects Intern Record System 1.0. This impacts an unknown function of the file /department.sql. Such manipulation leads to file and directory information exposure. The attack may be launched remotely. The exploit is publicly available and might be used.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134787 - code-projects Intern Record Syst",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9cd870c6fc74e57e1aa679be6e3641f6",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134785 - Bagisto MangoPay Payment Gateway Success Callback MangoPayStandardController.php success data authenticity",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134785",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134785\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 2:16 a.m. | 1 hour, 1 minute ago\n  <br />\n  <strong>Description :</strong>A vulnerability was identified in Bagisto MangoPay Payment Gateway up to c061edcc7973cb37a77a9f9ae523db170c3e28ed. Affected by this vulnerability is the function MangoPayStandardController::success of the file src/Http/Controllers/Shop/MangoPayStandardController.php of the component Success Callback. The manipulation leads to insufficient verification of data authenticity. Remote exploitation of the attack is possible. This product follows a rolling release approach for continuous delivery, so version details for affected or updated releases are not provided.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Vi",
+    "pub_date": "2026-11-23T02:16:38+00:00",
+    "cve_ids": [
+      "CVE-2026-134785"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was identified in Bagisto MangoPay Payment Gateway up to c061edcc7973cb37a77a9f9ae523db170c3e28ed. Affected by this vulnerability is the function MangoPayStandardController::success of the file src/Http/Controllers/Shop/MangoPayStandardController.php of the component Success Callback",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134785 - Bagisto MangoPay Payment Gateway",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f9a7d8740b20a358f02d717402ec89a4",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134784 - DumbWareio DumbDrop Files API files.js isPathWithinUploadDir access control",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134784",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134784\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 2:16 a.m. | 1 hour, 1 minute ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in DumbWareio DumbDrop up to ff8f813f493e89c7da056e7a3101ce2ef48e3960. Affected by this vulnerability is the function isPathWithinUploadDir of the file src/routes/files.js of the component Files API. The manipulation results in improper access controls. The attack may be launched remotely. This product operates on a rolling release basis, ensuring continuous delivery. Consequently, there are no version details for either affected or updated releases. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Vi",
+    "pub_date": "2026-11-23T02:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-134784"
+    ],
+    "cvss": 6.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.5,
+      "description": "A vulnerability was found in DumbWareio DumbDrop up to ff8f813f493e89c7da056e7a3101ce2ef48e3960. Affected by this vulnerability is the function isPathWithinUploadDir of the file src/routes/files.js of the component Files API. The manipulation results in improper access controls. The attack may be la",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134784 - DumbWareio DumbDrop Files API fi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "777e6091004c6f107cf4f068493eaf64",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134783 - xuxueli xxl-job AI Executor AIXxlJob.java difyWorkflowJobHandler server-side request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134783",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134783\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 2:16 a.m. | 1 hour, 1 minute ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in xuxueli xxl-job 3.5.0/3.5.1-SNAPSHOT. Affected is the function difyWorkflowJobHandler of the file xxl-job-executor-sample-springboot-ai/src/main/java/com/xxl/job/executor/jobhandler/AIXxlJob.java of the component AI Executor. The manipulation of the argument baseUrl leads to server-side request forgery. The attack may be initiated remotely. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-23T02:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-134783"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability has been found in xuxueli xxl-job 3.5.0/3.5.1-SNAPSHOT. Affected is the function difyWorkflowJobHandler of the file xxl-job-executor-sample-springboot-ai/src/main/java/com/xxl/job/executor/jobhandler/AIXxlJob.java of the component AI Executor. The manipulation of the argument baseUrl",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134783 - xuxueli xxl-job AI Executor AIXx",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "47dd5b9e5a25515d6058c9a5920a1df1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134782 - Open Asset Import Library Assimp ColladaLoader.cpp CreateMesh out-of-bounds",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134782",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134782\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 2:16 a.m. | 1 hour, 1 minute ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Open Asset Import Library Assimp up to 6.0.6. This impacts the function Assimp::ColladaLoader::CreateMesh of the file code/AssetLib/Collada/ColladaLoader.cpp. Executing a manipulation can lead to out-of-bounds read. The attack can be launched remotely. The exploit has been published and may be used. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 5.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-23T02:16:37+00:00",
+    "cve_ids": [
+      "CVE-2026-134782"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A flaw has been found in Open Asset Import Library Assimp up to 6.0.6. This impacts the function Assimp::ColladaLoader::CreateMesh of the file code/AssetLib/Collada/ColladaLoader.cpp. Executing a manipulation can lead to out-of-bounds read. The attack can be launched remotely. The exploit has been p",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134782 - Open Asset Import Library Assimp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f7ee21c4e85b93b4dd61ce6ac0f3459a",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134786 - Xuxueli xxl-job Job Termination Endpoint JobLogController.java authorization",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134786",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134786\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 2:15 a.m. | 1 hour, 3 minutes ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in Xuxueli xxl-job 3.5.0/3.5.1-SNAPSHOT. The affected element is an unknown function of the file JobLogController.java of the component Job Termination Endpoint. The manipulation leads to incorrect authorization. The attack can be initiated remotely. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 0.0 | NA\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-23T02:15:24+00:00",
+    "cve_ids": [
+      "CVE-2026-134786"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "A vulnerability has been found in Xuxueli xxl-job 3.5.0/3.5.1-SNAPSHOT. The affected element is an unknown function of the file JobLogController.java of the component Job Termination Endpoint. The manipulation leads to incorrect authorization. The attack can be initiated remotely. The vendor was con",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134786 - Xuxueli xxl-job Job Termination ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "88a5f421e61a24859ad12e06d9a942ea",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134781 - Open Asset Import Library Assimp PretransformVertices.cpp BuildMeshRefCountArray out-of-bounds write",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134781",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134781\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 1:17 a.m. | 2 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in Open Asset Import Library Assimp up to 6.0.5. This affects the function Assimp::PretransformVertices::BuildMeshRefCountArray of the file PretransformVertices.cpp. Performing a manipulation results in out-of-bounds write. The attack can be initiated remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-23T01:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-134781"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "A vulnerability was detected in Open Asset Import Library Assimp up to 6.0.5. This affects the function Assimp::PretransformVertices::BuildMeshRefCountArray of the file PretransformVertices.cpp. Performing a manipulation results in out-of-bounds write. The attack can be initiated remotely. The explo",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134781 - Open Asset Import Library Assimp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ada4f9681092411558aceb6770ec079b",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134780 - Open Asset Import Library Assimp PostProcessing JoinVerticesProcess JoinVerticesProcess.cpp ProcessMesh out-of-bounds write",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134780",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134780\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 1:17 a.m. | 2 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in Open Asset Import Library Assimp up to 6.0.6. The impacted element is the function Assimp::JoinVerticesProcess::ProcessMesh of the file code/PostProcessing/JoinVerticesProcess.cpp of the component PostProcessing JoinVerticesProcess. Such manipulation leads to out-of-bounds write. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS detail",
+    "pub_date": "2026-11-23T01:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-134780"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "A security vulnerability has been detected in Open Asset Import Library Assimp up to 6.0.6. The impacted element is the function Assimp::JoinVerticesProcess::ProcessMesh of the file code/PostProcessing/JoinVerticesProcess.cpp of the component PostProcessing JoinVerticesProcess. Such manipulation lea",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134780 - Open Asset Import Library Assimp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "911c5353b7a233b5cc32a35235cae5e2",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134779 - Open Asset Import Library Assimp Collada Loader ColladaLoader.cpp CreateAnimation out-of-bounds write",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134779",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134779\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 1:17 a.m. | 2 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>A weakness has been identified in Open Asset Import Library Assimp up to 6.0.6. The affected element is the function Assimp::ColladaLoader::CreateAnimation of the file code/AssetLib/Collada/ColladaLoader.cpp of the component Collada Loader. This manipulation of the argument mSize causes out-of-bounds write. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be used for attacks. The pull request to fix this issue awaits acceptance.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, t",
+    "pub_date": "2026-11-23T01:17:10+00:00",
+    "cve_ids": [
+      "CVE-2026-134779"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "A weakness has been identified in Open Asset Import Library Assimp up to 6.0.6. The affected element is the function Assimp::ColladaLoader::CreateAnimation of the file code/AssetLib/Collada/ColladaLoader.cpp of the component Collada Loader. This manipulation of the argument mSize causes out-of-bound",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134779 - Open Asset Import Library Assimp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "39da2386f247f7ffbf96a4ed152f6757",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134735 - Webkul Bagisto Payu Payment Gateway PayUController.php success data authenticity",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134735",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134735\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 1:17 a.m. | 2 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>A vulnerability was determined in Webkul Bagisto up to 2.4.12. Affected by this vulnerability is the function Success of the file packages/Webkul/PayU/src/Http/Controllers/PayUController.php of the component Payu Payment Gateway. Executing a manipulation of the argument Status can lead to insufficient verification of data authenticity. It is possible to launch the attack remotely. Upgrading to version 2.4.13 addresses this issue. Upgrading the affected component is recommended.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, ",
+    "pub_date": "2026-11-23T01:17:09+00:00",
+    "cve_ids": [
+      "CVE-2026-134735"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was determined in Webkul Bagisto up to 2.4.12. Affected by this vulnerability is the function Success of the file packages/Webkul/PayU/src/Http/Controllers/PayUController.php of the component Payu Payment Gateway. Executing a manipulation of the argument Status can lead to insufficie",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134735 - Webkul Bagisto Payu Payment Gate",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "58caef657197a6237d3a3f9203a10645",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134734 - Webkul Bagisto Payment Gateway Success/Callback Controllers RazorpayController.php paymentSuccess data authenticity",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134734",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134734\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 12:17 a.m. | 3 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>A vulnerability was found in Webkul Bagisto up to 2.4.13. Affected is the function RazorpayController::paymentSuccess of the file packages/Webkul/Razorpay/src/Http/Controllers/RazorpayController.php of the component Payment Gateway Success/Callback Controllers. Performing a manipulation results in insufficient verification of data authenticity. It is possible to initiate the attack remotely. Upgrading to version 2.4.14 is able to address this issue. It is suggested to upgrade the affected component.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affect",
+    "pub_date": "2026-11-23T00:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-134734"
+    ],
+    "cvss": 5.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.3,
+      "description": "A vulnerability was found in Webkul Bagisto up to 2.4.13. Affected is the function RazorpayController::paymentSuccess of the file packages/Webkul/Razorpay/src/Http/Controllers/RazorpayController.php of the component Payment Gateway Success/Callback Controllers. Performing a manipulation results in i",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134734 - Webkul Bagisto Payment Gateway S",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "a119a9aa6c3be173644134cf90ff9731",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134733 - itsourcecode Event Management System booking.php cross site scripting",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134733",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134733\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 12:17 a.m. | 3 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>A vulnerability has been found in itsourcecode Event Management System 1.0. This impacts an unknown function of the file booking.php. Such manipulation of the argument venue_id leads to cross site scripting. The attack may be performed from remote. The exploit has been disclosed to the public and may be used.\n  <br />\n  <strong>Severity:</strong> 5.0 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-23T00:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-134733"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A vulnerability has been found in itsourcecode Event Management System 1.0. This impacts an unknown function of the file booking.php. Such manipulation of the argument venue_id leads to cross site scripting. The attack may be performed from remote. The exploit has been disclosed to the public and ma",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134733 - itsourcecode Event Management Sy",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "60f63cfb4f53372d2f3ef33ebc6c570f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134732 - Open Asset Import Library Assimp ASE File Importer ASELoader.cpp InternReadFile out-of-bounds write",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134732",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134732\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 12:17 a.m. | 3 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>A flaw has been found in Open Asset Import Library Assimp up to 6.0.5. This affects the function ASEImporter::InternReadFile of the file code/AssetLib/ASE/ASELoader.cpp of the component ASE File Importer. This manipulation causes out-of-bounds write. The attack is possible to be carried out remotely. The exploit has been published and may be used. Upgrading to version 6.0.6 mitigates this issue. Patch name: 7ccc44a338dcdcc81023484388126ab1a8250e94. You should upgrade the affected component.\n  <br />\n  <strong>Severity:</strong> 6.4 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected produc",
+    "pub_date": "2026-11-23T00:17:03+00:00",
+    "cve_ids": [
+      "CVE-2026-134732"
+    ],
+    "cvss": 5.4,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.4,
+      "description": "A flaw has been found in Open Asset Import Library Assimp up to 6.0.5. This affects the function ASEImporter::InternReadFile of the file code/AssetLib/ASE/ASELoader.cpp of the component ASE File Importer. This manipulation causes out-of-bounds write. The attack is possible to be carried out remotely",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134732 - Open Asset Import Library Assimp",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0a4fddc13bdac92e45cf86581db5b65f",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134731 - itsourcecode Insurance Management System insertClient.php sql injection",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134731",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134731\n  <br />\n  <strong>Published :</strong> Nov. 23, 2026, 12:17 a.m. | 3 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>A vulnerability was detected in itsourcecode Insurance Management System 1.0. The impacted element is an unknown function of the file /insertClient.php. The manipulation of the argument client_id results in sql injection. The attack can be executed remotely. The exploit is now public and may be used.\n  <br />\n  <strong>Severity:</strong> 6.5 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-23T00:17:02+00:00",
+    "cve_ids": [
+      "CVE-2026-134731"
+    ],
+    "cvss": 6.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.3,
+      "description": "A vulnerability was detected in itsourcecode Insurance Management System 1.0. The impacted element is an unknown function of the file /insertClient.php. The manipulation of the argument client_id results in sql injection. The attack can be executed remotely. The exploit is now public and may be used",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134731 - itsourcecode Insurance Managemen",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "6b60c7ac20ac807265b94a1854849d66",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134730 - xuxueli xxl-job Group Management JobGroupController.java update cross-site request forgery",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134730",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134730\n  <br />\n  <strong>Published :</strong> Nov. 22, 2026, 11:16 p.m. | 4 hours, 1 minute ago\n  <br />\n  <strong>Description :</strong>A security vulnerability has been detected in xuxueli xxl-job 3.5.0/3.5.1-SNAPSHOT. The affected element is the function insert/update of the file admin/src/main/java/com/xxl/job/admin/business/controller/JobGroupController.java of the component Group Management. The manipulation of the argument addressList leads to cross-site request forgery. Remote exploitation of the attack is possible. The vendor was contacted early about this disclosure but did not respond in any way.\n  <br />\n  <strong>Severity:</strong> 5.3 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and ",
+    "pub_date": "2026-11-22T23:16:50+00:00",
+    "cve_ids": [
+      "CVE-2026-134730"
+    ],
+    "cvss": 4.3,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 4.3,
+      "description": "A security vulnerability has been detected in xuxueli xxl-job 3.5.0/3.5.1-SNAPSHOT. The affected element is the function insert/update of the file admin/src/main/java/com/xxl/job/admin/business/controller/JobGroupController.java of the component Group Management. The manipulation of the argument add",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134730 - xuxueli xxl-job Group Management",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "440e4017f26df483d8d7730c666cd07c",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134868 - Assimp through 6.0.6 Infinite Loop via Collada ReadPrimitives Index List",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134868",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134868\n  <br />\n  <strong>Published :</strong> Nov. 22, 2026, 10:17 p.m. | 5 hours ago\n  <br />\n  <strong>Description :</strong>Assimp through 6.0.6 contains an infinite loop vulnerability in ColladaParser::ReadPrimitives that allows attackers to exhaust memory via non-numeric index values. Attackers can supply a crafted Collada file whose <p> index list contains a non-digit character, causing endless zero-index appends until the importing process crashes.\n  <br />\n  <strong>Severity:</strong> 6.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-22T22:17:42+00:00",
+    "cve_ids": [
+      "CVE-2026-134868"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "Assimp through 6.0.6 contains an infinite loop vulnerability in ColladaParser::ReadPrimitives that allows attackers to exhaust memory via non-numeric index values. Attackers can supply a crafted Collada file whose <p> index list contains a non-digit character, causing endless zero-index appends unti",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134868 - Assimp through 6.0.6 Infinite Lo",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "bda0b07206b90629621d2939833d9863",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134867 - Assimp through 6.0.6 Uncontrolled Memory Allocation via FBX Rotation Keyframe Interpolation",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134867",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134867\n  <br />\n  <strong>Published :</strong> Nov. 22, 2026, 10:17 p.m. | 5 hours ago\n  <br />\n  <strong>Description :</strong>Assimp through 6.0.6 contains an uncontrolled memory allocation vulnerability in FBXConverter::GetRotationKeyframeList that allows attackers to exhaust memory via unbounded rotation angle differences. Attackers can supply a crafted FBX file of about 111 KB whose keyframe interpolation loop never advances, consuming gigabytes of memory until the importing process is killed.\n  <br />\n  <strong>Severity:</strong> 6.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-22T22:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-134867"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "Assimp through 6.0.6 contains an uncontrolled memory allocation vulnerability in FBXConverter::GetRotationKeyframeList that allows attackers to exhaust memory via unbounded rotation angle differences. Attackers can supply a crafted FBX file of about 111 KB whose keyframe interpolation loop never adv",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134867 - Assimp through 6.0.6 Uncontrolle",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "17662fdf7bbf6ea7f7ecf09793c4215d",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134866 - Assimp 6.0.0 through 6.0.6 Infinite Loop via Comment Line in SkipLine",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134866",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134866\n  <br />\n  <strong>Published :</strong> Nov. 22, 2026, 10:17 p.m. | 5 hours ago\n  <br />\n  <strong>Description :</strong>Assimp 6.0.0 through 6.0.6 contains an infinite loop vulnerability in SkipLine that allows attackers to hang parsing by supplying files with '#' comment lines. Attackers can provide crafted OFF, LWS, or MD3 shader files so ReadFile never returns, consuming a CPU core and denying service.\n  <br />\n  <strong>Severity:</strong> 6.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-22T22:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-134866"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "Assimp 6.0.0 through 6.0.6 contains an infinite loop vulnerability in SkipLine that allows attackers to hang parsing by supplying files with '#' comment lines. Attackers can provide crafted OFF, LWS, or MD3 shader files so ReadFile never returns, consuming a CPU core and denying service.",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134866 - Assimp 6.0.0 through 6.0.6 Infin",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e1c91a6047d40bc59c4f56b948b9d0d1",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134865 - Assimp through 6.0.6 Out-of-Bounds Read via Collada CopyVertex",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134865",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134865\n  <br />\n  <strong>Published :</strong> Nov. 22, 2026, 10:17 p.m. | 5 hours ago\n  <br />\n  <strong>Description :</strong>Assimp through 6.0.6 contains an out-of-bounds read vulnerability in ColladaParser::CopyVertex that allows attackers to read heap memory by supplying primitives lacking a VERTEX input. Attackers can provide a crafted Collada file whose SIZE_MAX per-vertex offset bypasses the release-removed ai_assert check, crashing the importing application.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-22T22:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-134865"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "Assimp through 6.0.6 contains an out-of-bounds read vulnerability in ColladaParser::CopyVertex that allows attackers to read heap memory by supplying primitives lacking a VERTEX input. Attackers can provide a crafted Collada file whose SIZE_MAX per-vertex offset bypasses the release-removed ai_asser",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134865 - Assimp through 6.0.6 Out-of-Boun",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "30ab4c902759ef9dff7a1633949cb128",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134864 - Assimp through 6.0.6 Uninitialized Resource Use via glTF 1.0 Strip/Fan Faces",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134864",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134864\n  <br />\n  <strong>Published :</strong> Nov. 22, 2026, 10:17 p.m. | 5 hours ago\n  <br />\n  <strong>Description :</strong>Assimp through 6.0.6 contains a use of uninitialized resource vulnerability in glTFImporter::ImportMeshes that builds TRIANGLE_STRIP and TRIANGLE_FAN faces from unfilled faces. Attackers can supply a crafted glTF 1.0 file whose strip or fan primitives trigger out-of-bounds reads or null pointer dereferences, crashing the importing application.\n  <br />\n  <strong>Severity:</strong> 6.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-22T22:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-134864"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "Assimp through 6.0.6 contains a use of uninitialized resource vulnerability in glTFImporter::ImportMeshes that builds TRIANGLE_STRIP and TRIANGLE_FAN faces from unfilled faces. Attackers can supply a crafted glTF 1.0 file whose strip or fan primitives trigger out-of-bounds reads or null pointer dere",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134864 - Assimp through 6.0.6 Uninitializ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "eb7c05a5ee2f98cc0616066496b2ce18",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134863 - Assimp through 6.0.6 Invalid Pointer Dereference via glTF 1.0 Embedded Image",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134863",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134863\n  <br />\n  <strong>Published :</strong> Nov. 22, 2026, 10:17 p.m. | 5 hours ago\n  <br />\n  <strong>Description :</strong>Assimp through 6.0.6 contains an invalid pointer dereference vulnerability in glTFImporter::ImportEmbeddedTextures that derives the texture format hint without checking the strchr result. Attackers can supply a crafted glTF 1.0 file with an embedded image mime type lacking a slash to crash the importing application.\n  <br />\n  <strong>Severity:</strong> 6.8 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-22T22:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-134863"
+    ],
+    "cvss": 5.5,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 5.5,
+      "description": "Assimp through 6.0.6 contains an invalid pointer dereference vulnerability in glTFImporter::ImportEmbeddedTextures that derives the texture format hint without checking the strchr result. Attackers can supply a crafted glTF 1.0 file with an embedded image mime type lacking a slash to crash the impor",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134863 - Assimp through 6.0.6 Invalid Poi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c14a43ba81b9a5a1593b5bfe5a3be8d8",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134862 - Assimp through 6.0.6 Out-of-Bounds Read via glTF 1.0 Accessor Counts",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134862",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134862\n  <br />\n  <strong>Published :</strong> Nov. 22, 2026, 10:17 p.m. | 5 hours ago\n  <br />\n  <strong>Description :</strong>Assimp through 6.0.6 contains an out-of-bounds read vulnerability in glTFImporter::ImportMeshes that uses NORMAL and TEXCOORD accessors without comparing their counts to the POSITION vertex count. Attackers can supply a crafted glTF 1.0 file with shorter normal or texture coordinate arrays to trigger heap out-of-bounds reads and writes that crash the importing application.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-22T22:17:41+00:00",
+    "cve_ids": [
+      "CVE-2026-134862"
+    ],
+    "cvss": 6.6,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.6,
+      "description": "Assimp through 6.0.6 contains an out-of-bounds read vulnerability in glTFImporter::ImportMeshes that uses NORMAL and TEXCOORD accessors without comparing their counts to the POSITION vertex count. Attackers can supply a crafted glTF 1.0 file with shorter normal or texture coordinate arrays to trigge",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134862 - Assimp through 6.0.6 Out-of-Boun",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ca9db0187bffb8e107332f97831d4d91",
+    "source": "CVEfeed.io",
+    "title": "CVE-2026-134861 - Assimp through 6.0.6 Out-of-Bounds Write via glTF 1.0 Accessor Element Size",
+    "link": "https://cvefeed.io/vuln/detail/CVE-2026-134861",
+    "summary": "<strong>CVE ID :</strong>CVE-2026-134861\n  <br />\n  <strong>Published :</strong> Nov. 22, 2026, 10:17 p.m. | 5 hours ago\n  <br />\n  <strong>Description :</strong>Assimp through 6.0.6 contains an out-of-bounds write vulnerability in glTFAsset.inl that allows attackers to corrupt memory via oversized glTF 1.0 accessor elements. Attackers can supply a crafted glTF 1.0 file with VEC4 position or VEC3 index accessors to overflow heap or stack buffers during import, crashing applications.\n  <br />\n  <strong>Severity:</strong> 6.9 | MEDIUM\n  <br />\n  Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+    "pub_date": "2026-11-22T22:17:40+00:00",
+    "cve_ids": [
+      "CVE-2026-134861"
+    ],
+    "cvss": 6.1,
+    "kev": false,
+    "nvd_data": {
+      "cvss": 6.1,
+      "description": "Assimp through 6.0.6 contains an out-of-bounds write vulnerability in glTFAsset.inl that allows attackers to corrupt memory via oversized glTF 1.0 accessor elements. Attackers can supply a crafted glTF 1.0 file with VEC4 position or VEC3 index accessors to overflow heap or stack buffers during impor",
+      "affected": []
+    },
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CVE-2026-134861 - Assimp through 6.0.6 Out-of-Boun",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "ae6e92c39a9e03243e6bda0fa4ceacb7",
+    "source": "The Hacker News",
+    "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+    "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\n\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.\n\nOpenRouter, a gateway that routes customers' AI requests to a pool of",
+    "pub_date": "2026-11-22T05:06:55+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "OpenRouter Drops 3 Providers After Researchers Cat",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "52d1eca4da7f04ab2a855a7e45b5663f",
+    "source": "The Hacker News",
+    "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+    "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+    "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\n\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly.\n\nSecurity firm pwn.ai showed this week that ordinary upload,",
+    "pub_date": "2026-11-22T05:03:41+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Researchers Demonstrate Ghostscript Sandbox-Escape",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "0c7ba107785c12c8147e11f442dc8a17",
+    "source": "BleepingComputer",
+    "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+    "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+    "pub_date": "2026-11-22T18:45:37+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hackers exploit GL.iNet cloud flaw to infect route",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "07ce35c33a8d0b20872e707947f02fcb",
+    "source": "BleepingComputer",
+    "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+    "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+    "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+    "pub_date": "2026-11-22T15:43:04+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Cleverbridge warns hackers stole credit card numbe",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "592626ee88c9021ef3c60367d52efea6",
+    "source": "BleepingComputer",
+    "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+    "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+    "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+    "pub_date": "2026-11-22T15:15:25+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Signal to block Siri, Gemini AI from capturing cha",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "3f17755520829812717bda418e9c08bd",
+    "source": "Troy Hunt",
+    "title": "Weekly Update 531: Optimizely. Script Dependencies & Third Parties",
+    "link": "https://www.troyhunt.com/weekly-update-531/",
+    "summary": "<p>&quot;You can&apos;t outsource accountability&quot;. But it feels like that&apos;s what&apos;s happening when a disclosure notice refers to &quot;an incident being at a third party&quot;, as though somehow that makes it better. It feels like the intent is to deflect <em>responsibility</em></p>",
+    "pub_date": "2026-11-22T05:24:12+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Weekly Update 531: Optimizely. Script Dependencies",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "35663fb53b7b9e3f7d175654f67aa153",
+    "source": "Help Net Security",
+    "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
+    "link": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
+    "summary": "<p>Google lets enterprises put a checkpoint in front of an AI agent&#8216;s actions. Semantic governance policies, in Preview on the Gemini platform, look at each tool call the agent&#8217;s model proposes and block it before it runs if the call doesn&#8217;t match the user&#8217;s request or breaks a company rule. The check sits outside the agent, at an enforcement point such as Agent Gateway. Permissions list the actions an agent is able to take and &#8230; <a href=\"https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/\">Google&#8217;s semantic governance policies can block an AI agent&#8217;s tool",
+    "pub_date": "2026-11-23T00:27:25+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Google’s semantic governance policies can block an",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d263e57e1fd34a3a6d5f2098a1ae43fb",
+    "source": "Help Net Security",
+    "title": "Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
+    "link": "https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/",
+    "summary": "<p>The Debian project released Debian 13.8, the eighth update to its stable &#8220;trixie&#8221; series. It mainly carries security fixes, plus corrections for a few serious bugs, and it bundles advisories Debian had already published separately. If you run trixie, here is what to check. The security table runs from DSA-6408 to DSA-6629 (a DSA is a Debian Security Advisory). It covers Chromium, Firefox ESR, OpenJDK 25, nginx, BIND 9, Dovecot, rsync, PostgreSQL 17 and the &#8230; <a href=\"https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/\">Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list</a",
+    "pub_date": "2026-11-22T23:05:09+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Debian 13.8 bundles kernel and Chromium security f",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "9be327af5e61e3472eddfa5ee7579bcb",
+    "source": "Help Net Security",
+    "title": "Week in review: Java4Shell proves tricky to exploit, malware planted via Optimizely hits 178 orgs",
+    "link": "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/",
+    "summary": "<p>Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Malware spread through Optimizely hits 178 organizations, including BBC, CNN and Zoom An attacker exploited a vulnerability in Optimizely’s web experimentation platform to plant malicious JavaScript on its customers’ websites, the company has confirmed. Java4Shell OpenJDK flaw: Exploitation is tricky and hinges on specific CPUs (CVE-2026-114938) CVE-2026-114938, a memory corruption flaw in Open Java Development Kit’s Base64 decoder, can allow &#8230; <a href=\"https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a href=\"https:/",
+    "pub_date": "2026-11-22T09:00:25+00:00",
+    "cve_ids": [
+      "CVE-2026-114938"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Week in review: Java4Shell proves tricky to exploi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "e604060a710210e96a12c8edc7273f3b",
+    "source": "Security Affairs",
+    "title": "Signal Is Blocking AI Agents From Reading Your Screen",
+    "link": "https://securityaffairs.com/203742/ai/signal-is-blocking-ai-agents-from-reading-your-screen.html",
+    "summary": "Signal is blocking OS-level AI agents from reading its app on iOS 27 and Android, warning that Gemini and Siri AI threaten its privacy guarantees. Signal is restricting new AI agents built into iOS 27 and Android from capturing its data, president Meredith Whittaker announced. The company already did something similar on Windows last year, [&#8230;]",
+    "pub_date": "2026-11-22T18:01:22+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Signal Is Blocking AI Agents From Reading Your Scr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2d9ade7051ed4486028adaab583bc230",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND 9",
+    "link": "https://securityaffairs.com/203725/ai/security-affairs-ai-cybersecurity-newsletter-round-9.html",
+    "summary": "Security Affairs AI-CYBERSECURITY newsletter includes a collection of the best articles and research on AI in the international landscape Artificial intelligence is rapidly changing cybersecurity, reshaping both the techniques used by attackers and the tools available to defenders. AI agents can automate tasks, analyze large amounts of data, discover vulnerabilities and accelerate offensive operations. At [&#8230;]",
+    "pub_date": "2026-11-22T14:31:35+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS AI-CYBERSECURITY NEWSLETTER ROUND",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c0659d9ee96e9a5c6488a0d771800bbe",
+    "source": "Security Affairs",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 123",
+    "link": "https://securityaffairs.com/203714/malware/security-affairs-malware-newsletter-round-123-2.html",
+    "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter MMD-073-2026 &#8211; Linux/EasyShell, a new Rust RAT implant and beacon aims Linux and MacOS&#160;&#160; Supply chain attack: BO Team in a software developer’s infrastructure 0% GPU utilization: How SANSAR hides Linux cryptomining&#160; Inside the [&#8230;]",
+    "pub_date": "2026-11-22T13:56:43+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 123",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "34fb81f919286c4004d668519587083a",
+    "source": "Security Affairs",
+    "title": "Security Affairs newsletter Round 605 by Pierluigi Paganini – INTERNATIONAL EDITION",
+    "link": "https://securityaffairs.com/203701/breaking-news/security-affairs-newsletter-round-605-by-pierluigi-paganini-international-edition.html",
+    "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including international press. Cyberattack on Austrian Foreign Ministry Exposes Diplomatic Staff Data Cairn AI Framework Used in Autonomous Zero-Day Exploitation [&#8230;]",
+    "pub_date": "2026-11-22T13:22:46+00:00",
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Security Affairs newsletter Round 605 by Pierluigi",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "10c5edc52ac45eef419619ff4915ec71",
+    "source": "CrowdStrike",
+    "title": "Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [
+      "CVE-2026-114938"
+    ],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Java4Shell (CVE-2026-114938): CrowdStrike Detects ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "c7ff4641e98433755df5c71122a82d1e",
+    "source": "CrowdStrike",
+    "title": "NGINX2Root: Identify and Protect with the CrowdStrike Falcon Platform",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-nginx2root-cve-2026-123007/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "NGINX2Root: Identify and Protect with the CrowdStr",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "cfda3dd76af844624ce481d8402ed0db",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Brings the Human Advantage to AI Detection and Response",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-brings-human-advantage-aidr/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Brings the Human Advantage to AI Detec",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "91ecd64b4f0bfab973e2fbf16bee7a32",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Is Building the Engine of the Agentic SOC with Falcon Next-Gen SIEM",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Is Building the Engine of the Agentic ",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "f70aec758943d4c5a98aa4a1d4e9c58e",
+    "source": "CrowdStrike",
+    "title": "Hidden in the Weights: Supply Chain Risk from Backdoored LoRA Models",
+    "link": "https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Hidden in the Weights: Supply Chain Risk from Back",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "28fd487a3976f18adcd81e3edd827a4d",
+    "source": "CrowdStrike",
+    "title": "Inside Falcon AI Gateway: One Control Point for AI Traffic",
+    "link": "https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "Inside Falcon AI Gateway: One Control Point for AI",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "2bd3a407ad3c1ae555b281a585e4697c",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Named a Leader in the 2026 IDC MarketScape for Worldwide Augmented Identity Security Solutions",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-idc-marketscape-worldwide-augmented-identity-security-solutions/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Named a Leader in the 2026 IDC MarketS",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d8ff8ad6ccad1074393142af38254a31",
+    "source": "CrowdStrike",
+    "title": "November 2026 Patch Tuesday: 1,252 CVEs Include One Zero-Day and 68 Critical Vulnerabilities",
+    "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-november-2026/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "November 2026 Patch Tuesday: 1,252 CVEs Include On",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "37dcb89d96a94b1c452d925e40c76d1e",
+    "source": "CrowdStrike",
+    "title": "How Adversaries Are Turning the Vulnerability Ecosystem Against Defenders",
+    "link": "https://www.crowdstrike.com/en-us/blog/adversaries-turn-vulnerability-ecosystem-against-defenders/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "How Adversaries Are Turning the Vulnerability Ecos",
+    "action_required": false,
+    "action_type": "none"
+  },
+  {
+    "uid": "d17cc8281f12b135153ce0aa8bf57af4",
+    "source": "CrowdStrike",
+    "title": "CrowdStrike Extends the Agentic SOC to Detect and Stop Agent Insider Threats",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/",
+    "summary": "",
+    "pub_date": null,
+    "cve_ids": [],
+    "cvss": null,
+    "kev": false,
+    "nvd_data": null,
+    "relevance": "low",
+    "category": "other",
+    "summary_ko": "CrowdStrike Extends the Agentic SOC to Detect and ",
+    "action_required": false,
+    "action_type": "none"
+  }
+]
